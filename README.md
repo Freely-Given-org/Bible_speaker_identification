@@ -8,7 +8,7 @@ The Bible contains a range of direct and indirect speech, as well as quotations,
 2. Printing scripts for assigning speakers for an audio or video production.
 3. Automatically linking to biographical details or other information in a Bible app.
 4. Advanced searching capabilities.
-5. Alginment of texts in multiple lanhguages for reference purposes, checking, and possible NLP applications.
+5. Alignment of texts in multiple lanhguages for reference purposes, checking, and possible NLP applications.
 
 We plan to use this repository firstly as a home for discussion, and then hopefully for the following:
 
