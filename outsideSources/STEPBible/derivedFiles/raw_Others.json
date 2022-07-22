@@ -1,0 +1,6716 @@
+{
+  "Abaddon": {
+    "ourID": "Abaddon",
+    "name": "Abaddon",
+    "unifiedNameTIPNR": "Abaddon@Rev.9.11",
+    "uStrongs": "G0003",
+    "description": "A male deity/angel at the time of the New Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Abaddon@Rev.9.11",
+        "dStrongs": "G0003",
+        "eStrongs": "G0003",
+        "sourceWord": "Ἀβαδδών",
+        "translations": {
+          "ESV": "Abaddon",
+          "NIV": "Abaddon",
+          "KJB": "Abaddon"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abaddon*|reference=Rev.9.11",
+        "individualVerseReferences": [
+          "Rev.9.11"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Apollyon|Abaddon@Rev.9.11",
+        "dStrongs": "G0623",
+        "eStrongs": "G0623",
+        "sourceWord": "Ἀπολλύων",
+        "translations": {
+          "ESV": "Apollyon",
+          "NIV": "Apollyon",
+          "KJB": "Apollyon"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Apollyon*|reference=Rev.9.11",
+        "individualVerseReferences": [
+          "Rev.9.11"
+        ]
+      }
+    ]
+  },
+  "Abaddon2": {
+    "ourID": "Abaddon2",
+    "name": "Abaddon",
+    "unifiedNameTIPNR": "Abaddon@Job.26.6",
+    "uStrongs": "H0011",
+    "description": "A non-physical place",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Abaddon@Job.26.6",
+        "dStrongs": "H0011",
+        "eStrongs": "H0011",
+        "sourceWord": "אֲבַדּוֹן",
+        "translations": {
+          "ESV": "Abaddon",
+          "NIV": "Abaddon",
+          "KJB": "Abaddon"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abaddon*|reference=Job.26.6;Job.28.22;Job.31.12;Psa.88.11;Pro.15.11",
+        "individualVerseReferences": [
+          "Job.26.6",
+          "Job.28.22",
+          "Job.31.12",
+          "Psa.88.11",
+          "Pro.15.11"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Abaddon@Job.26.6",
+        "dStrongs": "H0011",
+        "eStrongs": "H0011",
+        "sourceWord": "אֲבַדּוֹן",
+        "translations": {
+          "ESV": "Abaddon (=Qere. Ketiv= destruction)",
+          "NIV": "Abaddon (=Qere. Ketiv= destruction)",
+          "KJB": "Abaddon (=Qere. Ketiv= destruction)"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abaddon*|reference=Pro.27.20",
+        "individualVerseReferences": [
+          "Pro.27.20"
+        ]
+      }
+    ]
+  },
+  "Abib": {
+    "ourID": "Abib",
+    "name": "Abib",
+    "unifiedNameTIPNR": "Abib@Exo.13.4",
+    "uStrongs": "H0024",
+    "description": "Name of month #1",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Abib@Exo.13.4",
+        "dStrongs": "H0024",
+        "eStrongs": "H0024",
+        "sourceWord": "אָבִיב",
+        "translations": {
+          "ESV": "Abib",
+          "KJB": "Abib",
+          "NIV": "Aviv"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abib*|reference=Exo.13.4;Exo.23.15;Exo.34.18;Exo.34.18;Deu.16.1;Deu.16.1",
+        "individualVerseReferences": [
+          "Exo.13.4",
+          "Exo.23.15",
+          "Exo.34.18a",
+          "Exo.34.18b",
+          "Deu.16.1a",
+          "Deu.16.1b"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Nisan|Abib@Exo.13.4",
+        "dStrongs": "H5212",
+        "eStrongs": "H5212",
+        "sourceWord": "נִיסָן",
+        "translations": {
+          "ESV": "Nisan",
+          "NIV": "Nisan",
+          "KJB": "Nisan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nisan*|reference=Neh.2.1;Est.3.7",
+        "individualVerseReferences": [
+          "Neh.2.1",
+          "Est.3.7"
+        ]
+      }
+    ]
+  },
+  "Adar": {
+    "ourID": "Adar",
+    "name": "Adar",
+    "unifiedNameTIPNR": "Adar@Ezr.6.15",
+    "uStrongs": "H0143",
+    "description": "Name of month #12",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Adar@Ezr.6.15",
+        "dStrongs": "H0143",
+        "eStrongs": "H0143",
+        "sourceWord": "אֲדָר",
+        "translations": {
+          "ESV": "Adar",
+          "NIV": "Adar",
+          "KJB": "Adar"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Adar*|reference=Est.3.7;Est.3.13;Est.8.12;Est.9.1;Est.9.15;Est.9.17;Est.9.19;Est.9.21",
+        "individualVerseReferences": [
+          "Est.3.7",
+          "Est.3.13",
+          "Est.8.12",
+          "Est.9.1",
+          "Est.9.15",
+          "Est.9.17",
+          "Est.9.19",
+          "Est.9.21"
+        ]
+      },
+      {
+        "significance": "- Aramaic",
+        "uniqueNameTIPNR": "Adar@Ezr.6.15",
+        "dStrongs": "H0144",
+        "eStrongs": "H0144",
+        "sourceWord": "אֲדָר",
+        "translations": {
+          "ESV": "Adar",
+          "NIV": "Adar",
+          "KJB": "Adar"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Adar*|reference=Ezr.6.15",
+        "individualVerseReferences": [
+          "Ezr.6.15"
+        ]
+      }
+    ]
+  },
+  "Alamoth": {
+    "ourID": "Alamoth",
+    "name": "Alamoth",
+    "unifiedNameTIPNR": "Alamoth@1Ch.15.20",
+    "uStrongs": "H5961",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Alamoth@1Ch.15.20",
+        "dStrongs": "H5961",
+        "eStrongs": "H5961",
+        "sourceWord": "עֲלָמוֹת",
+        "translations": {
+          "ESV": "Alamoth",
+          "NIV": "Alamoth",
+          "KJB": "Alamoth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Alamoth*|reference=1Ch.15.20;Psa.9.1;Psa.46.1",
+        "individualVerseReferences": [
+          "1Ch.15.20",
+          "Psa.9.1",
+          "Psa.46.1"
+        ]
+      }
+    ]
+  },
+  "Al-taschith": {
+    "ourID": "Al-taschith",
+    "name": "Al-taschith",
+    "unifiedNameTIPNR": "Al-taschith@Psa.57.1",
+    "uStrongs": "H0516",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Do_Not_Destroy|Al-taschith@Psa.57.1",
+        "dStrongs": "H0516",
+        "eStrongs": "H0516",
+        "sourceWord": "אַל תַּשְׁחֵת",
+        "translations": {
+          "ESV": "Do Not Destroy",
+          "NIV": "Do Not Destroy",
+          "KJB": "Al-taschith"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Do*|reference=Psa.57.1;Psa.58.1;Psa.59.1;Psa.75.1",
+        "individualVerseReferences": [
+          "Psa.57.1",
+          "Psa.58.1",
+          "Psa.59.1",
+          "Psa.75.1"
+        ]
+      }
+    ]
+  },
+  "Amon": {
+    "ourID": "Amon",
+    "name": "Amon",
+    "unifiedNameTIPNR": "Amon@Jer.46.25",
+    "uStrongs": "H0528",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Amon@Jer.46.25",
+        "dStrongs": "H0528",
+        "eStrongs": "H0528",
+        "sourceWord": "אָמוֹן",
+        "translations": {
+          "ESV": "Amon",
+          "NIV": "Amon",
+          "KJB": "Amon"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Amon*|reference=Jer.46.25;Nah.3.8",
+        "individualVerseReferences": [
+          "Jer.46.25",
+          "Nam.3.8"
+        ]
+      }
+    ]
+  },
+  "Apharasthchite": {
+    "ourID": "Apharasthchite",
+    "name": "Apharasthchite",
+    "unifiedNameTIPNR": "Apharasthchite@Ezr.4.9",
+    "uStrongs": "H0671A",
+    "description": "Word sometimes translated as a title",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "governors|Apharsachite@Ezr.4.9",
+        "dStrongs": "H0671A",
+        "eStrongs": "H0671a",
+        "sourceWord": "אֲפָֽרְסְכָיֵא",
+        "translations": {
+          "ESV": "governors",
+          "KJB": "Apharsachites",
+          "NIV": "officials"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=governors*|reference=Ezr.5.6;Ezr.6.6",
+        "individualVerseReferences": [
+          "Ezr.5.6",
+          "Ezr.6.6"
+        ]
+      },
+      {
+        "significance": "- Aramaic",
+        "uniqueNameTIPNR": "govenors|Apharasthchite@Ezr.4.9",
+        "dStrongs": "H0671B",
+        "eStrongs": "H0671b",
+        "sourceWord": "אֲפָֽרְסַתְּכָיֵא",
+        "translations": {
+          "ESV": "govenors",
+          "KJB": "Apharasthchite",
+          "NIV": "officials"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=govenors*|reference=Ezr.4.9",
+        "individualVerseReferences": [
+          "Ezr.4.9"
+        ]
+      }
+    ]
+  },
+  "Aramaic": {
+    "ourID": "Aramaic",
+    "name": "Aramaic",
+    "unifiedNameTIPNR": "Aramaic@2Ki.18.26",
+    "uStrongs": "H0762",
+    "description": "A language",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Aramaic@2Ki.18.26",
+        "dStrongs": "H0762",
+        "eStrongs": "H0762",
+        "sourceWord": "אֲרָמִית",
+        "translations": {
+          "ESV": "Aramaic",
+          "KJB": "Syrian, Syraick",
+          "NIV": "Hebrew,"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Aramaic*|reference=2Ki.18.26;Ezr.4.7;Isa.36.11;Dan.2.4",
+        "individualVerseReferences": [
+          "2Ki.18.26",
+          "Ezr.4.7",
+          "Isa.36.11",
+          "Dan.2.4"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Hebrew|Aramaic@2Ki.18.26",
+        "dStrongs": "G1446",
+        "eStrongs": "G1446",
+        "sourceWord": "Ἑβραΐς",
+        "translations": {
+          "ESV": "Hebrew",
+          "KJB": "Hebrew",
+          "NIV": "Aramaic"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Hebrew*|reference=Act.21.40;Act.22.2;Act.26.14",
+        "individualVerseReferences": [
+          "Act.21.40",
+          "Act.22.2",
+          "Act.26.14"
+        ]
+      },
+      {
+        "significance": "- Form",
+        "uniqueNameTIPNR": "Hebrew|Aramaic@2Ki.18.26",
+        "dStrongs": "G1444",
+        "eStrongs": "G1444",
+        "sourceWord": "Ἑβραϊκός",
+        "translations": {
+          "KJB": "Hebrew",
+          "ESV": "",
+          "NIV": ""
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Aramaic*|reference=Luk.23.38;",
+        "individualVerseReferences": [
+          "Luk.23.38"
+        ]
+      },
+      {
+        "significance": "- Form",
+        "uniqueNameTIPNR": "Aramaic@2Ki.18.26",
+        "dStrongs": "G1447",
+        "eStrongs": "G1447",
+        "sourceWord": "Ἑβραϊστί",
+        "translations": {
+          "ESV": "Hebrew",
+          "NIV": "Hebrew",
+          "KJB": "Hebrew"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Aramaic*|reference=Rev.9.11;Rev.16.16",
+        "individualVerseReferences": [
+          "Rev.9.11",
+          "Rev.16.16"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Aramaic@2Ki.18.26",
+        "dStrongs": "G1447",
+        "eStrongs": "G1447",
+        "sourceWord": "Ἑβραϊστί",
+        "translations": {
+          "ESV": "Aramaic",
+          "NIV": "Aramaic",
+          "KJB": "Hebrew"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Aramaic*|reference=Joh.5.2;Joh.19.13;Joh.19.17;Joh.19.20;Joh.20.16",
+        "individualVerseReferences": [
+          "Jhn.5.2",
+          "Jhn.19.13",
+          "Jhn.19.17",
+          "Jhn.19.20",
+          "Jhn.20.16"
+        ]
+      }
+    ]
+  },
+  "Hebrew": {
+    "ourID": "Hebrew",
+    "name": "Hebrew",
+    "unifiedNameTIPNR": "Hebrew@2Ki.18.26",
+    "uStrongs": "H3066H",
+    "description": "A language",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Hebrew@2Ki.18.26",
+        "dStrongs": "H3066H",
+        "eStrongs": "H3066",
+        "sourceWord": "יְהוּדִית",
+        "translations": {
+          "ESV": "Judah",
+          "NIV": "Judah",
+          "KJB": "Judah"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Judah*|reference=2Ki.18.26;2Ch.32.18;Neh.13.24;Isa.36.11;Isa.36.13",
+        "individualVerseReferences": [
+          "2Ki.18.26",
+          "2Ch.32.18",
+          "Neh.13.24",
+          "Isa.36.11",
+          "Isa.36.13"
+        ]
+      }
+    ]
+  },
+  "Artemis": {
+    "ourID": "Artemis",
+    "name": "Artemis",
+    "unifiedNameTIPNR": "Artemis@Act.19.24",
+    "uStrongs": "G0735",
+    "description": "A female deity at the time of the New Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Artemis@Act.19.24",
+        "dStrongs": "G0735",
+        "eStrongs": "G0735",
+        "sourceWord": "Ἄρτεμις",
+        "translations": {
+          "ESV": "Artemis",
+          "NIV": "Artemis",
+          "KJB": "Diana"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Artemis*|reference=Act.19.24;Act.19.27;Act.19.28;Act.19.34;Act.19.35",
+        "individualVerseReferences": [
+          "Act.19.24",
+          "Act.19.27",
+          "Act.19.28",
+          "Act.19.34",
+          "Act.19.35"
+        ]
+      }
+    ]
+  },
+  "Asherah": {
+    "ourID": "Asherah",
+    "name": "Asherah",
+    "unifiedNameTIPNR": "Asherah@Exo.34.13",
+    "uStrongs": "H0842",
+    "description": "A female deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Asherah@Exo.34.13",
+        "dStrongs": "H0842",
+        "eStrongs": "H0842",
+        "sourceWord": "אֲשֵׁרָה",
+        "translations": {
+          "ESV": "Asherah",
+          "NIV": "Asherah",
+          "KJB": "Asherah"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Asherah*|reference=Deu.16.21;Jdg.6.25;Jdg.6.26;Jdg.6.28;Jdg.6.30;1Ki.15.13;1Ki.16.33;1Ki.18.19;2Ki.13.6;2Ki.17.16;2Ki.18.4;2Ki.21.3;2Ki.21.7;2Ki.23.4;2Ki.23.6;2Ki.23.7;2Ki.23.15;2Ch.15.16;Mic.5.14",
+        "individualVerseReferences": [
+          "Deu.16.21",
+          "Jdg.6.25",
+          "Jdg.6.26",
+          "Jdg.6.28",
+          "Jdg.6.30",
+          "1Ki.15.13",
+          "1Ki.16.33",
+          "1Ki.18.19",
+          "2Ki.13.6",
+          "2Ki.17.16",
+          "2Ki.18.4",
+          "2Ki.21.3",
+          "2Ki.21.7",
+          "2Ki.23.4",
+          "2Ki.23.6",
+          "2Ki.23.7",
+          "2Ki.23.15",
+          "2Ch.15.16",
+          "Mic.5.14"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Asherah@Exo.34.13",
+        "dStrongs": "H0842",
+        "eStrongs": "H0842",
+        "sourceWord": "אֲשֵׁרָה",
+        "translations": {
+          "ESV": "Asherim",
+          "NIV": "Asherim",
+          "KJB": "Asherim"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Asherim*|reference=Exo.34.13;Deu.7.5;Deu.12.3;1Ki.14.15;1Ki.14.23;2Ki.17.10;2Ki.23.14;2Ch.14.3;2Ch.17.6;2Ch.24.18;2Ch.31.1;2Ch.33.19;2Ch.34.3;2Ch.34.4;2Ch.34.7;Isa.17.8;Isa.27.9;Jer.17.2",
+        "individualVerseReferences": [
+          "Exo.34.13",
+          "Deu.7.5",
+          "Deu.12.3",
+          "1Ki.14.15",
+          "1Ki.14.23",
+          "2Ki.17.10",
+          "2Ki.23.14",
+          "2Ch.14.3",
+          "2Ch.17.6",
+          "2Ch.24.18",
+          "2Ch.31.1",
+          "2Ch.33.19",
+          "2Ch.34.3",
+          "2Ch.34.4",
+          "2Ch.34.7",
+          "Isa.17.8",
+          "Isa.27.9",
+          "Jer.17.2"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Asherah@Exo.34.13",
+        "dStrongs": "H0842",
+        "eStrongs": "H0842",
+        "sourceWord": "אֲשֵׁרָה",
+        "translations": {
+          "ESV": "Asheroth",
+          "NIV": "Asheroth",
+          "KJB": "Asheroth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Asheroth*|reference=Jdg.3.7;2Ch.19.3;2Ch.33.3",
+        "individualVerseReferences": [
+          "Jdg.3.7",
+          "2Ch.19.3",
+          "2Ch.33.3"
+        ]
+      }
+    ]
+  },
+  "Ashima": {
+    "ourID": "Ashima",
+    "name": "Ashima",
+    "unifiedNameTIPNR": "Ashima@2Ki.17.30",
+    "uStrongs": "H0807",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Ashima@2Ki.17.30",
+        "dStrongs": "H0807",
+        "eStrongs": "H0807",
+        "sourceWord": "אֲשִׁימָא",
+        "translations": {
+          "ESV": "Ashima",
+          "NIV": "Ashima",
+          "KJB": "Ashima"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Ashima*|reference=2Ki.17.30",
+        "individualVerseReferences": [
+          "2Ki.17.30"
+        ]
+      }
+    ]
+  },
+  "Ashtaroth": {
+    "ourID": "Ashtaroth",
+    "name": "Ashtaroth",
+    "unifiedNameTIPNR": "Ashtaroth@Jdg.2.13",
+    "uStrongs": "H6252",
+    "description": "Female deity in the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Ashtaroth@Jdg.2.13",
+        "dStrongs": "H6252",
+        "eStrongs": "H6252",
+        "sourceWord": "עַשְׁתָּרוֹת",
+        "translations": {
+          "ESV": "Ashtaroth",
+          "NIV": "Ashtaroth",
+          "KJB": "Ashtaroth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Ashtaroth*|reference=Jdg.2.13;Jdg.10.6;1Sa.7.3;1Sa.7.4;1Sa.12.10;1Sa.31.10",
+        "individualVerseReferences": [
+          "Jdg.2.13",
+          "Jdg.10.6",
+          "1Sa.7.3",
+          "1Sa.7.4",
+          "1Sa.12.10",
+          "1Sa.31.10"
+        ]
+      }
+    ]
+  },
+  "Ashtoreth": {
+    "ourID": "Ashtoreth",
+    "name": "Ashtoreth",
+    "unifiedNameTIPNR": "Ashtoreth@1Ki.11.5",
+    "uStrongs": "H6253",
+    "description": "A female deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Ashtoreth@1Ki.11.5",
+        "dStrongs": "H6253",
+        "eStrongs": "H6253",
+        "sourceWord": "עַשְׁתֹּ֫רֶת",
+        "translations": {
+          "ESV": "Ashtoreth",
+          "NIV": "Ashtoreth",
+          "KJB": "Ashtoreth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Ashtoreth*|reference=1Ki.11.5;1Ki.11.33;2Ki.23.13",
+        "individualVerseReferences": [
+          "1Ki.11.5",
+          "1Ki.11.33",
+          "2Ki.23.13"
+        ]
+      }
+    ]
+  },
+  "Asiarch": {
+    "ourID": "Asiarch",
+    "name": "Asiarch",
+    "unifiedNameTIPNR": "Asiarch@Act.19.31",
+    "uStrongs": "G0775",
+    "description": "Title of a leader",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Asiarch@Act.19.31",
+        "dStrongs": "G0775",
+        "eStrongs": "G0775",
+        "sourceWord": "Ἀσιάρχης",
+        "translations": {
+          "ESV": "Asiarch",
+          "NIV": "Asiarch",
+          "KJB": "Asiarch"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Asiarch*|reference=Act.19.31",
+        "individualVerseReferences": [
+          "Act.19.31"
+        ]
+      }
+    ]
+  },
+  "Azazel": {
+    "ourID": "Azazel",
+    "name": "Azazel",
+    "unifiedNameTIPNR": "Azazel@Lev.16.8",
+    "uStrongs": "H5799",
+    "description": "A male deity/angel at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Azazel@Lev.16.8",
+        "dStrongs": "H5799",
+        "eStrongs": "H5799",
+        "sourceWord": "עֲזָאזֵל",
+        "translations": {
+          "ESV": "Azazel",
+          "NIV": "Azazel",
+          "KJB": "Azazel"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Azazel*|reference=Lev.16.8;Lev.16.10;Lev.16.10;Lev.16.26",
+        "individualVerseReferences": [
+          "Lev.16.8",
+          "Lev.16.10a",
+          "Lev.16.10b",
+          "Lev.16.26"
+        ]
+      }
+    ]
+  },
+  "Baal": {
+    "ourID": "Baal",
+    "name": "Baal",
+    "unifiedNameTIPNR": "Baal@Num.22.41",
+    "uStrongs": "H1168A",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Baal@Num.22.41",
+        "dStrongs": "H1168A",
+        "eStrongs": "H1168a",
+        "sourceWord": "בַּעַל",
+        "translations": {
+          "ESV": "Baal",
+          "NIV": "Baal",
+          "KJB": "Baal"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Baal*|reference=Jdg.2.11;Jdg.2.13;Jdg.3.7;Jdg.6.25;Jdg.6.28;Jdg.6.30;Jdg.6.31;Jdg.6.32;Jdg.8.33;Jdg.10.6;Jdg.10.10;1Sa.7.4;1Sa.12.10;1Ki.16.31;1Ki.16.32;1Ki.16.32;1Ki.18.18;1Ki.18.19;1Ki.18.21;1Ki.18.22;1Ki.18.25;1Ki.18.26;1Ki.18.26;1Ki.18.40;1Ki.19.18;1Ki.22.53;2Ki.3.2;2Ki.10.18;2Ki.10.19;2Ki.10.19;2Ki.10.19;2Ki.10.20;2Ki.10.21;2Ki.10.21;2Ki.10.21;2Ki.10.22;2Ki.10.23;2Ki.10.23;2Ki.10.23;2Ki.10.25",
+        "individualVerseReferences": [
+          "Jdg.2.11",
+          "Jdg.2.13",
+          "Jdg.3.7",
+          "Jdg.6.25",
+          "Jdg.6.28",
+          "Jdg.6.30",
+          "Jdg.6.31",
+          "Jdg.6.32",
+          "Jdg.8.33",
+          "Jdg.10.6",
+          "Jdg.10.10",
+          "1Sa.7.4",
+          "1Sa.12.10",
+          "1Ki.16.31",
+          "1Ki.16.32a",
+          "1Ki.16.32b",
+          "1Ki.18.18",
+          "1Ki.18.19",
+          "1Ki.18.21",
+          "1Ki.18.22",
+          "1Ki.18.25",
+          "1Ki.18.26a",
+          "1Ki.18.26b",
+          "1Ki.18.40",
+          "1Ki.19.18",
+          "1Ki.22.53",
+          "2Ki.3.2",
+          "2Ki.10.18",
+          "2Ki.10.19a",
+          "2Ki.10.19b",
+          "2Ki.10.19c",
+          "2Ki.10.20",
+          "2Ki.10.21a",
+          "2Ki.10.21b",
+          "2Ki.10.21c",
+          "2Ki.10.22",
+          "2Ki.10.23a",
+          "2Ki.10.23b",
+          "2Ki.10.23c",
+          "2Ki.10.25",
+          "2Ki.10.26",
+          "2Ki.10.27a",
+          "2Ki.10.27b",
+          "2Ki.10.28",
+          "2Ki.11.18a",
+          "2Ki.11.18b",
+          "2Ki.17.16",
+          "2Ki.21.3",
+          "2Ki.23.4",
+          "2Ki.23.5",
+          "2Ch.17.3",
+          "2Ch.23.17a",
+          "2Ch.23.17b",
+          "2Ch.24.7",
+          "2Ch.28.2",
+          "2Ch.33.3",
+          "2Ch.34.4",
+          "Jer.2.8",
+          "Jer.2.23",
+          "Jer.7.9",
+          "Jer.9.14",
+          "Jer.11.13",
+          "Jer.11.17",
+          "Jer.12.16",
+          "Jer.19.5a",
+          "Jer.19.5b",
+          "Jer.23.13",
+          "Jer.23.27",
+          "Jer.32.29",
+          "Jer.32.35",
+          "Hos.2.8",
+          "Hos.2.13",
+          "Hos.2.17",
+          "Hos.11.2",
+          "Hos.13.1",
+          "Zep.1.4"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Peor|Baal@Num.22.41",
+        "dStrongs": "H1187",
+        "eStrongs": "H1187",
+        "sourceWord": "בַּ֫עַל פְּעוֹר",
+        "translations": {
+          "ESV": "Baal of Peor",
+          "KJB": "Baal , Baal-peor",
+          "NIV": "Baal of Peor"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Baal*|reference=Num.25.3;Num.25.5;Psa.106.28",
+        "individualVerseReferences": [
+          "Num.25.3",
+          "Num.25.5",
+          "Psa.106.28"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Peor|Baal@Num.22.41",
+        "dStrongs": "H1187",
+        "eStrongs": "H1187",
+        "sourceWord": "בַּ֫עַל פְּעוֹר",
+        "translations": {
+          "ESV": "Baal-peor",
+          "NIV": "Baal-peor",
+          "KJB": "Baal-peor"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Baal-peor*|reference=Deu.4.3;Hos.9.10",
+        "individualVerseReferences": [
+          "Deu.4.3",
+          "Hos.9.10"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Peor|Baal@Num.22.41",
+        "dStrongs": "H1187",
+        "eStrongs": "H1187",
+        "sourceWord": "בַּ֫עַל פְּעוֹר",
+        "translations": {
+          "ESV": "Baal of Peor",
+          "NIV": "Baal of Peor",
+          "KJB": "Peor"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Peor*|reference=Deu.4.3",
+        "individualVerseReferences": [
+          "Deu.4.3"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Baal@Num.22.41",
+        "dStrongs": "G0896",
+        "eStrongs": "G0896",
+        "sourceWord": "Βάαλ",
+        "translations": {
+          "ESV": "Baal",
+          "NIV": "Baal",
+          "KJB": "Baal"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Baal*|reference=Rom.11.4",
+        "individualVerseReferences": [
+          "Rom.11.4"
+        ]
+      }
+    ]
+  },
+  "Baal-berith": {
+    "ourID": "Baal-berith",
+    "name": "Baal-berith",
+    "unifiedNameTIPNR": "Baal-berith@Jdg.8.33",
+    "uStrongs": "H1170",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Baal-berith@Jdg.8.33",
+        "dStrongs": "H1170",
+        "eStrongs": "H1170",
+        "sourceWord": "בַּעַל בְּרִית",
+        "translations": {
+          "ESV": "Baal-berith",
+          "NIV": "Baal-berith",
+          "KJB": "Baal-berith"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Baal-berith*|reference=Jdg.8.33;Jdg.9.4",
+        "individualVerseReferences": [
+          "Jdg.8.33",
+          "Jdg.9.4"
+        ]
+      }
+    ]
+  },
+  "Bear": {
+    "ourID": "Bear",
+    "name": "Bear",
+    "unifiedNameTIPNR": "Bear@Job.9.9",
+    "uStrongs": "H5906",
+    "description": "A star or constellation",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Bear@Job.9.9",
+        "dStrongs": "H5906",
+        "eStrongs": "H5906",
+        "sourceWord": "עַ֫יִשׁ",
+        "translations": {
+          "ESV": "Bear",
+          "NIV": "Bear",
+          "KJB": "Arcturus"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Bear*|reference=Job.9.9;Job.38.32",
+        "individualVerseReferences": [
+          "Job.9.9",
+          "Job.38.32"
+        ]
+      }
+    ]
+  },
+  "Behemoth": {
+    "ourID": "Behemoth",
+    "name": "Behemoth",
+    "unifiedNameTIPNR": "Behemoth@Job.40.15",
+    "uStrongs": "H0930",
+    "description": "A monster",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Behemoth@Job.40.15",
+        "dStrongs": "H0930",
+        "eStrongs": "H0930",
+        "sourceWord": "בְּהֵמוֹת",
+        "translations": {
+          "ESV": "Behemoth",
+          "NIV": "Behemoth",
+          "KJB": "Behemoth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Behemoth*|reference=Job.40.15",
+        "individualVerseReferences": [
+          "Job.40.15"
+        ]
+      }
+    ]
+  },
+  "Bel": {
+    "ourID": "Bel",
+    "name": "Bel",
+    "unifiedNameTIPNR": "Bel@Isa.46.1",
+    "uStrongs": "H1078",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Bel@Isa.46.1",
+        "dStrongs": "H1078",
+        "eStrongs": "H1078",
+        "sourceWord": "בֵּל",
+        "translations": {
+          "ESV": "Bel",
+          "NIV": "Bel",
+          "KJB": "Bel"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Bel*|reference=Isa.46.1;Jer.50.2;Jer.51.44",
+        "individualVerseReferences": [
+          "Isa.46.1",
+          "Jer.50.2",
+          "Jer.51.44"
+        ]
+      }
+    ]
+  },
+  "Boaz": {
+    "ourID": "Boaz",
+    "name": "Boaz",
+    "unifiedNameTIPNR": "Boaz@1Ki.7.21",
+    "uStrongs": "H1162H",
+    "description": "A pillar in temple",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Boaz@1Ki.7.21",
+        "dStrongs": "H1162H",
+        "eStrongs": "H1162",
+        "sourceWord": "בֹּ֫עַז",
+        "translations": {
+          "ESV": "Boaz",
+          "NIV": "Boaz",
+          "KJB": "Boaz"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Boaz*|reference=1Ki.7.21;2Ch.3.17",
+        "individualVerseReferences": [
+          "1Ki.7.21",
+          "2Ch.3.17"
+        ]
+      }
+    ]
+  },
+  "Booths_Festival": {
+    "ourID": "Booths_Festival",
+    "name": "Booths_Festival",
+    "unifiedNameTIPNR": "Booths_Festival@Jhn.7.2",
+    "uStrongs": "G4634",
+    "description": "Name of festival",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Booths_Festival@Jhn.7.2",
+        "dStrongs": "G4634",
+        "eStrongs": "G4634",
+        "sourceWord": "σκηνοπηγία",
+        "translations": {
+          "ESV": "Feast|Festival of Booths",
+          "KJB": "Tabernacles",
+          "NIV": "Tabernacles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Feast|Festival*|reference=Joh.7.2",
+        "individualVerseReferences": [
+          "Jhn.7.2"
+        ]
+      }
+    ]
+  },
+  "Bul": {
+    "ourID": "Bul",
+    "name": "Bul",
+    "unifiedNameTIPNR": "Bul@1Ki.6.38",
+    "uStrongs": "H0945",
+    "description": "Name of month #8",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Bul@1Ki.6.38",
+        "dStrongs": "H0945",
+        "eStrongs": "H0945",
+        "sourceWord": "בּוּל",
+        "translations": {
+          "ESV": "Bul",
+          "NIV": "Bul",
+          "KJB": "Bul"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Bul*|reference=1Ki.6.38",
+        "individualVerseReferences": [
+          "1Ki.6.38"
+        ]
+      }
+    ]
+  },
+  "Candace": {
+    "ourID": "Candace",
+    "name": "Candace",
+    "unifiedNameTIPNR": "Candace@Act.8.27",
+    "uStrongs": "G2582",
+    "description": "Title of a leader",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Candace@Act.8.27",
+        "dStrongs": "G2582",
+        "eStrongs": "G2582",
+        "sourceWord": "Κανδάκη",
+        "translations": {
+          "ESV": "Candace",
+          "NIV": "Candace",
+          "KJB": "Candace"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Candace*|reference=Act.8.27",
+        "individualVerseReferences": [
+          "Act.8.27"
+        ]
+      }
+    ]
+  },
+  "Chemosh": {
+    "ourID": "Chemosh",
+    "name": "Chemosh",
+    "unifiedNameTIPNR": "Chemosh@Num.21.29",
+    "uStrongs": "H3645",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Chemosh@Num.21.29",
+        "dStrongs": "H3645",
+        "eStrongs": "H3645",
+        "sourceWord": "כְּמוֹשׁ",
+        "translations": {
+          "ESV": "Chemosh",
+          "NIV": "Chemosh",
+          "KJB": "Chemosh"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Chemosh*|reference=Num.21.29;Jdg.11.24;1Ki.11.7;1Ki.11.33;2Ki.23.13;Jer.48.7;Jer.48.13;Jer.48.46",
+        "individualVerseReferences": [
+          "Num.21.29",
+          "Jdg.11.24",
+          "1Ki.11.7",
+          "1Ki.11.33",
+          "2Ki.23.13",
+          "Jer.48.7",
+          "Jer.48.13",
+          "Jer.48.46"
+        ]
+      }
+    ]
+  },
+  "Chislev": {
+    "ourID": "Chislev",
+    "name": "Chislev",
+    "unifiedNameTIPNR": "Chislev@Neh.1.1",
+    "uStrongs": "H3691",
+    "description": "Name of month #9",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Chislev@Neh.1.1",
+        "dStrongs": "H3691",
+        "eStrongs": "H3691",
+        "sourceWord": "כִּסְלֵו",
+        "translations": {
+          "ESV": "Chislev",
+          "NIV": "Chislev",
+          "KJB": "Chislev"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Chislev*|reference=Neh.1.1;Zec.7.1",
+        "individualVerseReferences": [
+          "Neh.1.1",
+          "Zec.7.1"
+        ]
+      }
+    ]
+  },
+  "Chronicles": {
+    "ourID": "Chronicles",
+    "name": "Chronicles",
+    "unifiedNameTIPNR": "Chronicles@1Ki.14.19",
+    "uStrongs": "H1697O",
+    "description": "Name of a book",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Chronicles@1Ki.14.19",
+        "dStrongs": "H1697O",
+        "eStrongs": "H1697",
+        "sourceWord": "דָּבָר",
+        "translations": {
+          "ESV": "Chronicles",
+          "NIV": "Chronicles",
+          "KJB": "Chronicles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Chronicles*|reference=1Ki.14.19;1Ki.14.29;1Ki.15.7;1Ki.15.23;1Ki.15.31;1Ki.16.5;1Ki.16.14;1Ki.16.20;1Ki.16.27;1Ki.22.39;1Ki.22.45;2Ki.1.18;2Ki.8.23;2Ki.10.34;2Ki.12.19;2Ki.13.8;2Ki.13.12;2Ki.14.15;2Ki.14.18;2Ki.14.28;2Ki.15.6;2Ki.15.11;2Ki.15.15;2Ki.15.21;2Ki.15.26;2Ki.15.31;2Ki.15.36;2Ki.16.19;2Ki.20.20;2Ki.21.17;2Ki.21.25;2Ki.23.28;2Ki.24.5;1Ch.29.29;1Ch.29.29;1Ch.29.29;2Ch.33.18;2Ch.33.19;Neh.12.23;Est.10.2",
+        "individualVerseReferences": [
+          "1Ki.14.19",
+          "1Ki.14.29",
+          "1Ki.15.7",
+          "1Ki.15.23",
+          "1Ki.15.31",
+          "1Ki.16.5",
+          "1Ki.16.14",
+          "1Ki.16.20",
+          "1Ki.16.27",
+          "1Ki.22.39",
+          "1Ki.22.45",
+          "2Ki.1.18",
+          "2Ki.8.23",
+          "2Ki.10.34",
+          "2Ki.12.19",
+          "2Ki.13.8",
+          "2Ki.13.12",
+          "2Ki.14.15",
+          "2Ki.14.18",
+          "2Ki.14.28",
+          "2Ki.15.6",
+          "2Ki.15.11",
+          "2Ki.15.15",
+          "2Ki.15.21",
+          "2Ki.15.26",
+          "2Ki.15.31",
+          "2Ki.15.36",
+          "2Ki.16.19",
+          "2Ki.20.20",
+          "2Ki.21.17",
+          "2Ki.21.25",
+          "2Ki.23.28",
+          "2Ki.24.5",
+          "1Ch.29.29a",
+          "1Ch.29.29b",
+          "1Ch.29.29c",
+          "2Ch.33.18",
+          "2Ch.33.19",
+          "Neh.12.23",
+          "Est.10.2"
+        ]
+      }
+    ]
+  },
+  "Dagon": {
+    "ourID": "Dagon",
+    "name": "Dagon",
+    "unifiedNameTIPNR": "Dagon@Jdg.16.23",
+    "uStrongs": "H1712",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Dagon@Jdg.16.23",
+        "dStrongs": "H1712",
+        "eStrongs": "H1712",
+        "sourceWord": "דָּגוֹן",
+        "translations": {
+          "ESV": "Dagon",
+          "NIV": "Dagon",
+          "KJB": "Dagon"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Dagon*|reference=Jdg.16.23;1Sa.5.2;1Sa.5.2;1Sa.5.3;1Sa.5.3;1Sa.5.4;1Sa.5.4;1Sa.5.4;1Sa.5.5;1Sa.5.5;1Sa.5.5;1Sa.5.7;1Ch.10.10",
+        "individualVerseReferences": [
+          "Jdg.16.23",
+          "1Sa.5.2a",
+          "1Sa.5.2b",
+          "1Sa.5.3a",
+          "1Sa.5.3b",
+          "1Sa.5.4a",
+          "1Sa.5.4b",
+          "1Sa.5.4c",
+          "1Sa.5.5a",
+          "1Sa.5.5b",
+          "1Sa.5.5c",
+          "1Sa.5.7",
+          "1Ch.10.10"
+        ]
+      }
+    ]
+  },
+  "Dedication_Festival": {
+    "ourID": "Dedication_Festival",
+    "name": "Dedication_Festival",
+    "unifiedNameTIPNR": "Dedication_Festival@Jhn.10.22",
+    "uStrongs": "G1456",
+    "description": "Name of festival",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Dedication_Festival@Jhn.10.22",
+        "dStrongs": "G1456",
+        "eStrongs": "G1456",
+        "sourceWord": "ἐγκαίνια",
+        "translations": {
+          "ESV": "Feast|Festival of Dedication",
+          "NIV": "Feast|Festival of Dedication",
+          "KJB": "Feast|Festival of Dedication"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Feast|Festival*|reference=Joh.10.22",
+        "individualVerseReferences": [
+          "Jhn.10.22"
+        ]
+      }
+    ]
+  },
+  "Destiny": {
+    "ourID": "Destiny",
+    "name": "Destiny",
+    "unifiedNameTIPNR": "Destiny@Isa.65.11",
+    "uStrongs": "H4507",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Destiny@Isa.65.11",
+        "dStrongs": "H4507",
+        "eStrongs": "H4507",
+        "sourceWord": "מְנִי",
+        "translations": {
+          "ESV": "Destiny",
+          "NIV": "Destiny",
+          "KJB": "troop"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Destiny*|reference=Isa.65.11",
+        "individualVerseReferences": [
+          "Isa.65.11"
+        ]
+      }
+    ]
+  },
+  "El-berith": {
+    "ourID": "El-berith",
+    "name": "El-berith",
+    "unifiedNameTIPNR": "El-berith@Jdg.9.46",
+    "uStrongs": "H0410H",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Name Combined",
+        "uniqueNameTIPNR": "El-berith@Jdg.9.46",
+        "dStrongs": [
+          "H0410H",
+          "H1286"
+        ],
+        "eStrongs": [
+          "H0410",
+          "H1286"
+        ],
+        "sourceWord": [
+          "אֵל",
+          "בְּרִית"
+        ],
+        "translations": {
+          "ESV": "El/-berith",
+          "NIV": "El/-berith",
+          "KJB": "god Berith"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=El-berith*|reference=Jdg.9.46",
+        "individualVerseReferences": [
+          "Jdg.9.46"
+        ]
+      }
+    ]
+  },
+  "Elul": {
+    "ourID": "Elul",
+    "name": "Elul",
+    "unifiedNameTIPNR": "Elul@Neh.6.15",
+    "uStrongs": "H0435",
+    "description": "Name of month #6",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Elul@Neh.6.15",
+        "dStrongs": "H0435",
+        "eStrongs": "H0435",
+        "sourceWord": "אֱלוּל",
+        "translations": {
+          "ESV": "Elul",
+          "NIV": "Elul",
+          "KJB": "Elul"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=reference=Neh.6.15",
+        "individualVerseReferences": [
+          "Neh.6.15"
+        ]
+      }
+    ]
+  },
+  "Epicurean": {
+    "ourID": "Epicurean",
+    "name": "Epicurean",
+    "unifiedNameTIPNR": "Epicurean@Act.17.18",
+    "uStrongs": "G1946",
+    "description": "A group in New Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Epicurean@Act.17.18",
+        "dStrongs": "G1946",
+        "eStrongs": "G1946",
+        "sourceWord": "Ἐπικούρειος",
+        "translations": {
+          "ESV": "Epicurean",
+          "NIV": "Epicurean",
+          "KJB": "Epicurean"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Epicurean*|reference=Act.17.18",
+        "individualVerseReferences": [
+          "Act.17.18"
+        ]
+      }
+    ]
+  },
+  "Ethanim": {
+    "ourID": "Ethanim",
+    "name": "Ethanim",
+    "unifiedNameTIPNR": "Ethanim@1Ki.8.2",
+    "uStrongs": "H0388",
+    "description": "Name of month #7",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Ethanim@1Ki.8.2",
+        "dStrongs": "H0388",
+        "eStrongs": "H0388",
+        "sourceWord": "אֵיתָנִים",
+        "translations": {
+          "ESV": "Ethanim",
+          "NIV": "Ethanim",
+          "KJB": "Ethanim"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Ethanim*|reference=1Ki.8.2",
+        "individualVerseReferences": [
+          "1Ki.8.2"
+        ]
+      }
+    ]
+  },
+  "Fortune": {
+    "ourID": "Fortune",
+    "name": "Fortune",
+    "unifiedNameTIPNR": "Fortune@Isa.65.11",
+    "uStrongs": "H1408",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Fortune@Isa.65.11",
+        "dStrongs": "H1408",
+        "eStrongs": "H1408",
+        "sourceWord": "גַּד",
+        "translations": {
+          "ESV": "Fortune",
+          "NIV": "Fortune",
+          "KJB": "troop"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Fortune*|reference=Isa.65.11",
+        "individualVerseReferences": [
+          "Isa.65.11"
+        ]
+      }
+    ]
+  },
+  "Freedmen": {
+    "ourID": "Freedmen",
+    "name": "Freedmen",
+    "unifiedNameTIPNR": "Freedmen@Act.6.9",
+    "uStrongs": "G3032",
+    "description": "A group in New Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Freedmen@Act.6.9",
+        "dStrongs": "G3032",
+        "eStrongs": "G3032",
+        "sourceWord": "Λιβερτῖνος",
+        "translations": {
+          "ESV": "Freedmen",
+          "NIV": "Freedmen",
+          "KJB": "Freedmen"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Freedmen*|reference=Act.6.9",
+        "individualVerseReferences": [
+          "Act.6.9"
+        ]
+      }
+    ]
+  },
+  "Gabriel": {
+    "ourID": "Gabriel",
+    "name": "Gabriel",
+    "unifiedNameTIPNR": "Gabriel@Dan.8.16",
+    "uStrongs": "H1403",
+    "description": "An angel at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Gabriel@Dan.8.16",
+        "dStrongs": "H1403",
+        "eStrongs": "H1403",
+        "sourceWord": "גַּבְרִיאֵל",
+        "translations": {
+          "ESV": "Gabriel",
+          "NIV": "Gabriel",
+          "KJB": "Gabriel"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gabriel*|reference=Dan.8.16;Dan.9.21",
+        "individualVerseReferences": [
+          "Dan.8.16",
+          "Dan.9.21"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Gabriel@Dan.8.16",
+        "dStrongs": "G1043",
+        "eStrongs": "G1043",
+        "sourceWord": "Γαβριήλ",
+        "translations": {
+          "ESV": "Gabriel",
+          "NIV": "Gabriel",
+          "KJB": "Gabriel"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gabriel*|reference=Luk.1.19;Luk.1.26",
+        "individualVerseReferences": [
+          "Luk.1.19",
+          "Luk.1.26"
+        ]
+      }
+    ]
+  },
+  "Gentile": {
+    "ourID": "Gentile",
+    "name": "Gentile",
+    "unifiedNameTIPNR": "Gentile@Gen.10.5",
+    "uStrongs": "H1471G",
+    "description": "People descended from non-Jewish nations",
+    "names": [
+      {
+        "significance": "- Group",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "H1471G",
+        "eStrongs": "H1471a",
+        "sourceWord": "גּוֹי",
+        "translations": {
+          "ESV": "\"nations\"",
+          "NIV": "\"nations\"",
+          "KJB": "Gentiles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Isa.11.10;Isa.42.1;Isa.49.22;Isa.54.3;Isa.60.3;Isa.60.5;Isa.60.11;Isa.60.16;Isa.61.6;Isa.61.9;Isa.62.2;Isa.66.12;Isa.66.19;Jer.4.7;Jer.14.22;Jer.16.19;Jer.46.1;Lam.2.9;Eze.4.13;Hos.8.8;Joe.3.9;Mic.5.8;Zec.1.21",
+        "individualVerseReferences": [
+          "Isa.11.10",
+          "Isa.42.1",
+          "Isa.49.22",
+          "Isa.54.3",
+          "Isa.60.3",
+          "Isa.60.5",
+          "Isa.60.11",
+          "Isa.60.16",
+          "Isa.61.6",
+          "Isa.61.9",
+          "Isa.62.2",
+          "Isa.66.12",
+          "Isa.66.19b",
+          "Jer.4.7",
+          "Jer.14.22",
+          "Jer.16.19",
+          "Jer.46.1",
+          "Lam.2.9",
+          "Ezk.4.13",
+          "Hos.8.8",
+          "Jol.3.9",
+          "Mic.5.8",
+          "Zec.1.21",
+          "Mal.1.11"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "H1471G",
+        "eStrongs": "H1471a",
+        "sourceWord": "גּוֹי",
+        "translations": {
+          "ESV": "\"peoples\"",
+          "NIV": "\"peoples\"",
+          "KJB": "Gentiles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Gen.10.5",
+        "individualVerseReferences": [
+          "Gen.10.5"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "H1471G",
+        "eStrongs": "H1471a",
+        "sourceWord": "גּוֹי",
+        "translations": {
+          "NIV": "Gentiles",
+          "ESV": "\"peoples\"",
+          "KJB": "\"heathen\""
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Ezr.6.21;Neh.5.8",
+        "individualVerseReferences": [
+          "Ezr.6.21",
+          "Neh.5.8"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "H1471G",
+        "eStrongs": "H1471a",
+        "sourceWord": "גּוֹי",
+        "translations": {
+          "NIV": "Gentiles",
+          "KJB": "Gentiles",
+          "ESV": "\"nations\""
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Isa.42.6;Isa.49.6",
+        "individualVerseReferences": [
+          "Isa.42.6",
+          "Isa.49.6"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "Gentiles",
+          "NIV": "Gentiles",
+          "KJB": "Gentiles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Mat.4.15;Mat.10.5;Mat.10.18;Mat.20.19;Mar.10.33;Mar.10.42;Luk.2.32;Luk.18.32;Luk.21.24;Luk.21.24;Luk.22.25;Act.4.27;Act.9.15;Act.10.45;Act.11.1;Act.11.18;Act.13.46;Act.13.47;Act.13.48;Act.14.2;Act.14.5;Act.14.27;Act.15.3;Act.15.7;Act.15.12;Act.15.14;Act.15.17;Act.15.19;Act.15.23;Act.18.6;Act.21.11;Act.21.19;Act.21.21;Act.21.25;Act.22.21;Act.26.17;Act.26.20;Act.26.23;Act.28.28;Rom.1.13",
+        "individualVerseReferences": [
+          "Mat.4.15",
+          "Mat.10.5",
+          "Mat.10.18",
+          "Mat.20.19",
+          "Mrk.10.33",
+          "Mrk.10.42",
+          "Luk.2.32",
+          "Luk.18.32",
+          "Luk.21.24a",
+          "Luk.21.24b",
+          "Luk.22.25",
+          "Act.4.27",
+          "Act.9.15",
+          "Act.10.45",
+          "Act.11.1",
+          "Act.11.18",
+          "Act.13.46",
+          "Act.13.47",
+          "Act.13.48",
+          "Act.14.2",
+          "Act.14.5",
+          "Act.14.27",
+          "Act.15.3",
+          "Act.15.7",
+          "Act.15.12",
+          "Act.15.14",
+          "Act.15.17",
+          "Act.15.19",
+          "Act.15.23",
+          "Act.18.6",
+          "Act.21.11",
+          "Act.21.19",
+          "Act.21.21",
+          "Act.21.25",
+          "Act.22.21",
+          "Act.26.17",
+          "Act.26.20",
+          "Act.26.23",
+          "Act.28.28",
+          "Rom.1.13",
+          "Rom.2.4",
+          "Rom.2.24",
+          "Rom.3.29a",
+          "Rom.3.29b",
+          "Rom.9.24",
+          "Rom.11.11",
+          "Rom.11.12",
+          "Rom.11.13a",
+          "Rom.11.13b",
+          "Rom.11.25",
+          "Rom.15.9a",
+          "Rom.15.9b",
+          "Rom.15.10",
+          "Rom.15.11",
+          "Rom.15.12a",
+          "Rom.15.12b",
+          "Rom.15.16a",
+          "Rom.15.16b",
+          "Rom.15.18",
+          "Rom.15.27",
+          "Rom.16.4",
+          "Gal.2.2",
+          "Gal.2.8",
+          "Gal.2.12",
+          "Gal.2.14",
+          "Gal.2.15",
+          "Gal.3.14",
+          "Eph.2.11",
+          "Eph.3.1",
+          "Eph.3.6",
+          "Eph.3.8",
+          "Eph.4.17",
+          "Col.1.27",
+          "1Th.2.16",
+          "1Ti.2.7",
+          "2Ti.4.17"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "Gentiles",
+          "KJB": "Gentiles",
+          "NIV": "nations"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Mat.12.18;Mat.12.21",
+        "individualVerseReferences": [
+          "Mat.12.18",
+          "Mat.12.21"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "Gentiles",
+          "KJB": "Gentiles",
+          "NIV": "pagans"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=1Th.4.5;1Pe.2.12;1Pe.4.3",
+        "individualVerseReferences": [
+          "1Th.4.5",
+          "1Pe.2.12",
+          "1Pe.4.3",
+          "3Jn.1.7"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "Gentiles",
+          "NIV": "Gentiles",
+          "KJB": "Greeks"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=1Co.1.23",
+        "individualVerseReferences": [
+          "1Co.1.23"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "Gentiles",
+          "NIV": "Gentiles",
+          "KJB": "heathen"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=2Co.11.26;Gal.1.16;Gal.2.9",
+        "individualVerseReferences": [
+          "2Co.11.26",
+          "Gal.1.16",
+          "Gal.2.9"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "NIV": "Gentiles",
+          "KJB": "Gentiles",
+          "ESV": "\"nations\""
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Rev.11.2",
+        "individualVerseReferences": [
+          "Rev.11.2"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "\"peoples\"",
+          "NIV": "\"peoples\"",
+          "KJB": "Gentiles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Act.4.25",
+        "individualVerseReferences": [
+          "Act.4.25"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "\"nations\"",
+          "NIV": "\"nations\"",
+          "KJB": "Gentiles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Act.7.45",
+        "individualVerseReferences": [
+          "Act.7.45"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "\"people\"",
+          "NIV": "\"people\"",
+          "KJB": "Gentiles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=Act.13.42",
+        "individualVerseReferences": [
+          "Act.13.42"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "ESV": "\"pagans\"",
+          "NIV": "\"pagans\"",
+          "KJB": "Gentiles"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=1Co.5.1;1Co.10.21",
+        "individualVerseReferences": [
+          "1Co.5.1",
+          "1Co.10.21"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Gentile@Gen.10.5",
+        "dStrongs": "G1484",
+        "eStrongs": "G1484",
+        "sourceWord": "ἔθνος",
+        "translations": {
+          "KJB": "Gentiles",
+          "ESV": "",
+          "NIV": ""
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gentiles*|reference=2Ti.1.11",
+        "individualVerseReferences": [
+          "2Ti.1.11"
+        ]
+      }
+    ]
+  },
+  "Gittith": {
+    "ourID": "Gittith",
+    "name": "Gittith",
+    "unifiedNameTIPNR": "Gittith@Psa.8.1",
+    "uStrongs": "H1665",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Gittith@Psa.8.1",
+        "dStrongs": "H1665",
+        "eStrongs": "H1665",
+        "sourceWord": "גִּתִּית",
+        "translations": {
+          "ESV": "Gittith",
+          "NIV": "Gittith",
+          "KJB": "Gittith"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Gittith*|reference=Psa.8.1;Psa.81.1;Psa.84.1",
+        "individualVerseReferences": [
+          "Psa.8.1",
+          "Psa.81.1",
+          "Psa.84.1"
+        ]
+      }
+    ]
+  },
+  "Hell": {
+    "ourID": "Hell",
+    "name": "Hell",
+    "unifiedNameTIPNR": "Hell@Gen.37.35",
+    "uStrongs": "H7585",
+    "description": "A non-physical place",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Sheol|Hell@Gen.37.35",
+        "dStrongs": "H7585",
+        "eStrongs": "H7585",
+        "sourceWord": "שְׁאוֹל",
+        "translations": {
+          "ESV": "Sheol",
+          "NIV": "Sheol",
+          "KJB": "Sheol"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sheol*|reference=Gen.37.35;Gen.42.38;Gen.44.29;Gen.44.31;Num.16.30;Num.16.33;Deu.32.22;1Sa.2.6;2Sa.22.6;1Ki.2.6;1Ki.2.9;Job.7.9;Job.11.8;Job.14.13;Job.17.13;Job.17.16;Job.21.13;Job.24.19;Job.26.6;Psa.6.5;Psa.9.17;Psa.16.10;Psa.18.5;Psa.30.3;Psa.31.17;Psa.49.14;Psa.49.14;Psa.49.15;Psa.55.15;Psa.86.13;Psa.88.3;Psa.89.48;Psa.116.3;Psa.139.8;Psa.141.7;Pro.1.12;Pro.5.5;Pro.7.27;Pro.9.18;Pro.15.11",
+        "individualVerseReferences": [
+          "Gen.37.35",
+          "Gen.42.38",
+          "Gen.44.29",
+          "Gen.44.31",
+          "Num.16.30",
+          "Num.16.33",
+          "Deu.32.22",
+          "1Sa.2.6",
+          "2Sa.22.6",
+          "1Ki.2.6",
+          "1Ki.2.9",
+          "Job.7.9",
+          "Job.11.8",
+          "Job.14.13",
+          "Job.17.13",
+          "Job.17.16",
+          "Job.21.13",
+          "Job.24.19",
+          "Job.26.6",
+          "Psa.6.5",
+          "Psa.9.17",
+          "Psa.16.10",
+          "Psa.18.5",
+          "Psa.30.3",
+          "Psa.31.17",
+          "Psa.49.14a",
+          "Psa.49.14b",
+          "Psa.49.15",
+          "Psa.55.15",
+          "Psa.86.13",
+          "Psa.88.3",
+          "Psa.89.48",
+          "Psa.116.3",
+          "Psa.139.8",
+          "Psa.141.7",
+          "Pro.1.12",
+          "Pro.5.5",
+          "Pro.7.27",
+          "Pro.9.18",
+          "Pro.15.11",
+          "Pro.15.24",
+          "Pro.23.14",
+          "Pro.27.20",
+          "Pro.30.16",
+          "Ecc.9.10",
+          "Sng.8.6",
+          "Isa.5.14",
+          "Isa.7.11",
+          "Isa.14.9",
+          "Isa.14.11",
+          "Isa.14.15",
+          "Isa.28.15",
+          "Isa.28.18",
+          "Isa.38.10",
+          "Isa.38.18",
+          "Isa.57.9",
+          "Ezk.31.15",
+          "Ezk.31.16",
+          "Ezk.31.17",
+          "Ezk.32.21",
+          "Ezk.32.27",
+          "Hos.13.14a",
+          "Hos.13.14b",
+          "Amo.9.2",
+          "Jon.2.2",
+          "Hab.2.5"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Pit|Hell@Gen.37.35",
+        "dStrongs": "H7845G",
+        "eStrongs": "H7845",
+        "sourceWord": "שַׁ֫חַת",
+        "translations": {
+          "ESV": "Pit (or pit)",
+          "NIV": "Pit (or pit)",
+          "KJB": "Pit (or pit)"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Pit*|reference=Job.33.18;Job.33.22;Job.33.24;Job.33.28;Job.33.30;Psa.16.10;Psa.30.9;Psa.49.9;Psa.55.23;Psa.103.4;Isa.38.17;Isa.51.14;Eze.28.8;Jon.2.6",
+        "individualVerseReferences": [
+          "Job.33.18",
+          "Job.33.22",
+          "Job.33.24",
+          "Job.33.28",
+          "Job.33.30",
+          "Psa.16.10",
+          "Psa.30.9",
+          "Psa.49.9",
+          "Psa.55.23",
+          "Psa.103.4",
+          "Isa.38.17",
+          "Isa.51.14",
+          "Ezk.28.8",
+          "Jon.2.6"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Gehenna|Hell@Gen.37.35",
+        "dStrongs": "G1067",
+        "eStrongs": "G1067",
+        "sourceWord": "γέεννα",
+        "translations": {
+          "ESV": "hell",
+          "NIV": "hell",
+          "KJB": "hell"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=hell*|reference=Mat.5.22;Mat.5.29;Mat.5.30;Mat.10.28;Mat.18.9;Mat.23.25;Mat.23.33;Mar.9.43;Mar.9.45;Mar.9.47;Luk.12.5;Jas.3.6",
+        "individualVerseReferences": [
+          "Mat.5.22",
+          "Mat.5.29",
+          "Mat.5.30",
+          "Mat.10.28",
+          "Mat.18.9",
+          "Mat.23.25",
+          "Mat.23.33",
+          "Mrk.9.43",
+          "Mrk.9.45",
+          "Mrk.9.47",
+          "Luk.12.5",
+          "Jas.3.6"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Tartarus|Hell@Gen.37.35",
+        "dStrongs": "G5020",
+        "eStrongs": "G5020",
+        "sourceWord": "ταρταρόω",
+        "translations": {
+          "ESV": "hell",
+          "NIV": "hell",
+          "KJB": "hell"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=hell*|reference=2Pe.2.4",
+        "individualVerseReferences": [
+          "2Pe.2.4"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Hades|Hell@Gen.37.35",
+        "dStrongs": "G0086",
+        "eStrongs": "G0086",
+        "sourceWord": "ᾍδης",
+        "translations": {
+          "ESV": "Hades",
+          "NIV": "Hades",
+          "KJB": "Hades"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Hades*|reference=Mat.11.23;Luk.10.15;Luk.16.23;Act.2.27;Act.2.31;Rev.1.18;Rev.6.8;Rev.20.13;Rev.20.14",
+        "individualVerseReferences": [
+          "Mat.11.23",
+          "Mat.16.18",
+          "Luk.10.15",
+          "Luk.16.23",
+          "Act.2.27",
+          "Act.2.31",
+          "Rev.1.18",
+          "Rev.6.8",
+          "Rev.20.13",
+          "Rev.20.14"
+        ]
+      }
+    ]
+  },
+  "Hermes": {
+    "ourID": "Hermes",
+    "name": "Hermes",
+    "unifiedNameTIPNR": "Hermes@Act.14.12",
+    "uStrongs": "G2060G",
+    "description": "A male deity at the time of the New Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Hermes@Act.14.12",
+        "dStrongs": "G2060G",
+        "eStrongs": "G2060",
+        "sourceWord": "Ἑρμῆς",
+        "translations": {
+          "ESV": "Hermes",
+          "NIV": "Hermes",
+          "KJB": "Mercurius"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Hermes*|reference=Act.14.12",
+        "individualVerseReferences": [
+          "Act.14.12"
+        ]
+      }
+    ]
+  },
+  "Herodian": {
+    "ourID": "Herodian",
+    "name": "Herodian",
+    "unifiedNameTIPNR": "Herodian@Mat.22.16",
+    "description": "A group in New Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Herodian@Mat.22.16",
+        "dStrongs": "G2265",
+        "eStrongs": "G2265",
+        "sourceWord": "Ἡρωδιανοί",
+        "translations": {
+          "ESV": "Herodian",
+          "NIV": "Herodian",
+          "KJB": "Herodian"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Herodian*|reference=Mat.22.16;Mar.3.6;Mar.12.13",
+        "individualVerseReferences": [
+          "Mat.22.16",
+          "Mrk.3.6",
+          "Mrk.12.13"
+        ]
+      }
+    ]
+  },
+  "Higgaion": {
+    "ourID": "Higgaion",
+    "name": "Higgaion",
+    "unifiedNameTIPNR": "Higgaion@Psa.9.16",
+    "uStrongs": "H1902G",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Higgaion@Psa.9.16",
+        "dStrongs": "H1902G",
+        "eStrongs": "H1902",
+        "sourceWord": "הִגָּיוֹן",
+        "translations": {
+          "ESV": "Higgaion",
+          "NIV": "Higgaion",
+          "KJB": "Higgaion"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Higgaion*|reference=Psa.9.16",
+        "individualVerseReferences": [
+          "Psa.9.16"
+        ]
+      }
+    ]
+  },
+  "Hosanna": {
+    "ourID": "Hosanna",
+    "name": "Hosanna",
+    "unifiedNameTIPNR": "Hosanna@Mat.21.9",
+    "uStrongs": "G5614",
+    "description": "Name of a chant",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Hosanna@Mat.21.9",
+        "dStrongs": "G5614",
+        "eStrongs": "G5614",
+        "sourceWord": "ὡσαννά",
+        "translations": {
+          "ESV": "Hosanna",
+          "NIV": "Hosanna",
+          "KJB": "Hosanna"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Hosanna*|reference=Mat.21.9;Mat.21.9;Mat.21.15;Mar.11.9;Mar.11.10;Joh.12.13",
+        "individualVerseReferences": [
+          "Mat.21.9a",
+          "Mat.21.9b",
+          "Mat.21.15",
+          "Mrk.11.9",
+          "Mrk.11.10",
+          "Jhn.12.13"
+        ]
+      }
+    ]
+  },
+  "Jachin": {
+    "ourID": "Jachin",
+    "name": "Jachin",
+    "unifiedNameTIPNR": "Jachin@1Ki.7.21",
+    "uStrongs": "H3199H",
+    "description": "A pillar in temple",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Jachin@1Ki.7.21",
+        "dStrongs": "H3199H",
+        "eStrongs": "H3199",
+        "sourceWord": "יָכִין",
+        "translations": {
+          "ESV": "Jachin",
+          "NIV": "Jachin",
+          "KJB": "Jachin"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Jachin*|reference=1Ki.7.21;2Ch.3.17",
+        "individualVerseReferences": [
+          "1Ki.7.21",
+          "2Ch.3.17"
+        ]
+      }
+    ]
+  },
+  "Greek": {
+    "ourID": "Greek",
+    "name": "Greek",
+    "unifiedNameTIPNR": "Greek@Isa.66.19",
+    "uStrongs": "G1673",
+    "description": "A language",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Greek|Javan@Gen.10.2",
+        "dStrongs": "G1673",
+        "eStrongs": "G1673",
+        "sourceWord": "Ἑλληνικός",
+        "translations": {
+          "ESV": "Greek",
+          "NIV": "Greek",
+          "KJB": "Greek"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Greek*|reference=Luk.23.38",
+        "individualVerseReferences": [
+          "Luk.23.38",
+          "Rev.9.11"
+        ]
+      },
+      {
+        "significance": "- Spelled",
+        "uniqueNameTIPNR": "Greek|Javan@Gen.10.2",
+        "dStrongs": "G1676",
+        "eStrongs": "G1676",
+        "sourceWord": "Ἑλληνιστί=Ἑλληνικός",
+        "translations": {
+          "ESV": "Greek",
+          "NIV": "Greek",
+          "KJB": "Greek"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Greek*|reference=Joh.19.20;Act.21.37",
+        "individualVerseReferences": [
+          "Jhn.19.20",
+          "Act.21.37"
+        ]
+      }
+    ]
+  },
+  "Jonath-elem-rechokim": {
+    "ourID": "Jonath-elem-rechokim",
+    "name": "Jonath-elem-rechokim",
+    "unifiedNameTIPNR": "Jonath-elem-rechokim@Psa.56.1",
+    "uStrongs": "H3128",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Dove_on_Far-off_Terebinths|Jonath-elem-rechokim@Psa.56.1",
+        "dStrongs": "H3128",
+        "eStrongs": "H3128",
+        "sourceWord": "יוֹנַת אֵלֶם רְחֹקִים",
+        "translations": {
+          "ESV": "Dove on Far-off Terebinths",
+          "KJB": "Jonath-elem-rechokim",
+          "NIV": "Dove on distant oaks"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Dove*|reference=Psa.56.1",
+        "individualVerseReferences": [
+          "Psa.56.1"
+        ]
+      }
+    ]
+  },
+  "Judaism": {
+    "ourID": "Judaism",
+    "name": "Judaism",
+    "unifiedNameTIPNR": "Judaism@Gal.1.13",
+    "uStrongs": "G2454",
+    "description": "A religion",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Judaism@Gal.1.13",
+        "dStrongs": "G2454",
+        "eStrongs": "G2454",
+        "sourceWord": "Ἰουδαϊσμός",
+        "translations": {
+          "ESV": "Judaism",
+          "NIV": "Judaism",
+          "KJB": "Judaism"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Judaism*|reference=Gal.1.13;Gal.1.14",
+        "individualVerseReferences": [
+          "Gal.1.13",
+          "Gal.1.14"
+        ]
+      }
+    ]
+  },
+  "Kiyyun": {
+    "ourID": "Kiyyun",
+    "name": "Kiyyun",
+    "unifiedNameTIPNR": "Kiyyun@Amo.5.26",
+    "uStrongs": "H3594",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Kiyyun@Amo.5.26",
+        "dStrongs": "H3594",
+        "eStrongs": "H3594",
+        "sourceWord": "כִּיּוּן",
+        "translations": {
+          "ESV": "Kiyyun",
+          "NIV": "Kiyyun",
+          "KJB": "Kiyyun"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Kiyyun*|reference=Amo.5.26",
+        "individualVerseReferences": [
+          "Amo.5.26"
+        ]
+      }
+    ]
+  },
+  "Latin": {
+    "ourID": "Latin",
+    "name": "Latin",
+    "unifiedNameTIPNR": "Latin@Luk.23.38",
+    "uStrongs": "G4513",
+    "description": "A language",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Latin@Luk.23.38",
+        "dStrongs": "G4513",
+        "eStrongs": "G4513",
+        "sourceWord": "Ῥωμαϊκός",
+        "translations": {
+          "ESV": "[ ]",
+          "NIV": "[ ]",
+          "KJB": "Latin"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=[*|reference=Luk.23.38",
+        "individualVerseReferences": [
+          "Luk.23.38"
+        ]
+      }
+    ]
+  },
+  "Legion": {
+    "ourID": "Legion",
+    "name": "Legion",
+    "unifiedNameTIPNR": "Legion@Mrk.5.9",
+    "uStrongs": "G3003",
+    "description": "Group of demons",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Legion@Mrk.5.9",
+        "dStrongs": "G3003",
+        "eStrongs": "G3003",
+        "sourceWord": "λεγεών",
+        "translations": {
+          "ESV": "Legion",
+          "NIV": "Legion",
+          "KJB": "Legion"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Legion*|reference=Mar.5.9;Luk.8.30",
+        "individualVerseReferences": [
+          "Mrk.5.9",
+          "Luk.8.30"
+        ]
+      }
+    ]
+  },
+  "Leviathan": {
+    "ourID": "Leviathan",
+    "name": "Leviathan",
+    "unifiedNameTIPNR": "Leviathan@Job.3.8",
+    "uStrongs": "H3882",
+    "description": "A monster",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Leviathan@Job.3.8",
+        "dStrongs": "H3882",
+        "eStrongs": "H3882",
+        "sourceWord": "לִוְיָתָן",
+        "translations": {
+          "ESV": "Leviathan",
+          "NIV": "Leviathan",
+          "KJB": "Leviathan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Leviathan*|reference=Job.3.8;Job.41.1;Psa.74.14;Psa.104.26;Isa.27.1;Isa.27.1",
+        "individualVerseReferences": [
+          "Job.3.8",
+          "Job.41.1",
+          "Psa.74.14",
+          "Psa.104.26",
+          "Isa.27.1a",
+          "Isa.27.1b"
+        ]
+      }
+    ]
+  },
+  "LORD": {
+    "ourID": "LORD",
+    "name": "LORD",
+    "unifiedNameTIPNR": "LORD@Gen.1.1",
+    "uStrongs": "H3068G",
+    "description": "The deity",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "LORD@Gen.1.1",
+        "dStrongs": "H3068G",
+        "eStrongs": "H3068",
+        "sourceWord": "יהוה",
+        "translations": {
+          "ESV": "LORD",
+          "NIV": "LORD",
+          "KJB": "LORD"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=LORD*|reference=Gen.2.4",
+        "individualVerseReferences": [
+          "Gen.2.4"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "LORD@Gen.1.1",
+        "dStrongs": "H3068G",
+        "eStrongs": "H3068",
+        "sourceWord": "יהוה",
+        "translations": {
+          "ESV": "LORD",
+          "NIV": "LORD",
+          "KJB": "Jehovah"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=LORD*|reference=Gen.22.14;Exo.6.3;Exo.17.15;Jdg.6.24;Psa.83.18;Isa.12.2;Isa.26.4",
+        "individualVerseReferences": [
+          "Gen.22.14",
+          "Exo.6.3",
+          "Exo.17.15",
+          "Jdg.6.24",
+          "Psa.83.18",
+          "Isa.12.2",
+          "Isa.26.4"
+        ]
+      },
+      {
+        "significance": "- Spelled",
+        "uniqueNameTIPNR": "LORD@Gen.1.1",
+        "dStrongs": "H3069",
+        "eStrongs": "H3069",
+        "sourceWord": "יְהֹוִה",
+        "translations": {
+          "ESV": "LORD",
+          "NIV": "LORD",
+          "KJB": "Jehovah"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=LORD*|reference=Gen.22.14;Exo.6.3;Exo.17.15;Jdg.6.24;Psa.83.18;Isa.12.2;Isa.26.4",
+        "individualVerseReferences": [
+          "Gen.22.14",
+          "Exo.6.3",
+          "Exo.17.15",
+          "Jdg.6.24",
+          "Psa.83.18",
+          "Isa.12.2",
+          "Isa.26.4"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "YAH|LORD@Gen.1.1",
+        "dStrongs": "H3050",
+        "eStrongs": "H3050",
+        "sourceWord": "יָהּ",
+        "translations": {
+          "ESV": "LORD",
+          "NIV": "LORD",
+          "KJB": "LORD"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=LORD*|reference=Exo.15.2;Exo.17.16;Psa.68.4;Psa.68.18;Psa.77.11;Psa.89.8;Psa.94.7;Psa.94.12;Psa.102.18;Psa.104.35;Psa.105.45;Psa.106.48;Psa.111.1;Psa.112.1;Psa.113.1;Psa.113.9;Psa.115.17;Psa.115.18;Psa.115.18;Psa.116.19;Psa.117.2;Psa.118.5;Psa.118.5;Psa.118.14;Psa.118.17;Psa.118.18;Psa.118.19;Psa.122.4;Psa.130.3;Psa.135.1;Psa.135.3;Psa.135.4;Psa.135.21;Psa.146.1;Psa.146.10;Psa.147.1;Psa.147.20;Psa.148.1;Psa.148.14;Psa.149.1",
+        "individualVerseReferences": [
+          "Exo.15.2",
+          "Exo.17.16",
+          "Psa.68.4",
+          "Psa.68.18",
+          "Psa.77.11",
+          "Psa.89.8",
+          "Psa.94.7",
+          "Psa.94.12",
+          "Psa.102.18",
+          "Psa.104.35",
+          "Psa.105.45",
+          "Psa.106.1",
+          "Psa.106.48",
+          "Psa.111.1",
+          "Psa.112.1",
+          "Psa.113.1",
+          "Psa.113.9",
+          "Psa.115.17",
+          "Psa.115.18",
+          "Psa.115.18",
+          "Psa.116.19",
+          "Psa.117.2",
+          "Psa.118.5",
+          "Psa.118.5",
+          "Psa.118.14",
+          "Psa.118.17",
+          "Psa.118.18",
+          "Psa.118.19",
+          "Psa.122.4",
+          "Psa.130.3",
+          "Psa.135.1",
+          "Psa.135.3",
+          "Psa.135.4",
+          "Psa.135.21",
+          "Psa.146.1",
+          "Psa.146.10",
+          "Psa.147.1",
+          "Psa.147.20",
+          "Psa.148.1",
+          "Psa.148.14",
+          "Psa.149.1",
+          "Psa.149.9",
+          "Psa.150.1",
+          "Psa.150.6",
+          "Psa.150.6",
+          "Isa.12.2",
+          "Isa.26.4",
+          "Isa.38.11",
+          "Isa.38.11"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Lord|LORD@Gen.1.1",
+        "dStrongs": "H0136",
+        "eStrongs": "H0136",
+        "sourceWord": "אֲדֹנָי",
+        "translations": {
+          "ESV": "Lord",
+          "NIV": "Lord",
+          "KJB": "Lord"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Lord*|reference=Gen.15.2;Gen.15.8;Gen.18.27;Gen.18.30;Gen.18.31;Gen.18.32;Gen.19.18;Gen.20.4;Exo.4.10;Exo.4.13;Exo.5.22;Exo.15.17;Exo.34.9;Num.14.17;Deu.3.24;Deu.9.26;Jos.3.11;Jos.3.13;Jos.7.7;Jos.7.8;Jdg.6.15;Jdg.6.22;Jdg.13.8;Jdg.16.28;2Sa.7.18;2Sa.7.19;2Sa.7.19;2Sa.7.20;2Sa.7.22;2Sa.7.28;2Sa.7.29;1Ki.2.26;1Ki.3.10;1Ki.3.15;1Ki.8.53;1Ki.22.6;2Ki.7.6;2Ki.19.23;Ezr.10.3;Neh.1.11",
+        "individualVerseReferences": [
+          "Gen.15.2",
+          "Gen.15.8",
+          "Gen.18.27",
+          "Gen.18.30",
+          "Gen.18.31",
+          "Gen.18.32",
+          "Gen.19.18",
+          "Gen.20.4",
+          "Exo.4.10",
+          "Exo.4.13",
+          "Exo.5.22",
+          "Exo.15.17",
+          "Exo.34.9",
+          "Num.14.17",
+          "Deu.3.24",
+          "Deu.9.26",
+          "Jos.3.11",
+          "Jos.3.13",
+          "Jos.7.7",
+          "Jos.7.8",
+          "Jdg.6.15",
+          "Jdg.6.22",
+          "Jdg.13.8",
+          "Jdg.16.28",
+          "2Sa.7.18",
+          "2Sa.7.19",
+          "2Sa.7.19",
+          "2Sa.7.20",
+          "2Sa.7.22",
+          "2Sa.7.28",
+          "2Sa.7.29",
+          "1Ki.2.26",
+          "1Ki.3.10",
+          "1Ki.3.15",
+          "1Ki.8.53",
+          "1Ki.22.6",
+          "2Ki.7.6",
+          "2Ki.19.23",
+          "Ezr.10.3",
+          "Neh.1.11",
+          "Neh.4.14",
+          "Job.28.28",
+          "Psa.2.4",
+          "Psa.16.2",
+          "Psa.22.30",
+          "Psa.30.8",
+          "Psa.35.17",
+          "Psa.35.22",
+          "Psa.35.23",
+          "Psa.37.13",
+          "Psa.38.9",
+          "Psa.38.15",
+          "Psa.38.22",
+          "Psa.39.7",
+          "Psa.40.17",
+          "Psa.44.23",
+          "Psa.51.15",
+          "Psa.54.4",
+          "Psa.55.9",
+          "Psa.57.9",
+          "Psa.59.11",
+          "Psa.62.12",
+          "Psa.66.18",
+          "Psa.68.11",
+          "Psa.68.17",
+          "Psa.68.19",
+          "Psa.68.20",
+          "Psa.68.22",
+          "Psa.68.32",
+          "Psa.69.6",
+          "Psa.71.5",
+          "Psa.71.16",
+          "Psa.73.20",
+          "Psa.73.28",
+          "Psa.77.2",
+          "Psa.77.7",
+          "Psa.78.65",
+          "Psa.79.12",
+          "Psa.86.3",
+          "Psa.86.4",
+          "Psa.86.5",
+          "Psa.86.8",
+          "Psa.86.9",
+          "Psa.86.12",
+          "Psa.86.15",
+          "Psa.89.49",
+          "Psa.89.50",
+          "Psa.90.1",
+          "Psa.90.17",
+          "Psa.109.21",
+          "Psa.110.5",
+          "Psa.130.2",
+          "Psa.130.3",
+          "Psa.130.6",
+          "Psa.140.7",
+          "Psa.141.8",
+          "Isa.3.15",
+          "Isa.3.17",
+          "Isa.3.18",
+          "Isa.4.4",
+          "Isa.6.1",
+          "Isa.6.8",
+          "Isa.6.11",
+          "Isa.7.7",
+          "Isa.7.14",
+          "Isa.7.20",
+          "Isa.8.7",
+          "Isa.9.8",
+          "Isa.9.17",
+          "Isa.10.12",
+          "Isa.10.23",
+          "Isa.10.24",
+          "Isa.11.11",
+          "Isa.21.6",
+          "Isa.21.8",
+          "Isa.21.16",
+          "Isa.22.5",
+          "Isa.22.12",
+          "Isa.22.14",
+          "Isa.22.15",
+          "Isa.25.8",
+          "Isa.28.2",
+          "Isa.28.16",
+          "Isa.28.22",
+          "Isa.29.13",
+          "Isa.30.15",
+          "Isa.30.20",
+          "Isa.37.24",
+          "Isa.38.14",
+          "Isa.38.16",
+          "Isa.40.10",
+          "Isa.48.16",
+          "Isa.49.14",
+          "Isa.49.22",
+          "Isa.50.4",
+          "Isa.50.5",
+          "Isa.50.7",
+          "Isa.50.9",
+          "Isa.52.4",
+          "Isa.56.8",
+          "Isa.61.1",
+          "Isa.61.11",
+          "Isa.65.13",
+          "Isa.65.15",
+          "Jer.1.6",
+          "Jer.2.19",
+          "Jer.2.22",
+          "Jer.4.10",
+          "Jer.7.20",
+          "Jer.14.13",
+          "Jer.32.17",
+          "Jer.32.25",
+          "Jer.44.26",
+          "Jer.46.10",
+          "Jer.46.10",
+          "Jer.49.5",
+          "Jer.50.25",
+          "Jer.50.31",
+          "Lam.1.14",
+          "Lam.1.15",
+          "Lam.1.15",
+          "Lam.2.1",
+          "Lam.2.2",
+          "Lam.2.5",
+          "Lam.2.7",
+          "Lam.2.18",
+          "Lam.2.19",
+          "Lam.2.20",
+          "Lam.3.31",
+          "Lam.3.36",
+          "Lam.3.37",
+          "Lam.3.58",
+          "Ezk.2.4",
+          "Ezk.3.11",
+          "Ezk.3.27",
+          "Ezk.4.14",
+          "Ezk.5.5",
+          "Ezk.5.7",
+          "Ezk.5.8",
+          "Ezk.5.11",
+          "Ezk.6.3",
+          "Ezk.6.3",
+          "Ezk.6.11",
+          "Ezk.7.2",
+          "Ezk.7.5",
+          "Ezk.8.1",
+          "Ezk.9.8",
+          "Ezk.11.7",
+          "Ezk.11.8",
+          "Ezk.11.13",
+          "Ezk.11.16",
+          "Ezk.11.17",
+          "Ezk.11.21",
+          "Ezk.12.10",
+          "Ezk.12.19",
+          "Ezk.12.23",
+          "Ezk.12.25",
+          "Ezk.12.28",
+          "Ezk.12.28",
+          "Ezk.13.3",
+          "Ezk.13.8",
+          "Ezk.13.8",
+          "Ezk.13.9",
+          "Ezk.13.13",
+          "Ezk.13.16",
+          "Ezk.13.18",
+          "Ezk.13.20",
+          "Ezk.14.4",
+          "Ezk.14.6",
+          "Ezk.14.11",
+          "Ezk.14.14",
+          "Ezk.14.16",
+          "Ezk.14.18",
+          "Ezk.14.20",
+          "Ezk.14.21",
+          "Ezk.14.23",
+          "Ezk.15.6",
+          "Ezk.15.8",
+          "Ezk.16.3",
+          "Ezk.16.8",
+          "Ezk.16.14",
+          "Ezk.16.19",
+          "Ezk.16.23",
+          "Ezk.16.30",
+          "Ezk.16.36",
+          "Ezk.16.43",
+          "Ezk.16.48",
+          "Ezk.16.59",
+          "Ezk.16.63",
+          "Ezk.17.3",
+          "Ezk.17.9",
+          "Ezk.17.16",
+          "Ezk.17.19",
+          "Ezk.17.22",
+          "Ezk.18.3",
+          "Ezk.18.9",
+          "Ezk.18.23",
+          "Ezk.18.25",
+          "Ezk.18.29",
+          "Ezk.18.30",
+          "Ezk.18.32",
+          "Ezk.20.3",
+          "Ezk.20.3",
+          "Ezk.20.5",
+          "Ezk.20.27",
+          "Ezk.20.30",
+          "Ezk.20.31",
+          "Ezk.20.33",
+          "Ezk.20.36",
+          "Ezk.20.39",
+          "Ezk.20.40",
+          "Ezk.20.44",
+          "Ezk.20.47",
+          "Ezk.20.49",
+          "Ezk.21.7",
+          "Ezk.21.9",
+          "Ezk.21.13",
+          "Ezk.21.24",
+          "Ezk.21.26",
+          "Ezk.21.28",
+          "Ezk.22.3",
+          "Ezk.22.12",
+          "Ezk.22.19",
+          "Ezk.22.28",
+          "Ezk.22.31",
+          "Ezk.23.22",
+          "Ezk.23.28",
+          "Ezk.23.32",
+          "Ezk.23.34",
+          "Ezk.23.35",
+          "Ezk.23.46",
+          "Ezk.23.49",
+          "Ezk.24.3",
+          "Ezk.24.6",
+          "Ezk.24.9",
+          "Ezk.24.14",
+          "Ezk.24.21",
+          "Ezk.24.24",
+          "Ezk.25.3",
+          "Ezk.25.3",
+          "Ezk.25.6",
+          "Ezk.25.8",
+          "Ezk.25.12",
+          "Ezk.25.13",
+          "Ezk.25.14",
+          "Ezk.25.15",
+          "Ezk.25.16",
+          "Ezk.26.3",
+          "Ezk.26.5",
+          "Ezk.26.7",
+          "Ezk.26.14",
+          "Ezk.26.15",
+          "Ezk.26.19",
+          "Ezk.26.21",
+          "Ezk.27.3",
+          "Ezk.28.2",
+          "Ezk.28.6",
+          "Ezk.28.10",
+          "Ezk.28.12",
+          "Ezk.28.22",
+          "Ezk.28.24",
+          "Ezk.28.25",
+          "Ezk.29.3",
+          "Ezk.29.8",
+          "Ezk.29.13",
+          "Ezk.29.16",
+          "Ezk.29.19",
+          "Ezk.29.20",
+          "Ezk.30.2",
+          "Ezk.30.6",
+          "Ezk.30.10",
+          "Ezk.30.13",
+          "Ezk.30.22",
+          "Ezk.31.10",
+          "Ezk.31.15",
+          "Ezk.31.18",
+          "Ezk.32.3",
+          "Ezk.32.8",
+          "Ezk.32.11",
+          "Ezk.32.14",
+          "Ezk.32.16",
+          "Ezk.32.31",
+          "Ezk.32.32",
+          "Ezk.33.11",
+          "Ezk.33.17",
+          "Ezk.33.20",
+          "Ezk.33.25",
+          "Ezk.33.27",
+          "Ezk.34.2",
+          "Ezk.34.8",
+          "Ezk.34.10",
+          "Ezk.34.11",
+          "Ezk.34.15",
+          "Ezk.34.17",
+          "Ezk.34.20",
+          "Ezk.34.30",
+          "Ezk.34.31",
+          "Ezk.35.3",
+          "Ezk.35.6",
+          "Ezk.35.11",
+          "Ezk.35.14",
+          "Ezk.36.2",
+          "Ezk.36.3",
+          "Ezk.36.4",
+          "Ezk.36.4",
+          "Ezk.36.5",
+          "Ezk.36.6",
+          "Ezk.36.7",
+          "Ezk.36.13",
+          "Ezk.36.14",
+          "Ezk.36.15",
+          "Ezk.36.22",
+          "Ezk.36.23",
+          "Ezk.36.32",
+          "Ezk.36.33",
+          "Ezk.36.37",
+          "Ezk.37.3",
+          "Ezk.37.5",
+          "Ezk.37.9",
+          "Ezk.37.12",
+          "Ezk.37.19",
+          "Ezk.37.21",
+          "Ezk.38.3",
+          "Ezk.38.10",
+          "Ezk.38.14",
+          "Ezk.38.17",
+          "Ezk.38.18",
+          "Ezk.38.21",
+          "Ezk.39.1",
+          "Ezk.39.5",
+          "Ezk.39.8",
+          "Ezk.39.10",
+          "Ezk.39.13",
+          "Ezk.39.17",
+          "Ezk.39.20",
+          "Ezk.39.25",
+          "Ezk.39.29",
+          "Ezk.43.18",
+          "Ezk.43.19",
+          "Ezk.43.27",
+          "Ezk.44.6",
+          "Ezk.44.9",
+          "Ezk.44.12",
+          "Ezk.44.15",
+          "Ezk.44.27",
+          "Ezk.45.9",
+          "Ezk.45.9",
+          "Ezk.45.15",
+          "Ezk.45.18",
+          "Ezk.46.1",
+          "Ezk.46.16",
+          "Ezk.47.13",
+          "Ezk.47.23",
+          "Ezk.48.29",
+          "Dan.1.2",
+          "Dan.9.3",
+          "Dan.9.4",
+          "Dan.9.7",
+          "Dan.9.9",
+          "Dan.9.15",
+          "Dan.9.16",
+          "Dan.9.17",
+          "Dan.9.19",
+          "Dan.9.19",
+          "Dan.9.19",
+          "Amo.1.8",
+          "Amo.3.7",
+          "Amo.3.8",
+          "Amo.3.11",
+          "Amo.3.13",
+          "Amo.4.2",
+          "Amo.4.5",
+          "Amo.5.3",
+          "Amo.5.16",
+          "Amo.6.8",
+          "Amo.7.1",
+          "Amo.7.2",
+          "Amo.7.4",
+          "Amo.7.4",
+          "Amo.7.5",
+          "Amo.7.6",
+          "Amo.7.7",
+          "Amo.7.8",
+          "Amo.8.1",
+          "Amo.8.3",
+          "Amo.8.9",
+          "Amo.8.11",
+          "Amo.9.1",
+          "Amo.9.5",
+          "Amo.9.8",
+          "Oba.1.1",
+          "Mic.1.2",
+          "Mic.1.2",
+          "Hab.3.19",
+          "Zep.1.7",
+          "Zec.9.4",
+          "Zec.9.14",
+          "Mal.1.12",
+          "Mal.1.14"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "God|LORD@Gen.1.1",
+        "dStrongs": "H0430G",
+        "eStrongs": "H0430",
+        "sourceWord": "אֱלֹהִים",
+        "translations": {
+          "ESV": "God",
+          "NIV": "God",
+          "KJB": "God"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=reference=Gen.1:1",
+        "individualVerseReferences": [
+          "Gen.1.1"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "God|LORD@Gen.1.1",
+        "dStrongs": "H0430G",
+        "eStrongs": "H0430",
+        "sourceWord": "אֱלֹהִים",
+        "translations": {
+          "ESV": "God",
+          "NIV": "God",
+          "KJB": "Elohim"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=God*|reference=1Sa.10.5",
+        "individualVerseReferences": [
+          "1Sa.10.5"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Baal@Hos.2.16|LORD@Gen.1.1",
+        "dStrongs": "H1180",
+        "eStrongs": "H1180",
+        "sourceWord": "בַּעֲלִי",
+        "translations": {
+          "ESV": "Baal",
+          "KJB": "Baali",
+          "NIV": "Master"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Baal*|reference=Hos.2.16",
+        "individualVerseReferences": [
+          "Hos.2.16"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Almighty|LORD@Gen.1.1",
+        "dStrongs": "H7706",
+        "eStrongs": "H7706",
+        "sourceWord": "שַׁדַּי",
+        "translations": {
+          "ESV": "Almighty",
+          "NIV": "Almighty",
+          "KJB": "Almighty"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Almighty*|reference=Gen.17.1;Gen.28.3;Gen.35.11;Gen.43.14;Gen.48.3;Gen.49.25;Exo.6.3;Num.24.4;Num.24.16;Rut.1.20;Rut.1.21;Job.5.17;Job.6.4;Job.6.14;Job.8.3;Job.8.5;Job.11.7;Job.13.3;Job.15.25;Job.21.15;Job.21.20;Job.22.3;Job.22.17;Job.22.23;Job.22.25;Job.22.26;Job.23.16;Job.24.1;Job.27.2;Job.27.10;Job.27.11;Job.27.13;Job.29.5;Job.31.2;Job.31.35;Job.32.8;Job.33.4;Job.34.10;Job.34.12;Job.35.13",
+        "individualVerseReferences": [
+          "Gen.17.1",
+          "Gen.28.3",
+          "Gen.35.11",
+          "Gen.43.14",
+          "Gen.48.3",
+          "Gen.49.25",
+          "Exo.6.3",
+          "Num.24.4",
+          "Num.24.16",
+          "Rut.1.20",
+          "Rut.1.21",
+          "Job.5.17",
+          "Job.6.4",
+          "Job.6.14",
+          "Job.8.3",
+          "Job.8.5",
+          "Job.11.7",
+          "Job.13.3",
+          "Job.15.25",
+          "Job.21.15",
+          "Job.21.20",
+          "Job.22.3",
+          "Job.22.17",
+          "Job.22.23",
+          "Job.22.25",
+          "Job.22.26",
+          "Job.23.16",
+          "Job.24.1",
+          "Job.27.2",
+          "Job.27.10",
+          "Job.27.11",
+          "Job.27.13",
+          "Job.29.5",
+          "Job.31.2",
+          "Job.31.35",
+          "Job.32.8",
+          "Job.33.4",
+          "Job.34.10",
+          "Job.34.12",
+          "Job.35.13",
+          "Job.37.23",
+          "Job.40.2",
+          "Psa.68.14",
+          "Psa.91.1",
+          "Isa.13.6",
+          "Ezk.1.24",
+          "Ezk.10.5",
+          "Jol.1.15"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Most_High|LORD@Gen.1.1",
+        "dStrongs": "H5920G",
+        "eStrongs": "H5920",
+        "sourceWord": "עַל",
+        "translations": {
+          "ESV": "Most High",
+          "NIV": "Most High",
+          "KJB": "Most High"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Most*|reference=Hos.11.7",
+        "individualVerseReferences": [
+          "Hos.11.7"
+        ]
+      },
+      {
+        "significance": "- Aramaic",
+        "uniqueNameTIPNR": "Most_High|LORD@Gen.1.1",
+        "dStrongs": "H5943",
+        "eStrongs": "H5943",
+        "sourceWord": "עִלַּי",
+        "translations": {
+          "ESV": "Most High",
+          "NIV": "Most High",
+          "KJB": "Most High"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Most*|reference=Dan.3.26;Dan.4.2;Dan.4.17;Dan.4.24;Dan.4.25;Dan.4.32;Dan.4.34;Dan.5.18;Dan.5.21;Dan.7.25",
+        "individualVerseReferences": [
+          "Dan.3.26",
+          "Dan.4.2",
+          "Dan.4.17",
+          "Dan.4.24",
+          "Dan.4.25",
+          "Dan.4.32",
+          "Dan.4.34",
+          "Dan.5.18",
+          "Dan.5.21",
+          "Dan.7.25"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Most_High|LORD@Gen.1.1",
+        "dStrongs": "H5945B",
+        "eStrongs": "H5945b",
+        "sourceWord": "עֶלְיוֹן",
+        "translations": {
+          "ESV": "Most High",
+          "NIV": "Most High",
+          "KJB": "most High"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Most*|reference=Num.24.16;Deu.32.8;2Sa.22.14;Psa.7.17;Psa.9.2;Psa.21.7;Psa.46.4;Psa.47.2;Psa.50.14;Psa.57.2;Psa.73.11;Psa.77.10;Psa.78.17;Psa.78.56;Psa.82.6;Psa.83.18;Psa.91.1;Psa.91.9;Psa.92.1;Psa.107.11;Isa.14.14;Lam.3.35;Lam.3.38",
+        "individualVerseReferences": [
+          "Num.24.16",
+          "Deu.32.8",
+          "2Sa.22.14",
+          "Psa.7.17",
+          "Psa.9.2",
+          "Psa.21.7",
+          "Psa.46.4",
+          "Psa.47.2",
+          "Psa.50.14",
+          "Psa.57.2",
+          "Psa.73.11",
+          "Psa.77.10",
+          "Psa.78.17",
+          "Psa.78.56",
+          "Psa.82.6",
+          "Psa.83.18",
+          "Psa.91.1",
+          "Psa.91.9",
+          "Psa.92.1",
+          "Psa.107.11",
+          "Isa.14.14",
+          "Lam.3.35",
+          "Lam.3.38"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Most_High|LORD@Gen.1.1",
+        "dStrongs": "H5945B",
+        "eStrongs": "H5945b",
+        "sourceWord": "עֶלְיוֹן",
+        "translations": {
+          "ESV": "Most High",
+          "NIV": "Most High",
+          "KJB": "Highest"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Most*|reference=Psa.18.13;Psa.87.5",
+        "individualVerseReferences": [
+          "Psa.18.13",
+          "Psa.87.5"
+        ]
+      },
+      {
+        "significance": "- Aramaic",
+        "uniqueNameTIPNR": "Most_High|LORD@Gen.1.1",
+        "dStrongs": "H5946",
+        "eStrongs": "H5946",
+        "sourceWord": "עֶלְיוֹן",
+        "translations": {
+          "ESV": "Most High",
+          "NIV": "Most High",
+          "KJB": "Most High"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Most*|reference=Dan.7.18;Dan.7.22;Dan.7.25;Dan.7.27",
+        "individualVerseReferences": [
+          "Dan.7.18",
+          "Dan.7.22",
+          "Dan.7.25",
+          "Dan.7.27"
+        ]
+      },
+      {
+        "significance": "- Name Combined",
+        "uniqueNameTIPNR": "God_Most_High|LORD@Gen.1.1",
+        "dStrongs": [
+          "H0410G",
+          "H5945H"
+        ],
+        "eStrongs": [
+          "H0410",
+          "H5945b"
+        ],
+        "sourceWord": [
+          "אֵל=God",
+          "עֶלְיוֹן"
+        ],
+        "translations": {
+          "ESV": "God/ Most High",
+          "NIV": "God/ Most High",
+          "KJB": "most high God"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Most*|reference=Gen.14.18;Gen.14.19;Gen.14.20;Gen.14.22;Psa.78.35;",
+        "individualVerseReferences": [
+          "Gen.14.18",
+          "Gen.14.19",
+          "Gen.14.20",
+          "Gen.14.22",
+          "Psa.78.35"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "God|LORD@Gen.1.1",
+        "dStrongs": "H0410G",
+        "eStrongs": "H0410",
+        "sourceWord": "אֵל=God",
+        "translations": {
+          "ESV": "God",
+          "NIV": "God",
+          "KJB": "God"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Most*|reference=Gen.16.13|Gen.17.1|Gen.21.33|Gen.28.3|Gen.31.13|Gen.35.1|Gen.35.3|Gen.35.11|Gen.43.14|Gen.46.3|Gen.48.3|Gen.49.25|Exo.6.3|Exo.15.2|Exo.20.5|Exo.34.6|Exo.34.14|Num.12.13|Num.16.22|Num.23.8|Num.23.19",
+        "individualVerseReferences": [
+          "Gen.16.13",
+          "Gen.17.1",
+          "Gen.21.33",
+          "Gen.28.3",
+          "Gen.31.13",
+          "Gen.35.1",
+          "Gen.35.3",
+          "Gen.35.11",
+          "Gen.43.14",
+          "Gen.46.3",
+          "Gen.48.3",
+          "Gen.49.25",
+          "Exo.6.3",
+          "Exo.15.2",
+          "Exo.20.5",
+          "Exo.34.6",
+          "Exo.34.14",
+          "Num.12.13",
+          "Num.16.22",
+          "Num.23.8",
+          "Num.23.19",
+          "Num.23.22",
+          "Num.23.23",
+          "Num.24.4",
+          "Num.24.8",
+          "Num.24.16",
+          "Num.24.23",
+          "Deu.3.24",
+          "Deu.4.24",
+          "Deu.4.31",
+          "Deu.5.9",
+          "Deu.6.15",
+          "Deu.7.9",
+          "Deu.7.21",
+          "Deu.10.17",
+          "Deu.32.4",
+          "Deu.32.18",
+          "Deu.33.26",
+          "Jos.3.10",
+          "Jos.24.19",
+          "1Sa.2.3",
+          "2Sa.22.31",
+          "2Sa.22.32",
+          "2Sa.22.33",
+          "2Sa.22.48",
+          "2Sa.23.5",
+          "Neh.1.5",
+          "Neh.9.31",
+          "Neh.9.32",
+          "Job.5.8",
+          "Job.8.3",
+          "Job.8.5",
+          "Job.8.13",
+          "Job.8.20",
+          "Job.9.2",
+          "Job.12.6",
+          "Job.13.3",
+          "Job.13.7",
+          "Job.13.8",
+          "Job.15.4",
+          "Job.15.11",
+          "Job.15.13",
+          "Job.15.25",
+          "Job.16.11",
+          "Job.18.21",
+          "Job.19.22",
+          "Job.20.15",
+          "Job.20.29",
+          "Job.21.14",
+          "Job.21.22",
+          "Job.22.2",
+          "Job.22.13",
+          "Job.22.17",
+          "Job.23.16",
+          "Job.25.4",
+          "Job.27.2",
+          "Job.27.9",
+          "Job.27.11",
+          "Job.27.13",
+          "Job.31.14",
+          "Job.31.23",
+          "Job.31.28",
+          "Job.32.13",
+          "Job.33.4",
+          "Job.33.6",
+          "Job.33.14",
+          "Job.33.29",
+          "Job.34.5",
+          "Job.34.10",
+          "Job.34.12",
+          "Job.34.23",
+          "Job.34.31",
+          "Job.34.37",
+          "Job.35.2",
+          "Job.35.13",
+          "Job.36.5",
+          "Job.36.22",
+          "Job.36.26",
+          "Job.37.5",
+          "Job.37.10",
+          "Job.37.14",
+          "Job.38.41",
+          "Job.40.9",
+          "Job.40.19",
+          "Psa.5.5",
+          "Psa.7.12",
+          "Psa.10.11",
+          "Psa.10.12",
+          "Psa.16.1",
+          "Psa.17.6",
+          "Psa.18.3",
+          "Psa.18.31",
+          "Psa.18.33",
+          "Psa.18.48",
+          "Psa.19.2",
+          "Psa.22.2",
+          "Psa.22.2",
+          "Psa.22.11",
+          "Psa.29.3",
+          "Psa.31.6",
+          "Psa.36.7",
+          "Psa.42.3",
+          "Psa.42.9",
+          "Psa.42.10",
+          "Psa.43.4",
+          "Psa.50.1",
+          "Psa.52.3",
+          "Psa.52.7",
+          "Psa.55.20",
+          "Psa.57.3",
+          "Psa.63.2",
+          "Psa.68.20",
+          "Psa.68.21",
+          "Psa.68.21",
+          "Psa.68.25",
+          "Psa.68.36",
+          "Psa.73.11",
+          "Psa.73.17",
+          "Psa.74.8",
+          "Psa.77.10",
+          "Psa.77.15",
+          "Psa.78.7",
+          "Psa.78.8",
+          "Psa.78.18",
+          "Psa.78.19",
+          "Psa.78.34",
+          "Psa.78.41",
+          "Psa.80.11",
+          "Psa.82.1",
+          "Psa.83.2",
+          "Psa.84.3",
+          "Psa.85.9",
+          "Psa.86.15",
+          "Psa.89.27",
+          "Psa.90.2",
+          "Psa.94.1",
+          "Psa.94.1",
+          "Psa.95.3",
+          "Psa.99.8",
+          "Psa.102.25",
+          "Psa.104.21",
+          "Psa.106.14",
+          "Psa.106.21",
+          "Psa.107.11",
+          "Psa.118.27",
+          "Psa.118.28",
+          "Psa.136.26",
+          "Psa.139.17",
+          "Psa.139.23",
+          "Psa.140.7",
+          "Psa.146.5",
+          "Psa.149.6",
+          "Psa.150.1",
+          "Isa.5.16",
+          "Isa.8.10",
+          "Isa.9.5",
+          "Isa.10.21",
+          "Isa.12.2",
+          "Isa.31.3",
+          "Isa.40.18",
+          "Isa.42.5",
+          "Isa.43.12",
+          "Isa.45.14",
+          "Isa.45.15",
+          "Isa.45.21",
+          "Isa.45.22",
+          "Isa.46.9",
+          "Jer.32.18",
+          "Jer.51.56",
+          "Lam.3.41",
+          "Ezk.10.5",
+          "Dan.9.4",
+          "Dan.11.36",
+          "Hos.2.1",
+          "Hos.11.9",
+          "Hos.12.1",
+          "Jon.4.2",
+          "Mic.7.18",
+          "Nam.1.2",
+          "Mal.1.9",
+          "Mal.2.10",
+          "Jos.22.22",
+          "Jos.22.22",
+          "Psa.89.8",
+          "Isa.14.13"
+        ]
+      },
+      {
+        "significance": "- Name Combined",
+        "uniqueNameTIPNR": "El-Elohe|LORD@Gen.1.1",
+        "dStrongs": [
+          "H0410I",
+          "H0430G"
+        ],
+        "eStrongs": [
+          "H0410",
+          "H0430"
+        ],
+        "sourceWord": [
+          "אֵל",
+          "אֱלֹהִים"
+        ],
+        "translations": {
+          "ESV": "El/-Elohe",
+          "NIV": "El/-Elohe",
+          "KJB": "El/-Elohe"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=El-Elohe-Israel*|reference=Gen.33.20",
+        "individualVerseReferences": [
+          "Gen.33.20"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "El-Elohe-Israel|LORD@Gen.1.1",
+        "dStrongs": "H0415",
+        "eStrongs": "H0415",
+        "sourceWord": "אֵל אֱלֹהֵי יִשְׂרָאֵל",
+        "translations": {
+          "ESV": "El/-Elohe Isael",
+          "NIV": "El/-Elohe Isael",
+          "KJB": "El/-Elohe Isael"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=El-Elohe-Israel*|reference=Gen.33.20",
+        "individualVerseReferences": [
+          "Gen.33.20"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Banner|LORD@Gen.1.1",
+        "dStrongs": "H5251G",
+        "eStrongs": "H5251",
+        "sourceWord": "נֵס",
+        "translations": {
+          "ESV": "Banner",
+          "NIV": "Banner",
+          "KJB": "Nissi"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=reference=Exo.17.15",
+        "individualVerseReferences": [
+          "Exo.17.15"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Banner|LORD@Gen.1.1",
+        "dStrongs": "H3071",
+        "eStrongs": "H3071",
+        "sourceWord": "יְהֹוָה נִסִּי",
+        "translations": {
+          "ESV": "Banner",
+          "NIV": "Banner",
+          "KJB": "Nissi"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=reference=Exo.17.15",
+        "individualVerseReferences": [
+          "Exo.17.15"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Peace|LORD@Gen.1.1",
+        "dStrongs": "H7965H",
+        "eStrongs": "H7965",
+        "sourceWord": "יְהֹוָה שָׁלוֹם",
+        "translations": {
+          "ESV": "Peace",
+          "NIV": "Peace",
+          "KJB": "Shalom"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Peace*|reference=Jdg.6.24",
+        "individualVerseReferences": [
+          "Jdg.6.24"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Peace|LORD@Gen.1.1",
+        "dStrongs": "H3073",
+        "eStrongs": "H3073",
+        "sourceWord": "H3073",
+        "translations": {
+          "ESV": "Peace",
+          "NIV": "Peace",
+          "KJB": "Shalom"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Peace*|reference=Jdg.6.24",
+        "individualVerseReferences": [
+          "Jdg.6.24"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Provider|LORD@Gen.1.1",
+        "dStrongs": "H7200N",
+        "eStrongs": "H7200",
+        "sourceWord": "יִרְאֶה",
+        "translations": {
+          "ESV": "Provider",
+          "NIV": "Provider",
+          "KJB": "Jireh"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Provider*|reference=Gen.22.14",
+        "individualVerseReferences": [
+          "Gen.22.14"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Provider|LORD@Gen.1.1",
+        "dStrongs": "H3070",
+        "eStrongs": "H3070",
+        "sourceWord": "יִרְאֶה",
+        "translations": {
+          "ESV": "Provider",
+          "NIV": "Provider",
+          "KJB": "Jireh"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Provider*|reference=Gen.22.14",
+        "individualVerseReferences": [
+          "Gen.22.14"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Righteousness|LORD@Gen.1.1",
+        "dStrongs": "H3272",
+        "eStrongs": "H3272",
+        "sourceWord": "יְהֹוָה צִדְקֵנוּ",
+        "translations": {
+          "ESV": "LORD our Righteousness",
+          "KJB": "LORD our Righteousness",
+          "NIV": "Righteous Saviour"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Righteousness*|reference=Jer.23.6;Jer.33.16",
+        "individualVerseReferences": [
+          "Jer.23.6",
+          "Jer.33.16"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Everlasting|LORD@Gen.1.1",
+        "dStrongs": "H5769H",
+        "eStrongs": "H5769",
+        "sourceWord": "עוֹלָם",
+        "translations": {
+          "ESV": "Everlasting",
+          "KJB": "Everlasting",
+          "NIV": "Eternal"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Everlasting*|reference=Gen.21.33",
+        "individualVerseReferences": [
+          "Gen.21.33"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Jealous|LORD@Gen.1.1",
+        "dStrongs": "H7067G",
+        "eStrongs": "H7067",
+        "sourceWord": "קַנָּא",
+        "translations": {
+          "ESV": "Jealous",
+          "NIV": "Jealous",
+          "KJB": "Jealous"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Jealous*|reference=Exo.34.14",
+        "individualVerseReferences": [
+          "Exo.34.14"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Hosts|LORD@Gen.1.1",
+        "dStrongs": "H6635B",
+        "eStrongs": "H6635b",
+        "sourceWord": "צָבָא",
+        "translations": {
+          "ESV": "Hosts",
+          "KJB": "Hosts",
+          "NIV": "Almighty"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Hosts*|reference=1Sa.1.3;1Sa.1.11;1Sa.4.4;1Sa.15.2;1Sa.17.45;2Sa.5.10;2Sa.6.2;2Sa.6.18;2Sa.7.8;2Sa.7.26;2Sa.7.27;1Ki.18.15;1Ki.19.10;1Ki.19.14;2Ki.3.14;1Ch.11.9;1Ch.17.7;1Ch.17.24;1Ch.27.3;Psa.24.10;Psa.46.7;Psa.46.11;Psa.48.8;Psa.59.5;Psa.68.12;Psa.69.6;Psa.80.4;Psa.80.7;Psa.80.14;Psa.80.19;Psa.84.1;Psa.84.3;Psa.84.8;Psa.84.12;Psa.89.8;Isa.1.9;Isa.1.24;Isa.2.12;Isa.3.1;Isa.3.15",
+        "individualVerseReferences": [
+          "1Sa.1.3",
+          "1Sa.1.11",
+          "1Sa.4.4",
+          "1Sa.15.2",
+          "1Sa.17.45",
+          "2Sa.5.10",
+          "2Sa.6.2",
+          "2Sa.6.18",
+          "2Sa.7.8",
+          "2Sa.7.26",
+          "2Sa.7.27",
+          "1Ki.18.15",
+          "1Ki.19.10",
+          "1Ki.19.14",
+          "2Ki.3.14",
+          "1Ch.11.9",
+          "1Ch.17.7",
+          "1Ch.17.24",
+          "1Ch.27.3",
+          "Psa.24.10",
+          "Psa.46.7",
+          "Psa.46.11",
+          "Psa.48.8",
+          "Psa.59.5",
+          "Psa.68.12",
+          "Psa.69.6",
+          "Psa.80.4",
+          "Psa.80.7",
+          "Psa.80.14",
+          "Psa.80.19",
+          "Psa.84.1",
+          "Psa.84.3",
+          "Psa.84.8",
+          "Psa.84.12",
+          "Psa.89.8",
+          "Isa.1.9",
+          "Isa.1.24",
+          "Isa.2.12",
+          "Isa.3.1",
+          "Isa.3.15",
+          "Isa.5.7",
+          "Isa.5.9",
+          "Isa.5.16",
+          "Isa.5.24",
+          "Isa.6.3",
+          "Isa.6.5",
+          "Isa.8.13",
+          "Isa.8.18",
+          "Isa.9.7",
+          "Isa.9.13",
+          "Isa.9.19",
+          "Isa.10.16",
+          "Isa.10.23",
+          "Isa.10.24",
+          "Isa.10.26",
+          "Isa.10.33",
+          "Isa.13.4",
+          "Isa.13.13",
+          "Isa.14.22",
+          "Isa.14.23",
+          "Isa.14.24",
+          "Isa.14.27",
+          "Isa.17.3",
+          "Isa.18.7",
+          "Isa.18.7",
+          "Isa.19.4",
+          "Isa.19.12",
+          "Isa.19.16",
+          "Isa.19.17",
+          "Isa.19.18",
+          "Isa.19.20",
+          "Isa.19.25",
+          "Isa.21.10",
+          "Isa.22.5",
+          "Isa.22.12",
+          "Isa.22.14",
+          "Isa.22.14",
+          "Isa.22.15",
+          "Isa.22.25",
+          "Isa.23.9",
+          "Isa.24.23",
+          "Isa.25.6",
+          "Isa.28.5",
+          "Isa.28.22",
+          "Isa.28.29",
+          "Isa.29.6",
+          "Isa.31.4",
+          "Isa.31.5",
+          "Isa.37.16",
+          "Isa.37.32",
+          "Isa.39.5",
+          "Isa.44.6",
+          "Isa.45.13",
+          "Isa.47.4",
+          "Isa.48.2",
+          "Isa.51.15",
+          "Isa.54.5",
+          "Jer.2.19",
+          "Jer.5.14",
+          "Jer.6.6",
+          "Jer.6.9",
+          "Jer.7.3",
+          "Jer.7.21",
+          "Jer.8.3",
+          "Jer.9.7",
+          "Jer.9.15",
+          "Jer.9.17",
+          "Jer.10.16",
+          "Jer.11.17",
+          "Jer.11.20",
+          "Jer.11.22",
+          "Jer.15.16",
+          "Jer.16.9",
+          "Jer.19.3",
+          "Jer.19.11",
+          "Jer.19.15",
+          "Jer.20.12",
+          "Jer.23.15",
+          "Jer.23.16",
+          "Jer.23.36",
+          "Jer.25.8",
+          "Jer.25.27",
+          "Jer.25.28",
+          "Jer.25.29",
+          "Jer.25.32",
+          "Jer.26.18",
+          "Jer.27.4",
+          "Jer.27.18",
+          "Jer.27.19",
+          "Jer.27.21",
+          "Jer.28.2",
+          "Jer.28.14",
+          "Jer.29.4",
+          "Jer.29.8",
+          "Jer.29.17",
+          "Jer.29.21",
+          "Jer.29.25",
+          "Jer.30.8",
+          "Jer.31.23",
+          "Jer.31.35",
+          "Jer.32.14",
+          "Jer.32.15",
+          "Jer.32.18",
+          "Jer.33.11",
+          "Jer.33.12",
+          "Jer.35.13",
+          "Jer.35.17",
+          "Jer.35.18",
+          "Jer.35.19",
+          "Jer.38.17",
+          "Jer.39.16",
+          "Jer.42.15",
+          "Jer.42.18",
+          "Jer.43.10",
+          "Jer.44.2",
+          "Jer.44.7",
+          "Jer.44.11",
+          "Jer.44.25",
+          "Jer.46.10",
+          "Jer.46.10",
+          "Jer.46.18",
+          "Jer.46.25",
+          "Jer.48.1",
+          "Jer.48.15",
+          "Jer.49.5",
+          "Jer.49.7",
+          "Jer.49.26",
+          "Jer.49.35",
+          "Jer.50.18",
+          "Jer.50.25",
+          "Jer.50.31",
+          "Jer.50.33",
+          "Jer.50.34",
+          "Jer.51.5",
+          "Jer.51.14",
+          "Jer.51.19",
+          "Jer.51.33",
+          "Jer.51.57",
+          "Jer.51.58",
+          "Hos.12.5",
+          "Amo.4.13",
+          "Amo.5.14",
+          "Amo.5.15",
+          "Amo.5.16",
+          "Amo.5.27",
+          "Amo.6.8",
+          "Amo.6.14",
+          "Amo.9.5",
+          "Mic.4.4",
+          "Nam.2.13",
+          "Nam.3.5",
+          "Hab.2.13",
+          "Zep.2.9",
+          "Zep.2.10",
+          "Hag.1.2",
+          "Hag.1.5",
+          "Hag.1.7",
+          "Hag.1.9",
+          "Hag.1.14",
+          "Hag.2.4",
+          "Hag.2.6",
+          "Hag.2.7",
+          "Hag.2.8",
+          "Hag.2.9",
+          "Hag.2.9",
+          "Hag.2.11",
+          "Hag.2.23",
+          "Hag.2.23",
+          "Zec.1.3",
+          "Zec.1.3",
+          "Zec.1.3",
+          "Zec.1.4",
+          "Zec.1.6",
+          "Zec.1.12",
+          "Zec.1.14",
+          "Zec.1.16",
+          "Zec.1.17",
+          "Zec.2.8",
+          "Zec.2.9",
+          "Zec.2.11",
+          "Zec.3.7",
+          "Zec.3.9",
+          "Zec.3.10",
+          "Zec.4.6",
+          "Zec.4.9",
+          "Zec.5.4",
+          "Zec.6.12",
+          "Zec.6.15",
+          "Zec.7.3",
+          "Zec.7.4",
+          "Zec.7.9",
+          "Zec.7.12",
+          "Zec.7.12",
+          "Zec.7.13",
+          "Zec.8.1",
+          "Zec.8.2",
+          "Zec.8.3",
+          "Zec.8.4",
+          "Zec.8.6",
+          "Zec.8.6",
+          "Zec.8.7",
+          "Zec.8.9",
+          "Zec.8.9",
+          "Zec.8.11",
+          "Zec.8.14",
+          "Zec.8.14",
+          "Zec.8.18",
+          "Zec.8.19",
+          "Zec.8.20",
+          "Zec.8.21",
+          "Zec.8.22",
+          "Zec.8.23",
+          "Zec.9.15",
+          "Zec.10.3",
+          "Zec.12.5",
+          "Zec.13.2",
+          "Zec.13.7",
+          "Zec.14.16",
+          "Zec.14.17",
+          "Zec.14.21",
+          "Zec.14.21",
+          "Mal.1.4",
+          "Mal.1.6",
+          "Mal.1.8",
+          "Mal.1.9",
+          "Mal.1.10",
+          "Mal.1.11",
+          "Mal.1.13",
+          "Mal.1.14",
+          "Mal.2.2",
+          "Mal.2.4",
+          "Mal.2.7",
+          "Mal.2.8",
+          "Mal.2.12",
+          "Mal.2.16",
+          "Mal.3.1",
+          "Mal.3.5",
+          "Mal.3.7",
+          "Mal.3.10",
+          "Mal.3.11",
+          "Mal.3.12",
+          "Mal.3.14",
+          "Mal.3.17",
+          "Mal.4.1",
+          "Mal.4.3"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Highest|LORD@Gen.1.1",
+        "dStrongs": "G5310",
+        "eStrongs": "G5310",
+        "sourceWord": "ὕψιστος",
+        "translations": {
+          "ESV": "Highest",
+          "NIV": "Highest",
+          "KJB": "Highest"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Most*|reference=Mar.5.7;Luk.1.32;Luk.1.35;Luk.1.76;Luk.6.35;Luk.8.28;Act.7.48;Act.16.17;Heb.7.1",
+        "individualVerseReferences": [
+          "Mrk.5.7",
+          "Luk.1.32",
+          "Luk.1.35",
+          "Luk.1.76",
+          "Luk.6.35",
+          "Luk.8.28",
+          "Act.7.48",
+          "Act.16.17",
+          "Heb.7.1"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Hosts|LORD@Gen.1.1",
+        "dStrongs": "G4519",
+        "eStrongs": "G4519",
+        "sourceWord": "σαβαώθ",
+        "translations": {
+          "ESV": "hosts",
+          "KJB": "sabaoth",
+          "NIV": "Almighty"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=hosts*|reference=Rom.9.29;Jas.5.4",
+        "individualVerseReferences": [
+          "Rom.9.29",
+          "Jas.5.4"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Abba|LORD@Gen.1.1",
+        "dStrongs": "G0005",
+        "eStrongs": "G0005",
+        "sourceWord": "ἀββά",
+        "translations": {
+          "ESV": "Abba",
+          "NIV": "Abba",
+          "KJB": "Abba"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abba*|reference=Mar.14.36;Rom.8.15;Gal.4.6",
+        "individualVerseReferences": [
+          "Mrk.14.36",
+          "Rom.8.15",
+          "Gal.4.6"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Eli|LORD@Gen.1.1",
+        "dStrongs": "G2241",
+        "eStrongs": "G2241",
+        "sourceWord": "ἠλί",
+        "translations": {
+          "ESV": "Eli",
+          "NIV": "Eli",
+          "KJB": "Eli"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Eli*|reference=Mat.27.46",
+        "individualVerseReferences": [
+          "Mat.27.46a",
+          "Mat.27.46b"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Eloi|LORD@Gen.1.1",
+        "dStrongs": "G2241",
+        "eStrongs": "G2241",
+        "sourceWord": "ἠλί",
+        "translations": {
+          "ESV": "Eli",
+          "NIV": "Eli",
+          "KJB": "Eli"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Eli*|reference=Mrk.15.34",
+        "individualVerseReferences": [
+          "Mrk.15.34a",
+          "Mrk.15.34b"
+        ]
+      },
+      {
+        "significance": "- Spelled",
+        "uniqueNameTIPNR": "Eloi|Eli@Mat.27.46",
+        "dStrongs": "G1682",
+        "eStrongs": "G1682",
+        "sourceWord": "ἐλωΐ",
+        "translations": {
+          "ESV": "Eloi",
+          "NIV": "Eloi",
+          "KJB": "Eloi"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Eloi*|reference=Mar.15.34;Mar.15.34",
+        "individualVerseReferences": [
+          "Mat.27.46",
+          "Mrk.15.34a",
+          "Mrk.15.34b"
+        ]
+      }
+    ]
+  },
+  "Lucifer": {
+    "ourID": "Lucifer",
+    "name": "Lucifer",
+    "unifiedNameTIPNR": "Lucifer@Isa.14.12",
+    "uStrongs": "H1966",
+    "description": "An angel at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Day_Star|Lucifer@Isa.14.12",
+        "dStrongs": "H1966",
+        "eStrongs": "H1966",
+        "sourceWord": "הֵילֵל",
+        "translations": {
+          "ESV": "Day Star",
+          "KJB": "Lucifer",
+          "NIV": "morning star"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Day*|reference=Isa.14.12",
+        "individualVerseReferences": [
+          "Isa.14.12"
+        ]
+      }
+    ]
+  },
+  "Mahalath": {
+    "ourID": "Mahalath",
+    "name": "Mahalath",
+    "unifiedNameTIPNR": "Mahalath@Psa.53.1",
+    "uStrongs": "H4257",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Mahalath@Psa.53.1",
+        "dStrongs": "H4257",
+        "eStrongs": "H4257",
+        "sourceWord": "מַחֲלַת",
+        "translations": {
+          "ESV": "Mahalath",
+          "NIV": "Mahalath",
+          "KJB": "Mahalath"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Mahalath*|reference=Psa.53.1;Psa.88.1",
+        "individualVerseReferences": [
+          "Psa.53.1",
+          "Psa.88.1"
+        ]
+      }
+    ]
+  },
+  "Maskil": {
+    "ourID": "Maskil",
+    "name": "Maskil",
+    "unifiedNameTIPNR": "Maskil@Psa.32.1",
+    "uStrongs": "H4905",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Maskil@Psa.32.1",
+        "dStrongs": "H4905",
+        "eStrongs": "H4905",
+        "sourceWord": "מַשְׂכִּיל",
+        "translations": {
+          "ESV": "Maskil",
+          "NIV": "Maskil",
+          "KJB": "Maskil"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Maskil*|reference=Psa.32.1;Psa.42.1;Psa.44.1;Psa.45.1;Psa.47.8;Psa.52.1;Psa.53.1;Psa.54.1;Psa.55.1;Psa.74.1;Psa.78.1;Psa.88.1;Psa.89.1;Psa.142.1",
+        "individualVerseReferences": [
+          "Psa.32.1",
+          "Psa.42.1",
+          "Psa.44.1",
+          "Psa.45.1",
+          "Psa.47.8",
+          "Psa.52.1",
+          "Psa.53.1",
+          "Psa.54.1",
+          "Psa.55.1",
+          "Psa.74.1",
+          "Psa.78.1",
+          "Psa.88.1",
+          "Psa.89.1",
+          "Psa.142.1"
+        ]
+      }
+    ]
+  },
+  "Mazzaroth": {
+    "ourID": "Mazzaroth",
+    "name": "Mazzaroth",
+    "unifiedNameTIPNR": "Mazzaroth@Job.38.32",
+    "uStrongs": "H4216",
+    "description": "A star or constellation",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Mazzaroth@Job.38.32",
+        "dStrongs": "H4216",
+        "eStrongs": "H4216",
+        "sourceWord": "מַזָּרוֹת",
+        "translations": {
+          "ESV": "Mazzaroth",
+          "NIV": "Mazzaroth",
+          "KJB": "Mazzaroth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Mazzaroth*|reference=Job.38.32",
+        "individualVerseReferences": [
+          "Job.38.32"
+        ]
+      }
+    ]
+  },
+  "Merodach": {
+    "ourID": "Merodach",
+    "name": "Merodach",
+    "unifiedNameTIPNR": "Merodach@Jer.50.2",
+    "uStrongs": "H4781",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Merodach@Jer.50.2",
+        "dStrongs": "H4781",
+        "eStrongs": "H4781",
+        "sourceWord": "מְרֹדָךְ",
+        "translations": {
+          "ESV": "Merodach",
+          "NIV": "Merodach",
+          "KJB": "Merodach"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Merodach*|reference=Jer.50.2",
+        "individualVerseReferences": [
+          "Jer.50.2"
+        ]
+      }
+    ]
+  },
+  "Messiah": {
+    "ourID": "Messiah",
+    "name": "Messiah",
+    "unifiedNameTIPNR": "Messiah@Jhn.1.41",
+    "uStrongs": "G3323",
+    "description": "Title of a leader",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Messiah@Jhn.1.41",
+        "dStrongs": "G3323",
+        "eStrongs": "G3323",
+        "sourceWord": "Μεσσίας",
+        "translations": {
+          "ESV": "Messiah",
+          "NIV": "Messiah",
+          "KJB": "Messiah"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Messiah*|reference=Joh.1.41;Joh.4.25",
+        "individualVerseReferences": [
+          "Jhn.1.41",
+          "Jhn.4.25"
+        ]
+      }
+    ]
+  },
+  "Miktam": {
+    "ourID": "Miktam",
+    "name": "Miktam",
+    "unifiedNameTIPNR": "Miktam@Psa.16.1",
+    "uStrongs": "H4387",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Miktam@Psa.16.1",
+        "dStrongs": "H4387",
+        "eStrongs": "H4387",
+        "sourceWord": "מִכְתָּם",
+        "translations": {
+          "ESV": "Miktam",
+          "NIV": "Miktam",
+          "KJB": "Miktam"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Miktam*|reference=Psa.16.1;Psa.56.1;Psa.57.1;Psa.58.1;Psa.59.1;Psa.60.1",
+        "individualVerseReferences": [
+          "Psa.16.1",
+          "Psa.56.1",
+          "Psa.57.1",
+          "Psa.58.1",
+          "Psa.59.1",
+          "Psa.60.1"
+        ]
+      }
+    ]
+  },
+  "Molech": {
+    "ourID": "Molech",
+    "name": "Molech",
+    "unifiedNameTIPNR": "Molech@Lev.18.21",
+    "uStrongs": "H4432",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Molech@Lev.18.21",
+        "dStrongs": "H4432",
+        "eStrongs": "H4432",
+        "sourceWord": "מֹ֫לֶךְ",
+        "translations": {
+          "ESV": "Molech",
+          "KJB": "Molech",
+          "NIV": "Molek"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Molech*|reference=Lev.18.21;Lev.20.2;Lev.20.3;Lev.20.4;Lev.20.5;1Ki.11.7;2Ki.23.10;Jer.32.35",
+        "individualVerseReferences": [
+          "Lev.18.21",
+          "Lev.20.2",
+          "Lev.20.3",
+          "Lev.20.4",
+          "Lev.20.5",
+          "1Ki.11.7",
+          "2Ki.23.10",
+          "Jer.32.35"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Milcom|Molech@Lev.18.21",
+        "dStrongs": "H4428K",
+        "eStrongs": "H4428",
+        "sourceWord": "מֶ֫לֶךְ",
+        "translations": {
+          "ESV": "Milcom",
+          "KJB": "their king",
+          "NIV": "Molek"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Milcom*|reference=Jer.49.1;Jer.49.3",
+        "individualVerseReferences": [
+          "Jer.49.1",
+          "Jer.49.3"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Milcom|Molech@Lev.18.21",
+        "dStrongs": "H4428K",
+        "eStrongs": "H4428",
+        "sourceWord": "מֶ֫לֶךְ",
+        "translations": {
+          "ESV": "Milcom",
+          "KJB": "Malcham",
+          "NIV": "Molek"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Milcom*|reference=Zep.1.5",
+        "individualVerseReferences": [
+          "Zep.1.5"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Milcom|Molech@Lev.18.21",
+        "dStrongs": "H4445B",
+        "eStrongs": "H4445b",
+        "sourceWord": "מִלכֹּם",
+        "translations": {
+          "ESV": "Milcom",
+          "KJB": "Milcom",
+          "NIV": "Molek"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Milcom*|reference=1Ki.11.5;1Ki.11.33;2Ki.23.13",
+        "individualVerseReferences": [
+          "1Ki.11.5",
+          "1Ki.11.33",
+          "2Ki.23.13"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Moloch|Molech@Lev.18.21",
+        "dStrongs": "G3434",
+        "eStrongs": "G3434",
+        "sourceWord": "Μολόχ",
+        "translations": {
+          "ESV": "Moloch",
+          "KJB": "Moloch",
+          "NIV": "Molek"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Moloch*|reference=Act.7.43",
+        "individualVerseReferences": [
+          "Act.7.43"
+        ]
+      }
+    ]
+  },
+  "Muth-labben": {
+    "ourID": "Muth-labben",
+    "name": "Muth-labben",
+    "unifiedNameTIPNR": "Muth-labben@Psa.9.1",
+    "uStrongs": "H4192",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Muth-labben@Psa.9.1",
+        "dStrongs": "H4192",
+        "eStrongs": "H4192",
+        "sourceWord": "לַבֵּן",
+        "translations": {
+          "ESV": "Muth-labben",
+          "KJB": "Methlabben",
+          "NIV": "Death of the Son"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Muth-labben*|reference=Psa.9.1",
+        "individualVerseReferences": [
+          "Psa.9.1"
+        ]
+      }
+    ]
+  },
+  "Nazirite": {
+    "ourID": "Nazirite",
+    "name": "Nazirite",
+    "unifiedNameTIPNR": "Nazirite@Num.6.2",
+    "uStrongs": "H5139",
+    "description": "A group in Old Testament times",
+    "names": [
+      {
+        "significance": "- Group",
+        "uniqueNameTIPNR": "Nazirite@Num.6.2",
+        "dStrongs": "H5139",
+        "eStrongs": "H5139",
+        "sourceWord": "נָזִיר",
+        "translations": {
+          "ESV": "Nazirite",
+          "NIV": "Nazirite",
+          "KJB": "Nazirite"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nazirite*|reference=Num.6.2;Num.6.13;Num.6.18;Num.6.19;Num.6.20;Num.6.21;Jdg.13.5;Jdg.13.7;Jdg.16.17;Amo.2.11;Amo.2.12",
+        "individualVerseReferences": [
+          "Num.6.2",
+          "Num.6.13",
+          "Num.6.18",
+          "Num.6.19",
+          "Num.6.20",
+          "Num.6.21",
+          "Jdg.13.5",
+          "Jdg.13.7",
+          "Jdg.16.17",
+          "Amo.2.11",
+          "Amo.2.12"
+        ]
+      },
+      {
+        "significance": "- Spelled",
+        "uniqueNameTIPNR": "Nazirite@Num.6.2",
+        "dStrongs": "H5145G",
+        "eStrongs": "H5145",
+        "sourceWord": "נֵ֫זֶר",
+        "translations": {
+          "ESV": "Nazirite vow",
+          "NIV": "Nazirite vow",
+          "KJB": "Nazirite vow"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nazirite*|reference=Num.6.21",
+        "individualVerseReferences": [
+          "Num.6.21"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Nazirite@Num.6.2",
+        "dStrongs": "H5145G",
+        "eStrongs": "H5145",
+        "sourceWord": "נֵ֫זֶר",
+        "translations": {
+          "ESV": "Nazirite",
+          "NIV": "Nazirite",
+          "KJB": "Nazirite"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nazirite*|reference=Num.6.21",
+        "individualVerseReferences": [
+          "Num.6.21"
+        ]
+      }
+    ]
+  },
+  "Nebo": {
+    "ourID": "Nebo",
+    "name": "Nebo",
+    "unifiedNameTIPNR": "Nebo@Isa.46.1",
+    "uStrongs": "H5015B",
+    "description": "A non-physical place",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Nebo@Isa.46.1",
+        "dStrongs": "H5015B",
+        "eStrongs": "H5015b",
+        "sourceWord": "נְבוֹ",
+        "translations": {
+          "ESV": "Nebo",
+          "NIV": "Nebo",
+          "KJB": "Nebo"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nebo*|reference=Isa.46.1",
+        "individualVerseReferences": [
+          "Isa.46.1"
+        ]
+      }
+    ]
+  },
+  "Nehushtan": {
+    "ourID": "Nehushtan",
+    "name": "Nehushtan",
+    "unifiedNameTIPNR": "Nehushtan@2Ki.18.4",
+    "uStrongs": "H5180",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Nehushtan@2Ki.18.4",
+        "dStrongs": "H5180",
+        "eStrongs": "H5180",
+        "sourceWord": "נְחֻשְׁתָּן",
+        "translations": {
+          "ESV": "Nehushtan",
+          "NIV": "Nehushtan",
+          "KJB": "Nehushtan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nehushtan*|reference=2Ki.18.4",
+        "individualVerseReferences": [
+          "2Ki.18.4"
+        ]
+      }
+    ]
+  },
+  "Nergal": {
+    "ourID": "Nergal",
+    "name": "Nergal",
+    "unifiedNameTIPNR": "Nergal@2Ki.17.30",
+    "uStrongs": "H5370",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Nergal@2Ki.17.30",
+        "dStrongs": "H5370",
+        "eStrongs": "H5370",
+        "sourceWord": "נֵרְגָּ֑ל",
+        "translations": {
+          "ESV": "Nergal",
+          "NIV": "Nergal",
+          "KJB": "Nergal"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nergal*|reference=2Ki.17.30",
+        "individualVerseReferences": [
+          "2Ki.17.30"
+        ]
+      }
+    ]
+  },
+  "New_Moon": {
+    "ourID": "New_Moon",
+    "name": "New_Moon",
+    "unifiedNameTIPNR": "New_Moon@Col.2.16",
+    "uStrongs": "G3561",
+    "description": "Name of festival",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "New_Moon@Col.2.16",
+        "dStrongs": "G3561",
+        "eStrongs": "G3561",
+        "sourceWord": "νουμηνία",
+        "translations": {
+          "ESV": "New Moon",
+          "NIV": "New Moon",
+          "KJB": "New Moon"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=New*|reference=Col.2.16",
+        "individualVerseReferences": [
+          "Col.2.16"
+        ]
+      }
+    ]
+  },
+  "Nibhaz": {
+    "ourID": "Nibhaz",
+    "name": "Nibhaz",
+    "unifiedNameTIPNR": "Nibhaz@2Ki.17.31",
+    "uStrongs": "H5026",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Nibhaz@2Ki.17.31",
+        "dStrongs": "H5026",
+        "eStrongs": "H5026",
+        "sourceWord": "נִבְחַז",
+        "translations": {
+          "ESV": "Nibhaz",
+          "NIV": "Nibhaz",
+          "KJB": "Nibhaz"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nibhaz*|reference=2Ki.17.31",
+        "individualVerseReferences": [
+          "2Ki.17.31"
+        ]
+      }
+    ]
+  },
+  "Nicolaitans": {
+    "ourID": "Nicolaitans",
+    "name": "Nicolaitans",
+    "unifiedNameTIPNR": "Nicolaitans@Rev.2.6",
+    "uStrongs": "G3531",
+    "description": "A group in New Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Nicolaitans@Rev.2.6",
+        "dStrongs": "G3531",
+        "eStrongs": "G3531",
+        "sourceWord": "Νικολαΐτης",
+        "translations": {
+          "ESV": "Nicolaitan",
+          "NIV": "Nicolaitan",
+          "KJB": "Nicolaitan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nicolaitan*|reference=Rev.2.6;Rev.2.15",
+        "individualVerseReferences": [
+          "Rev.2.6",
+          "Rev.2.15"
+        ]
+      }
+    ]
+  },
+  "Nisroch": {
+    "ourID": "Nisroch",
+    "name": "Nisroch",
+    "unifiedNameTIPNR": "Nisroch@2Ki.19.37",
+    "uStrongs": "H5268",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Nisroch@2Ki.19.37",
+        "dStrongs": "H5268",
+        "eStrongs": "H5268",
+        "sourceWord": "נִסְרֹךְ",
+        "translations": {
+          "ESV": "Nisroch",
+          "NIV": "Nisroch",
+          "KJB": "Nisroch"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Nisroch*|reference=2Ki.19.37;Isa.37.38",
+        "individualVerseReferences": [
+          "2Ki.19.37",
+          "Isa.37.38"
+        ]
+      }
+    ]
+  },
+  "Omega": {
+    "ourID": "Omega",
+    "name": "Omega",
+    "unifiedNameTIPNR": "Omega@Rev.1.8",
+    "uStrongs": "G5598",
+    "description": "Name of a letter",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Omega@Rev.1.8",
+        "dStrongs": "G5598",
+        "eStrongs": "G5598",
+        "sourceWord": "Ὦ",
+        "translations": {
+          "ESV": "Omega",
+          "NIV": "Omega",
+          "KJB": "Omega"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Omega*|reference=Rev.1.8;Rev.1.11;Rev.21.6;Rev.22.13",
+        "individualVerseReferences": [
+          "Rev.1.8",
+          "Rev.1.11",
+          "Rev.21.6",
+          "Rev.22.13"
+        ]
+      }
+    ]
+  },
+  "Orion": {
+    "ourID": "Orion",
+    "name": "Orion",
+    "unifiedNameTIPNR": "Orion@Job.9.9",
+    "uStrongs": "H3685G",
+    "description": "A star or constellation",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Orion@Job.9.9",
+        "dStrongs": "H3685G",
+        "eStrongs": "H3685",
+        "sourceWord": "כְּסִיל",
+        "translations": {
+          "ESV": "Orion",
+          "NIV": "Orion",
+          "KJB": "Orion"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Orion*|reference=Job.9.9;Job.38.31;Amo.5.8",
+        "individualVerseReferences": [
+          "Job.9.9",
+          "Job.38.31",
+          "Amo.5.8"
+        ]
+      }
+    ]
+  },
+  "Passover": {
+    "ourID": "Passover",
+    "name": "Passover",
+    "unifiedNameTIPNR": "Passover@Exo.12.11",
+    "uStrongs": "H6453",
+    "description": "Name of a feastival",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Passover@Exo.12.11",
+        "dStrongs": "H6453",
+        "eStrongs": "H6453",
+        "sourceWord": "פֶּ֫סַח",
+        "translations": {
+          "ESV": "Passover",
+          "NIV": "Passover",
+          "KJB": "Passover"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Passover*|reference=Exo.12.11;Exo.12.27;Exo.12.43;Exo.12.48;Exo.34.25;Lev.23.5;Num.9.2;Num.9.4;Num.9.5;Num.9.6;Num.9.10;Num.9.12;Num.9.13;Num.9.14;Num.9.14;Num.28.16;Num.33.3;Deu.16.1;Deu.16.2;Deu.16.5;Deu.16.6;Jos.5.10;Jos.5.11;2Ki.23.21;2Ki.23.22;2Ki.23.23;2Ch.30.1;2Ch.30.2;2Ch.30.5;2Ch.30.18;2Ch.35.1;2Ch.35.16;2Ch.35.17;2Ch.35.18;2Ch.35.18;2Ch.35.19;Ezr.6.19;Eze.45.21",
+        "individualVerseReferences": [
+          "Exo.12.11",
+          "Exo.12.27",
+          "Exo.12.43",
+          "Exo.12.48",
+          "Exo.34.25",
+          "Lev.23.5",
+          "Num.9.2",
+          "Num.9.4",
+          "Num.9.5",
+          "Num.9.6",
+          "Num.9.10",
+          "Num.9.12",
+          "Num.9.13",
+          "Num.9.14a",
+          "Num.9.14b",
+          "Num.28.16",
+          "Num.33.3",
+          "Deu.16.1",
+          "Deu.16.2",
+          "Deu.16.5",
+          "Deu.16.6",
+          "Jos.5.10",
+          "Jos.5.11",
+          "2Ki.23.21",
+          "2Ki.23.22",
+          "2Ki.23.23",
+          "2Ch.30.1",
+          "2Ch.30.2",
+          "2Ch.30.5",
+          "2Ch.30.18",
+          "2Ch.35.1",
+          "2Ch.35.16",
+          "2Ch.35.17",
+          "2Ch.35.18a",
+          "2Ch.35.18b",
+          "2Ch.35.19",
+          "Ezr.6.19",
+          "Ezk.45.21"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Passover@Exo.12.11",
+        "dStrongs": "H6453",
+        "eStrongs": "H6453",
+        "sourceWord": "פֶּ֫סַח",
+        "translations": {
+          "ESV": "Passover lamb",
+          "NIV": "Passover lamb",
+          "KJB": "Passover lamb"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Passover*|reference=Exo.12.21;2Ch.30.15;2Ch.30.17;2Ch.35.1;2Ch.35.6;2Ch.35.11;2Ch.35.13;Ezr.6.20",
+        "individualVerseReferences": [
+          "Exo.12.21",
+          "2Ch.30.15",
+          "2Ch.30.17",
+          "2Ch.35.1",
+          "2Ch.35.6",
+          "2Ch.35.11",
+          "2Ch.35.13",
+          "Ezr.6.20"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Passover@Exo.12.11",
+        "dStrongs": "H6453",
+        "eStrongs": "H6453",
+        "sourceWord": "פֶּ֫סַח",
+        "translations": {
+          "ESV": "Passover offering",
+          "NIV": "Passover offering",
+          "KJB": "Passover offering"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Passover*|reference=2Ch.35.7;2Ch.35.8;2Ch.35.9",
+        "individualVerseReferences": [
+          "2Ch.35.7",
+          "2Ch.35.8",
+          "2Ch.35.9"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Passover@Exo.12.11",
+        "dStrongs": "G3957",
+        "eStrongs": "G3957",
+        "sourceWord": "πάσχα",
+        "translations": {
+          "ESV": "Passover lamb",
+          "NIV": "Passover lamb",
+          "KJB": "Passover lamb"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Passover*|reference=Mar.14.12;Luk.22.7;1Co.5.7",
+        "individualVerseReferences": [
+          "Mrk.14.12a",
+          "Luk.22.7",
+          "1Co.5.7"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Passover@Exo.12.11",
+        "dStrongs": "G3957",
+        "eStrongs": "G3957",
+        "sourceWord": "πάσχα",
+        "translations": {
+          "ESV": "Passover",
+          "NIV": "Passover",
+          "KJB": "Passover"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Passover*|reference=Mat.26.2;Mat.26.17;Mat.26.18;Mat.26.19;Mar.14.1;Mar.14.12;Mar.14.14;Mar.14.16;Luk.2.41;Luk.22.1;Luk.22.8;Luk.22.11;Luk.22.13;Luk.22.15;Joh.2.13;Joh.2.23;Joh.6.4;Joh.11.55;Joh.11.55;Joh.12.1;Joh.13.1;Joh.18.28;Joh.18.39;Joh.19.14;Act.12.4;Heb.11.28",
+        "individualVerseReferences": [
+          "Mat.26.2",
+          "Mat.26.17",
+          "Mat.26.18",
+          "Mat.26.19",
+          "Mrk.14.1",
+          "Mrk.14.12b",
+          "Mrk.14.14",
+          "Mrk.14.16",
+          "Luk.2.41",
+          "Luk.22.1",
+          "Luk.22.8",
+          "Luk.22.11",
+          "Luk.22.13",
+          "Luk.22.15",
+          "Jhn.2.13",
+          "Jhn.2.23",
+          "Jhn.6.4",
+          "Jhn.11.55a",
+          "Jhn.11.55b",
+          "Jhn.12.1",
+          "Jhn.13.1",
+          "Jhn.18.28",
+          "Jhn.18.39",
+          "Jhn.19.14",
+          "Act.12.4",
+          "Heb.11.28"
+        ]
+      }
+    ]
+  },
+  "Pharisee": {
+    "ourID": "Pharisee",
+    "name": "Pharisee",
+    "unifiedNameTIPNR": "Pharisee@Mat.3.7",
+    "uStrongs": "G5330",
+    "description": "A group in New Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Pharisee@Mat.3.7",
+        "dStrongs": "G5330",
+        "eStrongs": "G5330",
+        "sourceWord": "Φαρισαῖος",
+        "translations": {
+          "ESV": "Pharisee",
+          "NIV": "Pharisee",
+          "KJB": "Pharisee"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Pharisee*|reference=Mat.3.7;Mat.5.20;Mat.9.11;Mat.9.14;Mat.9.34;Mat.12.2;Mat.12.14;Mat.12.24;Mat.12.38;Mat.15.1;Mat.15.12;Mat.16.1;Mat.16.6;Mat.16.11;Mat.16.12;Mat.19.3;Mat.21.45;Mat.22.15;Mat.22.34;Mat.22.41;Mat.23.2;Mat.23.13;Mat.23.15;Mat.23.23;Mat.23.25;Mat.23.26;Mat.23.27;Mat.23.29;Mat.27.62;Mar.2.16;Mar.2.18;Mar.2.18;Mar.2.24;Mar.3.6;Mar.7.1;Mar.7.3;Mar.7.5;Mar.8.11;Mar.8.15;Mar.10.2",
+        "individualVerseReferences": [
+          "Mat.3.7",
+          "Mat.5.20",
+          "Mat.9.11",
+          "Mat.9.14",
+          "Mat.9.34",
+          "Mat.12.2",
+          "Mat.12.14",
+          "Mat.12.24",
+          "Mat.12.38",
+          "Mat.15.1",
+          "Mat.15.12",
+          "Mat.16.1",
+          "Mat.16.6",
+          "Mat.16.11",
+          "Mat.16.12",
+          "Mat.19.3",
+          "Mat.21.45",
+          "Mat.22.15",
+          "Mat.22.34",
+          "Mat.22.41",
+          "Mat.23.2",
+          "Mat.23.13",
+          "Mat.23.15",
+          "Mat.23.23",
+          "Mat.23.25",
+          "Mat.23.26",
+          "Mat.23.27",
+          "Mat.23.29",
+          "Mat.27.41",
+          "Mat.27.62",
+          "Mrk.2.16",
+          "Mrk.2.18a",
+          "Mrk.2.18b",
+          "Mrk.2.24",
+          "Mrk.3.6",
+          "Mrk.7.1",
+          "Mrk.7.3",
+          "Mrk.7.5",
+          "Mrk.8.11",
+          "Mrk.8.15",
+          "Mrk.10.2",
+          "Mrk.12.13",
+          "Luk.5.17",
+          "Luk.5.21",
+          "Luk.5.30",
+          "Luk.5.33",
+          "Luk.6.2",
+          "Luk.6.7",
+          "Luk.7.30",
+          "Luk.7.36a",
+          "Luk.7.36b",
+          "Luk.7.37",
+          "Luk.7.39",
+          "Luk.11.37",
+          "Luk.11.38",
+          "Luk.11.39",
+          "Luk.11.42",
+          "Luk.11.43",
+          "Luk.11.53",
+          "Luk.12.1",
+          "Luk.13.31",
+          "Luk.14.1",
+          "Luk.14.3",
+          "Luk.15.2",
+          "Luk.16.14",
+          "Luk.17.20",
+          "Luk.18.10",
+          "Luk.18.11",
+          "Luk.19.39",
+          "Jhn.1.24",
+          "Jhn.3.1",
+          "Jhn.4.1",
+          "Jhn.7.32a",
+          "Jhn.7.32b",
+          "Jhn.7.45",
+          "Jhn.7.47",
+          "Jhn.7.48",
+          "Jhn.8.3",
+          "Jhn.8.13",
+          "Jhn.9.13",
+          "Jhn.9.15",
+          "Jhn.9.16",
+          "Jhn.9.40",
+          "Jhn.11.46",
+          "Jhn.11.47",
+          "Jhn.11.57",
+          "Jhn.12.19",
+          "Jhn.12.42",
+          "Jhn.18.3",
+          "Act.5.34",
+          "Act.15.5",
+          "Act.23.6a",
+          "Act.23.6b",
+          "Act.23.6c",
+          "Act.23.7",
+          "Act.23.8",
+          "Act.23.9",
+          "Act.26.5",
+          "Php.3.5"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Pharisee@Mat.3.7",
+        "dStrongs": "G5330",
+        "eStrongs": "G5330",
+        "sourceWord": "Φαρισαῖος",
+        "translations": {
+          "ESV": "[ ]",
+          "NIV": "[ ]",
+          "KJB": "Pharisee"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=[*|reference=Mat.23.14;Luk.11.44",
+        "individualVerseReferences": [
+          "Mat.23.14",
+          "Luk.11.44"
+        ]
+      }
+    ]
+  },
+  "Pleiades": {
+    "ourID": "Pleiades",
+    "name": "Pleiades",
+    "unifiedNameTIPNR": "Pleiades@Job.9.9",
+    "uStrongs": "H3598",
+    "description": "A star or constellation",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Pleiades@Job.9.9",
+        "dStrongs": "H3598",
+        "eStrongs": "H3598",
+        "sourceWord": "כִּימָה",
+        "translations": {
+          "ESV": "Pleiades",
+          "NIV": "Pleiades",
+          "KJB": "Pleiades"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Pleiades*|reference=Job.9.9;Job.38.31;Amo.5.8",
+        "individualVerseReferences": [
+          "Job.9.9",
+          "Job.38.31",
+          "Amo.5.8"
+        ]
+      }
+    ]
+  },
+  "Preparation_Festival": {
+    "ourID": "Preparation_Festival",
+    "name": "Preparation_Festival",
+    "unifiedNameTIPNR": "Preparation_Festival@Mat.27.62",
+    "uStrongs": "G3904",
+    "description": "Name of festival",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Preparation_Festival@Mat.27.62",
+        "dStrongs": "G3904",
+        "eStrongs": "G3904",
+        "sourceWord": "παρασκευή",
+        "translations": {
+          "ESV": "Preparation",
+          "NIV": "Preparation",
+          "KJB": "Preparation"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Preparation*|reference=Mat.27.62;Mar.15.42;Luk.23.54;Joh.19.14;Joh.19.31;Joh.19.31;Joh.19.42",
+        "individualVerseReferences": [
+          "Mat.27.62",
+          "Mrk.15.42",
+          "Luk.23.54",
+          "Jhn.19.14",
+          "Jhn.19.31a",
+          "Jhn.19.31b",
+          "Jhn.19.42"
+        ]
+      }
+    ]
+  },
+  "Purim": {
+    "ourID": "Purim",
+    "name": "Purim",
+    "unifiedNameTIPNR": "Purim@Est.3.7",
+    "uStrongs": "H6332",
+    "description": "Name of a feastival",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Purim@Est.3.7",
+        "dStrongs": "H6332",
+        "eStrongs": "H6332",
+        "sourceWord": "פּוּר",
+        "translations": {
+          "ESV": "Purim",
+          "NIV": "Purim",
+          "KJB": "Purim"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Purim*|reference=Est.9.26;Est.9.28;Est.9.29;Est.9.31;Est.9.32",
+        "individualVerseReferences": [
+          "Est.9.26",
+          "Est.9.28",
+          "Est.9.29",
+          "Est.9.31",
+          "Est.9.32"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Pur|Purim@Est.3.7",
+        "dStrongs": "H6332",
+        "eStrongs": "H6332",
+        "sourceWord": "פּוּר",
+        "translations": {
+          "ESV": "Pur",
+          "NIV": "Pur",
+          "KJB": "Pur"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Pur*|reference=Est.3.7;Est.9.24;Est.9.26",
+        "individualVerseReferences": [
+          "Est.3.7",
+          "Est.9.24",
+          "Est.9.26"
+        ]
+      }
+    ]
+  },
+  "Rabbi": {
+    "ourID": "Rabbi",
+    "name": "Rabbi",
+    "unifiedNameTIPNR": "Rabbi@Mat.23.7",
+    "uStrongs": "G4461",
+    "description": "Title of a leader",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Rabbi@Mat.23.7",
+        "dStrongs": "G4461",
+        "eStrongs": "G4461",
+        "sourceWord": "ῥαββί",
+        "translations": {
+          "ESV": "Rabbi",
+          "NIV": "Rabbi",
+          "KJB": "Rabbi"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Rabbi*|reference=Mat.23.7;Mat.23.7;Mat.23.8;Mat.26.25;Mat.26.49;Mar.9.5;Mar.11.21;Mar.14.45;Joh.1.38;Joh.1.49;Joh.3.2;Joh.3.26;Joh.4.31;Joh.6.25;Joh.9.2;Joh.11.8",
+        "individualVerseReferences": [
+          "Mat.23.7a",
+          "Mat.23.7b",
+          "Mat.23.8",
+          "Mat.26.25",
+          "Mat.26.49",
+          "Mrk.9.5",
+          "Mrk.11.21",
+          "Mrk.14.45",
+          "Jhn.1.38",
+          "Jhn.1.49",
+          "Jhn.3.2",
+          "Jhn.3.26",
+          "Jhn.4.31",
+          "Jhn.6.25",
+          "Jhn.9.2",
+          "Jhn.11.8"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Rabboni|Rabbi@Mat.23.7",
+        "dStrongs": "G4462",
+        "eStrongs": "G4462",
+        "sourceWord": "ῥαββονί",
+        "translations": {
+          "ESV": "Rabboni",
+          "NIV": "Rabboni",
+          "KJB": "Rabboni"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Rabboni*|reference=Joh.20.16",
+        "individualVerseReferences": [
+          "Jhn.20.16"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Rabbi@Mat.23.7",
+        "dStrongs": "G4462",
+        "eStrongs": "G4462",
+        "sourceWord": "ῥαββονί",
+        "translations": {
+          "ESV": "Rabbi",
+          "NIV": "Rabbi",
+          "KJB": "Rabbi"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Rabbi*|reference=Mar.10.51",
+        "individualVerseReferences": [
+          "Mrk.10.51"
+        ]
+      }
+    ]
+  },
+  "Raca": {
+    "ourID": "Raca",
+    "name": "Raca",
+    "unifiedNameTIPNR": "Raca@Mat.5.22",
+    "uStrongs": "G4469",
+    "description": "Title of disrespect",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Raca@Mat.5.22",
+        "dStrongs": "G4469",
+        "eStrongs": "G4469",
+        "sourceWord": "ῥακά",
+        "translations": {
+          "ESV": "fool",
+          "KJB": "Raca",
+          "NIV": "Raca"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=fool*|reference=Mat.5.22",
+        "individualVerseReferences": [
+          "Mat.5.22"
+        ]
+      }
+    ]
+  },
+  "Rahab": {
+    "ourID": "Rahab",
+    "name": "Rahab",
+    "unifiedNameTIPNR": "Rahab@Job.9.13",
+    "uStrongs": "H7294",
+    "description": "A monster",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Rahab@Job.9.13",
+        "dStrongs": "H7294",
+        "eStrongs": "H7294",
+        "sourceWord": "רַ֫הַב",
+        "translations": {
+          "ESV": "Rahab",
+          "NIV": "Rahab",
+          "KJB": "Rahab"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Rahab*|reference=Job.9.13;Job.26.12;Psa.89.10;Isa.51.9",
+        "individualVerseReferences": [
+          "Job.9.13",
+          "Job.26.12",
+          "Psa.89.10",
+          "Isa.51.9"
+        ]
+      }
+    ]
+  },
+  "Rephan": {
+    "ourID": "Rephan",
+    "name": "Rephan",
+    "unifiedNameTIPNR": "Rephan@Act.7.43",
+    "uStrongs": "G4481",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Rephan@Act.7.43",
+        "dStrongs": "G4481",
+        "eStrongs": "G4481",
+        "sourceWord": "Ῥεφάν, Ῥαιφάν, Ῥομφά, Ῥεμφάν",
+        "translations": {
+          "ESV": "Rephan",
+          "NIV": "Rephan",
+          "KJB": "Rephan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Rephan*|reference=Act.7.43",
+        "individualVerseReferences": [
+          "Act.7.43"
+        ]
+      }
+    ]
+  },
+  "Rimmon": {
+    "ourID": "Rimmon",
+    "name": "Rimmon",
+    "unifiedNameTIPNR": "Rimmon@2Ki.5.18",
+    "uStrongs": "H7417A",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Rimmon@2Ki.5.18",
+        "dStrongs": "H7417A",
+        "eStrongs": "H7417a",
+        "sourceWord": "רִמּוֹן",
+        "translations": {
+          "ESV": "Rimmon",
+          "NIV": "Rimmon",
+          "KJB": "Rimmon"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Rimmon*|reference=2Ki.5.18;2Ki.5.18;2Ki.5.18",
+        "individualVerseReferences": [
+          "2Ki.5.18a",
+          "2Ki.5.18b",
+          "2Ki.5.18c"
+        ]
+      }
+    ]
+  },
+  "Sabbath": {
+    "ourID": "Sabbath",
+    "name": "Sabbath",
+    "unifiedNameTIPNR": "Sabbath@Exo.16.23",
+    "uStrongs": "H7676",
+    "description": "Name of a feastival",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Sabbath@Exo.16.23",
+        "dStrongs": "H7676",
+        "eStrongs": "H7676",
+        "sourceWord": "שַׁבָּת",
+        "translations": {
+          "ESV": "Sabbath",
+          "NIV": "Sabbath",
+          "KJB": "Sabbath"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sabbath*|reference=Exo.16.23;Exo.16.25;Exo.16.26;Exo.16.29;Exo.20.8;Exo.20.10;Exo.20.11;Exo.31.13;Exo.31.14;Exo.31.15;Exo.31.15;Exo.31.16;Exo.31.16;Exo.35.2;Exo.35.3;Lev.16.31;Lev.19.3;Lev.19.30;Lev.23.3;Lev.23.3;Lev.23.11;Lev.23.15;Lev.23.16;Lev.23.32;Lev.23.32;Lev.23.38;Lev.24.8;Lev.25.2;Lev.25.4;Lev.25.4;Lev.25.6;Lev.26.2;Lev.26.34;Lev.26.34;Lev.26.35;Lev.26.43;Num.15.32;Num.28.9;Num.28.10;Deu.5.12",
+        "individualVerseReferences": [
+          "Exo.16.23",
+          "Exo.16.25",
+          "Exo.16.26",
+          "Exo.16.29",
+          "Exo.20.8",
+          "Exo.20.10",
+          "Exo.20.11",
+          "Exo.31.13",
+          "Exo.31.14",
+          "Exo.31.15a",
+          "Exo.31.15b",
+          "Exo.31.16a",
+          "Exo.31.16b",
+          "Exo.35.2",
+          "Exo.35.3",
+          "Lev.16.31",
+          "Lev.19.3",
+          "Lev.19.30",
+          "Lev.23.3a",
+          "Lev.23.3b",
+          "Lev.23.11",
+          "Lev.23.15",
+          "Lev.23.16",
+          "Lev.23.32a",
+          "Lev.23.32b",
+          "Lev.23.38",
+          "Lev.24.8",
+          "Lev.25.2",
+          "Lev.25.4a",
+          "Lev.25.4b",
+          "Lev.25.6",
+          "Lev.26.2",
+          "Lev.26.34a",
+          "Lev.26.34b",
+          "Lev.26.35",
+          "Lev.26.43",
+          "Num.15.32",
+          "Num.28.9",
+          "Num.28.10",
+          "Deu.5.12",
+          "Deu.5.14",
+          "Deu.5.15",
+          "2Ki.4.23",
+          "2Ki.11.5",
+          "2Ki.11.7",
+          "2Ki.11.9a",
+          "2Ki.11.9b",
+          "2Ki.16.18",
+          "1Ch.9.32",
+          "1Ch.23.31",
+          "2Ch.2.4",
+          "2Ch.8.13",
+          "2Ch.23.4",
+          "2Ch.23.8a",
+          "2Ch.23.8b",
+          "2Ch.31.3",
+          "2Ch.36.21",
+          "Neh.9.14",
+          "Neh.10.31a",
+          "Neh.10.31b",
+          "Neh.10.33",
+          "Neh.13.15a",
+          "Neh.13.15b",
+          "Neh.13.16",
+          "Neh.13.17",
+          "Neh.13.18",
+          "Neh.13.19a",
+          "Neh.13.19b",
+          "Neh.13.19c",
+          "Neh.13.21",
+          "Neh.13.22",
+          "Isa.1.13",
+          "Isa.56.2",
+          "Isa.56.4",
+          "Isa.56.6",
+          "Isa.58.13a",
+          "Isa.58.13b",
+          "Isa.66.23a",
+          "Isa.66.23b",
+          "Jer.17.21",
+          "Jer.17.22a",
+          "Jer.17.22b",
+          "Jer.17.24a",
+          "Jer.17.24b",
+          "Jer.17.27a",
+          "Jer.17.27b",
+          "Lam.2.6",
+          "Ezk.20.12",
+          "Ezk.20.13",
+          "Ezk.20.16",
+          "Ezk.20.20",
+          "Ezk.20.21",
+          "Ezk.20.24",
+          "Ezk.22.8",
+          "Ezk.22.26",
+          "Ezk.23.38",
+          "Ezk.44.24",
+          "Ezk.45.17",
+          "Ezk.46.1",
+          "Ezk.46.3",
+          "Ezk.46.4",
+          "Ezk.46.12",
+          "Hos.2.11",
+          "Amo.8.5"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Sabbath@Exo.16.23",
+        "dStrongs": "G4315",
+        "eStrongs": "G4315",
+        "sourceWord": "προσάββατον",
+        "translations": {
+          "ESV": "Sabbath",
+          "NIV": "Sabbath",
+          "KJB": "Sabbath"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sabbath*|reference=Mar.15.42",
+        "individualVerseReferences": [
+          "Mrk.15.42"
+        ]
+      },
+      {
+        "significance": "- Spelled",
+        "uniqueNameTIPNR": "Sabbath@Exo.16.23",
+        "dStrongs": "G4521",
+        "eStrongs": "G4521",
+        "sourceWord": "σάββατον",
+        "translations": {
+          "ESV": "Sabbath",
+          "NIV": "Sabbath",
+          "KJB": "Sabbath"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sabbath*|reference=Mat.12.1;Mat.12.2;Mat.12.5;Mat.12.5;Mat.12.8;Mat.12.10;Mat.12.11;Mat.12.12;Mat.24.20;Mat.28.1;Mar.1.21;Mar.2.23;Mar.2.24;Mar.2.27;Mar.2.27;Mar.2.28;Mar.3.2;Mar.3.4;Mar.6.2;Mar.16.1;Luk.4.16;Luk.4.31;Luk.6.1;Luk.6.2;Luk.6.5;Luk.6.6;Luk.6.7;Luk.6.9;Luk.13.10;Luk.13.14;Luk.13.14;Luk.13.15;Luk.13.16;Luk.14.1;Luk.14.3;Luk.14.5;Luk.23.54;Luk.23.56;Joh.5.9;Joh.5.10",
+        "individualVerseReferences": [
+          "Mat.12.1",
+          "Mat.12.2",
+          "Mat.12.5a",
+          "Mat.12.5b",
+          "Mat.12.8",
+          "Mat.12.10",
+          "Mat.12.11",
+          "Mat.12.12",
+          "Mat.15.42",
+          "Mat.12.12",
+          "Mat.24.20",
+          "Mat.28.1a",
+          "Mrk.1.21",
+          "Mrk.2.23",
+          "Mrk.2.24",
+          "Mrk.2.27a",
+          "Mrk.2.27b",
+          "Mrk.2.28",
+          "Mrk.3.2",
+          "Mrk.3.4",
+          "Mrk.6.2",
+          "Mrk.16.1",
+          "Luk.4.16",
+          "Luk.4.31",
+          "Luk.6.1",
+          "Luk.6.2",
+          "Luk.6.5",
+          "Luk.6.6",
+          "Luk.6.7",
+          "Luk.6.9",
+          "Luk.13.10",
+          "Luk.13.14a",
+          "Luk.13.14b",
+          "Luk.13.15",
+          "Luk.13.16",
+          "Luk.14.1",
+          "Luk.14.3",
+          "Luk.14.5",
+          "Luk.23.54",
+          "Luk.23.56",
+          "Jhn.5.9",
+          "Jhn.5.10",
+          "Jhn.5.16",
+          "Jhn.5.18",
+          "Jhn.7.22",
+          "Jhn.7.23a",
+          "Jhn.7.23b",
+          "Jhn.9.14",
+          "Jhn.9.16",
+          "Jhn.19.31a",
+          "Jhn.19.31b",
+          "Act.1.12",
+          "Act.13.14",
+          "Act.13.27",
+          "Act.13.42",
+          "Act.13.44",
+          "Act.15.21",
+          "Act.16.13",
+          "Act.17.2",
+          "Act.18.4",
+          "Act.20.7",
+          "Col.2.16"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "week|Sabbath@Exo.16.23",
+        "dStrongs": "G4521",
+        "eStrongs": "G4521",
+        "sourceWord": "σάββατον",
+        "translations": {
+          "ESV": "week",
+          "NIV": "week",
+          "KJB": "week"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=week*|reference=Mat.28.1;Mar.16.2;Mar.16.9;Luk.18.12;Luk.24.1;Joh.20.1;Joh.20.19;1Co.16.2;1Co.16.2",
+        "individualVerseReferences": [
+          "Mat.28.1b",
+          "Mrk.16.2",
+          "Mrk.16.9",
+          "Luk.18.12",
+          "Luk.24.1",
+          "Jhn.20.1",
+          "Jhn.20.19",
+          "1Co.16.2a",
+          "1Co.16.2b"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Sabbath@Exo.16.23",
+        "dStrongs": "G4520",
+        "eStrongs": "G4520",
+        "sourceWord": "σαββατισμός",
+        "translations": {
+          "ESV": "Sabbath rest",
+          "NIV": "Sabbath rest",
+          "KJB": "Sabbath rest"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sabbath*|reference=Heb.4.9",
+        "individualVerseReferences": [
+          "Heb.4.9"
+        ]
+      }
+    ]
+  },
+  "Sadducee": {
+    "ourID": "Sadducee",
+    "name": "Sadducee",
+    "unifiedNameTIPNR": "Sadducee@Mat.3.7",
+    "uStrongs": "G4523",
+    "description": "A group in New Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Sadducee@Mat.3.7",
+        "dStrongs": "G4523",
+        "eStrongs": "G4523",
+        "sourceWord": "Σαδδουκαῖος",
+        "translations": {
+          "ESV": "Sadducee",
+          "NIV": "Sadducee",
+          "KJB": "Sadducee"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sadducee*|reference=Mat.3.7;Mat.16.1;Mat.16.6;Mat.16.11;Mat.16.12;Mat.22.23;Mat.22.34;Mar.12.18;Luk.20.27;Act.4.1;Act.5.17;Act.23.6;Act.23.7;Act.23.8",
+        "individualVerseReferences": [
+          "Mat.3.7",
+          "Mat.16.1",
+          "Mat.16.6",
+          "Mat.16.11",
+          "Mat.16.12",
+          "Mat.22.23",
+          "Mat.22.34",
+          "Mrk.12.18",
+          "Luk.20.27",
+          "Act.4.1",
+          "Act.5.17",
+          "Act.23.6",
+          "Act.23.7",
+          "Act.23.8"
+        ]
+      }
+    ]
+  },
+  "Satan": {
+    "ourID": "Satan",
+    "name": "Satan",
+    "unifiedNameTIPNR": "Satan@Deu.13.13",
+    "uStrongs": "H7854",
+    "description": "An angel at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Satan@Deu.13.13",
+        "dStrongs": "H7854",
+        "eStrongs": "H7854",
+        "sourceWord": "שָׂטָן",
+        "translations": {
+          "ESV": "Satan",
+          "NIV": "Satan",
+          "KJB": "Satan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Satan*|reference=1Ch.21.1;Job.1.6;Job.1.7;Job.1.7;Job.1.8;Job.1.9;Job.1.12;Job.1.12;Job.2.1;Job.2.2;Job.2.2;Job.2.3;Job.2.4;Job.2.6;Job.2.7;Zec.3.1;Zec.3.2;Zec.3.2",
+        "individualVerseReferences": [
+          "1Ch.21.1",
+          "Job.1.6",
+          "Job.1.7a",
+          "Job.1.7b",
+          "Job.1.8",
+          "Job.1.9",
+          "Job.1.12a",
+          "Job.1.12b",
+          "Job.2.1",
+          "Job.2.2a",
+          "Job.2.2b",
+          "Job.2.3",
+          "Job.2.4",
+          "Job.2.6",
+          "Job.2.7",
+          "Zec.3.1",
+          "Zec.3.2a",
+          "Zec.3.2b"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "accuser|Satan@Deu.13.13",
+        "dStrongs": "H7854",
+        "eStrongs": "H7854",
+        "sourceWord": "שָׂטָן",
+        "translations": {
+          "ESV": "accuser",
+          "NIV": "accuser",
+          "KJB": "Satan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=accuser*|reference=Psa.109.6",
+        "individualVerseReferences": [
+          "Psa.109.6"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "worthless|Satan@Deu.13.13",
+        "dStrongs": "H1100G",
+        "eStrongs": "H1100",
+        "sourceWord": "בְּלִיַּ֫עַל",
+        "translations": {
+          "ESV": "worthless",
+          "KJB": "Belial",
+          "NIV": "troublemakers"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=worthless*|reference=Deu.13.13;1Sa.30.22;2Sa.20.1",
+        "individualVerseReferences": [
+          "Deu.13.13",
+          "1Sa.30.22",
+          "2Sa.20.1"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "worthless|Satan@Deu.13.13",
+        "dStrongs": "H1100G",
+        "eStrongs": "H1100",
+        "sourceWord": "בְּלִיַּ֫עַל",
+        "translations": {
+          "ESV": "worthless",
+          "KJB": "Belial",
+          "NIV": "wicked"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=worthless*|reference=Jdg.19.22;Jdg.20.13;1Sa.1.16;1Sa.25.17;1Sa.25.25",
+        "individualVerseReferences": [
+          "Jdg.19.22",
+          "Jdg.20.13",
+          "1Sa.1.16",
+          "1Sa.25.17",
+          "1Sa.25.25"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "worthless|Satan@Deu.13.13",
+        "dStrongs": "H1100G",
+        "eStrongs": "H1100",
+        "sourceWord": "בְּלִיַּ֫עַל",
+        "translations": {
+          "ESV": "worthless",
+          "KJB": "Belial",
+          "NIV": "evil"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=worthless*|reference=2Sa.23.6",
+        "individualVerseReferences": [
+          "2Sa.23.6"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "worthless|Satan@Deu.13.13",
+        "dStrongs": "H1100G",
+        "eStrongs": "H1100",
+        "sourceWord": "בְּלִיַּ֫עַל",
+        "translations": {
+          "ESV": "worthless",
+          "KJB": "Belial",
+          "NIV": "scoundrel"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=worthless*|reference=1Sa.2.12;1Sa.10.27;2Sa.16.7;1Ki.21.10;1Ki.21.13",
+        "individualVerseReferences": [
+          "1Sa.2.12",
+          "1Sa.10.27",
+          "2Sa.16.7",
+          "1Ki.21.10",
+          "1Ki.21.13"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "scoundrel|Satan@Deu.13.13",
+        "dStrongs": "H1100G",
+        "eStrongs": "H1100",
+        "sourceWord": "בְּלִיַּ֫עַל",
+        "translations": {
+          "ESV": "scoundrel",
+          "NIV": "scoundrel",
+          "KJB": "Belial"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=scoundrel*|reference=2Ch.13.7",
+        "individualVerseReferences": [
+          "2Ch.13.7"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Beelzebub|Satan@Deu.13.13",
+        "dStrongs": "G0954",
+        "eStrongs": "G0954",
+        "sourceWord": "Βεελζεβούλ",
+        "translations": {
+          "ESV": "Beelzebul",
+          "NIV": "Beelzebul",
+          "KJB": "Beelzebub"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Beelzebul*|reference=Mat.10.25;Mat.12.24;Mat.12.27;Mar.3.22;Luk.11.15;Luk.11.18;Luk.11.19",
+        "individualVerseReferences": [
+          "Mat.10.25",
+          "Mat.12.24",
+          "Mat.12.27",
+          "Mrk.3.22",
+          "Luk.11.15",
+          "Luk.11.18",
+          "Luk.11.19"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Belial|Satan@Deu.13.13",
+        "dStrongs": "G0955",
+        "eStrongs": "G0955",
+        "sourceWord": "Βελίαλ",
+        "translations": {
+          "ESV": "Belial",
+          "NIV": "Belial",
+          "KJB": "Belial"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Belial*|reference=2Co.6.15",
+        "individualVerseReferences": [
+          "2Co.6.15"
+        ]
+      },
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Satan@Deu.13.13",
+        "dStrongs": "G4566",
+        "eStrongs": "G4566",
+        "sourceWord": "Σατάν",
+        "translations": {
+          "ESV": "Satan",
+          "NIV": "Satan",
+          "KJB": "Satan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Satan*|reference=2Co.12.7",
+        "individualVerseReferences": [
+          "2Co.12.7"
+        ]
+      },
+      {
+        "significance": "- Spelled",
+        "uniqueNameTIPNR": "Satan@Deu.13.13",
+        "dStrongs": "G4567",
+        "eStrongs": "G4567",
+        "sourceWord": "Σατανᾶς",
+        "translations": {
+          "ESV": "[ ]",
+          "NIV": "[ ]",
+          "KJB": "Satan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=[*|reference=Luk.4.8",
+        "individualVerseReferences": [
+          "Luk.4.8"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Satan@Deu.13.13",
+        "dStrongs": "G4567",
+        "eStrongs": "G4567",
+        "sourceWord": "Σατανᾶς",
+        "translations": {
+          "ESV": "Satan",
+          "NIV": "Satan",
+          "KJB": "Satan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Satan*|reference=Mat.4.10;Mat.12.26;Mat.12.26;Mat.16.23;Mar.1.13;Mar.3.23;Mar.3.23;Mar.3.26;Mar.4.15;Mar.8.33;Luk.10.18;Luk.11.18;Luk.13.16;Luk.22.3;Luk.22.31;Joh.13.27;Act.5.3;Act.26.18;Rom.16.20;1Co.5.5;1Co.7.5;2Co.2.11;2Co.11.14;1Th.2.18;2Th.2.9;1Ti.1.20;1Ti.5.15;Rev.2.9;Rev.2.13;Rev.2.13;Rev.2.24;Rev.3.9;Rev.12.9;Rev.20.2;Rev.20.7",
+        "individualVerseReferences": [
+          "Mat.4.10",
+          "Mat.12.26a",
+          "Mat.12.26b",
+          "Mat.16.23",
+          "Mrk.1.13",
+          "Mrk.3.23a",
+          "Mrk.3.23b",
+          "Mrk.3.26",
+          "Mrk.4.15",
+          "Mrk.8.33",
+          "Luk.10.18",
+          "Luk.11.18",
+          "Luk.13.16",
+          "Luk.22.3",
+          "Luk.22.31",
+          "Jhn.13.27",
+          "Act.5.3",
+          "Act.26.18",
+          "Rom.16.20",
+          "1Co.5.5",
+          "1Co.7.5",
+          "2Co.2.11",
+          "2Co.11.14",
+          "1Th.2.18",
+          "2Th.2.9",
+          "1Ti.1.20",
+          "1Ti.5.15",
+          "Rev.2.9",
+          "Rev.2.13a",
+          "Rev.2.13b",
+          "Rev.2.24",
+          "Rev.3.9",
+          "Rev.12.9",
+          "Rev.20.2",
+          "Rev.20.7"
+        ]
+      }
+    ]
+  },
+  "Selah": {
+    "ourID": "Selah",
+    "name": "Selah",
+    "unifiedNameTIPNR": "Selah@Psa.3.2",
+    "uStrongs": "H5542",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Selah@Psa.3.2",
+        "dStrongs": "H5542",
+        "eStrongs": "H5542",
+        "sourceWord": "סֶ֫לָה",
+        "translations": {
+          "ESV": "Selah",
+          "NIV": "Selah",
+          "KJB": "Selah"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Selah*|reference=Psa.3.2;Psa.3.4;Psa.3.8;Psa.4.2;Psa.4.4;Psa.7.5;Psa.9.16;Psa.9.20;Psa.20.3;Psa.21.2;Psa.24.6;Psa.24.10;Psa.32.4;Psa.32.5;Psa.32.7;Psa.39.5;Psa.39.11;Psa.44.8;Psa.46.3;Psa.46.7;Psa.46.11;Psa.47.4;Psa.48.8;Psa.49.13;Psa.49.15;Psa.50.6;Psa.52.3;Psa.52.5;Psa.54.3;Psa.55.7;Psa.55.19;Psa.57.3;Psa.57.6;Psa.59.5;Psa.59.13;Psa.60.4;Psa.61.4;Psa.62.4;Psa.62.8;Psa.66.4",
+        "individualVerseReferences": [
+          "Psa.3.2",
+          "Psa.3.4",
+          "Psa.3.8",
+          "Psa.4.2",
+          "Psa.4.4",
+          "Psa.7.5",
+          "Psa.9.16",
+          "Psa.9.20",
+          "Psa.20.3",
+          "Psa.21.2",
+          "Psa.24.6",
+          "Psa.24.10",
+          "Psa.32.4",
+          "Psa.32.5",
+          "Psa.32.7",
+          "Psa.39.5",
+          "Psa.39.11",
+          "Psa.44.8",
+          "Psa.46.3",
+          "Psa.46.7",
+          "Psa.46.11",
+          "Psa.47.4",
+          "Psa.48.8",
+          "Psa.49.13",
+          "Psa.49.15",
+          "Psa.50.6",
+          "Psa.52.3",
+          "Psa.52.5",
+          "Psa.54.3",
+          "Psa.55.7",
+          "Psa.55.19",
+          "Psa.57.3",
+          "Psa.57.6",
+          "Psa.59.5",
+          "Psa.59.13",
+          "Psa.60.4",
+          "Psa.61.4",
+          "Psa.62.4",
+          "Psa.62.8",
+          "Psa.66.4",
+          "Psa.66.7",
+          "Psa.66.15",
+          "Psa.67.1",
+          "Psa.67.4",
+          "Psa.68.7",
+          "Psa.68.19",
+          "Psa.68.32",
+          "Psa.75.3",
+          "Psa.76.3",
+          "Psa.76.9",
+          "Psa.77.3",
+          "Psa.77.9",
+          "Psa.77.15",
+          "Psa.81.7",
+          "Psa.82.2",
+          "Psa.83.8",
+          "Psa.84.4",
+          "Psa.84.8",
+          "Psa.85.2",
+          "Psa.87.3",
+          "Psa.87.6",
+          "Psa.88.7",
+          "Psa.88.10",
+          "Psa.89.4",
+          "Psa.89.37",
+          "Psa.89.45",
+          "Psa.89.48",
+          "Psa.140.3",
+          "Psa.140.5",
+          "Psa.140.8",
+          "Psa.143.6",
+          "Hab.3.3",
+          "Hab.3.9",
+          "Hab.3.13"
+        ]
+      }
+    ]
+  },
+  "Seraph": {
+    "ourID": "Seraph",
+    "name": "Seraph",
+    "unifiedNameTIPNR": "Seraph@Isa.6.2",
+    "uStrongs": "H8314B",
+    "description": "An angel at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Seraph@Isa.6.2",
+        "dStrongs": "H8314B",
+        "eStrongs": "H8314b",
+        "sourceWord": "שָׂרָף",
+        "translations": {
+          "ESV": "Seraph",
+          "NIV": "Seraph",
+          "KJB": "Seraph"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Seraph*|reference=Isa.6.2;Isa.6.6",
+        "individualVerseReferences": [
+          "Isa.6.2",
+          "Isa.6.6"
+        ]
+      }
+    ]
+  },
+  "Shebat": {
+    "ourID": "Shebat",
+    "name": "Shebat",
+    "unifiedNameTIPNR": "Shebat@Zec.1.7",
+    "uStrongs": "H7627",
+    "description": "Name of month #11",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Shebat@Zec.1.7",
+        "dStrongs": "H7627",
+        "eStrongs": "H7627",
+        "sourceWord": "שְׁבָט",
+        "translations": {
+          "ESV": "Shebat",
+          "NIV": "Shebat",
+          "KJB": "Shebat"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Shebat*|reference=Zec.1.7",
+        "individualVerseReferences": [
+          "Zec.1.7"
+        ]
+      }
+    ]
+  },
+  "Sheminith": {
+    "ourID": "Sheminith",
+    "name": "Sheminith",
+    "unifiedNameTIPNR": "Sheminith@1Ch.15.21",
+    "uStrongs": "H8067",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Sheminith@1Ch.15.21",
+        "dStrongs": "H8067",
+        "eStrongs": "H8067",
+        "sourceWord": "שְׁמִינִית",
+        "translations": {
+          "ESV": "Sheminith",
+          "NIV": "Sheminith",
+          "KJB": "Sheminith"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sheminith*|reference=1Ch.15.21;Psa.6.1;Psa.12.1",
+        "individualVerseReferences": [
+          "1Ch.15.21",
+          "Psa.6.1",
+          "Psa.12.1"
+        ]
+      }
+    ]
+  },
+  "Shibboleth": {
+    "ourID": "Shibboleth",
+    "name": "Shibboleth",
+    "unifiedNameTIPNR": "Shibboleth@Jdg.12.6",
+    "uStrongs": "H7641A",
+    "description": "A password",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Shibboleth@Jdg.12.6",
+        "dStrongs": "H7641H",
+        "eStrongs": "H7641a",
+        "sourceWord": "שִׁבֹּ֫לֶת",
+        "translations": {
+          "ESV": "Shibboleth",
+          "NIV": "Shibboleth",
+          "KJB": "Shibboleth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Shibboleth*|reference=Jdg.12.6",
+        "individualVerseReferences": [
+          "Jdg.12.6"
+        ]
+      }
+    ]
+  },
+  "Shiggaion": {
+    "ourID": "Shiggaion",
+    "name": "Shiggaion",
+    "unifiedNameTIPNR": "Shiggaion@Psa.7.1",
+    "uStrongs": "H7692G",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Shiggaion@Psa.7.1",
+        "dStrongs": "H7692G",
+        "eStrongs": "H7692",
+        "sourceWord": "שִׁגָּיוֹן",
+        "translations": {
+          "ESV": "Shiggaion",
+          "NIV": "Shiggaion",
+          "KJB": "Shiggaion"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Shiggaion*|reference=Psa.7.1",
+        "individualVerseReferences": [
+          "Psa.7.1"
+        ]
+      }
+    ]
+  },
+  "Shigionoth": {
+    "ourID": "Shigionoth",
+    "name": "Shigionoth",
+    "unifiedNameTIPNR": "Shigionoth@Hab.3.1",
+    "uStrongs": "H7692H",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Shigionoth@Hab.3.1",
+        "dStrongs": "H7692H",
+        "eStrongs": "H7692",
+        "sourceWord": "שִׁגָּיוֹן",
+        "translations": {
+          "ESV": "Shigionoth",
+          "NIV": "Shigionoth",
+          "KJB": "Shigionoth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Shigionoth*|reference=Hab.3.1",
+        "individualVerseReferences": [
+          "Hab.3.1"
+        ]
+      }
+    ]
+  },
+  "Shimeathite": {
+    "ourID": "Shimeathite",
+    "name": "Shimeathite",
+    "unifiedNameTIPNR": "Shimeathite@1Ch.2.55",
+    "uStrongs": "H8101",
+    "description": "A group in Old Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Shimeathite@1Ch.2.55",
+        "dStrongs": "H8101",
+        "eStrongs": "H8101",
+        "sourceWord": "שִׁמְעָתִים",
+        "translations": {
+          "ESV": "Shimeathite",
+          "NIV": "Shimeathite",
+          "KJB": "Shimeathite"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Shimeathite*|reference=1Ch.2.55",
+        "individualVerseReferences": [
+          "1Ch.2.55"
+        ]
+      }
+    ]
+  },
+  "Shushan_Eduth": {
+    "ourID": "Shushan_Eduth",
+    "name": "Shushan_Eduth",
+    "unifiedNameTIPNR": "Shushan_Eduth@Psa.60.1",
+    "uStrongs": "H7802",
+    "description": "A musical term",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Shushan_Eduth@Psa.60.1",
+        "dStrongs": "H7802",
+        "eStrongs": "H7802",
+        "sourceWord": "שׁוּשַׁן עֵדוּת",
+        "translations": {
+          "ESV": "Shushan Eduth",
+          "KJB": "Shushan Eduth",
+          "NIV": "Lily of the Covenant"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Shushan*|reference=Psa.60.1",
+        "individualVerseReferences": [
+          "Psa.60.1"
+        ]
+      }
+    ]
+  },
+  "Sikkuth": {
+    "ourID": "Sikkuth",
+    "name": "Sikkuth",
+    "unifiedNameTIPNR": "Sikkuth@Amo.5.26",
+    "uStrongs": "H5522",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Sikkuth@Amo.5.26",
+        "dStrongs": "H5522",
+        "eStrongs": "H5522",
+        "sourceWord": "סִכּוּת",
+        "translations": {
+          "ESV": "Sikkuth",
+          "KJB": "tabernacle",
+          "NIV": "shrine"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sikkuth*|reference=Amo.5.26",
+        "individualVerseReferences": [
+          "Amo.5.26"
+        ]
+      }
+    ]
+  },
+  "Sivan": {
+    "ourID": "Sivan",
+    "name": "Sivan",
+    "unifiedNameTIPNR": "Sivan@Est.8.9",
+    "uStrongs": "H5510",
+    "description": "Name of month #3",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Sivan@Est.8.9",
+        "dStrongs": "H5510",
+        "eStrongs": "H5510",
+        "sourceWord": "סִיוָן",
+        "translations": {
+          "ESV": "Sivan",
+          "NIV": "Sivan",
+          "KJB": "Sivan"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sivan*|reference=Est.8.9",
+        "individualVerseReferences": [
+          "Est.8.9"
+        ]
+      }
+    ]
+  },
+  "Stoic": {
+    "ourID": "Stoic",
+    "name": "Stoic",
+    "unifiedNameTIPNR": "Stoic@Act.17.18",
+    "uStrongs": "G4770",
+    "description": "A group in New Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Stoic@Act.17.18",
+        "dStrongs": "G4770",
+        "eStrongs": "G4770",
+        "sourceWord": "Στωϊκός",
+        "translations": {
+          "ESV": "Stoic",
+          "NIV": "Stoic",
+          "KJB": "Stoic"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Stoic*|reference=Act.17.18",
+        "individualVerseReferences": [
+          "Act.17.18"
+        ]
+      }
+    ]
+  },
+  "Sucathite": {
+    "ourID": "Sucathite",
+    "name": "Sucathite",
+    "unifiedNameTIPNR": "Sucathite@1Ch.2.55",
+    "uStrongs": "H7756",
+    "description": "A group in Old Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Sucathite@1Ch.2.55",
+        "dStrongs": "H7756",
+        "eStrongs": "H7756",
+        "sourceWord": "שׂוּכָתִים",
+        "translations": {
+          "ESV": "Sucathite",
+          "NIV": "Sucathite",
+          "KJB": "Sucathite"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Sucathite*|reference=1Ch.2.55",
+        "individualVerseReferences": [
+          "1Ch.2.55"
+        ]
+      }
+    ]
+  },
+  "Succoth-benoth": {
+    "ourID": "Succoth-benoth",
+    "name": "Succoth-benoth",
+    "unifiedNameTIPNR": "Succoth-benoth@2Ki.17.30",
+    "uStrongs": "H5524",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Succoth-benoth@2Ki.17.30",
+        "dStrongs": "H5524",
+        "eStrongs": "H5524",
+        "sourceWord": "סֻכּוֹת בְּנוֹת",
+        "translations": {
+          "ESV": "Succoth-benoth",
+          "KJB": "Succoth-benoth",
+          "NIV": "Succoth Benoth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Succoth-benoth*|reference=2Ki.17.30",
+        "individualVerseReferences": [
+          "2Ki.17.30"
+        ]
+      }
+    ]
+  },
+  "Tammuz": {
+    "ourID": "Tammuz",
+    "name": "Tammuz",
+    "unifiedNameTIPNR": "Tammuz@Ezk.8.14",
+    "uStrongs": "H8542",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Tammuz@Ezk.8.14",
+        "dStrongs": "H8542",
+        "eStrongs": "H8542",
+        "sourceWord": "תַּמּוּז",
+        "translations": {
+          "ESV": "Tammuz",
+          "NIV": "Tammuz",
+          "KJB": "Tammuz"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Tammuz*|reference=Eze.8.14",
+        "individualVerseReferences": [
+          "Ezk.8.14"
+        ]
+      }
+    ]
+  },
+  "Tarpelite": {
+    "ourID": "Tarpelite",
+    "name": "Tarpelite",
+    "unifiedNameTIPNR": "Tarpelite@Ezr.4.9",
+    "uStrongs": "H2967",
+    "description": "Word sometimes translated as a title",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "officials|Tarpelite@Ezr.4.9",
+        "dStrongs": "H2967",
+        "eStrongs": "H2967",
+        "sourceWord": "טַרְפְּלָיֵא",
+        "translations": {
+          "ESV": "officials",
+          "KJB": "Tarpelite",
+          "NIV": "administrators"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=officials*|reference=Ezr.4.9",
+        "individualVerseReferences": [
+          "Ezr.4.9"
+        ]
+      }
+    ]
+  },
+  "Tartak": {
+    "ourID": "Tartak",
+    "name": "Tartak",
+    "unifiedNameTIPNR": "Tartak@2Ki.17.31",
+    "uStrongs": "H8662",
+    "description": "A male deity at the time of the Old Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Tartak@2Ki.17.31",
+        "dStrongs": "H8662",
+        "eStrongs": "H8662",
+        "sourceWord": "תַּרְתָּ֑ק",
+        "translations": {
+          "ESV": "Tartak",
+          "NIV": "Tartak",
+          "KJB": "Tartak"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Tartak*|reference=2Ki.17.31",
+        "individualVerseReferences": [
+          "2Ki.17.31"
+        ]
+      }
+    ]
+  },
+  "Tebeth": {
+    "ourID": "Tebeth",
+    "name": "Tebeth",
+    "unifiedNameTIPNR": "Tebeth@Est.2.16",
+    "uStrongs": "H2887",
+    "description": "Name of month #10",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Tebeth@Est.2.16",
+        "dStrongs": "H2887",
+        "eStrongs": "H2887",
+        "sourceWord": "טֵבֶ֑ת",
+        "translations": {
+          "ESV": "Tebeth",
+          "NIV": "Tebeth",
+          "KJB": "Tebeth"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Tebeth*|reference=Est.2.16",
+        "individualVerseReferences": [
+          "Est.2.16"
+        ]
+      }
+    ]
+  },
+  "Teraphim": {
+    "ourID": "Teraphim",
+    "name": "Teraphim",
+    "unifiedNameTIPNR": "Teraphim@Gen.31.19",
+    "uStrongs": "H8655",
+    "description": "Group of deities",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Teraphim@Gen.31.19",
+        "dStrongs": "H8655",
+        "eStrongs": "H8655",
+        "sourceWord": "תְּרָפִים",
+        "translations": {
+          "ESV": "teraphim",
+          "KJB": "images",
+          "NIV": "idols"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=teraphim*|reference=Eze.21.21",
+        "individualVerseReferences": [
+          "Ezk.21.21"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "household_gods|Teraphim@Gen.31.19",
+        "dStrongs": "H8655",
+        "eStrongs": "H8655",
+        "sourceWord": "תְּרָפִים",
+        "translations": {
+          "ESV": "household gods",
+          "NIV": "household gods",
+          "KJB": "images"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=household*|reference=Gen.31.19;Gen.31.34;Gen.31.35;2Ki.23.24",
+        "individualVerseReferences": [
+          "Gen.31.19",
+          "Gen.31.34",
+          "Gen.31.35",
+          "2Ki.23.24"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "household_gods|Teraphim@Gen.31.19",
+        "dStrongs": "H8655",
+        "eStrongs": "H8655",
+        "sourceWord": "תְּרָפִים",
+        "translations": {
+          "ESV": "household gods",
+          "NIV": "household gods",
+          "KJB": "teraphim"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=household*|reference=Jdg.17.5;Jdg.18.14;Jdg.18.17;Jdg.18.18;Jdg.18.20;Hos.3.4",
+        "individualVerseReferences": [
+          "Jdg.17.5",
+          "Jdg.18.14",
+          "Jdg.18.17",
+          "Jdg.18.18",
+          "Jdg.18.20",
+          "Hos.3.4"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "household_gods|Teraphim@Gen.31.19",
+        "dStrongs": "H8655",
+        "eStrongs": "H8655",
+        "sourceWord": "תְּרָפִים",
+        "translations": {
+          "ESV": "household gods",
+          "KJB": "idols",
+          "NIV": "idols"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=household*|reference=Zec.10.2",
+        "individualVerseReferences": [
+          "Zec.10.2"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "idolatry|Teraphim@Gen.31.19",
+        "dStrongs": "H8655",
+        "eStrongs": "H8655",
+        "sourceWord": "תְּרָפִים",
+        "translations": {
+          "ESV": "idolatry",
+          "NIV": "idolatry",
+          "KJB": "idolatry"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=idolatry*|reference=1Sa.15.23",
+        "individualVerseReferences": [
+          "1Sa.15.23"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "image|Teraphim@Gen.31.19",
+        "dStrongs": "H8655",
+        "eStrongs": "H8655",
+        "sourceWord": "תְּרָפִים",
+        "translations": {
+          "ESV": "image",
+          "KJB": "image",
+          "NIV": "idol"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=image*|reference=1Sa.19.13;1Sa.19.16",
+        "individualVerseReferences": [
+          "1Sa.19.13",
+          "1Sa.19.16"
+        ]
+      }
+    ]
+  },
+  "Thummim": {
+    "ourID": "Thummim",
+    "name": "Thummim",
+    "unifiedNameTIPNR": "Thummim@Exo.28.30",
+    "uStrongs": "H8550",
+    "description": "A religious item",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Thummim@Exo.28.30",
+        "dStrongs": "H8550",
+        "eStrongs": "H8550",
+        "sourceWord": "תֻּמִּים",
+        "translations": {
+          "ESV": "Thummim",
+          "NIV": "Thummim",
+          "KJB": "Thummim"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Thummim*|reference=Exo.28.30;Lev.8.8;Deu.33.8;Ezr.2.63;Neh.7.65",
+        "individualVerseReferences": [
+          "Exo.28.30",
+          "Lev.8.8",
+          "Deu.33.8",
+          "Ezr.2.63",
+          "Neh.7.65"
+        ]
+      }
+    ]
+  },
+  "Tirathite": {
+    "ourID": "Tirathite",
+    "name": "Tirathite",
+    "unifiedNameTIPNR": "Tirathite@1Ch.2.55",
+    "uStrongs": "H8654",
+    "description": "A group in Old Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Tirathite@1Ch.2.55",
+        "dStrongs": "H8654",
+        "eStrongs": "H8654",
+        "sourceWord": "תִּרְעָתִים",
+        "translations": {
+          "ESV": "Tirathite",
+          "NIV": "Tirathite",
+          "KJB": "Tirathite"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Tirathite*|reference=1Ch.2.55",
+        "individualVerseReferences": [
+          "1Ch.2.55"
+        ]
+      }
+    ]
+  },
+  "Urim": {
+    "ourID": "Urim",
+    "name": "Urim",
+    "unifiedNameTIPNR": "Urim@Exo.28.30",
+    "uStrongs": "H0224",
+    "description": "A religious item",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Urim@Exo.28.30",
+        "dStrongs": "H0224",
+        "eStrongs": "H0224",
+        "sourceWord": "אוּרִים",
+        "translations": {
+          "ESV": "Urim",
+          "NIV": "Urim",
+          "KJB": "Urim"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Urim*|reference=Exo.28.30;Lev.8.8;Num.27.21;Deu.33.8;1Sa.28.6;Ezr.2.63;Neh.7.65",
+        "individualVerseReferences": [
+          "Exo.28.30",
+          "Lev.8.8",
+          "Num.27.21",
+          "Deu.33.8",
+          "1Sa.28.6",
+          "Ezr.2.63",
+          "Neh.7.65"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Urim@Exo.28.30",
+        "dStrongs": "G1212",
+        "eStrongs": "G1212",
+        "sourceWord": "δῆλος",
+        "translations": {
+          "ESV": "Urim",
+          "NIV": "Urim",
+          "KJB": "Urim"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Urim*|reference=1Sa.14.41",
+        "individualVerseReferences": [
+          "1Sa.14.41"
+        ]
+      }
+    ]
+  },
+  "Weeks": {
+    "ourID": "Weeks",
+    "name": "Weeks",
+    "unifiedNameTIPNR": "Weeks@Exo.34.22",
+    "uStrongs": "H7620G",
+    "description": "Name of a feastival",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Weeks@Exo.34.22",
+        "dStrongs": "H7620G",
+        "eStrongs": "H7620",
+        "sourceWord": "שָׁבוּעַ",
+        "translations": {
+          "ESV": "Weeks",
+          "NIV": "Weeks",
+          "KJB": "Weeks"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Weeks*|reference=Exo.34.22;Num.28.26;Deu.16.10;Deu.16.16;2Ch.8.13",
+        "individualVerseReferences": [
+          "Exo.34.22",
+          "Num.28.26",
+          "Deu.16.10",
+          "Deu.16.16",
+          "2Ch.8.13"
+        ]
+      },
+      {
+        "significance": "Greek",
+        "uniqueNameTIPNR": "Pentecost|Weeks@Exo.34.22",
+        "dStrongs": "G4005",
+        "eStrongs": "G4005",
+        "sourceWord": "πεντηκοστή",
+        "translations": {
+          "ESV": "Pentecost",
+          "NIV": "Pentecost",
+          "KJB": "Pentecost"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Pentecost*|reference=Act.2.1;Act.20.16;1Co.16.8",
+        "individualVerseReferences": [
+          "Act.2.1",
+          "Act.20.16",
+          "1Co.16.8"
+        ]
+      }
+    ]
+  },
+  "Zealot": {
+    "ourID": "Zealot",
+    "name": "Zealot",
+    "unifiedNameTIPNR": "Zealot@Mat.10.4",
+    "uStrongs": "G2581",
+    "description": "A group in New Testament times",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Zealot@Mat.10.4",
+        "dStrongs": "G2581",
+        "eStrongs": "G2581",
+        "sourceWord": "Κανανίτης, Καναναῖος",
+        "translations": {
+          "ESV": "Zealot",
+          "NIV": "Zealot",
+          "KJB": "Canaanite"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Zealot*|reference=Mat.10.4;Mar.3.18",
+        "individualVerseReferences": [
+          "Mat.10.4",
+          "Mrk.3.18"
+        ]
+      }
+    ]
+  },
+  "Zeus": {
+    "ourID": "Zeus",
+    "name": "Zeus",
+    "unifiedNameTIPNR": "Zeus@Act.14.12",
+    "uStrongs": "G2203",
+    "description": "A male deity at the time of the New Testament",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Zeus@Act.14.12",
+        "dStrongs": "G2203",
+        "eStrongs": "G2203",
+        "sourceWord": "Ζεύς, Δίς",
+        "translations": {
+          "ESV": "Zeus",
+          "NIV": "Zeus",
+          "KJB": "Jupiter"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Zeus*|reference=Act.14.12;Act.14.13",
+        "individualVerseReferences": [
+          "Act.14.12",
+          "Act.14.13"
+        ]
+      }
+    ]
+  },
+  "Ziv": {
+    "ourID": "Ziv",
+    "name": "Ziv",
+    "unifiedNameTIPNR": "Ziv@1Ki.6.1",
+    "uStrongs": "H2099",
+    "description": "Name of month #2",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Ziv@1Ki.6.1",
+        "dStrongs": "H2099",
+        "eStrongs": "H2099",
+        "sourceWord": "זִו",
+        "translations": {
+          "ESV": "Ziv",
+          "NIV": "Ziv",
+          "KJB": "Zif"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Ziv*|reference=1Ki.6.1;1Ki.6.37",
+        "individualVerseReferences": [
+          "1Ki.6.1",
+          "1Ki.6.37"
+        ]
+      }
+    ]
+  },
+  "Abaddon3": {
+    "ourID": "Abaddon3",
+    "name": "Abaddon",
+    "unifiedNameTIPNR": "Abaddon@Job.26.6",
+    "uStrongs": "H0011",
+    "description": "A non-physical place",
+    "names": [
+      {
+        "significance": "- Named",
+        "uniqueNameTIPNR": "Abaddon@Job.26.6",
+        "dStrongs": "H0011",
+        "eStrongs": "H0011",
+        "sourceWord": "אֲבַדּוֹן",
+        "translations": {
+          "ESV": "Abaddon",
+          "NIV": "Abaddon",
+          "KJB": "Abaddon"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abaddon*|reference=Job.26.6;Job.28.22;Job.31.12;Psa.88.11;Pro.15.11",
+        "individualVerseReferences": [
+          "Job.26.6",
+          "Job.28.22",
+          "Job.31.12",
+          "Psa.88.11",
+          "Pro.15.11"
+        ]
+      },
+      {
+        "significance": "- (same as previous)",
+        "uniqueNameTIPNR": "Abaddon@Job.26.6",
+        "dStrongs": "H0011",
+        "eStrongs": "H0011",
+        "sourceWord": "אֲבַדּוֹן",
+        "translations": {
+          "ESV": "Abaddon (=Qere. Ketiv= destruction)",
+          "NIV": "Abaddon (=Qere. Ketiv= destruction)",
+          "KJB": "Abaddon (=Qere. Ketiv= destruction)"
+        },
+        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abaddon*|reference=Pro.27.20",
+        "individualVerseReferences": [
+          "Pro.27.20"
+        ]
+      }
+    ]
+  }
+}
