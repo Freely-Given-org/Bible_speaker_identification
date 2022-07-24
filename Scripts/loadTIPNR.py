@@ -143,8 +143,9 @@ def load_TIPNR_data() -> bool:
             # if in_annotatedExamples:
             #     dPrint('Normal', debuggingThisModule, f"{j:5} {in_data=} {line=}")
             if line.startswith('ANNOTATED EXAMPLES'):
-                assert not in_data
-                in_annotatedExamples = True
+                break # At the end of valid data
+            #     assert not in_data
+            #     in_annotatedExamples = True
             if line.startswith('$=====') or line.startswith('\t'):
                 if in_data == 'Person2':
                     if raw_person['UnifiedName'] != 'UnifiedName=uStrong': # heading fields
@@ -158,18 +159,18 @@ def load_TIPNR_data() -> bool:
                     if raw_other['UnifiedName'] != 'UniqueName=uStrong': # heading fields
                         process_and_add_other(raw_other)
                     in_data = False
-                elif in_data == 'PersonNotes':
-                    if raw_person['UnifiedName'] != 'UnifiedName=uStrong': # heading fields
-                        process_and_add_person(raw_person)
-                    in_data = False
-                elif in_data == 'PlaceNotes':
-                    if raw_place['UnifiedName'] != 'UniqueName=uStrong': # heading fields
-                        process_and_add_place(raw_place)
-                    in_data = False
-                elif in_data == 'OtherNotes':
-                    if raw_other['UnifiedName'] != 'UniqueName=uStrong': # heading fields
-                        process_and_add_other(raw_other)
-                    in_data = False
+                # elif in_data == 'PersonNotes':
+                #     del people[raw_other[raw_other['UnifiedName'].split('@')[0]]] # Assumes it has no suffix
+                #     process_and_add_person(raw_person)
+                #     in_data = False
+                # elif in_data == 'PlaceNotes':
+                #     del places[raw_place[raw_place['UnifiedName'].split('@')[0]]] # Assumes it has no suffix
+                #     process_and_add_place(raw_place)
+                #     in_data = False
+                # elif in_data == 'OtherNotes':
+                #     del others[raw_other[raw_other['UnifiedName'].split('@')[0]]] # Assumes it has no suffix
+                #     process_and_add_other(raw_other)
+                #     in_data = False
 
             if in_data == 'Person1':
                 columns = line.split('\t')
@@ -198,13 +199,13 @@ def load_TIPNR_data() -> bool:
                         this['STEPBibleFirstLink'], this['AllRefs'], _1,_2,_3,_4,_5,_6,_7 = columns
                     assert not _1 or _2 or _3 or _4 or _5 or _6 or _7
                     raw_person['Names'].append(this)
-            elif in_data == 'PersonNotes':
-                columns = line.split('\t')
-                assert len(columns) == 13
-                assert line.endswith('\t'*12) or line.endswith('\t\t\t\t\t\t>\t\t\t\t\t\t') # ie., all columns except the first are blank
-                assert columns[0]
-                try: raw_person['Notes'] = f"{raw_person['Notes']}\\n{columns[0]}" # Add line with escaped newline
-                except KeyError: raw_person['Notes'] = columns[0]
+            # elif in_data == 'PersonNotes':
+            #     columns = line.split('\t')
+            #     assert len(columns) == 13
+            #     assert line.endswith('\t'*12) or line.endswith('\t\t\t\t\t\t>\t\t\t\t\t\t') # ie., all columns except the first are blank
+            #     assert columns[0]
+            #     try: raw_person['Notes'] = f"{raw_person['Notes']}\\n{columns[0]}" # Add line with escaped newline
+            #     except KeyError: raw_person['Notes'] = columns[0]
             elif in_data == 'Place1':
                 columns = line.split('\t')
                 assert len(columns) == 13
@@ -236,13 +237,13 @@ def load_TIPNR_data() -> bool:
                     if (_1 or _2 or _3 or _4 or _5 or _6 or _7) and raw_place['UnifiedName'] != 'UniqueName=uStrong':
                         logging.critical(f"Losing {raw_place['UnifiedName']} place column: {_1=} {_2=} {_3=} {_4=} {_5=} {_6=} {_7=}")
                     raw_place['Names'].append(this)
-            elif in_data == 'PlaceNotes':
-                columns = line.split('\t')
-                assert len(columns) == 13
-                assert line.endswith('\t'*12) or line.endswith('\t\t\t\t\t\t>\t\t\t\t\t\t') # ie., all columns except the first are blank
-                assert columns[0]
-                try: raw_place['Notes'] = f"{raw_place['Notes']}\\n{columns[0]}" # Add line with escaped newline
-                except KeyError: raw_place['Notes'] = columns[0]
+            # elif in_data == 'PlaceNotes':
+            #     columns = line.split('\t')
+            #     assert len(columns) == 13
+            #     assert line.endswith('\t'*12) or line.endswith('\t\t\t\t\t\t>\t\t\t\t\t\t') # ie., all columns except the first are blank
+            #     assert columns[0]
+            #     try: raw_place['Notes'] = f"{raw_place['Notes']}\\n{columns[0]}" # Add line with escaped newline
+            #     except KeyError: raw_place['Notes'] = columns[0]
             elif in_data == 'Other1':
                 columns = line.split('\t')
                 assert len(columns) == 13
@@ -262,13 +263,13 @@ def load_TIPNR_data() -> bool:
                         this['STEPBibleFirstLink'], this['AllRefs'], _1,_2,_3,_4,_5,_6,_7 = columns
                     assert not _1 or _2 or _3 or _4 or _5 or _6 or _7
                     raw_other['Names'].append(this)
-            elif in_data == 'OtherNotes':
-                columns = line.split('\t')
-                assert len(columns) == 13
-                assert line.endswith('\t'*12) or line.endswith('\t\t\t\t\t\t>\t\t\t\t\t\t') # ie., all columns except the first are blank
-                assert columns[0]
-                try: raw_other['Notes'] = f"{raw_other['Notes']}\\n{columns[0]}" # Add line with escaped newline
-                except KeyError: raw_other['Notes'] = columns[0]
+            # elif in_data == 'OtherNotes':
+            #     columns = line.split('\t')
+            #     assert len(columns) == 13
+            #     assert line.endswith('\t'*12) or line.endswith('\t\t\t\t\t\t>\t\t\t\t\t\t') # ie., all columns except the first are blank
+            #     assert columns[0]
+            #     try: raw_other['Notes'] = f"{raw_other['Notes']}\\n{columns[0]}" # Add line with escaped newline
+            #     except KeyError: raw_other['Notes'] = columns[0]
             elif line == '$========== PERSON(s)\t\t\t\t\t\t\t\t\t\t\t\t':
                 in_data = 'Person1'
                 raw_person = {}
@@ -296,18 +297,18 @@ def process_and_add_person( raw_data: dict) -> bool:
     # UniqueName can be something like 'wielded|Adino@2Sa.23.8'
     unifiedName, uStrongs = raw_data['UnifiedName'].split('=')
     del raw_data['UnifiedName']
-    ourID = name = unifiedName.split('@')[0]
-    if ourID in people:
+    FGid = name = unifiedName.split('@')[0]
+    if FGid in people:
         for suffix in range(2,30): # see Azariah (19) and Maaseiah (20) and Shemaiah (26) and Zechariah (29)
-            if f'{ourID}{suffix}' not in people:
-                ourID = f'{ourID}{suffix}'
+            if f'{FGid}{suffix}' not in people:
+                FGid = f'{FGid}{suffix}'
                 break
         else: unable_to_create_unique_person_id
-    new_person['ourID'] = ourID
+    new_person['FGid'] = FGid
     new_person['name'] = name
     new_person['unifiedNameTIPNR'] = unifiedName
     # if unifiedName != uniqueName:
-    #     dPrint('Normal', debuggingThisModule, f"  Person '{ourID}' {unifiedName=} vs {uniqueName=}")
+    #     dPrint('Normal', debuggingThisModule, f"  Person '{FGid}' {unifiedName=} vs {uniqueName=}")
     #     new_person['uniqueNameTIPNR'] = uniqueName
     new_person['uStrongs'] = uStrongs
 
@@ -487,8 +488,8 @@ def process_and_add_person( raw_data: dict) -> bool:
         del raw_data['Notes']
 
     assert not raw_data, f"Why do we have person left-over {raw_data=}?"
-    assert ourID not in people
-    people[ourID] = new_person
+    assert FGid not in people
+    people[FGid] = new_person
     # dPrint('Quiet', debuggingThisModule, f"\n{len(people)} {new_person=}")
     return True
 
@@ -502,18 +503,18 @@ def process_and_add_place( raw_data: dict) -> bool:
     # UniqueName can be something like 'wielded|Adino@2Sa.23.8'
     unifiedName, uStrongs = raw_data['UnifiedName'].split('=')
     del raw_data['UnifiedName']
-    ourID = name = unifiedName.split('@')[0]
-    if ourID in places:
+    FGid = name = unifiedName.split('@')[0]
+    if FGid in places:
         for suffix in range(2,9): # see 
-            if f'{ourID}{suffix}' not in places:
-                ourID = f'{ourID}{suffix}'
+            if f'{FGid}{suffix}' not in places:
+                FGid = f'{FGid}{suffix}'
                 break
         else: unable_to_create_unique_place_id
-    new_place['ourID'] = ourID
+    new_place['FGid'] = FGid
     new_place['name'] = name
     new_place['unifiedNameTIPNR'] = unifiedName
     # if unifiedName != uniqueName:
-    #     dPrint('Normal', debuggingThisModule, f"  Place '{ourID}' {unifiedName=} vs {uniqueName=}")
+    #     dPrint('Normal', debuggingThisModule, f"  Place '{FGid}' {unifiedName=} vs {uniqueName=}")
     #     new_place['uniqueNameTIPNR'] = uniqueName
     new_place['uStrongs'] = uStrongs
 
@@ -730,8 +731,8 @@ def process_and_add_place( raw_data: dict) -> bool:
         del raw_data['Notes']
         
     assert not raw_data, f"Why do we have place left-over {raw_data=}?"
-    assert ourID not in places
-    places[ourID] = new_place
+    assert FGid not in places
+    places[FGid] = new_place
     # dPrint('Quiet', debuggingThisModule, f"\n{len(places)} {new_place=}")
     return True
 
@@ -747,18 +748,18 @@ def process_and_add_other( raw_data: dict) -> bool:
         unifiedName, uStrongs = raw_data['UnifiedName'].split('=')
     else: unifiedName = raw_data['UnifiedName'] # e.g., 'Herodian@Mat.22.16'
     del raw_data['UnifiedName']
-    ourID = name = unifiedName.split('@')[0]
-    if ourID in others:
+    FGid = name = unifiedName.split('@')[0]
+    if FGid in others:
         for suffix in range(2,9): # see 
-            if f'{ourID}{suffix}' not in others:
-                ourID = f'{ourID}{suffix}'
+            if f'{FGid}{suffix}' not in others:
+                FGid = f'{FGid}{suffix}'
                 break
         else: unable_to_create_unique_other_id
-    new_other['ourID'] = ourID
+    new_other['FGid'] = FGid
     new_other['name'] = name
     new_other['unifiedNameTIPNR'] = unifiedName
     # if unifiedName != uniqueName:
-    #     dPrint('Normal', debuggingThisModule, f"  Other '{ourID}' {unifiedName=} vs {uniqueName=}")
+    #     dPrint('Normal', debuggingThisModule, f"  Other '{FGid}' {unifiedName=} vs {uniqueName=}")
     #     new_other['uniqueNameTIPNR'] = uniqueName
     try:
         new_other['uStrongs'] = uStrongs
@@ -892,8 +893,8 @@ def process_and_add_other( raw_data: dict) -> bool:
         del raw_data['Notes']
 
     assert not raw_data, f"Why do we have other left-over {raw_data=}?"
-    assert ourID not in others
-    others[ourID] = new_other
+    assert FGid not in others
+    others[FGid] = new_other
     # dPrint('Quiet', debuggingThisModule, f"\n{len(others)} {new_other=}")
     return True
 
@@ -1076,6 +1077,28 @@ def normalise_data() -> bool:
 def normalise_significance(dataName:str, dataDict:dict) -> bool:
     """
     Change signficance '- Named' to 'named', etc.
+
+   Normalising people significance…
+        Had '- Named': 3271, 'Greek': 114, '- (same as previous)': 218, '- Group': 189,
+            '- Spelled': 58, '- Aramaic': 32, '- Name Combined': 5, '- Mentioned': 43
+        Now 'named': 3271, 'Greek': 114, '(same as previous)': 218, 'group': 189,
+            'spelled': 58, 'Aramaic': 32, 'name combined': 5, 'mentioned': 43
+
+   Normalising places significance…
+        Fixed places Bamoth-baal name_dict['significance']='- Name' to 'named'
+        Fixed places Cherub name_dict['significance']='- Greek' to 'Greek'
+        Fixed places Colossae name_dict['significance']='- Spelling' to 'spelled'
+        Had '- Named': 1136, '- (same as previous)': 188, 'Greek': 59, '- Name Combined': 90,
+            '- Group': 80, '- Spelled': 71, '- Aramaic': 10, '- Name': 1, '- Greek': 1,
+            '- Spelling': 1, '- Spelled Combined': 2, '- Aramaic+Combined': 1
+        Now 'named': 1137, '(same as previous)': 188, 'Greek': 60, 'name combined': 90,
+            'group': 80, 'spelled': 72, 'Aramaic': 10, 'spelled combined': 2, 'Aramaic combined': 1
+
+    Normalising others significance…
+        Had '- Named': 142, '- (same as previous)': 48, '- Aramaic': 4, 'Greek': 12,
+                    '- Form': 2, '- Name Combined': 3, '- Group': 2, '- Spelled': 6
+        Now 'named': 142, '(same as previous)': 48, 'Aramaic': 4, 'Greek': 12,
+                    'form': 2, 'name combined': 3, 'group': 2, 'spelled': 6
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} significance…")
     original_counts = defaultdict(int)
@@ -1143,6 +1166,10 @@ def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
         for name_data in value['names']:
             for j,ref_string in enumerate(name_data['individualVerseReferences']):
                 name_data['individualVerseReferences'][j] = adjust_Bible_reference(ref_string)
+        if 'combinedIndividualVerseReferences' in value:
+            for j,ref_string in enumerate(value['combinedIndividualVerseReferences']):
+                value['combinedIndividualVerseReferences'][j] = adjust_Bible_reference(ref_string)
+
     return True
 # end of loadTIPNR.adjust_Bible_references()
 
@@ -1184,7 +1211,7 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
     for value in dataDict.values():
-        old_id = value['ourID'] # Which may or may not match the original key by now
+        old_id = value['FGid'] # Which may or may not match the original key by now
         if old_id.endswith('2') and not old_id[-2].isdigit():
             # dPrint('Info', debuggingThisModule, f"      {entry}")
             base_id = old_id[:-1]
@@ -1212,15 +1239,15 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                     dPrint('Verbose', debuggingThisModule, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     new_base_id = f'{base_id}1'
                     dPrint('Normal', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
-                    assert dataDict[base_id]['ourID'] == base_id
-                    dataDict[base_id]['ourID'] = new_base_id
+                    assert dataDict[base_id]['FGid'] == base_id
+                    dataDict[base_id]['FGid'] = new_base_id
                     # We only save the prefixed ID internally -- will fix the keys later
 
                     suffix = list(references_counts.values()).index(max_count) + 1
                     max_id = f'{base_id}{suffix}'
                     dPrint('Normal', debuggingThisModule, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
-                    assert dataDict[max_id]['ourID'] == max_id
-                    dataDict[max_id]['ourID'] = base_id
+                    assert dataDict[max_id]['FGid'] == max_id
+                    dataDict[max_id]['FGid'] = base_id
                     # We only save the prefixed ID internally -- will fix the keys later
             else: # multiple entries had the same maximum number
                 if references_counts[base_id] == max_count:
@@ -1229,8 +1256,8 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                     dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 new_base_id = f'{base_id}1'
                 dPrint('Normal', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
-                assert dataDict[base_id]['ourID'] == base_id
-                dataDict[base_id]['ourID'] = new_base_id
+                assert dataDict[base_id]['FGid'] == base_id
+                dataDict[base_id]['FGid'] = new_base_id
                 # We only save the prefixed ID internally -- will fix the keys later
 
     return True
@@ -1259,11 +1286,11 @@ Here is a list of the use of the semantic (and other) tagging characters:
     # The following line is just general -- we really need to individually handle the 'other' entries
     default_prefix = 'P' if dataName=='people' else 'L' if dataName=='places' else 'D'
     for value in dataDict.values():
-        old_id = value['ourID']
+        old_id = value['FGid']
         new_id = f'{default_prefix}{old_id}'
         # dPrint('Info', debuggingThisModule, f"      {old_id=} {new_id=}")
-        value['ourID'] = new_id
-        # assert dataDict[key]['ourID'] == new_id
+        value['FGid'] = new_id
+        # assert dataDict[key]['FGid'] == new_id
         # We only save the prefixed ID internally -- will fix the keys later
 
     return True
@@ -1329,16 +1356,16 @@ def rebuild_dictionaries() -> bool:
     Change the actual keys to match those internal IDs.
 
     Note that after this, we would could theoretically delete the
-        now-duplicated 'ourID' fields but we'll leave them in for
+        now-duplicated 'FGid' fields but we'll leave them in for
         maximum future flexibility (at the cost of a little extra hard disk).
     """
     global people, places, others, allEntries
     vPrint('Normal', debuggingThisModule, f"  Rebuilding dictionaries…")
 
     # These rebuilds retain the original entry orders
-    people = { v['ourID']:v for v in people.values() }
-    places = { v['ourID']:v for v in places.values() }
-    others = { v['ourID']:v for v in others.values() }
+    people = { v['FGid']:v for v in people.values() }
+    places = { v['FGid']:v for v in places.values() }
+    others = { v['FGid']:v for v in others.values() }
 
     if PREFIX_OUR_IDS_FLAG: # We can safely combine the three dictionaries into one
         allEntries = people | places | others
@@ -1397,7 +1424,38 @@ def export_verse_index() -> bool:
     Pivot the data to determine which names exist in each verse,
         and save this in JSON.
     """
-    vPrint('Quiet', debuggingThisModule, f"\nCalculating and exporting index file…")
+    vPrint('Quiet', debuggingThisModule, f"\nCalculating and exporting index files…")
+    subType = 'normalised'
+    for dict_name,the_dict in (('people',people),('places',places),('others',others),('all',allEntries)):
+        ref_index_dict = defaultdict(list)
+        TIPNR_index_dict = {}
+        for value in the_dict.values():
+            FGid = value['FGid']
+            ref_list = value['combinedIndividualVerseReferences'] if 'combinedIndividualVerseReferences' in value \
+                        else value['names'][0]['individualVerseReferences']
+            for ref in ref_list:
+                ref_index_dict[ref].append(FGid)
+            unifiedNameTIPNR = value['unifiedNameTIPNR']
+            TIPNR_index_dict[unifiedNameTIPNR] = FGid
+            for name in value['names']:
+                uniqueNameTIPNR = name['uniqueNameTIPNR']
+                if uniqueNameTIPNR != unifiedNameTIPNR:
+                    if uniqueNameTIPNR in TIPNR_index_dict:
+                        if TIPNR_index_dict[uniqueNameTIPNR] != FGid:
+                            print(f"Why do we already have {TIPNR_index_dict[uniqueNameTIPNR]} for {uniqueNameTIPNR} now wanting {FGid}")
+                    else: TIPNR_index_dict[uniqueNameTIPNR] = FGid
+
+        # Save the dicts as JSON files
+        if ref_index_dict:
+            filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_verseRef_index.json')
+            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(ref_index_dict):,} verse ref index entries to {filepath}…")
+            with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
+                json.dump( ref_index_dict, outputFile, ensure_ascii=False, indent=2 )
+        if TIPNR_index_dict:
+            filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_TIPNR_index.json')
+            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(TIPNR_index_dict):,} TIPNR index entries to {filepath}…")
+            with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
+                json.dump( TIPNR_index_dict, outputFile, ensure_ascii=False, indent=2 )
 
     return True
 # end of loadTIPNR.export_verse_index()

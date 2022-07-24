@@ -1,0 +1,6617 @@
+{
+  "REV_9:11": [
+    "DAbaddon1",
+    "DAbaddon1",
+    "DAramaic",
+    "DGreek"
+  ],
+  "JOB_26:6": [
+    "DAbaddon",
+    "DHell"
+  ],
+  "JOB_28:22": [
+    "DAbaddon"
+  ],
+  "JOB_31:12": [
+    "DAbaddon"
+  ],
+  "PSA_88:11": [
+    "DAbaddon"
+  ],
+  "PRO_15:11": [
+    "DAbaddon",
+    "DHell"
+  ],
+  "PRO_27:20": [
+    "DAbaddon",
+    "DHell"
+  ],
+  "EXO_13:4": [
+    "DAbib"
+  ],
+  "EXO_23:15": [
+    "DAbib"
+  ],
+  "EXO_34:18a": [
+    "DAbib"
+  ],
+  "EXO_34:18b": [
+    "DAbib"
+  ],
+  "DEU_16:1a": [
+    "DAbib"
+  ],
+  "DEU_16:1b": [
+    "DAbib"
+  ],
+  "NEH_2:1": [
+    "DAbib"
+  ],
+  "EST_3:7": [
+    "DAbib",
+    "DAdar",
+    "DPurim"
+  ],
+  "EST_3:13": [
+    "DAdar"
+  ],
+  "EST_8:12": [
+    "DAdar"
+  ],
+  "EST_9:1": [
+    "DAdar"
+  ],
+  "EST_9:15": [
+    "DAdar"
+  ],
+  "EST_9:17": [
+    "DAdar"
+  ],
+  "EST_9:19": [
+    "DAdar"
+  ],
+  "EST_9:21": [
+    "DAdar"
+  ],
+  "EZR_6:15": [
+    "DAdar"
+  ],
+  "CH1_15:20": [
+    "DAlamoth"
+  ],
+  "PSA_9:1": [
+    "DAlamoth",
+    "DMuth-labben"
+  ],
+  "PSA_46:1": [
+    "DAlamoth"
+  ],
+  "PSA_57:1": [
+    "DAl-taschith",
+    "DMiktam"
+  ],
+  "PSA_58:1": [
+    "DAl-taschith",
+    "DMiktam"
+  ],
+  "PSA_59:1": [
+    "DAl-taschith",
+    "DMiktam"
+  ],
+  "PSA_75:1": [
+    "DAl-taschith"
+  ],
+  "JER_46:25": [
+    "DAmon",
+    "DLORD"
+  ],
+  "NAH_3:8": [
+    "DAmon"
+  ],
+  "EZR_5:6": [
+    "DApharasthchite"
+  ],
+  "EZR_6:6": [
+    "DApharasthchite"
+  ],
+  "EZR_4:9": [
+    "DApharasthchite",
+    "DTarpelite"
+  ],
+  "KI2_18:26": [
+    "DAramaic",
+    "DHebrew"
+  ],
+  "EZR_4:7": [
+    "DAramaic"
+  ],
+  "ISA_36:11": [
+    "DAramaic",
+    "DHebrew"
+  ],
+  "DAN_2:4": [
+    "DAramaic"
+  ],
+  "ACT_21:40": [
+    "DAramaic"
+  ],
+  "ACT_22:2": [
+    "DAramaic"
+  ],
+  "ACT_26:14": [
+    "DAramaic"
+  ],
+  "LUK_23:38": [
+    "DAramaic",
+    "DGreek",
+    "DLatin"
+  ],
+  "REV_16:16": [
+    "DAramaic"
+  ],
+  "JHN_5:2": [
+    "DAramaic"
+  ],
+  "JHN_19:13": [
+    "DAramaic"
+  ],
+  "JHN_19:17": [
+    "DAramaic"
+  ],
+  "JHN_19:20": [
+    "DAramaic",
+    "DGreek"
+  ],
+  "JHN_20:16": [
+    "DAramaic",
+    "DRabbi"
+  ],
+  "CH2_32:18": [
+    "DHebrew"
+  ],
+  "NEH_13:24": [
+    "DHebrew"
+  ],
+  "ISA_36:13": [
+    "DHebrew"
+  ],
+  "ACT_19:24": [
+    "DArtemis"
+  ],
+  "ACT_19:27": [
+    "DArtemis"
+  ],
+  "ACT_19:28": [
+    "DArtemis"
+  ],
+  "ACT_19:34": [
+    "DArtemis"
+  ],
+  "ACT_19:35": [
+    "DArtemis"
+  ],
+  "DEU_16:21": [
+    "DAsherah"
+  ],
+  "JDG_6:25": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "JDG_6:26": [
+    "DAsherah"
+  ],
+  "JDG_6:28": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "JDG_6:30": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "KI1_15:13": [
+    "DAsherah"
+  ],
+  "KI1_16:33": [
+    "DAsherah"
+  ],
+  "KI1_18:19": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "KI2_13:6": [
+    "DAsherah"
+  ],
+  "KI2_17:16": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "KI2_18:4": [
+    "DAsherah",
+    "DNehushtan"
+  ],
+  "KI2_21:3": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "KI2_21:7": [
+    "DAsherah"
+  ],
+  "KI2_23:4": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "KI2_23:6": [
+    "DAsherah"
+  ],
+  "KI2_23:7": [
+    "DAsherah"
+  ],
+  "KI2_23:15": [
+    "DAsherah"
+  ],
+  "CH2_15:16": [
+    "DAsherah"
+  ],
+  "MIC_5:14": [
+    "DAsherah"
+  ],
+  "EXO_34:13": [
+    "DAsherah"
+  ],
+  "DEU_7:5": [
+    "DAsherah"
+  ],
+  "DEU_12:3": [
+    "DAsherah"
+  ],
+  "KI1_14:15": [
+    "DAsherah"
+  ],
+  "KI1_14:23": [
+    "DAsherah"
+  ],
+  "KI2_17:10": [
+    "DAsherah"
+  ],
+  "KI2_23:14": [
+    "DAsherah"
+  ],
+  "CH2_14:3": [
+    "DAsherah"
+  ],
+  "CH2_17:6": [
+    "DAsherah"
+  ],
+  "CH2_24:18": [
+    "DAsherah"
+  ],
+  "CH2_31:1": [
+    "DAsherah"
+  ],
+  "CH2_33:19": [
+    "DAsherah",
+    "DChronicles"
+  ],
+  "CH2_34:3": [
+    "DAsherah"
+  ],
+  "CH2_34:4": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "CH2_34:7": [
+    "DAsherah"
+  ],
+  "ISA_17:8": [
+    "DAsherah"
+  ],
+  "ISA_27:9": [
+    "DAsherah"
+  ],
+  "JER_17:2": [
+    "DAsherah"
+  ],
+  "JDG_3:7": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "CH2_19:3": [
+    "DAsherah"
+  ],
+  "CH2_33:3": [
+    "DAsherah",
+    "DBaal"
+  ],
+  "KI2_17:30": [
+    "DAshima",
+    "DNergal",
+    "DSuccoth-benoth"
+  ],
+  "JDG_2:13": [
+    "DAshtaroth",
+    "DBaal"
+  ],
+  "JDG_10:6": [
+    "DAshtaroth",
+    "DBaal"
+  ],
+  "SA1_7:3": [
+    "DAshtaroth"
+  ],
+  "SA1_7:4": [
+    "DAshtaroth",
+    "DBaal"
+  ],
+  "SA1_12:10": [
+    "DAshtaroth",
+    "DBaal"
+  ],
+  "SA1_31:10": [
+    "DAshtaroth"
+  ],
+  "KI1_11:5": [
+    "DAshtoreth",
+    "DMolech"
+  ],
+  "KI1_11:33": [
+    "DAshtoreth",
+    "DChemosh",
+    "DMolech"
+  ],
+  "KI2_23:13": [
+    "DAshtoreth",
+    "DChemosh",
+    "DMolech"
+  ],
+  "ACT_19:31": [
+    "DAsiarch"
+  ],
+  "LEV_16:8": [
+    "DAzazel"
+  ],
+  "LEV_16:10a": [
+    "DAzazel"
+  ],
+  "LEV_16:10b": [
+    "DAzazel"
+  ],
+  "LEV_16:26": [
+    "DAzazel"
+  ],
+  "JDG_2:11": [
+    "DBaal"
+  ],
+  "JDG_6:31": [
+    "DBaal"
+  ],
+  "JDG_6:32": [
+    "DBaal"
+  ],
+  "JDG_8:33": [
+    "DBaal",
+    "DBaal-berith"
+  ],
+  "JDG_10:10": [
+    "DBaal"
+  ],
+  "KI1_16:31": [
+    "DBaal"
+  ],
+  "KI1_16:32a": [
+    "DBaal"
+  ],
+  "KI1_16:32b": [
+    "DBaal"
+  ],
+  "KI1_18:18": [
+    "DBaal"
+  ],
+  "KI1_18:21": [
+    "DBaal"
+  ],
+  "KI1_18:22": [
+    "DBaal"
+  ],
+  "KI1_18:25": [
+    "DBaal"
+  ],
+  "KI1_18:26a": [
+    "DBaal"
+  ],
+  "KI1_18:26b": [
+    "DBaal"
+  ],
+  "KI1_18:40": [
+    "DBaal"
+  ],
+  "KI1_19:18": [
+    "DBaal"
+  ],
+  "KI1_22:53": [
+    "DBaal"
+  ],
+  "KI2_3:2": [
+    "DBaal"
+  ],
+  "KI2_10:18": [
+    "DBaal"
+  ],
+  "KI2_10:19a": [
+    "DBaal"
+  ],
+  "KI2_10:19b": [
+    "DBaal"
+  ],
+  "KI2_10:19c": [
+    "DBaal"
+  ],
+  "KI2_10:20": [
+    "DBaal"
+  ],
+  "KI2_10:21a": [
+    "DBaal"
+  ],
+  "KI2_10:21b": [
+    "DBaal"
+  ],
+  "KI2_10:21c": [
+    "DBaal"
+  ],
+  "KI2_10:22": [
+    "DBaal"
+  ],
+  "KI2_10:23a": [
+    "DBaal"
+  ],
+  "KI2_10:23b": [
+    "DBaal"
+  ],
+  "KI2_10:23c": [
+    "DBaal"
+  ],
+  "KI2_10:25": [
+    "DBaal"
+  ],
+  "KI2_10:26": [
+    "DBaal"
+  ],
+  "KI2_10:27a": [
+    "DBaal"
+  ],
+  "KI2_10:27b": [
+    "DBaal"
+  ],
+  "KI2_10:28": [
+    "DBaal"
+  ],
+  "KI2_11:18a": [
+    "DBaal"
+  ],
+  "KI2_11:18b": [
+    "DBaal"
+  ],
+  "KI2_23:5": [
+    "DBaal"
+  ],
+  "CH2_17:3": [
+    "DBaal"
+  ],
+  "CH2_23:17a": [
+    "DBaal"
+  ],
+  "CH2_23:17b": [
+    "DBaal"
+  ],
+  "CH2_24:7": [
+    "DBaal"
+  ],
+  "CH2_28:2": [
+    "DBaal"
+  ],
+  "JER_2:8": [
+    "DBaal"
+  ],
+  "JER_2:23": [
+    "DBaal"
+  ],
+  "JER_7:9": [
+    "DBaal"
+  ],
+  "JER_9:14": [
+    "DBaal"
+  ],
+  "JER_11:13": [
+    "DBaal"
+  ],
+  "JER_11:17": [
+    "DBaal",
+    "DLORD"
+  ],
+  "JER_12:16": [
+    "DBaal"
+  ],
+  "JER_19:5a": [
+    "DBaal"
+  ],
+  "JER_19:5b": [
+    "DBaal"
+  ],
+  "JER_23:13": [
+    "DBaal"
+  ],
+  "JER_23:27": [
+    "DBaal"
+  ],
+  "JER_32:29": [
+    "DBaal"
+  ],
+  "JER_32:35": [
+    "DBaal",
+    "DMolech"
+  ],
+  "HOS_2:8": [
+    "DBaal"
+  ],
+  "HOS_2:13": [
+    "DBaal"
+  ],
+  "HOS_2:17": [
+    "DBaal"
+  ],
+  "HOS_11:2": [
+    "DBaal"
+  ],
+  "HOS_13:1": [
+    "DBaal"
+  ],
+  "ZEP_1:4": [
+    "DBaal"
+  ],
+  "NUM_25:3": [
+    "DBaal"
+  ],
+  "NUM_25:5": [
+    "DBaal"
+  ],
+  "PSA_106:28": [
+    "DBaal"
+  ],
+  "DEU_4:3": [
+    "DBaal",
+    "DBaal"
+  ],
+  "HOS_9:10": [
+    "DBaal"
+  ],
+  "ROM_11:4": [
+    "DBaal"
+  ],
+  "JDG_9:4": [
+    "DBaal-berith"
+  ],
+  "JOB_9:9": [
+    "DBear",
+    "DOrion",
+    "DPleiades"
+  ],
+  "JOB_38:32": [
+    "DBear",
+    "DMazzaroth"
+  ],
+  "JOB_40:15": [
+    "DBehemoth"
+  ],
+  "ISA_46:1": [
+    "DBel",
+    "DNebo"
+  ],
+  "JER_50:2": [
+    "DBel",
+    "DMerodach"
+  ],
+  "JER_51:44": [
+    "DBel"
+  ],
+  "KI1_7:21": [
+    "DBoaz",
+    "DJachin"
+  ],
+  "CH2_3:17": [
+    "DBoaz",
+    "DJachin"
+  ],
+  "JHN_7:2": [
+    "DBooths_Festival"
+  ],
+  "KI1_6:38": [
+    "DBul"
+  ],
+  "ACT_8:27": [
+    "DCandace"
+  ],
+  "NUM_21:29": [
+    "DChemosh"
+  ],
+  "JDG_11:24": [
+    "DChemosh"
+  ],
+  "KI1_11:7": [
+    "DChemosh",
+    "DMolech"
+  ],
+  "JER_48:7": [
+    "DChemosh"
+  ],
+  "JER_48:13": [
+    "DChemosh"
+  ],
+  "JER_48:46": [
+    "DChemosh"
+  ],
+  "NEH_1:1": [
+    "DChislev"
+  ],
+  "ZEC_7:1": [
+    "DChislev"
+  ],
+  "KI1_14:19": [
+    "DChronicles"
+  ],
+  "KI1_14:29": [
+    "DChronicles"
+  ],
+  "KI1_15:7": [
+    "DChronicles"
+  ],
+  "KI1_15:23": [
+    "DChronicles"
+  ],
+  "KI1_15:31": [
+    "DChronicles"
+  ],
+  "KI1_16:5": [
+    "DChronicles"
+  ],
+  "KI1_16:14": [
+    "DChronicles"
+  ],
+  "KI1_16:20": [
+    "DChronicles"
+  ],
+  "KI1_16:27": [
+    "DChronicles"
+  ],
+  "KI1_22:39": [
+    "DChronicles"
+  ],
+  "KI1_22:45": [
+    "DChronicles"
+  ],
+  "KI2_1:18": [
+    "DChronicles"
+  ],
+  "KI2_8:23": [
+    "DChronicles"
+  ],
+  "KI2_10:34": [
+    "DChronicles"
+  ],
+  "KI2_12:19": [
+    "DChronicles"
+  ],
+  "KI2_13:8": [
+    "DChronicles"
+  ],
+  "KI2_13:12": [
+    "DChronicles"
+  ],
+  "KI2_14:15": [
+    "DChronicles"
+  ],
+  "KI2_14:18": [
+    "DChronicles"
+  ],
+  "KI2_14:28": [
+    "DChronicles"
+  ],
+  "KI2_15:6": [
+    "DChronicles"
+  ],
+  "KI2_15:11": [
+    "DChronicles"
+  ],
+  "KI2_15:15": [
+    "DChronicles"
+  ],
+  "KI2_15:21": [
+    "DChronicles"
+  ],
+  "KI2_15:26": [
+    "DChronicles"
+  ],
+  "KI2_15:31": [
+    "DChronicles"
+  ],
+  "KI2_15:36": [
+    "DChronicles"
+  ],
+  "KI2_16:19": [
+    "DChronicles"
+  ],
+  "KI2_20:20": [
+    "DChronicles"
+  ],
+  "KI2_21:17": [
+    "DChronicles"
+  ],
+  "KI2_21:25": [
+    "DChronicles"
+  ],
+  "KI2_23:28": [
+    "DChronicles"
+  ],
+  "KI2_24:5": [
+    "DChronicles"
+  ],
+  "CH1_29:29a": [
+    "DChronicles"
+  ],
+  "CH1_29:29b": [
+    "DChronicles"
+  ],
+  "CH1_29:29c": [
+    "DChronicles"
+  ],
+  "CH2_33:18": [
+    "DChronicles"
+  ],
+  "NEH_12:23": [
+    "DChronicles"
+  ],
+  "EST_10:2": [
+    "DChronicles"
+  ],
+  "JDG_16:23": [
+    "DDagon"
+  ],
+  "SA1_5:2a": [
+    "DDagon"
+  ],
+  "SA1_5:2b": [
+    "DDagon"
+  ],
+  "SA1_5:3a": [
+    "DDagon"
+  ],
+  "SA1_5:3b": [
+    "DDagon"
+  ],
+  "SA1_5:4a": [
+    "DDagon"
+  ],
+  "SA1_5:4b": [
+    "DDagon"
+  ],
+  "SA1_5:4c": [
+    "DDagon"
+  ],
+  "SA1_5:5a": [
+    "DDagon"
+  ],
+  "SA1_5:5b": [
+    "DDagon"
+  ],
+  "SA1_5:5c": [
+    "DDagon"
+  ],
+  "SA1_5:7": [
+    "DDagon"
+  ],
+  "CH1_10:10": [
+    "DDagon"
+  ],
+  "JHN_10:22": [
+    "DDedication_Festival"
+  ],
+  "ISA_65:11": [
+    "DDestiny",
+    "DFortune"
+  ],
+  "JDG_9:46": [
+    "DEl-berith"
+  ],
+  "NEH_6:15": [
+    "DElul"
+  ],
+  "ACT_17:18": [
+    "DEpicurean",
+    "DStoic"
+  ],
+  "KI1_8:2": [
+    "DEthanim"
+  ],
+  "ACT_6:9": [
+    "DFreedmen"
+  ],
+  "DAN_8:16": [
+    "DGabriel"
+  ],
+  "DAN_9:21": [
+    "DGabriel"
+  ],
+  "LUK_1:19": [
+    "DGabriel"
+  ],
+  "LUK_1:26": [
+    "DGabriel"
+  ],
+  "ISA_11:10": [
+    "DGentile"
+  ],
+  "ISA_42:1": [
+    "DGentile"
+  ],
+  "ISA_49:22": [
+    "DGentile",
+    "DLORD"
+  ],
+  "ISA_54:3": [
+    "DGentile"
+  ],
+  "ISA_60:3": [
+    "DGentile"
+  ],
+  "ISA_60:5": [
+    "DGentile"
+  ],
+  "ISA_60:11": [
+    "DGentile"
+  ],
+  "ISA_60:16": [
+    "DGentile"
+  ],
+  "ISA_61:6": [
+    "DGentile"
+  ],
+  "ISA_61:9": [
+    "DGentile"
+  ],
+  "ISA_62:2": [
+    "DGentile"
+  ],
+  "ISA_66:12": [
+    "DGentile"
+  ],
+  "ISA_66:19b": [
+    "DGentile"
+  ],
+  "JER_4:7": [
+    "DGentile"
+  ],
+  "JER_14:22": [
+    "DGentile"
+  ],
+  "JER_16:19": [
+    "DGentile"
+  ],
+  "JER_46:1": [
+    "DGentile"
+  ],
+  "LAM_2:9": [
+    "DGentile"
+  ],
+  "EZK_4:13": [
+    "DGentile"
+  ],
+  "HOS_8:8": [
+    "DGentile"
+  ],
+  "JOL_3:9": [
+    "DGentile"
+  ],
+  "MIC_5:8": [
+    "DGentile"
+  ],
+  "ZEC_1:21": [
+    "DGentile"
+  ],
+  "MAL_1:11": [
+    "DGentile",
+    "DLORD"
+  ],
+  "GEN_10:5": [
+    "DGentile"
+  ],
+  "EZR_6:21": [
+    "DGentile"
+  ],
+  "NEH_5:8": [
+    "DGentile"
+  ],
+  "ISA_42:6": [
+    "DGentile"
+  ],
+  "ISA_49:6": [
+    "DGentile"
+  ],
+  "MAT_4:15": [
+    "DGentile"
+  ],
+  "MAT_10:5": [
+    "DGentile"
+  ],
+  "MAT_10:18": [
+    "DGentile"
+  ],
+  "MAT_20:19": [
+    "DGentile"
+  ],
+  "MRK_10:33": [
+    "DGentile"
+  ],
+  "MRK_10:42": [
+    "DGentile"
+  ],
+  "LUK_2:32": [
+    "DGentile"
+  ],
+  "LUK_18:32": [
+    "DGentile"
+  ],
+  "LUK_21:24a": [
+    "DGentile"
+  ],
+  "LUK_21:24b": [
+    "DGentile"
+  ],
+  "LUK_22:25": [
+    "DGentile"
+  ],
+  "ACT_4:27": [
+    "DGentile"
+  ],
+  "ACT_9:15": [
+    "DGentile"
+  ],
+  "ACT_10:45": [
+    "DGentile"
+  ],
+  "ACT_11:1": [
+    "DGentile"
+  ],
+  "ACT_11:18": [
+    "DGentile"
+  ],
+  "ACT_13:46": [
+    "DGentile"
+  ],
+  "ACT_13:47": [
+    "DGentile"
+  ],
+  "ACT_13:48": [
+    "DGentile"
+  ],
+  "ACT_14:2": [
+    "DGentile"
+  ],
+  "ACT_14:5": [
+    "DGentile"
+  ],
+  "ACT_14:27": [
+    "DGentile"
+  ],
+  "ACT_15:3": [
+    "DGentile"
+  ],
+  "ACT_15:7": [
+    "DGentile"
+  ],
+  "ACT_15:12": [
+    "DGentile"
+  ],
+  "ACT_15:14": [
+    "DGentile"
+  ],
+  "ACT_15:17": [
+    "DGentile"
+  ],
+  "ACT_15:19": [
+    "DGentile"
+  ],
+  "ACT_15:23": [
+    "DGentile"
+  ],
+  "ACT_18:6": [
+    "DGentile"
+  ],
+  "ACT_21:11": [
+    "DGentile"
+  ],
+  "ACT_21:19": [
+    "DGentile"
+  ],
+  "ACT_21:21": [
+    "DGentile"
+  ],
+  "ACT_21:25": [
+    "DGentile"
+  ],
+  "ACT_22:21": [
+    "DGentile"
+  ],
+  "ACT_26:17": [
+    "DGentile"
+  ],
+  "ACT_26:20": [
+    "DGentile"
+  ],
+  "ACT_26:23": [
+    "DGentile"
+  ],
+  "ACT_28:28": [
+    "DGentile"
+  ],
+  "ROM_1:13": [
+    "DGentile"
+  ],
+  "ROM_2:4": [
+    "DGentile"
+  ],
+  "ROM_2:24": [
+    "DGentile"
+  ],
+  "ROM_3:29a": [
+    "DGentile"
+  ],
+  "ROM_3:29b": [
+    "DGentile"
+  ],
+  "ROM_9:24": [
+    "DGentile"
+  ],
+  "ROM_11:11": [
+    "DGentile"
+  ],
+  "ROM_11:12": [
+    "DGentile"
+  ],
+  "ROM_11:13a": [
+    "DGentile"
+  ],
+  "ROM_11:13b": [
+    "DGentile"
+  ],
+  "ROM_11:25": [
+    "DGentile"
+  ],
+  "ROM_15:9a": [
+    "DGentile"
+  ],
+  "ROM_15:9b": [
+    "DGentile"
+  ],
+  "ROM_15:10": [
+    "DGentile"
+  ],
+  "ROM_15:11": [
+    "DGentile"
+  ],
+  "ROM_15:12a": [
+    "DGentile"
+  ],
+  "ROM_15:12b": [
+    "DGentile"
+  ],
+  "ROM_15:16a": [
+    "DGentile"
+  ],
+  "ROM_15:16b": [
+    "DGentile"
+  ],
+  "ROM_15:18": [
+    "DGentile"
+  ],
+  "ROM_15:27": [
+    "DGentile"
+  ],
+  "ROM_16:4": [
+    "DGentile"
+  ],
+  "GAL_2:2": [
+    "DGentile"
+  ],
+  "GAL_2:8": [
+    "DGentile"
+  ],
+  "GAL_2:12": [
+    "DGentile"
+  ],
+  "GAL_2:14": [
+    "DGentile"
+  ],
+  "GAL_2:15": [
+    "DGentile"
+  ],
+  "GAL_3:14": [
+    "DGentile"
+  ],
+  "EPH_2:11": [
+    "DGentile"
+  ],
+  "EPH_3:1": [
+    "DGentile"
+  ],
+  "EPH_3:6": [
+    "DGentile"
+  ],
+  "EPH_3:8": [
+    "DGentile"
+  ],
+  "EPH_4:17": [
+    "DGentile"
+  ],
+  "COL_1:27": [
+    "DGentile"
+  ],
+  "TH1_2:16": [
+    "DGentile"
+  ],
+  "1TI_2:7": [
+    "DGentile"
+  ],
+  "2TI_4:17": [
+    "DGentile"
+  ],
+  "MAT_12:18": [
+    "DGentile"
+  ],
+  "MAT_12:21": [
+    "DGentile"
+  ],
+  "TH1_4:5": [
+    "DGentile"
+  ],
+  "PE1_2:12": [
+    "DGentile"
+  ],
+  "PE1_4:3": [
+    "DGentile"
+  ],
+  "JN3_1:7": [
+    "DGentile"
+  ],
+  "CO1_1:23": [
+    "DGentile"
+  ],
+  "CO2_11:26": [
+    "DGentile"
+  ],
+  "GAL_1:16": [
+    "DGentile"
+  ],
+  "GAL_2:9": [
+    "DGentile"
+  ],
+  "REV_11:2": [
+    "DGentile"
+  ],
+  "ACT_4:25": [
+    "DGentile"
+  ],
+  "ACT_7:45": [
+    "DGentile"
+  ],
+  "ACT_13:42": [
+    "DGentile",
+    "DSabbath"
+  ],
+  "CO1_5:1": [
+    "DGentile"
+  ],
+  "CO1_10:21": [
+    "DGentile"
+  ],
+  "2TI_1:11": [
+    "DGentile"
+  ],
+  "PSA_8:1": [
+    "DGittith"
+  ],
+  "PSA_81:1": [
+    "DGittith"
+  ],
+  "PSA_84:1": [
+    "DGittith",
+    "DLORD"
+  ],
+  "GEN_37:35": [
+    "DHell"
+  ],
+  "GEN_42:38": [
+    "DHell"
+  ],
+  "GEN_44:29": [
+    "DHell"
+  ],
+  "GEN_44:31": [
+    "DHell"
+  ],
+  "NUM_16:30": [
+    "DHell"
+  ],
+  "NUM_16:33": [
+    "DHell"
+  ],
+  "DEU_32:22": [
+    "DHell"
+  ],
+  "SA1_2:6": [
+    "DHell"
+  ],
+  "SA2_22:6": [
+    "DHell"
+  ],
+  "KI1_2:6": [
+    "DHell"
+  ],
+  "KI1_2:9": [
+    "DHell"
+  ],
+  "JOB_7:9": [
+    "DHell"
+  ],
+  "JOB_11:8": [
+    "DHell"
+  ],
+  "JOB_14:13": [
+    "DHell"
+  ],
+  "JOB_17:13": [
+    "DHell"
+  ],
+  "JOB_17:16": [
+    "DHell"
+  ],
+  "JOB_21:13": [
+    "DHell"
+  ],
+  "JOB_24:19": [
+    "DHell"
+  ],
+  "PSA_6:5": [
+    "DHell"
+  ],
+  "PSA_9:17": [
+    "DHell"
+  ],
+  "PSA_16:10": [
+    "DHell",
+    "DHell"
+  ],
+  "PSA_18:5": [
+    "DHell"
+  ],
+  "PSA_30:3": [
+    "DHell"
+  ],
+  "PSA_31:17": [
+    "DHell"
+  ],
+  "PSA_49:14a": [
+    "DHell"
+  ],
+  "PSA_49:14b": [
+    "DHell"
+  ],
+  "PSA_49:15": [
+    "DHell",
+    "DSelah"
+  ],
+  "PSA_55:15": [
+    "DHell"
+  ],
+  "PSA_86:13": [
+    "DHell"
+  ],
+  "PSA_88:3": [
+    "DHell"
+  ],
+  "PSA_89:48": [
+    "DHell",
+    "DSelah"
+  ],
+  "PSA_116:3": [
+    "DHell"
+  ],
+  "PSA_139:8": [
+    "DHell"
+  ],
+  "PSA_141:7": [
+    "DHell"
+  ],
+  "PRO_1:12": [
+    "DHell"
+  ],
+  "PRO_5:5": [
+    "DHell"
+  ],
+  "PRO_7:27": [
+    "DHell"
+  ],
+  "PRO_9:18": [
+    "DHell"
+  ],
+  "PRO_15:24": [
+    "DHell"
+  ],
+  "PRO_23:14": [
+    "DHell"
+  ],
+  "PRO_30:16": [
+    "DHell"
+  ],
+  "ECC_9:10": [
+    "DHell"
+  ],
+  "SNG_8:6": [
+    "DHell"
+  ],
+  "ISA_5:14": [
+    "DHell"
+  ],
+  "ISA_7:11": [
+    "DHell"
+  ],
+  "ISA_14:9": [
+    "DHell"
+  ],
+  "ISA_14:11": [
+    "DHell"
+  ],
+  "ISA_14:15": [
+    "DHell"
+  ],
+  "ISA_28:15": [
+    "DHell"
+  ],
+  "ISA_28:18": [
+    "DHell"
+  ],
+  "ISA_38:10": [
+    "DHell"
+  ],
+  "ISA_38:18": [
+    "DHell"
+  ],
+  "ISA_57:9": [
+    "DHell"
+  ],
+  "EZK_31:15": [
+    "DHell",
+    "DLORD"
+  ],
+  "EZK_31:16": [
+    "DHell"
+  ],
+  "EZK_31:17": [
+    "DHell"
+  ],
+  "EZK_32:21": [
+    "DHell"
+  ],
+  "EZK_32:27": [
+    "DHell"
+  ],
+  "HOS_13:14a": [
+    "DHell"
+  ],
+  "HOS_13:14b": [
+    "DHell"
+  ],
+  "AMO_9:2": [
+    "DHell"
+  ],
+  "JNA_2:2": [
+    "DHell"
+  ],
+  "HAB_2:5": [
+    "DHell"
+  ],
+  "JOB_33:18": [
+    "DHell"
+  ],
+  "JOB_33:22": [
+    "DHell"
+  ],
+  "JOB_33:24": [
+    "DHell"
+  ],
+  "JOB_33:28": [
+    "DHell"
+  ],
+  "JOB_33:30": [
+    "DHell"
+  ],
+  "PSA_30:9": [
+    "DHell"
+  ],
+  "PSA_49:9": [
+    "DHell"
+  ],
+  "PSA_55:23": [
+    "DHell"
+  ],
+  "PSA_103:4": [
+    "DHell"
+  ],
+  "ISA_38:17": [
+    "DHell"
+  ],
+  "ISA_51:14": [
+    "DHell"
+  ],
+  "EZK_28:8": [
+    "DHell"
+  ],
+  "JNA_2:6": [
+    "DHell"
+  ],
+  "MAT_5:22": [
+    "DHell",
+    "DRaca"
+  ],
+  "MAT_5:29": [
+    "DHell"
+  ],
+  "MAT_5:30": [
+    "DHell"
+  ],
+  "MAT_10:28": [
+    "DHell"
+  ],
+  "MAT_18:9": [
+    "DHell"
+  ],
+  "MAT_23:25": [
+    "DHell",
+    "DPharisee"
+  ],
+  "MAT_23:33": [
+    "DHell"
+  ],
+  "MRK_9:43": [
+    "DHell"
+  ],
+  "MRK_9:45": [
+    "DHell"
+  ],
+  "MRK_9:47": [
+    "DHell"
+  ],
+  "LUK_12:5": [
+    "DHell"
+  ],
+  "JAS_3:6": [
+    "DHell"
+  ],
+  "PE2_2:4": [
+    "DHell"
+  ],
+  "MAT_11:23": [
+    "DHell"
+  ],
+  "MAT_16:18": [
+    "DHell"
+  ],
+  "LUK_10:15": [
+    "DHell"
+  ],
+  "LUK_16:23": [
+    "DHell"
+  ],
+  "ACT_2:27": [
+    "DHell"
+  ],
+  "ACT_2:31": [
+    "DHell"
+  ],
+  "REV_1:18": [
+    "DHell"
+  ],
+  "REV_6:8": [
+    "DHell"
+  ],
+  "REV_20:13": [
+    "DHell"
+  ],
+  "REV_20:14": [
+    "DHell"
+  ],
+  "ACT_14:12": [
+    "DHermes",
+    "DZeus"
+  ],
+  "MAT_22:16": [
+    "DHerodian"
+  ],
+  "MRK_3:6": [
+    "DHerodian",
+    "DPharisee"
+  ],
+  "MRK_12:13": [
+    "DHerodian",
+    "DPharisee"
+  ],
+  "PSA_9:16": [
+    "DHiggaion",
+    "DSelah"
+  ],
+  "MAT_21:9a": [
+    "DHosanna"
+  ],
+  "MAT_21:9b": [
+    "DHosanna"
+  ],
+  "MAT_21:15": [
+    "DHosanna"
+  ],
+  "MRK_11:9": [
+    "DHosanna"
+  ],
+  "MRK_11:10": [
+    "DHosanna"
+  ],
+  "JHN_12:13": [
+    "DHosanna"
+  ],
+  "ACT_21:37": [
+    "DGreek"
+  ],
+  "PSA_56:1": [
+    "DJonath-elem-rechokim",
+    "DMiktam"
+  ],
+  "GAL_1:13": [
+    "DJudaism"
+  ],
+  "GAL_1:14": [
+    "DJudaism"
+  ],
+  "AMO_5:26": [
+    "DKiyyun",
+    "DSikkuth"
+  ],
+  "MRK_5:9": [
+    "DLegion"
+  ],
+  "LUK_8:30": [
+    "DLegion"
+  ],
+  "JOB_3:8": [
+    "DLeviathan"
+  ],
+  "JOB_41:1": [
+    "DLeviathan"
+  ],
+  "PSA_74:14": [
+    "DLeviathan"
+  ],
+  "PSA_104:26": [
+    "DLeviathan"
+  ],
+  "ISA_27:1a": [
+    "DLeviathan"
+  ],
+  "ISA_27:1b": [
+    "DLeviathan"
+  ],
+  "GEN_2:4": [
+    "DLORD"
+  ],
+  "GEN_22:14": [
+    "DLORD",
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "EXO_6:3": [
+    "DLORD",
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "EXO_17:15": [
+    "DLORD",
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "JDG_6:24": [
+    "DLORD",
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_83:18": [
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_12:2": [
+    "DLORD",
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_26:4": [
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "EXO_15:2": [
+    "DLORD",
+    "DLORD"
+  ],
+  "EXO_17:16": [
+    "DLORD"
+  ],
+  "PSA_68:4": [
+    "DLORD"
+  ],
+  "PSA_68:18": [
+    "DLORD"
+  ],
+  "PSA_77:11": [
+    "DLORD"
+  ],
+  "PSA_89:8": [
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_94:7": [
+    "DLORD"
+  ],
+  "PSA_94:12": [
+    "DLORD"
+  ],
+  "PSA_102:18": [
+    "DLORD"
+  ],
+  "PSA_104:35": [
+    "DLORD"
+  ],
+  "PSA_105:45": [
+    "DLORD"
+  ],
+  "PSA_106:1": [
+    "DLORD"
+  ],
+  "PSA_106:48": [
+    "DLORD"
+  ],
+  "PSA_111:1": [
+    "DLORD"
+  ],
+  "PSA_112:1": [
+    "DLORD"
+  ],
+  "PSA_113:1": [
+    "DLORD"
+  ],
+  "PSA_113:9": [
+    "DLORD"
+  ],
+  "PSA_115:17": [
+    "DLORD"
+  ],
+  "PSA_115:18": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_116:19": [
+    "DLORD"
+  ],
+  "PSA_117:2": [
+    "DLORD"
+  ],
+  "PSA_118:5": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_118:14": [
+    "DLORD"
+  ],
+  "PSA_118:17": [
+    "DLORD"
+  ],
+  "PSA_118:18": [
+    "DLORD"
+  ],
+  "PSA_118:19": [
+    "DLORD"
+  ],
+  "PSA_122:4": [
+    "DLORD"
+  ],
+  "PSA_130:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_135:1": [
+    "DLORD"
+  ],
+  "PSA_135:3": [
+    "DLORD"
+  ],
+  "PSA_135:4": [
+    "DLORD"
+  ],
+  "PSA_135:21": [
+    "DLORD"
+  ],
+  "PSA_146:1": [
+    "DLORD"
+  ],
+  "PSA_146:10": [
+    "DLORD"
+  ],
+  "PSA_147:1": [
+    "DLORD"
+  ],
+  "PSA_147:20": [
+    "DLORD"
+  ],
+  "PSA_148:1": [
+    "DLORD"
+  ],
+  "PSA_148:14": [
+    "DLORD"
+  ],
+  "PSA_149:1": [
+    "DLORD"
+  ],
+  "PSA_149:9": [
+    "DLORD"
+  ],
+  "PSA_150:1": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_150:6": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_38:11": [
+    "DLORD",
+    "DLORD"
+  ],
+  "GEN_15:2": [
+    "DLORD"
+  ],
+  "GEN_15:8": [
+    "DLORD"
+  ],
+  "GEN_18:27": [
+    "DLORD"
+  ],
+  "GEN_18:30": [
+    "DLORD"
+  ],
+  "GEN_18:31": [
+    "DLORD"
+  ],
+  "GEN_18:32": [
+    "DLORD"
+  ],
+  "GEN_19:18": [
+    "DLORD"
+  ],
+  "GEN_20:4": [
+    "DLORD"
+  ],
+  "EXO_4:10": [
+    "DLORD"
+  ],
+  "EXO_4:13": [
+    "DLORD"
+  ],
+  "EXO_5:22": [
+    "DLORD"
+  ],
+  "EXO_15:17": [
+    "DLORD"
+  ],
+  "EXO_34:9": [
+    "DLORD"
+  ],
+  "NUM_14:17": [
+    "DLORD"
+  ],
+  "DEU_3:24": [
+    "DLORD",
+    "DLORD"
+  ],
+  "DEU_9:26": [
+    "DLORD"
+  ],
+  "JOS_3:11": [
+    "DLORD"
+  ],
+  "JOS_3:13": [
+    "DLORD"
+  ],
+  "JOS_7:7": [
+    "DLORD"
+  ],
+  "JOS_7:8": [
+    "DLORD"
+  ],
+  "JDG_6:15": [
+    "DLORD"
+  ],
+  "JDG_6:22": [
+    "DLORD"
+  ],
+  "JDG_13:8": [
+    "DLORD"
+  ],
+  "JDG_16:28": [
+    "DLORD"
+  ],
+  "SA2_7:18": [
+    "DLORD"
+  ],
+  "SA2_7:19": [
+    "DLORD",
+    "DLORD"
+  ],
+  "SA2_7:20": [
+    "DLORD"
+  ],
+  "SA2_7:22": [
+    "DLORD"
+  ],
+  "SA2_7:28": [
+    "DLORD"
+  ],
+  "SA2_7:29": [
+    "DLORD"
+  ],
+  "KI1_2:26": [
+    "DLORD"
+  ],
+  "KI1_3:10": [
+    "DLORD"
+  ],
+  "KI1_3:15": [
+    "DLORD"
+  ],
+  "KI1_8:53": [
+    "DLORD"
+  ],
+  "KI1_22:6": [
+    "DLORD"
+  ],
+  "KI2_7:6": [
+    "DLORD"
+  ],
+  "KI2_19:23": [
+    "DLORD"
+  ],
+  "EZR_10:3": [
+    "DLORD"
+  ],
+  "NEH_1:11": [
+    "DLORD"
+  ],
+  "NEH_4:14": [
+    "DLORD"
+  ],
+  "JOB_28:28": [
+    "DLORD"
+  ],
+  "PSA_2:4": [
+    "DLORD"
+  ],
+  "PSA_16:2": [
+    "DLORD"
+  ],
+  "PSA_22:30": [
+    "DLORD"
+  ],
+  "PSA_30:8": [
+    "DLORD"
+  ],
+  "PSA_35:17": [
+    "DLORD"
+  ],
+  "PSA_35:22": [
+    "DLORD"
+  ],
+  "PSA_35:23": [
+    "DLORD"
+  ],
+  "PSA_37:13": [
+    "DLORD"
+  ],
+  "PSA_38:9": [
+    "DLORD"
+  ],
+  "PSA_38:15": [
+    "DLORD"
+  ],
+  "PSA_38:22": [
+    "DLORD"
+  ],
+  "PSA_39:7": [
+    "DLORD"
+  ],
+  "PSA_40:17": [
+    "DLORD"
+  ],
+  "PSA_44:23": [
+    "DLORD"
+  ],
+  "PSA_51:15": [
+    "DLORD"
+  ],
+  "PSA_54:4": [
+    "DLORD"
+  ],
+  "PSA_55:9": [
+    "DLORD"
+  ],
+  "PSA_57:9": [
+    "DLORD"
+  ],
+  "PSA_59:11": [
+    "DLORD"
+  ],
+  "PSA_62:12": [
+    "DLORD"
+  ],
+  "PSA_66:18": [
+    "DLORD"
+  ],
+  "PSA_68:11": [
+    "DLORD"
+  ],
+  "PSA_68:17": [
+    "DLORD"
+  ],
+  "PSA_68:19": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_68:20": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_68:22": [
+    "DLORD"
+  ],
+  "PSA_68:32": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_69:6": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_71:5": [
+    "DLORD"
+  ],
+  "PSA_71:16": [
+    "DLORD"
+  ],
+  "PSA_73:20": [
+    "DLORD"
+  ],
+  "PSA_73:28": [
+    "DLORD"
+  ],
+  "PSA_77:2": [
+    "DLORD"
+  ],
+  "PSA_77:7": [
+    "DLORD"
+  ],
+  "PSA_78:65": [
+    "DLORD"
+  ],
+  "PSA_79:12": [
+    "DLORD"
+  ],
+  "PSA_86:3": [
+    "DLORD"
+  ],
+  "PSA_86:4": [
+    "DLORD"
+  ],
+  "PSA_86:5": [
+    "DLORD"
+  ],
+  "PSA_86:8": [
+    "DLORD"
+  ],
+  "PSA_86:9": [
+    "DLORD"
+  ],
+  "PSA_86:12": [
+    "DLORD"
+  ],
+  "PSA_86:15": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_89:49": [
+    "DLORD"
+  ],
+  "PSA_89:50": [
+    "DLORD"
+  ],
+  "PSA_90:1": [
+    "DLORD"
+  ],
+  "PSA_90:17": [
+    "DLORD"
+  ],
+  "PSA_109:21": [
+    "DLORD"
+  ],
+  "PSA_110:5": [
+    "DLORD"
+  ],
+  "PSA_130:2": [
+    "DLORD"
+  ],
+  "PSA_130:6": [
+    "DLORD"
+  ],
+  "PSA_140:7": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_141:8": [
+    "DLORD"
+  ],
+  "ISA_3:15": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_3:17": [
+    "DLORD"
+  ],
+  "ISA_3:18": [
+    "DLORD"
+  ],
+  "ISA_4:4": [
+    "DLORD"
+  ],
+  "ISA_6:1": [
+    "DLORD"
+  ],
+  "ISA_6:8": [
+    "DLORD"
+  ],
+  "ISA_6:11": [
+    "DLORD"
+  ],
+  "ISA_7:7": [
+    "DLORD"
+  ],
+  "ISA_7:14": [
+    "DLORD"
+  ],
+  "ISA_7:20": [
+    "DLORD"
+  ],
+  "ISA_8:7": [
+    "DLORD"
+  ],
+  "ISA_9:8": [
+    "DLORD"
+  ],
+  "ISA_9:17": [
+    "DLORD"
+  ],
+  "ISA_10:12": [
+    "DLORD"
+  ],
+  "ISA_10:23": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_10:24": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_11:11": [
+    "DLORD"
+  ],
+  "ISA_21:6": [
+    "DLORD"
+  ],
+  "ISA_21:8": [
+    "DLORD"
+  ],
+  "ISA_21:16": [
+    "DLORD"
+  ],
+  "ISA_22:5": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_22:12": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_22:14": [
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_22:15": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_25:8": [
+    "DLORD"
+  ],
+  "ISA_28:2": [
+    "DLORD"
+  ],
+  "ISA_28:16": [
+    "DLORD"
+  ],
+  "ISA_28:22": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_29:13": [
+    "DLORD"
+  ],
+  "ISA_30:15": [
+    "DLORD"
+  ],
+  "ISA_30:20": [
+    "DLORD"
+  ],
+  "ISA_37:24": [
+    "DLORD"
+  ],
+  "ISA_38:14": [
+    "DLORD"
+  ],
+  "ISA_38:16": [
+    "DLORD"
+  ],
+  "ISA_40:10": [
+    "DLORD"
+  ],
+  "ISA_48:16": [
+    "DLORD"
+  ],
+  "ISA_49:14": [
+    "DLORD"
+  ],
+  "ISA_50:4": [
+    "DLORD"
+  ],
+  "ISA_50:5": [
+    "DLORD"
+  ],
+  "ISA_50:7": [
+    "DLORD"
+  ],
+  "ISA_50:9": [
+    "DLORD"
+  ],
+  "ISA_52:4": [
+    "DLORD"
+  ],
+  "ISA_56:8": [
+    "DLORD"
+  ],
+  "ISA_61:1": [
+    "DLORD"
+  ],
+  "ISA_61:11": [
+    "DLORD"
+  ],
+  "ISA_65:13": [
+    "DLORD"
+  ],
+  "ISA_65:15": [
+    "DLORD"
+  ],
+  "JER_1:6": [
+    "DLORD"
+  ],
+  "JER_2:19": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JER_2:22": [
+    "DLORD"
+  ],
+  "JER_4:10": [
+    "DLORD"
+  ],
+  "JER_7:20": [
+    "DLORD"
+  ],
+  "JER_14:13": [
+    "DLORD"
+  ],
+  "JER_32:17": [
+    "DLORD"
+  ],
+  "JER_32:25": [
+    "DLORD"
+  ],
+  "JER_44:26": [
+    "DLORD"
+  ],
+  "JER_46:10": [
+    "DLORD",
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "JER_49:5": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JER_50:25": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JER_50:31": [
+    "DLORD",
+    "DLORD"
+  ],
+  "LAM_1:14": [
+    "DLORD"
+  ],
+  "LAM_1:15": [
+    "DLORD",
+    "DLORD"
+  ],
+  "LAM_2:1": [
+    "DLORD"
+  ],
+  "LAM_2:2": [
+    "DLORD"
+  ],
+  "LAM_2:5": [
+    "DLORD"
+  ],
+  "LAM_2:7": [
+    "DLORD"
+  ],
+  "LAM_2:18": [
+    "DLORD"
+  ],
+  "LAM_2:19": [
+    "DLORD"
+  ],
+  "LAM_2:20": [
+    "DLORD"
+  ],
+  "LAM_3:31": [
+    "DLORD"
+  ],
+  "LAM_3:36": [
+    "DLORD"
+  ],
+  "LAM_3:37": [
+    "DLORD"
+  ],
+  "LAM_3:58": [
+    "DLORD"
+  ],
+  "EZK_2:4": [
+    "DLORD"
+  ],
+  "EZK_3:11": [
+    "DLORD"
+  ],
+  "EZK_3:27": [
+    "DLORD"
+  ],
+  "EZK_4:14": [
+    "DLORD"
+  ],
+  "EZK_5:5": [
+    "DLORD"
+  ],
+  "EZK_5:7": [
+    "DLORD"
+  ],
+  "EZK_5:8": [
+    "DLORD"
+  ],
+  "EZK_5:11": [
+    "DLORD"
+  ],
+  "EZK_6:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "EZK_6:11": [
+    "DLORD"
+  ],
+  "EZK_7:2": [
+    "DLORD"
+  ],
+  "EZK_7:5": [
+    "DLORD"
+  ],
+  "EZK_8:1": [
+    "DLORD"
+  ],
+  "EZK_9:8": [
+    "DLORD"
+  ],
+  "EZK_11:7": [
+    "DLORD"
+  ],
+  "EZK_11:8": [
+    "DLORD"
+  ],
+  "EZK_11:13": [
+    "DLORD"
+  ],
+  "EZK_11:16": [
+    "DLORD"
+  ],
+  "EZK_11:17": [
+    "DLORD"
+  ],
+  "EZK_11:21": [
+    "DLORD"
+  ],
+  "EZK_12:10": [
+    "DLORD"
+  ],
+  "EZK_12:19": [
+    "DLORD"
+  ],
+  "EZK_12:23": [
+    "DLORD"
+  ],
+  "EZK_12:25": [
+    "DLORD"
+  ],
+  "EZK_12:28": [
+    "DLORD",
+    "DLORD"
+  ],
+  "EZK_13:3": [
+    "DLORD"
+  ],
+  "EZK_13:8": [
+    "DLORD",
+    "DLORD"
+  ],
+  "EZK_13:9": [
+    "DLORD"
+  ],
+  "EZK_13:13": [
+    "DLORD"
+  ],
+  "EZK_13:16": [
+    "DLORD"
+  ],
+  "EZK_13:18": [
+    "DLORD"
+  ],
+  "EZK_13:20": [
+    "DLORD"
+  ],
+  "EZK_14:4": [
+    "DLORD"
+  ],
+  "EZK_14:6": [
+    "DLORD"
+  ],
+  "EZK_14:11": [
+    "DLORD"
+  ],
+  "EZK_14:14": [
+    "DLORD"
+  ],
+  "EZK_14:16": [
+    "DLORD"
+  ],
+  "EZK_14:18": [
+    "DLORD"
+  ],
+  "EZK_14:20": [
+    "DLORD"
+  ],
+  "EZK_14:21": [
+    "DLORD"
+  ],
+  "EZK_14:23": [
+    "DLORD"
+  ],
+  "EZK_15:6": [
+    "DLORD"
+  ],
+  "EZK_15:8": [
+    "DLORD"
+  ],
+  "EZK_16:3": [
+    "DLORD"
+  ],
+  "EZK_16:8": [
+    "DLORD"
+  ],
+  "EZK_16:14": [
+    "DLORD"
+  ],
+  "EZK_16:19": [
+    "DLORD"
+  ],
+  "EZK_16:23": [
+    "DLORD"
+  ],
+  "EZK_16:30": [
+    "DLORD"
+  ],
+  "EZK_16:36": [
+    "DLORD"
+  ],
+  "EZK_16:43": [
+    "DLORD"
+  ],
+  "EZK_16:48": [
+    "DLORD"
+  ],
+  "EZK_16:59": [
+    "DLORD"
+  ],
+  "EZK_16:63": [
+    "DLORD"
+  ],
+  "EZK_17:3": [
+    "DLORD"
+  ],
+  "EZK_17:9": [
+    "DLORD"
+  ],
+  "EZK_17:16": [
+    "DLORD"
+  ],
+  "EZK_17:19": [
+    "DLORD"
+  ],
+  "EZK_17:22": [
+    "DLORD"
+  ],
+  "EZK_18:3": [
+    "DLORD"
+  ],
+  "EZK_18:9": [
+    "DLORD"
+  ],
+  "EZK_18:23": [
+    "DLORD"
+  ],
+  "EZK_18:25": [
+    "DLORD"
+  ],
+  "EZK_18:29": [
+    "DLORD"
+  ],
+  "EZK_18:30": [
+    "DLORD"
+  ],
+  "EZK_18:32": [
+    "DLORD"
+  ],
+  "EZK_20:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "EZK_20:5": [
+    "DLORD"
+  ],
+  "EZK_20:27": [
+    "DLORD"
+  ],
+  "EZK_20:30": [
+    "DLORD"
+  ],
+  "EZK_20:31": [
+    "DLORD"
+  ],
+  "EZK_20:33": [
+    "DLORD"
+  ],
+  "EZK_20:36": [
+    "DLORD"
+  ],
+  "EZK_20:39": [
+    "DLORD"
+  ],
+  "EZK_20:40": [
+    "DLORD"
+  ],
+  "EZK_20:44": [
+    "DLORD"
+  ],
+  "EZK_20:47": [
+    "DLORD"
+  ],
+  "EZK_20:49": [
+    "DLORD"
+  ],
+  "EZK_21:7": [
+    "DLORD"
+  ],
+  "EZK_21:9": [
+    "DLORD"
+  ],
+  "EZK_21:13": [
+    "DLORD"
+  ],
+  "EZK_21:24": [
+    "DLORD"
+  ],
+  "EZK_21:26": [
+    "DLORD"
+  ],
+  "EZK_21:28": [
+    "DLORD"
+  ],
+  "EZK_22:3": [
+    "DLORD"
+  ],
+  "EZK_22:12": [
+    "DLORD"
+  ],
+  "EZK_22:19": [
+    "DLORD"
+  ],
+  "EZK_22:28": [
+    "DLORD"
+  ],
+  "EZK_22:31": [
+    "DLORD"
+  ],
+  "EZK_23:22": [
+    "DLORD"
+  ],
+  "EZK_23:28": [
+    "DLORD"
+  ],
+  "EZK_23:32": [
+    "DLORD"
+  ],
+  "EZK_23:34": [
+    "DLORD"
+  ],
+  "EZK_23:35": [
+    "DLORD"
+  ],
+  "EZK_23:46": [
+    "DLORD"
+  ],
+  "EZK_23:49": [
+    "DLORD"
+  ],
+  "EZK_24:3": [
+    "DLORD"
+  ],
+  "EZK_24:6": [
+    "DLORD"
+  ],
+  "EZK_24:9": [
+    "DLORD"
+  ],
+  "EZK_24:14": [
+    "DLORD"
+  ],
+  "EZK_24:21": [
+    "DLORD"
+  ],
+  "EZK_24:24": [
+    "DLORD"
+  ],
+  "EZK_25:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "EZK_25:6": [
+    "DLORD"
+  ],
+  "EZK_25:8": [
+    "DLORD"
+  ],
+  "EZK_25:12": [
+    "DLORD"
+  ],
+  "EZK_25:13": [
+    "DLORD"
+  ],
+  "EZK_25:14": [
+    "DLORD"
+  ],
+  "EZK_25:15": [
+    "DLORD"
+  ],
+  "EZK_25:16": [
+    "DLORD"
+  ],
+  "EZK_26:3": [
+    "DLORD"
+  ],
+  "EZK_26:5": [
+    "DLORD"
+  ],
+  "EZK_26:7": [
+    "DLORD"
+  ],
+  "EZK_26:14": [
+    "DLORD"
+  ],
+  "EZK_26:15": [
+    "DLORD"
+  ],
+  "EZK_26:19": [
+    "DLORD"
+  ],
+  "EZK_26:21": [
+    "DLORD"
+  ],
+  "EZK_27:3": [
+    "DLORD"
+  ],
+  "EZK_28:2": [
+    "DLORD"
+  ],
+  "EZK_28:6": [
+    "DLORD"
+  ],
+  "EZK_28:10": [
+    "DLORD"
+  ],
+  "EZK_28:12": [
+    "DLORD"
+  ],
+  "EZK_28:22": [
+    "DLORD"
+  ],
+  "EZK_28:24": [
+    "DLORD"
+  ],
+  "EZK_28:25": [
+    "DLORD"
+  ],
+  "EZK_29:3": [
+    "DLORD"
+  ],
+  "EZK_29:8": [
+    "DLORD"
+  ],
+  "EZK_29:13": [
+    "DLORD"
+  ],
+  "EZK_29:16": [
+    "DLORD"
+  ],
+  "EZK_29:19": [
+    "DLORD"
+  ],
+  "EZK_29:20": [
+    "DLORD"
+  ],
+  "EZK_30:2": [
+    "DLORD"
+  ],
+  "EZK_30:6": [
+    "DLORD"
+  ],
+  "EZK_30:10": [
+    "DLORD"
+  ],
+  "EZK_30:13": [
+    "DLORD"
+  ],
+  "EZK_30:22": [
+    "DLORD"
+  ],
+  "EZK_31:10": [
+    "DLORD"
+  ],
+  "EZK_31:18": [
+    "DLORD"
+  ],
+  "EZK_32:3": [
+    "DLORD"
+  ],
+  "EZK_32:8": [
+    "DLORD"
+  ],
+  "EZK_32:11": [
+    "DLORD"
+  ],
+  "EZK_32:14": [
+    "DLORD"
+  ],
+  "EZK_32:16": [
+    "DLORD"
+  ],
+  "EZK_32:31": [
+    "DLORD"
+  ],
+  "EZK_32:32": [
+    "DLORD"
+  ],
+  "EZK_33:11": [
+    "DLORD"
+  ],
+  "EZK_33:17": [
+    "DLORD"
+  ],
+  "EZK_33:20": [
+    "DLORD"
+  ],
+  "EZK_33:25": [
+    "DLORD"
+  ],
+  "EZK_33:27": [
+    "DLORD"
+  ],
+  "EZK_34:2": [
+    "DLORD"
+  ],
+  "EZK_34:8": [
+    "DLORD"
+  ],
+  "EZK_34:10": [
+    "DLORD"
+  ],
+  "EZK_34:11": [
+    "DLORD"
+  ],
+  "EZK_34:15": [
+    "DLORD"
+  ],
+  "EZK_34:17": [
+    "DLORD"
+  ],
+  "EZK_34:20": [
+    "DLORD"
+  ],
+  "EZK_34:30": [
+    "DLORD"
+  ],
+  "EZK_34:31": [
+    "DLORD"
+  ],
+  "EZK_35:3": [
+    "DLORD"
+  ],
+  "EZK_35:6": [
+    "DLORD"
+  ],
+  "EZK_35:11": [
+    "DLORD"
+  ],
+  "EZK_35:14": [
+    "DLORD"
+  ],
+  "EZK_36:2": [
+    "DLORD"
+  ],
+  "EZK_36:3": [
+    "DLORD"
+  ],
+  "EZK_36:4": [
+    "DLORD",
+    "DLORD"
+  ],
+  "EZK_36:5": [
+    "DLORD"
+  ],
+  "EZK_36:6": [
+    "DLORD"
+  ],
+  "EZK_36:7": [
+    "DLORD"
+  ],
+  "EZK_36:13": [
+    "DLORD"
+  ],
+  "EZK_36:14": [
+    "DLORD"
+  ],
+  "EZK_36:15": [
+    "DLORD"
+  ],
+  "EZK_36:22": [
+    "DLORD"
+  ],
+  "EZK_36:23": [
+    "DLORD"
+  ],
+  "EZK_36:32": [
+    "DLORD"
+  ],
+  "EZK_36:33": [
+    "DLORD"
+  ],
+  "EZK_36:37": [
+    "DLORD"
+  ],
+  "EZK_37:3": [
+    "DLORD"
+  ],
+  "EZK_37:5": [
+    "DLORD"
+  ],
+  "EZK_37:9": [
+    "DLORD"
+  ],
+  "EZK_37:12": [
+    "DLORD"
+  ],
+  "EZK_37:19": [
+    "DLORD"
+  ],
+  "EZK_37:21": [
+    "DLORD"
+  ],
+  "EZK_38:3": [
+    "DLORD"
+  ],
+  "EZK_38:10": [
+    "DLORD"
+  ],
+  "EZK_38:14": [
+    "DLORD"
+  ],
+  "EZK_38:17": [
+    "DLORD"
+  ],
+  "EZK_38:18": [
+    "DLORD"
+  ],
+  "EZK_38:21": [
+    "DLORD"
+  ],
+  "EZK_39:1": [
+    "DLORD"
+  ],
+  "EZK_39:5": [
+    "DLORD"
+  ],
+  "EZK_39:8": [
+    "DLORD"
+  ],
+  "EZK_39:10": [
+    "DLORD"
+  ],
+  "EZK_39:13": [
+    "DLORD"
+  ],
+  "EZK_39:17": [
+    "DLORD"
+  ],
+  "EZK_39:20": [
+    "DLORD"
+  ],
+  "EZK_39:25": [
+    "DLORD"
+  ],
+  "EZK_39:29": [
+    "DLORD"
+  ],
+  "EZK_43:18": [
+    "DLORD"
+  ],
+  "EZK_43:19": [
+    "DLORD"
+  ],
+  "EZK_43:27": [
+    "DLORD"
+  ],
+  "EZK_44:6": [
+    "DLORD"
+  ],
+  "EZK_44:9": [
+    "DLORD"
+  ],
+  "EZK_44:12": [
+    "DLORD"
+  ],
+  "EZK_44:15": [
+    "DLORD"
+  ],
+  "EZK_44:27": [
+    "DLORD"
+  ],
+  "EZK_45:9": [
+    "DLORD",
+    "DLORD"
+  ],
+  "EZK_45:15": [
+    "DLORD"
+  ],
+  "EZK_45:18": [
+    "DLORD"
+  ],
+  "EZK_46:1": [
+    "DLORD",
+    "DSabbath"
+  ],
+  "EZK_46:16": [
+    "DLORD"
+  ],
+  "EZK_47:13": [
+    "DLORD"
+  ],
+  "EZK_47:23": [
+    "DLORD"
+  ],
+  "EZK_48:29": [
+    "DLORD"
+  ],
+  "DAN_1:2": [
+    "DLORD"
+  ],
+  "DAN_9:3": [
+    "DLORD"
+  ],
+  "DAN_9:4": [
+    "DLORD",
+    "DLORD"
+  ],
+  "DAN_9:7": [
+    "DLORD"
+  ],
+  "DAN_9:9": [
+    "DLORD"
+  ],
+  "DAN_9:15": [
+    "DLORD"
+  ],
+  "DAN_9:16": [
+    "DLORD"
+  ],
+  "DAN_9:17": [
+    "DLORD"
+  ],
+  "DAN_9:19": [
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "AMO_1:8": [
+    "DLORD"
+  ],
+  "AMO_3:7": [
+    "DLORD"
+  ],
+  "AMO_3:8": [
+    "DLORD"
+  ],
+  "AMO_3:11": [
+    "DLORD"
+  ],
+  "AMO_3:13": [
+    "DLORD"
+  ],
+  "AMO_4:2": [
+    "DLORD"
+  ],
+  "AMO_4:5": [
+    "DLORD"
+  ],
+  "AMO_5:3": [
+    "DLORD"
+  ],
+  "AMO_5:16": [
+    "DLORD",
+    "DLORD"
+  ],
+  "AMO_6:8": [
+    "DLORD",
+    "DLORD"
+  ],
+  "AMO_7:1": [
+    "DLORD"
+  ],
+  "AMO_7:2": [
+    "DLORD"
+  ],
+  "AMO_7:4": [
+    "DLORD",
+    "DLORD"
+  ],
+  "AMO_7:5": [
+    "DLORD"
+  ],
+  "AMO_7:6": [
+    "DLORD"
+  ],
+  "AMO_7:7": [
+    "DLORD"
+  ],
+  "AMO_7:8": [
+    "DLORD"
+  ],
+  "AMO_8:1": [
+    "DLORD"
+  ],
+  "AMO_8:3": [
+    "DLORD"
+  ],
+  "AMO_8:9": [
+    "DLORD"
+  ],
+  "AMO_8:11": [
+    "DLORD"
+  ],
+  "AMO_9:1": [
+    "DLORD"
+  ],
+  "AMO_9:5": [
+    "DLORD",
+    "DLORD"
+  ],
+  "AMO_9:8": [
+    "DLORD"
+  ],
+  "OBA_1:1": [
+    "DLORD"
+  ],
+  "MIC_1:2": [
+    "DLORD",
+    "DLORD"
+  ],
+  "HAB_3:19": [
+    "DLORD"
+  ],
+  "ZEP_1:7": [
+    "DLORD"
+  ],
+  "ZEC_9:4": [
+    "DLORD"
+  ],
+  "ZEC_9:14": [
+    "DLORD"
+  ],
+  "MAL_1:12": [
+    "DLORD"
+  ],
+  "MAL_1:14": [
+    "DLORD",
+    "DLORD"
+  ],
+  "GEN_1:1": [
+    "DLORD"
+  ],
+  "SA1_10:5": [
+    "DLORD"
+  ],
+  "HOS_2:16": [
+    "DLORD"
+  ],
+  "GEN_17:1": [
+    "DLORD",
+    "DLORD"
+  ],
+  "GEN_28:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "GEN_35:11": [
+    "DLORD",
+    "DLORD"
+  ],
+  "GEN_43:14": [
+    "DLORD",
+    "DLORD"
+  ],
+  "GEN_48:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "GEN_49:25": [
+    "DLORD",
+    "DLORD"
+  ],
+  "NUM_24:4": [
+    "DLORD",
+    "DLORD"
+  ],
+  "NUM_24:16": [
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "RUT_1:20": [
+    "DLORD"
+  ],
+  "RUT_1:21": [
+    "DLORD"
+  ],
+  "JOB_5:17": [
+    "DLORD"
+  ],
+  "JOB_6:4": [
+    "DLORD"
+  ],
+  "JOB_6:14": [
+    "DLORD"
+  ],
+  "JOB_8:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_8:5": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_11:7": [
+    "DLORD"
+  ],
+  "JOB_13:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_15:25": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_21:15": [
+    "DLORD"
+  ],
+  "JOB_21:20": [
+    "DLORD"
+  ],
+  "JOB_22:3": [
+    "DLORD"
+  ],
+  "JOB_22:17": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_22:23": [
+    "DLORD"
+  ],
+  "JOB_22:25": [
+    "DLORD"
+  ],
+  "JOB_22:26": [
+    "DLORD"
+  ],
+  "JOB_23:16": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_24:1": [
+    "DLORD"
+  ],
+  "JOB_27:2": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_27:10": [
+    "DLORD"
+  ],
+  "JOB_27:11": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_27:13": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_29:5": [
+    "DLORD"
+  ],
+  "JOB_31:2": [
+    "DLORD"
+  ],
+  "JOB_31:35": [
+    "DLORD"
+  ],
+  "JOB_32:8": [
+    "DLORD"
+  ],
+  "JOB_33:4": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_34:10": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_34:12": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_35:13": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOB_37:23": [
+    "DLORD"
+  ],
+  "JOB_40:2": [
+    "DLORD"
+  ],
+  "PSA_68:14": [
+    "DLORD"
+  ],
+  "PSA_91:1": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_13:6": [
+    "DLORD"
+  ],
+  "EZK_1:24": [
+    "DLORD"
+  ],
+  "EZK_10:5": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JOL_1:15": [
+    "DLORD"
+  ],
+  "HOS_11:7": [
+    "DLORD"
+  ],
+  "DAN_3:26": [
+    "DLORD"
+  ],
+  "DAN_4:2": [
+    "DLORD"
+  ],
+  "DAN_4:17": [
+    "DLORD"
+  ],
+  "DAN_4:24": [
+    "DLORD"
+  ],
+  "DAN_4:25": [
+    "DLORD"
+  ],
+  "DAN_4:32": [
+    "DLORD"
+  ],
+  "DAN_4:34": [
+    "DLORD"
+  ],
+  "DAN_5:18": [
+    "DLORD"
+  ],
+  "DAN_5:21": [
+    "DLORD"
+  ],
+  "DAN_7:25": [
+    "DLORD",
+    "DLORD"
+  ],
+  "DEU_32:8": [
+    "DLORD"
+  ],
+  "SA2_22:14": [
+    "DLORD"
+  ],
+  "PSA_7:17": [
+    "DLORD"
+  ],
+  "PSA_9:2": [
+    "DLORD"
+  ],
+  "PSA_21:7": [
+    "DLORD"
+  ],
+  "PSA_46:4": [
+    "DLORD"
+  ],
+  "PSA_47:2": [
+    "DLORD"
+  ],
+  "PSA_50:14": [
+    "DLORD"
+  ],
+  "PSA_57:2": [
+    "DLORD"
+  ],
+  "PSA_73:11": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_77:10": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_78:17": [
+    "DLORD"
+  ],
+  "PSA_78:56": [
+    "DLORD"
+  ],
+  "PSA_82:6": [
+    "DLORD"
+  ],
+  "PSA_91:9": [
+    "DLORD"
+  ],
+  "PSA_92:1": [
+    "DLORD"
+  ],
+  "PSA_107:11": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_14:14": [
+    "DLORD"
+  ],
+  "LAM_3:35": [
+    "DLORD"
+  ],
+  "LAM_3:38": [
+    "DLORD"
+  ],
+  "PSA_18:13": [
+    "DLORD"
+  ],
+  "PSA_87:5": [
+    "DLORD"
+  ],
+  "DAN_7:18": [
+    "DLORD"
+  ],
+  "DAN_7:22": [
+    "DLORD"
+  ],
+  "DAN_7:27": [
+    "DLORD"
+  ],
+  "GEN_14:18": [
+    "DLORD"
+  ],
+  "GEN_14:19": [
+    "DLORD"
+  ],
+  "GEN_14:20": [
+    "DLORD"
+  ],
+  "GEN_14:22": [
+    "DLORD"
+  ],
+  "PSA_78:35": [
+    "DLORD"
+  ],
+  "GEN_16:13": [
+    "DLORD"
+  ],
+  "GEN_21:33": [
+    "DLORD",
+    "DLORD"
+  ],
+  "GEN_31:13": [
+    "DLORD"
+  ],
+  "GEN_35:1": [
+    "DLORD"
+  ],
+  "GEN_35:3": [
+    "DLORD"
+  ],
+  "GEN_46:3": [
+    "DLORD"
+  ],
+  "EXO_20:5": [
+    "DLORD"
+  ],
+  "EXO_34:6": [
+    "DLORD"
+  ],
+  "EXO_34:14": [
+    "DLORD",
+    "DLORD"
+  ],
+  "NUM_12:13": [
+    "DLORD"
+  ],
+  "NUM_16:22": [
+    "DLORD"
+  ],
+  "NUM_23:8": [
+    "DLORD"
+  ],
+  "NUM_23:19": [
+    "DLORD"
+  ],
+  "NUM_23:22": [
+    "DLORD"
+  ],
+  "NUM_23:23": [
+    "DLORD"
+  ],
+  "NUM_24:8": [
+    "DLORD"
+  ],
+  "NUM_24:23": [
+    "DLORD"
+  ],
+  "DEU_4:24": [
+    "DLORD"
+  ],
+  "DEU_4:31": [
+    "DLORD"
+  ],
+  "DEU_5:9": [
+    "DLORD"
+  ],
+  "DEU_6:15": [
+    "DLORD"
+  ],
+  "DEU_7:9": [
+    "DLORD"
+  ],
+  "DEU_7:21": [
+    "DLORD"
+  ],
+  "DEU_10:17": [
+    "DLORD"
+  ],
+  "DEU_32:4": [
+    "DLORD"
+  ],
+  "DEU_32:18": [
+    "DLORD"
+  ],
+  "DEU_33:26": [
+    "DLORD"
+  ],
+  "JOS_3:10": [
+    "DLORD"
+  ],
+  "JOS_24:19": [
+    "DLORD"
+  ],
+  "SA1_2:3": [
+    "DLORD"
+  ],
+  "SA2_22:31": [
+    "DLORD"
+  ],
+  "SA2_22:32": [
+    "DLORD"
+  ],
+  "SA2_22:33": [
+    "DLORD"
+  ],
+  "SA2_22:48": [
+    "DLORD"
+  ],
+  "SA2_23:5": [
+    "DLORD"
+  ],
+  "NEH_1:5": [
+    "DLORD"
+  ],
+  "NEH_9:31": [
+    "DLORD"
+  ],
+  "NEH_9:32": [
+    "DLORD"
+  ],
+  "JOB_5:8": [
+    "DLORD"
+  ],
+  "JOB_8:13": [
+    "DLORD"
+  ],
+  "JOB_8:20": [
+    "DLORD"
+  ],
+  "JOB_9:2": [
+    "DLORD"
+  ],
+  "JOB_12:6": [
+    "DLORD"
+  ],
+  "JOB_13:7": [
+    "DLORD"
+  ],
+  "JOB_13:8": [
+    "DLORD"
+  ],
+  "JOB_15:4": [
+    "DLORD"
+  ],
+  "JOB_15:11": [
+    "DLORD"
+  ],
+  "JOB_15:13": [
+    "DLORD"
+  ],
+  "JOB_16:11": [
+    "DLORD"
+  ],
+  "JOB_18:21": [
+    "DLORD"
+  ],
+  "JOB_19:22": [
+    "DLORD"
+  ],
+  "JOB_20:15": [
+    "DLORD"
+  ],
+  "JOB_20:29": [
+    "DLORD"
+  ],
+  "JOB_21:14": [
+    "DLORD"
+  ],
+  "JOB_21:22": [
+    "DLORD"
+  ],
+  "JOB_22:2": [
+    "DLORD"
+  ],
+  "JOB_22:13": [
+    "DLORD"
+  ],
+  "JOB_25:4": [
+    "DLORD"
+  ],
+  "JOB_27:9": [
+    "DLORD"
+  ],
+  "JOB_31:14": [
+    "DLORD"
+  ],
+  "JOB_31:23": [
+    "DLORD"
+  ],
+  "JOB_31:28": [
+    "DLORD"
+  ],
+  "JOB_32:13": [
+    "DLORD"
+  ],
+  "JOB_33:6": [
+    "DLORD"
+  ],
+  "JOB_33:14": [
+    "DLORD"
+  ],
+  "JOB_33:29": [
+    "DLORD"
+  ],
+  "JOB_34:5": [
+    "DLORD"
+  ],
+  "JOB_34:23": [
+    "DLORD"
+  ],
+  "JOB_34:31": [
+    "DLORD"
+  ],
+  "JOB_34:37": [
+    "DLORD"
+  ],
+  "JOB_35:2": [
+    "DLORD"
+  ],
+  "JOB_36:5": [
+    "DLORD"
+  ],
+  "JOB_36:22": [
+    "DLORD"
+  ],
+  "JOB_36:26": [
+    "DLORD"
+  ],
+  "JOB_37:5": [
+    "DLORD"
+  ],
+  "JOB_37:10": [
+    "DLORD"
+  ],
+  "JOB_37:14": [
+    "DLORD"
+  ],
+  "JOB_38:41": [
+    "DLORD"
+  ],
+  "JOB_40:9": [
+    "DLORD"
+  ],
+  "JOB_40:19": [
+    "DLORD"
+  ],
+  "PSA_5:5": [
+    "DLORD"
+  ],
+  "PSA_7:12": [
+    "DLORD"
+  ],
+  "PSA_10:11": [
+    "DLORD"
+  ],
+  "PSA_10:12": [
+    "DLORD"
+  ],
+  "PSA_16:1": [
+    "DLORD",
+    "DMiktam"
+  ],
+  "PSA_17:6": [
+    "DLORD"
+  ],
+  "PSA_18:3": [
+    "DLORD"
+  ],
+  "PSA_18:31": [
+    "DLORD"
+  ],
+  "PSA_18:33": [
+    "DLORD"
+  ],
+  "PSA_18:48": [
+    "DLORD"
+  ],
+  "PSA_19:2": [
+    "DLORD"
+  ],
+  "PSA_22:2": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_22:11": [
+    "DLORD"
+  ],
+  "PSA_29:3": [
+    "DLORD"
+  ],
+  "PSA_31:6": [
+    "DLORD"
+  ],
+  "PSA_36:7": [
+    "DLORD"
+  ],
+  "PSA_42:3": [
+    "DLORD"
+  ],
+  "PSA_42:9": [
+    "DLORD"
+  ],
+  "PSA_42:10": [
+    "DLORD"
+  ],
+  "PSA_43:4": [
+    "DLORD"
+  ],
+  "PSA_50:1": [
+    "DLORD"
+  ],
+  "PSA_52:3": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_52:7": [
+    "DLORD"
+  ],
+  "PSA_55:20": [
+    "DLORD"
+  ],
+  "PSA_57:3": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_63:2": [
+    "DLORD"
+  ],
+  "PSA_68:21": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_68:25": [
+    "DLORD"
+  ],
+  "PSA_68:36": [
+    "DLORD"
+  ],
+  "PSA_73:17": [
+    "DLORD"
+  ],
+  "PSA_74:8": [
+    "DLORD"
+  ],
+  "PSA_77:15": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_78:7": [
+    "DLORD"
+  ],
+  "PSA_78:8": [
+    "DLORD"
+  ],
+  "PSA_78:18": [
+    "DLORD"
+  ],
+  "PSA_78:19": [
+    "DLORD"
+  ],
+  "PSA_78:34": [
+    "DLORD"
+  ],
+  "PSA_78:41": [
+    "DLORD"
+  ],
+  "PSA_80:11": [
+    "DLORD"
+  ],
+  "PSA_82:1": [
+    "DLORD"
+  ],
+  "PSA_83:2": [
+    "DLORD"
+  ],
+  "PSA_84:3": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_85:9": [
+    "DLORD"
+  ],
+  "PSA_89:27": [
+    "DLORD"
+  ],
+  "PSA_90:2": [
+    "DLORD"
+  ],
+  "PSA_94:1": [
+    "DLORD",
+    "DLORD"
+  ],
+  "PSA_95:3": [
+    "DLORD"
+  ],
+  "PSA_99:8": [
+    "DLORD"
+  ],
+  "PSA_102:25": [
+    "DLORD"
+  ],
+  "PSA_104:21": [
+    "DLORD"
+  ],
+  "PSA_106:14": [
+    "DLORD"
+  ],
+  "PSA_106:21": [
+    "DLORD"
+  ],
+  "PSA_118:27": [
+    "DLORD"
+  ],
+  "PSA_118:28": [
+    "DLORD"
+  ],
+  "PSA_136:26": [
+    "DLORD"
+  ],
+  "PSA_139:17": [
+    "DLORD"
+  ],
+  "PSA_139:23": [
+    "DLORD"
+  ],
+  "PSA_146:5": [
+    "DLORD"
+  ],
+  "PSA_149:6": [
+    "DLORD"
+  ],
+  "ISA_5:16": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_8:10": [
+    "DLORD"
+  ],
+  "ISA_9:5": [
+    "DLORD"
+  ],
+  "ISA_10:21": [
+    "DLORD"
+  ],
+  "ISA_31:3": [
+    "DLORD"
+  ],
+  "ISA_40:18": [
+    "DLORD"
+  ],
+  "ISA_42:5": [
+    "DLORD"
+  ],
+  "ISA_43:12": [
+    "DLORD"
+  ],
+  "ISA_45:14": [
+    "DLORD"
+  ],
+  "ISA_45:15": [
+    "DLORD"
+  ],
+  "ISA_45:21": [
+    "DLORD"
+  ],
+  "ISA_45:22": [
+    "DLORD"
+  ],
+  "ISA_46:9": [
+    "DLORD"
+  ],
+  "JER_32:18": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JER_51:56": [
+    "DLORD"
+  ],
+  "LAM_3:41": [
+    "DLORD"
+  ],
+  "DAN_11:36": [
+    "DLORD"
+  ],
+  "HOS_2:1": [
+    "DLORD"
+  ],
+  "HOS_11:9": [
+    "DLORD"
+  ],
+  "HOS_12:1": [
+    "DLORD"
+  ],
+  "JNA_4:2": [
+    "DLORD"
+  ],
+  "MIC_7:18": [
+    "DLORD"
+  ],
+  "NAH_1:2": [
+    "DLORD"
+  ],
+  "MAL_1:9": [
+    "DLORD",
+    "DLORD"
+  ],
+  "MAL_2:10": [
+    "DLORD"
+  ],
+  "JOS_22:22": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_14:13": [
+    "DLORD"
+  ],
+  "GEN_33:20": [
+    "DLORD",
+    "DLORD"
+  ],
+  "JER_23:6": [
+    "DLORD"
+  ],
+  "JER_33:16": [
+    "DLORD"
+  ],
+  "SA1_1:3": [
+    "DLORD"
+  ],
+  "SA1_1:11": [
+    "DLORD"
+  ],
+  "SA1_4:4": [
+    "DLORD"
+  ],
+  "SA1_15:2": [
+    "DLORD"
+  ],
+  "SA1_17:45": [
+    "DLORD"
+  ],
+  "SA2_5:10": [
+    "DLORD"
+  ],
+  "SA2_6:2": [
+    "DLORD"
+  ],
+  "SA2_6:18": [
+    "DLORD"
+  ],
+  "SA2_7:8": [
+    "DLORD"
+  ],
+  "SA2_7:26": [
+    "DLORD"
+  ],
+  "SA2_7:27": [
+    "DLORD"
+  ],
+  "KI1_18:15": [
+    "DLORD"
+  ],
+  "KI1_19:10": [
+    "DLORD"
+  ],
+  "KI1_19:14": [
+    "DLORD"
+  ],
+  "KI2_3:14": [
+    "DLORD"
+  ],
+  "CH1_11:9": [
+    "DLORD"
+  ],
+  "CH1_17:7": [
+    "DLORD"
+  ],
+  "CH1_17:24": [
+    "DLORD"
+  ],
+  "CH1_27:3": [
+    "DLORD"
+  ],
+  "PSA_24:10": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_46:7": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_46:11": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_48:8": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_59:5": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_68:12": [
+    "DLORD"
+  ],
+  "PSA_80:4": [
+    "DLORD"
+  ],
+  "PSA_80:7": [
+    "DLORD"
+  ],
+  "PSA_80:14": [
+    "DLORD"
+  ],
+  "PSA_80:19": [
+    "DLORD"
+  ],
+  "PSA_84:8": [
+    "DLORD",
+    "DSelah"
+  ],
+  "PSA_84:12": [
+    "DLORD"
+  ],
+  "ISA_1:9": [
+    "DLORD"
+  ],
+  "ISA_1:24": [
+    "DLORD"
+  ],
+  "ISA_2:12": [
+    "DLORD"
+  ],
+  "ISA_3:1": [
+    "DLORD"
+  ],
+  "ISA_5:7": [
+    "DLORD"
+  ],
+  "ISA_5:9": [
+    "DLORD"
+  ],
+  "ISA_5:24": [
+    "DLORD"
+  ],
+  "ISA_6:3": [
+    "DLORD"
+  ],
+  "ISA_6:5": [
+    "DLORD"
+  ],
+  "ISA_8:13": [
+    "DLORD"
+  ],
+  "ISA_8:18": [
+    "DLORD"
+  ],
+  "ISA_9:7": [
+    "DLORD"
+  ],
+  "ISA_9:13": [
+    "DLORD"
+  ],
+  "ISA_9:19": [
+    "DLORD"
+  ],
+  "ISA_10:16": [
+    "DLORD"
+  ],
+  "ISA_10:26": [
+    "DLORD"
+  ],
+  "ISA_10:33": [
+    "DLORD"
+  ],
+  "ISA_13:4": [
+    "DLORD"
+  ],
+  "ISA_13:13": [
+    "DLORD"
+  ],
+  "ISA_14:22": [
+    "DLORD"
+  ],
+  "ISA_14:23": [
+    "DLORD"
+  ],
+  "ISA_14:24": [
+    "DLORD"
+  ],
+  "ISA_14:27": [
+    "DLORD"
+  ],
+  "ISA_17:3": [
+    "DLORD"
+  ],
+  "ISA_18:7": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ISA_19:4": [
+    "DLORD"
+  ],
+  "ISA_19:12": [
+    "DLORD"
+  ],
+  "ISA_19:16": [
+    "DLORD"
+  ],
+  "ISA_19:17": [
+    "DLORD"
+  ],
+  "ISA_19:18": [
+    "DLORD"
+  ],
+  "ISA_19:20": [
+    "DLORD"
+  ],
+  "ISA_19:25": [
+    "DLORD"
+  ],
+  "ISA_21:10": [
+    "DLORD"
+  ],
+  "ISA_22:25": [
+    "DLORD"
+  ],
+  "ISA_23:9": [
+    "DLORD"
+  ],
+  "ISA_24:23": [
+    "DLORD"
+  ],
+  "ISA_25:6": [
+    "DLORD"
+  ],
+  "ISA_28:5": [
+    "DLORD"
+  ],
+  "ISA_28:29": [
+    "DLORD"
+  ],
+  "ISA_29:6": [
+    "DLORD"
+  ],
+  "ISA_31:4": [
+    "DLORD"
+  ],
+  "ISA_31:5": [
+    "DLORD"
+  ],
+  "ISA_37:16": [
+    "DLORD"
+  ],
+  "ISA_37:32": [
+    "DLORD"
+  ],
+  "ISA_39:5": [
+    "DLORD"
+  ],
+  "ISA_44:6": [
+    "DLORD"
+  ],
+  "ISA_45:13": [
+    "DLORD"
+  ],
+  "ISA_47:4": [
+    "DLORD"
+  ],
+  "ISA_48:2": [
+    "DLORD"
+  ],
+  "ISA_51:15": [
+    "DLORD"
+  ],
+  "ISA_54:5": [
+    "DLORD"
+  ],
+  "JER_5:14": [
+    "DLORD"
+  ],
+  "JER_6:6": [
+    "DLORD"
+  ],
+  "JER_6:9": [
+    "DLORD"
+  ],
+  "JER_7:3": [
+    "DLORD"
+  ],
+  "JER_7:21": [
+    "DLORD"
+  ],
+  "JER_8:3": [
+    "DLORD"
+  ],
+  "JER_9:7": [
+    "DLORD"
+  ],
+  "JER_9:15": [
+    "DLORD"
+  ],
+  "JER_9:17": [
+    "DLORD"
+  ],
+  "JER_10:16": [
+    "DLORD"
+  ],
+  "JER_11:20": [
+    "DLORD"
+  ],
+  "JER_11:22": [
+    "DLORD"
+  ],
+  "JER_15:16": [
+    "DLORD"
+  ],
+  "JER_16:9": [
+    "DLORD"
+  ],
+  "JER_19:3": [
+    "DLORD"
+  ],
+  "JER_19:11": [
+    "DLORD"
+  ],
+  "JER_19:15": [
+    "DLORD"
+  ],
+  "JER_20:12": [
+    "DLORD"
+  ],
+  "JER_23:15": [
+    "DLORD"
+  ],
+  "JER_23:16": [
+    "DLORD"
+  ],
+  "JER_23:36": [
+    "DLORD"
+  ],
+  "JER_25:8": [
+    "DLORD"
+  ],
+  "JER_25:27": [
+    "DLORD"
+  ],
+  "JER_25:28": [
+    "DLORD"
+  ],
+  "JER_25:29": [
+    "DLORD"
+  ],
+  "JER_25:32": [
+    "DLORD"
+  ],
+  "JER_26:18": [
+    "DLORD"
+  ],
+  "JER_27:4": [
+    "DLORD"
+  ],
+  "JER_27:18": [
+    "DLORD"
+  ],
+  "JER_27:19": [
+    "DLORD"
+  ],
+  "JER_27:21": [
+    "DLORD"
+  ],
+  "JER_28:2": [
+    "DLORD"
+  ],
+  "JER_28:14": [
+    "DLORD"
+  ],
+  "JER_29:4": [
+    "DLORD"
+  ],
+  "JER_29:8": [
+    "DLORD"
+  ],
+  "JER_29:17": [
+    "DLORD"
+  ],
+  "JER_29:21": [
+    "DLORD"
+  ],
+  "JER_29:25": [
+    "DLORD"
+  ],
+  "JER_30:8": [
+    "DLORD"
+  ],
+  "JER_31:23": [
+    "DLORD"
+  ],
+  "JER_31:35": [
+    "DLORD"
+  ],
+  "JER_32:14": [
+    "DLORD"
+  ],
+  "JER_32:15": [
+    "DLORD"
+  ],
+  "JER_33:11": [
+    "DLORD"
+  ],
+  "JER_33:12": [
+    "DLORD"
+  ],
+  "JER_35:13": [
+    "DLORD"
+  ],
+  "JER_35:17": [
+    "DLORD"
+  ],
+  "JER_35:18": [
+    "DLORD"
+  ],
+  "JER_35:19": [
+    "DLORD"
+  ],
+  "JER_38:17": [
+    "DLORD"
+  ],
+  "JER_39:16": [
+    "DLORD"
+  ],
+  "JER_42:15": [
+    "DLORD"
+  ],
+  "JER_42:18": [
+    "DLORD"
+  ],
+  "JER_43:10": [
+    "DLORD"
+  ],
+  "JER_44:2": [
+    "DLORD"
+  ],
+  "JER_44:7": [
+    "DLORD"
+  ],
+  "JER_44:11": [
+    "DLORD"
+  ],
+  "JER_44:25": [
+    "DLORD"
+  ],
+  "JER_46:18": [
+    "DLORD"
+  ],
+  "JER_48:1": [
+    "DLORD"
+  ],
+  "JER_48:15": [
+    "DLORD"
+  ],
+  "JER_49:7": [
+    "DLORD"
+  ],
+  "JER_49:26": [
+    "DLORD"
+  ],
+  "JER_49:35": [
+    "DLORD"
+  ],
+  "JER_50:18": [
+    "DLORD"
+  ],
+  "JER_50:33": [
+    "DLORD"
+  ],
+  "JER_50:34": [
+    "DLORD"
+  ],
+  "JER_51:5": [
+    "DLORD"
+  ],
+  "JER_51:14": [
+    "DLORD"
+  ],
+  "JER_51:19": [
+    "DLORD"
+  ],
+  "JER_51:33": [
+    "DLORD"
+  ],
+  "JER_51:57": [
+    "DLORD"
+  ],
+  "JER_51:58": [
+    "DLORD"
+  ],
+  "HOS_12:5": [
+    "DLORD"
+  ],
+  "AMO_4:13": [
+    "DLORD"
+  ],
+  "AMO_5:14": [
+    "DLORD"
+  ],
+  "AMO_5:15": [
+    "DLORD"
+  ],
+  "AMO_5:27": [
+    "DLORD"
+  ],
+  "AMO_6:14": [
+    "DLORD"
+  ],
+  "MIC_4:4": [
+    "DLORD"
+  ],
+  "NAH_2:13": [
+    "DLORD"
+  ],
+  "NAH_3:5": [
+    "DLORD"
+  ],
+  "HAB_2:13": [
+    "DLORD"
+  ],
+  "ZEP_2:9": [
+    "DLORD"
+  ],
+  "ZEP_2:10": [
+    "DLORD"
+  ],
+  "HAG_1:2": [
+    "DLORD"
+  ],
+  "HAG_1:5": [
+    "DLORD"
+  ],
+  "HAG_1:7": [
+    "DLORD"
+  ],
+  "HAG_1:9": [
+    "DLORD"
+  ],
+  "HAG_1:14": [
+    "DLORD"
+  ],
+  "HAG_2:4": [
+    "DLORD"
+  ],
+  "HAG_2:6": [
+    "DLORD"
+  ],
+  "HAG_2:7": [
+    "DLORD"
+  ],
+  "HAG_2:8": [
+    "DLORD"
+  ],
+  "HAG_2:9": [
+    "DLORD",
+    "DLORD"
+  ],
+  "HAG_2:11": [
+    "DLORD"
+  ],
+  "HAG_2:23": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ZEC_1:3": [
+    "DLORD",
+    "DLORD",
+    "DLORD"
+  ],
+  "ZEC_1:4": [
+    "DLORD"
+  ],
+  "ZEC_1:6": [
+    "DLORD"
+  ],
+  "ZEC_1:12": [
+    "DLORD"
+  ],
+  "ZEC_1:14": [
+    "DLORD"
+  ],
+  "ZEC_1:16": [
+    "DLORD"
+  ],
+  "ZEC_1:17": [
+    "DLORD"
+  ],
+  "ZEC_2:8": [
+    "DLORD"
+  ],
+  "ZEC_2:9": [
+    "DLORD"
+  ],
+  "ZEC_2:11": [
+    "DLORD"
+  ],
+  "ZEC_3:7": [
+    "DLORD"
+  ],
+  "ZEC_3:9": [
+    "DLORD"
+  ],
+  "ZEC_3:10": [
+    "DLORD"
+  ],
+  "ZEC_4:6": [
+    "DLORD"
+  ],
+  "ZEC_4:9": [
+    "DLORD"
+  ],
+  "ZEC_5:4": [
+    "DLORD"
+  ],
+  "ZEC_6:12": [
+    "DLORD"
+  ],
+  "ZEC_6:15": [
+    "DLORD"
+  ],
+  "ZEC_7:3": [
+    "DLORD"
+  ],
+  "ZEC_7:4": [
+    "DLORD"
+  ],
+  "ZEC_7:9": [
+    "DLORD"
+  ],
+  "ZEC_7:12": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ZEC_7:13": [
+    "DLORD"
+  ],
+  "ZEC_8:1": [
+    "DLORD"
+  ],
+  "ZEC_8:2": [
+    "DLORD"
+  ],
+  "ZEC_8:3": [
+    "DLORD"
+  ],
+  "ZEC_8:4": [
+    "DLORD"
+  ],
+  "ZEC_8:6": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ZEC_8:7": [
+    "DLORD"
+  ],
+  "ZEC_8:9": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ZEC_8:11": [
+    "DLORD"
+  ],
+  "ZEC_8:14": [
+    "DLORD",
+    "DLORD"
+  ],
+  "ZEC_8:18": [
+    "DLORD"
+  ],
+  "ZEC_8:19": [
+    "DLORD"
+  ],
+  "ZEC_8:20": [
+    "DLORD"
+  ],
+  "ZEC_8:21": [
+    "DLORD"
+  ],
+  "ZEC_8:22": [
+    "DLORD"
+  ],
+  "ZEC_8:23": [
+    "DLORD"
+  ],
+  "ZEC_9:15": [
+    "DLORD"
+  ],
+  "ZEC_10:3": [
+    "DLORD"
+  ],
+  "ZEC_12:5": [
+    "DLORD"
+  ],
+  "ZEC_13:2": [
+    "DLORD"
+  ],
+  "ZEC_13:7": [
+    "DLORD"
+  ],
+  "ZEC_14:16": [
+    "DLORD"
+  ],
+  "ZEC_14:17": [
+    "DLORD"
+  ],
+  "ZEC_14:21": [
+    "DLORD",
+    "DLORD"
+  ],
+  "MAL_1:4": [
+    "DLORD"
+  ],
+  "MAL_1:6": [
+    "DLORD"
+  ],
+  "MAL_1:8": [
+    "DLORD"
+  ],
+  "MAL_1:10": [
+    "DLORD"
+  ],
+  "MAL_1:13": [
+    "DLORD"
+  ],
+  "MAL_2:2": [
+    "DLORD"
+  ],
+  "MAL_2:4": [
+    "DLORD"
+  ],
+  "MAL_2:7": [
+    "DLORD"
+  ],
+  "MAL_2:8": [
+    "DLORD"
+  ],
+  "MAL_2:12": [
+    "DLORD"
+  ],
+  "MAL_2:16": [
+    "DLORD"
+  ],
+  "MAL_3:1": [
+    "DLORD"
+  ],
+  "MAL_3:5": [
+    "DLORD"
+  ],
+  "MAL_3:7": [
+    "DLORD"
+  ],
+  "MAL_3:10": [
+    "DLORD"
+  ],
+  "MAL_3:11": [
+    "DLORD"
+  ],
+  "MAL_3:12": [
+    "DLORD"
+  ],
+  "MAL_3:14": [
+    "DLORD"
+  ],
+  "MAL_3:17": [
+    "DLORD"
+  ],
+  "MAL_4:1": [
+    "DLORD"
+  ],
+  "MAL_4:3": [
+    "DLORD"
+  ],
+  "MRK_5:7": [
+    "DLORD"
+  ],
+  "LUK_1:32": [
+    "DLORD"
+  ],
+  "LUK_1:35": [
+    "DLORD"
+  ],
+  "LUK_1:76": [
+    "DLORD"
+  ],
+  "LUK_6:35": [
+    "DLORD"
+  ],
+  "LUK_8:28": [
+    "DLORD"
+  ],
+  "ACT_7:48": [
+    "DLORD"
+  ],
+  "ACT_16:17": [
+    "DLORD"
+  ],
+  "HEB_7:1": [
+    "DLORD"
+  ],
+  "ROM_9:29": [
+    "DLORD"
+  ],
+  "JAS_5:4": [
+    "DLORD"
+  ],
+  "MRK_14:36": [
+    "DLORD"
+  ],
+  "ROM_8:15": [
+    "DLORD"
+  ],
+  "GAL_4:6": [
+    "DLORD"
+  ],
+  "MAT_27:46a": [
+    "DLORD"
+  ],
+  "MAT_27:46b": [
+    "DLORD"
+  ],
+  "MRK_15:34a": [
+    "DLORD",
+    "DLORD"
+  ],
+  "MRK_15:34b": [
+    "DLORD",
+    "DLORD"
+  ],
+  "MAT_27:46": [
+    "DLORD"
+  ],
+  "ISA_14:12": [
+    "DLucifer"
+  ],
+  "PSA_53:1": [
+    "DMahalath",
+    "DMaskil"
+  ],
+  "PSA_88:1": [
+    "DMahalath",
+    "DMaskil"
+  ],
+  "PSA_32:1": [
+    "DMaskil"
+  ],
+  "PSA_42:1": [
+    "DMaskil"
+  ],
+  "PSA_44:1": [
+    "DMaskil"
+  ],
+  "PSA_45:1": [
+    "DMaskil"
+  ],
+  "PSA_47:8": [
+    "DMaskil"
+  ],
+  "PSA_52:1": [
+    "DMaskil"
+  ],
+  "PSA_54:1": [
+    "DMaskil"
+  ],
+  "PSA_55:1": [
+    "DMaskil"
+  ],
+  "PSA_74:1": [
+    "DMaskil"
+  ],
+  "PSA_78:1": [
+    "DMaskil"
+  ],
+  "PSA_89:1": [
+    "DMaskil"
+  ],
+  "PSA_142:1": [
+    "DMaskil"
+  ],
+  "JHN_1:41": [
+    "DMessiah"
+  ],
+  "JHN_4:25": [
+    "DMessiah"
+  ],
+  "PSA_60:1": [
+    "DMiktam",
+    "DShushan_Eduth"
+  ],
+  "LEV_18:21": [
+    "DMolech"
+  ],
+  "LEV_20:2": [
+    "DMolech"
+  ],
+  "LEV_20:3": [
+    "DMolech"
+  ],
+  "LEV_20:4": [
+    "DMolech"
+  ],
+  "LEV_20:5": [
+    "DMolech"
+  ],
+  "KI2_23:10": [
+    "DMolech"
+  ],
+  "JER_49:1": [
+    "DMolech"
+  ],
+  "JER_49:3": [
+    "DMolech"
+  ],
+  "ZEP_1:5": [
+    "DMolech"
+  ],
+  "ACT_7:43": [
+    "DMolech",
+    "DRephan"
+  ],
+  "NUM_6:2": [
+    "DNazirite"
+  ],
+  "NUM_6:13": [
+    "DNazirite"
+  ],
+  "NUM_6:18": [
+    "DNazirite"
+  ],
+  "NUM_6:19": [
+    "DNazirite"
+  ],
+  "NUM_6:20": [
+    "DNazirite"
+  ],
+  "NUM_6:21": [
+    "DNazirite",
+    "DNazirite",
+    "DNazirite"
+  ],
+  "JDG_13:5": [
+    "DNazirite"
+  ],
+  "JDG_13:7": [
+    "DNazirite"
+  ],
+  "JDG_16:17": [
+    "DNazirite"
+  ],
+  "AMO_2:11": [
+    "DNazirite"
+  ],
+  "AMO_2:12": [
+    "DNazirite"
+  ],
+  "COL_2:16": [
+    "DNew_Moon",
+    "DSabbath"
+  ],
+  "KI2_17:31": [
+    "DNibhaz",
+    "DTartak"
+  ],
+  "REV_2:6": [
+    "DNicolaitans"
+  ],
+  "REV_2:15": [
+    "DNicolaitans"
+  ],
+  "KI2_19:37": [
+    "DNisroch"
+  ],
+  "ISA_37:38": [
+    "DNisroch"
+  ],
+  "REV_1:8": [
+    "DOmega"
+  ],
+  "REV_1:11": [
+    "DOmega"
+  ],
+  "REV_21:6": [
+    "DOmega"
+  ],
+  "REV_22:13": [
+    "DOmega"
+  ],
+  "JOB_38:31": [
+    "DOrion",
+    "DPleiades"
+  ],
+  "AMO_5:8": [
+    "DOrion",
+    "DPleiades"
+  ],
+  "EXO_12:11": [
+    "DPassover"
+  ],
+  "EXO_12:27": [
+    "DPassover"
+  ],
+  "EXO_12:43": [
+    "DPassover"
+  ],
+  "EXO_12:48": [
+    "DPassover"
+  ],
+  "EXO_34:25": [
+    "DPassover"
+  ],
+  "LEV_23:5": [
+    "DPassover"
+  ],
+  "NUM_9:2": [
+    "DPassover"
+  ],
+  "NUM_9:4": [
+    "DPassover"
+  ],
+  "NUM_9:5": [
+    "DPassover"
+  ],
+  "NUM_9:6": [
+    "DPassover"
+  ],
+  "NUM_9:10": [
+    "DPassover"
+  ],
+  "NUM_9:12": [
+    "DPassover"
+  ],
+  "NUM_9:13": [
+    "DPassover"
+  ],
+  "NUM_9:14a": [
+    "DPassover"
+  ],
+  "NUM_9:14b": [
+    "DPassover"
+  ],
+  "NUM_28:16": [
+    "DPassover"
+  ],
+  "NUM_33:3": [
+    "DPassover"
+  ],
+  "DEU_16:1": [
+    "DPassover"
+  ],
+  "DEU_16:2": [
+    "DPassover"
+  ],
+  "DEU_16:5": [
+    "DPassover"
+  ],
+  "DEU_16:6": [
+    "DPassover"
+  ],
+  "JOS_5:10": [
+    "DPassover"
+  ],
+  "JOS_5:11": [
+    "DPassover"
+  ],
+  "KI2_23:21": [
+    "DPassover"
+  ],
+  "KI2_23:22": [
+    "DPassover"
+  ],
+  "KI2_23:23": [
+    "DPassover"
+  ],
+  "CH2_30:1": [
+    "DPassover"
+  ],
+  "CH2_30:2": [
+    "DPassover"
+  ],
+  "CH2_30:5": [
+    "DPassover"
+  ],
+  "CH2_30:18": [
+    "DPassover"
+  ],
+  "CH2_35:1": [
+    "DPassover",
+    "DPassover"
+  ],
+  "CH2_35:16": [
+    "DPassover"
+  ],
+  "CH2_35:17": [
+    "DPassover"
+  ],
+  "CH2_35:18a": [
+    "DPassover"
+  ],
+  "CH2_35:18b": [
+    "DPassover"
+  ],
+  "CH2_35:19": [
+    "DPassover"
+  ],
+  "EZR_6:19": [
+    "DPassover"
+  ],
+  "EZK_45:21": [
+    "DPassover"
+  ],
+  "EXO_12:21": [
+    "DPassover"
+  ],
+  "CH2_30:15": [
+    "DPassover"
+  ],
+  "CH2_30:17": [
+    "DPassover"
+  ],
+  "CH2_35:6": [
+    "DPassover"
+  ],
+  "CH2_35:11": [
+    "DPassover"
+  ],
+  "CH2_35:13": [
+    "DPassover"
+  ],
+  "EZR_6:20": [
+    "DPassover"
+  ],
+  "CH2_35:7": [
+    "DPassover"
+  ],
+  "CH2_35:8": [
+    "DPassover"
+  ],
+  "CH2_35:9": [
+    "DPassover"
+  ],
+  "MRK_14:12a": [
+    "DPassover"
+  ],
+  "LUK_22:7": [
+    "DPassover"
+  ],
+  "CO1_5:7": [
+    "DPassover"
+  ],
+  "MAT_26:2": [
+    "DPassover"
+  ],
+  "MAT_26:17": [
+    "DPassover"
+  ],
+  "MAT_26:18": [
+    "DPassover"
+  ],
+  "MAT_26:19": [
+    "DPassover"
+  ],
+  "MRK_14:1": [
+    "DPassover"
+  ],
+  "MRK_14:12b": [
+    "DPassover"
+  ],
+  "MRK_14:14": [
+    "DPassover"
+  ],
+  "MRK_14:16": [
+    "DPassover"
+  ],
+  "LUK_2:41": [
+    "DPassover"
+  ],
+  "LUK_22:1": [
+    "DPassover"
+  ],
+  "LUK_22:8": [
+    "DPassover"
+  ],
+  "LUK_22:11": [
+    "DPassover"
+  ],
+  "LUK_22:13": [
+    "DPassover"
+  ],
+  "LUK_22:15": [
+    "DPassover"
+  ],
+  "JHN_2:13": [
+    "DPassover"
+  ],
+  "JHN_2:23": [
+    "DPassover"
+  ],
+  "JHN_6:4": [
+    "DPassover"
+  ],
+  "JHN_11:55a": [
+    "DPassover"
+  ],
+  "JHN_11:55b": [
+    "DPassover"
+  ],
+  "JHN_12:1": [
+    "DPassover"
+  ],
+  "JHN_13:1": [
+    "DPassover"
+  ],
+  "JHN_18:28": [
+    "DPassover"
+  ],
+  "JHN_18:39": [
+    "DPassover"
+  ],
+  "JHN_19:14": [
+    "DPassover",
+    "DPreparation_Festival"
+  ],
+  "ACT_12:4": [
+    "DPassover"
+  ],
+  "HEB_11:28": [
+    "DPassover"
+  ],
+  "MAT_3:7": [
+    "DPharisee",
+    "DSadducee"
+  ],
+  "MAT_5:20": [
+    "DPharisee"
+  ],
+  "MAT_9:11": [
+    "DPharisee"
+  ],
+  "MAT_9:14": [
+    "DPharisee"
+  ],
+  "MAT_9:34": [
+    "DPharisee"
+  ],
+  "MAT_12:2": [
+    "DPharisee",
+    "DSabbath"
+  ],
+  "MAT_12:14": [
+    "DPharisee"
+  ],
+  "MAT_12:24": [
+    "DPharisee",
+    "DSatan"
+  ],
+  "MAT_12:38": [
+    "DPharisee"
+  ],
+  "MAT_15:1": [
+    "DPharisee"
+  ],
+  "MAT_15:12": [
+    "DPharisee"
+  ],
+  "MAT_16:1": [
+    "DPharisee",
+    "DSadducee"
+  ],
+  "MAT_16:6": [
+    "DPharisee",
+    "DSadducee"
+  ],
+  "MAT_16:11": [
+    "DPharisee",
+    "DSadducee"
+  ],
+  "MAT_16:12": [
+    "DPharisee",
+    "DSadducee"
+  ],
+  "MAT_19:3": [
+    "DPharisee"
+  ],
+  "MAT_21:45": [
+    "DPharisee"
+  ],
+  "MAT_22:15": [
+    "DPharisee"
+  ],
+  "MAT_22:34": [
+    "DPharisee",
+    "DSadducee"
+  ],
+  "MAT_22:41": [
+    "DPharisee"
+  ],
+  "MAT_23:2": [
+    "DPharisee"
+  ],
+  "MAT_23:13": [
+    "DPharisee"
+  ],
+  "MAT_23:15": [
+    "DPharisee"
+  ],
+  "MAT_23:23": [
+    "DPharisee"
+  ],
+  "MAT_23:26": [
+    "DPharisee"
+  ],
+  "MAT_23:27": [
+    "DPharisee"
+  ],
+  "MAT_23:29": [
+    "DPharisee"
+  ],
+  "MAT_27:41": [
+    "DPharisee"
+  ],
+  "MAT_27:62": [
+    "DPharisee",
+    "DPreparation_Festival"
+  ],
+  "MRK_2:16": [
+    "DPharisee"
+  ],
+  "MRK_2:18a": [
+    "DPharisee"
+  ],
+  "MRK_2:18b": [
+    "DPharisee"
+  ],
+  "MRK_2:24": [
+    "DPharisee",
+    "DSabbath"
+  ],
+  "MRK_7:1": [
+    "DPharisee"
+  ],
+  "MRK_7:3": [
+    "DPharisee"
+  ],
+  "MRK_7:5": [
+    "DPharisee"
+  ],
+  "MRK_8:11": [
+    "DPharisee"
+  ],
+  "MRK_8:15": [
+    "DPharisee"
+  ],
+  "MRK_10:2": [
+    "DPharisee"
+  ],
+  "LUK_5:17": [
+    "DPharisee"
+  ],
+  "LUK_5:21": [
+    "DPharisee"
+  ],
+  "LUK_5:30": [
+    "DPharisee"
+  ],
+  "LUK_5:33": [
+    "DPharisee"
+  ],
+  "LUK_6:2": [
+    "DPharisee",
+    "DSabbath"
+  ],
+  "LUK_6:7": [
+    "DPharisee",
+    "DSabbath"
+  ],
+  "LUK_7:30": [
+    "DPharisee"
+  ],
+  "LUK_7:36a": [
+    "DPharisee"
+  ],
+  "LUK_7:36b": [
+    "DPharisee"
+  ],
+  "LUK_7:37": [
+    "DPharisee"
+  ],
+  "LUK_7:39": [
+    "DPharisee"
+  ],
+  "LUK_11:37": [
+    "DPharisee"
+  ],
+  "LUK_11:38": [
+    "DPharisee"
+  ],
+  "LUK_11:39": [
+    "DPharisee"
+  ],
+  "LUK_11:42": [
+    "DPharisee"
+  ],
+  "LUK_11:43": [
+    "DPharisee"
+  ],
+  "LUK_11:53": [
+    "DPharisee"
+  ],
+  "LUK_12:1": [
+    "DPharisee"
+  ],
+  "LUK_13:31": [
+    "DPharisee"
+  ],
+  "LUK_14:1": [
+    "DPharisee",
+    "DSabbath"
+  ],
+  "LUK_14:3": [
+    "DPharisee",
+    "DSabbath"
+  ],
+  "LUK_15:2": [
+    "DPharisee"
+  ],
+  "LUK_16:14": [
+    "DPharisee"
+  ],
+  "LUK_17:20": [
+    "DPharisee"
+  ],
+  "LUK_18:10": [
+    "DPharisee"
+  ],
+  "LUK_18:11": [
+    "DPharisee"
+  ],
+  "LUK_19:39": [
+    "DPharisee"
+  ],
+  "JHN_1:24": [
+    "DPharisee"
+  ],
+  "JHN_3:1": [
+    "DPharisee"
+  ],
+  "JHN_4:1": [
+    "DPharisee"
+  ],
+  "JHN_7:32a": [
+    "DPharisee"
+  ],
+  "JHN_7:32b": [
+    "DPharisee"
+  ],
+  "JHN_7:45": [
+    "DPharisee"
+  ],
+  "JHN_7:47": [
+    "DPharisee"
+  ],
+  "JHN_7:48": [
+    "DPharisee"
+  ],
+  "JHN_8:3": [
+    "DPharisee"
+  ],
+  "JHN_8:13": [
+    "DPharisee"
+  ],
+  "JHN_9:13": [
+    "DPharisee"
+  ],
+  "JHN_9:15": [
+    "DPharisee"
+  ],
+  "JHN_9:16": [
+    "DPharisee",
+    "DSabbath"
+  ],
+  "JHN_9:40": [
+    "DPharisee"
+  ],
+  "JHN_11:46": [
+    "DPharisee"
+  ],
+  "JHN_11:47": [
+    "DPharisee"
+  ],
+  "JHN_11:57": [
+    "DPharisee"
+  ],
+  "JHN_12:19": [
+    "DPharisee"
+  ],
+  "JHN_12:42": [
+    "DPharisee"
+  ],
+  "JHN_18:3": [
+    "DPharisee"
+  ],
+  "ACT_5:34": [
+    "DPharisee"
+  ],
+  "ACT_15:5": [
+    "DPharisee"
+  ],
+  "ACT_23:6a": [
+    "DPharisee"
+  ],
+  "ACT_23:6b": [
+    "DPharisee"
+  ],
+  "ACT_23:6c": [
+    "DPharisee"
+  ],
+  "ACT_23:7": [
+    "DPharisee",
+    "DSadducee"
+  ],
+  "ACT_23:8": [
+    "DPharisee",
+    "DSadducee"
+  ],
+  "ACT_23:9": [
+    "DPharisee"
+  ],
+  "ACT_26:5": [
+    "DPharisee"
+  ],
+  "PHP_3:5": [
+    "DPharisee"
+  ],
+  "MAT_23:14": [
+    "DPharisee"
+  ],
+  "LUK_11:44": [
+    "DPharisee"
+  ],
+  "MRK_15:42": [
+    "DPreparation_Festival",
+    "DSabbath"
+  ],
+  "LUK_23:54": [
+    "DPreparation_Festival",
+    "DSabbath"
+  ],
+  "JHN_19:31a": [
+    "DPreparation_Festival",
+    "DSabbath"
+  ],
+  "JHN_19:31b": [
+    "DPreparation_Festival",
+    "DSabbath"
+  ],
+  "JHN_19:42": [
+    "DPreparation_Festival"
+  ],
+  "EST_9:26": [
+    "DPurim",
+    "DPurim"
+  ],
+  "EST_9:28": [
+    "DPurim"
+  ],
+  "EST_9:29": [
+    "DPurim"
+  ],
+  "EST_9:31": [
+    "DPurim"
+  ],
+  "EST_9:32": [
+    "DPurim"
+  ],
+  "EST_9:24": [
+    "DPurim"
+  ],
+  "MAT_23:7a": [
+    "DRabbi"
+  ],
+  "MAT_23:7b": [
+    "DRabbi"
+  ],
+  "MAT_23:8": [
+    "DRabbi"
+  ],
+  "MAT_26:25": [
+    "DRabbi"
+  ],
+  "MAT_26:49": [
+    "DRabbi"
+  ],
+  "MRK_9:5": [
+    "DRabbi"
+  ],
+  "MRK_11:21": [
+    "DRabbi"
+  ],
+  "MRK_14:45": [
+    "DRabbi"
+  ],
+  "JHN_1:38": [
+    "DRabbi"
+  ],
+  "JHN_1:49": [
+    "DRabbi"
+  ],
+  "JHN_3:2": [
+    "DRabbi"
+  ],
+  "JHN_3:26": [
+    "DRabbi"
+  ],
+  "JHN_4:31": [
+    "DRabbi"
+  ],
+  "JHN_6:25": [
+    "DRabbi"
+  ],
+  "JHN_9:2": [
+    "DRabbi"
+  ],
+  "JHN_11:8": [
+    "DRabbi"
+  ],
+  "MRK_10:51": [
+    "DRabbi"
+  ],
+  "JOB_9:13": [
+    "DRahab"
+  ],
+  "JOB_26:12": [
+    "DRahab"
+  ],
+  "PSA_89:10": [
+    "DRahab"
+  ],
+  "ISA_51:9": [
+    "DRahab"
+  ],
+  "KI2_5:18a": [
+    "DRimmon"
+  ],
+  "KI2_5:18b": [
+    "DRimmon"
+  ],
+  "KI2_5:18c": [
+    "DRimmon"
+  ],
+  "EXO_16:23": [
+    "DSabbath"
+  ],
+  "EXO_16:25": [
+    "DSabbath"
+  ],
+  "EXO_16:26": [
+    "DSabbath"
+  ],
+  "EXO_16:29": [
+    "DSabbath"
+  ],
+  "EXO_20:8": [
+    "DSabbath"
+  ],
+  "EXO_20:10": [
+    "DSabbath"
+  ],
+  "EXO_20:11": [
+    "DSabbath"
+  ],
+  "EXO_31:13": [
+    "DSabbath"
+  ],
+  "EXO_31:14": [
+    "DSabbath"
+  ],
+  "EXO_31:15a": [
+    "DSabbath"
+  ],
+  "EXO_31:15b": [
+    "DSabbath"
+  ],
+  "EXO_31:16a": [
+    "DSabbath"
+  ],
+  "EXO_31:16b": [
+    "DSabbath"
+  ],
+  "EXO_35:2": [
+    "DSabbath"
+  ],
+  "EXO_35:3": [
+    "DSabbath"
+  ],
+  "LEV_16:31": [
+    "DSabbath"
+  ],
+  "LEV_19:3": [
+    "DSabbath"
+  ],
+  "LEV_19:30": [
+    "DSabbath"
+  ],
+  "LEV_23:3a": [
+    "DSabbath"
+  ],
+  "LEV_23:3b": [
+    "DSabbath"
+  ],
+  "LEV_23:11": [
+    "DSabbath"
+  ],
+  "LEV_23:15": [
+    "DSabbath"
+  ],
+  "LEV_23:16": [
+    "DSabbath"
+  ],
+  "LEV_23:32a": [
+    "DSabbath"
+  ],
+  "LEV_23:32b": [
+    "DSabbath"
+  ],
+  "LEV_23:38": [
+    "DSabbath"
+  ],
+  "LEV_24:8": [
+    "DSabbath"
+  ],
+  "LEV_25:2": [
+    "DSabbath"
+  ],
+  "LEV_25:4a": [
+    "DSabbath"
+  ],
+  "LEV_25:4b": [
+    "DSabbath"
+  ],
+  "LEV_25:6": [
+    "DSabbath"
+  ],
+  "LEV_26:2": [
+    "DSabbath"
+  ],
+  "LEV_26:34a": [
+    "DSabbath"
+  ],
+  "LEV_26:34b": [
+    "DSabbath"
+  ],
+  "LEV_26:35": [
+    "DSabbath"
+  ],
+  "LEV_26:43": [
+    "DSabbath"
+  ],
+  "NUM_15:32": [
+    "DSabbath"
+  ],
+  "NUM_28:9": [
+    "DSabbath"
+  ],
+  "NUM_28:10": [
+    "DSabbath"
+  ],
+  "DEU_5:12": [
+    "DSabbath"
+  ],
+  "DEU_5:14": [
+    "DSabbath"
+  ],
+  "DEU_5:15": [
+    "DSabbath"
+  ],
+  "KI2_4:23": [
+    "DSabbath"
+  ],
+  "KI2_11:5": [
+    "DSabbath"
+  ],
+  "KI2_11:7": [
+    "DSabbath"
+  ],
+  "KI2_11:9a": [
+    "DSabbath"
+  ],
+  "KI2_11:9b": [
+    "DSabbath"
+  ],
+  "KI2_16:18": [
+    "DSabbath"
+  ],
+  "CH1_9:32": [
+    "DSabbath"
+  ],
+  "CH1_23:31": [
+    "DSabbath"
+  ],
+  "CH2_2:4": [
+    "DSabbath"
+  ],
+  "CH2_8:13": [
+    "DSabbath",
+    "DWeeks"
+  ],
+  "CH2_23:4": [
+    "DSabbath"
+  ],
+  "CH2_23:8a": [
+    "DSabbath"
+  ],
+  "CH2_23:8b": [
+    "DSabbath"
+  ],
+  "CH2_31:3": [
+    "DSabbath"
+  ],
+  "CH2_36:21": [
+    "DSabbath"
+  ],
+  "NEH_9:14": [
+    "DSabbath"
+  ],
+  "NEH_10:31a": [
+    "DSabbath"
+  ],
+  "NEH_10:31b": [
+    "DSabbath"
+  ],
+  "NEH_10:33": [
+    "DSabbath"
+  ],
+  "NEH_13:15a": [
+    "DSabbath"
+  ],
+  "NEH_13:15b": [
+    "DSabbath"
+  ],
+  "NEH_13:16": [
+    "DSabbath"
+  ],
+  "NEH_13:17": [
+    "DSabbath"
+  ],
+  "NEH_13:18": [
+    "DSabbath"
+  ],
+  "NEH_13:19a": [
+    "DSabbath"
+  ],
+  "NEH_13:19b": [
+    "DSabbath"
+  ],
+  "NEH_13:19c": [
+    "DSabbath"
+  ],
+  "NEH_13:21": [
+    "DSabbath"
+  ],
+  "NEH_13:22": [
+    "DSabbath"
+  ],
+  "ISA_1:13": [
+    "DSabbath"
+  ],
+  "ISA_56:2": [
+    "DSabbath"
+  ],
+  "ISA_56:4": [
+    "DSabbath"
+  ],
+  "ISA_56:6": [
+    "DSabbath"
+  ],
+  "ISA_58:13a": [
+    "DSabbath"
+  ],
+  "ISA_58:13b": [
+    "DSabbath"
+  ],
+  "ISA_66:23a": [
+    "DSabbath"
+  ],
+  "ISA_66:23b": [
+    "DSabbath"
+  ],
+  "JER_17:21": [
+    "DSabbath"
+  ],
+  "JER_17:22a": [
+    "DSabbath"
+  ],
+  "JER_17:22b": [
+    "DSabbath"
+  ],
+  "JER_17:24a": [
+    "DSabbath"
+  ],
+  "JER_17:24b": [
+    "DSabbath"
+  ],
+  "JER_17:27a": [
+    "DSabbath"
+  ],
+  "JER_17:27b": [
+    "DSabbath"
+  ],
+  "LAM_2:6": [
+    "DSabbath"
+  ],
+  "EZK_20:12": [
+    "DSabbath"
+  ],
+  "EZK_20:13": [
+    "DSabbath"
+  ],
+  "EZK_20:16": [
+    "DSabbath"
+  ],
+  "EZK_20:20": [
+    "DSabbath"
+  ],
+  "EZK_20:21": [
+    "DSabbath"
+  ],
+  "EZK_20:24": [
+    "DSabbath"
+  ],
+  "EZK_22:8": [
+    "DSabbath"
+  ],
+  "EZK_22:26": [
+    "DSabbath"
+  ],
+  "EZK_23:38": [
+    "DSabbath"
+  ],
+  "EZK_44:24": [
+    "DSabbath"
+  ],
+  "EZK_45:17": [
+    "DSabbath"
+  ],
+  "EZK_46:3": [
+    "DSabbath"
+  ],
+  "EZK_46:4": [
+    "DSabbath"
+  ],
+  "EZK_46:12": [
+    "DSabbath"
+  ],
+  "HOS_2:11": [
+    "DSabbath"
+  ],
+  "AMO_8:5": [
+    "DSabbath"
+  ],
+  "MAT_12:1": [
+    "DSabbath"
+  ],
+  "MAT_12:5a": [
+    "DSabbath"
+  ],
+  "MAT_12:5b": [
+    "DSabbath"
+  ],
+  "MAT_12:8": [
+    "DSabbath"
+  ],
+  "MAT_12:10": [
+    "DSabbath"
+  ],
+  "MAT_12:11": [
+    "DSabbath"
+  ],
+  "MAT_12:12": [
+    "DSabbath",
+    "DSabbath"
+  ],
+  "MAT_15:42": [
+    "DSabbath"
+  ],
+  "MAT_24:20": [
+    "DSabbath"
+  ],
+  "MAT_28:1a": [
+    "DSabbath"
+  ],
+  "MRK_1:21": [
+    "DSabbath"
+  ],
+  "MRK_2:23": [
+    "DSabbath"
+  ],
+  "MRK_2:27a": [
+    "DSabbath"
+  ],
+  "MRK_2:27b": [
+    "DSabbath"
+  ],
+  "MRK_2:28": [
+    "DSabbath"
+  ],
+  "MRK_3:2": [
+    "DSabbath"
+  ],
+  "MRK_3:4": [
+    "DSabbath"
+  ],
+  "MRK_6:2": [
+    "DSabbath"
+  ],
+  "MRK_16:1": [
+    "DSabbath"
+  ],
+  "LUK_4:16": [
+    "DSabbath"
+  ],
+  "LUK_4:31": [
+    "DSabbath"
+  ],
+  "LUK_6:1": [
+    "DSabbath"
+  ],
+  "LUK_6:5": [
+    "DSabbath"
+  ],
+  "LUK_6:6": [
+    "DSabbath"
+  ],
+  "LUK_6:9": [
+    "DSabbath"
+  ],
+  "LUK_13:10": [
+    "DSabbath"
+  ],
+  "LUK_13:14a": [
+    "DSabbath"
+  ],
+  "LUK_13:14b": [
+    "DSabbath"
+  ],
+  "LUK_13:15": [
+    "DSabbath"
+  ],
+  "LUK_13:16": [
+    "DSabbath",
+    "DSatan"
+  ],
+  "LUK_14:5": [
+    "DSabbath"
+  ],
+  "LUK_23:56": [
+    "DSabbath"
+  ],
+  "JHN_5:9": [
+    "DSabbath"
+  ],
+  "JHN_5:10": [
+    "DSabbath"
+  ],
+  "JHN_5:16": [
+    "DSabbath"
+  ],
+  "JHN_5:18": [
+    "DSabbath"
+  ],
+  "JHN_7:22": [
+    "DSabbath"
+  ],
+  "JHN_7:23a": [
+    "DSabbath"
+  ],
+  "JHN_7:23b": [
+    "DSabbath"
+  ],
+  "JHN_9:14": [
+    "DSabbath"
+  ],
+  "ACT_1:12": [
+    "DSabbath"
+  ],
+  "ACT_13:14": [
+    "DSabbath"
+  ],
+  "ACT_13:27": [
+    "DSabbath"
+  ],
+  "ACT_13:44": [
+    "DSabbath"
+  ],
+  "ACT_15:21": [
+    "DSabbath"
+  ],
+  "ACT_16:13": [
+    "DSabbath"
+  ],
+  "ACT_17:2": [
+    "DSabbath"
+  ],
+  "ACT_18:4": [
+    "DSabbath"
+  ],
+  "ACT_20:7": [
+    "DSabbath"
+  ],
+  "MAT_28:1b": [
+    "DSabbath"
+  ],
+  "MRK_16:2": [
+    "DSabbath"
+  ],
+  "MRK_16:9": [
+    "DSabbath"
+  ],
+  "LUK_18:12": [
+    "DSabbath"
+  ],
+  "LUK_24:1": [
+    "DSabbath"
+  ],
+  "JHN_20:1": [
+    "DSabbath"
+  ],
+  "JHN_20:19": [
+    "DSabbath"
+  ],
+  "CO1_16:2a": [
+    "DSabbath"
+  ],
+  "CO1_16:2b": [
+    "DSabbath"
+  ],
+  "HEB_4:9": [
+    "DSabbath"
+  ],
+  "MAT_22:23": [
+    "DSadducee"
+  ],
+  "MRK_12:18": [
+    "DSadducee"
+  ],
+  "LUK_20:27": [
+    "DSadducee"
+  ],
+  "ACT_4:1": [
+    "DSadducee"
+  ],
+  "ACT_5:17": [
+    "DSadducee"
+  ],
+  "ACT_23:6": [
+    "DSadducee"
+  ],
+  "CH1_21:1": [
+    "DSatan"
+  ],
+  "JOB_1:6": [
+    "DSatan"
+  ],
+  "JOB_1:7a": [
+    "DSatan"
+  ],
+  "JOB_1:7b": [
+    "DSatan"
+  ],
+  "JOB_1:8": [
+    "DSatan"
+  ],
+  "JOB_1:9": [
+    "DSatan"
+  ],
+  "JOB_1:12a": [
+    "DSatan"
+  ],
+  "JOB_1:12b": [
+    "DSatan"
+  ],
+  "JOB_2:1": [
+    "DSatan"
+  ],
+  "JOB_2:2a": [
+    "DSatan"
+  ],
+  "JOB_2:2b": [
+    "DSatan"
+  ],
+  "JOB_2:3": [
+    "DSatan"
+  ],
+  "JOB_2:4": [
+    "DSatan"
+  ],
+  "JOB_2:6": [
+    "DSatan"
+  ],
+  "JOB_2:7": [
+    "DSatan"
+  ],
+  "ZEC_3:1": [
+    "DSatan"
+  ],
+  "ZEC_3:2a": [
+    "DSatan"
+  ],
+  "ZEC_3:2b": [
+    "DSatan"
+  ],
+  "PSA_109:6": [
+    "DSatan"
+  ],
+  "DEU_13:13": [
+    "DSatan"
+  ],
+  "SA1_30:22": [
+    "DSatan"
+  ],
+  "SA2_20:1": [
+    "DSatan"
+  ],
+  "JDG_19:22": [
+    "DSatan"
+  ],
+  "JDG_20:13": [
+    "DSatan"
+  ],
+  "SA1_1:16": [
+    "DSatan"
+  ],
+  "SA1_25:17": [
+    "DSatan"
+  ],
+  "SA1_25:25": [
+    "DSatan"
+  ],
+  "SA2_23:6": [
+    "DSatan"
+  ],
+  "SA1_2:12": [
+    "DSatan"
+  ],
+  "SA1_10:27": [
+    "DSatan"
+  ],
+  "SA2_16:7": [
+    "DSatan"
+  ],
+  "KI1_21:10": [
+    "DSatan"
+  ],
+  "KI1_21:13": [
+    "DSatan"
+  ],
+  "CH2_13:7": [
+    "DSatan"
+  ],
+  "MAT_10:25": [
+    "DSatan"
+  ],
+  "MAT_12:27": [
+    "DSatan"
+  ],
+  "MRK_3:22": [
+    "DSatan"
+  ],
+  "LUK_11:15": [
+    "DSatan"
+  ],
+  "LUK_11:18": [
+    "DSatan",
+    "DSatan"
+  ],
+  "LUK_11:19": [
+    "DSatan"
+  ],
+  "CO2_6:15": [
+    "DSatan"
+  ],
+  "CO2_12:7": [
+    "DSatan"
+  ],
+  "LUK_4:8": [
+    "DSatan"
+  ],
+  "MAT_4:10": [
+    "DSatan"
+  ],
+  "MAT_12:26a": [
+    "DSatan"
+  ],
+  "MAT_12:26b": [
+    "DSatan"
+  ],
+  "MAT_16:23": [
+    "DSatan"
+  ],
+  "MRK_1:13": [
+    "DSatan"
+  ],
+  "MRK_3:23a": [
+    "DSatan"
+  ],
+  "MRK_3:23b": [
+    "DSatan"
+  ],
+  "MRK_3:26": [
+    "DSatan"
+  ],
+  "MRK_4:15": [
+    "DSatan"
+  ],
+  "MRK_8:33": [
+    "DSatan"
+  ],
+  "LUK_10:18": [
+    "DSatan"
+  ],
+  "LUK_22:3": [
+    "DSatan"
+  ],
+  "LUK_22:31": [
+    "DSatan"
+  ],
+  "JHN_13:27": [
+    "DSatan"
+  ],
+  "ACT_5:3": [
+    "DSatan"
+  ],
+  "ACT_26:18": [
+    "DSatan"
+  ],
+  "ROM_16:20": [
+    "DSatan"
+  ],
+  "CO1_5:5": [
+    "DSatan"
+  ],
+  "CO1_7:5": [
+    "DSatan"
+  ],
+  "CO2_2:11": [
+    "DSatan"
+  ],
+  "CO2_11:14": [
+    "DSatan"
+  ],
+  "TH1_2:18": [
+    "DSatan"
+  ],
+  "TH2_2:9": [
+    "DSatan"
+  ],
+  "1TI_1:20": [
+    "DSatan"
+  ],
+  "1TI_5:15": [
+    "DSatan"
+  ],
+  "REV_2:9": [
+    "DSatan"
+  ],
+  "REV_2:13a": [
+    "DSatan"
+  ],
+  "REV_2:13b": [
+    "DSatan"
+  ],
+  "REV_2:24": [
+    "DSatan"
+  ],
+  "REV_3:9": [
+    "DSatan"
+  ],
+  "REV_12:9": [
+    "DSatan"
+  ],
+  "REV_20:2": [
+    "DSatan"
+  ],
+  "REV_20:7": [
+    "DSatan"
+  ],
+  "PSA_3:2": [
+    "DSelah"
+  ],
+  "PSA_3:4": [
+    "DSelah"
+  ],
+  "PSA_3:8": [
+    "DSelah"
+  ],
+  "PSA_4:2": [
+    "DSelah"
+  ],
+  "PSA_4:4": [
+    "DSelah"
+  ],
+  "PSA_7:5": [
+    "DSelah"
+  ],
+  "PSA_9:20": [
+    "DSelah"
+  ],
+  "PSA_20:3": [
+    "DSelah"
+  ],
+  "PSA_21:2": [
+    "DSelah"
+  ],
+  "PSA_24:6": [
+    "DSelah"
+  ],
+  "PSA_32:4": [
+    "DSelah"
+  ],
+  "PSA_32:5": [
+    "DSelah"
+  ],
+  "PSA_32:7": [
+    "DSelah"
+  ],
+  "PSA_39:5": [
+    "DSelah"
+  ],
+  "PSA_39:11": [
+    "DSelah"
+  ],
+  "PSA_44:8": [
+    "DSelah"
+  ],
+  "PSA_46:3": [
+    "DSelah"
+  ],
+  "PSA_47:4": [
+    "DSelah"
+  ],
+  "PSA_49:13": [
+    "DSelah"
+  ],
+  "PSA_50:6": [
+    "DSelah"
+  ],
+  "PSA_52:5": [
+    "DSelah"
+  ],
+  "PSA_54:3": [
+    "DSelah"
+  ],
+  "PSA_55:7": [
+    "DSelah"
+  ],
+  "PSA_55:19": [
+    "DSelah"
+  ],
+  "PSA_57:6": [
+    "DSelah"
+  ],
+  "PSA_59:13": [
+    "DSelah"
+  ],
+  "PSA_60:4": [
+    "DSelah"
+  ],
+  "PSA_61:4": [
+    "DSelah"
+  ],
+  "PSA_62:4": [
+    "DSelah"
+  ],
+  "PSA_62:8": [
+    "DSelah"
+  ],
+  "PSA_66:4": [
+    "DSelah"
+  ],
+  "PSA_66:7": [
+    "DSelah"
+  ],
+  "PSA_66:15": [
+    "DSelah"
+  ],
+  "PSA_67:1": [
+    "DSelah"
+  ],
+  "PSA_67:4": [
+    "DSelah"
+  ],
+  "PSA_68:7": [
+    "DSelah"
+  ],
+  "PSA_75:3": [
+    "DSelah"
+  ],
+  "PSA_76:3": [
+    "DSelah"
+  ],
+  "PSA_76:9": [
+    "DSelah"
+  ],
+  "PSA_77:3": [
+    "DSelah"
+  ],
+  "PSA_77:9": [
+    "DSelah"
+  ],
+  "PSA_81:7": [
+    "DSelah"
+  ],
+  "PSA_82:2": [
+    "DSelah"
+  ],
+  "PSA_83:8": [
+    "DSelah"
+  ],
+  "PSA_84:4": [
+    "DSelah"
+  ],
+  "PSA_85:2": [
+    "DSelah"
+  ],
+  "PSA_87:3": [
+    "DSelah"
+  ],
+  "PSA_87:6": [
+    "DSelah"
+  ],
+  "PSA_88:7": [
+    "DSelah"
+  ],
+  "PSA_88:10": [
+    "DSelah"
+  ],
+  "PSA_89:4": [
+    "DSelah"
+  ],
+  "PSA_89:37": [
+    "DSelah"
+  ],
+  "PSA_89:45": [
+    "DSelah"
+  ],
+  "PSA_140:3": [
+    "DSelah"
+  ],
+  "PSA_140:5": [
+    "DSelah"
+  ],
+  "PSA_140:8": [
+    "DSelah"
+  ],
+  "PSA_143:6": [
+    "DSelah"
+  ],
+  "HAB_3:3": [
+    "DSelah"
+  ],
+  "HAB_3:9": [
+    "DSelah"
+  ],
+  "HAB_3:13": [
+    "DSelah"
+  ],
+  "ISA_6:2": [
+    "DSeraph"
+  ],
+  "ISA_6:6": [
+    "DSeraph"
+  ],
+  "ZEC_1:7": [
+    "DShebat"
+  ],
+  "CH1_15:21": [
+    "DSheminith"
+  ],
+  "PSA_6:1": [
+    "DSheminith"
+  ],
+  "PSA_12:1": [
+    "DSheminith"
+  ],
+  "JDG_12:6": [
+    "DShibboleth"
+  ],
+  "PSA_7:1": [
+    "DShiggaion"
+  ],
+  "HAB_3:1": [
+    "DShigionoth"
+  ],
+  "CH1_2:55": [
+    "DShimeathite",
+    "DSucathite",
+    "DTirathite"
+  ],
+  "EST_8:9": [
+    "DSivan"
+  ],
+  "EZK_8:14": [
+    "DTammuz"
+  ],
+  "EST_2:16": [
+    "DTebeth"
+  ],
+  "EZK_21:21": [
+    "DTeraphim"
+  ],
+  "GEN_31:19": [
+    "DTeraphim"
+  ],
+  "GEN_31:34": [
+    "DTeraphim"
+  ],
+  "GEN_31:35": [
+    "DTeraphim"
+  ],
+  "KI2_23:24": [
+    "DTeraphim"
+  ],
+  "JDG_17:5": [
+    "DTeraphim"
+  ],
+  "JDG_18:14": [
+    "DTeraphim"
+  ],
+  "JDG_18:17": [
+    "DTeraphim"
+  ],
+  "JDG_18:18": [
+    "DTeraphim"
+  ],
+  "JDG_18:20": [
+    "DTeraphim"
+  ],
+  "HOS_3:4": [
+    "DTeraphim"
+  ],
+  "ZEC_10:2": [
+    "DTeraphim"
+  ],
+  "SA1_15:23": [
+    "DTeraphim"
+  ],
+  "SA1_19:13": [
+    "DTeraphim"
+  ],
+  "SA1_19:16": [
+    "DTeraphim"
+  ],
+  "EXO_28:30": [
+    "DThummim",
+    "DUrim"
+  ],
+  "LEV_8:8": [
+    "DThummim",
+    "DUrim"
+  ],
+  "DEU_33:8": [
+    "DThummim",
+    "DUrim"
+  ],
+  "EZR_2:63": [
+    "DThummim",
+    "DUrim"
+  ],
+  "NEH_7:65": [
+    "DThummim",
+    "DUrim"
+  ],
+  "NUM_27:21": [
+    "DUrim"
+  ],
+  "SA1_28:6": [
+    "DUrim"
+  ],
+  "SA1_14:41": [
+    "DUrim"
+  ],
+  "EXO_34:22": [
+    "DWeeks"
+  ],
+  "NUM_28:26": [
+    "DWeeks"
+  ],
+  "DEU_16:10": [
+    "DWeeks"
+  ],
+  "DEU_16:16": [
+    "DWeeks"
+  ],
+  "ACT_2:1": [
+    "DWeeks"
+  ],
+  "ACT_20:16": [
+    "DWeeks"
+  ],
+  "CO1_16:8": [
+    "DWeeks"
+  ],
+  "MAT_10:4": [
+    "DZealot"
+  ],
+  "MRK_3:18": [
+    "DZealot"
+  ],
+  "ACT_14:13": [
+    "DZeus"
+  ],
+  "KI1_6:1": [
+    "DZiv"
+  ],
+  "KI1_6:37": [
+    "DZiv"
+  ]
+}

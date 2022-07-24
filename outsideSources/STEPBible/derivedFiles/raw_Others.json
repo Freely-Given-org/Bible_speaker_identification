@@ -1,6 +1,6 @@
 {
   "Abaddon": {
-    "ourID": "Abaddon",
+    "FGid": "Abaddon",
     "name": "Abaddon",
     "unifiedNameTIPNR": "Abaddon@Rev.9.11",
     "uStrongs": "G0003",
@@ -41,7 +41,7 @@
     ]
   },
   "Abaddon2": {
-    "ourID": "Abaddon2",
+    "FGid": "Abaddon2",
     "name": "Abaddon",
     "unifiedNameTIPNR": "Abaddon@Job.26.6",
     "uStrongs": "H0011",
@@ -86,7 +86,7 @@
     ]
   },
   "Abib": {
-    "ourID": "Abib",
+    "FGid": "Abib",
     "name": "Abib",
     "unifiedNameTIPNR": "Abib@Exo.13.4",
     "uStrongs": "H0024",
@@ -133,7 +133,7 @@
     ]
   },
   "Adar": {
-    "ourID": "Adar",
+    "FGid": "Adar",
     "name": "Adar",
     "unifiedNameTIPNR": "Adar@Ezr.6.15",
     "uStrongs": "H0143",
@@ -181,7 +181,7 @@
     ]
   },
   "Alamoth": {
-    "ourID": "Alamoth",
+    "FGid": "Alamoth",
     "name": "Alamoth",
     "unifiedNameTIPNR": "Alamoth@1Ch.15.20",
     "uStrongs": "H5961",
@@ -208,7 +208,7 @@
     ]
   },
   "Al-taschith": {
-    "ourID": "Al-taschith",
+    "FGid": "Al-taschith",
     "name": "Al-taschith",
     "unifiedNameTIPNR": "Al-taschith@Psa.57.1",
     "uStrongs": "H0516",
@@ -236,7 +236,7 @@
     ]
   },
   "Amon": {
-    "ourID": "Amon",
+    "FGid": "Amon",
     "name": "Amon",
     "unifiedNameTIPNR": "Amon@Jer.46.25",
     "uStrongs": "H0528",
@@ -262,7 +262,7 @@
     ]
   },
   "Apharasthchite": {
-    "ourID": "Apharasthchite",
+    "FGid": "Apharasthchite",
     "name": "Apharasthchite",
     "unifiedNameTIPNR": "Apharasthchite@Ezr.4.9",
     "uStrongs": "H0671A",
@@ -304,7 +304,7 @@
     ]
   },
   "Aramaic": {
-    "ourID": "Aramaic",
+    "FGid": "Aramaic",
     "name": "Aramaic",
     "unifiedNameTIPNR": "Aramaic@2Ki.18.26",
     "uStrongs": "H0762",
@@ -403,7 +403,7 @@
     ]
   },
   "Hebrew": {
-    "ourID": "Hebrew",
+    "FGid": "Hebrew",
     "name": "Hebrew",
     "unifiedNameTIPNR": "Hebrew@2Ki.18.26",
     "uStrongs": "H3066H",
@@ -432,7 +432,7 @@
     ]
   },
   "Artemis": {
-    "ourID": "Artemis",
+    "FGid": "Artemis",
     "name": "Artemis",
     "unifiedNameTIPNR": "Artemis@Act.19.24",
     "uStrongs": "G0735",
@@ -461,7 +461,7 @@
     ]
   },
   "Asherah": {
-    "ourID": "Asherah",
+    "FGid": "Asherah",
     "name": "Asherah",
     "unifiedNameTIPNR": "Asherah@Exo.34.13",
     "uStrongs": "H0842",
@@ -555,7 +555,7 @@
     ]
   },
   "Ashima": {
-    "ourID": "Ashima",
+    "FGid": "Ashima",
     "name": "Ashima",
     "unifiedNameTIPNR": "Ashima@2Ki.17.30",
     "uStrongs": "H0807",
@@ -580,7 +580,7 @@
     ]
   },
   "Ashtaroth": {
-    "ourID": "Ashtaroth",
+    "FGid": "Ashtaroth",
     "name": "Ashtaroth",
     "unifiedNameTIPNR": "Ashtaroth@Jdg.2.13",
     "uStrongs": "H6252",
@@ -610,7 +610,7 @@
     ]
   },
   "Ashtoreth": {
-    "ourID": "Ashtoreth",
+    "FGid": "Ashtoreth",
     "name": "Ashtoreth",
     "unifiedNameTIPNR": "Ashtoreth@1Ki.11.5",
     "uStrongs": "H6253",
@@ -637,7 +637,7 @@
     ]
   },
   "Asiarch": {
-    "ourID": "Asiarch",
+    "FGid": "Asiarch",
     "name": "Asiarch",
     "unifiedNameTIPNR": "Asiarch@Act.19.31",
     "uStrongs": "G0775",
@@ -662,7 +662,7 @@
     ]
   },
   "Azazel": {
-    "ourID": "Azazel",
+    "FGid": "Azazel",
     "name": "Azazel",
     "unifiedNameTIPNR": "Azazel@Lev.16.8",
     "uStrongs": "H5799",
@@ -690,7 +690,7 @@
     ]
   },
   "Baal": {
-    "ourID": "Baal",
+    "FGid": "Baal",
     "name": "Baal",
     "unifiedNameTIPNR": "Baal@Num.22.41",
     "uStrongs": "H1168A",
@@ -857,7 +857,7 @@
     ]
   },
   "Baal-berith": {
-    "ourID": "Baal-berith",
+    "FGid": "Baal-berith",
     "name": "Baal-berith",
     "unifiedNameTIPNR": "Baal-berith@Jdg.8.33",
     "uStrongs": "H1170",
@@ -883,7 +883,7 @@
     ]
   },
   "Bear": {
-    "ourID": "Bear",
+    "FGid": "Bear",
     "name": "Bear",
     "unifiedNameTIPNR": "Bear@Job.9.9",
     "uStrongs": "H5906",
@@ -909,7 +909,7 @@
     ]
   },
   "Behemoth": {
-    "ourID": "Behemoth",
+    "FGid": "Behemoth",
     "name": "Behemoth",
     "unifiedNameTIPNR": "Behemoth@Job.40.15",
     "uStrongs": "H0930",
@@ -934,7 +934,7 @@
     ]
   },
   "Bel": {
-    "ourID": "Bel",
+    "FGid": "Bel",
     "name": "Bel",
     "unifiedNameTIPNR": "Bel@Isa.46.1",
     "uStrongs": "H1078",
@@ -961,7 +961,7 @@
     ]
   },
   "Boaz": {
-    "ourID": "Boaz",
+    "FGid": "Boaz",
     "name": "Boaz",
     "unifiedNameTIPNR": "Boaz@1Ki.7.21",
     "uStrongs": "H1162H",
@@ -987,7 +987,7 @@
     ]
   },
   "Booths_Festival": {
-    "ourID": "Booths_Festival",
+    "FGid": "Booths_Festival",
     "name": "Booths_Festival",
     "unifiedNameTIPNR": "Booths_Festival@Jhn.7.2",
     "uStrongs": "G4634",
@@ -1012,7 +1012,7 @@
     ]
   },
   "Bul": {
-    "ourID": "Bul",
+    "FGid": "Bul",
     "name": "Bul",
     "unifiedNameTIPNR": "Bul@1Ki.6.38",
     "uStrongs": "H0945",
@@ -1037,7 +1037,7 @@
     ]
   },
   "Candace": {
-    "ourID": "Candace",
+    "FGid": "Candace",
     "name": "Candace",
     "unifiedNameTIPNR": "Candace@Act.8.27",
     "uStrongs": "G2582",
@@ -1062,7 +1062,7 @@
     ]
   },
   "Chemosh": {
-    "ourID": "Chemosh",
+    "FGid": "Chemosh",
     "name": "Chemosh",
     "unifiedNameTIPNR": "Chemosh@Num.21.29",
     "uStrongs": "H3645",
@@ -1094,7 +1094,7 @@
     ]
   },
   "Chislev": {
-    "ourID": "Chislev",
+    "FGid": "Chislev",
     "name": "Chislev",
     "unifiedNameTIPNR": "Chislev@Neh.1.1",
     "uStrongs": "H3691",
@@ -1120,7 +1120,7 @@
     ]
   },
   "Chronicles": {
-    "ourID": "Chronicles",
+    "FGid": "Chronicles",
     "name": "Chronicles",
     "unifiedNameTIPNR": "Chronicles@1Ki.14.19",
     "uStrongs": "H1697O",
@@ -1184,7 +1184,7 @@
     ]
   },
   "Dagon": {
-    "ourID": "Dagon",
+    "FGid": "Dagon",
     "name": "Dagon",
     "unifiedNameTIPNR": "Dagon@Jdg.16.23",
     "uStrongs": "H1712",
@@ -1221,7 +1221,7 @@
     ]
   },
   "Dedication_Festival": {
-    "ourID": "Dedication_Festival",
+    "FGid": "Dedication_Festival",
     "name": "Dedication_Festival",
     "unifiedNameTIPNR": "Dedication_Festival@Jhn.10.22",
     "uStrongs": "G1456",
@@ -1246,7 +1246,7 @@
     ]
   },
   "Destiny": {
-    "ourID": "Destiny",
+    "FGid": "Destiny",
     "name": "Destiny",
     "unifiedNameTIPNR": "Destiny@Isa.65.11",
     "uStrongs": "H4507",
@@ -1271,7 +1271,7 @@
     ]
   },
   "El-berith": {
-    "ourID": "El-berith",
+    "FGid": "El-berith",
     "name": "El-berith",
     "unifiedNameTIPNR": "El-berith@Jdg.9.46",
     "uStrongs": "H0410H",
@@ -1305,7 +1305,7 @@
     ]
   },
   "Elul": {
-    "ourID": "Elul",
+    "FGid": "Elul",
     "name": "Elul",
     "unifiedNameTIPNR": "Elul@Neh.6.15",
     "uStrongs": "H0435",
@@ -1330,7 +1330,7 @@
     ]
   },
   "Epicurean": {
-    "ourID": "Epicurean",
+    "FGid": "Epicurean",
     "name": "Epicurean",
     "unifiedNameTIPNR": "Epicurean@Act.17.18",
     "uStrongs": "G1946",
@@ -1355,7 +1355,7 @@
     ]
   },
   "Ethanim": {
-    "ourID": "Ethanim",
+    "FGid": "Ethanim",
     "name": "Ethanim",
     "unifiedNameTIPNR": "Ethanim@1Ki.8.2",
     "uStrongs": "H0388",
@@ -1380,7 +1380,7 @@
     ]
   },
   "Fortune": {
-    "ourID": "Fortune",
+    "FGid": "Fortune",
     "name": "Fortune",
     "unifiedNameTIPNR": "Fortune@Isa.65.11",
     "uStrongs": "H1408",
@@ -1405,7 +1405,7 @@
     ]
   },
   "Freedmen": {
-    "ourID": "Freedmen",
+    "FGid": "Freedmen",
     "name": "Freedmen",
     "unifiedNameTIPNR": "Freedmen@Act.6.9",
     "uStrongs": "G3032",
@@ -1430,7 +1430,7 @@
     ]
   },
   "Gabriel": {
-    "ourID": "Gabriel",
+    "FGid": "Gabriel",
     "name": "Gabriel",
     "unifiedNameTIPNR": "Gabriel@Dan.8.16",
     "uStrongs": "H1403",
@@ -1473,7 +1473,7 @@
     ]
   },
   "Gentile": {
-    "ourID": "Gentile",
+    "FGid": "Gentile",
     "name": "Gentile",
     "unifiedNameTIPNR": "Gentile@Gen.10.5",
     "uStrongs": "H1471G",
@@ -1829,7 +1829,7 @@
     ]
   },
   "Gittith": {
-    "ourID": "Gittith",
+    "FGid": "Gittith",
     "name": "Gittith",
     "unifiedNameTIPNR": "Gittith@Psa.8.1",
     "uStrongs": "H1665",
@@ -1856,7 +1856,7 @@
     ]
   },
   "Hell": {
-    "ourID": "Hell",
+    "FGid": "Hell",
     "name": "Hell",
     "unifiedNameTIPNR": "Hell@Gen.37.35",
     "uStrongs": "H7585",
@@ -2043,7 +2043,7 @@
     ]
   },
   "Hermes": {
-    "ourID": "Hermes",
+    "FGid": "Hermes",
     "name": "Hermes",
     "unifiedNameTIPNR": "Hermes@Act.14.12",
     "uStrongs": "G2060G",
@@ -2068,7 +2068,7 @@
     ]
   },
   "Herodian": {
-    "ourID": "Herodian",
+    "FGid": "Herodian",
     "name": "Herodian",
     "unifiedNameTIPNR": "Herodian@Mat.22.16",
     "description": "A group in New Testament times",
@@ -2094,7 +2094,7 @@
     ]
   },
   "Higgaion": {
-    "ourID": "Higgaion",
+    "FGid": "Higgaion",
     "name": "Higgaion",
     "unifiedNameTIPNR": "Higgaion@Psa.9.16",
     "uStrongs": "H1902G",
@@ -2119,7 +2119,7 @@
     ]
   },
   "Hosanna": {
-    "ourID": "Hosanna",
+    "FGid": "Hosanna",
     "name": "Hosanna",
     "unifiedNameTIPNR": "Hosanna@Mat.21.9",
     "uStrongs": "G5614",
@@ -2149,7 +2149,7 @@
     ]
   },
   "Jachin": {
-    "ourID": "Jachin",
+    "FGid": "Jachin",
     "name": "Jachin",
     "unifiedNameTIPNR": "Jachin@1Ki.7.21",
     "uStrongs": "H3199H",
@@ -2175,7 +2175,7 @@
     ]
   },
   "Greek": {
-    "ourID": "Greek",
+    "FGid": "Greek",
     "name": "Greek",
     "unifiedNameTIPNR": "Greek@Isa.66.19",
     "uStrongs": "G1673",
@@ -2218,7 +2218,7 @@
     ]
   },
   "Jonath-elem-rechokim": {
-    "ourID": "Jonath-elem-rechokim",
+    "FGid": "Jonath-elem-rechokim",
     "name": "Jonath-elem-rechokim",
     "unifiedNameTIPNR": "Jonath-elem-rechokim@Psa.56.1",
     "uStrongs": "H3128",
@@ -2243,7 +2243,7 @@
     ]
   },
   "Judaism": {
-    "ourID": "Judaism",
+    "FGid": "Judaism",
     "name": "Judaism",
     "unifiedNameTIPNR": "Judaism@Gal.1.13",
     "uStrongs": "G2454",
@@ -2269,7 +2269,7 @@
     ]
   },
   "Kiyyun": {
-    "ourID": "Kiyyun",
+    "FGid": "Kiyyun",
     "name": "Kiyyun",
     "unifiedNameTIPNR": "Kiyyun@Amo.5.26",
     "uStrongs": "H3594",
@@ -2294,7 +2294,7 @@
     ]
   },
   "Latin": {
-    "ourID": "Latin",
+    "FGid": "Latin",
     "name": "Latin",
     "unifiedNameTIPNR": "Latin@Luk.23.38",
     "uStrongs": "G4513",
@@ -2319,7 +2319,7 @@
     ]
   },
   "Legion": {
-    "ourID": "Legion",
+    "FGid": "Legion",
     "name": "Legion",
     "unifiedNameTIPNR": "Legion@Mrk.5.9",
     "uStrongs": "G3003",
@@ -2345,7 +2345,7 @@
     ]
   },
   "Leviathan": {
-    "ourID": "Leviathan",
+    "FGid": "Leviathan",
     "name": "Leviathan",
     "unifiedNameTIPNR": "Leviathan@Job.3.8",
     "uStrongs": "H3882",
@@ -2375,7 +2375,7 @@
     ]
   },
   "LORD": {
-    "ourID": "LORD",
+    "FGid": "LORD",
     "name": "LORD",
     "unifiedNameTIPNR": "LORD@Gen.1.1",
     "uStrongs": "H3068G",
@@ -4034,7 +4034,7 @@
     ]
   },
   "Lucifer": {
-    "ourID": "Lucifer",
+    "FGid": "Lucifer",
     "name": "Lucifer",
     "unifiedNameTIPNR": "Lucifer@Isa.14.12",
     "uStrongs": "H1966",
@@ -4059,7 +4059,7 @@
     ]
   },
   "Mahalath": {
-    "ourID": "Mahalath",
+    "FGid": "Mahalath",
     "name": "Mahalath",
     "unifiedNameTIPNR": "Mahalath@Psa.53.1",
     "uStrongs": "H4257",
@@ -4085,7 +4085,7 @@
     ]
   },
   "Maskil": {
-    "ourID": "Maskil",
+    "FGid": "Maskil",
     "name": "Maskil",
     "unifiedNameTIPNR": "Maskil@Psa.32.1",
     "uStrongs": "H4905",
@@ -4123,7 +4123,7 @@
     ]
   },
   "Mazzaroth": {
-    "ourID": "Mazzaroth",
+    "FGid": "Mazzaroth",
     "name": "Mazzaroth",
     "unifiedNameTIPNR": "Mazzaroth@Job.38.32",
     "uStrongs": "H4216",
@@ -4148,7 +4148,7 @@
     ]
   },
   "Merodach": {
-    "ourID": "Merodach",
+    "FGid": "Merodach",
     "name": "Merodach",
     "unifiedNameTIPNR": "Merodach@Jer.50.2",
     "uStrongs": "H4781",
@@ -4173,7 +4173,7 @@
     ]
   },
   "Messiah": {
-    "ourID": "Messiah",
+    "FGid": "Messiah",
     "name": "Messiah",
     "unifiedNameTIPNR": "Messiah@Jhn.1.41",
     "uStrongs": "G3323",
@@ -4199,7 +4199,7 @@
     ]
   },
   "Miktam": {
-    "ourID": "Miktam",
+    "FGid": "Miktam",
     "name": "Miktam",
     "unifiedNameTIPNR": "Miktam@Psa.16.1",
     "uStrongs": "H4387",
@@ -4229,7 +4229,7 @@
     ]
   },
   "Molech": {
-    "ourID": "Molech",
+    "FGid": "Molech",
     "name": "Molech",
     "unifiedNameTIPNR": "Molech@Lev.18.21",
     "uStrongs": "H4432",
@@ -4328,7 +4328,7 @@
     ]
   },
   "Muth-labben": {
-    "ourID": "Muth-labben",
+    "FGid": "Muth-labben",
     "name": "Muth-labben",
     "unifiedNameTIPNR": "Muth-labben@Psa.9.1",
     "uStrongs": "H4192",
@@ -4353,7 +4353,7 @@
     ]
   },
   "Nazirite": {
-    "ourID": "Nazirite",
+    "FGid": "Nazirite",
     "name": "Nazirite",
     "unifiedNameTIPNR": "Nazirite@Num.6.2",
     "uStrongs": "H5139",
@@ -4420,7 +4420,7 @@
     ]
   },
   "Nebo": {
-    "ourID": "Nebo",
+    "FGid": "Nebo",
     "name": "Nebo",
     "unifiedNameTIPNR": "Nebo@Isa.46.1",
     "uStrongs": "H5015B",
@@ -4445,7 +4445,7 @@
     ]
   },
   "Nehushtan": {
-    "ourID": "Nehushtan",
+    "FGid": "Nehushtan",
     "name": "Nehushtan",
     "unifiedNameTIPNR": "Nehushtan@2Ki.18.4",
     "uStrongs": "H5180",
@@ -4470,7 +4470,7 @@
     ]
   },
   "Nergal": {
-    "ourID": "Nergal",
+    "FGid": "Nergal",
     "name": "Nergal",
     "unifiedNameTIPNR": "Nergal@2Ki.17.30",
     "uStrongs": "H5370",
@@ -4495,7 +4495,7 @@
     ]
   },
   "New_Moon": {
-    "ourID": "New_Moon",
+    "FGid": "New_Moon",
     "name": "New_Moon",
     "unifiedNameTIPNR": "New_Moon@Col.2.16",
     "uStrongs": "G3561",
@@ -4520,7 +4520,7 @@
     ]
   },
   "Nibhaz": {
-    "ourID": "Nibhaz",
+    "FGid": "Nibhaz",
     "name": "Nibhaz",
     "unifiedNameTIPNR": "Nibhaz@2Ki.17.31",
     "uStrongs": "H5026",
@@ -4545,7 +4545,7 @@
     ]
   },
   "Nicolaitans": {
-    "ourID": "Nicolaitans",
+    "FGid": "Nicolaitans",
     "name": "Nicolaitans",
     "unifiedNameTIPNR": "Nicolaitans@Rev.2.6",
     "uStrongs": "G3531",
@@ -4571,7 +4571,7 @@
     ]
   },
   "Nisroch": {
-    "ourID": "Nisroch",
+    "FGid": "Nisroch",
     "name": "Nisroch",
     "unifiedNameTIPNR": "Nisroch@2Ki.19.37",
     "uStrongs": "H5268",
@@ -4597,7 +4597,7 @@
     ]
   },
   "Omega": {
-    "ourID": "Omega",
+    "FGid": "Omega",
     "name": "Omega",
     "unifiedNameTIPNR": "Omega@Rev.1.8",
     "uStrongs": "G5598",
@@ -4625,7 +4625,7 @@
     ]
   },
   "Orion": {
-    "ourID": "Orion",
+    "FGid": "Orion",
     "name": "Orion",
     "unifiedNameTIPNR": "Orion@Job.9.9",
     "uStrongs": "H3685G",
@@ -4652,7 +4652,7 @@
     ]
   },
   "Passover": {
-    "ourID": "Passover",
+    "FGid": "Passover",
     "name": "Passover",
     "unifiedNameTIPNR": "Passover@Exo.12.11",
     "uStrongs": "H6453",
@@ -4814,7 +4814,7 @@
     ]
   },
   "Pharisee": {
-    "ourID": "Pharisee",
+    "FGid": "Pharisee",
     "name": "Pharisee",
     "unifiedNameTIPNR": "Pharisee@Mat.3.7",
     "uStrongs": "G5330",
@@ -4954,7 +4954,7 @@
     ]
   },
   "Pleiades": {
-    "ourID": "Pleiades",
+    "FGid": "Pleiades",
     "name": "Pleiades",
     "unifiedNameTIPNR": "Pleiades@Job.9.9",
     "uStrongs": "H3598",
@@ -4981,7 +4981,7 @@
     ]
   },
   "Preparation_Festival": {
-    "ourID": "Preparation_Festival",
+    "FGid": "Preparation_Festival",
     "name": "Preparation_Festival",
     "unifiedNameTIPNR": "Preparation_Festival@Mat.27.62",
     "uStrongs": "G3904",
@@ -5012,7 +5012,7 @@
     ]
   },
   "Purim": {
-    "ourID": "Purim",
+    "FGid": "Purim",
     "name": "Purim",
     "unifiedNameTIPNR": "Purim@Est.3.7",
     "uStrongs": "H6332",
@@ -5059,7 +5059,7 @@
     ]
   },
   "Rabbi": {
-    "ourID": "Rabbi",
+    "FGid": "Rabbi",
     "name": "Rabbi",
     "unifiedNameTIPNR": "Rabbi@Mat.23.7",
     "uStrongs": "G4461",
@@ -5131,7 +5131,7 @@
     ]
   },
   "Raca": {
-    "ourID": "Raca",
+    "FGid": "Raca",
     "name": "Raca",
     "unifiedNameTIPNR": "Raca@Mat.5.22",
     "uStrongs": "G4469",
@@ -5156,7 +5156,7 @@
     ]
   },
   "Rahab": {
-    "ourID": "Rahab",
+    "FGid": "Rahab",
     "name": "Rahab",
     "unifiedNameTIPNR": "Rahab@Job.9.13",
     "uStrongs": "H7294",
@@ -5184,7 +5184,7 @@
     ]
   },
   "Rephan": {
-    "ourID": "Rephan",
+    "FGid": "Rephan",
     "name": "Rephan",
     "unifiedNameTIPNR": "Rephan@Act.7.43",
     "uStrongs": "G4481",
@@ -5209,7 +5209,7 @@
     ]
   },
   "Rimmon": {
-    "ourID": "Rimmon",
+    "FGid": "Rimmon",
     "name": "Rimmon",
     "unifiedNameTIPNR": "Rimmon@2Ki.5.18",
     "uStrongs": "H7417A",
@@ -5236,7 +5236,7 @@
     ]
   },
   "Sabbath": {
-    "ourID": "Sabbath",
+    "FGid": "Sabbath",
     "name": "Sabbath",
     "unifiedNameTIPNR": "Sabbath@Exo.16.23",
     "uStrongs": "H7676",
@@ -5497,7 +5497,7 @@
     ]
   },
   "Sadducee": {
-    "ourID": "Sadducee",
+    "FGid": "Sadducee",
     "name": "Sadducee",
     "unifiedNameTIPNR": "Sadducee@Mat.3.7",
     "uStrongs": "G4523",
@@ -5535,7 +5535,7 @@
     ]
   },
   "Satan": {
-    "ourID": "Satan",
+    "FGid": "Satan",
     "name": "Satan",
     "unifiedNameTIPNR": "Satan@Deu.13.13",
     "uStrongs": "H7854",
@@ -5803,7 +5803,7 @@
     ]
   },
   "Selah": {
-    "ourID": "Selah",
+    "FGid": "Selah",
     "name": "Selah",
     "unifiedNameTIPNR": "Selah@Psa.3.2",
     "uStrongs": "H5542",
@@ -5901,7 +5901,7 @@
     ]
   },
   "Seraph": {
-    "ourID": "Seraph",
+    "FGid": "Seraph",
     "name": "Seraph",
     "unifiedNameTIPNR": "Seraph@Isa.6.2",
     "uStrongs": "H8314B",
@@ -5927,7 +5927,7 @@
     ]
   },
   "Shebat": {
-    "ourID": "Shebat",
+    "FGid": "Shebat",
     "name": "Shebat",
     "unifiedNameTIPNR": "Shebat@Zec.1.7",
     "uStrongs": "H7627",
@@ -5952,7 +5952,7 @@
     ]
   },
   "Sheminith": {
-    "ourID": "Sheminith",
+    "FGid": "Sheminith",
     "name": "Sheminith",
     "unifiedNameTIPNR": "Sheminith@1Ch.15.21",
     "uStrongs": "H8067",
@@ -5979,7 +5979,7 @@
     ]
   },
   "Shibboleth": {
-    "ourID": "Shibboleth",
+    "FGid": "Shibboleth",
     "name": "Shibboleth",
     "unifiedNameTIPNR": "Shibboleth@Jdg.12.6",
     "uStrongs": "H7641A",
@@ -6004,7 +6004,7 @@
     ]
   },
   "Shiggaion": {
-    "ourID": "Shiggaion",
+    "FGid": "Shiggaion",
     "name": "Shiggaion",
     "unifiedNameTIPNR": "Shiggaion@Psa.7.1",
     "uStrongs": "H7692G",
@@ -6029,7 +6029,7 @@
     ]
   },
   "Shigionoth": {
-    "ourID": "Shigionoth",
+    "FGid": "Shigionoth",
     "name": "Shigionoth",
     "unifiedNameTIPNR": "Shigionoth@Hab.3.1",
     "uStrongs": "H7692H",
@@ -6054,7 +6054,7 @@
     ]
   },
   "Shimeathite": {
-    "ourID": "Shimeathite",
+    "FGid": "Shimeathite",
     "name": "Shimeathite",
     "unifiedNameTIPNR": "Shimeathite@1Ch.2.55",
     "uStrongs": "H8101",
@@ -6079,7 +6079,7 @@
     ]
   },
   "Shushan_Eduth": {
-    "ourID": "Shushan_Eduth",
+    "FGid": "Shushan_Eduth",
     "name": "Shushan_Eduth",
     "unifiedNameTIPNR": "Shushan_Eduth@Psa.60.1",
     "uStrongs": "H7802",
@@ -6104,7 +6104,7 @@
     ]
   },
   "Sikkuth": {
-    "ourID": "Sikkuth",
+    "FGid": "Sikkuth",
     "name": "Sikkuth",
     "unifiedNameTIPNR": "Sikkuth@Amo.5.26",
     "uStrongs": "H5522",
@@ -6129,7 +6129,7 @@
     ]
   },
   "Sivan": {
-    "ourID": "Sivan",
+    "FGid": "Sivan",
     "name": "Sivan",
     "unifiedNameTIPNR": "Sivan@Est.8.9",
     "uStrongs": "H5510",
@@ -6154,7 +6154,7 @@
     ]
   },
   "Stoic": {
-    "ourID": "Stoic",
+    "FGid": "Stoic",
     "name": "Stoic",
     "unifiedNameTIPNR": "Stoic@Act.17.18",
     "uStrongs": "G4770",
@@ -6179,7 +6179,7 @@
     ]
   },
   "Sucathite": {
-    "ourID": "Sucathite",
+    "FGid": "Sucathite",
     "name": "Sucathite",
     "unifiedNameTIPNR": "Sucathite@1Ch.2.55",
     "uStrongs": "H7756",
@@ -6204,7 +6204,7 @@
     ]
   },
   "Succoth-benoth": {
-    "ourID": "Succoth-benoth",
+    "FGid": "Succoth-benoth",
     "name": "Succoth-benoth",
     "unifiedNameTIPNR": "Succoth-benoth@2Ki.17.30",
     "uStrongs": "H5524",
@@ -6229,7 +6229,7 @@
     ]
   },
   "Tammuz": {
-    "ourID": "Tammuz",
+    "FGid": "Tammuz",
     "name": "Tammuz",
     "unifiedNameTIPNR": "Tammuz@Ezk.8.14",
     "uStrongs": "H8542",
@@ -6254,7 +6254,7 @@
     ]
   },
   "Tarpelite": {
-    "ourID": "Tarpelite",
+    "FGid": "Tarpelite",
     "name": "Tarpelite",
     "unifiedNameTIPNR": "Tarpelite@Ezr.4.9",
     "uStrongs": "H2967",
@@ -6279,7 +6279,7 @@
     ]
   },
   "Tartak": {
-    "ourID": "Tartak",
+    "FGid": "Tartak",
     "name": "Tartak",
     "unifiedNameTIPNR": "Tartak@2Ki.17.31",
     "uStrongs": "H8662",
@@ -6304,7 +6304,7 @@
     ]
   },
   "Tebeth": {
-    "ourID": "Tebeth",
+    "FGid": "Tebeth",
     "name": "Tebeth",
     "unifiedNameTIPNR": "Tebeth@Est.2.16",
     "uStrongs": "H2887",
@@ -6329,7 +6329,7 @@
     ]
   },
   "Teraphim": {
-    "ourID": "Teraphim",
+    "FGid": "Teraphim",
     "name": "Teraphim",
     "unifiedNameTIPNR": "Teraphim@Gen.31.19",
     "uStrongs": "H8655",
@@ -6443,7 +6443,7 @@
     ]
   },
   "Thummim": {
-    "ourID": "Thummim",
+    "FGid": "Thummim",
     "name": "Thummim",
     "unifiedNameTIPNR": "Thummim@Exo.28.30",
     "uStrongs": "H8550",
@@ -6472,7 +6472,7 @@
     ]
   },
   "Tirathite": {
-    "ourID": "Tirathite",
+    "FGid": "Tirathite",
     "name": "Tirathite",
     "unifiedNameTIPNR": "Tirathite@1Ch.2.55",
     "uStrongs": "H8654",
@@ -6497,7 +6497,7 @@
     ]
   },
   "Urim": {
-    "ourID": "Urim",
+    "FGid": "Urim",
     "name": "Urim",
     "unifiedNameTIPNR": "Urim@Exo.28.30",
     "uStrongs": "H0224",
@@ -6544,7 +6544,7 @@
     ]
   },
   "Weeks": {
-    "ourID": "Weeks",
+    "FGid": "Weeks",
     "name": "Weeks",
     "unifiedNameTIPNR": "Weeks@Exo.34.22",
     "uStrongs": "H7620G",
@@ -6591,7 +6591,7 @@
     ]
   },
   "Zealot": {
-    "ourID": "Zealot",
+    "FGid": "Zealot",
     "name": "Zealot",
     "unifiedNameTIPNR": "Zealot@Mat.10.4",
     "uStrongs": "G2581",
@@ -6617,7 +6617,7 @@
     ]
   },
   "Zeus": {
-    "ourID": "Zeus",
+    "FGid": "Zeus",
     "name": "Zeus",
     "unifiedNameTIPNR": "Zeus@Act.14.12",
     "uStrongs": "G2203",
@@ -6643,7 +6643,7 @@
     ]
   },
   "Ziv": {
-    "ourID": "Ziv",
+    "FGid": "Ziv",
     "name": "Ziv",
     "unifiedNameTIPNR": "Ziv@1Ki.6.1",
     "uStrongs": "H2099",
@@ -6664,51 +6664,6 @@
         "individualVerseReferences": [
           "1Ki.6.1",
           "1Ki.6.37"
-        ]
-      }
-    ]
-  },
-  "Abaddon3": {
-    "ourID": "Abaddon3",
-    "name": "Abaddon",
-    "unifiedNameTIPNR": "Abaddon@Job.26.6",
-    "uStrongs": "H0011",
-    "description": "A non-physical place",
-    "names": [
-      {
-        "significance": "- Named",
-        "uniqueNameTIPNR": "Abaddon@Job.26.6",
-        "dStrongs": "H0011",
-        "eStrongs": "H0011",
-        "sourceWord": "אֲבַדּוֹן",
-        "translations": {
-          "ESV": "Abaddon",
-          "NIV": "Abaddon",
-          "KJB": "Abaddon"
-        },
-        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abaddon*|reference=Job.26.6;Job.28.22;Job.31.12;Psa.88.11;Pro.15.11",
-        "individualVerseReferences": [
-          "Job.26.6",
-          "Job.28.22",
-          "Job.31.12",
-          "Psa.88.11",
-          "Pro.15.11"
-        ]
-      },
-      {
-        "significance": "- (same as previous)",
-        "uniqueNameTIPNR": "Abaddon@Job.26.6",
-        "dStrongs": "H0011",
-        "eStrongs": "H0011",
-        "sourceWord": "אֲבַדּוֹן",
-        "translations": {
-          "ESV": "Abaddon (=Qere. Ketiv= destruction)",
-          "NIV": "Abaddon (=Qere. Ketiv= destruction)",
-          "KJB": "Abaddon (=Qere. Ketiv= destruction)"
-        },
-        "STEPBibleFirstLink": "https://www.stepbible.org/?q=version=ESV|version=KJV|text=Abaddon*|reference=Pro.27.20",
-        "individualVerseReferences": [
-          "Pro.27.20"
         ]
       }
     ]
