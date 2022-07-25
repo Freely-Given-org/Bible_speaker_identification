@@ -33,7 +33,7 @@ from gettext import gettext as _
 from re import S
 from typing import Dict, List, Tuple
 from pathlib import Path
-from datetime import datetime
+from datetime import date
 import os
 import logging
 import json
@@ -42,16 +42,27 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-07-22' # by RJH
+LAST_MODIFIED_DATE = '2022-07-25' # by RJH
 SHORT_PROGRAM_NAME = "loadTIPNR"
 PROGRAM_NAME = "Load Translators Individualised Proper Names file"
-PROGRAM_VERSION = '0.03'
+PROGRAM_VERSION = '0.04'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
 
 
+SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING = '2022-07-20'
+
 PREFIX_OUR_IDS_FLAG = True
+
+# Create a header to go in the data files
+HEADER_DICT = { '__HEADERS__':
+    {
+    'source_data_last_downloaded_date': SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING,
+    'conversion_software': programNameVersion,
+    'conversion_date': str(date.today()),
+    }
+}
 
 TIPNR_INPUT_FILENAME = 'TIPNR - Tyndale Individualised Proper Names with all References - TyndaleHouse.com STEPBible.org CC BY.tsv'
 TIPNR_INPUT_FOLDERPATH = Path(f'../outsideSources/STEPBible/')
@@ -60,21 +71,6 @@ TIPNR_OUTPUT_FOLDERPATH = TIPNR_INPUT_FOLDERPATH.joinpath( 'derivedFiles/' )
 TIPNR_XML_OUTPUT_FILENAME = 'TIPNR.xml'
 TIPNR_XML_OUTPUT_FILEPATH = TIPNR_OUTPUT_FOLDERPATH.joinpath(TIPNR_XML_OUTPUT_FILENAME)
 
-# BOOK_NAME_MAP = {
-#     1: 'Genesis', 2: 'Exodus', 3: 'Leviticus', 4: 'Numbers', 5: 'Deuteronomy',
-#     6: 'Joshua', 7: 'Judges', 8: 'Ruth', 9: '1 Samuel', 10: '2 Samuel',
-#     11: '1 Kings', 12: '2 Kings', 13: '1 Chronicles',  14: '2 Chronicles', 15: 'Ezra', 16: 'Nehemiah', 17: 'Esther', 18: 'Job',
-#     19: 'Psalm', 20: 'Proverbs', 21: 'Ecclesiastes',  22: 'Song', 23: 'Isaiah', 24: 'Jeremiah', 25: 'Lamentations',
-#     26: 'Ezekiel', 27: 'Daniel', 28: 'Hosea',  29: 'Joel', 30: 'Amos', 31: 'Obadiah',
-#     32: 'Jonah', 33: 'Micah', 34: 'Nahum',  35: 'Habakkuk', 36: 'Zephaniah', 37: 'Haggai', 38: 'Zechariah', 39: 'Malachi',
-#     40: 'Matthew',    41: 'Mark',    42: 'Luke',    43: 'John',    44: 'Acts',
-#     45: 'Romans',    46: '1 Corinthians',    47: '2 Corinthians',    48: 'Galatians',    49: 'Ephesians',    50: 'Philippians',    51: 'Colossians',
-#     52: '1 Thessalonians',    53: '2 Thessalonians',    54: '1 Timothy',    55: '2 Timothy',    56: 'Titus',    57: 'Philemon',
-#     58: 'Hebrews',
-#     59: 'James',    60: '1 Peter',    61: '2 Peter',    62: '1 John',    63: '2 John',    64: '3 John',    65: 'Jude',
-#     66: 'Revelation',
-# }
-# assert len(BOOK_NAME_MAP) == 66
 Bbb_BOOK_ID_MAP = {
             1: 'Gen', 2: 'Exo', 3: 'Lev', 4: 'Num', 5: 'Deu',
             6: 'Jos', 7: 'Jdg', 8: 'Rut', 9: '1Sa', 10: '2Sa',
@@ -97,7 +93,6 @@ BOS_BOOK_ID_MAP = {
             45: 'ROM', 46: 'CO1', 47: 'CO2', 48: 'GAL', 49: 'EPH', 50: 'PHP', 51: 'COL', 52: 'TH1', 53: 'TH2', 54: '1TI', 55: '2TI', 56: 'TIT', 57: 'PHM',
             58: 'HEB', 59: 'JAS', 60: 'PE1', 61: 'PE2', 62: 'JN1', 63: 'JN2', 64: 'JN3', 65: 'JDE', 66: 'REV'}
 assert len(BOS_BOOK_ID_MAP) == 66
-# NEWLINE = '\n'
 
 
 
@@ -1355,6 +1350,8 @@ def rebuild_dictionaries() -> bool:
 
     Change the actual keys to match those internal IDs.
 
+    Also, add in our headers with conversion info.
+
     Note that after this, we would could theoretically delete the
         now-duplicated 'FGid' fields but we'll leave them in for
         maximum future flexibility (at the cost of a little extra hard disk).
@@ -1363,9 +1360,9 @@ def rebuild_dictionaries() -> bool:
     vPrint('Normal', debuggingThisModule, f"  Rebuilding dictionaries…")
 
     # These rebuilds retain the original entry orders
-    people = { v['FGid']:v for v in people.values() }
-    places = { v['FGid']:v for v in places.values() }
-    others = { v['FGid']:v for v in others.values() }
+    people = { v['FGid']:v for k,v in people.items() if k!='__HEADERS__' }
+    places = { v['FGid']:v for k,v in places.items() if k!='__HEADERS__' }
+    others = { v['FGid']:v for k,v in others.items() if k!='__HEADERS__' }
 
     if PREFIX_OUR_IDS_FLAG: # We can safely combine the three dictionaries into one
         allEntries = people | places | others
@@ -1402,7 +1399,7 @@ def export_JSON(subType:str) -> bool:
             vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(the_dict):,} {name} to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 # WARNING: The following code would convert any int keys to str !!!
-                json.dump( the_dict, outputFile, ensure_ascii=False, indent=2 )
+                json.dump( HEADER_DICT | the_dict, outputFile, ensure_ascii=False, indent=2 )
 
     return True
 # end of loadTIPNR.export_JSON()
@@ -1429,7 +1426,10 @@ def export_verse_index() -> bool:
     for dict_name,the_dict in (('people',people),('places',places),('others',others),('all',allEntries)):
         ref_index_dict = defaultdict(list)
         TIPNR_index_dict = {}
-        for value in the_dict.values():
+        for jj, value in enumerate(the_dict.values()):
+            if jj == 0 and len(value)==len(HEADER_DICT) and 'conversion_software' in value: # it's our __HEADERS__ entry
+                continue
+
             FGid = value['FGid']
             ref_list = value['combinedIndividualVerseReferences'] if 'combinedIndividualVerseReferences' in value \
                         else value['names'][0]['individualVerseReferences']
@@ -1450,12 +1450,12 @@ def export_verse_index() -> bool:
             filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_verseRef_index.json')
             vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(ref_index_dict):,} verse ref index entries to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
-                json.dump( ref_index_dict, outputFile, ensure_ascii=False, indent=2 )
+                json.dump( HEADER_DICT | ref_index_dict, outputFile, ensure_ascii=False, indent=2 )
         if TIPNR_index_dict:
             filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_TIPNR_index.json')
             vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(TIPNR_index_dict):,} TIPNR index entries to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
-                json.dump( TIPNR_index_dict, outputFile, ensure_ascii=False, indent=2 )
+                json.dump( HEADER_DICT | TIPNR_index_dict, outputFile, ensure_ascii=False, indent=2 )
 
     return True
 # end of loadTIPNR.export_verse_index()
