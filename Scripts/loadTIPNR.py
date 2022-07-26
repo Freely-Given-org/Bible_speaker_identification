@@ -28,9 +28,8 @@ Module to load and process exported Tyndale House (Cambridge)
     and then to export various parts of the dataset in various formats,
     especially JSON and XML.
 """
-from collections import defaultdict
 from gettext import gettext as _
-from re import S
+from collections import defaultdict
 from typing import Dict, List, Tuple
 from pathlib import Path
 from datetime import date
@@ -122,7 +121,6 @@ def load_TIPNR_data() -> bool:
     fnPrint(debuggingThisModule, "load_TIPNR_data()")
     vPrint('Quiet', debuggingThisModule, f"\nFinding TIPNR TSV file starting at {TIPNR_INPUT_FILEPATH}…")
 
-    # Main code for load_TIPNR_data()
     try_filepath = TIPNR_INPUT_FILEPATH
     while not os.access(try_filepath, os.R_OK):
         if try_filepath == TIPNR_INPUT_FILEPATH: try_filepath = TIPNR_INPUT_FILENAME
