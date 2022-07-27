@@ -13,9 +13,9 @@ original formats.
 At this stage, we are aware of three datasets which are available
 to be used in this way:
 
-- TIPNR from Tyndale House, Cambrdige
-- people and peopleGroups tables from Viz.Bible
-- data files from SIL Glyssen
+- TIPNR spreadsheet from Tyndale House, Cambrdige
+- exported tables from Theographic Bible Data from Viz.Bible
+- various TSV and XML data files from SIL Glyssen
 
 See the subfolders for more details of each.
 

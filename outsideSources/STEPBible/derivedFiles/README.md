@@ -1,6 +1,6 @@
 # STEPBible TIPNR derived files
 
-None of the files in this folder have been hand-created.
+None of the other files in this folder have been hand-created.
 They are all produced from the original table/spreadsheet
 by a script for convenience of those wanting to use the data.
 
@@ -12,14 +12,22 @@ feel free to contact us and we might be able to help.
 
 ## Notes
 
-When multiple people or places have the same name, e.g., Joshua,
-we label them Joshua1, Joshua2, etc.
+When multiple people or places have the same name, e.g., _Joshua_,
+we label them _Joshua1_, _Joshua2_, etc.
 However, if one of the characters is mentioned more often than the others,
-we remove that suffix for convenience, so we could end up with Joshua1, Joshua, Joshua3, etc.
+we remove that suffix for convenience, so we could end up with _Joshua1_, _Joshua_, _Joshua3_, etc.
 Although that has its own inconsistencies, in general
 we expect this to be shorter and more helpful to humans than the TIPNR
 format using "Name@firstReference".
 
 We also prefix names with 'P' for person, 'Q' for persons/group,
 'L' for locations, and 'D' for deities/gods. So the above examples
-would end up as PJoshua1, PJoshua, PJoshua3, etc.
+would end up as _PJoshua1_, _PJoshua_, _PJoshua3_, etc.
+
+Currently all the "Others" are marked with 'D'
+even though they're not all deities/gods.
+Improving this is work for further investigation.
+
+There may also be the mid_People.json, mid_Places.json, and mid_Others.json
+files produced by the converter script but not checked into GitHub
+as they're not of particular use except for debugging.

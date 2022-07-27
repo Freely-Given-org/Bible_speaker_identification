@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!--The entries in this file are somewhat similar to the entries in CharacterVerse.txt marked as "Implicit". The distinction is that
+implicit speech is normally found in the context of a historical narrative, introduced explicitly by the narrator and could/should
+be in quotes, but might not be for practical/stylistic reasons. Whereas, narrator overrides are books or passages where the author
+is using first-person speech to give a historical account, relate a poem, give advice, etc. The text may contain self-quotes, but
+these are always introduced using first-person pronouns, so changing the voice for the quoted speech would sound weird. With the
+possible exception of an introductory sentence (in the prophetic books) or a "Hebrew subtitle" (in the Psalms), the author does not
+identify himself as speaking.
+If in doubt as to whether to use Implicit or a narrator override, ask yourself: "If this book was going to be recorded using multiple
+voices, could it possibly make sense to have the narrator (or prophetic author) read this?" If the answer is "no", then use Implicit.
+
+If no start verse is specified, verse 1 is assumed.
+If no end verse is specified, the last verse in the end chapter is assumed.
+If no end chapter is specified, it is assumed to be the same as the start chapter
+
+The following explanation applies primarily to SNG and many of the prophetic books:
+Wherever FCBH's director's guide has assigned a passage that does not have an expected quote to
+a particular speaker, but there are obvious differences of opinion about how these verses should
+be assigned (e.g., different English translations suggest different interpretations), we will
+normally make the reference text follow FCBH's expectations, but in the character-verse control
+file, we will add a line to implicitly mark it as Needs Review (in the absence of a marked quotation)
+so that the scripter would see the mismatch ("Needs Review" ≠ character in the reference text) and
+have the option of either changing it to match the reference text, changing it to one of the other
+potential characters, or confirming it as "Needs Review" so it can be disambiguated later by a
+vernacular speaker. This is important because the wording in the vernacular text may well imply a
+different speaker from the one FCBH identified.
+-->
+<NarratorOverrides>
+    <!-- LEV and NUM are best handled by use of Implicit because this text really is identified by
+    the narrator as direct speech by God. So even in the absence of explicit quotation marks, we
+    can unambiguously identify God as the character in the absence of any quotation marks.
+    -->
+    <Book id="EZR">
+      <Override startChapter="7" startVerse="27" endChapter="9" character="Ezra, priest and teacher"/>
+    </Book>
+    <Book id="NEH">
+        <!-- It is somewhat arbitrary whether to have chapter 3 spoken by Nehemiah or a separate narrator. -->
+        <Override startChapter="1" startVerse="1" startBlock="2" endChapter="3" character="Nehemiah"/>
+        <Override startChapter="4" endVerse="3" character="Nehemiah"/>
+        <!-- Verses 4-5 are also Nehemiah, but we mark them as implicit to ensure the delivery is prayer. -->
+        <Override startChapter="4" startVerse="6" endChapter="7" endVerse="5" character="Nehemiah"/>
+        <Override startChapter="10" startVerse="28" endChapter="12" endVerse="25" character="Nehemiah"/>
+        <!-- It is somewhat arbitrary whether to have 12:27-30 and 12:43-46 spoken by Nehemiah or a separate narrator. -->
+        <Override startChapter="12" startVerse="27" endVerse="46" character="Nehemiah"/>
+        <!-- It is somewhat arbitrary whether to have 13:1-5 spoken by Nehemiah or a separate narrator. -->
+        <Override startChapter="13" startVerse="1" character="Nehemiah"/>
+	</Book>
+    <Book id="PSA">
+        <!--Verse 0 (The Hebrew subtitle) is assumed to be spoken by the narrator.-->
+        <Override startChapter="1" character="psalmist"/>
+        <Override startChapter="2" endChapter="32" character="David"/>
+        <Override startChapter="33" character="psalmist"/>
+        <Override startChapter="34" endChapter="41" character="David"/>
+        <Override startChapter="42" character="sons of Korah"/>
+        <Override startChapter="43" character="psalmist"/>
+        <Override startChapter="44" endChapter="49" character="sons of Korah"/>
+        <Override startChapter="50" character="Asaph"/>
+        <Override startChapter="51" endChapter="65" character="David"/>
+        <Override startChapter="66" endChapter="67" character="psalmist"/>
+        <Override startChapter="68" endChapter="70" character="David"/>
+        <Override startChapter="71" character="psalmist"/>
+        <Override startChapter="72" character="Solomon, king"/>
+        <Override startChapter="73" endChapter="81" endVerse="5" character="Asaph"/>
+        <Override startChapter="81" startVerse="6" endVerse="7" endBlock="3" character="God"/>
+        <Override startChapter="81" startVerse="7" startBlock="4" endVerse="7" endBlock="4" character="Asaph"/> <!--Selah-->
+        <Override startChapter="81" startVerse="8" character="God"/>
+        <Override startChapter="82" startVerse="1" endVerse="1" character="Asaph"/>
+        <Override startChapter="82" startVerse="2" endVerse="2" endBlock="2" character="God"/>
+        <Override startChapter="82" startVerse="2" startBlock="3" endVerse="2" endBlock="3" character="Asaph"/> <!--Selah-->
+        <Override startChapter="82" startVerse="3" endVerse="7" character="God"/>
+        <Override startChapter="82" startVerse="8" endChapter="83" character="Asaph"/>
+        <Override startChapter="84" endChapter="85" character="sons of Korah"/>
+        <Override startChapter="86" character="David"/>
+        <Override startChapter="87" endChapter="88" character="sons of Korah"/>
+        <Override startChapter="89" character="Ethan"/>
+        <Override startChapter="90" character="Moses"/>
+        <Override startChapter="91" startVerse="1" endVerse="13" character="psalmist"/>
+        <Override startChapter="91" startVerse="14" endVerse="16" character="God"/>
+        <Override startChapter="92" endChapter="94" character="psalmist"/>
+        <!-- Psalm 95 identifies no author, but Hebrews 4:7 attributes it to David. The Vulgate also names David as the author. -->
+        <Override startChapter="95" startVerse="1" endVerse="7" character="David"/>
+        <Override startChapter="95" startVerse="8" character="God"/>
+        <Override startChapter="96" endChapter="100" character="psalmist"/>
+        <Override startChapter="101" character="David"/>
+        <Override startChapter="102" character="psalmist"/>
+        <Override startChapter="103" character="David"/>
+        <Override startChapter="104" endChapter="107" character="psalmist"/>
+        <Override startChapter="108" endChapter="110" character="David"/>
+        <Override startChapter="111" endChapter="118" character="psalmist"/>
+        <Override startChapter="119" startVerse="1" endVerse="8" character="psalmist (Aleph)"/>
+        <Override startChapter="119" startVerse="9" endVerse="16" character="psalmist (Beth)"/>
+        <Override startChapter="119" startVerse="17" endVerse="24" character="psalmist (Gimel)"/>
+        <Override startChapter="119" startVerse="25" endVerse="32" character="psalmist (Daleth)"/>
+        <Override startChapter="119" startVerse="33" endVerse="40" character="psalmist (He)"/>
+        <Override startChapter="119" startVerse="41" endVerse="48" character="psalmist (Waw)"/>
+        <Override startChapter="119" startVerse="49" endVerse="56" character="psalmist (Zayin)"/>
+        <Override startChapter="119" startVerse="57" endVerse="64" character="psalmist (Chet)"/>
+        <Override startChapter="119" startVerse="65" endVerse="72" character="psalmist (Tet)"/>
+        <Override startChapter="119" startVerse="73" endVerse="80" character="psalmist (Yod)"/>
+        <Override startChapter="119" startVerse="81" endVerse="88" character="psalmist (Kaf)"/>
+        <Override startChapter="119" startVerse="89" endVerse="96" character="psalmist (Lamed)"/>
+        <Override startChapter="119" startVerse="97" endVerse="104" character="psalmist (Mem)"/>
+        <Override startChapter="119" startVerse="105" endVerse="112" character="psalmist (Nun)"/>
+        <Override startChapter="119" startVerse="113" endVerse="120" character="psalmist (Samekh)"/>
+        <Override startChapter="119" startVerse="121" endVerse="128" character="psalmist (Ayin)"/>
+        <Override startChapter="119" startVerse="129" endVerse="136" character="psalmist (Pe)"/>
+        <Override startChapter="119" startVerse="137" endVerse="144" character="psalmist (Tsadi)"/>
+        <Override startChapter="119" startVerse="145" endVerse="152" character="psalmist (Qof)"/>
+        <Override startChapter="119" startVerse="153" endVerse="160" character="psalmist (Resh)"/>
+        <Override startChapter="119" startVerse="161" endVerse="168" character="psalmist (Sin and Shin)"/>
+        <Override startChapter="119" startVerse="169" endVerse="176" character="psalmist (Tav)"/>
+        <Override startChapter="120" endChapter="121" character="psalmist"/>
+        <Override startChapter="122" character="David"/>
+        <Override startChapter="123" character="psalmist"/>
+        <Override startChapter="124" character="David"/>
+        <Override startChapter="125" endChapter="126" character="psalmist"/>
+        <Override startChapter="127" character="Solomon, king"/>
+        <Override startChapter="128" endChapter="130" character="psalmist"/>
+        <Override startChapter="131" character="David"/>
+        <Override startChapter="132" character="psalmist"/>
+        <Override startChapter="133" character="David"/>
+        <Override startChapter="134" endChapter="137" character="psalmist"/>
+        <Override startChapter="138" endChapter="145" character="David"/>
+        <Override startChapter="146" endChapter="150" character="psalmist"/>
+    </Book>
+    <Book id="PRO">
+        <Override startChapter="1" startVerse="2" endChapter="29" character="Solomon, king"/>
+        <Override startChapter="30" startVerse="2" character="Agur"/>
+        <Override startChapter="31" startVerse="2" endVerse="9" character="King Lemuel's mother"/>
+        <!-- Chapter 31 could have King Lemuel as the narrator override, but just using the
+        normal narrator is probably just as good. Some translations, including the WEB, stop the
+        quoted text at the end of v. 9. If a scripter wants to have the rest of the chapter be
+        spoken by her, they'll have to do it manually. -->
+    </Book>
+    <Book id="ECC">
+      <Override startChapter="1" startVerse="3" endChapter="12" endVerse="8" character="Solomon, king"/>
+      <Override startChapter="12" startVerse="12" character="Solomon, king"/>
+    </Book>
+    <Book id="SNG">
+      <Override startChapter="1" startVerse="2" endVerse="4" endBlock="2" character="beloved"/>
+      <Override startChapter="1" startVerse="4" startBlock="3" endVerse="4" endBlock="3" character="maidens"/>
+      <Override startChapter="1" startVerse="4" startBlock="4" endVerse="7" character="beloved"/>
+      <!-- FCBH assigns v. 8 to lover (Solomon), but it could be maidens (chorus) -->
+      <Override startChapter="1" startVerse="9" endVerse="10" character="Solomon, king"/>
+      <!-- FCBH assigns v. 11 to beloved, but it could be lover (Solomon) -->
+      <Override startChapter="1" startVerse="12" endVerse="14" character="beloved"/>
+      <Override startChapter="1" startVerse="15" endVerse="15" character="Solomon, king"/>
+      <Override startChapter="1" startVerse="16" endVerse="16" character="beloved"/>
+      <!-- FCBH assigns v. 17 to beloved, but it could be lover (Solomon) -->
+      <Override startChapter="2" startVerse="1" endVerse="1" character="beloved"/>
+      <Override startChapter="2" startVerse="2" endVerse="2" character="Solomon, king"/>
+      <Override startChapter="2" startVerse="3" endVerse="10" endBlock="1" character="beloved"/>
+      <Override startChapter="2" startVerse="10" startBlock="2" endVerse="15" character="Solomon, king"/>
+      <Override startChapter="2" startVerse="16" endChapter="3" endVerse="4" character="beloved"/>
+      <Override startChapter="3" startVerse="11" character="beloved"/>
+      <Override startChapter="4" startVerse="1" endVerse="15" character="Solomon, king"/>
+      <!-- FCBH assigns all of v. 16 to beloved, but the first two lines could be lover (Solomon) -->
+      <Override startChapter="4" startVerse="16" startBlock="4" endVerse="16" endBlock="5" character="beloved"/>
+      <!-- 5:1 starts with lover (Solomon), but the last stanza is maidens (chorus).
+      Figuring out how to count the number of blocks is difficult, as different lines of
+      poetry could get joined if there is no sentence-ending punctuation.
+      <Override startChapter="5" startVerse="1" endVerse="1" endBlock="4" character="Solomon, king"/>-->
+      <Override startChapter="5" startVerse="2" endVerse="8" character="beloved"/>
+      <Override startChapter="5" startVerse="9" endVerse="9" character="maidens"/>
+      <Override startChapter="5" startVerse="10" character="beloved"/>
+      <Override startChapter="6" startVerse="1" endVerse="1" character="maidens"/>
+      <Override startChapter="6" startVerse="2" endVerse="3" character="beloved"/>
+      <Override startChapter="6" startVerse="4" endVerse="9" character="Solomon, king"/>
+      <!-- CEB assigns all of v. 13 to lover (Solomon), but most translations (and FCBH) agree that the first
+      two lines should be spoken by the chorus of maidens.
+      Figuring out how to count the number of blocks is difficult, as different lines of
+      poetry could get joined if there is no sentence-ending punctuation.-->
+      <Override startChapter="6" startVerse="13" endVerse="13" endBlock="2" character="maidens"/>
+      <Override startChapter="6" startVerse="13" startBlock="3" endChapter="7" endVerse="9" endBlock="1" character="Solomon, king"/>
+      <!-- The second half of v. 9 needs review as it could be either the lover (Solomon) or the beloved -->
+      <Override startChapter="7" startVerse="10" endChapter="8" endVerse="4" character="beloved"/>
+      <Override startChapter="8" startVerse="5" endChapter="8" endVerse="5" endBlock="1" character="maidens"/>
+      <Override startChapter="8" startVerse="5" startBlock="2" endVerse="7" character="beloved"/>
+      <Override startChapter="8" startVerse="10" endVerse="12" character="beloved"/>
+      <Override startChapter="8" startVerse="13" endVerse="13" character="Solomon, king"/>
+      <Override startChapter="8" startVerse="14" endVerse="14" character="beloved"/>
+    </Book>
+    <Book id="ISA">
+      <!-- FCBH has the places in vv. 11 and 18 where the text says "says God", assigned 
+      to God instead of Isaiah, but for consistency, we'll have them default to Isaiah if
+      they are not in quotes. -->
+      <Override startChapter="1" startVerse="2" character="Isaiah"/>
+      <Override startChapter="2" startVerse="2" endChapter="6" character="Isaiah"/>
+      <Override startChapter="8" endChapter="10" endVerse="4" character="Isaiah"/>
+      <Override startChapter="10" startVerse="15" endChapter="12" endVerse="6" character="Isaiah"/>
+      <Override startChapter="13" startVerse="2" endChapter="14" character="Isaiah"/>
+      <Override startChapter="15" startBlock="2" endChapter="16" character="Isaiah"/>
+      <Override startChapter="17" startBlock="2" endChapter="18" character="Isaiah"/>
+      <Override startChapter="19" startBlock="2" character="Isaiah"/>
+      <Override startChapter="21" startBlock="2" endVerse="10" character="Isaiah"/>
+      <Override startChapter="21" startVerse="11" startBlock="2" endVerse="12" character="Isaiah"/>
+      <Override startChapter="21" startVerse="13" startBlock="2" character="Isaiah"/>
+      <Override startChapter="22" startBlock="2" character="Isaiah"/>
+      <Override startChapter="23" startBlock="2" endChapter="28" character="Isaiah"/>
+      <Override startChapter="29" endChapter="30" endVerse="5" character="Isaiah"/>
+      <Override startChapter="30" startVerse="6" startBlock="2"  endChapter="35" character="Isaiah"/>
+      <Override startChapter="40" character="Isaiah"/>
+      <Override startChapter="41" startVerse="5" endVerse="7" character="Isaiah"/>
+      <Override startChapter="41" startVerse="14" endVerse="14" character="Isaiah"/>
+      <Override startChapter="41" startVerse="21" endVerse="21" character="Isaiah"/>
+      <Override startChapter="42" startVerse="5" endVerse="5" character="Isaiah"/>
+      <Override startChapter="42" startVerse="10" endChapter="43" endVerse="1" endBlock="1" character="Isaiah"/>
+      <Override startChapter="43" startVerse="8" endVerse="17" character="Isaiah"/>
+      <Override startChapter="44" startVerse="2" endChapter="66" character="Isaiah"/>
+    </Book>
+    <Book id="JER">
+      <Override startChapter="1" startVerse="4" endChapter="6" character="Jeremiah"/>
+      <Override startChapter="7" startVerse="2" endVerse="28" character="Jeremiah"/>
+      <Override startChapter="7" startVerse="30" endChapter="8" endVerse="20" character="Jeremiah"/>
+      <Override startChapter="9" startVerse="3" endChapter="10" endVerse="10" character="Jeremiah"/>
+      <Override startChapter="10" startVerse="18" startBlock="1" endVerse="18" endBlock="1" character="Jeremiah"/>
+      <Override startChapter="11" startVerse="2" endChapter="13" character="Jeremiah"/>
+      <Override startChapter="14" startVerse="2" endVerse="6" character="Jeremiah"/>
+      <Override startChapter="14" startVerse="10" endVerse="18" character="Jeremiah"/>
+      <Override startChapter="15" endChapter="17" character="Jeremiah"/>
+      <Override startChapter="18" startVerse="2" endChapter="19" endVerse="13" character="Jeremiah"/>
+      <Override startChapter="20" startVerse="7" endChapter="20" character="Jeremiah"/>
+      <Override startChapter="21" startVerse="7" endChapter="24" character="Jeremiah"/>
+      <Override startChapter="25" startVerse="3" endChapter="25" character="Jeremiah"/>
+      <Override startChapter="26" startVerse="2" endChapter="26" endVerse="4" character="Jeremiah"/>
+      <Override startChapter="27" startVerse="2" endChapter="28" endVerse="4" character="Jeremiah"/>
+      <Override startChapter="29" startVerse="4" endChapter="29" endVerse="28" character="Jeremiah"/>
+      <Override startChapter="29" startVerse="31" endChapter="29" character="Jeremiah"/>
+      <Override startChapter="30" startVerse="2" endChapter="31" character="Jeremiah"/>
+      <Override startChapter="32" startVerse="8" endChapter="32" endVerse="25" character="Jeremiah"/>
+      <Override startChapter="32" startVerse="28" endChapter="32" character="Jeremiah"/>
+      <Override startChapter="33" startVerse="2" endChapter="33" endVerse="17" character="Jeremiah"/>
+      <Override startChapter="33" startVerse="24" endChapter="33" character="Jeremiah"/>
+      <Override startChapter="34" startVerse="2" endChapter="34" endVerse="5" character="Jeremiah"/>
+      <Override startChapter="34" startVerse="13" endChapter="34" character="Jeremiah"/>
+      <Override startChapter="35" startVerse="2" endChapter="35" endVerse="6" character="Jeremiah"/>
+      <Override startChapter="35" startVerse="13" endChapter="35" endVerse="17" character="Jeremiah"/>
+      <Override startChapter="37" startVerse="7" endChapter="37" endVerse="10" character="Jeremiah"/>
+      <Override startChapter="38" startVerse="2" endChapter="38" endVerse="3" character="Jeremiah"/>
+      <Override startChapter="39" startVerse="16" endChapter="39" character="Jeremiah"/>
+      <Override startChapter="42" startVerse="11" endChapter="42" character="Jeremiah"/>
+      <Override startChapter="44" startVerse="2" endChapter="44" endVerse="14" character="Jeremiah"/>
+      <Override startChapter="44" startVerse="24" endChapter="44" character="Jeremiah"/>
+      <Override startChapter="45" startVerse="2" endChapter="45" character="Jeremiah"/>
+      <Override startChapter="46" startVerse="2" endChapter="46" endVerse="12" character="Jeremiah"/>
+      <Override startChapter="46" startVerse="14" endChapter="46" character="Jeremiah"/>
+      <Override startChapter="47" startVerse="2" endChapter="49" character="Jeremiah"/>
+      <Override startChapter="50" startVerse="2" endChapter="51" endVerse="58" character="Jeremiah"/>
+    </Book>
+    <Book id="LAM">
+      <Override startChapter="1" endChapter="5" character="Jeremiah"/>
+    </Book>
+    <Book id="EZK">
+      <Override startChapter="1" startVerse="1" endVerse="1" character="Ezekiel"/>
+      <!-- 19:1 is implicitly attributed to God, regardless of whether there is an opening quote.
+      From verse 2b-14b, it could be either God or Ezekiel speaking the words of the lament. FCBH has
+      God speaak it and also includes the "This is a lament" line at the end of 19:14. However, some
+      translations clearly treat it more as a parenthetical aside or scribal note, in which case
+      it should more properly be spoken by the narrator. -->
+      <Override startChapter="1" startVerse="4" endChapter="18" character="Ezekiel"/>
+      <Override startChapter="20" startVerse="1" endChapter="48" character="Ezekiel"/>
+    </Book>
+    <Book id="DAN">
+      <Override startChapter="7" startVerse="2" startBlock="2" endChapter="9" character="Daniel"/>
+      <Override startChapter="10" startVerse="2" endChapter="12" character="Daniel"/>
+    </Book>
+    <Book id="HOS">
+      <Override startChapter="2" startVerse="13" startBlock="2" endChapter="14" character="Hosea"/>
+    </Book>
+    <Book id="JOL">
+      <Override startChapter="1" startVerse="2" endChapter="3" character="Joel"/>
+    </Book>
+    <Book id="AMO">
+      <Override startChapter="1" startVerse="2" startBlock="2" endChapter="7" endVerse="9" character="Amos"/>
+      <Override startChapter="8" endChapter="9" character="Amos"/>
+    </Book>
+    <Book id="OBA">
+      <Override startChapter="1" startVerse="1" startBlock="2" endChapter="1" character="Obadiah, prophet"/>
+    </Book>
+    <Book id="MIC">
+      <Override startChapter="1" startVerse="2" endChapter="7" character="Micah, prophet"/>
+    </Book>
+    <Book id="NAM">
+      <Override startChapter="1" startVerse="2" endChapter="3" character="Nahum"/>
+    </Book>
+    <Book id="HAB">
+      <Override startChapter="1" startVerse="2" endChapter="2" character="Habakkuk"/>
+      <Override startChapter="3" startVerse="2" character="Habakkuk"/>
+    </Book>
+    <Book id="ZEP">
+      <Override startChapter="1" startVerse="2" endChapter="3" character="Zephaniah, prophet"/>
+    </Book>
+    <Book id="HAG">
+      <Override startChapter="1" startVerse="2" endVerse="2" character="Haggai"/>
+      <Override startChapter="1" startVerse="5" endVerse="11" character="Haggai"/>
+      <Override startChapter="1" startVerse="13" startBlock="3" endVerse="13" endBlock="3" character="Haggai"/>
+      <Override startChapter="2" startVerse="4" endVerse="9" character="Haggai"/>
+      <Override startChapter="2" startVerse="11" endVerse="12" endBlock="1" character="Haggai"/>
+      <Override startChapter="2" startVerse="14" startBlock="3" endVerse="19" character="Haggai"/>
+      <Override startChapter="2" startVerse="21" endChapter="2" character="Haggai"/>
+    </Book>
+    <Book id="ZEC">
+      <Override startChapter="1" startVerse="2" endVerse="6" character="Zechariah the prophet, son of Berechiah"/>
+      <Override startChapter="1" startVerse="8" endChapter="6" character="Zechariah the prophet, son of Berechiah"/>
+      <Override startChapter="7" startVerse="4" endVerse="7" character="Zechariah the prophet, son of Berechiah"/>
+      <Override startChapter="7" startVerse="9" endChapter="11" character="Zechariah the prophet, son of Berechiah"/>
+        <!-- It is somewhat arbitrary whether to have 12:1 spoken by Zechariah or a separate narrator. -->
+      <Override startChapter="12" startVerse="1" endChapter="14" character="Zechariah the prophet, son of Berechiah"/>
+    </Book>
+    <Book id="MAL">
+      <Override startChapter="1" startVerse="2" endChapter="4" character="Malachi"/>
+    </Book>
+</NarratorOverrides>

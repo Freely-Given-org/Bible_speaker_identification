@@ -44,15 +44,16 @@ from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 LAST_MODIFIED_DATE = '2022-07-27' # by RJH
 SHORT_PROGRAM_NAME = "loadTIPNR"
 PROGRAM_NAME = "Load Translators Individualised Proper Names file"
-PROGRAM_VERSION = '0.50'
+PROGRAM_VERSION = '0.51'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
 
-
 SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING = '2022-07-20'
 
 PREFIX_OUR_IDS_FLAG = True
+
+
 
 # Create a header to go in the data files
 HEADER_DICT = { '__HEADERS__':
@@ -104,13 +105,13 @@ def main() -> None:
 
     if load_TIPNR_data():
         if clean_data():
-            rebuild_dictionaries('unifiedNameTIPNR')
+            rebuild_dictionaries(key_name='unifiedNameTIPNR')
             export_JSON('raw')
             export_xml('raw')
             rebuild_dictionaries('FGid')
-            export_JSON('mid')
+            if debuggingThisModule: export_JSON('mid')
             if normalise_data() and check_data():
-                rebuild_dictionaries('FGid')
+                rebuild_dictionaries(key_name='FGid')
                 export_JSON('normalised')
                 export_xml('normalised')
                 export_verse_index()
@@ -1256,14 +1257,14 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                 else:
                     dPrint('Verbose', debuggingThisModule, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     new_base_id = f'{base_id}1'
-                    dPrint('Normal', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[base_id]['FGid'] == base_id
                     dataDict[base_id]['FGid'] = new_base_id
                     # We only save the prefixed ID internally -- will fix the keys later
 
                     suffix = list(references_counts.values()).index(max_count) + 1
                     max_id = f'{base_id}{suffix}'
-                    dPrint('Normal', debuggingThisModule, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', debuggingThisModule, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[max_id]['FGid'] == max_id
                     dataDict[max_id]['FGid'] = base_id
                     # We only save the prefixed ID internally -- will fix the keys later
@@ -1273,7 +1274,7 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                 else:
                     dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 new_base_id = f'{base_id}1'
-                dPrint('Normal', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 assert dataDict[base_id]['FGid'] == base_id
                 dataDict[base_id]['FGid'] = new_base_id
                 # We only save the prefixed ID internally -- will fix the keys later

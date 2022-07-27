@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<StyleToCharacterMappings>
+    <StyleMapping sf="wj" character="Jesus"/>
+    <StyleMapping sf="qt" character="scripture"/>
+    <StyleMapping sf="d" paragraph="true" character="Narrator"/>
+    <StyleMapping sf="qa" paragraph="true" character="BookOrChapter"/>
+</StyleToCharacterMappings>
