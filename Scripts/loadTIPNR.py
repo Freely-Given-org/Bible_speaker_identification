@@ -41,10 +41,10 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-07-25' # by RJH
+LAST_MODIFIED_DATE = '2022-07-27' # by RJH
 SHORT_PROGRAM_NAME = "loadTIPNR"
 PROGRAM_NAME = "Load Translators Individualised Proper Names file"
-PROGRAM_VERSION = '0.04'
+PROGRAM_VERSION = '0.50'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
@@ -57,9 +57,11 @@ PREFIX_OUR_IDS_FLAG = True
 # Create a header to go in the data files
 HEADER_DICT = { '__HEADERS__':
     {
-    'source_data_last_downloaded_date': SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING,
     'conversion_software': programNameVersion,
+    'conversion_software_last_modified_date': LAST_MODIFIED_DATE,
+    'source_data_last_downloaded_date': SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING,
     'conversion_date': str(date.today()),
+    'conversion_format_version': '0.5'
     }
 }
 
@@ -102,17 +104,23 @@ def main() -> None:
 
     if load_TIPNR_data():
         if clean_data():
+            rebuild_dictionaries('unifiedNameTIPNR')
             export_JSON('raw')
             export_xml('raw')
+            rebuild_dictionaries('FGid')
+            export_JSON('mid')
             if normalise_data() and check_data():
+                rebuild_dictionaries('FGid')
                 export_JSON('normalised')
                 export_xml('normalised')
                 export_verse_index()
 # end of loadTIPNR.main
 
 
+prefixed_our_IDs = False
 xml_lines = []
 people, places, others, allEntries = {}, {}, {}, {}
+
 
 def load_TIPNR_data() -> bool:
     """
@@ -290,11 +298,13 @@ def process_and_add_person( raw_data: dict) -> bool:
     # UniqueName can be something like 'wielded|Adino@2Sa.23.8'
     unifiedName, uStrongs = raw_data['UnifiedName'].split('=')
     del raw_data['UnifiedName']
-    FGid = name = unifiedName.split('@')[0]
-    if FGid in people:
-        for suffix in range(2,30): # see Azariah (19) and Maaseiah (20) and Shemaiah (26) and Zechariah (29)
-            if f'{FGid}{suffix}' not in people:
-                FGid = f'{FGid}{suffix}'
+    name = unifiedName.split('@')[0]
+    if name not in people:
+        FGid = name
+    else:
+        for suffix in range(2,30): # see Azariah (19x) and Maaseiah (20x) and Shemaiah (26x) and Zechariah (29x)
+            if f'{name}{suffix}' not in people:
+                FGid = f'{name}{suffix}'
                 break
         else: unable_to_create_unique_person_id
     new_person['FGid'] = FGid
@@ -481,8 +491,12 @@ def process_and_add_person( raw_data: dict) -> bool:
         del raw_data['Notes']
 
     assert not raw_data, f"Why do we have person left-over {raw_data=}?"
+
     assert FGid not in people
-    people[FGid] = new_person
+    if FGid == 'Ben-Geber2':
+        logging.critical("Have duplicate person 'Ben-Geber@1Ki.4.13' (Ben-Geber2)")
+    else:
+        people[FGid] = new_person # We use FGid as the key to create the original dicts
     # dPrint('Quiet', debuggingThisModule, f"\n{len(people)} {new_person=}")
     return True
 
@@ -496,11 +510,13 @@ def process_and_add_place( raw_data: dict) -> bool:
     # UniqueName can be something like 'wielded|Adino@2Sa.23.8'
     unifiedName, uStrongs = raw_data['UnifiedName'].split('=')
     del raw_data['UnifiedName']
-    FGid = name = unifiedName.split('@')[0]
-    if FGid in places:
-        for suffix in range(2,9): # see 
-            if f'{FGid}{suffix}' not in places:
-                FGid = f'{FGid}{suffix}'
+    name = unifiedName.split('@')[0]
+    if name not in places:
+        FGid = name
+    else:
+        for suffix in range(2,9):
+            if f'{name}{suffix}' not in places:
+                FGid = f'{name}{suffix}'
                 break
         else: unable_to_create_unique_place_id
     new_place['FGid'] = FGid
@@ -724,8 +740,9 @@ def process_and_add_place( raw_data: dict) -> bool:
         del raw_data['Notes']
         
     assert not raw_data, f"Why do we have place left-over {raw_data=}?"
+
     assert FGid not in places
-    places[FGid] = new_place
+    places[FGid] = new_place # We use FGid as the key to create the original dicts
     # dPrint('Quiet', debuggingThisModule, f"\n{len(places)} {new_place=}")
     return True
 
@@ -741,11 +758,13 @@ def process_and_add_other( raw_data: dict) -> bool:
         unifiedName, uStrongs = raw_data['UnifiedName'].split('=')
     else: unifiedName = raw_data['UnifiedName'] # e.g., 'Herodian@Mat.22.16'
     del raw_data['UnifiedName']
-    FGid = name = unifiedName.split('@')[0]
-    if FGid in others:
+    name = unifiedName.split('@')[0]
+    if name not in others:
+        FGid = name
+    else:
         for suffix in range(2,9): # see 
-            if f'{FGid}{suffix}' not in others:
-                FGid = f'{FGid}{suffix}'
+            if f'{name}{suffix}' not in others:
+                FGid = f'{name}{suffix}'
                 break
         else: unable_to_create_unique_other_id
     new_other['FGid'] = FGid
@@ -886,8 +905,9 @@ def process_and_add_other( raw_data: dict) -> bool:
         del raw_data['Notes']
 
     assert not raw_data, f"Why do we have other left-over {raw_data=}?"
+
     assert FGid not in others
-    others[FGid] = new_other
+    others[FGid] = new_other # We use FGid as the key to create the original dicts
     # dPrint('Quiet', debuggingThisModule, f"\n{len(others)} {new_other=}")
     return True
 
@@ -920,8 +940,8 @@ def clean_data() -> bool:
     """
     vPrint('Quiet', debuggingThisModule, "\nCleaning TIPNR datasets…")
 
-    for name,the_dict in (('people',people),('places',places),('others',others)):
-        vPrint('Normal', debuggingThisModule, f"  Cleaning {name}…")
+    for dict_name,the_dict in (('people',people), ('places',places), ('others',others)):
+        vPrint('Normal', debuggingThisModule, f"  Cleaning {dict_name}…")
         for mainKey, mainData in the_dict.items():
             # dPrint('Quiet', debuggingThisModule, f"    {mainKey} ({len(mainData)}) {mainData}")
             assert mainKey and mainData and mainKey!='>'
@@ -1052,20 +1072,22 @@ def normalise_data() -> bool:
 
     Optionally: Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
     """
+    global prefixed_our_IDs
     vPrint('Quiet', debuggingThisModule, "\nNormalising TIPNR datasets…")
 
-    for name,the_dict in (('people',people),('places',places),('others',others)):
-        vPrint('Normal', debuggingThisModule, f"  Normalising {name}…")
-        normalise_significance(name, the_dict)
-        create_combined_name_verse_references(name, the_dict)
-        adjust_Bible_references(name, the_dict)
-        ensure_best_known_name(name, the_dict)
-        if PREFIX_OUR_IDS_FLAG: prefix_our_IDs(name, the_dict)
-        adjust_from_TIPR_to_our_IDs(name, the_dict)
+    for dict_name,the_dict in (('people',people), ('places',places), ('others',others)):
+        vPrint('Normal', debuggingThisModule, f"  Normalising {dict_name}…")
+        normalise_significance(dict_name, the_dict)
+        create_combined_name_verse_references(dict_name, the_dict)
+        adjust_Bible_references(dict_name, the_dict)
+        ensure_best_known_name(dict_name, the_dict)
+        if PREFIX_OUR_IDS_FLAG: prefix_our_IDs(dict_name, the_dict)
+        adjust_from_TIPR_to_our_IDs(dict_name, the_dict)
 
-    rebuild_dictionaries()
+    if PREFIX_OUR_IDS_FLAG: prefixed_our_IDs = True
     return True
 # end of loadTIPNR.normalise_data()
+
 
 def normalise_significance(dataName:str, dataDict:dict) -> bool:
     """
@@ -1127,6 +1149,7 @@ def normalise_significance(dataName:str, dataDict:dict) -> bool:
     return True
 # end of loadTIPNR.normalise_significance()
 
+
 def create_combined_name_verse_references(dataName:str, dataDict:dict) -> bool:
     """
     Create combined verse references where one person or place has multiple name fields, esp. OT and NT
@@ -1148,6 +1171,7 @@ def create_combined_name_verse_references(dataName:str, dataDict:dict) -> bool:
     return True
 # end of loadTIPNR.create_combined_name_verse_references()
 
+
 def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
     """
     Change Bible references like '1Co.1.14' to 'CO1_1:14'
@@ -1155,16 +1179,17 @@ def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
     There might be a's or b's at the end of the verse number.
     """
     vPrint('Normal', debuggingThisModule, f"    Adjusting all verse references for {dataName}…")
-    for value in dataDict.values():
-        for name_data in value['names']:
+    for dict_entry in dataDict.values():
+        for name_data in dict_entry['names']:
             for j,ref_string in enumerate(name_data['individualVerseReferences']):
                 name_data['individualVerseReferences'][j] = adjust_Bible_reference(ref_string)
-        if 'combinedIndividualVerseReferences' in value:
-            for j,ref_string in enumerate(value['combinedIndividualVerseReferences']):
-                value['combinedIndividualVerseReferences'][j] = adjust_Bible_reference(ref_string)
+        if 'combinedIndividualVerseReferences' in dict_entry:
+            for j,ref_string in enumerate(dict_entry['combinedIndividualVerseReferences']):
+                dict_entry['combinedIndividualVerseReferences'][j] = adjust_Bible_reference(ref_string)
 
     return True
 # end of loadTIPNR.adjust_Bible_references()
+
 
 def adjust_Bible_reference(ref:str) -> str:
     """
@@ -1195,7 +1220,7 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     """
     If a name only occurs once, we use the name as the key, e.g., persons 'Abdiel' or 'David'.
     But if there are multiple people/places with the same name, the above code uses suffixes,
-        e.g.,   Joshua, Joshua2, Joshua3.
+        e.g.,   Joshua1, Joshua2, Joshua3.
     However, in this case, Joshua2 is the most well-known character and so we want to end up with
                 Joshua1, Joshua, Joshua3.
     This is done by comparing the number of verse references.
@@ -1203,8 +1228,8 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     Note: This only changes the internal records, not the actual dictionary keys.
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
-    for value in dataDict.values():
-        old_id = value['FGid'] # Which may or may not match the original key by now
+    for dict_entry in dataDict.values():
+        old_id = dict_entry['FGid'] # Which may or may not match the original key by now
         if old_id.endswith('2') and not old_id[-2].isdigit():
             # dPrint('Info', debuggingThisModule, f"      {entry}")
             base_id = old_id[:-1]
@@ -1256,6 +1281,7 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     return True
 # end of loadTIPNR.ensure_best_known_name()
 
+
 def prefix_our_IDs(dataName:str, dataDict:dict) -> bool:
     """
     Add our prefixes to our ID fields, e.g., P person, L location, etc.
@@ -1278,31 +1304,34 @@ Here is a list of the use of the semantic (and other) tagging characters:
     vPrint('Normal', debuggingThisModule, f"    Prefixing our ID fields for {dataName}…")
     # The following line is just general -- we really need to individually handle the 'other' entries
     default_prefix = 'P' if dataName=='people' else 'L' if dataName=='places' else 'D'
-    for value in dataDict.values():
-        old_id = value['FGid']
+    for dict_entry in dataDict.values():
+        old_id = dict_entry['FGid']
         new_id = f'{default_prefix}{old_id}'
         # dPrint('Info', debuggingThisModule, f"      {old_id=} {new_id=}")
-        value['FGid'] = new_id
+        dict_entry['FGid'] = new_id
         # assert dataDict[key]['FGid'] == new_id
         # We only save the prefixed ID internally -- will fix the keys later
 
     return True
 # end of loadTIPNR.prefix_our_IDs()
 
+
 def adjust_from_TIPR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
     """
-    Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
+    Change individual people references (like father, mother)
+        and list of people references (like parents, siblings, partners, etc.)
+        to our FGid fields (without @bibleRef parts).
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
     
-    # Firstly create a cross-index
-    unique_name_index = { v['unifiedNameTIPNR']:k for k,v in dataDict.items() }
+    # Firstly create a cross-index to FGid's
+    unique_name_index = { v['unifiedNameTIPNR']:v['FGid'] for k,v in dataDict.items() }
 
     # Now make any necessary adjustments
-    for data in dataDict.values():
+    for dict_entry in dataDict.values():
         for fieldName in ('father','mother'): # single entries
-            if fieldName in data:
-                field_string = data[fieldName]
+            if fieldName in dict_entry:
+                field_string = dict_entry[fieldName]
                 assert isinstance(field_string, str)
                 assert len(field_string) >= 10 # ww.GEN.1.1
                 assert field_string.count('@') == 1
@@ -1311,38 +1340,23 @@ def adjust_from_TIPR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
                     field_string, post = field_string[:-3], field_string[-3:]
                 elif field_string.endswith('(d?)'):
                     field_string, post = field_string[:-4], field_string[-4:]
-                data[fieldName] = f'{pre}{unique_name_index[field_string]}{post}'
+                dict_entry[fieldName] = f'{pre}{unique_name_index[field_string]}{post}'
         for fieldName in ('siblings','partners','offspring'): # list entries
-            if fieldName in data:
-                assert isinstance(data[fieldName], list)
-                for j,field_string in enumerate(data[fieldName]):
+            if fieldName in dict_entry:
+                assert isinstance(dict_entry[fieldName], list)
+                for j,field_string in enumerate(dict_entry[fieldName]):
                     assert len(field_string) >= 10 # ww.GEN.1.1
                     assert field_string.count('@') == 1
                     pre = post = ''
                     if field_string.endswith('(?)'):
                         field_string, post = field_string[:-3], field_string[-3:]
-                    data[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
+                    dict_entry[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
         
     return True
 # end of loadTIPNR.adjust_from_TIPR_to_our_IDs()
 
-def xadjust_from_TIPR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
-    """
-    Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
-    """
-    vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
-    return True
-# end of loadTIPNR.adjust_from_TIPR_to_our_IDs()
 
-def xadjust_from_TIPR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
-    """
-    Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
-    """
-    vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
-    return True
-# end of loadTIPNR.adjust_from_TIPR_to_our_IDs()
-
-def rebuild_dictionaries() -> bool:
+def rebuild_dictionaries(key_name:str) -> bool:
     """
     The dictionaries likely have some internal IDs changed.
 
@@ -1354,20 +1368,25 @@ def rebuild_dictionaries() -> bool:
         now-duplicated 'FGid' fields but we'll leave them in for
         maximum future flexibility (at the cost of a little extra hard disk).
     """
-    global people, places, others, allEntries
     vPrint('Normal', debuggingThisModule, f"  Rebuilding dictionaries…")
+    assert key_name in ('unifiedNameTIPNR', 'FGid')
 
     # These rebuilds retain the original entry orders
-    people = { v['FGid']:v for k,v in people.items() if k!='__HEADERS__' }
-    places = { v['FGid']:v for k,v in places.items() if k!='__HEADERS__' }
-    others = { v['FGid']:v for k,v in others.items() if k!='__HEADERS__' }
+    for dict_name,the_dict in (('people',people), ('places',places), ('others',others)):
+        old_length = len(the_dict)-1 if '__HEADERS__' in the_dict else len(the_dict)
+        new_dict = { v[key_name]:v for k,v in the_dict.items() if k!='__HEADERS__' }
+        the_dict.clear()            # We do it this way so that we update the existing (global) dict
+        the_dict.update(new_dict)   #  rather than creating an entirely new dict
+        if len(the_dict) != old_length:
+            logging.critical(f"rebuild_dictionaries({key_name}) for {dict_name} unexpectedly went from {old_length} entries to {len(the_dict)}")
 
-    if PREFIX_OUR_IDS_FLAG: # We can safely combine the three dictionaries into one
+    if prefixed_our_IDs: # We can safely combine the three dictionaries into one
+        global allEntries
         allEntries = people | places | others
         dPrint('Quiet', debuggingThisModule, f"    Got {len(allEntries):,} entries from {len(people):,} + {len(places):,} + {len(others):,} = {len(people)+len(places)+len(others):,}")
 
     return True
-# end of loadTIPNR.normalise_significance()
+# end of loadTIPNR.rebuild_dictionaries
 
 
 def check_data() -> bool:
@@ -1378,8 +1397,8 @@ def check_data() -> bool:
     """
     vPrint('Quiet', debuggingThisModule, "\nCross-checking TIPNR datasets…")
 
-    for name,the_dict in (('people',people),('places',places),('others',others)):
-        vPrint('Normal', debuggingThisModule, f"  Cross-checking {name}…")
+    for dict_name,the_dict in (('people',people), ('places',places), ('others',others)):
+        vPrint('Normal', debuggingThisModule, f"  Cross-checking {dict_name}…")
     return True
 # end of loadTIPNR.check_data()
 
@@ -1391,10 +1410,10 @@ def export_JSON(subType:str) -> bool:
     assert subType
     vPrint('Quiet', debuggingThisModule, f"\nExporting {subType} JSON TIPNR files…")
 
-    for name,the_dict in (('people',people),('places',places),('others',others),('all',allEntries)):
+    for dict_name,the_dict in (('people',people), ('places',places), ('others',others), ('all',allEntries)):
         if the_dict:
-            filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{name.title()}.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(the_dict):,} {name} to {filepath}…")
+            filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}.json')
+            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(the_dict):,} {dict_name} to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 # WARNING: The following code would convert any int keys to str !!!
                 json.dump( HEADER_DICT | the_dict, outputFile, ensure_ascii=False, indent=2 )
@@ -1421,7 +1440,7 @@ def export_verse_index() -> bool:
     """
     vPrint('Quiet', debuggingThisModule, f"\nCalculating and exporting index files…")
     subType = 'normalised'
-    for dict_name,the_dict in (('people',people),('places',places),('others',others),('all',allEntries)):
+    for dict_name,the_dict in (('people',people), ('places',places), ('others',others), ('all',allEntries)):
         ref_index_dict = defaultdict(list)
         TIPNR_index_dict = {}
         for jj, value in enumerate(the_dict.values()):

@@ -1,10 +1,12 @@
 {
   "__HEADERS__": {
+    "conversion_software": "loadTIPNR v0.50",
+    "conversion_software_last_modified_date": "2022-07-27",
     "source_data_last_downloaded_date": "2022-07-20",
-    "conversion_software": "loadTIPNR v0.04",
-    "conversion_date_time": "2022-07-25"
+    "conversion_date": "2022-07-27",
+    "conversion_format_version": "0.5"
   },
-  "Abana": {
+  "Abana@2Ki.5.12": {
     "FGid": "Abana",
     "name": "Abana",
     "unifiedNameTIPNR": "Abana@2Ki.5.12",
@@ -47,7 +49,7 @@
       }
     ]
   },
-  "Abdon": {
+  "Abdon@Jos.21.30": {
     "FGid": "Abdon",
     "name": "Abdon",
     "unifiedNameTIPNR": "Abdon@Jos.21.30",
@@ -91,7 +93,7 @@
       }
     ]
   },
-  "Abel": {
+  "Abel@1Sa.6.18": {
     "FGid": "Abel",
     "name": "Abel",
     "unifiedNameTIPNR": "Abel@1Sa.6.18",
@@ -118,7 +120,7 @@
       }
     ]
   },
-  "Abel-beth-maacah": {
+  "Abel-beth-maacah@2Sa.20.14": {
     "FGid": "Abel-beth-maacah",
     "name": "Abel-beth-maacah",
     "unifiedNameTIPNR": "Abel-beth-maacah@2Sa.20.14",
@@ -180,7 +182,7 @@
       }
     ]
   },
-  "Abel-keramim": {
+  "Abel-keramim@Jdg.11.33": {
     "FGid": "Abel-keramim",
     "name": "Abel-keramim",
     "unifiedNameTIPNR": "Abel-keramim@Jdg.11.33",
@@ -207,7 +209,7 @@
       }
     ]
   },
-  "Abel-meholah": {
+  "Abel-meholah@Jdg.7.22": {
     "FGid": "Abel-meholah",
     "name": "Abel-meholah",
     "unifiedNameTIPNR": "Abel-meholah@Jdg.7.22",
@@ -236,7 +238,7 @@
       }
     ]
   },
-  "Shittim": {
+  "Shittim@Num.33.49": {
     "FGid": "Shittim",
     "name": "Shittim",
     "unifiedNameTIPNR": "Shittim@Num.33.49",
@@ -282,7 +284,7 @@
       }
     ]
   },
-  "Abilene": {
+  "Abilene@Luk.3.1": {
     "FGid": "Abilene",
     "name": "Abilene",
     "unifiedNameTIPNR": "Abilene@Luk.3.1",
@@ -309,7 +311,7 @@
       }
     ]
   },
-  "Abronah": {
+  "Abronah@Num.33.34": {
     "FGid": "Abronah",
     "name": "Abronah",
     "unifiedNameTIPNR": "Abronah@Num.33.34",
@@ -337,7 +339,7 @@
       }
     ]
   },
-  "Accad": {
+  "Accad@Gen.10.10": {
     "FGid": "Accad",
     "name": "Accad",
     "unifiedNameTIPNR": "Accad@Gen.10.10",
@@ -364,7 +366,7 @@
       }
     ]
   },
-  "Acco": {
+  "Acco@Jdg.1.31": {
     "FGid": "Acco",
     "name": "Acco",
     "unifiedNameTIPNR": "Acco@Jdg.1.31",
@@ -407,7 +409,7 @@
       }
     ]
   },
-  "Achaia": {
+  "Achaia@Act.18.12": {
     "FGid": "Achaia",
     "name": "Achaia",
     "unifiedNameTIPNR": "Achaia@Act.18.12",
@@ -444,7 +446,7 @@
       }
     ]
   },
-  "Achor_Valley": {
+  "Achor_Valley@Jos.7.24": {
     "FGid": "Achor_Valley",
     "name": "Achor_Valley",
     "unifiedNameTIPNR": "Achor_Valley@Jos.7.24",
@@ -484,7 +486,7 @@
       }
     ]
   },
-  "Achshaph": {
+  "Achshaph@Jos.11.1": {
     "FGid": "Achshaph",
     "name": "Achshaph",
     "unifiedNameTIPNR": "Achshaph@Jos.11.1",
@@ -513,7 +515,7 @@
       }
     ]
   },
-  "Achzib": {
+  "Achzib@Jos.15.44": {
     "FGid": "Achzib",
     "name": "Achzib",
     "unifiedNameTIPNR": "Achzib@Jos.15.44",
@@ -573,7 +575,7 @@
       }
     ]
   },
-  "Achzib2": {
+  "Achzib@Jos.19.29": {
     "FGid": "Achzib2",
     "name": "Achzib",
     "unifiedNameTIPNR": "Achzib@Jos.19.29",
@@ -601,7 +603,7 @@
       }
     ]
   },
-  "Adadah": {
+  "Adadah@Jos.15.22": {
     "FGid": "Adadah",
     "name": "Adadah",
     "unifiedNameTIPNR": "Adadah@Jos.15.22",
@@ -628,7 +630,7 @@
       }
     ]
   },
-  "Adam": {
+  "Adam@Jos.3.16": {
     "FGid": "Adam",
     "name": "Adam",
     "unifiedNameTIPNR": "Adam@Jos.3.16",
@@ -655,7 +657,7 @@
       }
     ]
   },
-  "Adamah": {
+  "Adamah@Jos.19.36": {
     "FGid": "Adamah",
     "name": "Adamah",
     "unifiedNameTIPNR": "Adamah@Jos.19.36",
@@ -682,7 +684,7 @@
       }
     ]
   },
-  "Adami-nekeb": {
+  "Adami-nekeb@Jos.19.33": {
     "FGid": "Adami-nekeb",
     "name": "Adami-nekeb",
     "unifiedNameTIPNR": "Adami-nekeb@Jos.19.33",
@@ -718,7 +720,7 @@
       }
     ]
   },
-  "Addan": {
+  "Addan@Ezr.2.59": {
     "FGid": "Addan",
     "name": "Addan",
     "unifiedNameTIPNR": "Addan@Ezr.2.59",
@@ -760,7 +762,7 @@
       }
     ]
   },
-  "Addar": {
+  "Addar@Jos.15.3": {
     "FGid": "Addar",
     "name": "Addar",
     "unifiedNameTIPNR": "Addar@Jos.15.3",
@@ -787,7 +789,7 @@
       }
     ]
   },
-  "Adithaim": {
+  "Adithaim@Jos.15.36": {
     "FGid": "Adithaim",
     "name": "Adithaim",
     "unifiedNameTIPNR": "Adithaim@Jos.15.36",
@@ -814,7 +816,7 @@
       }
     ]
   },
-  "Admah": {
+  "Admah@Gen.10.19": {
     "FGid": "Admah",
     "name": "Admah",
     "unifiedNameTIPNR": "Admah@Gen.10.19",
@@ -845,7 +847,7 @@
       }
     ]
   },
-  "Adoraim": {
+  "Adoraim@2Ch.11.9": {
     "FGid": "Adoraim",
     "name": "Adoraim",
     "unifiedNameTIPNR": "Adoraim@2Ch.11.9",
@@ -872,7 +874,7 @@
       }
     ]
   },
-  "Adramyttium": {
+  "Adramyttium@Act.27.2": {
     "FGid": "Adramyttium",
     "name": "Adramyttium",
     "unifiedNameTIPNR": "Adramyttium@Act.27.2",
@@ -899,7 +901,7 @@
       }
     ]
   },
-  "Adriatic_Sea": {
+  "Adriatic_Sea@Act.27.27": {
     "FGid": "Adriatic_Sea",
     "name": "Adriatic_Sea",
     "unifiedNameTIPNR": "Adriatic_Sea@Act.27.27",
@@ -926,7 +928,7 @@
       }
     ]
   },
-  "Adullam": {
+  "Adullam@Jos.12.15": {
     "FGid": "Adullam",
     "name": "Adullam",
     "unifiedNameTIPNR": "Adullam@Jos.12.15",
@@ -978,7 +980,7 @@
       }
     ]
   },
-  "Adummim": {
+  "Adummim@Jos.15.7": {
     "FGid": "Adummim",
     "name": "Adummim",
     "unifiedNameTIPNR": "Adummim@Jos.15.7",
@@ -1006,7 +1008,7 @@
       }
     ]
   },
-  "Aenon": {
+  "Aenon@Jhn.3.23": {
     "FGid": "Aenon",
     "name": "Aenon",
     "unifiedNameTIPNR": "Aenon@Jhn.3.23",
@@ -1033,7 +1035,7 @@
       }
     ]
   },
-  "Ahava": {
+  "Ahava@Ezr.8.15": {
     "FGid": "Ahava",
     "name": "Ahava",
     "unifiedNameTIPNR": "Ahava@Ezr.8.15",
@@ -1062,7 +1064,7 @@
       }
     ]
   },
-  "Ahlab": {
+  "Ahlab@Jdg.1.31": {
     "FGid": "Ahlab",
     "name": "Ahlab",
     "unifiedNameTIPNR": "Ahlab@Jdg.1.31",
@@ -1105,7 +1107,7 @@
       }
     ]
   },
-  "Ai": {
+  "Ai@Gen.12.8": {
     "FGid": "Ai",
     "name": "Ai",
     "unifiedNameTIPNR": "Ai@Gen.12.8",
@@ -1217,7 +1219,7 @@
       }
     ]
   },
-  "Ai2": {
+  "Ai@Jer.49.3": {
     "FGid": "Ai2",
     "name": "Ai",
     "unifiedNameTIPNR": "Ai@Jer.49.3",
@@ -1244,7 +1246,7 @@
       }
     ]
   },
-  "Aijalon": {
+  "Aijalon@Jos.10.12": {
     "FGid": "Aijalon",
     "name": "Aijalon",
     "unifiedNameTIPNR": "Aijalon@Jos.10.12",
@@ -1280,7 +1282,7 @@
       }
     ]
   },
-  "Ain": {
+  "Ain@Num.34.11": {
     "FGid": "Ain",
     "name": "Ain",
     "unifiedNameTIPNR": "Ain@Num.34.11",
@@ -1326,7 +1328,7 @@
       }
     ]
   },
-  "Ain2": {
+  "Ain@Jos.15.32": {
     "FGid": "Ain2",
     "name": "Ain",
     "unifiedNameTIPNR": "Ain@Jos.15.32",
@@ -1372,7 +1374,7 @@
       }
     ]
   },
-  "Akeldama": {
+  "Akeldama@Act.1.19": {
     "FGid": "Akeldama",
     "name": "Akeldama",
     "unifiedNameTIPNR": "Akeldama@Act.1.19",
@@ -1399,7 +1401,7 @@
       }
     ]
   },
-  "Akrabbim": {
+  "Akrabbim@Num.34.4": {
     "FGid": "Akrabbim",
     "name": "Akrabbim",
     "unifiedNameTIPNR": "Akrabbim@Num.34.4",
@@ -1428,7 +1430,7 @@
       }
     ]
   },
-  "Alemeth": {
+  "Alemeth@Jos.21.18": {
     "FGid": "Alemeth",
     "name": "Alemeth",
     "unifiedNameTIPNR": "Alemeth@Jos.21.18",
@@ -1471,7 +1473,7 @@
       }
     ]
   },
-  "Alexandria": {
+  "Alexandria@Act.6.9": {
     "FGid": "Alexandria",
     "name": "Alexandria",
     "unifiedNameTIPNR": "Alexandria@Act.6.9",
@@ -1516,7 +1518,7 @@
       }
     ]
   },
-  "Allammelech": {
+  "Allammelech@Jos.19.26": {
     "FGid": "Allammelech",
     "name": "Allammelech",
     "unifiedNameTIPNR": "Allammelech@Jos.19.26",
@@ -1543,7 +1545,7 @@
       }
     ]
   },
-  "Allon": {
+  "Allon@Jos.19.33": {
     "FGid": "Allon",
     "name": "Allon",
     "unifiedNameTIPNR": "Allon@Jos.19.33",
@@ -1570,7 +1572,7 @@
       }
     ]
   },
-  "Allon-bacuth": {
+  "Allon-bacuth@Gen.35.8": {
     "FGid": "Allon-bacuth",
     "name": "Allon-bacuth",
     "unifiedNameTIPNR": "Allon-bacuth@Gen.35.8",
@@ -1597,7 +1599,7 @@
       }
     ]
   },
-  "Alush": {
+  "Alush@Num.33.13": {
     "FGid": "Alush",
     "name": "Alush",
     "unifiedNameTIPNR": "Alush@Num.33.13",
@@ -1625,7 +1627,7 @@
       }
     ]
   },
-  "Amad": {
+  "Amad@Jos.19.26": {
     "FGid": "Amad",
     "name": "Amad",
     "unifiedNameTIPNR": "Amad@Jos.19.26",
@@ -1652,7 +1654,7 @@
       }
     ]
   },
-  "Amalek": {
+  "Amalek@Gen.14.7": {
     "FGid": "Amalek",
     "name": "Amalek",
     "unifiedNameTIPNR": "Amalek@Gen.14.7",
@@ -1774,7 +1776,7 @@
       }
     ]
   },
-  "Amam": {
+  "Amam@Jos.15.26": {
     "FGid": "Amam",
     "name": "Amam",
     "unifiedNameTIPNR": "Amam@Jos.15.26",
@@ -1801,7 +1803,7 @@
       }
     ]
   },
-  "Amana": {
+  "Amana@Sng.4.8": {
     "FGid": "Amana",
     "name": "Amana",
     "unifiedNameTIPNR": "Amana@Sng.4.8",
@@ -1828,7 +1830,7 @@
       }
     ]
   },
-  "Amaw": {
+  "Amaw@Num.22.5": {
     "FGid": "Amaw",
     "name": "Amaw",
     "unifiedNameTIPNR": "Amaw@Num.22.5",
@@ -1855,7 +1857,7 @@
       }
     ]
   },
-  "Ammah": {
+  "Ammah@2Sa.2.24": {
     "FGid": "Ammah",
     "name": "Ammah",
     "unifiedNameTIPNR": "Ammah@2Sa.2.24",
@@ -1882,7 +1884,7 @@
       }
     ]
   },
-  "Ammon": {
+  "Ammon@Deu.2.19": {
     "FGid": "Ammon",
     "name": "Ammon",
     "unifiedNameTIPNR": "Ammon@Deu.2.19",
@@ -2157,7 +2159,7 @@
       }
     ]
   },
-  "Amphipolis": {
+  "Amphipolis@Act.17.1": {
     "FGid": "Amphipolis",
     "name": "Amphipolis",
     "unifiedNameTIPNR": "Amphipolis@Act.17.1",
@@ -2184,7 +2186,7 @@
       }
     ]
   },
-  "Anab": {
+  "Anab@Jos.11.21": {
     "FGid": "Anab",
     "name": "Anab",
     "unifiedNameTIPNR": "Anab@Jos.11.21",
@@ -2212,7 +2214,7 @@
       }
     ]
   },
-  "Anaharath": {
+  "Anaharath@Jos.19.19": {
     "FGid": "Anaharath",
     "name": "Anaharath",
     "unifiedNameTIPNR": "Anaharath@Jos.19.19",
@@ -2239,7 +2241,7 @@
       }
     ]
   },
-  "Ananiah": {
+  "Ananiah@Neh.11.32": {
     "FGid": "Ananiah",
     "name": "Ananiah",
     "unifiedNameTIPNR": "Ananiah@Neh.11.32",
@@ -2266,7 +2268,7 @@
       }
     ]
   },
-  "Anathoth": {
+  "Anathoth@Jos.21.18": {
     "FGid": "Anathoth",
     "name": "Anathoth",
     "unifiedNameTIPNR": "Anathoth@Jos.21.18",
@@ -2325,7 +2327,7 @@
       }
     ]
   },
-  "Angle": {
+  "Angle@2Ch.26.9": {
     "FGid": "Angle",
     "name": "Angle",
     "unifiedNameTIPNR": "Angle@2Ch.26.9",
@@ -2352,7 +2354,7 @@
       }
     ]
   },
-  "Anim": {
+  "Anim@Jos.15.50": {
     "FGid": "Anim",
     "name": "Anim",
     "unifiedNameTIPNR": "Anim@Jos.15.50",
@@ -2379,7 +2381,7 @@
       }
     ]
   },
-  "Antioch": {
+  "Antioch@Act.6.5": {
     "FGid": "Antioch",
     "name": "Antioch",
     "unifiedNameTIPNR": "Antioch@Act.6.5",
@@ -2435,7 +2437,7 @@
       }
     ]
   },
-  "Antioch2": {
+  "Antioch@Act.13.14": {
     "FGid": "Antioch2",
     "name": "Antioch",
     "unifiedNameTIPNR": "Antioch@Act.13.14",
@@ -2465,7 +2467,7 @@
       }
     ]
   },
-  "Antipatris": {
+  "Antipatris@Act.23.31": {
     "FGid": "Antipatris",
     "name": "Antipatris",
     "unifiedNameTIPNR": "Antipatris@Act.23.31",
@@ -2492,7 +2494,7 @@
       }
     ]
   },
-  "Aphek": {
+  "Aphek@Jos.12.18": {
     "FGid": "Aphek",
     "name": "Aphek",
     "unifiedNameTIPNR": "Aphek@Jos.12.18",
@@ -2537,7 +2539,7 @@
       }
     ]
   },
-  "Aphek2": {
+  "Aphek@Jos.13.4": {
     "FGid": "Aphek2",
     "name": "Aphek",
     "unifiedNameTIPNR": "Aphek@Jos.13.4",
@@ -2581,7 +2583,7 @@
       }
     ]
   },
-  "Aphek3": {
+  "Aphek@1Ki.20.26": {
     "FGid": "Aphek3",
     "name": "Aphek",
     "unifiedNameTIPNR": "Aphek@1Ki.20.26",
@@ -2610,7 +2612,7 @@
       }
     ]
   },
-  "Apollonia": {
+  "Apollonia@Act.17.1": {
     "FGid": "Apollonia",
     "name": "Apollonia",
     "unifiedNameTIPNR": "Apollonia@Act.17.1",
@@ -2637,7 +2639,7 @@
       }
     ]
   },
-  "Ar": {
+  "Ar@Num.21.15": {
     "FGid": "Ar",
     "name": "Ar",
     "unifiedNameTIPNR": "Ar@Num.21.15",
@@ -2669,7 +2671,7 @@
       }
     ]
   },
-  "Arab": {
+  "Arab@Jos.15.52": {
     "FGid": "Arab",
     "name": "Arab",
     "unifiedNameTIPNR": "Arab@Jos.15.52",
@@ -2696,7 +2698,7 @@
       }
     ]
   },
-  "Arabah": {
+  "Arabah@Deu.1.1": {
     "FGid": "Arabah",
     "name": "Arabah",
     "unifiedNameTIPNR": "Arabah@Deu.1.1",
@@ -2774,7 +2776,7 @@
       }
     ]
   },
-  "Arabia": {
+  "Arabia@2Sa.23.35": {
     "FGid": "Arabia",
     "name": "Arabia",
     "unifiedNameTIPNR": "Arabia@2Sa.23.35",
@@ -2971,7 +2973,7 @@
       }
     ]
   },
-  "Arad": {
+  "Arad@Num.21.1": {
     "FGid": "Arad",
     "name": "Arad",
     "unifiedNameTIPNR": "Arad@Num.21.1",
@@ -3002,7 +3004,7 @@
       }
     ]
   },
-  "Aram-maacah": {
+  "Aram-maacah@1Ch.19.6": {
     "FGid": "Aram-maacah",
     "name": "Aram-maacah",
     "unifiedNameTIPNR": "Aram-maacah@1Ch.19.6",
@@ -3038,7 +3040,7 @@
       }
     ]
   },
-  "Aram-naharaim": {
+  "Aram-naharaim@Psa.60.1": {
     "FGid": "Aram-naharaim",
     "name": "Aram-naharaim",
     "unifiedNameTIPNR": "Aram-naharaim@Psa.60.1",
@@ -3065,7 +3067,7 @@
       }
     ]
   },
-  "Aram-zobah": {
+  "Aram-zobah@Psa.60.1": {
     "FGid": "Aram-zobah",
     "name": "Aram-zobah",
     "unifiedNameTIPNR": "Aram-zobah@Psa.60.1",
@@ -3092,7 +3094,7 @@
       }
     ]
   },
-  "Ararat": {
+  "Ararat@Gen.8.4": {
     "FGid": "Ararat",
     "name": "Ararat",
     "unifiedNameTIPNR": "Ararat@Gen.8.4",
@@ -3122,7 +3124,7 @@
       }
     ]
   },
-  "Areopagus": {
+  "Areopagus@Act.17.19": {
     "FGid": "Areopagus",
     "name": "Areopagus",
     "unifiedNameTIPNR": "Areopagus@Act.17.19",
@@ -3166,7 +3168,7 @@
       }
     ]
   },
-  "Argob": {
+  "Argob@Deu.3.4": {
     "FGid": "Argob",
     "name": "Argob",
     "unifiedNameTIPNR": "Argob@Deu.3.4",
@@ -3196,7 +3198,7 @@
       }
     ]
   },
-  "Arnon": {
+  "Arnon@Num.21.13": {
     "FGid": "Arnon",
     "name": "Arnon",
     "unifiedNameTIPNR": "Arnon@Num.21.13",
@@ -3247,7 +3249,7 @@
       }
     ]
   },
-  "Aroer": {
+  "Aroer@Num.32.34": {
     "FGid": "Aroer",
     "name": "Aroer",
     "unifiedNameTIPNR": "Aroer@Num.32.34",
@@ -3295,7 +3297,7 @@
       }
     ]
   },
-  "Aroer2": {
+  "Aroer@Deu.2.36": {
     "FGid": "Aroer2",
     "name": "Aroer",
     "unifiedNameTIPNR": "Aroer@Deu.2.36",
@@ -3330,7 +3332,7 @@
       }
     ]
   },
-  "Aroer3": {
+  "Aroer@1Sa.30.28": {
     "FGid": "Aroer3",
     "name": "Aroer",
     "unifiedNameTIPNR": "Aroer@1Sa.30.28",
@@ -3357,7 +3359,7 @@
       }
     ]
   },
-  "Arpad": {
+  "Arpad@2Ki.18.34": {
     "FGid": "Arpad",
     "name": "Arpad",
     "unifiedNameTIPNR": "Arpad@2Ki.18.34",
@@ -3389,7 +3391,7 @@
       }
     ]
   },
-  "Arubboth": {
+  "Arubboth@1Ki.4.10": {
     "FGid": "Arubboth",
     "name": "Arubboth",
     "unifiedNameTIPNR": "Arubboth@1Ki.4.10",
@@ -3416,7 +3418,7 @@
       }
     ]
   },
-  "Arumah": {
+  "Arumah@Jdg.9.41": {
     "FGid": "Arumah",
     "name": "Arumah",
     "unifiedNameTIPNR": "Arumah@Jdg.9.41",
@@ -3459,7 +3461,7 @@
       }
     ]
   },
-  "Arvad": {
+  "Arvad@Ezk.27.8": {
     "FGid": "Arvad",
     "name": "Arvad",
     "unifiedNameTIPNR": "Arvad@Ezk.27.8",
@@ -3487,7 +3489,7 @@
       }
     ]
   },
-  "Ashan": {
+  "Ashan@Jos.15.42": {
     "FGid": "Ashan",
     "name": "Ashan",
     "unifiedNameTIPNR": "Ashan@Jos.15.42",
@@ -3517,7 +3519,7 @@
       }
     ]
   },
-  "Ashdod": {
+  "Ashdod@Jos.11.22": {
     "FGid": "Ashdod",
     "name": "Ashdod",
     "unifiedNameTIPNR": "Ashdod@Jos.11.22",
@@ -3627,7 +3629,7 @@
       }
     ]
   },
-  "Ashkelon": {
+  "Ashkelon@Jos.13.3": {
     "FGid": "Ashkelon",
     "name": "Ashkelon",
     "unifiedNameTIPNR": "Ashkelon@Jos.13.3",
@@ -3682,7 +3684,7 @@
       }
     ]
   },
-  "Ashkenaz": {
+  "Ashkenaz@Jer.51.27": {
     "FGid": "Ashkenaz",
     "name": "Ashkenaz",
     "unifiedNameTIPNR": "Ashkenaz@Jer.51.27",
@@ -3710,7 +3712,7 @@
       }
     ]
   },
-  "Ashnah": {
+  "Ashnah@Jos.15.33": {
     "FGid": "Ashnah",
     "name": "Ashnah",
     "unifiedNameTIPNR": "Ashnah@Jos.15.33",
@@ -3738,7 +3740,7 @@
       }
     ]
   },
-  "Ashtaroth": {
+  "Ashtaroth@Deu.1.4": {
     "FGid": "Ashtaroth",
     "name": "Ashtaroth",
     "unifiedNameTIPNR": "Ashtaroth@Deu.1.4",
@@ -3802,7 +3804,7 @@
       }
     ]
   },
-  "Ashteroth-karnaim": {
+  "Ashteroth-karnaim@Gen.14.5": {
     "FGid": "Ashteroth-karnaim",
     "name": "Ashteroth-karnaim",
     "unifiedNameTIPNR": "Ashteroth-karnaim@Gen.14.5",
@@ -3845,7 +3847,7 @@
       }
     ]
   },
-  "Asia": {
+  "Asia@Act.2.9": {
     "FGid": "Asia",
     "name": "Asia",
     "unifiedNameTIPNR": "Asia@Act.2.9",
@@ -3908,7 +3910,7 @@
       }
     ]
   },
-  "Assos": {
+  "Assos@Act.20.13": {
     "FGid": "Assos",
     "name": "Assos",
     "unifiedNameTIPNR": "Assos@Act.20.13",
@@ -3936,7 +3938,7 @@
       }
     ]
   },
-  "Assyria": {
+  "Assyria@Gen.2.14": {
     "FGid": "Assyria",
     "name": "Assyria",
     "unifiedNameTIPNR": "Assyria@Gen.2.14",
@@ -4142,7 +4144,7 @@
       }
     ]
   },
-  "Atad": {
+  "Atad@Gen.50.10": {
     "FGid": "Atad",
     "name": "Atad",
     "unifiedNameTIPNR": "Atad@Gen.50.10",
@@ -4186,7 +4188,7 @@
       }
     ]
   },
-  "Ataroth": {
+  "Ataroth@Num.32.3": {
     "FGid": "Ataroth",
     "name": "Ataroth",
     "unifiedNameTIPNR": "Ataroth@Num.32.3",
@@ -4214,7 +4216,7 @@
       }
     ]
   },
-  "Ataroth2": {
+  "Ataroth@Jos.16.2": {
     "FGid": "Ataroth2",
     "name": "Ataroth",
     "unifiedNameTIPNR": "Ataroth@Jos.16.2",
@@ -4242,7 +4244,7 @@
       }
     ]
   },
-  "Ataroth-addar": {
+  "Ataroth-addar@Jos.16.5": {
     "FGid": "Ataroth-addar",
     "name": "Ataroth-addar",
     "unifiedNameTIPNR": "Ataroth-addar@Jos.16.5",
@@ -4270,7 +4272,7 @@
       }
     ]
   },
-  "Athach": {
+  "Athach@1Sa.30.30": {
     "FGid": "Athach",
     "name": "Athach",
     "unifiedNameTIPNR": "Athach@1Sa.30.30",
@@ -4297,7 +4299,7 @@
       }
     ]
   },
-  "Atharim": {
+  "Atharim@Num.21.1": {
     "FGid": "Atharim",
     "name": "Atharim",
     "unifiedNameTIPNR": "Atharim@Num.21.1",
@@ -4324,7 +4326,7 @@
       }
     ]
   },
-  "Athens": {
+  "Athens@Act.17.15": {
     "FGid": "Athens",
     "name": "Athens",
     "unifiedNameTIPNR": "Athens@Act.17.15",
@@ -4403,7 +4405,7 @@
       }
     ]
   },
-  "Atroth-beth-joab": {
+  "Atroth-beth-joab@1Ch.2.54": {
     "FGid": "Atroth-beth-joab",
     "name": "Atroth-beth-joab",
     "unifiedNameTIPNR": "Atroth-beth-joab@1Ch.2.54",
@@ -4430,7 +4432,7 @@
       }
     ]
   },
-  "Atroth-shophan": {
+  "Atroth-shophan@Num.32.35": {
     "FGid": "Atroth-shophan",
     "name": "Atroth-shophan",
     "unifiedNameTIPNR": "Atroth-shophan@Num.32.35",
@@ -4457,7 +4459,7 @@
       }
     ]
   },
-  "Attalia": {
+  "Attalia@Act.14.25": {
     "FGid": "Attalia",
     "name": "Attalia",
     "unifiedNameTIPNR": "Attalia@Act.14.25",
@@ -4484,7 +4486,7 @@
       }
     ]
   },
-  "Aven_Valley": {
+  "Aven_Valley@Amo.1.5": {
     "FGid": "Aven_Valley",
     "name": "Aven_Valley",
     "unifiedNameTIPNR": "Aven_Valley@Amo.1.5",
@@ -4520,7 +4522,7 @@
       }
     ]
   },
-  "Avith": {
+  "Avith@Gen.36.35": {
     "FGid": "Avith",
     "name": "Avith",
     "unifiedNameTIPNR": "Avith@Gen.36.35",
@@ -4548,7 +4550,7 @@
       }
     ]
   },
-  "Ivvah": {
+  "Ivvah@2Ki.17.24": {
     "FGid": "Ivvah",
     "name": "Ivvah",
     "unifiedNameTIPNR": "Ivvah@2Ki.17.24",
@@ -4625,7 +4627,7 @@
       }
     ]
   },
-  "Avvim": {
+  "Avvim@Jos.18.23": {
     "FGid": "Avvim",
     "name": "Avvim",
     "unifiedNameTIPNR": "Avvim@Jos.18.23",
@@ -4652,7 +4654,7 @@
       }
     ]
   },
-  "Azal": {
+  "Azal@Zec.14.5": {
     "FGid": "Azal",
     "name": "Azal",
     "unifiedNameTIPNR": "Azal@Zec.14.5",
@@ -4679,7 +4681,7 @@
       }
     ]
   },
-  "Azekah": {
+  "Azekah@Jos.10.10": {
     "FGid": "Azekah",
     "name": "Azekah",
     "unifiedNameTIPNR": "Azekah@Jos.10.10",
@@ -4712,7 +4714,7 @@
       }
     ]
   },
-  "Azmon": {
+  "Azmon@Num.34.4": {
     "FGid": "Azmon",
     "name": "Azmon",
     "unifiedNameTIPNR": "Azmon@Num.34.4",
@@ -4741,7 +4743,7 @@
       }
     ]
   },
-  "Aznoth-tabor": {
+  "Aznoth-tabor@Jos.19.34": {
     "FGid": "Aznoth-tabor",
     "name": "Aznoth-tabor",
     "unifiedNameTIPNR": "Aznoth-tabor@Jos.19.34",
@@ -4768,7 +4770,7 @@
       }
     ]
   },
-  "Baalah": {
+  "Baalah@Jos.15.29": {
     "FGid": "Baalah",
     "name": "Baalah",
     "unifiedNameTIPNR": "Baalah@Jos.15.29",
@@ -4795,7 +4797,7 @@
       }
     ]
   },
-  "Baalah_Mount": {
+  "Baalah_Mount@Jos.15.11": {
     "FGid": "Baalah_Mount",
     "name": "Baalah_Mount",
     "unifiedNameTIPNR": "Baalah_Mount@Jos.15.11",
@@ -4822,7 +4824,7 @@
       }
     ]
   },
-  "Baalath": {
+  "Baalath@Jos.19.44": {
     "FGid": "Baalath",
     "name": "Baalath",
     "unifiedNameTIPNR": "Baalath@Jos.19.44",
@@ -4849,7 +4851,7 @@
       }
     ]
   },
-  "Baalath2": {
+  "Baalath@1Ki.9.18": {
     "FGid": "Baalath2",
     "name": "Baalath",
     "unifiedNameTIPNR": "Baalath@1Ki.9.18",
@@ -4877,7 +4879,7 @@
       }
     ]
   },
-  "Baalath-beer": {
+  "Baalath-beer@Jos.19.8": {
     "FGid": "Baalath-beer",
     "name": "Baalath-beer",
     "unifiedNameTIPNR": "Baalath-beer@Jos.19.8",
@@ -4953,7 +4955,7 @@
       }
     ]
   },
-  "Baal-hazor": {
+  "Baal-hazor@2Sa.13.23": {
     "FGid": "Baal-hazor",
     "name": "Baal-hazor",
     "unifiedNameTIPNR": "Baal-hazor@2Sa.13.23",
@@ -4980,7 +4982,7 @@
       }
     ]
   },
-  "Baal-meon": {
+  "Baal-meon@Num.32.3": {
     "FGid": "Baal-meon",
     "name": "Baal-meon",
     "unifiedNameTIPNR": "Baal-meon@Num.32.3",
@@ -5066,7 +5068,7 @@
       }
     ]
   },
-  "Baal-perazim": {
+  "Baal-perazim@2Sa.5.20": {
     "FGid": "Baal-perazim",
     "name": "Baal-perazim",
     "unifiedNameTIPNR": "Baal-perazim@2Sa.5.20",
@@ -5096,7 +5098,7 @@
       }
     ]
   },
-  "Baal-shalishah": {
+  "Baal-shalishah@2Ki.4.42": {
     "FGid": "Baal-shalishah",
     "name": "Baal-shalishah",
     "unifiedNameTIPNR": "Baal-shalishah@2Ki.4.42",
@@ -5123,7 +5125,7 @@
       }
     ]
   },
-  "Baal-tamar": {
+  "Baal-tamar@Jdg.20.33": {
     "FGid": "Baal-tamar",
     "name": "Baal-tamar",
     "unifiedNameTIPNR": "Baal-tamar@Jdg.20.33",
@@ -5150,7 +5152,7 @@
       }
     ]
   },
-  "Baal-zephon": {
+  "Baal-zephon@Exo.14.2": {
     "FGid": "Baal-zephon",
     "name": "Baal-zephon",
     "unifiedNameTIPNR": "Baal-zephon@Exo.14.2",
@@ -5179,7 +5181,7 @@
       }
     ]
   },
-  "Babylon": {
+  "Babylon@Gen.10.10": {
     "FGid": "Babylon",
     "name": "Babylon",
     "unifiedNameTIPNR": "Babylon@Gen.10.10",
@@ -5676,7 +5678,7 @@
       }
     ]
   },
-  "Bahurim": {
+  "Bahurim@2Sa.3.16": {
     "FGid": "Bahurim",
     "name": "Bahurim",
     "unifiedNameTIPNR": "Bahurim@2Sa.3.16",
@@ -5739,7 +5741,7 @@
       }
     ]
   },
-  "Bajith": {
+  "Bajith@Isa.15.2": {
     "FGid": "Bajith",
     "name": "Bajith",
     "unifiedNameTIPNR": "Bajith@Isa.15.2",
@@ -5766,7 +5768,7 @@
       }
     ]
   },
-  "Balah": {
+  "Balah@Jos.19.3": {
     "FGid": "Balah",
     "name": "Balah",
     "unifiedNameTIPNR": "Balah@Jos.19.3",
@@ -5793,7 +5795,7 @@
       }
     ]
   },
-  "Bamoth": {
+  "Bamoth@Num.21.19": {
     "FGid": "Bamoth",
     "name": "Bamoth",
     "unifiedNameTIPNR": "Bamoth@Num.21.19",
@@ -5821,7 +5823,7 @@
       }
     ]
   },
-  "Bamoth-baal": {
+  "Bamoth-baal@Num.22.41": {
     "FGid": "Bamoth-baal",
     "name": "Bamoth-baal",
     "unifiedNameTIPNR": "Bamoth-baal@Num.22.41",
@@ -5898,7 +5900,7 @@
       }
     ]
   },
-  "Bashan": {
+  "Bashan@Num.21.33": {
     "FGid": "Bashan",
     "name": "Bashan",
     "unifiedNameTIPNR": "Bashan@Num.21.33",
@@ -5984,7 +5986,7 @@
       }
     ]
   },
-  "Bath-rabbim": {
+  "Bath-rabbim@Sng.7.4": {
     "FGid": "Bath-rabbim",
     "name": "Bath-rabbim",
     "unifiedNameTIPNR": "Bath-rabbim@Sng.7.4",
@@ -6011,7 +6013,7 @@
       }
     ]
   },
-  "Beautiful_Gate": {
+  "Beautiful_Gate@Act.3.2": {
     "FGid": "Beautiful_Gate",
     "name": "Beautiful_Gate",
     "unifiedNameTIPNR": "Beautiful_Gate@Act.3.2",
@@ -6039,7 +6041,7 @@
       }
     ]
   },
-  "Beer": {
+  "Beer@Num.21.16": {
     "FGid": "Beer",
     "name": "Beer",
     "unifiedNameTIPNR": "Beer@Num.21.16",
@@ -6066,7 +6068,7 @@
       }
     ]
   },
-  "Beer-elim": {
+  "Beer-elim@Isa.15.8": {
     "FGid": "Beer-elim",
     "name": "Beer-elim",
     "unifiedNameTIPNR": "Beer-elim@Isa.15.8",
@@ -6093,7 +6095,7 @@
       }
     ]
   },
-  "Beer-lahai-roi": {
+  "Beer-lahai-roi@Gen.16.14": {
     "FGid": "Beer-lahai-roi",
     "name": "Beer-lahai-roi",
     "unifiedNameTIPNR": "Beer-lahai-roi@Gen.16.14",
@@ -6137,7 +6139,7 @@
       }
     ]
   },
-  "Beeroth": {
+  "Beeroth@Jos.9.17": {
     "FGid": "Beeroth",
     "name": "Beeroth",
     "unifiedNameTIPNR": "Beeroth@Jos.9.17",
@@ -6250,7 +6252,7 @@
       }
     ]
   },
-  "Beersheba": {
+  "Beersheba@Gen.21.14": {
     "FGid": "Beersheba",
     "name": "Beersheba",
     "unifiedNameTIPNR": "Beersheba@Gen.21.14",
@@ -6342,7 +6344,7 @@
       }
     ]
   },
-  "Bene-berak": {
+  "Bene-berak@Jos.19.45": {
     "FGid": "Bene-berak",
     "name": "Bene-berak",
     "unifiedNameTIPNR": "Bene-berak@Jos.19.45",
@@ -6369,7 +6371,7 @@
       }
     ]
   },
-  "Bene-jaakan": {
+  "Bene-jaakan@Num.33.31": {
     "FGid": "Bene-jaakan",
     "name": "Bene-jaakan",
     "unifiedNameTIPNR": "Bene-jaakan@Num.33.31",
@@ -6438,7 +6440,7 @@
       }
     ]
   },
-  "Benjamin_Gate": {
+  "Benjamin_Gate@Jer.20.2": {
     "FGid": "Benjamin_Gate",
     "name": "Benjamin_Gate",
     "unifiedNameTIPNR": "Benjamin_Gate@Jer.20.2",
@@ -6467,7 +6469,7 @@
       }
     ]
   },
-  "Benjamin_Gate2": {
+  "Benjamin_Gate@Zec.14.10": {
     "FGid": "Benjamin_Gate2",
     "name": "Benjamin_Gate",
     "unifiedNameTIPNR": "Benjamin_Gate@Zec.14.10",
@@ -6494,7 +6496,7 @@
       }
     ]
   },
-  "Beracah_Valley": {
+  "Beracah_Valley@2Ch.20.26": {
     "FGid": "Beracah_Valley",
     "name": "Beracah_Valley",
     "unifiedNameTIPNR": "Beracah_Valley@2Ch.20.26",
@@ -6531,7 +6533,7 @@
       }
     ]
   },
-  "Berea": {
+  "Berea@Act.17.10": {
     "FGid": "Berea",
     "name": "Berea",
     "unifiedNameTIPNR": "Berea@Act.17.10",
@@ -6575,7 +6577,7 @@
       }
     ]
   },
-  "Bered": {
+  "Bered@Gen.16.14": {
     "FGid": "Bered",
     "name": "Bered",
     "unifiedNameTIPNR": "Bered@Gen.16.14",
@@ -6602,7 +6604,7 @@
       }
     ]
   },
-  "Berothah": {
+  "Berothah@2Sa.8.8": {
     "FGid": "Berothah",
     "name": "Berothah",
     "unifiedNameTIPNR": "Berothah@2Sa.8.8",
@@ -6661,7 +6663,7 @@
       }
     ]
   },
-  "Besor": {
+  "Besor@1Sa.30.9": {
     "FGid": "Besor",
     "name": "Besor",
     "unifiedNameTIPNR": "Besor@1Sa.30.9",
@@ -6690,7 +6692,7 @@
       }
     ]
   },
-  "Betah": {
+  "Betah@2Sa.8.8": {
     "FGid": "Betah",
     "name": "Betah",
     "unifiedNameTIPNR": "Betah@2Sa.8.8",
@@ -6717,7 +6719,7 @@
       }
     ]
   },
-  "Beten": {
+  "Beten@Jos.19.25": {
     "FGid": "Beten",
     "name": "Beten",
     "unifiedNameTIPNR": "Beten@Jos.19.25",
@@ -6744,7 +6746,7 @@
       }
     ]
   },
-  "Beth-anath": {
+  "Beth-anath@Jos.19.38": {
     "FGid": "Beth-anath",
     "name": "Beth-anath",
     "unifiedNameTIPNR": "Beth-anath@Jos.19.38",
@@ -6773,7 +6775,7 @@
       }
     ]
   },
-  "Beth-anoth": {
+  "Beth-anoth@Jos.15.59": {
     "FGid": "Beth-anoth",
     "name": "Beth-anoth",
     "unifiedNameTIPNR": "Beth-anoth@Jos.15.59",
@@ -6800,7 +6802,7 @@
       }
     ]
   },
-  "Bethany": {
+  "Bethany@Mat.21.17": {
     "FGid": "Bethany",
     "name": "Bethany",
     "unifiedNameTIPNR": "Bethany@Mat.21.17",
@@ -6839,7 +6841,7 @@
       }
     ]
   },
-  "Bethany2": {
+  "Bethany@Jdg.7.24": {
     "FGid": "Bethany2",
     "name": "Bethany",
     "unifiedNameTIPNR": "Bethany@Jdg.7.24",
@@ -6883,7 +6885,7 @@
       }
     ]
   },
-  "Beth-arabah": {
+  "Beth-arabah@Jos.15.6": {
     "FGid": "Beth-arabah",
     "name": "Beth-arabah",
     "unifiedNameTIPNR": "Beth-arabah@Jos.15.6",
@@ -6945,7 +6947,7 @@
       }
     ]
   },
-  "Beth-arbel": {
+  "Beth-arbel@Hos.10.14": {
     "FGid": "Beth-arbel",
     "name": "Beth-arbel",
     "unifiedNameTIPNR": "Beth-arbel@Hos.10.14",
@@ -6972,7 +6974,7 @@
       }
     ]
   },
-  "Beth-ashbea": {
+  "Beth-ashbea@1Ch.4.21": {
     "FGid": "Beth-ashbea",
     "name": "Beth-ashbea",
     "unifiedNameTIPNR": "Beth-ashbea@1Ch.4.21",
@@ -7008,7 +7010,7 @@
       }
     ]
   },
-  "Beth-Ashtoreth": {
+  "Beth-Ashtoreth@1Sa.31.10": {
     "FGid": "Beth-Ashtoreth",
     "name": "Beth-Ashtoreth",
     "unifiedNameTIPNR": "Beth-Ashtoreth@1Sa.31.10",
@@ -7034,7 +7036,7 @@
     ],
     "comment": "Temple of the female deity Ashoreth (H6252) in the time of the Old Testament"
   },
-  "Beth-aven": {
+  "Beth-aven@Jos.7.2": {
     "FGid": "Beth-aven",
     "name": "Beth-aven",
     "unifiedNameTIPNR": "Beth-aven@Jos.7.2",
@@ -7067,7 +7069,7 @@
       }
     ]
   },
-  "Beth-azmaveth": {
+  "Beth-azmaveth@Ezr.2.24": {
     "FGid": "Beth-azmaveth",
     "name": "Beth-azmaveth",
     "unifiedNameTIPNR": "Beth-azmaveth@Ezr.2.24",
@@ -7111,7 +7113,7 @@
       }
     ]
   },
-  "Beth-biri": {
+  "Beth-biri@1Ch.4.31": {
     "FGid": "Beth-biri",
     "name": "Beth-biri",
     "unifiedNameTIPNR": "Beth-biri@1Ch.4.31",
@@ -7138,7 +7140,7 @@
       }
     ]
   },
-  "Beth-car": {
+  "Beth-car@1Sa.7.11": {
     "FGid": "Beth-car",
     "name": "Beth-car",
     "unifiedNameTIPNR": "Beth-car@1Sa.7.11",
@@ -7165,7 +7167,7 @@
       }
     ]
   },
-  "Beth-dagon": {
+  "Beth-dagon@Jos.15.41": {
     "FGid": "Beth-dagon",
     "name": "Beth-dagon",
     "unifiedNameTIPNR": "Beth-dagon@Jos.15.41",
@@ -7192,7 +7194,7 @@
       }
     ]
   },
-  "Beth-dagon2": {
+  "Beth-dagon@Jos.19.27": {
     "FGid": "Beth-dagon2",
     "name": "Beth-dagon",
     "unifiedNameTIPNR": "Beth-dagon@Jos.19.27",
@@ -7219,7 +7221,7 @@
       }
     ]
   },
-  "Beth-eden": {
+  "Beth-eden@Amo.1.5": {
     "FGid": "Beth-eden",
     "name": "Beth-eden",
     "unifiedNameTIPNR": "Beth-eden@Amo.1.5",
@@ -7246,7 +7248,7 @@
       }
     ]
   },
-  "Beth-eked": {
+  "Beth-eked@2Ki.10.12": {
     "FGid": "Beth-eked",
     "name": "Beth-eked",
     "unifiedNameTIPNR": "Beth-eked@2Ki.10.12",
@@ -7274,7 +7276,7 @@
       }
     ]
   },
-  "Bethel": {
+  "Bethel@Gen.12.8": {
     "FGid": "Bethel",
     "name": "Bethel",
     "unifiedNameTIPNR": "Bethel@Gen.12.8",
@@ -7471,7 +7473,7 @@
       }
     ]
   },
-  "Bethel2": {
+  "Bethel@Jos.12.16": {
     "FGid": "Bethel2",
     "name": "Bethel",
     "unifiedNameTIPNR": "Bethel@Jos.12.16",
@@ -7499,7 +7501,7 @@
       }
     ]
   },
-  "Beth-emek": {
+  "Beth-emek@Jos.19.27": {
     "FGid": "Beth-emek",
     "name": "Beth-emek",
     "unifiedNameTIPNR": "Beth-emek@Jos.19.27",
@@ -7526,7 +7528,7 @@
       }
     ]
   },
-  "Bether_Mountain": {
+  "Bether_Mountain@Sng.2.17": {
     "FGid": "Bether_Mountain",
     "name": "Bether_Mountain",
     "unifiedNameTIPNR": "Bether_Mountain@Sng.2.17",
@@ -7553,7 +7555,7 @@
       }
     ]
   },
-  "Bethesda": {
+  "Bethesda@Jhn.5.2": {
     "FGid": "Bethesda",
     "name": "Bethesda",
     "unifiedNameTIPNR": "Bethesda@Jhn.5.2",
@@ -7596,7 +7598,7 @@
       }
     ]
   },
-  "Beth-ezel": {
+  "Beth-ezel@Mic.1.11": {
     "FGid": "Beth-ezel",
     "name": "Beth-ezel",
     "unifiedNameTIPNR": "Beth-ezel@Mic.1.11",
@@ -7623,7 +7625,7 @@
       }
     ]
   },
-  "Beth-gader": {
+  "Beth-gader@1Ch.2.51": {
     "FGid": "Beth-gader",
     "name": "Beth-gader",
     "unifiedNameTIPNR": "Beth-gader@1Ch.2.51",
@@ -7650,7 +7652,7 @@
       }
     ]
   },
-  "Beth-gamul": {
+  "Beth-gamul@Jer.48.23": {
     "FGid": "Beth-gamul",
     "name": "Beth-gamul",
     "unifiedNameTIPNR": "Beth-gamul@Jer.48.23",
@@ -7677,7 +7679,7 @@
       }
     ]
   },
-  "Beth-haccherem": {
+  "Beth-haccherem@Neh.3.14": {
     "FGid": "Beth-haccherem",
     "name": "Beth-haccherem",
     "unifiedNameTIPNR": "Beth-haccherem@Neh.3.14",
@@ -7705,7 +7707,7 @@
       }
     ]
   },
-  "Beth-haggan": {
+  "Beth-haggan@2Ki.9.27": {
     "FGid": "Beth-haggan",
     "name": "Beth-haggan",
     "unifiedNameTIPNR": "Beth-haggan@2Ki.9.27",
@@ -7741,7 +7743,7 @@
       }
     ]
   },
-  "Beth-haram": {
+  "Beth-haram@Jos.13.27": {
     "FGid": "Beth-haram",
     "name": "Beth-haram",
     "unifiedNameTIPNR": "Beth-haram@Jos.13.27",
@@ -7784,7 +7786,7 @@
       }
     ]
   },
-  "Beth-hoglah": {
+  "Beth-hoglah@Jos.15.6": {
     "FGid": "Beth-hoglah",
     "name": "Beth-hoglah",
     "unifiedNameTIPNR": "Beth-hoglah@Jos.15.6",
@@ -7813,7 +7815,7 @@
       }
     ]
   },
-  "Beth-horon_Lower": {
+  "Beth-horon_Lower@Jos.16.3": {
     "FGid": "Beth-horon_Lower",
     "name": "Beth-horon_Lower",
     "unifiedNameTIPNR": "Beth-horon_Lower@Jos.16.3",
@@ -7875,7 +7877,7 @@
       }
     ]
   },
-  "Beth-horon_Upper": {
+  "Beth-horon_Upper@Jos.16.5": {
     "FGid": "Beth-horon_Upper",
     "name": "Beth-horon_Upper",
     "unifiedNameTIPNR": "Beth-horon_Upper@Jos.16.5",
@@ -7913,7 +7915,7 @@
       }
     ]
   },
-  "Beth-jeshimoth": {
+  "Beth-jeshimoth@Num.33.49": {
     "FGid": "Beth-jeshimoth",
     "name": "Beth-jeshimoth",
     "unifiedNameTIPNR": "Beth-jeshimoth@Num.33.49",
@@ -7943,7 +7945,7 @@
       }
     ]
   },
-  "Beth-lebaoth": {
+  "Beth-lebaoth@Jos.19.6": {
     "FGid": "Beth-lebaoth",
     "name": "Beth-lebaoth",
     "unifiedNameTIPNR": "Beth-lebaoth@Jos.19.6",
@@ -7970,7 +7972,7 @@
       }
     ]
   },
-  "Beth-merchak": {
+  "Beth-merchak@2Sa.15.17": {
     "FGid": "Beth-merchak",
     "name": "Beth-merchak",
     "unifiedNameTIPNR": "Beth-merchak@2Sa.15.17",
@@ -7995,7 +7997,7 @@
       }
     ]
   },
-  "Bethlehem": {
+  "Bethlehem@Gen.35.16": {
     "FGid": "Bethlehem",
     "name": "Bethlehem",
     "unifiedNameTIPNR": "Bethlehem@Gen.35.16",
@@ -8157,7 +8159,7 @@
       }
     ]
   },
-  "Bethlehem2": {
+  "Bethlehem@Jos.19.15": {
     "FGid": "Bethlehem2",
     "name": "Bethlehem",
     "unifiedNameTIPNR": "Bethlehem@Jos.19.15",
@@ -8184,7 +8186,7 @@
       }
     ]
   },
-  "Beth-millo": {
+  "Beth-millo@Jdg.9.6": {
     "FGid": "Beth-millo",
     "name": "Beth-millo",
     "unifiedNameTIPNR": "Beth-millo@Jdg.9.6",
@@ -8229,7 +8231,7 @@
       }
     ]
   },
-  "Beth-nimrah": {
+  "Beth-nimrah@Num.32.36": {
     "FGid": "Beth-nimrah",
     "name": "Beth-nimrah",
     "unifiedNameTIPNR": "Beth-nimrah@Num.32.36",
@@ -8273,7 +8275,7 @@
       }
     ]
   },
-  "Beth-pazzez": {
+  "Beth-pazzez@Jos.19.21": {
     "FGid": "Beth-pazzez",
     "name": "Beth-pazzez",
     "unifiedNameTIPNR": "Beth-pazzez@Jos.19.21",
@@ -8300,7 +8302,7 @@
       }
     ]
   },
-  "Beth-pelet": {
+  "Beth-pelet@Jos.15.27": {
     "FGid": "Beth-pelet",
     "name": "Beth-pelet",
     "unifiedNameTIPNR": "Beth-pelet@Jos.15.27",
@@ -8343,7 +8345,7 @@
       }
     ]
   },
-  "Beth-peor": {
+  "Beth-peor@Deu.3.29": {
     "FGid": "Beth-peor",
     "name": "Beth-peor",
     "unifiedNameTIPNR": "Beth-peor@Deu.3.29",
@@ -8373,7 +8375,7 @@
       }
     ]
   },
-  "Bethphage": {
+  "Bethphage@Mat.21.1": {
     "FGid": "Bethphage",
     "name": "Bethphage",
     "unifiedNameTIPNR": "Bethphage@Mat.21.1",
@@ -8402,7 +8404,7 @@
       }
     ]
   },
-  "Beth-rehob": {
+  "Beth-rehob@Jdg.18.28": {
     "FGid": "Beth-rehob",
     "name": "Beth-rehob",
     "unifiedNameTIPNR": "Beth-rehob@Jdg.18.28",
@@ -8447,7 +8449,7 @@
       }
     ]
   },
-  "Bethsaida": {
+  "Bethsaida@Mat.11.21": {
     "FGid": "Bethsaida",
     "name": "Bethsaida",
     "unifiedNameTIPNR": "Bethsaida@Mat.11.21",
@@ -8480,7 +8482,7 @@
       }
     ]
   },
-  "Beth-shan": {
+  "Beth-shan@1Sa.31.10": {
     "FGid": "Beth-shan",
     "name": "Beth-shan",
     "unifiedNameTIPNR": "Beth-shan@1Sa.31.10",
@@ -8530,7 +8532,7 @@
       }
     ]
   },
-  "Beth-shemesh": {
+  "Beth-shemesh@Jos.15.10": {
     "FGid": "Beth-shemesh",
     "name": "Beth-shemesh",
     "unifiedNameTIPNR": "Beth-shemesh@Jos.15.10",
@@ -8621,7 +8623,7 @@
       }
     ]
   },
-  "Beth-shemesh2": {
+  "Beth-shemesh@Jos.19.22": {
     "FGid": "Beth-shemesh2",
     "name": "Beth-shemesh",
     "unifiedNameTIPNR": "Beth-shemesh@Jos.19.22",
@@ -8648,7 +8650,7 @@
       }
     ]
   },
-  "Beth-shemesh3": {
+  "Beth-shemesh@Jos.19.38": {
     "FGid": "Beth-shemesh3",
     "name": "Beth-shemesh",
     "unifiedNameTIPNR": "Beth-shemesh@Jos.19.38",
@@ -8677,7 +8679,7 @@
       }
     ]
   },
-  "Beth-shittah": {
+  "Beth-shittah@Jdg.7.22": {
     "FGid": "Beth-shittah",
     "name": "Beth-shittah",
     "unifiedNameTIPNR": "Beth-shittah@Jdg.7.22",
@@ -8704,7 +8706,7 @@
       }
     ]
   },
-  "Beth-tappuah": {
+  "Beth-tappuah@Jos.15.53": {
     "FGid": "Beth-tappuah",
     "name": "Beth-tappuah",
     "unifiedNameTIPNR": "Beth-tappuah@Jos.15.53",
@@ -8731,7 +8733,7 @@
       }
     ]
   },
-  "Beth-togarmah": {
+  "Beth-togarmah@Ezk.27.14": {
     "FGid": "Beth-togarmah",
     "name": "Beth-togarmah",
     "unifiedNameTIPNR": "Beth-togarmah@Ezk.27.14",
@@ -8768,7 +8770,7 @@
       }
     ]
   },
-  "Bethuel": {
+  "Bethuel@1Ch.4.30": {
     "FGid": "Bethuel",
     "name": "Bethuel",
     "unifiedNameTIPNR": "Bethuel@1Ch.4.30",
@@ -8795,7 +8797,7 @@
       }
     ]
   },
-  "Bethul": {
+  "Bethul@Jos.19.4": {
     "FGid": "Bethul",
     "name": "Bethul",
     "unifiedNameTIPNR": "Bethul@Jos.19.4",
@@ -8822,7 +8824,7 @@
       }
     ]
   },
-  "Beth-zur": {
+  "Beth-zur@Jos.15.58": {
     "FGid": "Beth-zur",
     "name": "Beth-zur",
     "unifiedNameTIPNR": "Beth-zur@Jos.15.58",
@@ -8852,7 +8854,7 @@
       }
     ]
   },
-  "Betonim": {
+  "Betonim@Jos.13.26": {
     "FGid": "Betonim",
     "name": "Betonim",
     "unifiedNameTIPNR": "Betonim@Jos.13.26",
@@ -8879,7 +8881,7 @@
       }
     ]
   },
-  "Bezek": {
+  "Bezek@Jdg.1.4": {
     "FGid": "Bezek",
     "name": "Bezek",
     "unifiedNameTIPNR": "Bezek@Jdg.1.4",
@@ -8907,7 +8909,7 @@
       }
     ]
   },
-  "Bezek2": {
+  "Bezek@1Sa.11.8": {
     "FGid": "Bezek2",
     "name": "Bezek",
     "unifiedNameTIPNR": "Bezek@1Sa.11.8",
@@ -8934,7 +8936,7 @@
       }
     ]
   },
-  "Bezer": {
+  "Bezer@Deu.4.43": {
     "FGid": "Bezer",
     "name": "Bezer",
     "unifiedNameTIPNR": "Bezer@Deu.4.43",
@@ -8980,7 +8982,7 @@
       }
     ]
   },
-  "Bilhah": {
+  "Bilhah@1Ch.4.29": {
     "FGid": "Bilhah",
     "name": "Bilhah",
     "unifiedNameTIPNR": "Bilhah@1Ch.4.29",
@@ -9007,7 +9009,7 @@
       }
     ]
   },
-  "Bithron": {
+  "Bithron@2Sa.2.29": {
     "FGid": "Bithron",
     "name": "Bithron",
     "unifiedNameTIPNR": "Bithron@2Sa.2.29",
@@ -9034,7 +9036,7 @@
       }
     ]
   },
-  "Bithynia": {
+  "Bithynia@Act.16.7": {
     "FGid": "Bithynia",
     "name": "Bithynia",
     "unifiedNameTIPNR": "Bithynia@Act.16.7",
@@ -9062,7 +9064,7 @@
       }
     ]
   },
-  "Biziothiah": {
+  "Biziothiah@Jos.15.28": {
     "FGid": "Biziothiah",
     "name": "Biziothiah",
     "unifiedNameTIPNR": "Biziothiah@Jos.15.28",
@@ -9089,7 +9091,7 @@
       }
     ]
   },
-  "Bor-ashan": {
+  "Bor-ashan@1Sa.30.30": {
     "FGid": "Bor-ashan",
     "name": "Bor-ashan",
     "unifiedNameTIPNR": "Bor-ashan@1Sa.30.30",
@@ -9116,7 +9118,7 @@
       }
     ]
   },
-  "Bozez": {
+  "Bozez@1Sa.14.4": {
     "FGid": "Bozez",
     "name": "Bozez",
     "unifiedNameTIPNR": "Bozez@1Sa.14.4",
@@ -9143,7 +9145,7 @@
       }
     ]
   },
-  "Bozkath": {
+  "Bozkath@Jos.15.39": {
     "FGid": "Bozkath",
     "name": "Bozkath",
     "unifiedNameTIPNR": "Bozkath@Jos.15.39",
@@ -9171,7 +9173,7 @@
       }
     ]
   },
-  "Bozrah": {
+  "Bozrah@Gen.36.33": {
     "FGid": "Bozrah",
     "name": "Bozrah",
     "unifiedNameTIPNR": "Bozrah@Gen.36.33",
@@ -9204,7 +9206,7 @@
       }
     ]
   },
-  "Broad_Wall": {
+  "Broad_Wall@Neh.3.8": {
     "FGid": "Broad_Wall",
     "name": "Broad_Wall",
     "unifiedNameTIPNR": "Broad_Wall@Neh.3.8",
@@ -9241,7 +9243,7 @@
       }
     ]
   },
-  "Brook_of_Egypt": {
+  "Brook_of_Egypt@Num.34.5": {
     "FGid": "Brook_of_Egypt",
     "name": "Brook_of_Egypt",
     "unifiedNameTIPNR": "Brook_of_Egypt@Num.34.5",
@@ -9317,7 +9319,7 @@
       }
     ]
   },
-  "Brook_of_the_Arabah": {
+  "Brook_of_the_Arabah@Amo.6.14": {
     "FGid": "Brook_of_the_Arabah",
     "name": "Brook_of_the_Arabah",
     "unifiedNameTIPNR": "Brook_of_the_Arabah@Amo.6.14",
@@ -9353,7 +9355,7 @@
       }
     ]
   },
-  "Brook_of_the_Willows": {
+  "Brook_of_the_Willows@Isa.15.7": {
     "FGid": "Brook_of_the_Willows",
     "name": "Brook_of_the_Willows",
     "unifiedNameTIPNR": "Brook_of_the_Willows@Isa.15.7",
@@ -9389,7 +9391,7 @@
       }
     ]
   },
-  "Buz": {
+  "Buz@Jer.25.23": {
     "FGid": "Buz",
     "name": "Buz",
     "unifiedNameTIPNR": "Buz@Jer.25.23",
@@ -9416,7 +9418,7 @@
       }
     ]
   },
-  "Cabbon": {
+  "Cabbon@Jos.15.40": {
     "FGid": "Cabbon",
     "name": "Cabbon",
     "unifiedNameTIPNR": "Cabbon@Jos.15.40",
@@ -9443,7 +9445,7 @@
       }
     ]
   },
-  "Cabul": {
+  "Cabul@Jos.19.27": {
     "FGid": "Cabul",
     "name": "Cabul",
     "unifiedNameTIPNR": "Cabul@Jos.19.27",
@@ -9470,7 +9472,7 @@
       }
     ]
   },
-  "Cabul2": {
+  "Cabul@1Ki.9.13": {
     "FGid": "Cabul2",
     "name": "Cabul",
     "unifiedNameTIPNR": "Cabul@1Ki.9.13",
@@ -9497,7 +9499,7 @@
       }
     ]
   },
-  "Caesarea": {
+  "Caesarea@Act.8.40": {
     "FGid": "Caesarea",
     "name": "Caesarea",
     "unifiedNameTIPNR": "Caesarea@Act.8.40",
@@ -9538,7 +9540,7 @@
       }
     ]
   },
-  "Caesarea_Philippi": {
+  "Caesarea_Philippi@Mat.16.13": {
     "FGid": "Caesarea_Philippi",
     "name": "Caesarea_Philippi",
     "unifiedNameTIPNR": "Caesarea_Philippi@Mat.16.13",
@@ -9575,7 +9577,7 @@
       }
     ]
   },
-  "Calah": {
+  "Calah@Gen.10.11": {
     "FGid": "Calah",
     "name": "Calah",
     "unifiedNameTIPNR": "Calah@Gen.10.11",
@@ -9603,7 +9605,7 @@
       }
     ]
   },
-  "Caleb_Ephrathah": {
+  "Caleb_Ephrathah@1Ch.2.24": {
     "FGid": "Caleb_Ephrathah",
     "name": "Caleb_Ephrathah",
     "unifiedNameTIPNR": "Caleb_Ephrathah@1Ch.2.24",
@@ -9629,7 +9631,7 @@
       }
     ]
   },
-  "Calneh": {
+  "Calneh@Gen.10.10": {
     "FGid": "Calneh",
     "name": "Calneh",
     "unifiedNameTIPNR": "Calneh@Gen.10.10",
@@ -9704,7 +9706,7 @@
       }
     ]
   },
-  "Cana": {
+  "Cana@Jos.19.28": {
     "FGid": "Cana",
     "name": "Cana",
     "unifiedNameTIPNR": "Cana@Jos.19.28",
@@ -9750,7 +9752,7 @@
       }
     ]
   },
-  "Canaan": {
+  "Canaan@Gen.10.18": {
     "FGid": "Canaan",
     "name": "Canaan",
     "unifiedNameTIPNR": "Canaan@Gen.10.18",
@@ -10034,7 +10036,7 @@
       }
     ]
   },
-  "Capernaum": {
+  "Capernaum@Mat.4.13": {
     "FGid": "Capernaum",
     "name": "Capernaum",
     "unifiedNameTIPNR": "Capernaum@Mat.4.13",
@@ -10076,7 +10078,7 @@
       }
     ]
   },
-  "Cappadocia": {
+  "Cappadocia@Act.2.9": {
     "FGid": "Cappadocia",
     "name": "Cappadocia",
     "unifiedNameTIPNR": "Cappadocia@Act.2.9",
@@ -10104,7 +10106,7 @@
       }
     ]
   },
-  "Carchemish": {
+  "Carchemish@2Ch.35.20": {
     "FGid": "Carchemish",
     "name": "Carchemish",
     "unifiedNameTIPNR": "Carchemish@2Ch.35.20",
@@ -10133,7 +10135,7 @@
       }
     ]
   },
-  "Carmel": {
+  "Carmel@Jos.12.22": {
     "FGid": "Carmel",
     "name": "Carmel",
     "unifiedNameTIPNR": "Carmel@Jos.12.22",
@@ -10244,7 +10246,7 @@
       }
     ]
   },
-  "Carmel_Mount": {
+  "Carmel_Mount@1Ki.18.19": {
     "FGid": "Carmel_Mount",
     "name": "Carmel_Mount",
     "unifiedNameTIPNR": "Carmel_Mount@1Ki.18.19",
@@ -10290,7 +10292,7 @@
       }
     ]
   },
-  "Casiphia": {
+  "Casiphia@Ezr.8.17": {
     "FGid": "Casiphia",
     "name": "Casiphia",
     "unifiedNameTIPNR": "Casiphia@Ezr.8.17",
@@ -10318,7 +10320,7 @@
       }
     ]
   },
-  "Cauda": {
+  "Cauda@Act.27.16": {
     "FGid": "Cauda",
     "name": "Cauda",
     "unifiedNameTIPNR": "Cauda@Act.27.16",
@@ -10345,7 +10347,7 @@
       }
     ]
   },
-  "Cenchreae": {
+  "Cenchreae@Act.18.18": {
     "FGid": "Cenchreae",
     "name": "Cenchreae",
     "unifiedNameTIPNR": "Cenchreae@Act.18.18",
@@ -10374,7 +10376,7 @@
       }
     ]
   },
-  "Chaldea": {
+  "Chaldea@Gen.11.28": {
     "FGid": "Chaldea",
     "name": "Chaldea",
     "unifiedNameTIPNR": "Chaldea@Gen.11.28",
@@ -10566,7 +10568,7 @@
       }
     ]
   },
-  "Chebar": {
+  "Chebar@Ezk.1.1": {
     "FGid": "Chebar",
     "name": "Chebar",
     "unifiedNameTIPNR": "Chebar@Ezk.1.1",
@@ -10600,7 +10602,7 @@
       }
     ]
   },
-  "Chephar-ammoni": {
+  "Chephar-ammoni@Jos.18.24": {
     "FGid": "Chephar-ammoni",
     "name": "Chephar-ammoni",
     "unifiedNameTIPNR": "Chephar-ammoni@Jos.18.24",
@@ -10637,7 +10639,7 @@
       }
     ]
   },
-  "Chephirah": {
+  "Chephirah@Jos.9.17": {
     "FGid": "Chephirah",
     "name": "Chephirah",
     "unifiedNameTIPNR": "Chephirah@Jos.9.17",
@@ -10682,7 +10684,7 @@
       }
     ]
   },
-  "Cherith": {
+  "Cherith@1Ki.17.3": {
     "FGid": "Cherith",
     "name": "Cherith",
     "unifiedNameTIPNR": "Cherith@1Ki.17.3",
@@ -10710,7 +10712,7 @@
       }
     ]
   },
-  "Cherub": {
+  "Cherub@Ezr.2.59": {
     "FGid": "Cherub",
     "name": "Cherub",
     "unifiedNameTIPNR": "Cherub@Ezr.2.59",
@@ -10755,7 +10757,7 @@
       }
     ]
   },
-  "Chesalon": {
+  "Chesalon@Jos.15.10": {
     "FGid": "Chesalon",
     "name": "Chesalon",
     "unifiedNameTIPNR": "Chesalon@Jos.15.10",
@@ -10798,7 +10800,7 @@
       }
     ]
   },
-  "Chesil": {
+  "Chesil@Jos.15.30": {
     "FGid": "Chesil",
     "name": "Chesil",
     "unifiedNameTIPNR": "Chesil@Jos.15.30",
@@ -10825,7 +10827,7 @@
       }
     ]
   },
-  "Chesulloth": {
+  "Chesulloth@Jos.19.18": {
     "FGid": "Chesulloth",
     "name": "Chesulloth",
     "unifiedNameTIPNR": "Chesulloth@Jos.19.18",
@@ -10884,7 +10886,7 @@
       }
     ]
   },
-  "Chilmad": {
+  "Chilmad@Ezk.27.23": {
     "FGid": "Chilmad",
     "name": "Chilmad",
     "unifiedNameTIPNR": "Chilmad@Ezk.27.23",
@@ -10911,7 +10913,7 @@
       }
     ]
   },
-  "Chinnereth": {
+  "Chinnereth@Jos.19.35": {
     "FGid": "Chinnereth",
     "name": "Chinnereth",
     "unifiedNameTIPNR": "Chinnereth@Jos.19.35",
@@ -10938,7 +10940,7 @@
       }
     ]
   },
-  "Chinneroth": {
+  "Chinneroth@Jos.11.2": {
     "FGid": "Chinneroth",
     "name": "Chinneroth",
     "unifiedNameTIPNR": "Chinneroth@Jos.11.2",
@@ -10966,7 +10968,7 @@
       }
     ]
   },
-  "Chios": {
+  "Chios@Act.20.15": {
     "FGid": "Chios",
     "name": "Chios",
     "unifiedNameTIPNR": "Chios@Act.20.15",
@@ -10993,7 +10995,7 @@
       }
     ]
   },
-  "Chitlish": {
+  "Chitlish@Jos.15.40": {
     "FGid": "Chitlish",
     "name": "Chitlish",
     "unifiedNameTIPNR": "Chitlish@Jos.15.40",
@@ -11020,7 +11022,7 @@
       }
     ]
   },
-  "Chorazin": {
+  "Chorazin@Mat.11.21": {
     "FGid": "Chorazin",
     "name": "Chorazin",
     "unifiedNameTIPNR": "Chorazin@Mat.11.21",
@@ -11048,7 +11050,7 @@
       }
     ]
   },
-  "Cilicia": {
+  "Cilicia@Act.6.9": {
     "FGid": "Cilicia",
     "name": "Cilicia",
     "unifiedNameTIPNR": "Cilicia@Act.6.9",
@@ -11082,7 +11084,7 @@
       }
     ]
   },
-  "City_of_Salt": {
+  "City_of_Salt@Jos.15.62": {
     "FGid": "City_of_Salt",
     "name": "City_of_Salt",
     "unifiedNameTIPNR": "City_of_Salt@Jos.15.62",
@@ -11109,7 +11111,7 @@
       }
     ]
   },
-  "Cnidus": {
+  "Cnidus@Act.27.7": {
     "FGid": "Cnidus",
     "name": "Cnidus",
     "unifiedNameTIPNR": "Cnidus@Act.27.7",
@@ -11136,7 +11138,7 @@
       }
     ]
   },
-  "Colossae": {
+  "Colossae@Col.1.2": {
     "FGid": "Colossae",
     "name": "Colossae",
     "unifiedNameTIPNR": "Colossae@Col.1.2",
@@ -11196,7 +11198,7 @@
       }
     ]
   },
-  "Corban": {
+  "Corban@Mat.27.6": {
     "FGid": "Corban",
     "name": "Corban",
     "unifiedNameTIPNR": "Corban@Mat.27.6",
@@ -11239,7 +11241,7 @@
       }
     ]
   },
-  "Corinth": {
+  "Corinth@Act.18.1": {
     "FGid": "Corinth",
     "name": "Corinth",
     "unifiedNameTIPNR": "Corinth@Act.18.1",
@@ -11307,7 +11309,7 @@
       }
     ]
   },
-  "Corner_Gate": {
+  "Corner_Gate@2Ki.14.13": {
     "FGid": "Corner_Gate",
     "name": "Corner_Gate",
     "unifiedNameTIPNR": "Corner_Gate@2Ki.14.13",
@@ -11368,7 +11370,7 @@
       }
     ]
   },
-  "Cos": {
+  "Cos@Act.21.1": {
     "FGid": "Cos",
     "name": "Cos",
     "unifiedNameTIPNR": "Cos@Act.21.1",
@@ -11395,7 +11397,7 @@
       }
     ]
   },
-  "Crete": {
+  "Crete@Deu.2.23": {
     "FGid": "Crete",
     "name": "Crete",
     "unifiedNameTIPNR": "Crete@Deu.2.23",
@@ -11462,7 +11464,7 @@
       }
     ]
   },
-  "Cush": {
+  "Cush@Gen.2.13": {
     "FGid": "Cush",
     "name": "Cush",
     "unifiedNameTIPNR": "Cush@Gen.2.13",
@@ -11567,7 +11569,7 @@
       }
     ]
   },
-  "Cushan": {
+  "Cushan@Hab.3.7": {
     "FGid": "Cushan",
     "name": "Cushan",
     "unifiedNameTIPNR": "Cushan@Hab.3.7",
@@ -11594,7 +11596,7 @@
       }
     ]
   },
-  "Cuthah": {
+  "Cuthah@2Ki.17.30": {
     "FGid": "Cuthah",
     "name": "Cuthah",
     "unifiedNameTIPNR": "Cuthah@2Ki.17.30",
@@ -11637,7 +11639,7 @@
       }
     ]
   },
-  "Cyprus": {
+  "Cyprus@Num.24.24": {
     "FGid": "Cyprus",
     "name": "Cyprus",
     "unifiedNameTIPNR": "Cyprus@Num.24.24",
@@ -11755,7 +11757,7 @@
       }
     ]
   },
-  "Cyrene": {
+  "Cyrene@Mat.27.32": {
     "FGid": "Cyrene",
     "name": "Cyrene",
     "unifiedNameTIPNR": "Cyrene@Mat.27.32",
@@ -11818,7 +11820,7 @@
       }
     ]
   },
-  "Dabbesheth": {
+  "Dabbesheth@Jos.19.11": {
     "FGid": "Dabbesheth",
     "name": "Dabbesheth",
     "unifiedNameTIPNR": "Dabbesheth@Jos.19.11",
@@ -11845,7 +11847,7 @@
       }
     ]
   },
-  "Daberath": {
+  "Daberath@Jos.19.12": {
     "FGid": "Daberath",
     "name": "Daberath",
     "unifiedNameTIPNR": "Daberath@Jos.19.12",
@@ -11874,7 +11876,7 @@
       }
     ]
   },
-  "Dalmatia": {
+  "Dalmatia@2Ti.4.10": {
     "FGid": "Dalmatia",
     "name": "Dalmatia",
     "unifiedNameTIPNR": "Dalmatia@2Ti.4.10",
@@ -11901,7 +11903,7 @@
       }
     ]
   },
-  "Damascus": {
+  "Damascus@Gen.14.15": {
     "FGid": "Damascus",
     "name": "Damascus",
     "unifiedNameTIPNR": "Damascus@Gen.14.15",
@@ -12018,7 +12020,7 @@
       }
     ]
   },
-  "Dan": {
+  "Dan@Gen.14.14": {
     "FGid": "Dan",
     "name": "Dan",
     "unifiedNameTIPNR": "Dan@Gen.14.14",
@@ -12196,7 +12198,7 @@
       }
     ]
   },
-  "Dannah": {
+  "Dannah@Jos.15.49": {
     "FGid": "Dannah",
     "name": "Dannah",
     "unifiedNameTIPNR": "Dannah@Jos.15.49",
@@ -12223,7 +12225,7 @@
       }
     ]
   },
-  "Debir": {
+  "Debir@Jos.10.38": {
     "FGid": "Debir",
     "name": "Debir",
     "unifiedNameTIPNR": "Debir@Jos.10.38",
@@ -12295,7 +12297,7 @@
       }
     ]
   },
-  "Debir2": {
+  "Debir@Jos.15.7": {
     "FGid": "Debir2",
     "name": "Debir",
     "unifiedNameTIPNR": "Debir@Jos.15.7",
@@ -12322,7 +12324,7 @@
       }
     ]
   },
-  "Decapolis": {
+  "Decapolis@Mat.4.25": {
     "FGid": "Decapolis",
     "name": "Decapolis",
     "unifiedNameTIPNR": "Decapolis@Mat.4.25",
@@ -12351,7 +12353,7 @@
       }
     ]
   },
-  "Dedan": {
+  "Dedan@Jer.25.23": {
     "FGid": "Dedan",
     "name": "Dedan",
     "unifiedNameTIPNR": "Dedan@Jer.25.23",
@@ -12415,7 +12417,7 @@
       }
     ]
   },
-  "Derbe": {
+  "Derbe@Act.14.6": {
     "FGid": "Derbe",
     "name": "Derbe",
     "unifiedNameTIPNR": "Derbe@Act.14.6",
@@ -12460,7 +12462,7 @@
       }
     ]
   },
-  "Diblathaim": {
+  "Diblathaim@Num.33.46": {
     "FGid": "Diblathaim",
     "name": "Diblathaim",
     "unifiedNameTIPNR": "Diblathaim@Num.33.46",
@@ -12504,7 +12506,7 @@
       }
     ]
   },
-  "Dibon": {
+  "Dibon@Num.21.30": {
     "FGid": "Dibon",
     "name": "Dibon",
     "unifiedNameTIPNR": "Dibon@Num.21.30",
@@ -12581,7 +12583,7 @@
       }
     ]
   },
-  "Dibon2": {
+  "Dibon@Neh.11.25": {
     "FGid": "Dibon2",
     "name": "Dibon",
     "unifiedNameTIPNR": "Dibon@Neh.11.25",
@@ -12608,7 +12610,7 @@
       }
     ]
   },
-  "Dilean": {
+  "Dilean@Jos.15.38": {
     "FGid": "Dilean",
     "name": "Dilean",
     "unifiedNameTIPNR": "Dilean@Jos.15.38",
@@ -12635,7 +12637,7 @@
       }
     ]
   },
-  "Dimnah": {
+  "Dimnah@Jos.21.35": {
     "FGid": "Dimnah",
     "name": "Dimnah",
     "unifiedNameTIPNR": "Dimnah@Jos.21.35",
@@ -12694,7 +12696,7 @@
       }
     ]
   },
-  "Dimonah": {
+  "Dimonah@Jos.15.22": {
     "FGid": "Dimonah",
     "name": "Dimonah",
     "unifiedNameTIPNR": "Dimonah@Jos.15.22",
@@ -12721,7 +12723,7 @@
       }
     ]
   },
-  "Dinhabah": {
+  "Dinhabah@Gen.36.32": {
     "FGid": "Dinhabah",
     "name": "Dinhabah",
     "unifiedNameTIPNR": "Dinhabah@Gen.36.32",
@@ -12749,7 +12751,7 @@
       }
     ]
   },
-  "Diviners'_Oak": {
+  "Diviners'_Oak@Jdg.9.37": {
     "FGid": "Diviners'_Oak",
     "name": "Diviners'_Oak",
     "unifiedNameTIPNR": "Diviners'_Oak@Jdg.9.37",
@@ -12785,7 +12787,7 @@
       }
     ]
   },
-  "Dizahab": {
+  "Dizahab@Deu.1.1": {
     "FGid": "Dizahab",
     "name": "Dizahab",
     "unifiedNameTIPNR": "Dizahab@Deu.1.1",
@@ -12812,7 +12814,7 @@
       }
     ]
   },
-  "Dophkah": {
+  "Dophkah@Num.33.12": {
     "FGid": "Dophkah",
     "name": "Dophkah",
     "unifiedNameTIPNR": "Dophkah@Num.33.12",
@@ -12840,7 +12842,7 @@
       }
     ]
   },
-  "Dor": {
+  "Dor@Jos.12.23": {
     "FGid": "Dor",
     "name": "Dor",
     "unifiedNameTIPNR": "Dor@Jos.12.23",
@@ -12945,7 +12947,7 @@
       }
     ]
   },
-  "Dothan": {
+  "Dothan@Gen.37.17": {
     "FGid": "Dothan",
     "name": "Dothan",
     "unifiedNameTIPNR": "Dothan@Gen.37.17",
@@ -12974,7 +12976,7 @@
       }
     ]
   },
-  "Dragon_Spring": {
+  "Dragon_Spring@Neh.2.13": {
     "FGid": "Dragon_Spring",
     "name": "Dragon_Spring",
     "unifiedNameTIPNR": "Dragon_Spring@Neh.2.13",
@@ -13026,7 +13028,7 @@
       }
     ]
   },
-  "Dumah": {
+  "Dumah@Isa.21.11": {
     "FGid": "Dumah",
     "name": "Dumah",
     "unifiedNameTIPNR": "Dumah@Isa.21.11",
@@ -13053,7 +13055,7 @@
       }
     ]
   },
-  "Dumah2": {
+  "Dumah@Jos.15.52": {
     "FGid": "Dumah2",
     "name": "Dumah",
     "unifiedNameTIPNR": "Dumah@Jos.15.52",
@@ -13080,7 +13082,7 @@
       }
     ]
   },
-  "Dung_Gate": {
+  "Dung_Gate@Neh.2.13": {
     "FGid": "Dung_Gate",
     "name": "Dung_Gate",
     "unifiedNameTIPNR": "Dung_Gate@Neh.2.13",
@@ -13110,7 +13112,7 @@
       }
     ]
   },
-  "Dura": {
+  "Dura@Dan.3.1": {
     "FGid": "Dura",
     "name": "Dura",
     "unifiedNameTIPNR": "Dura@Dan.3.1",
@@ -13137,7 +13139,7 @@
       }
     ]
   },
-  "East": {
+  "East@Jdg.6.3": {
     "FGid": "East",
     "name": "East",
     "unifiedNameTIPNR": "East@Jdg.6.3",
@@ -13169,7 +13171,7 @@
       }
     ]
   },
-  "East_Gate": {
+  "East_Gate@Neh.3.29": {
     "FGid": "East_Gate",
     "name": "East_Gate",
     "unifiedNameTIPNR": "East_Gate@Neh.3.29",
@@ -13196,7 +13198,7 @@
       }
     ]
   },
-  "Ebal_Mount": {
+  "Ebal_Mount@Deu.11.29": {
     "FGid": "Ebal_Mount",
     "name": "Ebal_Mount",
     "unifiedNameTIPNR": "Ebal_Mount@Deu.11.29",
@@ -13275,7 +13277,7 @@
       }
     ]
   },
-  "Ebenezer": {
+  "Ebenezer@1Sa.4.1": {
     "FGid": "Ebenezer",
     "name": "Ebenezer",
     "unifiedNameTIPNR": "Ebenezer@1Sa.4.1",
@@ -13304,7 +13306,7 @@
       }
     ]
   },
-  "Ebez": {
+  "Ebez@Jos.19.20": {
     "FGid": "Ebez",
     "name": "Ebez",
     "unifiedNameTIPNR": "Ebez@Jos.19.20",
@@ -13331,7 +13333,7 @@
       }
     ]
   },
-  "Ecbatana": {
+  "Ecbatana@Ezr.6.2": {
     "FGid": "Ecbatana",
     "name": "Ecbatana",
     "unifiedNameTIPNR": "Ecbatana@Ezr.6.2",
@@ -13358,7 +13360,7 @@
       }
     ]
   },
-  "Eden": {
+  "Eden@2Ki.19.12": {
     "FGid": "Eden",
     "name": "Eden",
     "unifiedNameTIPNR": "Eden@2Ki.19.12",
@@ -13387,7 +13389,7 @@
       }
     ]
   },
-  "Eden2": {
+  "Eden@Gen.2.8": {
     "FGid": "Eden2",
     "name": "Eden",
     "unifiedNameTIPNR": "Eden@Gen.2.8",
@@ -13427,7 +13429,7 @@
       }
     ]
   },
-  "Eder": {
+  "Eder@Jos.15.21": {
     "FGid": "Eder",
     "name": "Eder",
     "unifiedNameTIPNR": "Eder@Jos.15.21",
@@ -13454,7 +13456,7 @@
       }
     ]
   },
-  "Edom": {
+  "Edom@Gen.36.40": {
     "FGid": "Edom",
     "name": "Edom",
     "unifiedNameTIPNR": "Edom@Gen.36.40",
@@ -13746,7 +13748,7 @@
       }
     ]
   },
-  "Edrei": {
+  "Edrei@Num.21.33": {
     "FGid": "Edrei",
     "name": "Edrei",
     "unifiedNameTIPNR": "Edrei@Num.21.33",
@@ -13780,7 +13782,7 @@
       }
     ]
   },
-  "Eglaim": {
+  "Eglaim@Isa.15.8": {
     "FGid": "Eglaim",
     "name": "Eglaim",
     "unifiedNameTIPNR": "Eglaim@Isa.15.8",
@@ -13807,7 +13809,7 @@
       }
     ]
   },
-  "Eglath-shelishiyah": {
+  "Eglath-shelishiyah@Isa.15.5": {
     "FGid": "Eglath-shelishiyah",
     "name": "Eglath-shelishiyah",
     "unifiedNameTIPNR": "Eglath-shelishiyah@Isa.15.5",
@@ -13835,7 +13837,7 @@
       }
     ]
   },
-  "Eglon": {
+  "Eglon@Jos.10.3": {
     "FGid": "Eglon",
     "name": "Eglon",
     "unifiedNameTIPNR": "Eglon@Jos.10.3",
@@ -13869,7 +13871,7 @@
       }
     ]
   },
-  "Egypt": {
+  "Egypt@Gen.12.10": {
     "FGid": "Egypt",
     "name": "Egypt",
     "unifiedNameTIPNR": "Egypt@Gen.12.10",
@@ -14782,7 +14784,7 @@
       }
     ]
   },
-  "Egypt_Sea": {
+  "Egypt_Sea@Isa.11.15": {
     "FGid": "Egypt_Sea",
     "name": "Egypt_Sea",
     "unifiedNameTIPNR": "Egypt_Sea@Isa.11.15",
@@ -14809,7 +14811,7 @@
       }
     ]
   },
-  "Ekron": {
+  "Ekron@Jos.13.3": {
     "FGid": "Ekron",
     "name": "Ekron",
     "unifiedNameTIPNR": "Ekron@Jos.13.3",
@@ -14875,7 +14877,7 @@
       }
     ]
   },
-  "Elah_Valley": {
+  "Elah_Valley@1Sa.17.2": {
     "FGid": "Elah_Valley",
     "name": "Elah_Valley",
     "unifiedNameTIPNR": "Elah_Valley@1Sa.17.2",
@@ -14913,7 +14915,7 @@
       }
     ]
   },
-  "Elam": {
+  "Elam@Gen.14.1": {
     "FGid": "Elam",
     "name": "Elam",
     "unifiedNameTIPNR": "Elam@Gen.14.1",
@@ -15003,7 +15005,7 @@
       }
     ]
   },
-  "Elath": {
+  "Elath@Deu.2.8": {
     "FGid": "Elath",
     "name": "Elath",
     "unifiedNameTIPNR": "Elath@Deu.2.8",
@@ -15052,7 +15054,7 @@
       }
     ]
   },
-  "Elealeh": {
+  "Elealeh@Num.32.3": {
     "FGid": "Elealeh",
     "name": "Elealeh",
     "unifiedNameTIPNR": "Elealeh@Num.32.3",
@@ -15083,7 +15085,7 @@
       }
     ]
   },
-  "Elim": {
+  "Elim@Exo.15.27": {
     "FGid": "Elim",
     "name": "Elim",
     "unifiedNameTIPNR": "Elim@Exo.15.27",
@@ -15115,7 +15117,7 @@
       }
     ]
   },
-  "Elkosh": {
+  "Elkosh@Nam.1.1": {
     "FGid": "Elkosh",
     "name": "Elkosh",
     "unifiedNameTIPNR": "Elkosh@Nam.1.1",
@@ -15142,7 +15144,7 @@
       }
     ]
   },
-  "Ellasar": {
+  "Ellasar@Gen.14.1": {
     "FGid": "Ellasar",
     "name": "Ellasar",
     "unifiedNameTIPNR": "Ellasar@Gen.14.1",
@@ -15170,7 +15172,7 @@
       }
     ]
   },
-  "Elon": {
+  "Elon@Jos.19.43": {
     "FGid": "Elon",
     "name": "Elon",
     "unifiedNameTIPNR": "Elon@Jos.19.43",
@@ -15197,7 +15199,7 @@
       }
     ]
   },
-  "Elonbeth-hanan": {
+  "Elonbeth-hanan@1Ki.4.9": {
     "FGid": "Elonbeth-hanan",
     "name": "Elonbeth-hanan",
     "unifiedNameTIPNR": "Elonbeth-hanan@1Ki.4.9",
@@ -15224,7 +15226,7 @@
       }
     ]
   },
-  "El-paran": {
+  "El-paran@Gen.14.6": {
     "FGid": "El-paran",
     "name": "El-paran",
     "unifiedNameTIPNR": "El-paran@Gen.14.6",
@@ -15251,7 +15253,7 @@
       }
     ]
   },
-  "Eltekeh": {
+  "Eltekeh@Jos.19.44": {
     "FGid": "Eltekeh",
     "name": "Eltekeh",
     "unifiedNameTIPNR": "Eltekeh@Jos.19.44",
@@ -15294,7 +15296,7 @@
       }
     ]
   },
-  "Eltekon": {
+  "Eltekon@Jos.15.59": {
     "FGid": "Eltekon",
     "name": "Eltekon",
     "unifiedNameTIPNR": "Eltekon@Jos.15.59",
@@ -15321,7 +15323,7 @@
       }
     ]
   },
-  "Eltolad": {
+  "Eltolad@Jos.15.30": {
     "FGid": "Eltolad",
     "name": "Eltolad",
     "unifiedNameTIPNR": "Eltolad@Jos.15.30",
@@ -15349,7 +15351,7 @@
       }
     ]
   },
-  "Emek-keziz": {
+  "Emek-keziz@Jos.18.21": {
     "FGid": "Emek-keziz",
     "name": "Emek-keziz",
     "unifiedNameTIPNR": "Emek-keziz@Jos.18.21",
@@ -15385,7 +15387,7 @@
       }
     ]
   },
-  "Emmaus": {
+  "Emmaus@Luk.24.13": {
     "FGid": "Emmaus",
     "name": "Emmaus",
     "unifiedNameTIPNR": "Emmaus@Luk.24.13",
@@ -15412,7 +15414,7 @@
       }
     ]
   },
-  "Enaim": {
+  "Enaim@Gen.38.14": {
     "FGid": "Enaim",
     "name": "Enaim",
     "unifiedNameTIPNR": "Enaim@Gen.38.14",
@@ -15440,7 +15442,7 @@
       }
     ]
   },
-  "Enam": {
+  "Enam@Jos.15.34": {
     "FGid": "Enam",
     "name": "Enam",
     "unifiedNameTIPNR": "Enam@Jos.15.34",
@@ -15467,7 +15469,7 @@
       }
     ]
   },
-  "En-dor": {
+  "En-dor@Jos.17.11": {
     "FGid": "En-dor",
     "name": "En-dor",
     "unifiedNameTIPNR": "En-dor@Jos.17.11",
@@ -15496,7 +15498,7 @@
       }
     ]
   },
-  "Eneglaim": {
+  "Eneglaim@Ezk.47.10": {
     "FGid": "Eneglaim",
     "name": "Eneglaim",
     "unifiedNameTIPNR": "Eneglaim@Ezk.47.10",
@@ -15523,7 +15525,7 @@
       }
     ]
   },
-  "En-gannim": {
+  "En-gannim@Jos.15.34": {
     "FGid": "En-gannim",
     "name": "En-gannim",
     "unifiedNameTIPNR": "En-gannim@Jos.15.34",
@@ -15550,7 +15552,7 @@
       }
     ]
   },
-  "En-gannim2": {
+  "En-gannim@Jos.19.21": {
     "FGid": "En-gannim2",
     "name": "En-gannim",
     "unifiedNameTIPNR": "En-gannim@Jos.19.21",
@@ -15594,7 +15596,7 @@
       }
     ]
   },
-  "Engedi": {
+  "Engedi@Jos.15.62": {
     "FGid": "Engedi",
     "name": "Engedi",
     "unifiedNameTIPNR": "Engedi@Jos.15.62",
@@ -15643,7 +15645,7 @@
       }
     ]
   },
-  "En-haddah": {
+  "En-haddah@Jos.19.21": {
     "FGid": "En-haddah",
     "name": "En-haddah",
     "unifiedNameTIPNR": "En-haddah@Jos.19.21",
@@ -15670,7 +15672,7 @@
       }
     ]
   },
-  "En-hakkore": {
+  "En-hakkore@Jdg.15.19": {
     "FGid": "En-hakkore",
     "name": "En-hakkore",
     "unifiedNameTIPNR": "En-hakkore@Jdg.15.19",
@@ -15697,7 +15699,7 @@
       }
     ]
   },
-  "En-hazor": {
+  "En-hazor@Jos.19.37": {
     "FGid": "En-hazor",
     "name": "En-hazor",
     "unifiedNameTIPNR": "En-hazor@Jos.19.37",
@@ -15724,7 +15726,7 @@
       }
     ]
   },
-  "En-rogel": {
+  "En-rogel@Jos.15.7": {
     "FGid": "En-rogel",
     "name": "En-rogel",
     "unifiedNameTIPNR": "En-rogel@Jos.15.7",
@@ -15779,7 +15781,7 @@
       }
     ]
   },
-  "En-shemesh": {
+  "En-shemesh@Jos.15.7": {
     "FGid": "En-shemesh",
     "name": "En-shemesh",
     "unifiedNameTIPNR": "En-shemesh@Jos.15.7",
@@ -15807,7 +15809,7 @@
       }
     ]
   },
-  "Ephah": {
+  "Ephah@Isa.60.6": {
     "FGid": "Ephah",
     "name": "Ephah",
     "unifiedNameTIPNR": "Ephah@Isa.60.6",
@@ -15835,7 +15837,7 @@
       }
     ]
   },
-  "Ephes-dammim": {
+  "Ephes-dammim@1Sa.17.1": {
     "FGid": "Ephes-dammim",
     "name": "Ephes-dammim",
     "unifiedNameTIPNR": "Ephes-dammim@1Sa.17.1",
@@ -15878,7 +15880,7 @@
       }
     ]
   },
-  "Ephesus": {
+  "Ephesus@Act.18.19": {
     "FGid": "Ephesus",
     "name": "Ephesus",
     "unifiedNameTIPNR": "Ephesus@Act.18.19",
@@ -15972,7 +15974,7 @@
       }
     ]
   },
-  "Forest_Ephraim": {
+  "Forest_Ephraim@2Sa.18.6": {
     "FGid": "Forest_Ephraim",
     "name": "Forest_Ephraim",
     "unifiedNameTIPNR": "Forest_Ephraim@2Sa.18.6",
@@ -16008,7 +16010,7 @@
       }
     ]
   },
-  "Ephraim": {
+  "Ephraim@2Sa.13.23": {
     "FGid": "Ephraim",
     "name": "Ephraim",
     "unifiedNameTIPNR": "Ephraim@2Sa.13.23",
@@ -16051,7 +16053,7 @@
       }
     ]
   },
-  "Ephraim_Gate": {
+  "Ephraim_Gate@2Ki.14.13": {
     "FGid": "Ephraim_Gate",
     "name": "Ephraim_Gate",
     "unifiedNameTIPNR": "Ephraim_Gate@2Ki.14.13",
@@ -16079,7 +16081,7 @@
       }
     ]
   },
-  "Ephraim_Gate2": {
+  "Ephraim_Gate@Neh.8.16": {
     "FGid": "Ephraim_Gate2",
     "name": "Ephraim_Gate",
     "unifiedNameTIPNR": "Ephraim_Gate@Neh.8.16",
@@ -16107,7 +16109,7 @@
       }
     ]
   },
-  "Ephron_Mount": {
+  "Ephron_Mount@Jos.15.9": {
     "FGid": "Ephron_Mount",
     "name": "Ephron_Mount",
     "unifiedNameTIPNR": "Ephron_Mount@Jos.15.9",
@@ -16150,7 +16152,7 @@
       }
     ]
   },
-  "Erech": {
+  "Erech@Gen.10.10": {
     "FGid": "Erech",
     "name": "Erech",
     "unifiedNameTIPNR": "Erech@Gen.10.10",
@@ -16193,7 +16195,7 @@
       }
     ]
   },
-  "Esau_Mount": {
+  "Esau_Mount@Oba.1.8": {
     "FGid": "Esau_Mount",
     "name": "Esau_Mount",
     "unifiedNameTIPNR": "Esau_Mount@Oba.1.8",
@@ -16223,7 +16225,7 @@
       }
     ]
   },
-  "Esek": {
+  "Esek@Gen.26.20": {
     "FGid": "Esek",
     "name": "Esek",
     "unifiedNameTIPNR": "Esek@Gen.26.20",
@@ -16250,7 +16252,7 @@
       }
     ]
   },
-  "Eshan": {
+  "Eshan@Jos.15.52": {
     "FGid": "Eshan",
     "name": "Eshan",
     "unifiedNameTIPNR": "Eshan@Jos.15.52",
@@ -16277,7 +16279,7 @@
       }
     ]
   },
-  "Eshcol_Valley": {
+  "Eshcol_Valley@Num.13.23": {
     "FGid": "Eshcol_Valley",
     "name": "Eshcol_Valley",
     "unifiedNameTIPNR": "Eshcol_Valley@Num.13.23",
@@ -16316,7 +16318,7 @@
       }
     ]
   },
-  "Eshtaol": {
+  "Eshtaol@Jos.15.33": {
     "FGid": "Eshtaol",
     "name": "Eshtaol",
     "unifiedNameTIPNR": "Eshtaol@Jos.15.33",
@@ -16365,7 +16367,7 @@
       }
     ]
   },
-  "Eshtemoa": {
+  "Eshtemoa@Jos.21.14": {
     "FGid": "Eshtemoa",
     "name": "Eshtemoa",
     "unifiedNameTIPNR": "Eshtemoa@Jos.21.14",
@@ -16413,7 +16415,7 @@
       }
     ]
   },
-  "Etam": {
+  "Etam@Jdg.15.8": {
     "FGid": "Etam",
     "name": "Etam",
     "unifiedNameTIPNR": "Etam@Jdg.15.8",
@@ -16441,7 +16443,7 @@
       }
     ]
   },
-  "Etam2": {
+  "Etam@1Ch.4.3": {
     "FGid": "Etam2",
     "name": "Etam",
     "unifiedNameTIPNR": "Etam@1Ch.4.3",
@@ -16484,7 +16486,7 @@
       }
     ]
   },
-  "Etam3": {
+  "Etam@2Ch.11.6": {
     "FGid": "Etam3",
     "name": "Etam",
     "unifiedNameTIPNR": "Etam@2Ch.11.6",
@@ -16511,7 +16513,7 @@
       }
     ]
   },
-  "Etham": {
+  "Etham@Exo.13.20": {
     "FGid": "Etham",
     "name": "Etham",
     "unifiedNameTIPNR": "Etham@Exo.13.20",
@@ -16541,7 +16543,7 @@
       }
     ]
   },
-  "Ether": {
+  "Ether@Jos.15.42": {
     "FGid": "Ether",
     "name": "Ether",
     "unifiedNameTIPNR": "Ether@Jos.15.42",
@@ -16569,7 +16571,7 @@
       }
     ]
   },
-  "Ethiopia": {
+  "Ethiopia@2Ch.12.3": {
     "FGid": "Ethiopia",
     "name": "Ethiopia",
     "unifiedNameTIPNR": "Ethiopia@2Ch.12.3",
@@ -16641,7 +16643,7 @@
       }
     ]
   },
-  "Eth-kazin": {
+  "Eth-kazin@Jos.19.13": {
     "FGid": "Eth-kazin",
     "name": "Eth-kazin",
     "unifiedNameTIPNR": "Eth-kazin@Jos.19.13",
@@ -16668,7 +16670,7 @@
       }
     ]
   },
-  "Euphrates": {
+  "Euphrates@Gen.2.14": {
     "FGid": "Euphrates",
     "name": "Euphrates",
     "unifiedNameTIPNR": "Euphrates@Gen.2.14",
@@ -16834,7 +16836,7 @@
       }
     ]
   },
-  "Ezel_Stone": {
+  "Ezel_Stone@1Sa.20.19": {
     "FGid": "Ezel_Stone",
     "name": "Ezel_Stone",
     "unifiedNameTIPNR": "Ezel_Stone@1Sa.20.19",
@@ -16861,7 +16863,7 @@
       }
     ]
   },
-  "Ezem": {
+  "Ezem@Jos.15.29": {
     "FGid": "Ezem",
     "name": "Ezem",
     "unifiedNameTIPNR": "Ezem@Jos.15.29",
@@ -16890,7 +16892,7 @@
       }
     ]
   },
-  "Ezion-geber": {
+  "Ezion-geber@Num.33.35": {
     "FGid": "Ezion-geber",
     "name": "Ezion-geber",
     "unifiedNameTIPNR": "Ezion-geber@Num.33.35",
@@ -16923,7 +16925,7 @@
       }
     ]
   },
-  "Fair_Havens": {
+  "Fair_Havens@Act.27.8": {
     "FGid": "Fair_Havens",
     "name": "Fair_Havens",
     "unifiedNameTIPNR": "Fair_Havens@Act.27.8",
@@ -16974,7 +16976,7 @@
       }
     ]
   },
-  "Field_of_Blood": {
+  "Field_of_Blood@Mat.27.8": {
     "FGid": "Field_of_Blood",
     "name": "Field_of_Blood",
     "unifiedNameTIPNR": "Field_of_Blood@Mat.27.8",
@@ -17035,7 +17037,7 @@
       }
     ]
   },
-  "Fish_Gate": {
+  "Fish_Gate@2Ch.33.14": {
     "FGid": "Fish_Gate",
     "name": "Fish_Gate",
     "unifiedNameTIPNR": "Fish_Gate@2Ch.33.14",
@@ -17065,7 +17067,7 @@
       }
     ]
   },
-  "Forum_of_Appius": {
+  "Forum_of_Appius@Act.28.15": {
     "FGid": "Forum_of_Appius",
     "name": "Forum_of_Appius",
     "unifiedNameTIPNR": "Forum_of_Appius@Act.28.15",
@@ -17101,7 +17103,7 @@
       }
     ]
   },
-  "Foundation_Gate": {
+  "Foundation_Gate@2Ch.23.5": {
     "FGid": "Foundation_Gate",
     "name": "Foundation_Gate",
     "unifiedNameTIPNR": "Foundation_Gate@2Ch.23.5",
@@ -17128,7 +17130,7 @@
       }
     ]
   },
-  "Fountain_Gate": {
+  "Fountain_Gate@Neh.2.14": {
     "FGid": "Fountain_Gate",
     "name": "Fountain_Gate",
     "unifiedNameTIPNR": "Fountain_Gate@Neh.2.14",
@@ -17157,7 +17159,7 @@
       }
     ]
   },
-  "Gaash": {
+  "Gaash@Jos.24.30": {
     "FGid": "Gaash",
     "name": "Gaash",
     "unifiedNameTIPNR": "Gaash@Jos.24.30",
@@ -17187,7 +17189,7 @@
       }
     ]
   },
-  "Gabbatha": {
+  "Gabbatha@Jhn.19.13": {
     "FGid": "Gabbatha",
     "name": "Gabbatha",
     "unifiedNameTIPNR": "Gabbatha@Jhn.19.13",
@@ -17230,7 +17232,7 @@
       }
     ]
   },
-  "Gerasa": {
+  "Gerasa@Mat.8.28": {
     "FGid": "Gerasa",
     "name": "Gerasa",
     "unifiedNameTIPNR": "Gerasa@Mat.8.28",
@@ -17297,7 +17299,7 @@
       }
     ]
   },
-  "Galatia": {
+  "Galatia@Act.16.6": {
     "FGid": "Galatia",
     "name": "Galatia",
     "unifiedNameTIPNR": "Galatia@Act.16.6",
@@ -17361,7 +17363,7 @@
       }
     ]
   },
-  "Galilee": {
+  "Galilee@Jos.12.23": {
     "FGid": "Galilee",
     "name": "Galilee",
     "unifiedNameTIPNR": "Galilee@Jos.12.23",
@@ -17523,7 +17525,7 @@
       }
     ]
   },
-  "Galilee_Sea": {
+  "Galilee_Sea@Num.34.11": {
     "FGid": "Galilee_Sea",
     "name": "Galilee_Sea",
     "unifiedNameTIPNR": "Galilee_Sea@Num.34.11",
@@ -17635,7 +17637,7 @@
       }
     ]
   },
-  "Gallim": {
+  "Gallim@1Sa.25.44": {
     "FGid": "Gallim",
     "name": "Gallim",
     "unifiedNameTIPNR": "Gallim@1Sa.25.44",
@@ -17663,7 +17665,7 @@
       }
     ]
   },
-  "Gamad": {
+  "Gamad@Ezk.27.11": {
     "FGid": "Gamad",
     "name": "Gamad",
     "unifiedNameTIPNR": "Gamad@Ezk.27.11",
@@ -17690,7 +17692,7 @@
       }
     ]
   },
-  "Gareb": {
+  "Gareb@Jer.31.39": {
     "FGid": "Gareb",
     "name": "Gareb",
     "unifiedNameTIPNR": "Gareb@Jer.31.39",
@@ -17717,7 +17719,7 @@
       }
     ]
   },
-  "Gath": {
+  "Gath@Jos.11.22": {
     "FGid": "Gath",
     "name": "Gath",
     "unifiedNameTIPNR": "Gath@Jos.11.22",
@@ -17849,7 +17851,7 @@
       }
     ]
   },
-  "Gath-hepher": {
+  "Gath-hepher@Jos.19.13": {
     "FGid": "Gath-hepher",
     "name": "Gath-hepher",
     "unifiedNameTIPNR": "Gath-hepher@Jos.19.13",
@@ -17877,7 +17879,7 @@
       }
     ]
   },
-  "Gath-rimmon": {
+  "Gath-rimmon@Jos.19.45": {
     "FGid": "Gath-rimmon",
     "name": "Gath-rimmon",
     "unifiedNameTIPNR": "Gath-rimmon@Jos.19.45",
@@ -17906,7 +17908,7 @@
       }
     ]
   },
-  "Gaza": {
+  "Gaza@Gen.10.19": {
     "FGid": "Gaza",
     "name": "Gaza",
     "unifiedNameTIPNR": "Gaza@Gen.10.19",
@@ -18016,7 +18018,7 @@
       }
     ]
   },
-  "Geba": {
+  "Geba@Jos.18.24": {
     "FGid": "Geba",
     "name": "Geba",
     "unifiedNameTIPNR": "Geba@Jos.18.24",
@@ -18058,7 +18060,7 @@
       }
     ]
   },
-  "Gebal": {
+  "Gebal@Jos.13.5": {
     "FGid": "Gebal",
     "name": "Gebal",
     "unifiedNameTIPNR": "Gebal@Jos.13.5",
@@ -18133,7 +18135,7 @@
       }
     ]
   },
-  "Gebim": {
+  "Gebim@Isa.10.31": {
     "FGid": "Gebim",
     "name": "Gebim",
     "unifiedNameTIPNR": "Gebim@Isa.10.31",
@@ -18160,7 +18162,7 @@
       }
     ]
   },
-  "Gederah": {
+  "Gederah@Jos.15.36": {
     "FGid": "Gederah",
     "name": "Gederah",
     "unifiedNameTIPNR": "Gederah@Jos.15.36",
@@ -18220,7 +18222,7 @@
       }
     ]
   },
-  "Gederoth": {
+  "Gederoth@Jos.15.41": {
     "FGid": "Gederoth",
     "name": "Gederoth",
     "unifiedNameTIPNR": "Gederoth@Jos.15.41",
@@ -18248,7 +18250,7 @@
       }
     ]
   },
-  "Gederothaim": {
+  "Gederothaim@Jos.15.36": {
     "FGid": "Gederothaim",
     "name": "Gederothaim",
     "unifiedNameTIPNR": "Gederothaim@Jos.15.36",
@@ -18275,7 +18277,7 @@
       }
     ]
   },
-  "Gedor": {
+  "Gedor@Jos.12.13": {
     "FGid": "Gedor",
     "name": "Gedor",
     "unifiedNameTIPNR": "Gedor@Jos.12.13",
@@ -18321,7 +18323,7 @@
       }
     ]
   },
-  "Gedor2": {
+  "Gedor@1Ch.4.39": {
     "FGid": "Gedor2",
     "name": "Gedor",
     "unifiedNameTIPNR": "Gedor@1Ch.4.39",
@@ -18348,7 +18350,7 @@
       }
     ]
   },
-  "Ge-harashim": {
+  "Ge-harashim@1Ch.4.14": {
     "FGid": "Ge-harashim",
     "name": "Ge-harashim",
     "unifiedNameTIPNR": "Ge-harashim@1Ch.4.14",
@@ -18408,7 +18410,7 @@
       }
     ]
   },
-  "Gennesaret": {
+  "Gennesaret@Mat.14.34": {
     "FGid": "Gennesaret",
     "name": "Gennesaret",
     "unifiedNameTIPNR": "Gennesaret@Mat.14.34",
@@ -18437,7 +18439,7 @@
       }
     ]
   },
-  "Gerar": {
+  "Gerar@Gen.10.19": {
     "FGid": "Gerar",
     "name": "Gerar",
     "unifiedNameTIPNR": "Gerar@Gen.10.19",
@@ -18474,7 +18476,7 @@
       }
     ]
   },
-  "Gerizim_Mount": {
+  "Gerizim_Mount@Deu.11.29": {
     "FGid": "Gerizim_Mount",
     "name": "Gerizim_Mount",
     "unifiedNameTIPNR": "Gerizim_Mount@Deu.11.29",
@@ -18504,7 +18506,7 @@
       }
     ]
   },
-  "Geruth_Chimham": {
+  "Geruth_Chimham@Jer.41.17": {
     "FGid": "Geruth_Chimham",
     "name": "Geruth_Chimham",
     "unifiedNameTIPNR": "Geruth_Chimham@Jer.41.17",
@@ -18541,7 +18543,7 @@
       }
     ]
   },
-  "Geshur": {
+  "Geshur@Jos.13.13": {
     "FGid": "Geshur",
     "name": "Geshur",
     "unifiedNameTIPNR": "Geshur@Jos.13.13",
@@ -18597,7 +18599,7 @@
       }
     ]
   },
-  "Gethsemane": {
+  "Gethsemane@Mat.26.36": {
     "FGid": "Gethsemane",
     "name": "Gethsemane",
     "unifiedNameTIPNR": "Gethsemane@Mat.26.36",
@@ -18625,7 +18627,7 @@
       }
     ]
   },
-  "Gezer": {
+  "Gezer@Jos.10.33": {
     "FGid": "Gezer",
     "name": "Gezer",
     "unifiedNameTIPNR": "Gezer@Jos.10.33",
@@ -18683,7 +18685,7 @@
       }
     ]
   },
-  "Giah": {
+  "Giah@2Sa.2.24": {
     "FGid": "Giah",
     "name": "Giah",
     "unifiedNameTIPNR": "Giah@2Sa.2.24",
@@ -18710,7 +18712,7 @@
       }
     ]
   },
-  "Gibbethon": {
+  "Gibbethon@Jos.19.44": {
     "FGid": "Gibbethon",
     "name": "Gibbethon",
     "unifiedNameTIPNR": "Gibbethon@Jos.19.44",
@@ -18743,7 +18745,7 @@
       }
     ]
   },
-  "Gibeah": {
+  "Gibeah@Jos.15.57": {
     "FGid": "Gibeah",
     "name": "Gibeah",
     "unifiedNameTIPNR": "Gibeah@Jos.15.57",
@@ -18771,7 +18773,7 @@
       }
     ]
   },
-  "Gibeah2": {
+  "Gibeah@Jos.18.28": {
     "FGid": "Gibeah2",
     "name": "Gibeah",
     "unifiedNameTIPNR": "Gibeah@Jos.18.28",
@@ -18904,7 +18906,7 @@
       }
     ]
   },
-  "Gibeath-elohim": {
+  "Gibeath-elohim@1Sa.10.5": {
     "FGid": "Gibeath-elohim",
     "name": "Gibeath-elohim",
     "unifiedNameTIPNR": "Gibeath-elohim@1Sa.10.5",
@@ -18940,7 +18942,7 @@
       }
     ]
   },
-  "Gibeon": {
+  "Gibeon@Jos.9.3": {
     "FGid": "Gibeon",
     "name": "Gibeon",
     "unifiedNameTIPNR": "Gibeon@Jos.9.3",
@@ -19089,7 +19091,7 @@
       }
     ]
   },
-  "Gidom": {
+  "Gidom@Jdg.20.45": {
     "FGid": "Gidom",
     "name": "Gidom",
     "unifiedNameTIPNR": "Gidom@Jdg.20.45",
@@ -19116,7 +19118,7 @@
       }
     ]
   },
-  "Gihon": {
+  "Gihon@Gen.2.13": {
     "FGid": "Gihon",
     "name": "Gihon",
     "unifiedNameTIPNR": "Gihon@Gen.2.13",
@@ -19148,7 +19150,7 @@
       }
     ]
   },
-  "Gilboa": {
+  "Gilboa@1Sa.28.4": {
     "FGid": "Gilboa",
     "name": "Gilboa",
     "unifiedNameTIPNR": "Gilboa@1Sa.28.4",
@@ -19177,7 +19179,7 @@
       }
     ]
   },
-  "Gilboa_Mount": {
+  "Gilboa_Mount@1Sa.31.1": {
     "FGid": "Gilboa_Mount",
     "name": "Gilboa_Mount",
     "unifiedNameTIPNR": "Gilboa_Mount@1Sa.31.1",
@@ -19224,7 +19226,7 @@
       }
     ]
   },
-  "Gilead": {
+  "Gilead@Gen.31.21": {
     "FGid": "Gilead",
     "name": "Gilead",
     "unifiedNameTIPNR": "Gilead@Gen.31.21",
@@ -19395,7 +19397,7 @@
       }
     ]
   },
-  "Gilgal": {
+  "Gilgal@Deu.11.30": {
     "FGid": "Gilgal",
     "name": "Gilgal",
     "unifiedNameTIPNR": "Gilgal@Deu.11.30",
@@ -19515,7 +19517,7 @@
       }
     ]
   },
-  "Gilgal2": {
+  "Gilgal@2Ki.2.1": {
     "FGid": "Gilgal2",
     "name": "Gilgal",
     "unifiedNameTIPNR": "Gilgal@2Ki.2.1",
@@ -19543,7 +19545,7 @@
       }
     ]
   },
-  "Giloh": {
+  "Giloh@Jos.15.51": {
     "FGid": "Giloh",
     "name": "Giloh",
     "unifiedNameTIPNR": "Giloh@Jos.15.51",
@@ -19603,7 +19605,7 @@
       }
     ]
   },
-  "Gimzo": {
+  "Gimzo@2Ch.28.18": {
     "FGid": "Gimzo",
     "name": "Gimzo",
     "unifiedNameTIPNR": "Gimzo@2Ch.28.18",
@@ -19630,7 +19632,7 @@
       }
     ]
   },
-  "Gittaim": {
+  "Gittaim@2Sa.4.3": {
     "FGid": "Gittaim",
     "name": "Gittaim",
     "unifiedNameTIPNR": "Gittaim@2Sa.4.3",
@@ -19658,7 +19660,7 @@
       }
     ]
   },
-  "Goah": {
+  "Goah@Jer.31.39": {
     "FGid": "Goah",
     "name": "Goah",
     "unifiedNameTIPNR": "Goah@Jer.31.39",
@@ -19685,7 +19687,7 @@
       }
     ]
   },
-  "Gog": {
+  "Gog@Ezk.38.2": {
     "FGid": "Gog",
     "name": "Gog",
     "unifiedNameTIPNR": "Gog@Ezk.38.2",
@@ -19737,7 +19739,7 @@
       }
     ]
   },
-  "Golan": {
+  "Golan@Deu.4.43": {
     "FGid": "Golan",
     "name": "Golan",
     "unifiedNameTIPNR": "Golan@Deu.4.43",
@@ -19782,7 +19784,7 @@
       }
     ]
   },
-  "Golgotha": {
+  "Golgotha@Mat.27.33": {
     "FGid": "Golgotha",
     "name": "Golgotha",
     "unifiedNameTIPNR": "Golgotha@Mat.27.33",
@@ -19830,7 +19832,7 @@
       }
     ]
   },
-  "Gomorrah": {
+  "Gomorrah@Gen.10.19": {
     "FGid": "Gomorrah",
     "name": "Gomorrah",
     "unifiedNameTIPNR": "Gomorrah@Gen.10.19",
@@ -19910,7 +19912,7 @@
       }
     ]
   },
-  "Goshen": {
+  "Goshen@Gen.45.10": {
     "FGid": "Goshen",
     "name": "Goshen",
     "unifiedNameTIPNR": "Goshen@Gen.45.10",
@@ -19948,7 +19950,7 @@
       }
     ]
   },
-  "Goshen2": {
+  "Goshen@Jos.10.41": {
     "FGid": "Goshen2",
     "name": "Goshen",
     "unifiedNameTIPNR": "Goshen@Jos.10.41",
@@ -19977,7 +19979,7 @@
       }
     ]
   },
-  "Gozan": {
+  "Gozan@2Ki.17.6": {
     "FGid": "Gozan",
     "name": "Gozan",
     "unifiedNameTIPNR": "Gozan@2Ki.17.6",
@@ -20008,7 +20010,7 @@
       }
     ]
   },
-  "Great_Sea": {
+  "Great_Sea@Num.34.6": {
     "FGid": "Great_Sea",
     "name": "Great_Sea",
     "unifiedNameTIPNR": "Great_Sea@Num.34.6",
@@ -20079,7 +20081,7 @@
       }
     ]
   },
-  "Guard_Gate": {
+  "Guard_Gate@Neh.12.39": {
     "FGid": "Guard_Gate",
     "name": "Guard_Gate",
     "unifiedNameTIPNR": "Guard_Gate@Neh.12.39",
@@ -20106,7 +20108,7 @@
       }
     ]
   },
-  "Gur": {
+  "Gur@2Ki.9.27": {
     "FGid": "Gur",
     "name": "Gur",
     "unifiedNameTIPNR": "Gur@2Ki.9.27",
@@ -20133,7 +20135,7 @@
       }
     ]
   },
-  "Gurbaal": {
+  "Gurbaal@2Ch.26.7": {
     "FGid": "Gurbaal",
     "name": "Gurbaal",
     "unifiedNameTIPNR": "Gurbaal@2Ch.26.7",
@@ -20160,7 +20162,7 @@
       }
     ]
   },
-  "Habor": {
+  "Habor@2Ki.17.6": {
     "FGid": "Habor",
     "name": "Habor",
     "unifiedNameTIPNR": "Habor@2Ki.17.6",
@@ -20189,7 +20191,7 @@
       }
     ]
   },
-  "Hachilah": {
+  "Hachilah@1Sa.23.19": {
     "FGid": "Hachilah",
     "name": "Hachilah",
     "unifiedNameTIPNR": "Hachilah@1Sa.23.19",
@@ -20218,7 +20220,7 @@
       }
     ]
   },
-  "Hadad-rimmon": {
+  "Hadad-rimmon@Zec.12.11": {
     "FGid": "Hadad-rimmon",
     "name": "Hadad-rimmon",
     "unifiedNameTIPNR": "Hadad-rimmon@Zec.12.11",
@@ -20245,7 +20247,7 @@
       }
     ]
   },
-  "Hadashah": {
+  "Hadashah@Jos.15.37": {
     "FGid": "Hadashah",
     "name": "Hadashah",
     "unifiedNameTIPNR": "Hadashah@Jos.15.37",
@@ -20272,7 +20274,7 @@
       }
     ]
   },
-  "Hadid": {
+  "Hadid@Ezr.2.33": {
     "FGid": "Hadid",
     "name": "Hadid",
     "unifiedNameTIPNR": "Hadid@Ezr.2.33",
@@ -20301,7 +20303,7 @@
       }
     ]
   },
-  "Hadrach": {
+  "Hadrach@Zec.9.1": {
     "FGid": "Hadrach",
     "name": "Hadrach",
     "unifiedNameTIPNR": "Hadrach@Zec.9.1",
@@ -20328,7 +20330,7 @@
       }
     ]
   },
-  "Haeleph": {
+  "Haeleph@Jos.18.28": {
     "FGid": "Haeleph",
     "name": "Haeleph",
     "unifiedNameTIPNR": "Haeleph@Jos.18.28",
@@ -20355,7 +20357,7 @@
       }
     ]
   },
-  "Halah": {
+  "Halah@2Ki.17.6": {
     "FGid": "Halah",
     "name": "Halah",
     "unifiedNameTIPNR": "Halah@2Ki.17.6",
@@ -20384,7 +20386,7 @@
       }
     ]
   },
-  "Halak_Mount": {
+  "Halak_Mount@Jos.11.17": {
     "FGid": "Halak_Mount",
     "name": "Halak_Mount",
     "unifiedNameTIPNR": "Halak_Mount@Jos.11.17",
@@ -20412,7 +20414,7 @@
       }
     ]
   },
-  "Halhul": {
+  "Halhul@Jos.15.58": {
     "FGid": "Halhul",
     "name": "Halhul",
     "unifiedNameTIPNR": "Halhul@Jos.15.58",
@@ -20439,7 +20441,7 @@
       }
     ]
   },
-  "Hali": {
+  "Hali@Jos.19.25": {
     "FGid": "Hali",
     "name": "Hali",
     "unifiedNameTIPNR": "Hali@Jos.19.25",
@@ -20466,7 +20468,7 @@
       }
     ]
   },
-  "Hall_of_Judgment": {
+  "Hall_of_Judgment@1Ki.7.7": {
     "FGid": "Hall_of_Judgment",
     "name": "Hall_of_Judgment",
     "unifiedNameTIPNR": "Hall_of_Judgment@1Ki.7.7",
@@ -20502,7 +20504,7 @@
       }
     ]
   },
-  "Hall_of_Pillars": {
+  "Hall_of_Pillars@1Ki.7.6": {
     "FGid": "Hall_of_Pillars",
     "name": "Hall_of_Pillars",
     "unifiedNameTIPNR": "Hall_of_Pillars@1Ki.7.6",
@@ -20538,7 +20540,7 @@
       }
     ]
   },
-  "Hall_of_the_Throne": {
+  "Hall_of_the_Throne@1Ki.7.7": {
     "FGid": "Hall_of_the_Throne",
     "name": "Hall_of_the_Throne",
     "unifiedNameTIPNR": "Hall_of_the_Throne@1Ki.7.7",
@@ -20574,7 +20576,7 @@
       }
     ]
   },
-  "Ham": {
+  "Ham@1Ch.4.40": {
     "FGid": "Ham",
     "name": "Ham",
     "unifiedNameTIPNR": "Ham@1Ch.4.40",
@@ -20606,7 +20608,7 @@
       }
     ]
   },
-  "Hamath": {
+  "Hamath@Num.13.21": {
     "FGid": "Hamath",
     "name": "Hamath",
     "unifiedNameTIPNR": "Hamath@Num.13.21",
@@ -20721,7 +20723,7 @@
       }
     ]
   },
-  "Hammath": {
+  "Hammath@Jos.19.35": {
     "FGid": "Hammath",
     "name": "Hammath",
     "unifiedNameTIPNR": "Hammath@Jos.19.35",
@@ -20782,7 +20784,7 @@
       }
     ]
   },
-  "Hamonah": {
+  "Hamonah@Ezk.39.16": {
     "FGid": "Hamonah",
     "name": "Hamonah",
     "unifiedNameTIPNR": "Hamonah@Ezk.39.16",
@@ -20809,7 +20811,7 @@
       }
     ]
   },
-  "Hamon-gog_Valley": {
+  "Hamon-gog_Valley@Ezk.39.11": {
     "FGid": "Hamon-gog_Valley",
     "name": "Hamon-gog_Valley",
     "unifiedNameTIPNR": "Hamon-gog_Valley@Ezk.39.11",
@@ -20846,7 +20848,7 @@
       }
     ]
   },
-  "Hanes": {
+  "Hanes@Isa.30.4": {
     "FGid": "Hanes",
     "name": "Hanes",
     "unifiedNameTIPNR": "Hanes@Isa.30.4",
@@ -20873,7 +20875,7 @@
       }
     ]
   },
-  "Hannathon": {
+  "Hannathon@Jos.19.14": {
     "FGid": "Hannathon",
     "name": "Hannathon",
     "unifiedNameTIPNR": "Hannathon@Jos.19.14",
@@ -20900,7 +20902,7 @@
       }
     ]
   },
-  "Hara": {
+  "Hara@1Ch.5.26": {
     "FGid": "Hara",
     "name": "Hara",
     "unifiedNameTIPNR": "Hara@1Ch.5.26",
@@ -20927,7 +20929,7 @@
       }
     ]
   },
-  "Haradah": {
+  "Haradah@Num.33.24": {
     "FGid": "Haradah",
     "name": "Haradah",
     "unifiedNameTIPNR": "Haradah@Num.33.24",
@@ -20955,7 +20957,7 @@
       }
     ]
   },
-  "Haran": {
+  "Haran@Gen.11.31": {
     "FGid": "Haran",
     "name": "Haran",
     "unifiedNameTIPNR": "Haran@Gen.11.31",
@@ -21008,7 +21010,7 @@
       }
     ]
   },
-  "Harmon": {
+  "Harmon@Amo.4.3": {
     "FGid": "Harmon",
     "name": "Harmon",
     "unifiedNameTIPNR": "Harmon@Amo.4.3",
@@ -21035,7 +21037,7 @@
       }
     ]
   },
-  "Harod": {
+  "Harod@Jdg.7.1": {
     "FGid": "Harod",
     "name": "Harod",
     "unifiedNameTIPNR": "Harod@Jdg.7.1",
@@ -21095,7 +21097,7 @@
       }
     ]
   },
-  "Harosheth-hagoyim": {
+  "Harosheth-hagoyim@Jdg.4.2": {
     "FGid": "Harosheth-hagoyim",
     "name": "Harosheth-hagoyim",
     "unifiedNameTIPNR": "Harosheth-hagoyim@Jdg.4.2",
@@ -21133,7 +21135,7 @@
       }
     ]
   },
-  "Hashmonah": {
+  "Hashmonah@Num.33.29": {
     "FGid": "Hashmonah",
     "name": "Hashmonah",
     "unifiedNameTIPNR": "Hashmonah@Num.33.29",
@@ -21161,7 +21163,7 @@
       }
     ]
   },
-  "Hauran": {
+  "Hauran@Ezk.47.16": {
     "FGid": "Hauran",
     "name": "Hauran",
     "unifiedNameTIPNR": "Hauran@Ezk.47.16",
@@ -21189,7 +21191,7 @@
       }
     ]
   },
-  "Havilah": {
+  "Havilah@Gen.2.11": {
     "FGid": "Havilah",
     "name": "Havilah",
     "unifiedNameTIPNR": "Havilah@Gen.2.11",
@@ -21216,7 +21218,7 @@
       }
     ]
   },
-  "Havilah2": {
+  "Havilah@Gen.25.18": {
     "FGid": "Havilah2",
     "name": "Havilah",
     "unifiedNameTIPNR": "Havilah@Gen.25.18",
@@ -21244,7 +21246,7 @@
       }
     ]
   },
-  "Havvoth-jair": {
+  "Havvoth-jair@Num.32.41": {
     "FGid": "Havvoth-jair",
     "name": "Havvoth-jair",
     "unifiedNameTIPNR": "Havvoth-jair@Num.32.41",
@@ -21274,7 +21276,7 @@
       }
     ]
   },
-  "Hazar-addar": {
+  "Hazar-addar@Num.34.4": {
     "FGid": "Hazar-addar",
     "name": "Hazar-addar",
     "unifiedNameTIPNR": "Hazar-addar@Num.34.4",
@@ -21301,7 +21303,7 @@
       }
     ]
   },
-  "Hazar-enan": {
+  "Hazar-enan@Num.34.9": {
     "FGid": "Hazar-enan",
     "name": "Hazar-enan",
     "unifiedNameTIPNR": "Hazar-enan@Num.34.9",
@@ -21346,7 +21348,7 @@
       }
     ]
   },
-  "Hazar-gaddah": {
+  "Hazar-gaddah@Jos.15.27": {
     "FGid": "Hazar-gaddah",
     "name": "Hazar-gaddah",
     "unifiedNameTIPNR": "Hazar-gaddah@Jos.15.27",
@@ -21373,7 +21375,7 @@
       }
     ]
   },
-  "Hazar-shual": {
+  "Hazar-shual@Jos.15.28": {
     "FGid": "Hazar-shual",
     "name": "Hazar-shual",
     "unifiedNameTIPNR": "Hazar-shual@Jos.15.28",
@@ -21403,7 +21405,7 @@
       }
     ]
   },
-  "Hazar-susah": {
+  "Hazar-susah@Jos.19.5": {
     "FGid": "Hazar-susah",
     "name": "Hazar-susah",
     "unifiedNameTIPNR": "Hazar-susah@Jos.19.5",
@@ -21430,7 +21432,7 @@
       }
     ]
   },
-  "Hazar-susim": {
+  "Hazar-susim@1Ch.4.31": {
     "FGid": "Hazar-susim",
     "name": "Hazar-susim",
     "unifiedNameTIPNR": "Hazar-susim@1Ch.4.31",
@@ -21457,7 +21459,7 @@
       }
     ]
   },
-  "Hazer-hatticon": {
+  "Hazer-hatticon@Ezk.47.16": {
     "FGid": "Hazer-hatticon",
     "name": "Hazer-hatticon",
     "unifiedNameTIPNR": "Hazer-hatticon@Ezk.47.16",
@@ -21484,7 +21486,7 @@
       }
     ]
   },
-  "Hazerim": {
+  "Hazerim@Deu.2.23": {
     "FGid": "Hazerim",
     "name": "Hazerim",
     "unifiedNameTIPNR": "Hazerim@Deu.2.23",
@@ -21511,7 +21513,7 @@
       }
     ]
   },
-  "Hazeroth": {
+  "Hazeroth@Num.11.35": {
     "FGid": "Hazeroth",
     "name": "Hazeroth",
     "unifiedNameTIPNR": "Hazeroth@Num.11.35",
@@ -21543,7 +21545,7 @@
       }
     ]
   },
-  "Hazor": {
+  "Hazor@Jos.11.1": {
     "FGid": "Hazor",
     "name": "Hazor",
     "unifiedNameTIPNR": "Hazor@Jos.11.1",
@@ -21597,7 +21599,7 @@
       }
     ]
   },
-  "Hazor2": {
+  "Hazor@Jos.15.23": {
     "FGid": "Hazor2",
     "name": "Hazor",
     "unifiedNameTIPNR": "Hazor@Jos.15.23",
@@ -21624,7 +21626,7 @@
       }
     ]
   },
-  "Hazor3": {
+  "Hazor@Jos.15.25": {
     "FGid": "Hazor3",
     "name": "Hazor",
     "unifiedNameTIPNR": "Hazor@Jos.15.25",
@@ -21651,7 +21653,7 @@
       }
     ]
   },
-  "Hazor4": {
+  "Hazor@Neh.11.33": {
     "FGid": "Hazor4",
     "name": "Hazor",
     "unifiedNameTIPNR": "Hazor@Neh.11.33",
@@ -21678,7 +21680,7 @@
       }
     ]
   },
-  "Hazor5": {
+  "Hazor@Jer.49.28": {
     "FGid": "Hazor5",
     "name": "Hazor",
     "unifiedNameTIPNR": "Hazor@Jer.49.28",
@@ -21706,7 +21708,7 @@
       }
     ]
   },
-  "Hazor-hadattah": {
+  "Hazor-hadattah@Jos.15.25": {
     "FGid": "Hazor-hadattah",
     "name": "Hazor-hadattah",
     "unifiedNameTIPNR": "Hazor-hadattah@Jos.15.25",
@@ -21733,7 +21735,7 @@
       }
     ]
   },
-  "Hebron": {
+  "Hebron@Gen.13.18": {
     "FGid": "Hebron",
     "name": "Hebron",
     "unifiedNameTIPNR": "Hebron@Gen.13.18",
@@ -21844,7 +21846,7 @@
       }
     ]
   },
-  "Hebron_Valley": {
+  "Hebron_Valley@Gen.37.14": {
     "FGid": "Hebron_Valley",
     "name": "Hebron_Valley",
     "unifiedNameTIPNR": "Hebron_Valley@Gen.37.14",
@@ -21880,7 +21882,7 @@
       }
     ]
   },
-  "Helam": {
+  "Helam@2Sa.10.16": {
     "FGid": "Helam",
     "name": "Helam",
     "unifiedNameTIPNR": "Helam@2Sa.10.16",
@@ -21908,7 +21910,7 @@
       }
     ]
   },
-  "Helbah": {
+  "Helbah@Jdg.1.31": {
     "FGid": "Helbah",
     "name": "Helbah",
     "unifiedNameTIPNR": "Helbah@Jdg.1.31",
@@ -21935,7 +21937,7 @@
       }
     ]
   },
-  "Helbon": {
+  "Helbon@Ezk.27.18": {
     "FGid": "Helbon",
     "name": "Helbon",
     "unifiedNameTIPNR": "Helbon@Ezk.27.18",
@@ -21962,7 +21964,7 @@
       }
     ]
   },
-  "Helech": {
+  "Helech@Ezk.27.11": {
     "FGid": "Helech",
     "name": "Helech",
     "unifiedNameTIPNR": "Helech@Ezk.27.11",
@@ -21989,7 +21991,7 @@
       }
     ]
   },
-  "Heleph": {
+  "Heleph@Jos.19.33": {
     "FGid": "Heleph",
     "name": "Heleph",
     "unifiedNameTIPNR": "Heleph@Jos.19.33",
@@ -22016,7 +22018,7 @@
       }
     ]
   },
-  "Helkath": {
+  "Helkath@Jos.19.25": {
     "FGid": "Helkath",
     "name": "Helkath",
     "unifiedNameTIPNR": "Helkath@Jos.19.25",
@@ -22060,7 +22062,7 @@
       }
     ]
   },
-  "Helkath-hazzurim": {
+  "Helkath-hazzurim@2Sa.2.16": {
     "FGid": "Helkath-hazzurim",
     "name": "Helkath-hazzurim",
     "unifiedNameTIPNR": "Helkath-hazzurim@2Sa.2.16",
@@ -22087,7 +22089,7 @@
       }
     ]
   },
-  "Hena": {
+  "Hena@2Ki.18.34": {
     "FGid": "Hena",
     "name": "Hena",
     "unifiedNameTIPNR": "Hena@2Ki.18.34",
@@ -22116,7 +22118,7 @@
       }
     ]
   },
-  "Hepher": {
+  "Hepher@Jos.12.17": {
     "FGid": "Hepher",
     "name": "Hepher",
     "unifiedNameTIPNR": "Hepher@Jos.12.17",
@@ -22144,7 +22146,7 @@
       }
     ]
   },
-  "Heres": {
+  "Heres@Jdg.8.13": {
     "FGid": "Heres",
     "name": "Heres",
     "unifiedNameTIPNR": "Heres@Jdg.8.13",
@@ -22171,7 +22173,7 @@
       }
     ]
   },
-  "Hereth": {
+  "Hereth@1Sa.22.5": {
     "FGid": "Hereth",
     "name": "Hereth",
     "unifiedNameTIPNR": "Hereth@1Sa.22.5",
@@ -22198,7 +22200,7 @@
       }
     ]
   },
-  "Hermon_Mount": {
+  "Hermon_Mount@Deu.3.8": {
     "FGid": "Hermon_Mount",
     "name": "Hermon_Mount",
     "unifiedNameTIPNR": "Hermon_Mount@Deu.3.8",
@@ -22402,7 +22404,7 @@
       }
     ]
   },
-  "Heshbon": {
+  "Heshbon@Num.21.25": {
     "FGid": "Heshbon",
     "name": "Heshbon",
     "unifiedNameTIPNR": "Heshbon@Num.21.25",
@@ -22466,7 +22468,7 @@
       }
     ]
   },
-  "Heshmon": {
+  "Heshmon@Jos.15.27": {
     "FGid": "Heshmon",
     "name": "Heshmon",
     "unifiedNameTIPNR": "Heshmon@Jos.15.27",
@@ -22493,7 +22495,7 @@
       }
     ]
   },
-  "Hethlon": {
+  "Hethlon@Ezk.47.15": {
     "FGid": "Hethlon",
     "name": "Hethlon",
     "unifiedNameTIPNR": "Hethlon@Ezk.47.15",
@@ -22521,7 +22523,7 @@
       }
     ]
   },
-  "Hierapolis": {
+  "Hierapolis@Col.4.13": {
     "FGid": "Hierapolis",
     "name": "Hierapolis",
     "unifiedNameTIPNR": "Hierapolis@Col.4.13",
@@ -22548,7 +22550,7 @@
       }
     ]
   },
-  "Hinnom_Valley": {
+  "Hinnom_Valley@Jos.15.8": {
     "FGid": "Hinnom_Valley",
     "name": "Hinnom_Valley",
     "unifiedNameTIPNR": "Hinnom_Valley@Jos.15.8",
@@ -22714,7 +22716,7 @@
       }
     ]
   },
-  "Hobah": {
+  "Hobah@Gen.14.15": {
     "FGid": "Hobah",
     "name": "Hobah",
     "unifiedNameTIPNR": "Hobah@Gen.14.15",
@@ -22741,7 +22743,7 @@
       }
     ]
   },
-  "Holon": {
+  "Holon@Jos.15.51": {
     "FGid": "Holon",
     "name": "Holon",
     "unifiedNameTIPNR": "Holon@Jos.15.51",
@@ -22785,7 +22787,7 @@
       }
     ]
   },
-  "Holon2": {
+  "Holon@Jer.48.21": {
     "FGid": "Holon2",
     "name": "Holon",
     "unifiedNameTIPNR": "Holon@Jer.48.21",
@@ -22812,7 +22814,7 @@
       }
     ]
   },
-  "Holy_Place": {
+  "Holy_Place@Exo.26.33": {
     "FGid": "Holy_Place",
     "name": "Holy_Place",
     "unifiedNameTIPNR": "Holy_Place@Exo.26.33",
@@ -22904,7 +22906,7 @@
       }
     ]
   },
-  "Hor_Mount": {
+  "Hor_Mount@Num.20.22": {
     "FGid": "Hor_Mount",
     "name": "Hor_Mount",
     "unifiedNameTIPNR": "Hor_Mount@Num.20.22",
@@ -22940,7 +22942,7 @@
       }
     ]
   },
-  "Hor_Mount2": {
+  "Hor_Mount@Num.34.7": {
     "FGid": "Hor_Mount2",
     "name": "Hor_Mount",
     "unifiedNameTIPNR": "Hor_Mount@Num.34.7",
@@ -22968,7 +22970,7 @@
       }
     ]
   },
-  "Horem": {
+  "Horem@Jos.19.38": {
     "FGid": "Horem",
     "name": "Horem",
     "unifiedNameTIPNR": "Horem@Jos.19.38",
@@ -22995,7 +22997,7 @@
       }
     ]
   },
-  "Horesh": {
+  "Horesh@1Sa.23.15": {
     "FGid": "Horesh",
     "name": "Horesh",
     "unifiedNameTIPNR": "Horesh@1Sa.23.15",
@@ -23025,7 +23027,7 @@
       }
     ]
   },
-  "Hor-haggidgad": {
+  "Hor-haggidgad@Num.33.32": {
     "FGid": "Hor-haggidgad",
     "name": "Hor-haggidgad",
     "unifiedNameTIPNR": "Hor-haggidgad@Num.33.32",
@@ -23070,7 +23072,7 @@
       }
     ]
   },
-  "Horonaim": {
+  "Horonaim@Isa.15.5": {
     "FGid": "Horonaim",
     "name": "Horonaim",
     "unifiedNameTIPNR": "Horonaim@Isa.15.5",
@@ -23116,7 +23118,7 @@
       }
     ]
   },
-  "Horse_Gate": {
+  "Horse_Gate@Neh.3.28": {
     "FGid": "Horse_Gate",
     "name": "Horse_Gate",
     "unifiedNameTIPNR": "Horse_Gate@Neh.3.28",
@@ -23144,7 +23146,7 @@
       }
     ]
   },
-  "Hosah": {
+  "Hosah@Jos.19.29": {
     "FGid": "Hosah",
     "name": "Hosah",
     "unifiedNameTIPNR": "Hosah@Jos.19.29",
@@ -23171,7 +23173,7 @@
       }
     ]
   },
-  "House_of_the_Forest_of_Lebanon": {
+  "House_of_the_Forest_of_Lebanon@1Ki.7.2": {
     "FGid": "House_of_the_Forest_of_Lebanon",
     "name": "House_of_the_Forest_of_Lebanon",
     "unifiedNameTIPNR": "House_of_the_Forest_of_Lebanon@1Ki.7.2",
@@ -23240,7 +23242,7 @@
       }
     ]
   },
-  "Hukkok": {
+  "Hukkok@Jos.19.34": {
     "FGid": "Hukkok",
     "name": "Hukkok",
     "unifiedNameTIPNR": "Hukkok@Jos.19.34",
@@ -23267,7 +23269,7 @@
       }
     ]
   },
-  "Humtah": {
+  "Humtah@Jos.15.54": {
     "FGid": "Humtah",
     "name": "Humtah",
     "unifiedNameTIPNR": "Humtah@Jos.15.54",
@@ -23294,7 +23296,7 @@
       }
     ]
   },
-  "Ibleam": {
+  "Ibleam@Jos.17.11": {
     "FGid": "Ibleam",
     "name": "Ibleam",
     "unifiedNameTIPNR": "Ibleam@Jos.17.11",
@@ -23380,7 +23382,7 @@
       }
     ]
   },
-  "Iconium": {
+  "Iconium@Act.13.51": {
     "FGid": "Iconium",
     "name": "Iconium",
     "unifiedNameTIPNR": "Iconium@Act.13.51",
@@ -23412,7 +23414,7 @@
       }
     ]
   },
-  "Idalah": {
+  "Idalah@Jos.19.15": {
     "FGid": "Idalah",
     "name": "Idalah",
     "unifiedNameTIPNR": "Idalah@Jos.19.15",
@@ -23439,7 +23441,7 @@
       }
     ]
   },
-  "Idumea": {
+  "Idumea@Mrk.3.8": {
     "FGid": "Idumea",
     "name": "Idumea",
     "unifiedNameTIPNR": "Idumea@Mrk.3.8",
@@ -23466,7 +23468,7 @@
       }
     ]
   },
-  "Iim": {
+  "Iim@Jos.15.29": {
     "FGid": "Iim",
     "name": "Iim",
     "unifiedNameTIPNR": "Iim@Jos.15.29",
@@ -23493,7 +23495,7 @@
       }
     ]
   },
-  "Ijon": {
+  "Ijon@2Sa.24.6": {
     "FGid": "Ijon",
     "name": "Ijon",
     "unifiedNameTIPNR": "Ijon@2Sa.24.6",
@@ -23538,7 +23540,7 @@
       }
     ]
   },
-  "Illyricum": {
+  "Illyricum@Rom.15.19": {
     "FGid": "Illyricum",
     "name": "Illyricum",
     "unifiedNameTIPNR": "Illyricum@Rom.15.19",
@@ -23565,7 +23567,7 @@
       }
     ]
   },
-  "Immer": {
+  "Immer@Ezr.2.59": {
     "FGid": "Immer",
     "name": "Immer",
     "unifiedNameTIPNR": "Immer@Ezr.2.59",
@@ -23593,7 +23595,7 @@
       }
     ]
   },
-  "India": {
+  "India@Est.1.1": {
     "FGid": "India",
     "name": "India",
     "unifiedNameTIPNR": "India@Est.1.1",
@@ -23621,7 +23623,7 @@
       }
     ]
   },
-  "Iphtah": {
+  "Iphtah@Jos.15.43": {
     "FGid": "Iphtah",
     "name": "Iphtah",
     "unifiedNameTIPNR": "Iphtah@Jos.15.43",
@@ -23648,7 +23650,7 @@
       }
     ]
   },
-  "Iphtahel_Valley": {
+  "Iphtahel_Valley@Jos.19.14": {
     "FGid": "Iphtahel_Valley",
     "name": "Iphtahel_Valley",
     "unifiedNameTIPNR": "Iphtahel_Valley@Jos.19.14",
@@ -23685,7 +23687,7 @@
       }
     ]
   },
-  "Irpeel": {
+  "Irpeel@Jos.18.27": {
     "FGid": "Irpeel",
     "name": "Irpeel",
     "unifiedNameTIPNR": "Irpeel@Jos.18.27",
@@ -23712,7 +23714,7 @@
       }
     ]
   },
-  "Italy": {
+  "Italy@Act.18.2": {
     "FGid": "Italy",
     "name": "Italy",
     "unifiedNameTIPNR": "Italy@Act.18.2",
@@ -23759,7 +23761,7 @@
       }
     ]
   },
-  "Ithlah": {
+  "Ithlah@Jos.19.42": {
     "FGid": "Ithlah",
     "name": "Ithlah",
     "unifiedNameTIPNR": "Ithlah@Jos.19.42",
@@ -23786,7 +23788,7 @@
       }
     ]
   },
-  "Ithnan": {
+  "Ithnan@Jos.15.23": {
     "FGid": "Ithnan",
     "name": "Ithnan",
     "unifiedNameTIPNR": "Ithnan@Jos.15.23",
@@ -23813,7 +23815,7 @@
       }
     ]
   },
-  "Ituraea": {
+  "Ituraea@Luk.3.1": {
     "FGid": "Ituraea",
     "name": "Ituraea",
     "unifiedNameTIPNR": "Ituraea@Luk.3.1",
@@ -23840,7 +23842,7 @@
       }
     ]
   },
-  "Iye-abarim": {
+  "Iye-abarim@Num.21.11": {
     "FGid": "Iye-abarim",
     "name": "Iye-abarim",
     "unifiedNameTIPNR": "Iye-abarim@Num.21.11",
@@ -23868,7 +23870,7 @@
       }
     ]
   },
-  "Iyim": {
+  "Iyim@Num.33.45": {
     "FGid": "Iyim",
     "name": "Iyim",
     "unifiedNameTIPNR": "Iyim@Num.33.45",
@@ -23895,7 +23897,7 @@
       }
     ]
   },
-  "Jabbok": {
+  "Jabbok@Gen.32.22": {
     "FGid": "Jabbok",
     "name": "Jabbok",
     "unifiedNameTIPNR": "Jabbok@Gen.32.22",
@@ -23928,7 +23930,7 @@
       }
     ]
   },
-  "Jabesh-gilead": {
+  "Jabesh-gilead@Jdg.21.8": {
     "FGid": "Jabesh-gilead",
     "name": "Jabesh-gilead",
     "unifiedNameTIPNR": "Jabesh-gilead@Jdg.21.8",
@@ -23999,7 +24001,7 @@
       }
     ]
   },
-  "Jabez": {
+  "Jabez@1Ch.2.55": {
     "FGid": "Jabez",
     "name": "Jabez",
     "unifiedNameTIPNR": "Jabez@1Ch.2.55",
@@ -24026,7 +24028,7 @@
       }
     ]
   },
-  "Jabneel": {
+  "Jabneel@Jos.15.11": {
     "FGid": "Jabneel",
     "name": "Jabneel",
     "unifiedNameTIPNR": "Jabneel@Jos.15.11",
@@ -24069,7 +24071,7 @@
       }
     ]
   },
-  "Jabneel2": {
+  "Jabneel@Jos.19.33": {
     "FGid": "Jabneel2",
     "name": "Jabneel",
     "unifiedNameTIPNR": "Jabneel@Jos.19.33",
@@ -24096,7 +24098,7 @@
       }
     ]
   },
-  "Jagur": {
+  "Jagur@Jos.15.21": {
     "FGid": "Jagur",
     "name": "Jagur",
     "unifiedNameTIPNR": "Jagur@Jos.15.21",
@@ -24123,7 +24125,7 @@
       }
     ]
   },
-  "Jahaz": {
+  "Jahaz@Num.21.23": {
     "FGid": "Jahaz",
     "name": "Jahaz",
     "unifiedNameTIPNR": "Jahaz@Num.21.23",
@@ -24218,7 +24220,7 @@
       }
     ]
   },
-  "Jair": {
+  "Jair@Jos.13.30": {
     "FGid": "Jair",
     "name": "Jair",
     "unifiedNameTIPNR": "Jair@Jos.13.30",
@@ -24245,7 +24247,7 @@
       }
     ]
   },
-  "Janim": {
+  "Janim@Jos.15.53": {
     "FGid": "Janim",
     "name": "Janim",
     "unifiedNameTIPNR": "Janim@Jos.15.53",
@@ -24274,7 +24276,7 @@
       }
     ]
   },
-  "Janoah": {
+  "Janoah@2Ki.15.29": {
     "FGid": "Janoah",
     "name": "Janoah",
     "unifiedNameTIPNR": "Janoah@2Ki.15.29",
@@ -24301,7 +24303,7 @@
       }
     ]
   },
-  "Janoah2": {
+  "Janoah@Jos.16.6": {
     "FGid": "Janoah2",
     "name": "Janoah",
     "unifiedNameTIPNR": "Janoah@Jos.16.6",
@@ -24329,7 +24331,7 @@
       }
     ]
   },
-  "Japhia": {
+  "Japhia@Jos.19.12": {
     "FGid": "Japhia",
     "name": "Japhia",
     "unifiedNameTIPNR": "Japhia@Jos.19.12",
@@ -24356,7 +24358,7 @@
       }
     ]
   },
-  "Jarmuth": {
+  "Jarmuth@Jos.10.3": {
     "FGid": "Jarmuth",
     "name": "Jarmuth",
     "unifiedNameTIPNR": "Jarmuth@Jos.10.3",
@@ -24388,7 +24390,7 @@
       }
     ]
   },
-  "Jarmuth2": {
+  "Jarmuth@Jos.21.29": {
     "FGid": "Jarmuth2",
     "name": "Jarmuth",
     "unifiedNameTIPNR": "Jarmuth@Jos.21.29",
@@ -24415,7 +24417,7 @@
       }
     ]
   },
-  "Jattir": {
+  "Jattir@Jos.15.48": {
     "FGid": "Jattir",
     "name": "Jattir",
     "unifiedNameTIPNR": "Jattir@Jos.15.48",
@@ -24445,7 +24447,7 @@
       }
     ]
   },
-  "Greece": {
+  "Greece@Isa.66.19": {
     "FGid": "Greece",
     "name": "Greece",
     "unifiedNameTIPNR": "Greece@Isa.66.19",
@@ -24544,7 +24546,7 @@
       }
     ]
   },
-  "Jazer": {
+  "Jazer@Num.21.32": {
     "FGid": "Jazer",
     "name": "Jazer",
     "unifiedNameTIPNR": "Jazer@Num.21.32",
@@ -24582,7 +24584,7 @@
       }
     ]
   },
-  "Jazer_Sea": {
+  "Jazer_Sea@Jer.48.32": {
     "FGid": "Jazer_Sea",
     "name": "Jazer_Sea",
     "unifiedNameTIPNR": "Jazer_Sea@Jer.48.32",
@@ -24609,7 +24611,7 @@
       }
     ]
   },
-  "Jehud": {
+  "Jehud@Jos.19.45": {
     "FGid": "Jehud",
     "name": "Jehud",
     "unifiedNameTIPNR": "Jehud@Jos.19.45",
@@ -24636,7 +24638,7 @@
       }
     ]
   },
-  "Jekabzeel": {
+  "Jekabzeel@Neh.11.25": {
     "FGid": "Jekabzeel",
     "name": "Jekabzeel",
     "unifiedNameTIPNR": "Jekabzeel@Neh.11.25",
@@ -24663,7 +24665,7 @@
       }
     ]
   },
-  "Jericho": {
+  "Jericho@Num.22.1": {
     "FGid": "Jericho",
     "name": "Jericho",
     "unifiedNameTIPNR": "Jericho@Num.22.1",
@@ -24838,7 +24840,7 @@
       }
     ]
   },
-  "Jericho_Valley": {
+  "Jericho_Valley@Deu.34.3": {
     "FGid": "Jericho_Valley",
     "name": "Jericho_Valley",
     "unifiedNameTIPNR": "Jericho_Valley@Deu.34.3",
@@ -24899,7 +24901,7 @@
       }
     ]
   },
-  "Jeruel": {
+  "Jeruel@2Ch.20.16": {
     "FGid": "Jeruel",
     "name": "Jeruel",
     "unifiedNameTIPNR": "Jeruel@2Ch.20.16",
@@ -24926,7 +24928,7 @@
       }
     ]
   },
-  "Jerusalem": {
+  "Jerusalem@Jos.10.1": {
     "FGid": "Jerusalem",
     "name": "Jerusalem",
     "unifiedNameTIPNR": "Jerusalem@Jos.10.1",
@@ -26280,7 +26282,7 @@
       }
     ]
   },
-  "Jeshanah": {
+  "Jeshanah@2Ch.13.19": {
     "FGid": "Jeshanah",
     "name": "Jeshanah",
     "unifiedNameTIPNR": "Jeshanah@2Ch.13.19",
@@ -26307,7 +26309,7 @@
       }
     ]
   },
-  "Jeshimon": {
+  "Jeshimon@1Sa.23.19": {
     "FGid": "Jeshimon",
     "name": "Jeshimon",
     "unifiedNameTIPNR": "Jeshimon@1Sa.23.19",
@@ -26337,7 +26339,7 @@
       }
     ]
   },
-  "Jeshua": {
+  "Jeshua@Neh.11.26": {
     "FGid": "Jeshua",
     "name": "Jeshua",
     "unifiedNameTIPNR": "Jeshua@Neh.11.26",
@@ -26364,7 +26366,7 @@
       }
     ]
   },
-  "Jetur": {
+  "Jetur@1Ch.5.19": {
     "FGid": "Jetur",
     "name": "Jetur",
     "unifiedNameTIPNR": "Jetur@1Ch.5.19",
@@ -26391,7 +26393,7 @@
       }
     ]
   },
-  "Jezreel": {
+  "Jezreel@Jos.15.56": {
     "FGid": "Jezreel",
     "name": "Jezreel",
     "unifiedNameTIPNR": "Jezreel@Jos.15.56",
@@ -26440,7 +26442,7 @@
       }
     ]
   },
-  "Jezreel2": {
+  "Jezreel@Jos.19.18": {
     "FGid": "Jezreel2",
     "name": "Jezreel",
     "unifiedNameTIPNR": "Jezreel@Jos.19.18",
@@ -26535,7 +26537,7 @@
       }
     ]
   },
-  "Jezreel3": {
+  "Jezreel@2Sa.4.4": {
     "FGid": "Jezreel3",
     "name": "Jezreel",
     "unifiedNameTIPNR": "Jezreel@2Sa.4.4",
@@ -26562,7 +26564,7 @@
       }
     ]
   },
-  "Jezreel_Valley": {
+  "Jezreel_Valley@Jos.17.16": {
     "FGid": "Jezreel_Valley",
     "name": "Jezreel_Valley",
     "unifiedNameTIPNR": "Jezreel_Valley@Jos.17.16",
@@ -26600,7 +26602,7 @@
       }
     ]
   },
-  "Jogbehah": {
+  "Jogbehah@Num.32.35": {
     "FGid": "Jogbehah",
     "name": "Jogbehah",
     "unifiedNameTIPNR": "Jogbehah@Num.32.35",
@@ -26628,7 +26630,7 @@
       }
     ]
   },
-  "Jokdeam": {
+  "Jokdeam@Jos.15.56": {
     "FGid": "Jokdeam",
     "name": "Jokdeam",
     "unifiedNameTIPNR": "Jokdeam@Jos.15.56",
@@ -26655,7 +26657,7 @@
       }
     ]
   },
-  "Jokneam": {
+  "Jokneam@Jos.12.22": {
     "FGid": "Jokneam",
     "name": "Jokneam",
     "unifiedNameTIPNR": "Jokneam@Jos.12.22",
@@ -26700,7 +26702,7 @@
       }
     ]
   },
-  "Joktheel": {
+  "Joktheel@Jos.15.38": {
     "FGid": "Joktheel",
     "name": "Joktheel",
     "unifiedNameTIPNR": "Joktheel@Jos.15.38",
@@ -26727,7 +26729,7 @@
       }
     ]
   },
-  "Joppa": {
+  "Joppa@Jos.19.46": {
     "FGid": "Joppa",
     "name": "Joppa",
     "unifiedNameTIPNR": "Joppa@Jos.19.46",
@@ -26782,7 +26784,7 @@
       }
     ]
   },
-  "Jordan": {
+  "Jordan@Gen.13.10": {
     "FGid": "Jordan",
     "name": "Jordan",
     "unifiedNameTIPNR": "Jordan@Gen.13.10",
@@ -27020,7 +27022,7 @@
       }
     ]
   },
-  "Jotbah": {
+  "Jotbah@2Ki.21.19": {
     "FGid": "Jotbah",
     "name": "Jotbah",
     "unifiedNameTIPNR": "Jotbah@2Ki.21.19",
@@ -27047,7 +27049,7 @@
       }
     ]
   },
-  "Jotbathah": {
+  "Jotbathah@Num.33.33": {
     "FGid": "Jotbathah",
     "name": "Jotbathah",
     "unifiedNameTIPNR": "Jotbathah@Num.33.33",
@@ -27076,7 +27078,7 @@
       }
     ]
   },
-  "Judea": {
+  "Judea@Ezr.9.9": {
     "FGid": "Judea",
     "name": "Judea",
     "unifiedNameTIPNR": "Judea@Ezr.9.9",
@@ -27273,7 +27275,7 @@
       }
     ]
   },
-  "Juttah": {
+  "Juttah@Jos.15.55": {
     "FGid": "Juttah",
     "name": "Juttah",
     "unifiedNameTIPNR": "Juttah@Jos.15.55",
@@ -27301,7 +27303,7 @@
       }
     ]
   },
-  "Kabzeel": {
+  "Kabzeel@Jos.15.21": {
     "FGid": "Kabzeel",
     "name": "Kabzeel",
     "unifiedNameTIPNR": "Kabzeel@Jos.15.21",
@@ -27330,7 +27332,7 @@
       }
     ]
   },
-  "Kadesh": {
+  "Kadesh@2Sa.24.6": {
     "FGid": "Kadesh",
     "name": "Kadesh",
     "unifiedNameTIPNR": "Kadesh@2Sa.24.6",
@@ -27357,7 +27359,7 @@
       }
     ]
   },
-  "Kadesh-barnea": {
+  "Kadesh-barnea@Num.32.8": {
     "FGid": "Kadesh-barnea",
     "name": "Kadesh-barnea",
     "unifiedNameTIPNR": "Kadesh-barnea@Num.32.8",
@@ -27455,7 +27457,7 @@
       }
     ]
   },
-  "Kain": {
+  "Kain@Num.24.22": {
     "FGid": "Kain",
     "name": "Kain",
     "unifiedNameTIPNR": "Kain@Num.24.22",
@@ -27483,7 +27485,7 @@
       }
     ]
   },
-  "Kamon": {
+  "Kamon@Jdg.10.5": {
     "FGid": "Kamon",
     "name": "Kamon",
     "unifiedNameTIPNR": "Kamon@Jdg.10.5",
@@ -27510,7 +27512,7 @@
       }
     ]
   },
-  "Kanah": {
+  "Kanah@Jos.16.8": {
     "FGid": "Kanah",
     "name": "Kanah",
     "unifiedNameTIPNR": "Kanah@Jos.16.8",
@@ -27538,7 +27540,7 @@
       }
     ]
   },
-  "Karka": {
+  "Karka@Jos.15.3": {
     "FGid": "Karka",
     "name": "Karka",
     "unifiedNameTIPNR": "Karka@Jos.15.3",
@@ -27565,7 +27567,7 @@
       }
     ]
   },
-  "Karkor": {
+  "Karkor@Jdg.8.10": {
     "FGid": "Karkor",
     "name": "Karkor",
     "unifiedNameTIPNR": "Karkor@Jdg.8.10",
@@ -27592,7 +27594,7 @@
       }
     ]
   },
-  "Kartan": {
+  "Kartan@Jos.21.32": {
     "FGid": "Kartan",
     "name": "Kartan",
     "unifiedNameTIPNR": "Kartan@Jos.21.32",
@@ -27635,7 +27637,7 @@
       }
     ]
   },
-  "Kedemoth": {
+  "Kedemoth@Deu.2.26": {
     "FGid": "Kedemoth",
     "name": "Kedemoth",
     "unifiedNameTIPNR": "Kedemoth@Deu.2.26",
@@ -27665,7 +27667,7 @@
       }
     ]
   },
-  "Kedesh": {
+  "Kedesh@Jos.12.22": {
     "FGid": "Kedesh",
     "name": "Kedesh",
     "unifiedNameTIPNR": "Kedesh@Jos.12.22",
@@ -27725,7 +27727,7 @@
       }
     ]
   },
-  "Kehelathah": {
+  "Kehelathah@Num.33.22": {
     "FGid": "Kehelathah",
     "name": "Kehelathah",
     "unifiedNameTIPNR": "Kehelathah@Num.33.22",
@@ -27753,7 +27755,7 @@
       }
     ]
   },
-  "Keilah": {
+  "Keilah@Jos.15.44": {
     "FGid": "Keilah",
     "name": "Keilah",
     "unifiedNameTIPNR": "Keilah@Jos.15.44",
@@ -27798,7 +27800,7 @@
       }
     ]
   },
-  "Kenath": {
+  "Kenath@Num.21.30": {
     "FGid": "Kenath",
     "name": "Kenath",
     "unifiedNameTIPNR": "Kenath@Num.21.30",
@@ -27859,7 +27861,7 @@
       }
     ]
   },
-  "Kerioth-hezron": {
+  "Kerioth-hezron@Jos.15.25": {
     "FGid": "Kerioth-hezron",
     "name": "Kerioth-hezron",
     "unifiedNameTIPNR": "Kerioth-hezron@Jos.15.25",
@@ -27895,7 +27897,7 @@
       }
     ]
   },
-  "Kibroth-hattaavah": {
+  "Kibroth-hattaavah@Num.11.34": {
     "FGid": "Kibroth-hattaavah",
     "name": "Kibroth-hattaavah",
     "unifiedNameTIPNR": "Kibroth-hattaavah@Num.11.34",
@@ -27926,7 +27928,7 @@
       }
     ]
   },
-  "Kibzaim": {
+  "Kibzaim@Jos.21.22": {
     "FGid": "Kibzaim",
     "name": "Kibzaim",
     "unifiedNameTIPNR": "Kibzaim@Jos.21.22",
@@ -27969,7 +27971,7 @@
       }
     ]
   },
-  "Kidron": {
+  "Kidron@2Sa.15.23": {
     "FGid": "Kidron",
     "name": "Kidron",
     "unifiedNameTIPNR": "Kidron@2Sa.15.23",
@@ -28048,7 +28050,7 @@
       }
     ]
   },
-  "Kinah": {
+  "Kinah@Jos.15.22": {
     "FGid": "Kinah",
     "name": "Kinah",
     "unifiedNameTIPNR": "Kinah@Jos.15.22",
@@ -28075,7 +28077,7 @@
       }
     ]
   },
-  "King's_Highway": {
+  "King's_Highway@Num.20.17": {
     "FGid": "King's_Highway",
     "name": "King's_Highway",
     "unifiedNameTIPNR": "King's_Highway@Num.20.17",
@@ -28112,7 +28114,7 @@
       }
     ]
   },
-  "King's_Valley": {
+  "King's_Valley@Gen.14.17": {
     "FGid": "King's_Valley",
     "name": "King's_Valley",
     "unifiedNameTIPNR": "King's_Valley@Gen.14.17",
@@ -28149,7 +28151,7 @@
       }
     ]
   },
-  "Kir": {
+  "Kir@1Sa.22.3": {
     "FGid": "Kir",
     "name": "Kir",
     "unifiedNameTIPNR": "Kir@1Sa.22.3",
@@ -28231,7 +28233,7 @@
       }
     ]
   },
-  "Kiriathaim": {
+  "Kiriathaim@Gen.14.5": {
     "FGid": "Kiriathaim",
     "name": "Kiriathaim",
     "unifiedNameTIPNR": "Kiriathaim@Gen.14.5",
@@ -28311,7 +28313,7 @@
       }
     ]
   },
-  "Kiriathaim2": {
+  "Kiriathaim@1Ch.6.76": {
     "FGid": "Kiriathaim2",
     "name": "Kiriathaim",
     "unifiedNameTIPNR": "Kiriathaim@1Ch.6.76",
@@ -28338,7 +28340,7 @@
       }
     ]
   },
-  "Kiriath-huzoth": {
+  "Kiriath-huzoth@Num.22.39": {
     "FGid": "Kiriath-huzoth",
     "name": "Kiriath-huzoth",
     "unifiedNameTIPNR": "Kiriath-huzoth@Num.22.39",
@@ -28365,7 +28367,7 @@
       }
     ]
   },
-  "Kiriath-jearim": {
+  "Kiriath-jearim@Jos.9.17": {
     "FGid": "Kiriath-jearim",
     "name": "Kiriath-jearim",
     "unifiedNameTIPNR": "Kiriath-jearim@Jos.9.17",
@@ -28533,7 +28535,7 @@
       }
     ]
   },
-  "Kishion": {
+  "Kishion@Jos.19.20": {
     "FGid": "Kishion",
     "name": "Kishion",
     "unifiedNameTIPNR": "Kishion@Jos.19.20",
@@ -28577,7 +28579,7 @@
       }
     ]
   },
-  "Kishon": {
+  "Kishon@Jdg.4.7": {
     "FGid": "Kishon",
     "name": "Kishon",
     "unifiedNameTIPNR": "Kishon@Jdg.4.7",
@@ -28609,7 +28611,7 @@
       }
     ]
   },
-  "Kitron": {
+  "Kitron@Jdg.1.30": {
     "FGid": "Kitron",
     "name": "Kitron",
     "unifiedNameTIPNR": "Kitron@Jdg.1.30",
@@ -28668,7 +28670,7 @@
       }
     ]
   },
-  "Koa": {
+  "Koa@Ezk.23.23": {
     "FGid": "Koa",
     "name": "Koa",
     "unifiedNameTIPNR": "Koa@Ezk.23.23",
@@ -28695,7 +28697,7 @@
       }
     ]
   },
-  "Kue": {
+  "Kue@1Ki.10.28": {
     "FGid": "Kue",
     "name": "Kue",
     "unifiedNameTIPNR": "Kue@1Ki.10.28",
@@ -28725,7 +28727,7 @@
       }
     ]
   },
-  "Laban": {
+  "Laban@Deu.1.1": {
     "FGid": "Laban",
     "name": "Laban",
     "unifiedNameTIPNR": "Laban@Deu.1.1",
@@ -28752,7 +28754,7 @@
       }
     ]
   },
-  "Lachish": {
+  "Lachish@Jos.10.3": {
     "FGid": "Lachish",
     "name": "Lachish",
     "unifiedNameTIPNR": "Lachish@Jos.10.3",
@@ -28802,7 +28804,7 @@
       }
     ]
   },
-  "Lahmam": {
+  "Lahmam@Jos.15.40": {
     "FGid": "Lahmam",
     "name": "Lahmam",
     "unifiedNameTIPNR": "Lahmam@Jos.15.40",
@@ -28829,7 +28831,7 @@
       }
     ]
   },
-  "Laishah": {
+  "Laishah@Isa.10.30": {
     "FGid": "Laishah",
     "name": "Laishah",
     "unifiedNameTIPNR": "Laishah@Isa.10.30",
@@ -28856,7 +28858,7 @@
       }
     ]
   },
-  "Lakkum": {
+  "Lakkum@Jos.19.33": {
     "FGid": "Lakkum",
     "name": "Lakkum",
     "unifiedNameTIPNR": "Lakkum@Jos.19.33",
@@ -28883,7 +28885,7 @@
       }
     ]
   },
-  "Laodicea": {
+  "Laodicea@Col.2.1": {
     "FGid": "Laodicea",
     "name": "Laodicea",
     "unifiedNameTIPNR": "Laodicea@Col.2.1",
@@ -28933,7 +28935,7 @@
       }
     ]
   },
-  "Lasea": {
+  "Lasea@Act.27.8": {
     "FGid": "Lasea",
     "name": "Lasea",
     "unifiedNameTIPNR": "Lasea@Act.27.8",
@@ -28960,7 +28962,7 @@
       }
     ]
   },
-  "Lasha": {
+  "Lasha@Gen.10.19": {
     "FGid": "Lasha",
     "name": "Lasha",
     "unifiedNameTIPNR": "Lasha@Gen.10.19",
@@ -29004,7 +29006,7 @@
       }
     ]
   },
-  "Lasharon": {
+  "Lasharon@Jos.12.18": {
     "FGid": "Lasharon",
     "name": "Lasharon",
     "unifiedNameTIPNR": "Lasharon@Jos.12.18",
@@ -29031,7 +29033,7 @@
       }
     ]
   },
-  "Lebanon": {
+  "Lebanon@Deu.1.7": {
     "FGid": "Lebanon",
     "name": "Lebanon",
     "unifiedNameTIPNR": "Lebanon@Deu.1.7",
@@ -29120,7 +29122,7 @@
       }
     ]
   },
-  "Lebanon_Mount": {
+  "Lebanon_Mount@Jdg.3.3": {
     "FGid": "Lebanon_Mount",
     "name": "Lebanon_Mount",
     "unifiedNameTIPNR": "Lebanon_Mount@Jdg.3.3",
@@ -29147,7 +29149,7 @@
       }
     ]
   },
-  "Lebanon_Valley": {
+  "Lebanon_Valley@Jos.11.17": {
     "FGid": "Lebanon_Valley",
     "name": "Lebanon_Valley",
     "unifiedNameTIPNR": "Lebanon_Valley@Jos.11.17",
@@ -29184,7 +29186,7 @@
       }
     ]
   },
-  "Lebaoth": {
+  "Lebaoth@Jos.15.32": {
     "FGid": "Lebaoth",
     "name": "Lebaoth",
     "unifiedNameTIPNR": "Lebaoth@Jos.15.32",
@@ -29211,7 +29213,7 @@
       }
     ]
   },
-  "Leb-kamai": {
+  "Leb-kamai@Jer.51.1": {
     "FGid": "Leb-kamai",
     "name": "Leb-kamai",
     "unifiedNameTIPNR": "Leb-kamai@Jer.51.1",
@@ -29247,7 +29249,7 @@
       }
     ]
   },
-  "Lebonah": {
+  "Lebonah@Jdg.21.19": {
     "FGid": "Lebonah",
     "name": "Lebonah",
     "unifiedNameTIPNR": "Lebonah@Jdg.21.19",
@@ -29274,7 +29276,7 @@
       }
     ]
   },
-  "Lehi": {
+  "Lehi@Jdg.15.9": {
     "FGid": "Lehi",
     "name": "Lehi",
     "unifiedNameTIPNR": "Lehi@Jdg.15.9",
@@ -29335,7 +29337,7 @@
       }
     ]
   },
-  "Libnah": {
+  "Libnah@Num.33.20": {
     "FGid": "Libnah",
     "name": "Libnah",
     "unifiedNameTIPNR": "Libnah@Num.33.20",
@@ -29363,7 +29365,7 @@
       }
     ]
   },
-  "Libnah2": {
+  "Libnah@Jos.10.29": {
     "FGid": "Libnah2",
     "name": "Libnah",
     "unifiedNameTIPNR": "Libnah@Jos.10.29",
@@ -29405,7 +29407,7 @@
       }
     ]
   },
-  "Libya": {
+  "Libya@2Ch.12.3": {
     "FGid": "Libya",
     "name": "Libya",
     "unifiedNameTIPNR": "Libya@2Ch.12.3",
@@ -29467,7 +29469,7 @@
       }
     ]
   },
-  "Lod": {
+  "Lod@1Ch.8.12": {
     "FGid": "Lod",
     "name": "Lod",
     "unifiedNameTIPNR": "Lod@1Ch.8.12",
@@ -29515,7 +29517,7 @@
       }
     ]
   },
-  "Lo-debar": {
+  "Lo-debar@Jos.13.26": {
     "FGid": "Lo-debar",
     "name": "Lo-debar",
     "unifiedNameTIPNR": "Lo-debar@Jos.13.26",
@@ -29561,7 +29563,7 @@
       }
     ]
   },
-  "Luhith": {
+  "Luhith@Isa.15.5": {
     "FGid": "Luhith",
     "name": "Luhith",
     "unifiedNameTIPNR": "Luhith@Isa.15.5",
@@ -29604,7 +29606,7 @@
       }
     ]
   },
-  "Luz": {
+  "Luz@Jdg.1.26": {
     "FGid": "Luz",
     "name": "Luz",
     "unifiedNameTIPNR": "Luz@Jdg.1.26",
@@ -29631,7 +29633,7 @@
       }
     ]
   },
-  "Lycaonia": {
+  "Lycaonia@Act.14.6": {
     "FGid": "Lycaonia",
     "name": "Lycaonia",
     "unifiedNameTIPNR": "Lycaonia@Act.14.6",
@@ -29674,7 +29676,7 @@
       }
     ]
   },
-  "Lycia": {
+  "Lycia@Act.27.5": {
     "FGid": "Lycia",
     "name": "Lycia",
     "unifiedNameTIPNR": "Lycia@Act.27.5",
@@ -29701,7 +29703,7 @@
       }
     ]
   },
-  "Lystra": {
+  "Lystra@Act.14.6": {
     "FGid": "Lystra",
     "name": "Lystra",
     "unifiedNameTIPNR": "Lystra@Act.14.6",
@@ -29733,7 +29735,7 @@
       }
     ]
   },
-  "Maacah": {
+  "Maacah@Jos.13.13": {
     "FGid": "Maacah",
     "name": "Maacah",
     "unifiedNameTIPNR": "Maacah@Jos.13.13",
@@ -29816,7 +29818,7 @@
       }
     ]
   },
-  "Maarath": {
+  "Maarath@Jos.15.59": {
     "FGid": "Maarath",
     "name": "Maarath",
     "unifiedNameTIPNR": "Maarath@Jos.15.59",
@@ -29843,7 +29845,7 @@
       }
     ]
   },
-  "Maareh-geba": {
+  "Maareh-geba@Jdg.20.33": {
     "FGid": "Maareh-geba",
     "name": "Maareh-geba",
     "unifiedNameTIPNR": "Maareh-geba@Jdg.20.33",
@@ -29879,7 +29881,7 @@
       }
     ]
   },
-  "Macedonia": {
+  "Macedonia@Act.16.9": {
     "FGid": "Macedonia",
     "name": "Macedonia",
     "unifiedNameTIPNR": "Macedonia@Act.16.9",
@@ -29965,7 +29967,7 @@
       }
     ]
   },
-  "Machpelah": {
+  "Machpelah@Gen.23.9": {
     "FGid": "Machpelah",
     "name": "Machpelah",
     "unifiedNameTIPNR": "Machpelah@Gen.23.9",
@@ -29997,7 +29999,7 @@
       }
     ]
   },
-  "Madmannah": {
+  "Madmannah@Jos.15.31": {
     "FGid": "Madmannah",
     "name": "Madmannah",
     "unifiedNameTIPNR": "Madmannah@Jos.15.31",
@@ -30041,7 +30043,7 @@
       }
     ]
   },
-  "Madmen": {
+  "Madmen@Jer.48.2": {
     "FGid": "Madmen",
     "name": "Madmen",
     "unifiedNameTIPNR": "Madmen@Jer.48.2",
@@ -30067,7 +30069,7 @@
       }
     ]
   },
-  "Madmenah": {
+  "Madmenah@Isa.10.31": {
     "FGid": "Madmenah",
     "name": "Madmenah",
     "unifiedNameTIPNR": "Madmenah@Isa.10.31",
@@ -30094,7 +30096,7 @@
       }
     ]
   },
-  "Madon": {
+  "Madon@Jos.11.1": {
     "FGid": "Madon",
     "name": "Madon",
     "unifiedNameTIPNR": "Madon@Jos.11.1",
@@ -30122,7 +30124,7 @@
       }
     ]
   },
-  "Magadan": {
+  "Magadan@Mat.15.39": {
     "FGid": "Magadan",
     "name": "Magadan",
     "unifiedNameTIPNR": "Magadan@Mat.15.39",
@@ -30192,7 +30194,7 @@
       }
     ]
   },
-  "Magbish": {
+  "Magbish@Ezr.2.30": {
     "FGid": "Magbish",
     "name": "Magbish",
     "unifiedNameTIPNR": "Magbish@Ezr.2.30",
@@ -30218,7 +30220,7 @@
       }
     ]
   },
-  "Magog": {
+  "Magog@Ezk.38.2": {
     "FGid": "Magog",
     "name": "Magog",
     "unifiedNameTIPNR": "Magog@Ezk.38.2",
@@ -30264,7 +30266,7 @@
       }
     ]
   },
-  "Mahanaim": {
+  "Mahanaim@Gen.32.2": {
     "FGid": "Mahanaim",
     "name": "Mahanaim",
     "unifiedNameTIPNR": "Mahanaim@Gen.32.2",
@@ -30303,7 +30305,7 @@
       }
     ]
   },
-  "Mahaneh-dan": {
+  "Mahaneh-dan@Jdg.13.25": {
     "FGid": "Mahaneh-dan",
     "name": "Mahaneh-dan",
     "unifiedNameTIPNR": "Mahaneh-dan@Jdg.13.25",
@@ -30331,7 +30333,7 @@
       }
     ]
   },
-  "Makaz": {
+  "Makaz@1Ki.4.9": {
     "FGid": "Makaz",
     "name": "Makaz",
     "unifiedNameTIPNR": "Makaz@1Ki.4.9",
@@ -30358,7 +30360,7 @@
       }
     ]
   },
-  "Makheloth": {
+  "Makheloth@Num.33.25": {
     "FGid": "Makheloth",
     "name": "Makheloth",
     "unifiedNameTIPNR": "Makheloth@Num.33.25",
@@ -30386,7 +30388,7 @@
       }
     ]
   },
-  "Makkedah": {
+  "Makkedah@Jos.10.10": {
     "FGid": "Makkedah",
     "name": "Makkedah",
     "unifiedNameTIPNR": "Makkedah@Jos.10.10",
@@ -30421,7 +30423,7 @@
       }
     ]
   },
-  "Malta": {
+  "Malta@Act.28.1": {
     "FGid": "Malta",
     "name": "Malta",
     "unifiedNameTIPNR": "Malta@Act.28.1",
@@ -30448,7 +30450,7 @@
       }
     ]
   },
-  "Mamre": {
+  "Mamre@Gen.13.18": {
     "FGid": "Mamre",
     "name": "Mamre",
     "unifiedNameTIPNR": "Mamre@Gen.13.18",
@@ -30484,7 +30486,7 @@
       }
     ]
   },
-  "Manahath": {
+  "Manahath@Jdg.20.43": {
     "FGid": "Manahath",
     "name": "Manahath",
     "unifiedNameTIPNR": "Manahath@Jdg.20.43",
@@ -30527,7 +30529,7 @@
       }
     ]
   },
-  "Maon": {
+  "Maon@Jos.15.55": {
     "FGid": "Maon",
     "name": "Maon",
     "unifiedNameTIPNR": "Maon@Jos.15.55",
@@ -30574,7 +30576,7 @@
       }
     ]
   },
-  "Marah": {
+  "Marah@Exo.15.23": {
     "FGid": "Marah",
     "name": "Marah",
     "unifiedNameTIPNR": "Marah@Exo.15.23",
@@ -30605,7 +30607,7 @@
       }
     ]
   },
-  "Mareal": {
+  "Mareal@Jos.19.11": {
     "FGid": "Mareal",
     "name": "Mareal",
     "unifiedNameTIPNR": "Mareal@Jos.19.11",
@@ -30632,7 +30634,7 @@
       }
     ]
   },
-  "Mareshah": {
+  "Mareshah@Jos.15.44": {
     "FGid": "Mareshah",
     "name": "Mareshah",
     "unifiedNameTIPNR": "Mareshah@Jos.15.44",
@@ -30664,7 +30666,7 @@
       }
     ]
   },
-  "Maroth": {
+  "Maroth@Mic.1.12": {
     "FGid": "Maroth",
     "name": "Maroth",
     "unifiedNameTIPNR": "Maroth@Mic.1.12",
@@ -30691,7 +30693,7 @@
       }
     ]
   },
-  "Mashal": {
+  "Mashal@1Ch.6.74": {
     "FGid": "Mashal",
     "name": "Mashal",
     "unifiedNameTIPNR": "Mashal@1Ch.6.74",
@@ -30718,7 +30720,7 @@
       }
     ]
   },
-  "Masrekah": {
+  "Masrekah@Gen.36.36": {
     "FGid": "Masrekah",
     "name": "Masrekah",
     "unifiedNameTIPNR": "Masrekah@Gen.36.36",
@@ -30746,7 +30748,7 @@
       }
     ]
   },
-  "Massah": {
+  "Massah@Exo.17.7": {
     "FGid": "Massah",
     "name": "Massah",
     "unifiedNameTIPNR": "Massah@Exo.17.7",
@@ -30777,7 +30779,7 @@
       }
     ]
   },
-  "Mattanah": {
+  "Mattanah@Num.21.18": {
     "FGid": "Mattanah",
     "name": "Mattanah",
     "unifiedNameTIPNR": "Mattanah@Num.21.18",
@@ -30805,7 +30807,7 @@
       }
     ]
   },
-  "Mearah": {
+  "Mearah@Jos.13.4": {
     "FGid": "Mearah",
     "name": "Mearah",
     "unifiedNameTIPNR": "Mearah@Jos.13.4",
@@ -30832,7 +30834,7 @@
       }
     ]
   },
-  "Meconah": {
+  "Meconah@Neh.11.28": {
     "FGid": "Meconah",
     "name": "Meconah",
     "unifiedNameTIPNR": "Meconah@Neh.11.28",
@@ -30859,7 +30861,7 @@
       }
     ]
   },
-  "Medeba": {
+  "Medeba@Num.21.30": {
     "FGid": "Medeba",
     "name": "Medeba",
     "unifiedNameTIPNR": "Medeba@Num.21.30",
@@ -30890,7 +30892,7 @@
       }
     ]
   },
-  "Media": {
+  "Media@Ezr.6.2": {
     "FGid": "Media",
     "name": "Media",
     "unifiedNameTIPNR": "Media@Ezr.6.2",
@@ -30939,7 +30941,7 @@
       }
     ]
   },
-  "Megiddo": {
+  "Megiddo@Jos.12.21": {
     "FGid": "Megiddo",
     "name": "Megiddo",
     "unifiedNameTIPNR": "Megiddo@Jos.12.21",
@@ -30993,7 +30995,7 @@
       }
     ]
   },
-  "Me-jarkon": {
+  "Me-jarkon@Jos.19.46": {
     "FGid": "Me-jarkon",
     "name": "Me-jarkon",
     "unifiedNameTIPNR": "Me-jarkon@Jos.19.46",
@@ -31020,7 +31022,7 @@
       }
     ]
   },
-  "Memphis": {
+  "Memphis@Isa.19.13": {
     "FGid": "Memphis",
     "name": "Memphis",
     "unifiedNameTIPNR": "Memphis@Isa.19.13",
@@ -31069,7 +31071,7 @@
       }
     ]
   },
-  "Mephaath": {
+  "Mephaath@Jos.13.18": {
     "FGid": "Mephaath",
     "name": "Mephaath",
     "unifiedNameTIPNR": "Mephaath@Jos.13.18",
@@ -31099,7 +31101,7 @@
       }
     ]
   },
-  "Meribah": {
+  "Meribah@Exo.17.7": {
     "FGid": "Meribah",
     "name": "Meribah",
     "unifiedNameTIPNR": "Meribah@Exo.17.7",
@@ -31128,7 +31130,7 @@
       }
     ]
   },
-  "Meribah2": {
+  "Meribah@Num.20.13": {
     "FGid": "Meribah2",
     "name": "Meribah",
     "unifiedNameTIPNR": "Meribah@Num.20.13",
@@ -31159,7 +31161,7 @@
       }
     ]
   },
-  "Meribah-kadesh": {
+  "Meribah-kadesh@Deu.32.51": {
     "FGid": "Meribah-kadesh",
     "name": "Meribah-kadesh",
     "unifiedNameTIPNR": "Meribah-kadesh@Deu.32.51",
@@ -31197,7 +31199,7 @@
       }
     ]
   },
-  "Merom": {
+  "Merom@Jos.11.5": {
     "FGid": "Merom",
     "name": "Merom",
     "unifiedNameTIPNR": "Merom@Jos.11.5",
@@ -31225,7 +31227,7 @@
       }
     ]
   },
-  "Meronothite": {
+  "Meronothite@1Ch.27.30": {
     "FGid": "Meronothite",
     "name": "Meronothite",
     "unifiedNameTIPNR": "Meronothite@1Ch.27.30",
@@ -31252,7 +31254,7 @@
       }
     ]
   },
-  "Meroz": {
+  "Meroz@Jdg.5.23": {
     "FGid": "Meroz",
     "name": "Meroz",
     "unifiedNameTIPNR": "Meroz@Jdg.5.23",
@@ -31279,7 +31281,7 @@
       }
     ]
   },
-  "Mesha": {
+  "Mesha@Gen.10.30": {
     "FGid": "Mesha",
     "name": "Mesha",
     "unifiedNameTIPNR": "Mesha@Gen.10.30",
@@ -31306,7 +31308,7 @@
       }
     ]
   },
-  "Meshech": {
+  "Meshech@Psa.120.5": {
     "FGid": "Meshech",
     "name": "Meshech",
     "unifiedNameTIPNR": "Meshech@Psa.120.5",
@@ -31354,7 +31356,7 @@
       }
     ]
   },
-  "Meshech-Tubal": {
+  "Meshech-Tubal@Ezk.32.26": {
     "FGid": "Meshech-Tubal",
     "name": "Meshech-Tubal",
     "unifiedNameTIPNR": "Meshech-Tubal@Ezk.32.26",
@@ -31391,7 +31393,7 @@
       }
     ]
   },
-  "Mesopotamia": {
+  "Mesopotamia@Gen.24.10": {
     "FGid": "Mesopotamia",
     "name": "Mesopotamia",
     "unifiedNameTIPNR": "Mesopotamia@Gen.24.10",
@@ -31454,7 +31456,7 @@
       }
     ]
   },
-  "Michmash": {
+  "Michmash@1Sa.13.2": {
     "FGid": "Michmash",
     "name": "Michmash",
     "unifiedNameTIPNR": "Michmash@1Sa.13.2",
@@ -31506,7 +31508,7 @@
       }
     ]
   },
-  "Michmethath": {
+  "Michmethath@Jos.16.6": {
     "FGid": "Michmethath",
     "name": "Michmethath",
     "unifiedNameTIPNR": "Michmethath@Jos.16.6",
@@ -31534,7 +31536,7 @@
       }
     ]
   },
-  "Middin": {
+  "Middin@Jos.15.61": {
     "FGid": "Middin",
     "name": "Middin",
     "unifiedNameTIPNR": "Middin@Jos.15.61",
@@ -31561,7 +31563,7 @@
       }
     ]
   },
-  "Midian": {
+  "Midian@Gen.36.35": {
     "FGid": "Midian",
     "name": "Midian",
     "unifiedNameTIPNR": "Midian@Gen.36.35",
@@ -31727,7 +31729,7 @@
       }
     ]
   },
-  "Migdal-el": {
+  "Migdal-el@Jos.19.38": {
     "FGid": "Migdal-el",
     "name": "Migdal-el",
     "unifiedNameTIPNR": "Migdal-el@Jos.19.38",
@@ -31754,7 +31756,7 @@
       }
     ]
   },
-  "Migdal-gad": {
+  "Migdal-gad@Jos.15.37": {
     "FGid": "Migdal-gad",
     "name": "Migdal-gad",
     "unifiedNameTIPNR": "Migdal-gad@Jos.15.37",
@@ -31781,7 +31783,7 @@
       }
     ]
   },
-  "Migdol": {
+  "Migdol@Exo.14.2": {
     "FGid": "Migdol",
     "name": "Migdol",
     "unifiedNameTIPNR": "Migdol@Exo.14.2",
@@ -31813,7 +31815,7 @@
       }
     ]
   },
-  "Migron": {
+  "Migron@1Sa.14.2": {
     "FGid": "Migron",
     "name": "Migron",
     "unifiedNameTIPNR": "Migron@1Sa.14.2",
@@ -31841,7 +31843,7 @@
       }
     ]
   },
-  "Miletus": {
+  "Miletus@Act.20.15": {
     "FGid": "Miletus",
     "name": "Miletus",
     "unifiedNameTIPNR": "Miletus@Act.20.15",
@@ -31870,7 +31872,7 @@
       }
     ]
   },
-  "Millo": {
+  "Millo@2Sa.5.9": {
     "FGid": "Millo",
     "name": "Millo",
     "unifiedNameTIPNR": "Millo@2Sa.5.9",
@@ -31902,7 +31904,7 @@
       }
     ]
   },
-  "Minni": {
+  "Minni@Jer.51.27": {
     "FGid": "Minni",
     "name": "Minni",
     "unifiedNameTIPNR": "Minni@Jer.51.27",
@@ -31929,7 +31931,7 @@
       }
     ]
   },
-  "Minnith": {
+  "Minnith@Jdg.11.33": {
     "FGid": "Minnith",
     "name": "Minnith",
     "unifiedNameTIPNR": "Minnith@Jdg.11.33",
@@ -31957,7 +31959,7 @@
       }
     ]
   },
-  "Mishal": {
+  "Mishal@Jos.19.26": {
     "FGid": "Mishal",
     "name": "Mishal",
     "unifiedNameTIPNR": "Mishal@Jos.19.26",
@@ -31985,7 +31987,7 @@
       }
     ]
   },
-  "Misrephoth-maim": {
+  "Misrephoth-maim@Jos.11.8": {
     "FGid": "Misrephoth-maim",
     "name": "Misrephoth-maim",
     "unifiedNameTIPNR": "Misrephoth-maim@Jos.11.8",
@@ -32013,7 +32015,7 @@
       }
     ]
   },
-  "Mithkah": {
+  "Mithkah@Num.33.28": {
     "FGid": "Mithkah",
     "name": "Mithkah",
     "unifiedNameTIPNR": "Mithkah@Num.33.28",
@@ -32041,7 +32043,7 @@
       }
     ]
   },
-  "Mitylene": {
+  "Mitylene@Act.20.14": {
     "FGid": "Mitylene",
     "name": "Mitylene",
     "unifiedNameTIPNR": "Mitylene@Act.20.14",
@@ -32068,7 +32070,7 @@
       }
     ]
   },
-  "Mizar_Mount": {
+  "Mizar_Mount@Psa.42.6": {
     "FGid": "Mizar_Mount",
     "name": "Mizar_Mount",
     "unifiedNameTIPNR": "Mizar_Mount@Psa.42.6",
@@ -32095,7 +32097,7 @@
       }
     ]
   },
-  "Mizpah": {
+  "Mizpah@Jdg.20.1": {
     "FGid": "Mizpah",
     "name": "Mizpah",
     "unifiedNameTIPNR": "Mizpah@Jdg.20.1",
@@ -32252,7 +32254,7 @@
       }
     ]
   },
-  "Mizpeh": {
+  "Mizpeh@Jos.15.38": {
     "FGid": "Mizpeh",
     "name": "Mizpeh",
     "unifiedNameTIPNR": "Mizpeh@Jos.15.38",
@@ -32279,7 +32281,7 @@
       }
     ]
   },
-  "Mizpeh_Valley": {
+  "Mizpeh_Valley@Jos.11.8": {
     "FGid": "Mizpeh_Valley",
     "name": "Mizpeh_Valley",
     "unifiedNameTIPNR": "Mizpeh_Valley@Jos.11.8",
@@ -32331,7 +32333,7 @@
       }
     ]
   },
-  "Moab": {
+  "Moab@Gen.36.35": {
     "FGid": "Moab",
     "name": "Moab",
     "unifiedNameTIPNR": "Moab@Gen.36.35",
@@ -32587,7 +32589,7 @@
       }
     ]
   },
-  "Moab_Plains": {
+  "Moab_Plains@Num.22.1": {
     "FGid": "Moab_Plains",
     "name": "Moab_Plains",
     "unifiedNameTIPNR": "Moab_Plains@Num.22.1",
@@ -32634,7 +32636,7 @@
       }
     ]
   },
-  "Moladah": {
+  "Moladah@Jos.15.26": {
     "FGid": "Moladah",
     "name": "Moladah",
     "unifiedNameTIPNR": "Moladah@Jos.15.26",
@@ -32664,7 +32666,7 @@
       }
     ]
   },
-  "Moreh": {
+  "Moreh@Gen.12.6": {
     "FGid": "Moreh",
     "name": "Moreh",
     "unifiedNameTIPNR": "Moreh@Gen.12.6",
@@ -32692,7 +32694,7 @@
       }
     ]
   },
-  "Moreh2": {
+  "Moreh@Jdg.7.1": {
     "FGid": "Moreh2",
     "name": "Moreh",
     "unifiedNameTIPNR": "Moreh@Jdg.7.1",
@@ -32719,7 +32721,7 @@
       }
     ]
   },
-  "Moresheth": {
+  "Moresheth@Jer.26.18": {
     "FGid": "Moresheth",
     "name": "Moresheth",
     "unifiedNameTIPNR": "Moresheth@Jer.26.18",
@@ -32747,7 +32749,7 @@
       }
     ]
   },
-  "Moresheth-gath": {
+  "Moresheth-gath@Mic.1.14": {
     "FGid": "Moresheth-gath",
     "name": "Moresheth-gath",
     "unifiedNameTIPNR": "Moresheth-gath@Mic.1.14",
@@ -32774,7 +32776,7 @@
       }
     ]
   },
-  "Moriah_Mount": {
+  "Moriah_Mount@Gen.22.2": {
     "FGid": "Moriah_Mount",
     "name": "Moriah_Mount",
     "unifiedNameTIPNR": "Moriah_Mount@Gen.22.2",
@@ -32817,7 +32819,7 @@
       }
     ]
   },
-  "Mortar": {
+  "Mortar@Zep.1.11": {
     "FGid": "Mortar",
     "name": "Mortar",
     "unifiedNameTIPNR": "Mortar@Zep.1.11",
@@ -32844,7 +32846,7 @@
       }
     ]
   },
-  "Moserah": {
+  "Moserah@Deu.10.6": {
     "FGid": "Moserah",
     "name": "Moserah",
     "unifiedNameTIPNR": "Moserah@Deu.10.6",
@@ -32871,7 +32873,7 @@
       }
     ]
   },
-  "Moseroth": {
+  "Moseroth@Num.33.30": {
     "FGid": "Moseroth",
     "name": "Moseroth",
     "unifiedNameTIPNR": "Moseroth@Num.33.30",
@@ -32899,7 +32901,7 @@
       }
     ]
   },
-  "Most_Holy_Place": {
+  "Most_Holy_Place@1Ki.6.16": {
     "FGid": "Most_Holy_Place",
     "name": "Most_Holy_Place",
     "unifiedNameTIPNR": "Most_Holy_Place@1Ki.6.16",
@@ -32951,7 +32953,7 @@
       }
     ]
   },
-  "Mozah": {
+  "Mozah@Jos.18.26": {
     "FGid": "Mozah",
     "name": "Mozah",
     "unifiedNameTIPNR": "Mozah@Jos.18.26",
@@ -32978,7 +32980,7 @@
       }
     ]
   },
-  "Muster_Gate": {
+  "Muster_Gate@Neh.3.31": {
     "FGid": "Muster_Gate",
     "name": "Muster_Gate",
     "unifiedNameTIPNR": "Muster_Gate@Neh.3.31",
@@ -33021,7 +33023,7 @@
       }
     ]
   },
-  "Myra": {
+  "Myra@Act.27.5": {
     "FGid": "Myra",
     "name": "Myra",
     "unifiedNameTIPNR": "Myra@Act.27.5",
@@ -33048,7 +33050,7 @@
       }
     ]
   },
-  "Mysia": {
+  "Mysia@Act.16.7": {
     "FGid": "Mysia",
     "name": "Mysia",
     "unifiedNameTIPNR": "Mysia@Act.16.7",
@@ -33076,7 +33078,7 @@
       }
     ]
   },
-  "Naamah": {
+  "Naamah@Jos.15.41": {
     "FGid": "Naamah",
     "name": "Naamah",
     "unifiedNameTIPNR": "Naamah@Jos.15.41",
@@ -33103,7 +33105,7 @@
       }
     ]
   },
-  "Naaran": {
+  "Naaran@Jos.16.7": {
     "FGid": "Naaran",
     "name": "Naaran",
     "unifiedNameTIPNR": "Naaran@Jos.16.7",
@@ -33146,7 +33148,7 @@
       }
     ]
   },
-  "Nahalol": {
+  "Nahalol@Jdg.1.30": {
     "FGid": "Nahalol",
     "name": "Nahalol",
     "unifiedNameTIPNR": "Nahalol@Jdg.1.30",
@@ -33190,7 +33192,7 @@
       }
     ]
   },
-  "Nain": {
+  "Nain@Luk.7.11": {
     "FGid": "Nain",
     "name": "Nain",
     "unifiedNameTIPNR": "Nain@Luk.7.11",
@@ -33217,7 +33219,7 @@
       }
     ]
   },
-  "Naioth": {
+  "Naioth@1Sa.19.18": {
     "FGid": "Naioth",
     "name": "Naioth",
     "unifiedNameTIPNR": "Naioth@1Sa.19.18",
@@ -33249,7 +33251,7 @@
       }
     ]
   },
-  "Naphath": {
+  "Naphath@Jos.17.11": {
     "FGid": "Naphath",
     "name": "Naphath",
     "unifiedNameTIPNR": "Naphath@Jos.17.11",
@@ -33276,7 +33278,7 @@
       }
     ]
   },
-  "Nazareth": {
+  "Nazareth@Mat.2.23": {
     "FGid": "Nazareth",
     "name": "Nazareth",
     "unifiedNameTIPNR": "Nazareth@Mat.2.23",
@@ -33393,7 +33395,7 @@
       }
     ]
   },
-  "Neapolis": {
+  "Neapolis@Act.16.11": {
     "FGid": "Neapolis",
     "name": "Neapolis",
     "unifiedNameTIPNR": "Neapolis@Act.16.11",
@@ -33420,7 +33422,7 @@
       }
     ]
   },
-  "Neballat": {
+  "Neballat@Neh.11.34": {
     "FGid": "Neballat",
     "name": "Neballat",
     "unifiedNameTIPNR": "Neballat@Neh.11.34",
@@ -33447,7 +33449,7 @@
       }
     ]
   },
-  "Nebo": {
+  "Nebo@Num.32.3": {
     "FGid": "Nebo",
     "name": "Nebo",
     "unifiedNameTIPNR": "Nebo@Num.32.3",
@@ -33480,7 +33482,7 @@
       }
     ]
   },
-  "Nebo2": {
+  "Nebo@Ezr.2.29": {
     "FGid": "Nebo2",
     "name": "Nebo",
     "unifiedNameTIPNR": "Nebo@Ezr.2.29",
@@ -33509,7 +33511,7 @@
       }
     ]
   },
-  "Nebo_Mount": {
+  "Nebo_Mount@Deu.32.49": {
     "FGid": "Nebo_Mount",
     "name": "Nebo_Mount",
     "unifiedNameTIPNR": "Nebo_Mount@Deu.32.49",
@@ -33557,7 +33559,7 @@
       }
     ]
   },
-  "Negeb": {
+  "Negeb@Gen.12.9": {
     "FGid": "Negeb",
     "name": "Negeb",
     "unifiedNameTIPNR": "Negeb@Gen.12.9",
@@ -33655,7 +33657,7 @@
       }
     ]
   },
-  "Neiel": {
+  "Neiel@Jos.19.27": {
     "FGid": "Neiel",
     "name": "Neiel",
     "unifiedNameTIPNR": "Neiel@Jos.19.27",
@@ -33698,7 +33700,7 @@
       }
     ]
   },
-  "Nephtoah": {
+  "Nephtoah@Jos.15.9": {
     "FGid": "Nephtoah",
     "name": "Nephtoah",
     "unifiedNameTIPNR": "Nephtoah@Jos.15.9",
@@ -33726,7 +33728,7 @@
       }
     ]
   },
-  "Netaim": {
+  "Netaim@1Ch.4.23": {
     "FGid": "Netaim",
     "name": "Netaim",
     "unifiedNameTIPNR": "Netaim@1Ch.4.23",
@@ -33753,7 +33755,7 @@
       }
     ]
   },
-  "Netophah": {
+  "Netophah@2Sa.23.28": {
     "FGid": "Netophah",
     "name": "Netophah",
     "unifiedNameTIPNR": "Netophah@2Sa.23.28",
@@ -33822,7 +33824,7 @@
       }
     ]
   },
-  "New_Gate": {
+  "New_Gate@Jer.26.10": {
     "FGid": "New_Gate",
     "name": "New_Gate",
     "unifiedNameTIPNR": "New_Gate@Jer.26.10",
@@ -33850,7 +33852,7 @@
       }
     ]
   },
-  "Nezib": {
+  "Nezib@Jos.15.43": {
     "FGid": "Nezib",
     "name": "Nezib",
     "unifiedNameTIPNR": "Nezib@Jos.15.43",
@@ -33877,7 +33879,7 @@
       }
     ]
   },
-  "Nibshan": {
+  "Nibshan@Jos.15.62": {
     "FGid": "Nibshan",
     "name": "Nibshan",
     "unifiedNameTIPNR": "Nibshan@Jos.15.62",
@@ -33904,7 +33906,7 @@
       }
     ]
   },
-  "Nicopolis": {
+  "Nicopolis@Tit.3.12": {
     "FGid": "Nicopolis",
     "name": "Nicopolis",
     "unifiedNameTIPNR": "Nicopolis@Tit.3.12",
@@ -33932,7 +33934,7 @@
       }
     ]
   },
-  "Nile": {
+  "Nile@Gen.41.1": {
     "FGid": "Nile",
     "name": "Nile",
     "unifiedNameTIPNR": "Nile@Gen.41.1",
@@ -34069,7 +34071,7 @@
       }
     ]
   },
-  "Nimrim": {
+  "Nimrim@Isa.15.6": {
     "FGid": "Nimrim",
     "name": "Nimrim",
     "unifiedNameTIPNR": "Nimrim@Isa.15.6",
@@ -34097,7 +34099,7 @@
       }
     ]
   },
-  "Nineveh": {
+  "Nineveh@Gen.10.11": {
     "FGid": "Nineveh",
     "name": "Nineveh",
     "unifiedNameTIPNR": "Nineveh@Gen.10.11",
@@ -34199,7 +34201,7 @@
       }
     ]
   },
-  "Nob": {
+  "Nob@1Sa.21.1": {
     "FGid": "Nob",
     "name": "Nob",
     "unifiedNameTIPNR": "Nob@1Sa.21.1",
@@ -34231,7 +34233,7 @@
       }
     ]
   },
-  "Nod": {
+  "Nod@Gen.4.16": {
     "FGid": "Nod",
     "name": "Nod",
     "unifiedNameTIPNR": "Nod@Gen.4.16",
@@ -34258,7 +34260,7 @@
       }
     ]
   },
-  "Oboth": {
+  "Oboth@Num.21.10": {
     "FGid": "Oboth",
     "name": "Oboth",
     "unifiedNameTIPNR": "Oboth@Num.21.10",
@@ -34288,7 +34290,7 @@
       }
     ]
   },
-  "Olives_Mount": {
+  "Olives_Mount@2Sa.15.30": {
     "FGid": "Olives_Mount",
     "name": "Olives_Mount",
     "unifiedNameTIPNR": "Olives_Mount@2Sa.15.30",
@@ -34374,7 +34376,7 @@
       }
     ]
   },
-  "On": {
+  "On@Gen.41.45": {
     "FGid": "On",
     "name": "On",
     "unifiedNameTIPNR": "On@Gen.41.45",
@@ -34445,7 +34447,7 @@
       }
     ]
   },
-  "Ono": {
+  "Ono@1Ch.8.12": {
     "FGid": "Ono",
     "name": "Ono",
     "unifiedNameTIPNR": "Ono@1Ch.8.12",
@@ -34492,7 +34494,7 @@
       }
     ]
   },
-  "Ophel": {
+  "Ophel@2Ch.27.3": {
     "FGid": "Ophel",
     "name": "Ophel",
     "unifiedNameTIPNR": "Ophel@2Ch.27.3",
@@ -34523,7 +34525,7 @@
       }
     ]
   },
-  "Ophir": {
+  "Ophir@1Ki.9.28": {
     "FGid": "Ophir",
     "name": "Ophir",
     "unifiedNameTIPNR": "Ophir@1Ki.9.28",
@@ -34561,7 +34563,7 @@
       }
     ]
   },
-  "Ophni": {
+  "Ophni@Jos.18.24": {
     "FGid": "Ophni",
     "name": "Ophni",
     "unifiedNameTIPNR": "Ophni@Jos.18.24",
@@ -34588,7 +34590,7 @@
       }
     ]
   },
-  "Ophrah": {
+  "Ophrah@Jos.18.23": {
     "FGid": "Ophrah",
     "name": "Ophrah",
     "unifiedNameTIPNR": "Ophrah@Jos.18.23",
@@ -34632,7 +34634,7 @@
       }
     ]
   },
-  "Ophrah2": {
+  "Ophrah@Jdg.6.11": {
     "FGid": "Ophrah2",
     "name": "Ophrah",
     "unifiedNameTIPNR": "Ophrah@Jdg.6.11",
@@ -34679,7 +34681,7 @@
       }
     ]
   },
-  "Pacatiana": {
+  "Pacatiana@1Ti.6.21": {
     "FGid": "Pacatiana",
     "name": "Pacatiana",
     "unifiedNameTIPNR": "Pacatiana@1Ti.6.21",
@@ -34705,7 +34707,7 @@
       }
     ]
   },
-  "Paddan-aram": {
+  "Paddan-aram@Gen.25.20": {
     "FGid": "Paddan-aram",
     "name": "Paddan-aram",
     "unifiedNameTIPNR": "Paddan-aram@Gen.25.20",
@@ -34805,7 +34807,7 @@
       }
     ]
   },
-  "Pamphylia": {
+  "Pamphylia@Act.2.10": {
     "FGid": "Pamphylia",
     "name": "Pamphylia",
     "unifiedNameTIPNR": "Pamphylia@Act.2.10",
@@ -34836,7 +34838,7 @@
       }
     ]
   },
-  "Paphos": {
+  "Paphos@Act.13.6": {
     "FGid": "Paphos",
     "name": "Paphos",
     "unifiedNameTIPNR": "Paphos@Act.13.6",
@@ -34864,7 +34866,7 @@
       }
     ]
   },
-  "Parah": {
+  "Parah@Jos.18.23": {
     "FGid": "Parah",
     "name": "Parah",
     "unifiedNameTIPNR": "Parah@Jos.18.23",
@@ -34891,7 +34893,7 @@
       }
     ]
   },
-  "Paran": {
+  "Paran@Gen.21.21": {
     "FGid": "Paran",
     "name": "Paran",
     "unifiedNameTIPNR": "Paran@Gen.21.21",
@@ -34926,7 +34928,7 @@
       }
     ]
   },
-  "Paran_Mount": {
+  "Paran_Mount@Deu.33.2": {
     "FGid": "Paran_Mount",
     "name": "Paran_Mount",
     "unifiedNameTIPNR": "Paran_Mount@Deu.33.2",
@@ -34954,7 +34956,7 @@
       }
     ]
   },
-  "Parbar": {
+  "Parbar@1Ch.26.18": {
     "FGid": "Parbar",
     "name": "Parbar",
     "unifiedNameTIPNR": "Parbar@1Ch.26.18",
@@ -34981,7 +34983,7 @@
       }
     ]
   },
-  "Perez-uzza": {
+  "Perez-uzza@1Ch.13.11": {
     "FGid": "Perez-uzza",
     "name": "Perez-uzza",
     "unifiedNameTIPNR": "Perez-uzza@1Ch.13.11",
@@ -35008,7 +35010,7 @@
       }
     ]
   },
-  "Parvaim": {
+  "Parvaim@2Ch.3.6": {
     "FGid": "Parvaim",
     "name": "Parvaim",
     "unifiedNameTIPNR": "Parvaim@2Ch.3.6",
@@ -35034,7 +35036,7 @@
       }
     ]
   },
-  "Patara": {
+  "Patara@Act.21.1": {
     "FGid": "Patara",
     "name": "Patara",
     "unifiedNameTIPNR": "Patara@Act.21.1",
@@ -35061,7 +35063,7 @@
       }
     ]
   },
-  "Pathros": {
+  "Pathros@Isa.11.11": {
     "FGid": "Pathros",
     "name": "Pathros",
     "unifiedNameTIPNR": "Pathros@Isa.11.11",
@@ -35092,7 +35094,7 @@
       }
     ]
   },
-  "Patmos": {
+  "Patmos@Rev.1.9": {
     "FGid": "Patmos",
     "name": "Patmos",
     "unifiedNameTIPNR": "Patmos@Rev.1.9",
@@ -35119,7 +35121,7 @@
       }
     ]
   },
-  "Pau": {
+  "Pau@Gen.36.39": {
     "FGid": "Pau",
     "name": "Pau",
     "unifiedNameTIPNR": "Pau@Gen.36.39",
@@ -35162,7 +35164,7 @@
       }
     ]
   },
-  "Pelusium": {
+  "Pelusium@Ezk.30.15": {
     "FGid": "Pelusium",
     "name": "Pelusium",
     "unifiedNameTIPNR": "Pelusium@Ezk.30.15",
@@ -35190,7 +35192,7 @@
       }
     ]
   },
-  "Peniel": {
+  "Peniel@Gen.32.30": {
     "FGid": "Peniel",
     "name": "Peniel",
     "unifiedNameTIPNR": "Peniel@Gen.32.30",
@@ -35238,7 +35240,7 @@
       }
     ]
   },
-  "People's_Gate": {
+  "People's_Gate@Jer.17.19": {
     "FGid": "People's_Gate",
     "name": "People's_Gate",
     "unifiedNameTIPNR": "People's_Gate@Jer.17.19",
@@ -35265,7 +35267,7 @@
       }
     ]
   },
-  "Peor": {
+  "Peor@Num.23.28": {
     "FGid": "Peor",
     "name": "Peor",
     "unifiedNameTIPNR": "Peor@Num.23.28",
@@ -35296,7 +35298,7 @@
       }
     ]
   },
-  "Perazim_Mount": {
+  "Perazim_Mount@Isa.28.21": {
     "FGid": "Perazim_Mount",
     "name": "Perazim_Mount",
     "unifiedNameTIPNR": "Perazim_Mount@Isa.28.21",
@@ -35323,7 +35325,7 @@
       }
     ]
   },
-  "Perga": {
+  "Perga@Act.13.13": {
     "FGid": "Perga",
     "name": "Perga",
     "unifiedNameTIPNR": "Perga@Act.13.13",
@@ -35352,7 +35354,7 @@
       }
     ]
   },
-  "Pergamum": {
+  "Pergamum@Rev.1.11": {
     "FGid": "Pergamum",
     "name": "Pergamum",
     "unifiedNameTIPNR": "Pergamum@Rev.1.11",
@@ -35380,7 +35382,7 @@
       }
     ]
   },
-  "Persia": {
+  "Persia@2Ch.36.20": {
     "FGid": "Persia",
     "name": "Persia",
     "unifiedNameTIPNR": "Persia@2Ch.36.20",
@@ -35533,7 +35535,7 @@
       }
     ]
   },
-  "Pethor": {
+  "Pethor@Num.22.5": {
     "FGid": "Pethor",
     "name": "Pethor",
     "unifiedNameTIPNR": "Pethor@Num.22.5",
@@ -35561,7 +35563,7 @@
       }
     ]
   },
-  "Pharpar": {
+  "Pharpar@2Ki.5.12": {
     "FGid": "Pharpar",
     "name": "Pharpar",
     "unifiedNameTIPNR": "Pharpar@2Ki.5.12",
@@ -35588,7 +35590,7 @@
       }
     ]
   },
-  "Philadelphia": {
+  "Philadelphia@Rev.1.11": {
     "FGid": "Philadelphia",
     "name": "Philadelphia",
     "unifiedNameTIPNR": "Philadelphia@Rev.1.11",
@@ -35616,7 +35618,7 @@
       }
     ]
   },
-  "Philippi": {
+  "Philippi@Act.16.12": {
     "FGid": "Philippi",
     "name": "Philippi",
     "unifiedNameTIPNR": "Philippi@Act.16.12",
@@ -35696,7 +35698,7 @@
       }
     ]
   },
-  "Philistine": {
+  "Philistine@Gen.21.32": {
     "FGid": "Philistine",
     "name": "Philistine",
     "unifiedNameTIPNR": "Philistine@Gen.21.32",
@@ -36047,7 +36049,7 @@
       }
     ]
   },
-  "Phoenicia": {
+  "Phoenicia@Act.11.19": {
     "FGid": "Phoenicia",
     "name": "Phoenicia",
     "unifiedNameTIPNR": "Phoenicia@Act.11.19",
@@ -36076,7 +36078,7 @@
       }
     ]
   },
-  "Phoenix": {
+  "Phoenix@Act.27.12": {
     "FGid": "Phoenix",
     "name": "Phoenix",
     "unifiedNameTIPNR": "Phoenix@Act.27.12",
@@ -36103,7 +36105,7 @@
       }
     ]
   },
-  "Phrygia": {
+  "Phrygia@Act.2.10": {
     "FGid": "Phrygia",
     "name": "Phrygia",
     "unifiedNameTIPNR": "Phrygia@Act.2.10",
@@ -36148,7 +36150,7 @@
       }
     ]
   },
-  "Pi-beseth": {
+  "Pi-beseth@Ezk.30.17": {
     "FGid": "Pi-beseth",
     "name": "Pi-beseth",
     "unifiedNameTIPNR": "Pi-beseth@Ezk.30.17",
@@ -36175,7 +36177,7 @@
       }
     ]
   },
-  "Pi-hahiroth": {
+  "Pi-hahiroth@Exo.14.2": {
     "FGid": "Pi-hahiroth",
     "name": "Pi-hahiroth",
     "unifiedNameTIPNR": "Pi-hahiroth@Exo.14.2",
@@ -36220,7 +36222,7 @@
       }
     ]
   },
-  "Pirathon": {
+  "Pirathon@Jdg.12.15": {
     "FGid": "Pirathon",
     "name": "Pirathon",
     "unifiedNameTIPNR": "Pirathon@Jdg.12.15",
@@ -36282,7 +36284,7 @@
       }
     ]
   },
-  "Pisgah": {
+  "Pisgah@Num.21.20": {
     "FGid": "Pisgah",
     "name": "Pisgah",
     "unifiedNameTIPNR": "Pisgah@Num.21.20",
@@ -36340,7 +36342,7 @@
       }
     ]
   },
-  "Pishon": {
+  "Pishon@Gen.2.11": {
     "FGid": "Pishon",
     "name": "Pishon",
     "unifiedNameTIPNR": "Pishon@Gen.2.11",
@@ -36367,7 +36369,7 @@
       }
     ]
   },
-  "Pisidia": {
+  "Pisidia@Act.13.14": {
     "FGid": "Pisidia",
     "name": "Pisidia",
     "unifiedNameTIPNR": "Pisidia@Act.13.14",
@@ -36395,7 +36397,7 @@
       }
     ]
   },
-  "Pithom": {
+  "Pithom@Exo.1.11": {
     "FGid": "Pithom",
     "name": "Pithom",
     "unifiedNameTIPNR": "Pithom@Exo.1.11",
@@ -36422,7 +36424,7 @@
       }
     ]
   },
-  "Pontus": {
+  "Pontus@Act.2.9": {
     "FGid": "Pontus",
     "name": "Pontus",
     "unifiedNameTIPNR": "Pontus@Act.2.9",
@@ -36466,7 +36468,7 @@
       }
     ]
   },
-  "Potsherd_Gate": {
+  "Potsherd_Gate@Jer.19.2": {
     "FGid": "Potsherd_Gate",
     "name": "Potsherd_Gate",
     "unifiedNameTIPNR": "Potsherd_Gate@Jer.19.2",
@@ -36493,7 +36495,7 @@
       }
     ]
   },
-  "Punon": {
+  "Punon@Num.33.42": {
     "FGid": "Punon",
     "name": "Punon",
     "unifiedNameTIPNR": "Punon@Num.33.42",
@@ -36521,7 +36523,7 @@
       }
     ]
   },
-  "Put": {
+  "Put@Isa.66.19": {
     "FGid": "Put",
     "name": "Put",
     "unifiedNameTIPNR": "Put@Isa.66.19",
@@ -36613,7 +36615,7 @@
       }
     ]
   },
-  "Puteoli": {
+  "Puteoli@Act.28.13": {
     "FGid": "Puteoli",
     "name": "Puteoli",
     "unifiedNameTIPNR": "Puteoli@Act.28.13",
@@ -36640,7 +36642,7 @@
       }
     ]
   },
-  "Raamah": {
+  "Raamah@Ezk.27.22": {
     "FGid": "Raamah",
     "name": "Raamah",
     "unifiedNameTIPNR": "Raamah@Ezk.27.22",
@@ -36667,7 +36669,7 @@
       }
     ]
   },
-  "Raamses": {
+  "Raamses@Exo.1.11": {
     "FGid": "Raamses",
     "name": "Raamses",
     "unifiedNameTIPNR": "Raamses@Exo.1.11",
@@ -36694,7 +36696,7 @@
       }
     ]
   },
-  "Rabbith": {
+  "Rabbith@Jos.19.20": {
     "FGid": "Rabbith",
     "name": "Rabbith",
     "unifiedNameTIPNR": "Rabbith@Jos.19.20",
@@ -36721,7 +36723,7 @@
       }
     ]
   },
-  "Rakkon": {
+  "Rakkon@Jos.19.46": {
     "FGid": "Rakkon",
     "name": "Rakkon",
     "unifiedNameTIPNR": "Rakkon@Jos.19.46",
@@ -36748,7 +36750,7 @@
       }
     ]
   },
-  "Ramah": {
+  "Ramah@Jos.18.25": {
     "FGid": "Ramah",
     "name": "Ramah",
     "unifiedNameTIPNR": "Ramah@Jos.18.25",
@@ -36807,7 +36809,7 @@
       }
     ]
   },
-  "Ramah2": {
+  "Ramah@Jos.19.29": {
     "FGid": "Ramah2",
     "name": "Ramah",
     "unifiedNameTIPNR": "Ramah@Jos.19.29",
@@ -36834,7 +36836,7 @@
       }
     ]
   },
-  "Ramah3": {
+  "Ramah@Jos.19.36": {
     "FGid": "Ramah3",
     "name": "Ramah",
     "unifiedNameTIPNR": "Ramah@Jos.19.36",
@@ -36861,7 +36863,7 @@
       }
     ]
   },
-  "Ramath-lehi": {
+  "Ramath-lehi@Jdg.15.17": {
     "FGid": "Ramath-lehi",
     "name": "Ramath-lehi",
     "unifiedNameTIPNR": "Ramath-lehi@Jdg.15.17",
@@ -36888,7 +36890,7 @@
       }
     ]
   },
-  "Rameses": {
+  "Rameses@Gen.47.11": {
     "FGid": "Rameses",
     "name": "Rameses",
     "unifiedNameTIPNR": "Rameses@Gen.47.11",
@@ -36918,7 +36920,7 @@
       }
     ]
   },
-  "Ramoth": {
+  "Ramoth@1Ch.6.73": {
     "FGid": "Ramoth",
     "name": "Ramoth",
     "unifiedNameTIPNR": "Ramoth@1Ch.6.73",
@@ -36945,7 +36947,7 @@
       }
     ]
   },
-  "Ramoth-gilead": {
+  "Ramoth-gilead@Gen.31.47": {
     "FGid": "Ramoth-gilead",
     "name": "Ramoth-gilead",
     "unifiedNameTIPNR": "Ramoth-gilead@Gen.31.47",
@@ -37146,7 +37148,7 @@
       }
     ]
   },
-  "Recah": {
+  "Recah@1Ch.4.12": {
     "FGid": "Recah",
     "name": "Recah",
     "unifiedNameTIPNR": "Recah@1Ch.4.12",
@@ -37173,7 +37175,7 @@
       }
     ]
   },
-  "Red_Sea": {
+  "Red_Sea@Exo.10.19": {
     "FGid": "Red_Sea",
     "name": "Red_Sea",
     "unifiedNameTIPNR": "Red_Sea@Exo.10.19",
@@ -37240,7 +37242,7 @@
       }
     ]
   },
-  "Rehob": {
+  "Rehob@Jos.19.28": {
     "FGid": "Rehob",
     "name": "Rehob",
     "unifiedNameTIPNR": "Rehob@Jos.19.28",
@@ -37267,7 +37269,7 @@
       }
     ]
   },
-  "Rehob2": {
+  "Rehob@Jos.19.30": {
     "FGid": "Rehob2",
     "name": "Rehob",
     "unifiedNameTIPNR": "Rehob@Jos.19.30",
@@ -37297,7 +37299,7 @@
       }
     ]
   },
-  "Rehoboth": {
+  "Rehoboth@Gen.26.22": {
     "FGid": "Rehoboth",
     "name": "Rehoboth",
     "unifiedNameTIPNR": "Rehoboth@Gen.26.22",
@@ -37324,7 +37326,7 @@
       }
     ]
   },
-  "Rehoboth2": {
+  "Rehoboth@Gen.36.37": {
     "FGid": "Rehoboth2",
     "name": "Rehoboth",
     "unifiedNameTIPNR": "Rehoboth@Gen.36.37",
@@ -37352,7 +37354,7 @@
       }
     ]
   },
-  "Rekem": {
+  "Rekem@Jos.18.27": {
     "FGid": "Rekem",
     "name": "Rekem",
     "unifiedNameTIPNR": "Rekem@Jos.18.27",
@@ -37379,7 +37381,7 @@
       }
     ]
   },
-  "Remeth": {
+  "Remeth@Jos.19.21": {
     "FGid": "Remeth",
     "name": "Remeth",
     "unifiedNameTIPNR": "Remeth@Jos.19.21",
@@ -37406,7 +37408,7 @@
       }
     ]
   },
-  "Rephaim_Valley": {
+  "Rephaim_Valley@Jos.15.8": {
     "FGid": "Rephaim_Valley",
     "name": "Rephaim_Valley",
     "unifiedNameTIPNR": "Rephaim_Valley@Jos.15.8",
@@ -37449,7 +37451,7 @@
       }
     ]
   },
-  "Rephidim": {
+  "Rephidim@Exo.17.1": {
     "FGid": "Rephidim",
     "name": "Rephidim",
     "unifiedNameTIPNR": "Rephidim@Exo.17.1",
@@ -37480,7 +37482,7 @@
       }
     ]
   },
-  "Resen": {
+  "Resen@Gen.10.12": {
     "FGid": "Resen",
     "name": "Resen",
     "unifiedNameTIPNR": "Resen@Gen.10.12",
@@ -37507,7 +37509,7 @@
       }
     ]
   },
-  "Rezeph": {
+  "Rezeph@2Ki.19.12": {
     "FGid": "Rezeph",
     "name": "Rezeph",
     "unifiedNameTIPNR": "Rezeph@2Ki.19.12",
@@ -37535,7 +37537,7 @@
       }
     ]
   },
-  "Rhegium": {
+  "Rhegium@Act.28.13": {
     "FGid": "Rhegium",
     "name": "Rhegium",
     "unifiedNameTIPNR": "Rhegium@Act.28.13",
@@ -37562,7 +37564,7 @@
       }
     ]
   },
-  "Rhodes": {
+  "Rhodes@Act.21.1": {
     "FGid": "Rhodes",
     "name": "Rhodes",
     "unifiedNameTIPNR": "Rhodes@Act.21.1",
@@ -37589,7 +37591,7 @@
       }
     ]
   },
-  "Riblah": {
+  "Riblah@Num.34.11": {
     "FGid": "Riblah",
     "name": "Riblah",
     "unifiedNameTIPNR": "Riblah@Num.34.11",
@@ -37616,7 +37618,7 @@
       }
     ]
   },
-  "Riblah2": {
+  "Riblah@2Ki.23.33": {
     "FGid": "Riblah2",
     "name": "Riblah",
     "unifiedNameTIPNR": "Riblah@2Ki.23.33",
@@ -37668,7 +37670,7 @@
       }
     ]
   },
-  "Rimmon": {
+  "Rimmon@Jdg.20.45": {
     "FGid": "Rimmon",
     "name": "Rimmon",
     "unifiedNameTIPNR": "Rimmon@Jdg.20.45",
@@ -37698,7 +37700,7 @@
       }
     ]
   },
-  "Rimmon-perez": {
+  "Rimmon-perez@Num.33.19": {
     "FGid": "Rimmon-perez",
     "name": "Rimmon-perez",
     "unifiedNameTIPNR": "Rimmon-perez@Num.33.19",
@@ -37726,7 +37728,7 @@
       }
     ]
   },
-  "Rissah": {
+  "Rissah@Num.33.21": {
     "FGid": "Rissah",
     "name": "Rissah",
     "unifiedNameTIPNR": "Rissah@Num.33.21",
@@ -37754,7 +37756,7 @@
       }
     ]
   },
-  "Rithmah": {
+  "Rithmah@Num.33.18": {
     "FGid": "Rithmah",
     "name": "Rithmah",
     "unifiedNameTIPNR": "Rithmah@Num.33.18",
@@ -37782,7 +37784,7 @@
       }
     ]
   },
-  "Rock_of_Escape": {
+  "Rock_of_Escape@1Sa.23.28": {
     "FGid": "Rock_of_Escape",
     "name": "Rock_of_Escape",
     "unifiedNameTIPNR": "Rock_of_Escape@1Sa.23.28",
@@ -37809,7 +37811,7 @@
       }
     ]
   },
-  "Rogelim": {
+  "Rogelim@2Sa.17.27": {
     "FGid": "Rogelim",
     "name": "Rogelim",
     "unifiedNameTIPNR": "Rogelim@2Sa.17.27",
@@ -37837,7 +37839,7 @@
       }
     ]
   },
-  "Rome": {
+  "Rome@Jhn.11.48": {
     "FGid": "Rome",
     "name": "Rome",
     "unifiedNameTIPNR": "Rome@Jhn.11.48",
@@ -37981,7 +37983,7 @@
       }
     ]
   },
-  "Sahar": {
+  "Sahar@Ezk.27.18": {
     "FGid": "Sahar",
     "name": "Sahar",
     "unifiedNameTIPNR": "Sahar@Ezk.27.18",
@@ -38008,7 +38010,7 @@
       }
     ]
   },
-  "Salamis": {
+  "Salamis@Act.13.5": {
     "FGid": "Salamis",
     "name": "Salamis",
     "unifiedNameTIPNR": "Salamis@Act.13.5",
@@ -38035,7 +38037,7 @@
       }
     ]
   },
-  "Salecah": {
+  "Salecah@Deu.3.10": {
     "FGid": "Salecah",
     "name": "Salecah",
     "unifiedNameTIPNR": "Salecah@Deu.3.10",
@@ -38080,7 +38082,7 @@
       }
     ]
   },
-  "Salim": {
+  "Salim@Jhn.3.23": {
     "FGid": "Salim",
     "name": "Salim",
     "unifiedNameTIPNR": "Salim@Jhn.3.23",
@@ -38107,7 +38109,7 @@
       }
     ]
   },
-  "Salmone": {
+  "Salmone@Act.27.7": {
     "FGid": "Salmone",
     "name": "Salmone",
     "unifiedNameTIPNR": "Salmone@Act.27.7",
@@ -38134,7 +38136,7 @@
       }
     ]
   },
-  "Salt_Sea": {
+  "Salt_Sea@Gen.14.3": {
     "FGid": "Salt_Sea",
     "name": "Salt_Sea",
     "unifiedNameTIPNR": "Salt_Sea@Gen.14.3",
@@ -38189,7 +38191,7 @@
       }
     ]
   },
-  "Salt_Valley": {
+  "Salt_Valley@2Sa.8.13": {
     "FGid": "Salt_Valley",
     "name": "Salt_Valley",
     "unifiedNameTIPNR": "Salt_Valley@2Sa.8.13",
@@ -38229,7 +38231,7 @@
       }
     ]
   },
-  "Samaria": {
+  "Samaria@1Ki.13.32": {
     "FGid": "Samaria",
     "name": "Samaria",
     "unifiedNameTIPNR": "Samaria@1Ki.13.32",
@@ -38479,7 +38481,7 @@
       }
     ]
   },
-  "Samos": {
+  "Samos@Act.20.15": {
     "FGid": "Samos",
     "name": "Samos",
     "unifiedNameTIPNR": "Samos@Act.20.15",
@@ -38506,7 +38508,7 @@
       }
     ]
   },
-  "Samothrace": {
+  "Samothrace@Act.16.11": {
     "FGid": "Samothrace",
     "name": "Samothrace",
     "unifiedNameTIPNR": "Samothrace@Act.16.11",
@@ -38533,7 +38535,7 @@
       }
     ]
   },
-  "Sansannah": {
+  "Sansannah@Jos.15.31": {
     "FGid": "Sansannah",
     "name": "Sansannah",
     "unifiedNameTIPNR": "Sansannah@Jos.15.31",
@@ -38560,7 +38562,7 @@
       }
     ]
   },
-  "Sardis": {
+  "Sardis@Oba.1.20": {
     "FGid": "Sardis",
     "name": "Sardis",
     "unifiedNameTIPNR": "Sardis@Oba.1.20",
@@ -38605,7 +38607,7 @@
       }
     ]
   },
-  "Sarid": {
+  "Sarid@Jos.19.10": {
     "FGid": "Sarid",
     "name": "Sarid",
     "unifiedNameTIPNR": "Sarid@Jos.19.10",
@@ -38633,7 +38635,7 @@
       }
     ]
   },
-  "Seba": {
+  "Seba@Psa.72.10": {
     "FGid": "Seba",
     "name": "Seba",
     "unifiedNameTIPNR": "Seba@Psa.72.10",
@@ -38662,7 +38664,7 @@
       }
     ]
   },
-  "Sebam": {
+  "Sebam@Num.32.3": {
     "FGid": "Sebam",
     "name": "Sebam",
     "unifiedNameTIPNR": "Sebam@Num.32.3",
@@ -38689,7 +38691,7 @@
       }
     ]
   },
-  "Secacah": {
+  "Secacah@Jos.15.61": {
     "FGid": "Secacah",
     "name": "Secacah",
     "unifiedNameTIPNR": "Secacah@Jos.15.61",
@@ -38716,7 +38718,7 @@
       }
     ]
   },
-  "Second_Quarter": {
+  "Second_Quarter@2Ki.22.14": {
     "FGid": "Second_Quarter",
     "name": "Second_Quarter",
     "unifiedNameTIPNR": "Second_Quarter@2Ki.22.14",
@@ -38745,7 +38747,7 @@
       }
     ]
   },
-  "Secu": {
+  "Secu@1Sa.19.22": {
     "FGid": "Secu",
     "name": "Secu",
     "unifiedNameTIPNR": "Secu@1Sa.19.22",
@@ -38772,7 +38774,7 @@
       }
     ]
   },
-  "Seir": {
+  "Seir@Gen.14.6": {
     "FGid": "Seir",
     "name": "Seir",
     "unifiedNameTIPNR": "Seir@Gen.14.6",
@@ -38823,7 +38825,7 @@
       }
     ]
   },
-  "Seir_Mount": {
+  "Seir_Mount@Deu.1.2": {
     "FGid": "Seir_Mount",
     "name": "Seir_Mount",
     "unifiedNameTIPNR": "Seir_Mount@Deu.1.2",
@@ -38860,7 +38862,7 @@
       }
     ]
   },
-  "Seir_Mount2": {
+  "Seir_Mount@Jos.15.10": {
     "FGid": "Seir_Mount2",
     "name": "Seir_Mount",
     "unifiedNameTIPNR": "Seir_Mount@Jos.15.10",
@@ -38887,7 +38889,7 @@
       }
     ]
   },
-  "Seirah": {
+  "Seirah@Jdg.3.26": {
     "FGid": "Seirah",
     "name": "Seirah",
     "unifiedNameTIPNR": "Seirah@Jdg.3.26",
@@ -38914,7 +38916,7 @@
       }
     ]
   },
-  "Sela": {
+  "Sela@Jdg.1.36": {
     "FGid": "Sela",
     "name": "Sela",
     "unifiedNameTIPNR": "Sela@Jdg.1.36",
@@ -39006,7 +39008,7 @@
       }
     ]
   },
-  "Seleucia": {
+  "Seleucia@Act.13.4": {
     "FGid": "Seleucia",
     "name": "Seleucia",
     "unifiedNameTIPNR": "Seleucia@Act.13.4",
@@ -39033,7 +39035,7 @@
       }
     ]
   },
-  "Senaah": {
+  "Senaah@Ezr.2.35": {
     "FGid": "Senaah",
     "name": "Senaah",
     "unifiedNameTIPNR": "Senaah@Ezr.2.35",
@@ -39061,7 +39063,7 @@
       }
     ]
   },
-  "Seneh": {
+  "Seneh@1Sa.14.4": {
     "FGid": "Seneh",
     "name": "Seneh",
     "unifiedNameTIPNR": "Seneh@1Sa.14.4",
@@ -39088,7 +39090,7 @@
       }
     ]
   },
-  "Sephar": {
+  "Sephar@Gen.10.30": {
     "FGid": "Sephar",
     "name": "Sephar",
     "unifiedNameTIPNR": "Sephar@Gen.10.30",
@@ -39115,7 +39117,7 @@
       }
     ]
   },
-  "Sepharvaim": {
+  "Sepharvaim@2Ki.17.24": {
     "FGid": "Sepharvaim",
     "name": "Sepharvaim",
     "unifiedNameTIPNR": "Sepharvaim@2Ki.17.24",
@@ -39163,7 +39165,7 @@
       }
     ]
   },
-  "Shaalbim": {
+  "Shaalbim@Jdg.1.35": {
     "FGid": "Shaalbim",
     "name": "Shaalbim",
     "unifiedNameTIPNR": "Shaalbim@Jdg.1.35",
@@ -39224,7 +39226,7 @@
       }
     ]
   },
-  "Shaalim": {
+  "Shaalim@1Sa.9.4": {
     "FGid": "Shaalim",
     "name": "Shaalim",
     "unifiedNameTIPNR": "Shaalim@1Sa.9.4",
@@ -39251,7 +39253,7 @@
       }
     ]
   },
-  "Shaaraim": {
+  "Shaaraim@Jos.15.36": {
     "FGid": "Shaaraim",
     "name": "Shaaraim",
     "unifiedNameTIPNR": "Shaaraim@Jos.15.36",
@@ -39279,7 +39281,7 @@
       }
     ]
   },
-  "Shahazumah": {
+  "Shahazumah@Jos.19.22": {
     "FGid": "Shahazumah",
     "name": "Shahazumah",
     "unifiedNameTIPNR": "Shahazumah@Jos.19.22",
@@ -39308,7 +39310,7 @@
       }
     ]
   },
-  "Shalishah": {
+  "Shalishah@1Sa.9.4": {
     "FGid": "Shalishah",
     "name": "Shalishah",
     "unifiedNameTIPNR": "Shalishah@1Sa.9.4",
@@ -39335,7 +39337,7 @@
       }
     ]
   },
-  "Shallecheth": {
+  "Shallecheth@1Ch.26.16": {
     "FGid": "Shallecheth",
     "name": "Shallecheth",
     "unifiedNameTIPNR": "Shallecheth@1Ch.26.16",
@@ -39362,7 +39364,7 @@
       }
     ]
   },
-  "Shamir": {
+  "Shamir@Jos.15.48": {
     "FGid": "Shamir",
     "name": "Shamir",
     "unifiedNameTIPNR": "Shamir@Jos.15.48",
@@ -39389,7 +39391,7 @@
       }
     ]
   },
-  "Shamir2": {
+  "Shamir@Jdg.10.1": {
     "FGid": "Shamir2",
     "name": "Shamir",
     "unifiedNameTIPNR": "Shamir@Jdg.10.1",
@@ -39417,7 +39419,7 @@
       }
     ]
   },
-  "Shaphir": {
+  "Shaphir@Mic.1.11": {
     "FGid": "Shaphir",
     "name": "Shaphir",
     "unifiedNameTIPNR": "Shaphir@Mic.1.11",
@@ -39444,7 +39446,7 @@
       }
     ]
   },
-  "Sharon": {
+  "Sharon@1Ch.5.16": {
     "FGid": "Sharon",
     "name": "Sharon",
     "unifiedNameTIPNR": "Sharon@1Ch.5.16",
@@ -39471,7 +39473,7 @@
       }
     ]
   },
-  "Sharon2": {
+  "Sharon@1Ch.27.29": {
     "FGid": "Sharon2",
     "name": "Sharon",
     "unifiedNameTIPNR": "Sharon@1Ch.27.29",
@@ -39534,7 +39536,7 @@
       }
     ]
   },
-  "Sharuhen": {
+  "Sharuhen@Jos.19.6": {
     "FGid": "Sharuhen",
     "name": "Sharuhen",
     "unifiedNameTIPNR": "Sharuhen@Jos.19.6",
@@ -39593,7 +39595,7 @@
       }
     ]
   },
-  "Shaveh": {
+  "Shaveh@Gen.14.5": {
     "FGid": "Shaveh",
     "name": "Shaveh",
     "unifiedNameTIPNR": "Shaveh@Gen.14.5",
@@ -39621,7 +39623,7 @@
       }
     ]
   },
-  "Sheba": {
+  "Sheba@1Ki.10.1": {
     "FGid": "Sheba",
     "name": "Sheba",
     "unifiedNameTIPNR": "Sheba@1Ki.10.1",
@@ -39678,7 +39680,7 @@
       }
     ]
   },
-  "Shebarim": {
+  "Shebarim@Jos.7.5": {
     "FGid": "Shebarim",
     "name": "Shebarim",
     "unifiedNameTIPNR": "Shebarim@Jos.7.5",
@@ -39705,7 +39707,7 @@
       }
     ]
   },
-  "Shechem": {
+  "Shechem@Gen.12.6": {
     "FGid": "Shechem",
     "name": "Shechem",
     "unifiedNameTIPNR": "Shechem@Gen.12.6",
@@ -39800,7 +39802,7 @@
       }
     ]
   },
-  "Sheep_Gate": {
+  "Sheep_Gate@Neh.3.1": {
     "FGid": "Sheep_Gate",
     "name": "Sheep_Gate",
     "unifiedNameTIPNR": "Sheep_Gate@Neh.3.1",
@@ -39845,7 +39847,7 @@
       }
     ]
   },
-  "Shema": {
+  "Shema@Jos.15.26": {
     "FGid": "Shema",
     "name": "Shema",
     "unifiedNameTIPNR": "Shema@Jos.15.26",
@@ -39872,7 +39874,7 @@
       }
     ]
   },
-  "Shen": {
+  "Shen@1Sa.7.12": {
     "FGid": "Shen",
     "name": "Shen",
     "unifiedNameTIPNR": "Shen@1Sa.7.12",
@@ -39899,7 +39901,7 @@
       }
     ]
   },
-  "Shepham": {
+  "Shepham@Num.34.10": {
     "FGid": "Shepham",
     "name": "Shepham",
     "unifiedNameTIPNR": "Shepham@Num.34.10",
@@ -39927,7 +39929,7 @@
       }
     ]
   },
-  "Shephelah": {
+  "Shephelah@Deu.1.7": {
     "FGid": "Shephelah",
     "name": "Shephelah",
     "unifiedNameTIPNR": "Shephelah@Deu.1.7",
@@ -39973,7 +39975,7 @@
       }
     ]
   },
-  "Shepher_Mount": {
+  "Shepher_Mount@Num.33.23": {
     "FGid": "Shepher_Mount",
     "name": "Shepher_Mount",
     "unifiedNameTIPNR": "Shepher_Mount@Num.33.23",
@@ -40001,7 +40003,7 @@
       }
     ]
   },
-  "Shihor-libnath": {
+  "Shihor-libnath@Jos.19.26": {
     "FGid": "Shihor-libnath",
     "name": "Shihor-libnath",
     "unifiedNameTIPNR": "Shihor-libnath@Jos.19.26",
@@ -40028,7 +40030,7 @@
       }
     ]
   },
-  "Shikkeron": {
+  "Shikkeron@Jos.15.11": {
     "FGid": "Shikkeron",
     "name": "Shikkeron",
     "unifiedNameTIPNR": "Shikkeron@Jos.15.11",
@@ -40055,7 +40057,7 @@
       }
     ]
   },
-  "Shiloh": {
+  "Shiloh@Jos.18.1": {
     "FGid": "Shiloh",
     "name": "Shiloh",
     "unifiedNameTIPNR": "Shiloh@Jos.18.1",
@@ -40134,7 +40136,7 @@
       }
     ]
   },
-  "Shimron": {
+  "Shimron@Jos.11.1": {
     "FGid": "Shimron",
     "name": "Shimron",
     "unifiedNameTIPNR": "Shimron@Jos.11.1",
@@ -40178,7 +40180,7 @@
       }
     ]
   },
-  "Shinar": {
+  "Shinar@Gen.10.10": {
     "FGid": "Shinar",
     "name": "Shinar",
     "unifiedNameTIPNR": "Shinar@Gen.10.10",
@@ -40213,7 +40215,7 @@
       }
     ]
   },
-  "Shion": {
+  "Shion@Jos.19.19": {
     "FGid": "Shion",
     "name": "Shion",
     "unifiedNameTIPNR": "Shion@Jos.19.19",
@@ -40240,7 +40242,7 @@
       }
     ]
   },
-  "Shittim_Valley": {
+  "Shittim_Valley@Jol.3.18": {
     "FGid": "Shittim_Valley",
     "name": "Shittim_Valley",
     "unifiedNameTIPNR": "Shittim_Valley@Jol.3.18",
@@ -40276,7 +40278,7 @@
       }
     ]
   },
-  "Shoa": {
+  "Shoa@Ezk.23.23": {
     "FGid": "Shoa",
     "name": "Shoa",
     "unifiedNameTIPNR": "Shoa@Ezk.23.23",
@@ -40303,7 +40305,7 @@
       }
     ]
   },
-  "Shual": {
+  "Shual@1Sa.13.17": {
     "FGid": "Shual",
     "name": "Shual",
     "unifiedNameTIPNR": "Shual@1Sa.13.17",
@@ -40330,7 +40332,7 @@
       }
     ]
   },
-  "Shunem": {
+  "Shunem@Jos.19.18": {
     "FGid": "Shunem",
     "name": "Shunem",
     "unifiedNameTIPNR": "Shunem@Jos.19.18",
@@ -40359,7 +40361,7 @@
       }
     ]
   },
-  "Shur": {
+  "Shur@Gen.16.7": {
     "FGid": "Shur",
     "name": "Shur",
     "unifiedNameTIPNR": "Shur@Gen.16.7",
@@ -40391,7 +40393,7 @@
       }
     ]
   },
-  "Sibmah": {
+  "Sibmah@Num.32.38": {
     "FGid": "Sibmah",
     "name": "Sibmah",
     "unifiedNameTIPNR": "Sibmah@Num.32.38",
@@ -40422,7 +40424,7 @@
       }
     ]
   },
-  "Sibraim": {
+  "Sibraim@Ezk.47.16": {
     "FGid": "Sibraim",
     "name": "Sibraim",
     "unifiedNameTIPNR": "Sibraim@Ezk.47.16",
@@ -40449,7 +40451,7 @@
       }
     ]
   },
-  "Siddim_Valley": {
+  "Siddim_Valley@Gen.14.3": {
     "FGid": "Siddim_Valley",
     "name": "Siddim_Valley",
     "unifiedNameTIPNR": "Siddim_Valley@Gen.14.3",
@@ -40487,7 +40489,7 @@
       }
     ]
   },
-  "Sidon": {
+  "Sidon@Gen.10.19": {
     "FGid": "Sidon",
     "name": "Sidon",
     "unifiedNameTIPNR": "Sidon@Gen.10.19",
@@ -40655,7 +40657,7 @@
       }
     ]
   },
-  "Silla": {
+  "Silla@2Ki.12.20": {
     "FGid": "Silla",
     "name": "Silla",
     "unifiedNameTIPNR": "Silla@2Ki.12.20",
@@ -40682,7 +40684,7 @@
       }
     ]
   },
-  "Siloam": {
+  "Siloam@Neh.3.15": {
     "FGid": "Siloam",
     "name": "Siloam",
     "unifiedNameTIPNR": "Siloam@Neh.3.15",
@@ -40768,7 +40770,7 @@
       }
     ]
   },
-  "Sin": {
+  "Sin@Exo.16.1": {
     "FGid": "Sin",
     "name": "Sin",
     "unifiedNameTIPNR": "Sin@Exo.16.1",
@@ -40798,7 +40800,7 @@
       }
     ]
   },
-  "Sinai": {
+  "Sinai@Exo.19.11": {
     "FGid": "Sinai",
     "name": "Sinai",
     "unifiedNameTIPNR": "Sinai@Exo.19.11",
@@ -40927,7 +40929,7 @@
       }
     ]
   },
-  "Sinai_Wilderness": {
+  "Sinai_Wilderness@Exo.19.1": {
     "FGid": "Sinai_Wilderness",
     "name": "Sinai_Wilderness",
     "unifiedNameTIPNR": "Sinai_Wilderness@Exo.19.1",
@@ -40974,7 +40976,7 @@
       }
     ]
   },
-  "Siphmoth": {
+  "Siphmoth@1Sa.30.28": {
     "FGid": "Siphmoth",
     "name": "Siphmoth",
     "unifiedNameTIPNR": "Siphmoth@1Sa.30.28",
@@ -41001,7 +41003,7 @@
       }
     ]
   },
-  "Sirah": {
+  "Sirah@2Sa.3.26": {
     "FGid": "Sirah",
     "name": "Sirah",
     "unifiedNameTIPNR": "Sirah@2Sa.3.26",
@@ -41028,7 +41030,7 @@
       }
     ]
   },
-  "Sitnah": {
+  "Sitnah@Gen.26.21": {
     "FGid": "Sitnah",
     "name": "Sitnah",
     "unifiedNameTIPNR": "Sitnah@Gen.26.21",
@@ -41055,7 +41057,7 @@
       }
     ]
   },
-  "Smyrna": {
+  "Smyrna@Rev.1.11": {
     "FGid": "Smyrna",
     "name": "Smyrna",
     "unifiedNameTIPNR": "Smyrna@Rev.1.11",
@@ -41100,7 +41102,7 @@
       }
     ]
   },
-  "Socoh": {
+  "Socoh@Jos.15.35": {
     "FGid": "Socoh",
     "name": "Socoh",
     "unifiedNameTIPNR": "Socoh@Jos.15.35",
@@ -41192,7 +41194,7 @@
       }
     ]
   },
-  "Socoh2": {
+  "Socoh@Jos.15.48": {
     "FGid": "Socoh2",
     "name": "Socoh",
     "unifiedNameTIPNR": "Socoh@Jos.15.48",
@@ -41219,7 +41221,7 @@
       }
     ]
   },
-  "Sodom": {
+  "Sodom@Gen.10.19": {
     "FGid": "Sodom",
     "name": "Sodom",
     "unifiedNameTIPNR": "Sodom@Gen.10.19",
@@ -41324,7 +41326,7 @@
       }
     ]
   },
-  "Solomon's_Portico": {
+  "Solomon's_Portico@Act.3.11": {
     "FGid": "Solomon's_Portico",
     "name": "Solomon's_Portico",
     "unifiedNameTIPNR": "Solomon's_Portico@Act.3.11",
@@ -41361,7 +41363,7 @@
       }
     ]
   },
-  "Sorek_Valley": {
+  "Sorek_Valley@Jdg.16.4": {
     "FGid": "Sorek_Valley",
     "name": "Sorek_Valley",
     "unifiedNameTIPNR": "Sorek_Valley@Jdg.16.4",
@@ -41397,7 +41399,7 @@
       }
     ]
   },
-  "Spain": {
+  "Spain@Rom.15.24": {
     "FGid": "Spain",
     "name": "Spain",
     "unifiedNameTIPNR": "Spain@Rom.15.24",
@@ -41425,7 +41427,7 @@
       }
     ]
   },
-  "Straight": {
+  "Straight@Act.9.11": {
     "FGid": "Straight",
     "name": "Straight",
     "unifiedNameTIPNR": "Straight@Act.9.11",
@@ -41452,7 +41454,7 @@
       }
     ]
   },
-  "Succoth": {
+  "Succoth@Gen.33.17": {
     "FGid": "Succoth",
     "name": "Succoth",
     "unifiedNameTIPNR": "Succoth@Gen.33.17",
@@ -41492,7 +41494,7 @@
       }
     ]
   },
-  "Succoth2": {
+  "Succoth@Exo.12.37": {
     "FGid": "Succoth2",
     "name": "Succoth",
     "unifiedNameTIPNR": "Succoth@Exo.12.37",
@@ -41522,7 +41524,7 @@
       }
     ]
   },
-  "Suph": {
+  "Suph@Deu.1.1": {
     "FGid": "Suph",
     "name": "Suph",
     "unifiedNameTIPNR": "Suph@Deu.1.1",
@@ -41549,7 +41551,7 @@
       }
     ]
   },
-  "Suphah": {
+  "Suphah@Num.21.14": {
     "FGid": "Suphah",
     "name": "Suphah",
     "unifiedNameTIPNR": "Suphah@Num.21.14",
@@ -41576,7 +41578,7 @@
       }
     ]
   },
-  "Sur": {
+  "Sur@2Ki.11.6": {
     "FGid": "Sur",
     "name": "Sur",
     "unifiedNameTIPNR": "Sur@2Ki.11.6",
@@ -41603,7 +41605,7 @@
       }
     ]
   },
-  "Susa": {
+  "Susa@Ezr.4.9": {
     "FGid": "Susa",
     "name": "Susa",
     "unifiedNameTIPNR": "Susa@Ezr.4.9",
@@ -41666,7 +41668,7 @@
       }
     ]
   },
-  "Sychar": {
+  "Sychar@Jhn.4.5": {
     "FGid": "Sychar",
     "name": "Sychar",
     "unifiedNameTIPNR": "Sychar@Jhn.4.5",
@@ -41693,7 +41695,7 @@
       }
     ]
   },
-  "Syene": {
+  "Syene@Isa.49.12": {
     "FGid": "Syene",
     "name": "Syene",
     "unifiedNameTIPNR": "Syene@Isa.49.12",
@@ -41737,7 +41739,7 @@
       }
     ]
   },
-  "Syracuse": {
+  "Syracuse@Act.28.12": {
     "FGid": "Syracuse",
     "name": "Syracuse",
     "unifiedNameTIPNR": "Syracuse@Act.28.12",
@@ -41764,7 +41766,7 @@
       }
     ]
   },
-  "Syria": {
+  "Syria@Jdg.10.6": {
     "FGid": "Syria",
     "name": "Syria",
     "unifiedNameTIPNR": "Syria@Jdg.10.6",
@@ -42031,7 +42033,7 @@
       }
     ]
   },
-  "Syrtis": {
+  "Syrtis@Act.27.17": {
     "FGid": "Syrtis",
     "name": "Syrtis",
     "unifiedNameTIPNR": "Syrtis@Act.27.17",
@@ -42058,7 +42060,7 @@
       }
     ]
   },
-  "Taanach": {
+  "Taanach@Jos.12.21": {
     "FGid": "Taanach",
     "name": "Taanach",
     "unifiedNameTIPNR": "Taanach@Jos.12.21",
@@ -42107,7 +42109,7 @@
       }
     ]
   },
-  "Taanath-shiloh": {
+  "Taanath-shiloh@Jos.16.6": {
     "FGid": "Taanath-shiloh",
     "name": "Taanath-shiloh",
     "unifiedNameTIPNR": "Taanath-shiloh@Jos.16.6",
@@ -42134,7 +42136,7 @@
       }
     ]
   },
-  "Tabbath": {
+  "Tabbath@Jdg.7.22": {
     "FGid": "Tabbath",
     "name": "Tabbath",
     "unifiedNameTIPNR": "Tabbath@Jdg.7.22",
@@ -42161,7 +42163,7 @@
       }
     ]
   },
-  "Taberah": {
+  "Taberah@Num.11.3": {
     "FGid": "Taberah",
     "name": "Taberah",
     "unifiedNameTIPNR": "Taberah@Num.11.3",
@@ -42189,7 +42191,7 @@
       }
     ]
   },
-  "Tabor": {
+  "Tabor@1Sa.10.3": {
     "FGid": "Tabor",
     "name": "Tabor",
     "unifiedNameTIPNR": "Tabor@1Sa.10.3",
@@ -42216,7 +42218,7 @@
       }
     ]
   },
-  "Tabor_Mount": {
+  "Tabor_Mount@Jdg.4.6": {
     "FGid": "Tabor_Mount",
     "name": "Tabor_Mount",
     "unifiedNameTIPNR": "Tabor_Mount@Jdg.4.6",
@@ -42265,7 +42267,7 @@
       }
     ]
   },
-  "Tadmor": {
+  "Tadmor@1Ki.9.18": {
     "FGid": "Tadmor",
     "name": "Tadmor",
     "unifiedNameTIPNR": "Tadmor@1Ki.9.18",
@@ -42309,7 +42311,7 @@
       }
     ]
   },
-  "Tahath": {
+  "Tahath@Num.33.26": {
     "FGid": "Tahath",
     "name": "Tahath",
     "unifiedNameTIPNR": "Tahath@Num.33.26",
@@ -42337,7 +42339,7 @@
       }
     ]
   },
-  "Tahpanhes": {
+  "Tahpanhes@Jer.2.16": {
     "FGid": "Tahpanhes",
     "name": "Tahpanhes",
     "unifiedNameTIPNR": "Tahpanhes@Jer.2.16",
@@ -42385,7 +42387,7 @@
       }
     ]
   },
-  "Tamar": {
+  "Tamar@Ezk.47.18": {
     "FGid": "Tamar",
     "name": "Tamar",
     "unifiedNameTIPNR": "Tamar@Ezk.47.18",
@@ -42414,7 +42416,7 @@
       }
     ]
   },
-  "Tappuah": {
+  "Tappuah@Jos.12.17": {
     "FGid": "Tappuah",
     "name": "Tappuah",
     "unifiedNameTIPNR": "Tappuah@Jos.12.17",
@@ -42460,7 +42462,7 @@
       }
     ]
   },
-  "Tappuah2": {
+  "Tappuah@Jos.15.34": {
     "FGid": "Tappuah2",
     "name": "Tappuah",
     "unifiedNameTIPNR": "Tappuah@Jos.15.34",
@@ -42487,7 +42489,7 @@
       }
     ]
   },
-  "Taralah": {
+  "Taralah@Jos.18.27": {
     "FGid": "Taralah",
     "name": "Taralah",
     "unifiedNameTIPNR": "Taralah@Jos.18.27",
@@ -42514,7 +42516,7 @@
       }
     ]
   },
-  "Tarshish": {
+  "Tarshish@1Ki.10.22": {
     "FGid": "Tarshish",
     "name": "Tarshish",
     "unifiedNameTIPNR": "Tarshish@1Ki.10.22",
@@ -42566,7 +42568,7 @@
       }
     ]
   },
-  "Tarsus": {
+  "Tarsus@Act.9.11": {
     "FGid": "Tarsus",
     "name": "Tarsus",
     "unifiedNameTIPNR": "Tarsus@Act.9.11",
@@ -42612,7 +42614,7 @@
       }
     ]
   },
-  "Tekoa": {
+  "Tekoa@2Sa.14.2": {
     "FGid": "Tekoa",
     "name": "Tekoa",
     "unifiedNameTIPNR": "Tekoa@2Sa.14.2",
@@ -42682,7 +42684,7 @@
       }
     ]
   },
-  "Tel-abib": {
+  "Tel-abib@Ezk.3.15": {
     "FGid": "Tel-abib",
     "name": "Tel-abib",
     "unifiedNameTIPNR": "Tel-abib@Ezk.3.15",
@@ -42709,7 +42711,7 @@
       }
     ]
   },
-  "Telaim": {
+  "Telaim@1Sa.15.4": {
     "FGid": "Telaim",
     "name": "Telaim",
     "unifiedNameTIPNR": "Telaim@1Sa.15.4",
@@ -42736,7 +42738,7 @@
       }
     ]
   },
-  "Telassar": {
+  "Telassar@2Ki.19.12": {
     "FGid": "Telassar",
     "name": "Telassar",
     "unifiedNameTIPNR": "Telassar@2Ki.19.12",
@@ -42764,7 +42766,7 @@
       }
     ]
   },
-  "Telem": {
+  "Telem@Jos.15.24": {
     "FGid": "Telem",
     "name": "Telem",
     "unifiedNameTIPNR": "Telem@Jos.15.24",
@@ -42791,7 +42793,7 @@
       }
     ]
   },
-  "Tel-harsha": {
+  "Tel-harsha@Ezr.2.59": {
     "FGid": "Tel-harsha",
     "name": "Tel-harsha",
     "unifiedNameTIPNR": "Tel-harsha@Ezr.2.59",
@@ -42819,7 +42821,7 @@
       }
     ]
   },
-  "Tel-melah": {
+  "Tel-melah@Ezr.2.59": {
     "FGid": "Tel-melah",
     "name": "Tel-melah",
     "unifiedNameTIPNR": "Tel-melah@Ezr.2.59",
@@ -42847,7 +42849,7 @@
       }
     ]
   },
-  "Tema": {
+  "Tema@Job.6.19": {
     "FGid": "Tema",
     "name": "Tema",
     "unifiedNameTIPNR": "Tema@Job.6.19",
@@ -42877,7 +42879,7 @@
       }
     ]
   },
-  "Teman": {
+  "Teman@Gen.36.34": {
     "FGid": "Teman",
     "name": "Teman",
     "unifiedNameTIPNR": "Teman@Gen.36.34",
@@ -42933,7 +42935,7 @@
       }
     ]
   },
-  "Terah": {
+  "Terah@Num.33.27": {
     "FGid": "Terah",
     "name": "Terah",
     "unifiedNameTIPNR": "Terah@Num.33.27",
@@ -42961,7 +42963,7 @@
       }
     ]
   },
-  "Thebes": {
+  "Thebes@Jer.46.25": {
     "FGid": "Thebes",
     "name": "Thebes",
     "unifiedNameTIPNR": "Thebes@Jer.46.25",
@@ -42992,7 +42994,7 @@
       }
     ]
   },
-  "Thebez": {
+  "Thebez@Jdg.9.50": {
     "FGid": "Thebez",
     "name": "Thebez",
     "unifiedNameTIPNR": "Thebez@Jdg.9.50",
@@ -43021,7 +43023,7 @@
       }
     ]
   },
-  "Thessalonica": {
+  "Thessalonica@Act.17.1": {
     "FGid": "Thessalonica",
     "name": "Thessalonica",
     "unifiedNameTIPNR": "Thessalonica@Act.17.1",
@@ -43103,7 +43105,7 @@
       }
     ]
   },
-  "Three_Taverns": {
+  "Three_Taverns@Act.28.15": {
     "FGid": "Three_Taverns",
     "name": "Three_Taverns",
     "unifiedNameTIPNR": "Three_Taverns@Act.28.15",
@@ -43139,7 +43141,7 @@
       }
     ]
   },
-  "Thyatira": {
+  "Thyatira@Act.16.14": {
     "FGid": "Thyatira",
     "name": "Thyatira",
     "unifiedNameTIPNR": "Thyatira@Act.16.14",
@@ -43169,7 +43171,7 @@
       }
     ]
   },
-  "Tiberias": {
+  "Tiberias@Jos.19.35": {
     "FGid": "Tiberias",
     "name": "Tiberias",
     "unifiedNameTIPNR": "Tiberias@Jos.19.35",
@@ -43212,7 +43214,7 @@
       }
     ]
   },
-  "Tibhath": {
+  "Tibhath@1Ch.18.8": {
     "FGid": "Tibhath",
     "name": "Tibhath",
     "unifiedNameTIPNR": "Tibhath@1Ch.18.8",
@@ -43239,7 +43241,7 @@
       }
     ]
   },
-  "Tigris": {
+  "Tigris@Gen.2.14": {
     "FGid": "Tigris",
     "name": "Tigris",
     "unifiedNameTIPNR": "Tigris@Gen.2.14",
@@ -43267,7 +43269,7 @@
       }
     ]
   },
-  "Timnah": {
+  "Timnah@Gen.38.12": {
     "FGid": "Timnah",
     "name": "Timnah",
     "unifiedNameTIPNR": "Timnah@Gen.38.12",
@@ -43305,7 +43307,7 @@
       }
     ]
   },
-  "Timnah2": {
+  "Timnah@Jos.15.57": {
     "FGid": "Timnah2",
     "name": "Timnah",
     "unifiedNameTIPNR": "Timnah@Jos.15.57",
@@ -43332,7 +43334,7 @@
       }
     ]
   },
-  "Timnath-heres": {
+  "Timnath-heres@Jdg.2.9": {
     "FGid": "Timnath-heres",
     "name": "Timnath-heres",
     "unifiedNameTIPNR": "Timnath-heres@Jdg.2.9",
@@ -43376,7 +43378,7 @@
       }
     ]
   },
-  "Tiphsah": {
+  "Tiphsah@1Ki.4.24": {
     "FGid": "Tiphsah",
     "name": "Tiphsah",
     "unifiedNameTIPNR": "Tiphsah@1Ki.4.24",
@@ -43403,7 +43405,7 @@
       }
     ]
   },
-  "Tiphsah2": {
+  "Tiphsah@2Ki.15.16": {
     "FGid": "Tiphsah2",
     "name": "Tiphsah",
     "unifiedNameTIPNR": "Tiphsah@2Ki.15.16",
@@ -43430,7 +43432,7 @@
       }
     ]
   },
-  "Tirzah": {
+  "Tirzah@Jos.12.24": {
     "FGid": "Tirzah",
     "name": "Tirzah",
     "unifiedNameTIPNR": "Tirzah@Jos.12.24",
@@ -43470,7 +43472,7 @@
       }
     ]
   },
-  "Tishbe": {
+  "Tishbe@1Ki.17.1": {
     "FGid": "Tishbe",
     "name": "Tishbe",
     "unifiedNameTIPNR": "Tishbe@1Ki.17.1",
@@ -43518,7 +43520,7 @@
       }
     ]
   },
-  "Tob": {
+  "Tob@Jdg.11.3": {
     "FGid": "Tob",
     "name": "Tob",
     "unifiedNameTIPNR": "Tob@Jdg.11.3",
@@ -43548,7 +43550,7 @@
       }
     ]
   },
-  "Tochen": {
+  "Tochen@1Ch.4.32": {
     "FGid": "Tochen",
     "name": "Tochen",
     "unifiedNameTIPNR": "Tochen@1Ch.4.32",
@@ -43575,7 +43577,7 @@
       }
     ]
   },
-  "Tolad": {
+  "Tolad@1Ch.4.29": {
     "FGid": "Tolad",
     "name": "Tolad",
     "unifiedNameTIPNR": "Tolad@1Ch.4.29",
@@ -43602,7 +43604,7 @@
       }
     ]
   },
-  "Tophel": {
+  "Tophel@Deu.1.1": {
     "FGid": "Tophel",
     "name": "Tophel",
     "unifiedNameTIPNR": "Tophel@Deu.1.1",
@@ -43629,7 +43631,7 @@
       }
     ]
   },
-  "Tower_of_Eder": {
+  "Tower_of_Eder@Gen.35.21": {
     "FGid": "Tower_of_Eder",
     "name": "Tower_of_Eder",
     "unifiedNameTIPNR": "Tower_of_Eder@Gen.35.21",
@@ -43657,7 +43659,7 @@
       }
     ]
   },
-  "Tower_of_Hananel": {
+  "Tower_of_Hananel@Neh.3.1": {
     "FGid": "Tower_of_Hananel",
     "name": "Tower_of_Hananel",
     "unifiedNameTIPNR": "Tower_of_Hananel@Neh.3.1",
@@ -43696,7 +43698,7 @@
       }
     ]
   },
-  "Tower_of_the_Hundred": {
+  "Tower_of_the_Hundred@Neh.3.1": {
     "FGid": "Tower_of_the_Hundred",
     "name": "Tower_of_the_Hundred",
     "unifiedNameTIPNR": "Tower_of_the_Hundred@Neh.3.1",
@@ -43733,7 +43735,7 @@
       }
     ]
   },
-  "Tower_of_the_Ovens": {
+  "Tower_of_the_Ovens@Neh.3.11": {
     "FGid": "Tower_of_the_Ovens",
     "name": "Tower_of_the_Ovens",
     "unifiedNameTIPNR": "Tower_of_the_Ovens@Neh.3.11",
@@ -43770,7 +43772,7 @@
       }
     ]
   },
-  "Trachonitis": {
+  "Trachonitis@Luk.3.1": {
     "FGid": "Trachonitis",
     "name": "Trachonitis",
     "unifiedNameTIPNR": "Trachonitis@Luk.3.1",
@@ -43797,7 +43799,7 @@
       }
     ]
   },
-  "Travelers_Valley": {
+  "Travelers_Valley@Ezk.39.11": {
     "FGid": "Travelers_Valley",
     "name": "Travelers_Valley",
     "unifiedNameTIPNR": "Travelers_Valley@Ezk.39.11",
@@ -43833,7 +43835,7 @@
       }
     ]
   },
-  "Troas": {
+  "Troas@Act.16.8": {
     "FGid": "Troas",
     "name": "Troas",
     "unifiedNameTIPNR": "Troas@Act.16.8",
@@ -43865,7 +43867,7 @@
       }
     ]
   },
-  "Trogyllium": {
+  "Trogyllium@Act.20.15": {
     "FGid": "Trogyllium",
     "name": "Trogyllium",
     "unifiedNameTIPNR": "Trogyllium@Act.20.15",
@@ -43891,7 +43893,7 @@
       }
     ]
   },
-  "Tubal": {
+  "Tubal@Isa.66.19": {
     "FGid": "Tubal",
     "name": "Tubal",
     "unifiedNameTIPNR": "Tubal@Isa.66.19",
@@ -43923,7 +43925,7 @@
       }
     ]
   },
-  "Tyre": {
+  "Tyre@Jos.19.29": {
     "FGid": "Tyre",
     "name": "Tyre",
     "unifiedNameTIPNR": "Tyre@Jos.19.29",
@@ -44119,7 +44121,7 @@
       }
     ]
   },
-  "Ulai": {
+  "Ulai@Dan.8.2": {
     "FGid": "Ulai",
     "name": "Ulai",
     "unifiedNameTIPNR": "Ulai@Dan.8.2",
@@ -44147,7 +44149,7 @@
       }
     ]
   },
-  "Ummah": {
+  "Ummah@Jos.19.30": {
     "FGid": "Ummah",
     "name": "Ummah",
     "unifiedNameTIPNR": "Ummah@Jos.19.30",
@@ -44174,7 +44176,7 @@
       }
     ]
   },
-  "Uphaz": {
+  "Uphaz@Jer.10.9": {
     "FGid": "Uphaz",
     "name": "Uphaz",
     "unifiedNameTIPNR": "Uphaz@Jer.10.9",
@@ -44202,7 +44204,7 @@
       }
     ]
   },
-  "Ur": {
+  "Ur@Gen.11.28": {
     "FGid": "Ur",
     "name": "Ur",
     "unifiedNameTIPNR": "Ur@Gen.11.28",
@@ -44232,7 +44234,7 @@
       }
     ]
   },
-  "Uz": {
+  "Uz@Job.1.1": {
     "FGid": "Uz",
     "name": "Uz",
     "unifiedNameTIPNR": "Uz@Job.1.1",
@@ -44262,7 +44264,7 @@
       }
     ]
   },
-  "Uzal": {
+  "Uzal@Ezk.27.19": {
     "FGid": "Uzal",
     "name": "Uzal",
     "unifiedNameTIPNR": "Uzal@Ezk.27.19",
@@ -44290,7 +44292,7 @@
       }
     ]
   },
-  "Uzza": {
+  "Uzza@2Ki.21.18": {
     "FGid": "Uzza",
     "name": "Uzza",
     "unifiedNameTIPNR": "Uzza@2Ki.21.18",
@@ -44327,7 +44329,7 @@
       }
     ]
   },
-  "Uzzen-sheerah": {
+  "Uzzen-sheerah@1Ch.7.24": {
     "FGid": "Uzzen-sheerah",
     "name": "Uzzen-sheerah",
     "unifiedNameTIPNR": "Uzzen-sheerah@1Ch.7.24",
@@ -44354,7 +44356,7 @@
       }
     ]
   },
-  "Valley_Gate": {
+  "Valley_Gate@2Ch.26.9": {
     "FGid": "Valley_Gate",
     "name": "Valley_Gate",
     "unifiedNameTIPNR": "Valley_Gate@2Ch.26.9",
@@ -44384,7 +44386,7 @@
       }
     ]
   },
-  "Vedan": {
+  "Vedan@Ezk.27.19": {
     "FGid": "Vedan",
     "name": "Vedan",
     "unifiedNameTIPNR": "Vedan@Ezk.27.19",
@@ -44411,7 +44413,7 @@
       }
     ]
   },
-  "Waheb": {
+  "Waheb@Num.21.14": {
     "FGid": "Waheb",
     "name": "Waheb",
     "unifiedNameTIPNR": "Waheb@Num.21.14",
@@ -44438,7 +44440,7 @@
       }
     ]
   },
-  "Washer's_Field": {
+  "Washer's_Field@2Ki.18.17": {
     "FGid": "Washer's_Field",
     "name": "Washer's_Field",
     "unifiedNameTIPNR": "Washer's_Field@2Ki.18.17",
@@ -44476,7 +44478,7 @@
       }
     ]
   },
-  "Water_Gate": {
+  "Water_Gate@Neh.3.26": {
     "FGid": "Water_Gate",
     "name": "Water_Gate",
     "unifiedNameTIPNR": "Water_Gate@Neh.3.26",
@@ -44507,7 +44509,7 @@
       }
     ]
   },
-  "Way_of_Holiness": {
+  "Way_of_Holiness@Isa.35.8": {
     "FGid": "Way_of_Holiness",
     "name": "Way_of_Holiness",
     "unifiedNameTIPNR": "Way_of_Holiness@Isa.35.8",
@@ -44543,7 +44545,7 @@
       }
     ]
   },
-  "Wildgoats_Rocks": {
+  "Wildgoats_Rocks@1Sa.24.2": {
     "FGid": "Wildgoats_Rocks",
     "name": "Wildgoats_Rocks",
     "unifiedNameTIPNR": "Wildgoats_Rocks@1Sa.24.2",
@@ -44579,7 +44581,7 @@
       }
     ]
   },
-  "Yeshanah_Gate": {
+  "Yeshanah_Gate@Neh.3.6": {
     "FGid": "Yeshanah_Gate",
     "name": "Yeshanah_Gate",
     "unifiedNameTIPNR": "Yeshanah_Gate@Neh.3.6",
@@ -44622,7 +44624,7 @@
       }
     ]
   },
-  "Yiron": {
+  "Yiron@Jos.19.38": {
     "FGid": "Yiron",
     "name": "Yiron",
     "unifiedNameTIPNR": "Yiron@Jos.19.38",
@@ -44649,7 +44651,7 @@
       }
     ]
   },
-  "Zaanan": {
+  "Zaanan@Mic.1.11": {
     "FGid": "Zaanan",
     "name": "Zaanan",
     "unifiedNameTIPNR": "Zaanan@Mic.1.11",
@@ -44676,7 +44678,7 @@
       }
     ]
   },
-  "Zaanannim": {
+  "Zaanannim@Jos.19.33": {
     "FGid": "Zaanannim",
     "name": "Zaanannim",
     "unifiedNameTIPNR": "Zaanannim@Jos.19.33",
@@ -44705,7 +44707,7 @@
       }
     ]
   },
-  "Zalmonah": {
+  "Zalmonah@Num.33.41": {
     "FGid": "Zalmonah",
     "name": "Zalmonah",
     "unifiedNameTIPNR": "Zalmonah@Num.33.41",
@@ -44733,7 +44735,7 @@
       }
     ]
   },
-  "Zanoah": {
+  "Zanoah@Jos.15.34": {
     "FGid": "Zanoah",
     "name": "Zanoah",
     "unifiedNameTIPNR": "Zanoah@Jos.15.34",
@@ -44763,7 +44765,7 @@
       }
     ]
   },
-  "Zanoah2": {
+  "Zanoah@Jos.15.56": {
     "FGid": "Zanoah2",
     "name": "Zanoah",
     "unifiedNameTIPNR": "Zanoah@Jos.15.56",
@@ -44790,7 +44792,7 @@
       }
     ]
   },
-  "Zaphon": {
+  "Zaphon@Jos.13.27": {
     "FGid": "Zaphon",
     "name": "Zaphon",
     "unifiedNameTIPNR": "Zaphon@Jos.13.27",
@@ -44850,7 +44852,7 @@
       }
     ]
   },
-  "Zarephath": {
+  "Zarephath@1Ki.17.9": {
     "FGid": "Zarephath",
     "name": "Zarephath",
     "unifiedNameTIPNR": "Zarephath@1Ki.17.9",
@@ -44895,7 +44897,7 @@
       }
     ]
   },
-  "Zarethan": {
+  "Zarethan@Jos.3.16": {
     "FGid": "Zarethan",
     "name": "Zarethan",
     "unifiedNameTIPNR": "Zarethan@Jos.3.16",
@@ -44956,7 +44958,7 @@
       }
     ]
   },
-  "Zeboiim": {
+  "Zeboiim@Gen.10.19": {
     "FGid": "Zeboiim",
     "name": "Zeboiim",
     "unifiedNameTIPNR": "Zeboiim@Gen.10.19",
@@ -45002,7 +45004,7 @@
       }
     ]
   },
-  "Zeboim": {
+  "Zeboim@Neh.11.34": {
     "FGid": "Zeboim",
     "name": "Zeboim",
     "unifiedNameTIPNR": "Zeboim@Neh.11.34",
@@ -45029,7 +45031,7 @@
       }
     ]
   },
-  "Zeboim_Valley": {
+  "Zeboim_Valley@1Sa.13.18": {
     "FGid": "Zeboim_Valley",
     "name": "Zeboim_Valley",
     "unifiedNameTIPNR": "Zeboim_Valley@1Sa.13.18",
@@ -45065,7 +45067,7 @@
       }
     ]
   },
-  "Zedad": {
+  "Zedad@Num.34.8": {
     "FGid": "Zedad",
     "name": "Zedad",
     "unifiedNameTIPNR": "Zedad@Num.34.8",
@@ -45093,7 +45095,7 @@
       }
     ]
   },
-  "Zela": {
+  "Zela@Jos.18.28": {
     "FGid": "Zela",
     "name": "Zela",
     "unifiedNameTIPNR": "Zela@Jos.18.28",
@@ -45121,7 +45123,7 @@
       }
     ]
   },
-  "Zelzah": {
+  "Zelzah@1Sa.10.2": {
     "FGid": "Zelzah",
     "name": "Zelzah",
     "unifiedNameTIPNR": "Zelzah@1Sa.10.2",
@@ -45148,7 +45150,7 @@
       }
     ]
   },
-  "Zemaraim": {
+  "Zemaraim@Jos.18.22": {
     "FGid": "Zemaraim",
     "name": "Zemaraim",
     "unifiedNameTIPNR": "Zemaraim@Jos.18.22",
@@ -45191,7 +45193,7 @@
       }
     ]
   },
-  "Zenan": {
+  "Zenan@Jos.15.37": {
     "FGid": "Zenan",
     "name": "Zenan",
     "unifiedNameTIPNR": "Zenan@Jos.15.37",
@@ -45218,7 +45220,7 @@
       }
     ]
   },
-  "Zephath": {
+  "Zephath@Jdg.1.17": {
     "FGid": "Zephath",
     "name": "Zephath",
     "unifiedNameTIPNR": "Zephath@Jdg.1.17",
@@ -45269,7 +45271,7 @@
       }
     ]
   },
-  "Zephathah_Valley": {
+  "Zephathah_Valley@2Ch.14.10": {
     "FGid": "Zephathah_Valley",
     "name": "Zephathah_Valley",
     "unifiedNameTIPNR": "Zephathah_Valley@2Ch.14.10",
@@ -45305,7 +45307,7 @@
       }
     ]
   },
-  "Zer": {
+  "Zer@Jos.19.35": {
     "FGid": "Zer",
     "name": "Zer",
     "unifiedNameTIPNR": "Zer@Jos.19.35",
@@ -45332,7 +45334,7 @@
       }
     ]
   },
-  "Zered": {
+  "Zered@Num.21.12": {
     "FGid": "Zered",
     "name": "Zered",
     "unifiedNameTIPNR": "Zered@Num.21.12",
@@ -45362,7 +45364,7 @@
       }
     ]
   },
-  "Zeredah": {
+  "Zeredah@1Ki.11.26": {
     "FGid": "Zeredah",
     "name": "Zeredah",
     "unifiedNameTIPNR": "Zeredah@1Ki.11.26",
@@ -45389,7 +45391,7 @@
       }
     ]
   },
-  "Zereth-shahar": {
+  "Zereth-shahar@Jos.13.19": {
     "FGid": "Zereth-shahar",
     "name": "Zereth-shahar",
     "unifiedNameTIPNR": "Zereth-shahar@Jos.13.19",
@@ -45416,7 +45418,7 @@
       }
     ]
   },
-  "Ziddim": {
+  "Ziddim@Jos.19.35": {
     "FGid": "Ziddim",
     "name": "Ziddim",
     "unifiedNameTIPNR": "Ziddim@Jos.19.35",
@@ -45443,7 +45445,7 @@
       }
     ]
   },
-  "Ziklag": {
+  "Ziklag@Jos.15.31": {
     "FGid": "Ziklag",
     "name": "Ziklag",
     "unifiedNameTIPNR": "Ziklag@Jos.15.31",
@@ -45485,7 +45487,7 @@
       }
     ]
   },
-  "Zimri": {
+  "Zimri@Jer.25.25": {
     "FGid": "Zimri",
     "name": "Zimri",
     "unifiedNameTIPNR": "Zimri@Jer.25.25",
@@ -45512,7 +45514,7 @@
       }
     ]
   },
-  "Zin": {
+  "Zin@Num.13.21": {
     "FGid": "Zin",
     "name": "Zin",
     "unifiedNameTIPNR": "Zin@Num.13.21",
@@ -45548,7 +45550,7 @@
       }
     ]
   },
-  "Zior": {
+  "Zior@Jos.15.54": {
     "FGid": "Zior",
     "name": "Zior",
     "unifiedNameTIPNR": "Zior@Jos.15.54",
@@ -45575,7 +45577,7 @@
       }
     ]
   },
-  "Ziph": {
+  "Ziph@Jos.15.24": {
     "FGid": "Ziph",
     "name": "Ziph",
     "unifiedNameTIPNR": "Ziph@Jos.15.24",
@@ -45602,7 +45604,7 @@
       }
     ]
   },
-  "Ziph2": {
+  "Ziph@Jos.15.55": {
     "FGid": "Ziph2",
     "name": "Ziph",
     "unifiedNameTIPNR": "Ziph@Jos.15.55",
@@ -45652,7 +45654,7 @@
       }
     ]
   },
-  "Ziphron": {
+  "Ziphron@Num.34.9": {
     "FGid": "Ziphron",
     "name": "Ziphron",
     "unifiedNameTIPNR": "Ziphron@Num.34.9",
@@ -45679,7 +45681,7 @@
       }
     ]
   },
-  "Ziz": {
+  "Ziz@2Ch.20.16": {
     "FGid": "Ziz",
     "name": "Ziz",
     "unifiedNameTIPNR": "Ziz@2Ch.20.16",
@@ -45706,7 +45708,7 @@
       }
     ]
   },
-  "Zoan": {
+  "Zoan@Num.13.22": {
     "FGid": "Zoan",
     "name": "Zoan",
     "unifiedNameTIPNR": "Zoan@Num.13.22",
@@ -45739,7 +45741,7 @@
       }
     ]
   },
-  "Zoar": {
+  "Zoar@Gen.13.10": {
     "FGid": "Zoar",
     "name": "Zoar",
     "unifiedNameTIPNR": "Zoar@Gen.13.10",
@@ -45808,7 +45810,7 @@
       }
     ]
   },
-  "Zobah": {
+  "Zobah@1Sa.14.47": {
     "FGid": "Zobah",
     "name": "Zobah",
     "unifiedNameTIPNR": "Zobah@1Sa.14.47",
@@ -45886,7 +45888,7 @@
       }
     ]
   },
-  "Zophim": {
+  "Zophim@Num.23.14": {
     "FGid": "Zophim",
     "name": "Zophim",
     "unifiedNameTIPNR": "Zophim@Num.23.14",
@@ -45913,7 +45915,7 @@
       }
     ]
   },
-  "Zorah": {
+  "Zorah@Jos.15.33": {
     "FGid": "Zorah",
     "name": "Zorah",
     "unifiedNameTIPNR": "Zorah@Jos.15.33",
@@ -45949,7 +45951,7 @@
       }
     ]
   },
-  "Zuph": {
+  "Zuph@1Sa.9.5": {
     "FGid": "Zuph",
     "name": "Zuph",
     "unifiedNameTIPNR": "Zuph@1Sa.9.5",

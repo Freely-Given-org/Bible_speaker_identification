@@ -1,10 +1,12 @@
 {
   "__HEADERS__": {
+    "conversion_software": "loadTIPNR v0.50",
+    "conversion_software_last_modified_date": "2022-07-27",
     "source_data_last_downloaded_date": "2022-07-20",
-    "conversion_software": "loadTIPNR v0.04",
-    "conversion_date_time": "2022-07-25"
+    "conversion_date": "2022-07-27",
+    "conversion_format_version": "0.5"
   },
-  "Abaddon": {
+  "Abaddon@Rev.9.11": {
     "FGid": "Abaddon",
     "name": "Abaddon",
     "unifiedNameTIPNR": "Abaddon@Rev.9.11",
@@ -45,7 +47,7 @@
       }
     ]
   },
-  "Abaddon2": {
+  "Abaddon@Job.26.6": {
     "FGid": "Abaddon2",
     "name": "Abaddon",
     "unifiedNameTIPNR": "Abaddon@Job.26.6",
@@ -90,7 +92,7 @@
       }
     ]
   },
-  "Abib": {
+  "Abib@Exo.13.4": {
     "FGid": "Abib",
     "name": "Abib",
     "unifiedNameTIPNR": "Abib@Exo.13.4",
@@ -137,7 +139,7 @@
       }
     ]
   },
-  "Adar": {
+  "Adar@Ezr.6.15": {
     "FGid": "Adar",
     "name": "Adar",
     "unifiedNameTIPNR": "Adar@Ezr.6.15",
@@ -185,7 +187,7 @@
       }
     ]
   },
-  "Alamoth": {
+  "Alamoth@1Ch.15.20": {
     "FGid": "Alamoth",
     "name": "Alamoth",
     "unifiedNameTIPNR": "Alamoth@1Ch.15.20",
@@ -212,7 +214,7 @@
       }
     ]
   },
-  "Al-taschith": {
+  "Al-taschith@Psa.57.1": {
     "FGid": "Al-taschith",
     "name": "Al-taschith",
     "unifiedNameTIPNR": "Al-taschith@Psa.57.1",
@@ -240,7 +242,7 @@
       }
     ]
   },
-  "Amon": {
+  "Amon@Jer.46.25": {
     "FGid": "Amon",
     "name": "Amon",
     "unifiedNameTIPNR": "Amon@Jer.46.25",
@@ -266,7 +268,7 @@
       }
     ]
   },
-  "Apharasthchite": {
+  "Apharasthchite@Ezr.4.9": {
     "FGid": "Apharasthchite",
     "name": "Apharasthchite",
     "unifiedNameTIPNR": "Apharasthchite@Ezr.4.9",
@@ -308,7 +310,7 @@
       }
     ]
   },
-  "Aramaic": {
+  "Aramaic@2Ki.18.26": {
     "FGid": "Aramaic",
     "name": "Aramaic",
     "unifiedNameTIPNR": "Aramaic@2Ki.18.26",
@@ -407,7 +409,7 @@
       }
     ]
   },
-  "Hebrew": {
+  "Hebrew@2Ki.18.26": {
     "FGid": "Hebrew",
     "name": "Hebrew",
     "unifiedNameTIPNR": "Hebrew@2Ki.18.26",
@@ -436,7 +438,7 @@
       }
     ]
   },
-  "Artemis": {
+  "Artemis@Act.19.24": {
     "FGid": "Artemis",
     "name": "Artemis",
     "unifiedNameTIPNR": "Artemis@Act.19.24",
@@ -465,7 +467,7 @@
       }
     ]
   },
-  "Asherah": {
+  "Asherah@Exo.34.13": {
     "FGid": "Asherah",
     "name": "Asherah",
     "unifiedNameTIPNR": "Asherah@Exo.34.13",
@@ -559,7 +561,7 @@
       }
     ]
   },
-  "Ashima": {
+  "Ashima@2Ki.17.30": {
     "FGid": "Ashima",
     "name": "Ashima",
     "unifiedNameTIPNR": "Ashima@2Ki.17.30",
@@ -584,7 +586,7 @@
       }
     ]
   },
-  "Ashtaroth": {
+  "Ashtaroth@Jdg.2.13": {
     "FGid": "Ashtaroth",
     "name": "Ashtaroth",
     "unifiedNameTIPNR": "Ashtaroth@Jdg.2.13",
@@ -614,7 +616,7 @@
       }
     ]
   },
-  "Ashtoreth": {
+  "Ashtoreth@1Ki.11.5": {
     "FGid": "Ashtoreth",
     "name": "Ashtoreth",
     "unifiedNameTIPNR": "Ashtoreth@1Ki.11.5",
@@ -641,7 +643,7 @@
       }
     ]
   },
-  "Asiarch": {
+  "Asiarch@Act.19.31": {
     "FGid": "Asiarch",
     "name": "Asiarch",
     "unifiedNameTIPNR": "Asiarch@Act.19.31",
@@ -666,7 +668,7 @@
       }
     ]
   },
-  "Azazel": {
+  "Azazel@Lev.16.8": {
     "FGid": "Azazel",
     "name": "Azazel",
     "unifiedNameTIPNR": "Azazel@Lev.16.8",
@@ -694,7 +696,7 @@
       }
     ]
   },
-  "Baal": {
+  "Baal@Num.22.41": {
     "FGid": "Baal",
     "name": "Baal",
     "unifiedNameTIPNR": "Baal@Num.22.41",
@@ -861,7 +863,7 @@
       }
     ]
   },
-  "Baal-berith": {
+  "Baal-berith@Jdg.8.33": {
     "FGid": "Baal-berith",
     "name": "Baal-berith",
     "unifiedNameTIPNR": "Baal-berith@Jdg.8.33",
@@ -887,7 +889,7 @@
       }
     ]
   },
-  "Bear": {
+  "Bear@Job.9.9": {
     "FGid": "Bear",
     "name": "Bear",
     "unifiedNameTIPNR": "Bear@Job.9.9",
@@ -913,7 +915,7 @@
       }
     ]
   },
-  "Behemoth": {
+  "Behemoth@Job.40.15": {
     "FGid": "Behemoth",
     "name": "Behemoth",
     "unifiedNameTIPNR": "Behemoth@Job.40.15",
@@ -938,7 +940,7 @@
       }
     ]
   },
-  "Bel": {
+  "Bel@Isa.46.1": {
     "FGid": "Bel",
     "name": "Bel",
     "unifiedNameTIPNR": "Bel@Isa.46.1",
@@ -965,7 +967,7 @@
       }
     ]
   },
-  "Boaz": {
+  "Boaz@1Ki.7.21": {
     "FGid": "Boaz",
     "name": "Boaz",
     "unifiedNameTIPNR": "Boaz@1Ki.7.21",
@@ -991,7 +993,7 @@
       }
     ]
   },
-  "Booths_Festival": {
+  "Booths_Festival@Jhn.7.2": {
     "FGid": "Booths_Festival",
     "name": "Booths_Festival",
     "unifiedNameTIPNR": "Booths_Festival@Jhn.7.2",
@@ -1016,7 +1018,7 @@
       }
     ]
   },
-  "Bul": {
+  "Bul@1Ki.6.38": {
     "FGid": "Bul",
     "name": "Bul",
     "unifiedNameTIPNR": "Bul@1Ki.6.38",
@@ -1041,7 +1043,7 @@
       }
     ]
   },
-  "Candace": {
+  "Candace@Act.8.27": {
     "FGid": "Candace",
     "name": "Candace",
     "unifiedNameTIPNR": "Candace@Act.8.27",
@@ -1066,7 +1068,7 @@
       }
     ]
   },
-  "Chemosh": {
+  "Chemosh@Num.21.29": {
     "FGid": "Chemosh",
     "name": "Chemosh",
     "unifiedNameTIPNR": "Chemosh@Num.21.29",
@@ -1098,7 +1100,7 @@
       }
     ]
   },
-  "Chislev": {
+  "Chislev@Neh.1.1": {
     "FGid": "Chislev",
     "name": "Chislev",
     "unifiedNameTIPNR": "Chislev@Neh.1.1",
@@ -1124,7 +1126,7 @@
       }
     ]
   },
-  "Chronicles": {
+  "Chronicles@1Ki.14.19": {
     "FGid": "Chronicles",
     "name": "Chronicles",
     "unifiedNameTIPNR": "Chronicles@1Ki.14.19",
@@ -1188,7 +1190,7 @@
       }
     ]
   },
-  "Dagon": {
+  "Dagon@Jdg.16.23": {
     "FGid": "Dagon",
     "name": "Dagon",
     "unifiedNameTIPNR": "Dagon@Jdg.16.23",
@@ -1225,7 +1227,7 @@
       }
     ]
   },
-  "Dedication_Festival": {
+  "Dedication_Festival@Jhn.10.22": {
     "FGid": "Dedication_Festival",
     "name": "Dedication_Festival",
     "unifiedNameTIPNR": "Dedication_Festival@Jhn.10.22",
@@ -1250,7 +1252,7 @@
       }
     ]
   },
-  "Destiny": {
+  "Destiny@Isa.65.11": {
     "FGid": "Destiny",
     "name": "Destiny",
     "unifiedNameTIPNR": "Destiny@Isa.65.11",
@@ -1275,7 +1277,7 @@
       }
     ]
   },
-  "El-berith": {
+  "El-berith@Jdg.9.46": {
     "FGid": "El-berith",
     "name": "El-berith",
     "unifiedNameTIPNR": "El-berith@Jdg.9.46",
@@ -1309,7 +1311,7 @@
       }
     ]
   },
-  "Elul": {
+  "Elul@Neh.6.15": {
     "FGid": "Elul",
     "name": "Elul",
     "unifiedNameTIPNR": "Elul@Neh.6.15",
@@ -1334,7 +1336,7 @@
       }
     ]
   },
-  "Epicurean": {
+  "Epicurean@Act.17.18": {
     "FGid": "Epicurean",
     "name": "Epicurean",
     "unifiedNameTIPNR": "Epicurean@Act.17.18",
@@ -1359,7 +1361,7 @@
       }
     ]
   },
-  "Ethanim": {
+  "Ethanim@1Ki.8.2": {
     "FGid": "Ethanim",
     "name": "Ethanim",
     "unifiedNameTIPNR": "Ethanim@1Ki.8.2",
@@ -1384,7 +1386,7 @@
       }
     ]
   },
-  "Fortune": {
+  "Fortune@Isa.65.11": {
     "FGid": "Fortune",
     "name": "Fortune",
     "unifiedNameTIPNR": "Fortune@Isa.65.11",
@@ -1409,7 +1411,7 @@
       }
     ]
   },
-  "Freedmen": {
+  "Freedmen@Act.6.9": {
     "FGid": "Freedmen",
     "name": "Freedmen",
     "unifiedNameTIPNR": "Freedmen@Act.6.9",
@@ -1434,7 +1436,7 @@
       }
     ]
   },
-  "Gabriel": {
+  "Gabriel@Dan.8.16": {
     "FGid": "Gabriel",
     "name": "Gabriel",
     "unifiedNameTIPNR": "Gabriel@Dan.8.16",
@@ -1477,7 +1479,7 @@
       }
     ]
   },
-  "Gentile": {
+  "Gentile@Gen.10.5": {
     "FGid": "Gentile",
     "name": "Gentile",
     "unifiedNameTIPNR": "Gentile@Gen.10.5",
@@ -1833,7 +1835,7 @@
       }
     ]
   },
-  "Gittith": {
+  "Gittith@Psa.8.1": {
     "FGid": "Gittith",
     "name": "Gittith",
     "unifiedNameTIPNR": "Gittith@Psa.8.1",
@@ -1860,7 +1862,7 @@
       }
     ]
   },
-  "Hell": {
+  "Hell@Gen.37.35": {
     "FGid": "Hell",
     "name": "Hell",
     "unifiedNameTIPNR": "Hell@Gen.37.35",
@@ -2047,7 +2049,7 @@
       }
     ]
   },
-  "Hermes": {
+  "Hermes@Act.14.12": {
     "FGid": "Hermes",
     "name": "Hermes",
     "unifiedNameTIPNR": "Hermes@Act.14.12",
@@ -2072,7 +2074,7 @@
       }
     ]
   },
-  "Herodian": {
+  "Herodian@Mat.22.16": {
     "FGid": "Herodian",
     "name": "Herodian",
     "unifiedNameTIPNR": "Herodian@Mat.22.16",
@@ -2098,7 +2100,7 @@
       }
     ]
   },
-  "Higgaion": {
+  "Higgaion@Psa.9.16": {
     "FGid": "Higgaion",
     "name": "Higgaion",
     "unifiedNameTIPNR": "Higgaion@Psa.9.16",
@@ -2123,7 +2125,7 @@
       }
     ]
   },
-  "Hosanna": {
+  "Hosanna@Mat.21.9": {
     "FGid": "Hosanna",
     "name": "Hosanna",
     "unifiedNameTIPNR": "Hosanna@Mat.21.9",
@@ -2153,7 +2155,7 @@
       }
     ]
   },
-  "Jachin": {
+  "Jachin@1Ki.7.21": {
     "FGid": "Jachin",
     "name": "Jachin",
     "unifiedNameTIPNR": "Jachin@1Ki.7.21",
@@ -2179,7 +2181,7 @@
       }
     ]
   },
-  "Greek": {
+  "Greek@Isa.66.19": {
     "FGid": "Greek",
     "name": "Greek",
     "unifiedNameTIPNR": "Greek@Isa.66.19",
@@ -2222,7 +2224,7 @@
       }
     ]
   },
-  "Jonath-elem-rechokim": {
+  "Jonath-elem-rechokim@Psa.56.1": {
     "FGid": "Jonath-elem-rechokim",
     "name": "Jonath-elem-rechokim",
     "unifiedNameTIPNR": "Jonath-elem-rechokim@Psa.56.1",
@@ -2247,7 +2249,7 @@
       }
     ]
   },
-  "Judaism": {
+  "Judaism@Gal.1.13": {
     "FGid": "Judaism",
     "name": "Judaism",
     "unifiedNameTIPNR": "Judaism@Gal.1.13",
@@ -2273,7 +2275,7 @@
       }
     ]
   },
-  "Kiyyun": {
+  "Kiyyun@Amo.5.26": {
     "FGid": "Kiyyun",
     "name": "Kiyyun",
     "unifiedNameTIPNR": "Kiyyun@Amo.5.26",
@@ -2298,7 +2300,7 @@
       }
     ]
   },
-  "Latin": {
+  "Latin@Luk.23.38": {
     "FGid": "Latin",
     "name": "Latin",
     "unifiedNameTIPNR": "Latin@Luk.23.38",
@@ -2323,7 +2325,7 @@
       }
     ]
   },
-  "Legion": {
+  "Legion@Mrk.5.9": {
     "FGid": "Legion",
     "name": "Legion",
     "unifiedNameTIPNR": "Legion@Mrk.5.9",
@@ -2349,7 +2351,7 @@
       }
     ]
   },
-  "Leviathan": {
+  "Leviathan@Job.3.8": {
     "FGid": "Leviathan",
     "name": "Leviathan",
     "unifiedNameTIPNR": "Leviathan@Job.3.8",
@@ -2379,7 +2381,7 @@
       }
     ]
   },
-  "LORD": {
+  "LORD@Gen.1.1": {
     "FGid": "LORD",
     "name": "LORD",
     "unifiedNameTIPNR": "LORD@Gen.1.1",
@@ -4038,7 +4040,7 @@
       }
     ]
   },
-  "Lucifer": {
+  "Lucifer@Isa.14.12": {
     "FGid": "Lucifer",
     "name": "Lucifer",
     "unifiedNameTIPNR": "Lucifer@Isa.14.12",
@@ -4063,7 +4065,7 @@
       }
     ]
   },
-  "Mahalath": {
+  "Mahalath@Psa.53.1": {
     "FGid": "Mahalath",
     "name": "Mahalath",
     "unifiedNameTIPNR": "Mahalath@Psa.53.1",
@@ -4089,7 +4091,7 @@
       }
     ]
   },
-  "Maskil": {
+  "Maskil@Psa.32.1": {
     "FGid": "Maskil",
     "name": "Maskil",
     "unifiedNameTIPNR": "Maskil@Psa.32.1",
@@ -4127,7 +4129,7 @@
       }
     ]
   },
-  "Mazzaroth": {
+  "Mazzaroth@Job.38.32": {
     "FGid": "Mazzaroth",
     "name": "Mazzaroth",
     "unifiedNameTIPNR": "Mazzaroth@Job.38.32",
@@ -4152,7 +4154,7 @@
       }
     ]
   },
-  "Merodach": {
+  "Merodach@Jer.50.2": {
     "FGid": "Merodach",
     "name": "Merodach",
     "unifiedNameTIPNR": "Merodach@Jer.50.2",
@@ -4177,7 +4179,7 @@
       }
     ]
   },
-  "Messiah": {
+  "Messiah@Jhn.1.41": {
     "FGid": "Messiah",
     "name": "Messiah",
     "unifiedNameTIPNR": "Messiah@Jhn.1.41",
@@ -4203,7 +4205,7 @@
       }
     ]
   },
-  "Miktam": {
+  "Miktam@Psa.16.1": {
     "FGid": "Miktam",
     "name": "Miktam",
     "unifiedNameTIPNR": "Miktam@Psa.16.1",
@@ -4233,7 +4235,7 @@
       }
     ]
   },
-  "Molech": {
+  "Molech@Lev.18.21": {
     "FGid": "Molech",
     "name": "Molech",
     "unifiedNameTIPNR": "Molech@Lev.18.21",
@@ -4332,7 +4334,7 @@
       }
     ]
   },
-  "Muth-labben": {
+  "Muth-labben@Psa.9.1": {
     "FGid": "Muth-labben",
     "name": "Muth-labben",
     "unifiedNameTIPNR": "Muth-labben@Psa.9.1",
@@ -4357,7 +4359,7 @@
       }
     ]
   },
-  "Nazirite": {
+  "Nazirite@Num.6.2": {
     "FGid": "Nazirite",
     "name": "Nazirite",
     "unifiedNameTIPNR": "Nazirite@Num.6.2",
@@ -4424,7 +4426,7 @@
       }
     ]
   },
-  "Nebo": {
+  "Nebo@Isa.46.1": {
     "FGid": "Nebo",
     "name": "Nebo",
     "unifiedNameTIPNR": "Nebo@Isa.46.1",
@@ -4449,7 +4451,7 @@
       }
     ]
   },
-  "Nehushtan": {
+  "Nehushtan@2Ki.18.4": {
     "FGid": "Nehushtan",
     "name": "Nehushtan",
     "unifiedNameTIPNR": "Nehushtan@2Ki.18.4",
@@ -4474,7 +4476,7 @@
       }
     ]
   },
-  "Nergal": {
+  "Nergal@2Ki.17.30": {
     "FGid": "Nergal",
     "name": "Nergal",
     "unifiedNameTIPNR": "Nergal@2Ki.17.30",
@@ -4499,7 +4501,7 @@
       }
     ]
   },
-  "New_Moon": {
+  "New_Moon@Col.2.16": {
     "FGid": "New_Moon",
     "name": "New_Moon",
     "unifiedNameTIPNR": "New_Moon@Col.2.16",
@@ -4524,7 +4526,7 @@
       }
     ]
   },
-  "Nibhaz": {
+  "Nibhaz@2Ki.17.31": {
     "FGid": "Nibhaz",
     "name": "Nibhaz",
     "unifiedNameTIPNR": "Nibhaz@2Ki.17.31",
@@ -4549,7 +4551,7 @@
       }
     ]
   },
-  "Nicolaitans": {
+  "Nicolaitans@Rev.2.6": {
     "FGid": "Nicolaitans",
     "name": "Nicolaitans",
     "unifiedNameTIPNR": "Nicolaitans@Rev.2.6",
@@ -4575,7 +4577,7 @@
       }
     ]
   },
-  "Nisroch": {
+  "Nisroch@2Ki.19.37": {
     "FGid": "Nisroch",
     "name": "Nisroch",
     "unifiedNameTIPNR": "Nisroch@2Ki.19.37",
@@ -4601,7 +4603,7 @@
       }
     ]
   },
-  "Omega": {
+  "Omega@Rev.1.8": {
     "FGid": "Omega",
     "name": "Omega",
     "unifiedNameTIPNR": "Omega@Rev.1.8",
@@ -4629,7 +4631,7 @@
       }
     ]
   },
-  "Orion": {
+  "Orion@Job.9.9": {
     "FGid": "Orion",
     "name": "Orion",
     "unifiedNameTIPNR": "Orion@Job.9.9",
@@ -4656,7 +4658,7 @@
       }
     ]
   },
-  "Passover": {
+  "Passover@Exo.12.11": {
     "FGid": "Passover",
     "name": "Passover",
     "unifiedNameTIPNR": "Passover@Exo.12.11",
@@ -4818,7 +4820,7 @@
       }
     ]
   },
-  "Pharisee": {
+  "Pharisee@Mat.3.7": {
     "FGid": "Pharisee",
     "name": "Pharisee",
     "unifiedNameTIPNR": "Pharisee@Mat.3.7",
@@ -4958,7 +4960,7 @@
       }
     ]
   },
-  "Pleiades": {
+  "Pleiades@Job.9.9": {
     "FGid": "Pleiades",
     "name": "Pleiades",
     "unifiedNameTIPNR": "Pleiades@Job.9.9",
@@ -4985,7 +4987,7 @@
       }
     ]
   },
-  "Preparation_Festival": {
+  "Preparation_Festival@Mat.27.62": {
     "FGid": "Preparation_Festival",
     "name": "Preparation_Festival",
     "unifiedNameTIPNR": "Preparation_Festival@Mat.27.62",
@@ -5016,7 +5018,7 @@
       }
     ]
   },
-  "Purim": {
+  "Purim@Est.3.7": {
     "FGid": "Purim",
     "name": "Purim",
     "unifiedNameTIPNR": "Purim@Est.3.7",
@@ -5063,7 +5065,7 @@
       }
     ]
   },
-  "Rabbi": {
+  "Rabbi@Mat.23.7": {
     "FGid": "Rabbi",
     "name": "Rabbi",
     "unifiedNameTIPNR": "Rabbi@Mat.23.7",
@@ -5135,7 +5137,7 @@
       }
     ]
   },
-  "Raca": {
+  "Raca@Mat.5.22": {
     "FGid": "Raca",
     "name": "Raca",
     "unifiedNameTIPNR": "Raca@Mat.5.22",
@@ -5160,7 +5162,7 @@
       }
     ]
   },
-  "Rahab": {
+  "Rahab@Job.9.13": {
     "FGid": "Rahab",
     "name": "Rahab",
     "unifiedNameTIPNR": "Rahab@Job.9.13",
@@ -5188,7 +5190,7 @@
       }
     ]
   },
-  "Rephan": {
+  "Rephan@Act.7.43": {
     "FGid": "Rephan",
     "name": "Rephan",
     "unifiedNameTIPNR": "Rephan@Act.7.43",
@@ -5213,7 +5215,7 @@
       }
     ]
   },
-  "Rimmon": {
+  "Rimmon@2Ki.5.18": {
     "FGid": "Rimmon",
     "name": "Rimmon",
     "unifiedNameTIPNR": "Rimmon@2Ki.5.18",
@@ -5240,7 +5242,7 @@
       }
     ]
   },
-  "Sabbath": {
+  "Sabbath@Exo.16.23": {
     "FGid": "Sabbath",
     "name": "Sabbath",
     "unifiedNameTIPNR": "Sabbath@Exo.16.23",
@@ -5501,7 +5503,7 @@
       }
     ]
   },
-  "Sadducee": {
+  "Sadducee@Mat.3.7": {
     "FGid": "Sadducee",
     "name": "Sadducee",
     "unifiedNameTIPNR": "Sadducee@Mat.3.7",
@@ -5539,7 +5541,7 @@
       }
     ]
   },
-  "Satan": {
+  "Satan@Deu.13.13": {
     "FGid": "Satan",
     "name": "Satan",
     "unifiedNameTIPNR": "Satan@Deu.13.13",
@@ -5807,7 +5809,7 @@
       }
     ]
   },
-  "Selah": {
+  "Selah@Psa.3.2": {
     "FGid": "Selah",
     "name": "Selah",
     "unifiedNameTIPNR": "Selah@Psa.3.2",
@@ -5905,7 +5907,7 @@
       }
     ]
   },
-  "Seraph": {
+  "Seraph@Isa.6.2": {
     "FGid": "Seraph",
     "name": "Seraph",
     "unifiedNameTIPNR": "Seraph@Isa.6.2",
@@ -5931,7 +5933,7 @@
       }
     ]
   },
-  "Shebat": {
+  "Shebat@Zec.1.7": {
     "FGid": "Shebat",
     "name": "Shebat",
     "unifiedNameTIPNR": "Shebat@Zec.1.7",
@@ -5956,7 +5958,7 @@
       }
     ]
   },
-  "Sheminith": {
+  "Sheminith@1Ch.15.21": {
     "FGid": "Sheminith",
     "name": "Sheminith",
     "unifiedNameTIPNR": "Sheminith@1Ch.15.21",
@@ -5983,7 +5985,7 @@
       }
     ]
   },
-  "Shibboleth": {
+  "Shibboleth@Jdg.12.6": {
     "FGid": "Shibboleth",
     "name": "Shibboleth",
     "unifiedNameTIPNR": "Shibboleth@Jdg.12.6",
@@ -6008,7 +6010,7 @@
       }
     ]
   },
-  "Shiggaion": {
+  "Shiggaion@Psa.7.1": {
     "FGid": "Shiggaion",
     "name": "Shiggaion",
     "unifiedNameTIPNR": "Shiggaion@Psa.7.1",
@@ -6033,7 +6035,7 @@
       }
     ]
   },
-  "Shigionoth": {
+  "Shigionoth@Hab.3.1": {
     "FGid": "Shigionoth",
     "name": "Shigionoth",
     "unifiedNameTIPNR": "Shigionoth@Hab.3.1",
@@ -6058,7 +6060,7 @@
       }
     ]
   },
-  "Shimeathite": {
+  "Shimeathite@1Ch.2.55": {
     "FGid": "Shimeathite",
     "name": "Shimeathite",
     "unifiedNameTIPNR": "Shimeathite@1Ch.2.55",
@@ -6083,7 +6085,7 @@
       }
     ]
   },
-  "Shushan_Eduth": {
+  "Shushan_Eduth@Psa.60.1": {
     "FGid": "Shushan_Eduth",
     "name": "Shushan_Eduth",
     "unifiedNameTIPNR": "Shushan_Eduth@Psa.60.1",
@@ -6108,7 +6110,7 @@
       }
     ]
   },
-  "Sikkuth": {
+  "Sikkuth@Amo.5.26": {
     "FGid": "Sikkuth",
     "name": "Sikkuth",
     "unifiedNameTIPNR": "Sikkuth@Amo.5.26",
@@ -6133,7 +6135,7 @@
       }
     ]
   },
-  "Sivan": {
+  "Sivan@Est.8.9": {
     "FGid": "Sivan",
     "name": "Sivan",
     "unifiedNameTIPNR": "Sivan@Est.8.9",
@@ -6158,7 +6160,7 @@
       }
     ]
   },
-  "Stoic": {
+  "Stoic@Act.17.18": {
     "FGid": "Stoic",
     "name": "Stoic",
     "unifiedNameTIPNR": "Stoic@Act.17.18",
@@ -6183,7 +6185,7 @@
       }
     ]
   },
-  "Sucathite": {
+  "Sucathite@1Ch.2.55": {
     "FGid": "Sucathite",
     "name": "Sucathite",
     "unifiedNameTIPNR": "Sucathite@1Ch.2.55",
@@ -6208,7 +6210,7 @@
       }
     ]
   },
-  "Succoth-benoth": {
+  "Succoth-benoth@2Ki.17.30": {
     "FGid": "Succoth-benoth",
     "name": "Succoth-benoth",
     "unifiedNameTIPNR": "Succoth-benoth@2Ki.17.30",
@@ -6233,7 +6235,7 @@
       }
     ]
   },
-  "Tammuz": {
+  "Tammuz@Ezk.8.14": {
     "FGid": "Tammuz",
     "name": "Tammuz",
     "unifiedNameTIPNR": "Tammuz@Ezk.8.14",
@@ -6258,7 +6260,7 @@
       }
     ]
   },
-  "Tarpelite": {
+  "Tarpelite@Ezr.4.9": {
     "FGid": "Tarpelite",
     "name": "Tarpelite",
     "unifiedNameTIPNR": "Tarpelite@Ezr.4.9",
@@ -6283,7 +6285,7 @@
       }
     ]
   },
-  "Tartak": {
+  "Tartak@2Ki.17.31": {
     "FGid": "Tartak",
     "name": "Tartak",
     "unifiedNameTIPNR": "Tartak@2Ki.17.31",
@@ -6308,7 +6310,7 @@
       }
     ]
   },
-  "Tebeth": {
+  "Tebeth@Est.2.16": {
     "FGid": "Tebeth",
     "name": "Tebeth",
     "unifiedNameTIPNR": "Tebeth@Est.2.16",
@@ -6333,7 +6335,7 @@
       }
     ]
   },
-  "Teraphim": {
+  "Teraphim@Gen.31.19": {
     "FGid": "Teraphim",
     "name": "Teraphim",
     "unifiedNameTIPNR": "Teraphim@Gen.31.19",
@@ -6447,7 +6449,7 @@
       }
     ]
   },
-  "Thummim": {
+  "Thummim@Exo.28.30": {
     "FGid": "Thummim",
     "name": "Thummim",
     "unifiedNameTIPNR": "Thummim@Exo.28.30",
@@ -6476,7 +6478,7 @@
       }
     ]
   },
-  "Tirathite": {
+  "Tirathite@1Ch.2.55": {
     "FGid": "Tirathite",
     "name": "Tirathite",
     "unifiedNameTIPNR": "Tirathite@1Ch.2.55",
@@ -6501,7 +6503,7 @@
       }
     ]
   },
-  "Urim": {
+  "Urim@Exo.28.30": {
     "FGid": "Urim",
     "name": "Urim",
     "unifiedNameTIPNR": "Urim@Exo.28.30",
@@ -6548,7 +6550,7 @@
       }
     ]
   },
-  "Weeks": {
+  "Weeks@Exo.34.22": {
     "FGid": "Weeks",
     "name": "Weeks",
     "unifiedNameTIPNR": "Weeks@Exo.34.22",
@@ -6595,7 +6597,7 @@
       }
     ]
   },
-  "Zealot": {
+  "Zealot@Mat.10.4": {
     "FGid": "Zealot",
     "name": "Zealot",
     "unifiedNameTIPNR": "Zealot@Mat.10.4",
@@ -6621,7 +6623,7 @@
       }
     ]
   },
-  "Zeus": {
+  "Zeus@Act.14.12": {
     "FGid": "Zeus",
     "name": "Zeus",
     "unifiedNameTIPNR": "Zeus@Act.14.12",
@@ -6647,7 +6649,7 @@
       }
     ]
   },
-  "Ziv": {
+  "Ziv@1Ki.6.1": {
     "FGid": "Ziv",
     "name": "Ziv",
     "unifiedNameTIPNR": "Ziv@1Ki.6.1",

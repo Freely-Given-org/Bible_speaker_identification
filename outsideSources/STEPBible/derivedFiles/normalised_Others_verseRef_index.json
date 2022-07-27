@@ -1,8 +1,10 @@
 {
   "__HEADERS__": {
+    "conversion_software": "loadTIPNR v0.50",
+    "conversion_software_last_modified_date": "2022-07-27",
     "source_data_last_downloaded_date": "2022-07-20",
-    "conversion_software": "loadTIPNR v0.04",
-    "conversion_date_time": "2022-07-25"
+    "conversion_date": "2022-07-27",
+    "conversion_format_version": "0.5"
   },
   "REV_9:11": [
     "DAbaddon1",

@@ -1,8 +1,10 @@
 {
   "__HEADERS__": {
+    "conversion_software": "loadTIPNR v0.50",
+    "conversion_software_last_modified_date": "2022-07-27",
     "source_data_last_downloaded_date": "2022-07-20",
-    "conversion_software": "loadTIPNR v0.04",
-    "conversion_date_time": "2022-07-25"
+    "conversion_date": "2022-07-27",
+    "conversion_format_version": "0.5"
   },
   "Aaron@Exo.4.14": "PAaron",
   "Abagtha@Est.1.10": "PAbagtha",
@@ -547,7 +549,7 @@
   "Benaiah@Ezk.11.1": "PBenaiah12",
   "Ben-ammi@Gen.19.38": "PBen-ammi",
   "Ben-deker@1Ki.4.9": "PBen-deker",
-  "Ben-Geber@1Ki.4.13": "PBen-Geber2",
+  "Ben-Geber@1Ki.4.13": "PBen-Geber",
   "Ben-hadad@1Ki.15.18": "PBen-hadad1",
   "Ben-hadad@2Ki.6.24": "PBen-hadad2",
   "Ben-hadad@2Ki.13.3": "PBen-hadad3",
