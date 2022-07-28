@@ -3,25 +3,37 @@
 #
 # BibleOrgSysGlobals.py for BibleBooksCodes
 #
-# Module handling Global variables for our Bible Organisational System
+# Module handling Global functions and variables for our Bible Organisational System
 #
 # Copyright (C) 2010-2022 Robert Hunt
-# Author: Robert Hunt <Freely.Given.org+BOS@gmail.com>
-# License: See gpl-3.0.txt
+# Author: Robert Hunt <Freely.Given.org+GitHub@gmail.com>
 #
-#   This program is free software: you can redistribute it and/or modify
-#   it under the terms of the GNU General Public License as published by
-#   the Free Software Foundation, either version 3 of the License, or
-#   (at your option) any later version.
+# License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 #
-#   This program is distributed in the hope that it will be useful,
-#   but WITHOUT ANY WARRANTY; without even the implied warranty of
-#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#   GNU General Public License for more details.
+#   This is a human-readable summary of the Legal Code
 #
-#   You should have received a copy of the GNU General Public License
-#   along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
+#   No Copyright
+#
+#   The person who associated a work with this deed has dedicated the work to the public domain
+#       by waiving all of his or her rights to the work worldwide under copyright law,
+#       including all related and neighboring rights, to the extent allowed by law.
+#
+#   You can copy, modify, distribute and perform the work, even for commercial purposes,
+#       all without asking permission. See Other Information below.
+#
+#   Other Information
+#
+#   In no way are the patent or trademark rights of any person affected by CC0,
+#       nor are the rights that other persons may have in the work or in how the work is used,
+#       such as publicity or privacy rights.
+#    Unless expressly stated otherwise, the person who associated a work with this deed makes no
+#       warranties about the work, and disclaims liability for all uses of the work,
+#       to the fullest extent permitted by applicable law.
+#    When using or citing the work, you should not imply endorsement by the author or the affirmer.
+#
+#   You should have received a copy of the formal licence text
+#   along with this program.  If not, see <https://CreativeCommons.org/publicdomain/zero/1.0/>.
+#
 """
 Module handling global variables
     and some useful general functions.
@@ -105,7 +117,7 @@ except ImportError:
     import getpass
 
 
-LAST_MODIFIED_DATE = '2022-07-17' # by RJH
+LAST_MODIFIED_DATE = '2022-07-28' # by RJH
 SHORT_PROGRAM_NAME = "BibleOrgSysGlobals"
 PROGRAM_NAME = "BibleOrgSys (BOS) Globals for BibleBooksCodes"
 PROGRAM_VERSION = '0.89'
@@ -1424,8 +1436,8 @@ def introduceProgram( theirName:str, theirProgramNameVersion:str, theirLastModif
         vPrint( 'Quiet', debuggingThisModule, theirProgramNameVersion )
 
     vPrint( 'Normal', debuggingThisModule, """  This program comes with ABSOLUTELY NO WARRANTY.
-  It is free software, and you are welcome to redistribute it under certain conditions.
-  See the license in file 'gpl-3.0.txt' for more details.
+  It is free software, and you are welcome to redistribute it freely.
+  See the CC0 licence in file 'LICENSE' for more details.
   """ )
 # end of BibleOrgSysGlobals.introduceProgram function
 

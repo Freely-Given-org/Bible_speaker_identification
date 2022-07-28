@@ -6,22 +6,34 @@
 # Module handling loadTIPNR functions
 #
 # Copyright (C) 2022 Robert Hunt
-# Author: Robert Hunt <Freely.Given.org+BOS@gmail.com>
-# License: See gpl-3.0.txt
+# Author: Robert Hunt <Freely.Given.org+GitHub@gmail.com>
 #
-#   This program is free software: you can redistribute it and/or modify
-#   it under the terms of the GNU General Public License as published by
-#   the Free Software Foundation, either version 3 of the License, or
-#   (at your option) any later version.
+# License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 #
-#   This program is distributed in the hope that it will be useful,
-#   but WITHOUT ANY WARRANTY; without even the implied warranty of
-#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#   GNU General Public License for more details.
+#   This is a human-readable summary of the Legal Code
 #
-#   You should have received a copy of the GNU General Public License
-#   along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
+#   No Copyright
+#
+#   The person who associated a work with this deed has dedicated the work to the public domain
+#       by waiving all of his or her rights to the work worldwide under copyright law,
+#       including all related and neighboring rights, to the extent allowed by law.
+#
+#   You can copy, modify, distribute and perform the work, even for commercial purposes,
+#       all without asking permission. See Other Information below.
+#
+#   Other Information
+#
+#   In no way are the patent or trademark rights of any person affected by CC0,
+#       nor are the rights that other persons may have in the work or in how the work is used,
+#       such as publicity or privacy rights.
+#    Unless expressly stated otherwise, the person who associated a work with this deed makes no
+#       warranties about the work, and disclaims liability for all uses of the work,
+#       to the fullest extent permitted by applicable law.
+#    When using or citing the work, you should not imply endorsement by the author or the affirmer.
+#
+#   You should have received a copy of the formal licence text
+#   along with this program.  If not, see <https://CreativeCommons.org/publicdomain/zero/1.0/>.
+#
 """
 Module to load and process exported Tyndale House (Cambridge)
     TIPNR - Translators Individualised Proper Names with all References TSV file.
@@ -41,10 +53,10 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-07-27' # by RJH
+LAST_MODIFIED_DATE = '2022-07-28' # by RJH
 SHORT_PROGRAM_NAME = "loadTIPNR"
 PROGRAM_NAME = "Load Translators Individualised Proper Names file"
-PROGRAM_VERSION = '0.51'
+PROGRAM_VERSION = '0.52'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
@@ -1083,7 +1095,7 @@ def normalise_data() -> bool:
         adjust_Bible_references(dict_name, the_dict)
         ensure_best_known_name(dict_name, the_dict)
         if PREFIX_OUR_IDS_FLAG: prefix_our_IDs(dict_name, the_dict)
-        adjust_from_TIPR_to_our_IDs(dict_name, the_dict)
+        adjust_from_TIPNR_to_our_IDs(dict_name, the_dict)
 
     if PREFIX_OUR_IDS_FLAG: prefixed_our_IDs = True
     return True
@@ -1317,7 +1329,7 @@ Here is a list of the use of the semantic (and other) tagging characters:
 # end of loadTIPNR.prefix_our_IDs()
 
 
-def adjust_from_TIPR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
+def adjust_from_TIPNR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
     """
     Change individual people references (like father, mother)
         and list of people references (like parents, siblings, partners, etc.)
@@ -1354,7 +1366,7 @@ def adjust_from_TIPR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
                     dict_entry[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
         
     return True
-# end of loadTIPNR.adjust_from_TIPR_to_our_IDs()
+# end of loadTIPNR.adjust_from_TIPNR_to_our_IDs()
 
 
 def rebuild_dictionaries(key_name:str) -> bool:

@@ -11,7 +11,7 @@ The stated purpose of the program is
 
 Last downloaded: 2022-07-25
 
-The original file was released under a MIT license.
+The original files were released under a MIT license.
 
 These copies are simply included here for convenience so we can easily monitor
 exactly which data the JSON and other files were derived from.

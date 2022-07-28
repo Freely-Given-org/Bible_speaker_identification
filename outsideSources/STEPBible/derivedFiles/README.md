@@ -1,7 +1,7 @@
 # STEPBible TIPNR derived files
 
 None of the other files in this folder have been hand-created.
-They are all produced from the original table/spreadsheet
+They are all produced from their original table/spreadsheet
 by a script for convenience of those wanting to use the data.
 
 Any errors in these files will need to be fixed either in the
@@ -27,6 +27,10 @@ would end up as _PJoshua1_, _PJoshua_, _PJoshua3_, etc.
 Currently all the "Others" are marked with 'D'
 even though they're not all deities/gods.
 Improving this is work for further investigation.
+
+Prefixing the IDs like that enables us to combine their three datasets
+(otherwise a person and a place with the same name would clash)
+into the various "...All..." derived files.
 
 There may also be the mid_People.json, mid_Places.json, and mid_Others.json
 files produced by the converter script but not checked into GitHub
