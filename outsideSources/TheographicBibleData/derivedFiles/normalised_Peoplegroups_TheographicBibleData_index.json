@@ -1,0 +1,29 @@
+{
+  "__HEADERS__": {
+    "conversion_software": "loadTheographicBibleData v0.20",
+    "conversion_software_last_modified_date": "2022-08-08",
+    "source_data_last_downloaded_date": "2022-07-24",
+    "conversion_date": "2022-08-08",
+    "conversion_format_version": "0.1"
+  },
+  "Tribe of Levi": "TTribe_of_Levi",
+  "Tribe of Benjamin": "TTribe_of_Benjamin",
+  "Tribe of Joseph": "TTribe_of_Joseph",
+  "Tribe of Judah": "TTribe_of_Judah",
+  "Genealogy of Jesus": "TGenealogy_of_Jesus",
+  "Tribe of Reuben": "TTribe_of_Reuben",
+  "Tribe of Asher": "TTribe_of_Asher",
+  "Tribe of Gad": "TTribe_of_Gad",
+  "Tribe of Dan": "TTribe_of_Dan",
+  "Tribe of Zebulun": "TTribe_of_Zebulun",
+  "Tribe of Naphtali": "TTribe_of_Naphtali",
+  "Tribe of Simeon": "TTribe_of_Simeon",
+  "Tribe of Issachar": "TTribe_of_Issachar",
+  "Apostles": "TApostles",
+  "Apostles (The Eleven)": "TApostles_(The_Eleven)",
+  "Apostles (Post-Ascension)": "TApostles_(Post-Ascension)",
+  "Line of Cain": "TLine_of_Cain",
+  "Nation of Israel": "TNation_of_Israel",
+  "Disciples of John": "TDisciples_of_John",
+  "Pharisees": "TPharisees"
+}

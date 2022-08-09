@@ -53,10 +53,10 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-07-28' # by RJH
+LAST_MODIFIED_DATE = '2022-08-07' # by RJH
 SHORT_PROGRAM_NAME = "loadTIPNR"
 PROGRAM_NAME = "Load Translators Individualised Proper Names file"
-PROGRAM_VERSION = '0.52'
+PROGRAM_VERSION = '0.54'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
@@ -85,7 +85,7 @@ TIPNR_OUTPUT_FOLDERPATH = TIPNR_INPUT_FOLDERPATH.joinpath( 'derivedFiles/' )
 TIPNR_XML_OUTPUT_FILENAME = 'TIPNR.xml'
 TIPNR_XML_OUTPUT_FILEPATH = TIPNR_OUTPUT_FOLDERPATH.joinpath(TIPNR_XML_OUTPUT_FILENAME)
 
-Bbb_BOOK_ID_MAP = {
+Uuu_BOOK_ID_MAP = {
             1: 'Gen', 2: 'Exo', 3: 'Lev', 4: 'Num', 5: 'Deu',
             6: 'Jos', 7: 'Jdg', 8: 'Rut', 9: '1Sa', 10: '2Sa',
             11: '1Ki', 12: '2Ki', 13: '1Ch', 14: '2Ch', 15: 'Ezr', 16: 'Neh', 17: 'Est', 18: 'Job',
@@ -95,7 +95,7 @@ Bbb_BOOK_ID_MAP = {
             40: 'Mat', 41: 'Mrk', 42: 'Luk', 43: 'Jhn', 44: 'Act',
             45: 'Rom', 46: '1Co', 47: '2Co', 48: 'Gal', 49: 'Eph', 50: 'Php', 51: 'Col', 52: '1Th', 53: '2Th', 54: '1Ti', 55: '2Ti', 56: 'Tit', 57: 'Phm',
             58: 'Heb', 59: 'Jas', 60: '1Pe', 61: '2Pe', 62: '1Jn', 63: '2Jn', 64: '3Jn', 65: 'Jud', 66: 'Rev'}
-assert len(Bbb_BOOK_ID_MAP) == 66
+assert len(Uuu_BOOK_ID_MAP) == 66
 BOS_BOOK_ID_MAP = {
             1: 'GEN', 2: 'EXO', 3: 'LEV', 4: 'NUM', 5: 'DEU',
             6: 'JOS', 7: 'JDG', 8: 'RUT', 9: 'SA1', 10: 'SA2',
@@ -117,13 +117,14 @@ def main() -> None:
 
     if load_TIPNR_data():
         if clean_data():
-            rebuild_dictionaries(key_name='unifiedNameTIPNR')
+            rebuild_dictionaries('unifiedNameTIPNR')
             export_JSON('raw')
             export_xml('raw')
             rebuild_dictionaries('FGid')
-            if debuggingThisModule: export_JSON('mid')
+            # if debuggingThisModule:
+            export_JSON('mid')
             if normalise_data() and check_data():
-                rebuild_dictionaries(key_name='FGid')
+                rebuild_dictionaries('FGid')
                 export_JSON('normalised')
                 export_xml('normalised')
                 export_verse_index()
@@ -303,6 +304,11 @@ def load_TIPNR_data() -> bool:
 
 def process_and_add_person( raw_data: dict) -> bool:
     """
+    We don't append a numerical suffix for the first entry we find.
+    However, if the same name is used for another person, we append suffixes starting with 2.
+    So might end up with "Fred, Fred2, Fred3" here.
+    (Later we will convert that to "Fred1, Fred2, Fred3"
+        and if Fred3 is the most well-known one, to "Fred1, Fred2, Fred".)
     """
     # fnPrint(debuggingThisModule, f"\nprocess_and_add_person( {raw_data} )")
     new_person = {}
@@ -751,7 +757,7 @@ def process_and_add_place( raw_data: dict) -> bool:
         assert raw_data['Notes']
         new_place['notes'] = raw_data['Notes']
         del raw_data['Notes']
-        
+
     assert not raw_data, f"Why do we have place left-over {raw_data=}?"
 
     assert FGid not in places
@@ -775,7 +781,7 @@ def process_and_add_other( raw_data: dict) -> bool:
     if name not in others:
         FGid = name
     else:
-        for suffix in range(2,9): # see 
+        for suffix in range(2,9): # see
             if f'{name}{suffix}' not in others:
                 FGid = f'{name}{suffix}'
                 break
@@ -1001,7 +1007,7 @@ def clean_data() -> bool:
                                             assert sub4Key!='>' and sub4Data!='>'
                                             assert isinstance(sub4Data, str)
                                             # print(f"{mainKey=} {subKey=} {sub3Key=} {sub4Data=}")
-                                            if sub4Data.endswith(' '): 
+                                            if sub4Data.endswith(' '):
                                                 logging.critical(f"What is {mainKey=} {subKey=} {sub3Key=} {sub4Data=}")
                                             else:
                                                 # print(f"{mainKey=} {subKey=} {sub3Key=} {sub4Data=}")
@@ -1095,7 +1101,7 @@ def normalise_data() -> bool:
         adjust_Bible_references(dict_name, the_dict)
         ensure_best_known_name(dict_name, the_dict)
         if PREFIX_OUR_IDS_FLAG: prefix_our_IDs(dict_name, the_dict)
-        adjust_from_TIPNR_to_our_IDs(dict_name, the_dict)
+        adjust_links_from_TIPNR_to_our_IDs(dict_name, the_dict)
 
     if PREFIX_OUR_IDS_FLAG: prefixed_our_IDs = True
     return True
@@ -1222,7 +1228,7 @@ def adjust_Bible_reference(ref:str) -> str:
         adjRef = adjRef[1:-1]
 
     Uuu = adjRef[:3]
-    ix = list(Bbb_BOOK_ID_MAP.values()).index(Uuu) + 1
+    ix = list(Uuu_BOOK_ID_MAP.values()).index(Uuu) + 1
     adjRef = f'{pre}{BOS_BOOK_ID_MAP[ix]}{adjRef[3:]}{post}'
     # print(f"Converted '{ref}' to '{adjRef}'")
     return adjRef
@@ -1309,7 +1315,7 @@ Here is a list of the use of the semantic (and other) tagging characters:
     P (person) Indicates that the referrent is a single human person. (We include references to the person Yeshua/Yesous/Jesus in this category.) This must be followed by the name or unique description of the person if that's not already specified. For example, we might have David=P or he=PDavid or him=PDavid.
     Q (person group) Indicates that the referrent is a group of two or more human people (but not a tribe/nation see T below). This must be followed by the name or unique description of the person group. For example, we might have we=QPeterAndJohn or they=QJonah1Sailors. (Note that underline characters may not be used within tags.)
     T (tribal/national group) Indicates that the referrent is a tribe or all citizens of a nation. This must be followed by the name of the people group. For example, we might have they=TMiddianites or them=TSamaritans.
-    
+
     This then also makes it easier to recombine the three tables.
 
     Note: This only changes the internal records, not the actual dictionary keys.
@@ -1329,14 +1335,14 @@ Here is a list of the use of the semantic (and other) tagging characters:
 # end of loadTIPNR.prefix_our_IDs()
 
 
-def adjust_from_TIPNR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
+def adjust_links_from_TIPNR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
     """
     Change individual people references (like father, mother)
         and list of people references (like parents, siblings, partners, etc.)
         to our FGid fields (without @bibleRef parts).
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
-    
+
     # Firstly create a cross-index to FGid's
     unique_name_index = { v['unifiedNameTIPNR']:v['FGid'] for k,v in dataDict.items() }
 
@@ -1364,9 +1370,9 @@ def adjust_from_TIPNR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
                     if field_string.endswith('(?)'):
                         field_string, post = field_string[:-3], field_string[-3:]
                     dict_entry[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
-        
+
     return True
-# end of loadTIPNR.adjust_from_TIPNR_to_our_IDs()
+# end of loadTIPNR.adjust_links_from_TIPNR_to_our_IDs()
 
 
 def rebuild_dictionaries(key_name:str) -> bool:

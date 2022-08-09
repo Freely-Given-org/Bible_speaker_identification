@@ -1,15 +1,15 @@
 {
   "__HEADERS__": {
-    "conversion_software": "loadTheographicBibleData v0.03",
-    "conversion_software_last_modified_date": "2022-07-28",
+    "conversion_software": "loadTheographicBibleData v0.20",
+    "conversion_software_last_modified_date": "2022-08-08",
     "source_data_last_downloaded_date": "2022-07-24",
-    "conversion_date": "2022-07-28",
+    "conversion_date": "2022-08-08",
     "conversion_format_version": "0.1"
   },
   "__COLUMN_HEADERS__": [
     "FGid",
     "title",
-    "ID",
+    "TBDEventNumber",
     "startDate",
     "duration",
     "rangeFlag",

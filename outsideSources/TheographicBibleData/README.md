@@ -44,3 +44,23 @@ The 'xxx-Grid view.csv' (where xxx is 'people', 'peopleGroups', etc.)
 files contain the entire (unfiltered) tables.
 As Theographic Bible Data is still a work-in-progress,
 these may include unfinished entries.
+
+## Our comments on the original Theographic Bible Data
+
+This dataset tends to number all the entries in alphabetical order,
+e.g., for people: from aaron_1 through to zurishaddai_3113.
+These arbitrary numbers seem pointless to humans,
+so we only append a numerical suffix when there's
+multiple people/places with the identical name.
+(And even then, we remove the suffix if one of those is a major/well-known one.)
+
+It seems to us that versification is a separate issue from
+people, places, events, etc. So we would not include most of the
+books, chapters, verses data here (and Bible text).
+However, it does seem useful
+to note which books are written by which person and when.
+We have no need for people count and place count by chapter,
+as chapter divisions are often totally arbitrary.
+Also some of that can be calculated or pivoted from the
+verse reference data, so probably no need to be in the master
+data files???

@@ -56,13 +56,13 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-07-28' # by RJH
+LAST_MODIFIED_DATE = '2022-08-08' # by RJH
 SHORT_PROGRAM_NAME = "loadTheographicBibleData"
 PROGRAM_NAME = "Load Viz.Bible Theographic Bible Data exported CSV tables"
-PROGRAM_VERSION = '0.03'
+PROGRAM_VERSION = '0.20'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
-debuggingThisModule = True
+debuggingThisModule = False
 
 
 SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING = '2022-07-24'
@@ -85,7 +85,7 @@ TheographicBibleData_OUTPUT_FOLDERPATH = TheographicBibleData_INPUT_FOLDERPATH.j
 TheographicBibleData_XML_OUTPUT_FILENAME = 'TheographicBibleData.xml'
 TheographicBibleData_XML_OUTPUT_FILEPATH = TheographicBibleData_OUTPUT_FOLDERPATH.joinpath(TheographicBibleData_XML_OUTPUT_FILENAME)
 
-Bbb_BOOK_ID_MAP = {
+Uuu_BOOK_ID_MAP = {
             1: 'Gen', 2: 'Exo', 3: 'Lev', 4: 'Num', 5: 'Deu',
             6: 'Jos', 7: 'Jdg', 8: 'Rut', 9: '1Sa', 10: '2Sa',
             11: '1Ki', 12: '2Ki', 13: '1Ch', 14: '2Ch', 15: 'Ezr', 16: 'Neh', 17: 'Est', 18: 'Job',
@@ -95,7 +95,19 @@ Bbb_BOOK_ID_MAP = {
             40: 'Mat', 41: 'Mrk', 42: 'Luk', 43: 'Jhn', 44: 'Act',
             45: 'Rom', 46: '1Co', 47: '2Co', 48: 'Gal', 49: 'Eph', 50: 'Php', 51: 'Col', 52: '1Th', 53: '2Th', 54: '1Ti', 55: '2Ti', 56: 'Tit', 57: 'Phm',
             58: 'Heb', 59: 'Jas', 60: '1Pe', 61: '2Pe', 62: '1Jn', 63: '2Jn', 64: '3Jn', 65: 'Jud', 66: 'Rev'}
-assert len(Bbb_BOOK_ID_MAP) == 66
+assert len(Uuu_BOOK_ID_MAP) == 66
+OSIS_BOOK_ID_MAP = {
+            1: 'Gen', 2: 'Exod', 3: 'Lev', 4: 'Num', 5: 'Deut',
+            6: 'Josh', 7: 'Judg', 8: 'Ruth', 9: '1Sam', 10: '2Sam',
+            11: '1Kgs', 12: '2Kgs', 13: '1Chr', 14: '2Chr', 15: 'Ezra', 16: 'Neh', 17: 'Esth', 18: 'Job',
+            19: 'Ps', 20: 'Prov', 21: 'Eccl', 22: 'Song', 23: 'Isa', 24: 'Jer', 25: 'Lam',
+            26: 'Ezek', 27: 'Dan', 28: 'Hos', 29: 'Joel', 30: 'Amos', 31: 'Obad',
+            32: 'Jonah', 33: 'Mic', 34: 'Nah', 35: 'Hab', 36: 'Zeph', 37: 'Hag', 38: 'Zech', 39: 'Mal',
+            40: 'Matt', 41: 'Mark', 42: 'Luke', 43: 'John', 44: 'Acts',
+            45: 'Rom', 46: '1Cor', 47: '2Cor', 48: 'Gal', 49: 'Eph', 50: 'Phil', 51: 'Col',
+            52: '1Thess', 53: '2Thess', 54: '1Tim', 55: '2Tim', 56: 'Titus', 57: 'Phlm',
+            58: 'Heb', 59: 'Jas', 60: '1Pet', 61: '2Pet', 62: '1John', 63: '2John', 64: '3John', 65: 'Jude', 66: 'Rev'}
+assert len(OSIS_BOOK_ID_MAP) == 66
 BOS_BOOK_ID_MAP = {
             1: 'GEN', 2: 'EXO', 3: 'LEV', 4: 'NUM', 5: 'DEU',
             6: 'JOS', 7: 'JDG', 8: 'RUT', 9: 'SA1', 10: 'SA2',
@@ -107,6 +119,19 @@ BOS_BOOK_ID_MAP = {
             45: 'ROM', 46: 'CO1', 47: 'CO2', 48: 'GAL', 49: 'EPH', 50: 'PHP', 51: 'COL', 52: 'TH1', 53: 'TH2', 54: '1TI', 55: '2TI', 56: 'TIT', 57: 'PHM',
             58: 'HEB', 59: 'JAS', 60: 'PE1', 61: 'PE2', 62: 'JN1', 63: 'JN2', 64: 'JN3', 65: 'JDE', 66: 'REV'}
 assert len(BOS_BOOK_ID_MAP) == 66
+
+# IDs are prefixed with these letters before being combined together into allDicts
+PREFIX_MAP = { 'people':'P',
+               'peopleGroups':'T', # Tribe/Kingdom/Nation
+               'places':'L', # Location
+               'events':'E',
+            #    'periods':'W', # When
+            #    'Easton':'F', # Facts
+}
+
+COLUMN_NAME_REPLACEMENT_MAP = {'personLookup':'TBDPersonLookup', 'personID':'TBDPersonNumber',
+                               'placeLookup':'TBDPlaceLookup', 'placeID':'TBDPlaceNumber',
+                               'ID':'TBDEventNumber'}
 
 
 
@@ -121,9 +146,10 @@ def main() -> None:
             # export_xml('raw')
             if add_FGids():
                 rebuild_dictionaries('FGid')
-                if debuggingThisModule: export_JSON('mid')
+                # if debuggingThisModule:
+                export_JSON('mid')
                 if normalise_data() and check_data():
-                    rebuild_dictionaries(key_name='FGid')
+                    rebuild_dictionaries('FGid')
                     export_JSON('normalised')
                     export_xml('normalised')
                     export_verse_index()
@@ -163,15 +189,16 @@ def load_all_TheographicBibleData_data() -> bool:
 # end of loadTheographicBibleData.load_all_TheographicBibleData_data()
 
 
-def load_individual_TheographicBibleData_CSV_file(which:str) -> bool:
+def load_individual_TheographicBibleData_CSV_file(which:str) -> Tuple[List[str],List[Dict[str,str]]]:
     """
     We use the DictReader package for this.
 
-    XX Note that this code revises the TSV column headings as the file is read in. XX
+    We return a list of column headers (strings)
+    as well as the list of entries (dicts).
     """
     fnPrint(debuggingThisModule, "load_individual_TheographicBibleData_CSV_file()")
 
-    csv_filename = f'{which}-Grid view.csv'
+    csv_filename = f'{which.lower() if which=="Easton" else which}-Grid view.csv'
     try_filepath = TheographicBibleData_INPUT_FOLDERPATH.joinpath(csv_filename)
     tries = 1
     while not os.access(try_filepath, os.R_OK):
@@ -179,7 +206,7 @@ def load_individual_TheographicBibleData_CSV_file(which:str) -> bool:
         if tries > 4:
             logging.error(f"Unable to load {which} csv from {TheographicBibleData_INPUT_FOLDERPATH} {csv_filename}")
             return
-        try_filepath = Path('../'*tries).joinpath(TheographicBibleData_INPUT_FOLDERPATH).joinpath(csv_filename)
+        try_filepath = Path('../'*(tries-1)).joinpath(TheographicBibleData_INPUT_FOLDERPATH).joinpath(csv_filename)
         vPrint('Quiet', debuggingThisModule, f"  Trying to find TheographicBibleData {which} CSV file at {try_filepath}…")
 
     vPrint('Quiet', debuggingThisModule,
@@ -189,41 +216,26 @@ def load_individual_TheographicBibleData_CSV_file(which:str) -> bool:
 
     # Remove BOM
     if csv_lines[0].startswith("\ufeff"):
-        print(f"  Removing Byte Order Marker (BOM) from start of {which} CSV file…")
+        vPrint('Quiet', debuggingThisModule, f"  Removing Byte Order Marker (BOM) from start of {which} CSV file…")
         csv_lines[0] = csv_lines[0][1:]
 
     # Get the headers before we start
-    original_column_headers = [
-        header for header in csv_lines[0].strip().split(',')
-    ]  # assumes no commas in headings
+    original_column_headers = [ header for header in csv_lines[0].strip().split(',') ]  # assumes no commas in headings
     dPrint('Info', debuggingThisModule, f"  Original column headers: ({len(original_column_headers)}): {original_column_headers}")
-    # assert len(csv_column_headers) == NUM_EXPECTED_COLUMNS
-
-    # column_name_replacement_dict = {'personLookup':'TBDPersonLookup', 'personID':'TBDPersonID'}
-    # revised_column_headers = [column_name_replacement_dict[item] if item in column_name_replacement_dict else item for item in original_column_headers]
-    # dPrint('Info', debuggingThisModule, f"  Revised column headers: ({len(revised_column_headers)}): {revised_column_headers}")
 
     # Read, check the number of columns, and summarise row contents all in one go
-    # dict_reader = DictReader(csv_lines, fieldnames=revised_column_headers) # Override the original column names
     dict_reader = DictReader(csv_lines)
     csv_rows = []
     # csv_column_counts = defaultdict(lambda: defaultdict(int))
     for n, row in enumerate(dict_reader):
         if len(row) != len(original_column_headers):
-            print(f"Line {n} has {len(row)} column(s) instead of {len(original_column_headers)}")
+            logging.critical(f"Line {n} has {len(row)} column(s) instead of {len(original_column_headers)}")
         csv_rows.append(row)
-        # for key, value in row.items():
-        #     # csv_column_sets[key].add(value)
-        #     csv_column_counts[key][value] += 1
-    print(f"  Loaded {len(csv_rows):,} '{which}' data rows.")
+    vPrint('Quiet', debuggingThisModule, f"  Loaded {len(csv_rows):,} '{which}' data rows.")
 
     return original_column_headers, csv_rows
 # end of loadTheographicBibleData.load_individual_TheographicBibleData_CSV_file()
 
-
-COLUMN_NAME_REPLACEMENT_MAP = {'personLookup':'TBDPersonLookup', 'personID':'TBDPersonNumber',
-                               'placeLookup':'TBDPlaceLookup', 'placeID':'TBDPlaceNumber',
-                               'ID':'TBDEventNumber'}
 
 def add_FGids() -> bool:
     """
@@ -232,7 +244,7 @@ def add_FGids() -> bool:
         while at the same time converting the data from a list into a dict.
     """
     fnPrint(debuggingThisModule, "add_FGids()")
-    vPrint('Quiet', debuggingThisModule, "Adding Freely-Given IDs to raw data…")
+    vPrint('Quiet', debuggingThisModule, "\nAdding Freely-Given IDs to raw data…")
 
     for dict_name,the_dict in DB_LIST:
         assert len(the_dict) == 2 # '__COLUMN_HEADERS__' and 'dataList'
@@ -245,6 +257,7 @@ def add_FGids() -> bool:
                                 for item in column_header_list]
 
         new_data_dict = {}
+        name_list = []
         for j1,entry_dict in enumerate(data_row_list):
             # dPrint('Info', debuggingThisModule, f"{dict_name} {j1} {len(entry_dict)}")
             new_entry_dict = {}
@@ -254,36 +267,35 @@ def add_FGids() -> bool:
                     entry_key = COLUMN_NAME_REPLACEMENT_MAP[entry_key]
                 if j2 == 0: # Create an initial FGid
                     FGid = entry_value # Default to the first field/column in the original table
-                    if entry_key in ('TBDPersonLookup','TBDPlaceLookup'): # We only want the initial Person and Place keys
-                        assert dict_name in ('people','places')
-                        FGid = ''.join(FGid.rsplit('_', 1)) # Delete the last underline
+                    if dict_name == 'people':
+                        assert entry_key == 'TBDPersonLookup' # but we won't use that
+                        FGid = entry_dict['name'].replace(' ','_')
+                        assert FGid
+                        name_list.append(FGid)
+                        if name_list.count(FGid) > 1:
+                            FGid = f'{FGid}{name_list.count(FGid)}'
+                    elif dict_name == 'places':
+                        assert entry_key == 'TBDPlaceLookup' # but we won't use that
+                        FGid = entry_dict['kjvName'].replace(' ','_')
+                        assert FGid
+                        name_list.append(FGid)
+                        if name_list.count(FGid) > 1:
+                            FGid = f'{FGid}{name_list.count(FGid)}'
                     elif entry_key == 'osisRef': # in Chapters, Verses
                         FGid = FGid.replace('.', '_', 1).replace('.', ':', 1) # There'll be nothing for the second replace to do in Chapters
                     elif entry_key in ('dictLookup','title','groupName'): # in Easton and Events and PeopleGroups
                         FGid = FGid.replace(' ', '_')
                     assert ' ' not in FGid # We want single tokens
+                    assert FGid not in new_entry_dict # Don't want to be losing data
                     new_entry_dict['FGid'] = FGid
                 new_entry_dict[entry_key] = entry_value
             new_data_dict[FGid] = new_entry_dict
         del the_dict['dataList']
+        the_dict['__COLUMN_HEADERS__'] = column_header_list # which has been updated
         the_dict['dataDict'] = new_data_dict
     # vPrint('Quiet', debuggingThisModule, f"{db_count:,} tables loaded from TheographicBibleData CSV files.")
     return True
 # end of loadTheographicBibleData.add_FGids()
-
-
-def split_refs(ref_string:str) -> List[str]:
-    """
-    Take a string of Bible references separated by semicolons
-        and return a tidied list of separated references.
-    """
-    # ref_string = ref_string.rstrip(';') # Remove unnecessary final delimiter
-    # ref_string = ref_string.replace(' ','') # Remove all spaces for consistency
-    # ref_string = ref_string.replace('Eze','Ezk') # Fix human inconsistencies
-    # ref_string = ref_string.replace('Gen.1:1','Gen.1.1') # Fix human inconsistencies
-    # ref_string = ref_string.replace(';Etc.00','') # Fix unexpected entry
-    # ref_string = ref_string.replace(';Etc.0.0','') # Fix unexpected entry
-    return ref_string.split(';')
 
 
 def clean_data() -> bool:
@@ -337,18 +349,15 @@ def clean_data() -> bool:
                                     assert sub3Data and sub3Data!='>'
                                     assert sub3Data.strip() == sub3Data and '  ' not in sub3Data # Don't want leading or trailing whitespace
                                 else:
-                                    not_done_yet
+                                    raise Exception("Not done yet")
 
     return True
 # end of loadTheographicBibleData.clean_data()
 
 
+people_map, peopleGroups_map, places_map = {}, {}, {}
 def normalise_data() -> bool:
     """
-    Change signficance '- Named' to 'named', etc.
-
-    Create combined verse references where one person or place has multiple name fields, esp. OT and NT
-
     If a name only occurs once, we use the name as the key, e.g., persons 'Abdiel' or 'David'.
     But if there are multiple people/places with the same name, the above code uses suffixes,
         e.g.,   Joshua, Joshua2, Joshua3.
@@ -358,70 +367,128 @@ def normalise_data() -> bool:
 
     Optionally: Add our prefixes to our ID fields, e.g., P person, L location, etc.
                     See https://Freely-Given.org/BibleTranslations/English/OET/Tags.html
-                This then also makes it easier to recombine the three tables.
+                This then also makes it easier to combine some of tables.
 
-    Optionally: Change Bible references like '1Co.1.14' to 'CO1_1:14'
+    Optionally: Change OSIS Bible references like '1Co.1.14' to BOS 'CO1_1:14'
 
-    Optionally: Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
+    Optionally: Change references (like parents, siblings, partners, etc. to our ID fields
     """
+    global prefixed_our_IDs, people_map, peopleGroups_map, places_map
     vPrint('Quiet', debuggingThisModule, "\nNormalising TheographicBibleData datasets…")
 
     for name,the_dict in DB_LIST:
+        # if name not in ('books', 'chapters', 'verses', 'periods', 'Easton', ):
         vPrint('Normal', debuggingThisModule, f"  Normalising {name}…")
-        create_combined_name_verse_references(name, the_dict)
+        # create_combined_name_verse_references(name, the_dict) # Not needed for this dataset
+        convert_field_types(name, the_dict)
         adjust_Bible_references(name, the_dict)
-        ensure_best_known_name(name, the_dict)
+        if name != 'Easton': # I think
+            ensure_best_known_name(name, the_dict)
         if PREFIX_OUR_IDS_FLAG: prefix_our_IDs(name, the_dict)
-        adjust_from_Theographic_to_our_IDs(name, the_dict)
 
-    rebuild_dictionaries()
+        people_map = { v['TBDPersonLookup']:k for k,v in people.items() if k != '__COLUMN_HEADERS__' }
+        peopleGroups_map = { v['groupName']:k for k,v in peopleGroups.items() if k != '__COLUMN_HEADERS__' }
+        places_map = { v['TBDPlaceLookup']:k for k,v in places.items() if k != '__COLUMN_HEADERS__' }
+        adjust_links_from_Theographic_to_our_IDs(name, the_dict)
+
+    if PREFIX_OUR_IDS_FLAG:
+        prefixed_our_IDs = True
+
     return True
 # end of loadTheographicBibleData.normalise_data()
 
-def create_combined_name_verse_references(dataName:str, dataDict:dict) -> bool:
+# def create_combined_name_verse_references(dataName:str, dataDict:dict) -> bool:
+#     """
+#     Create combined verse references where one person or place has multiple name fields, esp. OT and NT
+#     """
+#     vPrint('Normal', debuggingThisModule, f"    Creating {dataName} combined individual verse references for all names…")
+#     for key,data in dataDict.items():
+#         if key == '__COLUMN_HEADERS__':
+#             continue
+#         dPrint('Info', debuggingThisModule, f"      {key} ({len(data)}) {data}")
+#         if len(data['names']) > 1:
+#             combined_individual_verse_references = []
+#             counts_list = []
+#             for name_dict in data['names']:
+#                 # dPrint('Info', debuggingThisModule, f"      {entry} ({len(name_dict)}) {name_dict['individualVerseReferences']=}")
+#                 counts_list.append(len(name_dict['individualVerseReferences']))
+#                 combined_individual_verse_references += name_dict['individualVerseReferences']
+#             dPrint('Info', debuggingThisModule, f"      {key} ({len(counts_list)}) {counts_list=} sum={sum(counts_list):,}") # {len(combined_individual_verse_references)=}")
+#             assert len(combined_individual_verse_references) == sum(counts_list)
+#             data['verses'] = combined_individual_verse_references
+
+#     return True
+# # end of loadTheographicBibleData.create_combined_name_verse_references
+
+def convert_field_types(dataName:str, dataDict:dict) -> bool:
     """
-    Create combined verse references where one person or place has multiple name fields, esp. OT and NT
+    Convert any lists inside strings to real lists
+        and convert number strings to integers.
     """
-    vPrint('Normal', debuggingThisModule, f"    Creating {dataName} combined individual verse references for all names…")
-    for entry,data in dataDict.items():
-        # dPrint('Info', debuggingThisModule, f"      {entry} ({len(data)}) {data}")
-        if len(data['names']) > 1:
-            combined_individual_verse_references = []
-            counts_list = []
-            for name_dict in data['names']:
-                # dPrint('Info', debuggingThisModule, f"      {entry} ({len(name_dict)}) {name_dict['individualVerseReferences']=}")
-                counts_list.append(len(name_dict['individualVerseReferences']))
-                combined_individual_verse_references += name_dict['individualVerseReferences']
-            dPrint('Info', debuggingThisModule, f"      {entry} ({len(counts_list)}) {counts_list=} sum={sum(counts_list):,}") # {len(combined_individual_verse_references)=}")
-            assert len(combined_individual_verse_references) == sum(counts_list)
-            data['combinedIndividualVerseReferences'] = combined_individual_verse_references
+    fnPrint(debuggingThisModule, "convert_field_types()")
+    vPrint('Normal', debuggingThisModule, f"    Adjusting all verse references for {dataName}…")
+
+    for key,value in dataDict.items():
+        # dPrint( 'Normal', debuggingThisModule, f"  {dataName} {key}={value}")
+        if key == '__COLUMN_HEADERS__':
+            continue
+        for comma_split_name in ('partners','children','siblings','halfSiblingsSameMother','halfSiblingsSameFather','people','places','peopleGroups', 'peopleBorn','peopleDied'):
+            if comma_split_name in value:
+                value[comma_split_name] = value[comma_split_name].split(',') if value[comma_split_name] else []
+        for str_to_int_name in ('TBDPersonNumber', 'TBDPlaceNumber', 'index', 'verseCount' , 'peopleCount', 'placesCount'):
+            if str_to_int_name in value:
+                value[str_to_int_name] = int(value[str_to_int_name])
+        if 'peopleCount' in value and 'people' in value:
+            assert len(value['people']) == value['peopleCount']
+            del value['peopleCount']
+            try: dataDict['__COLUMN_HEADERS__'].remove('peopleCount')
+            except ValueError: pass #already been done
+        if 'placesCount' in value and 'places' in value:
+            assert len(value['places']) == value['placesCount']
+            del value['placesCount']
+            try: dataDict['__COLUMN_HEADERS__'].remove('placesCount')
+            except ValueError: pass #already been done
+        if 'verses' in value:
+            value['verses'] = split_refs(value['verses']) if value['verses'] else []
+            assert len(set(value['verses'])) == len(value['verses']) # i.e., no duplicates
+            if 'verseCount' in value: assert value['verseCount'] == len(value['verses'])
 
     return True
-# end of loadTheographicBibleData.create_combined_name_verse_references()
+# end of loadTheographicBibleData.convert_field_types
+
+def split_refs(ref_string:str) -> List[str]:
+    """
+    Take a string of Bible references separated by commas
+        and return a tidied list of separated references.
+    """
+    return ref_string.split(',')
+# end of loadTheographicBibleData.split_refs
 
 def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
     """
-    Change Bible references like '1Co.1.14' to 'CO1_1:14'
-
-    There might be a's or b's at the end of the verse number.
+    Change OSIS Bible references like '2Chr.1.14' to 'CH2_1:14'
     """
     vPrint('Normal', debuggingThisModule, f"    Adjusting all verse references for {dataName}…")
-    for value in dataDict.values():
-        for name_data in value['names']:
-            for j,ref_string in enumerate(name_data['individualVerseReferences']):
-                name_data['individualVerseReferences'][j] = adjust_Bible_reference(ref_string)
-        if 'combinedIndividualVerseReferences' in value:
-            for j,ref_string in enumerate(value['combinedIndividualVerseReferences']):
-                value['combinedIndividualVerseReferences'][j] = adjust_Bible_reference(ref_string)
+    for key,value in dataDict.items():
+        # dPrint( 'Normal', debuggingThisModule, f"{value}")
+        if key == '__COLUMN_HEADERS__':
+            continue
+        # for name_data in value['names']:
+        #     for j,ref_string in enumerate(name_data['individualVerseReferences']):
+        #         name_data['individualVerseReferences'][j] = adjust_Bible_reference(ref_string)
+        if 'verses' in value:
+            for j,ref_string in enumerate(value['verses']):
+                # dPrint( 'Quiet', debuggingThisModule, f"{j} {ref_string=}")
+                value['verses'][j] = adjust_Bible_reference(ref_string)
 
     return True
 # end of loadTheographicBibleData.adjust_Bible_references()
 
 def adjust_Bible_reference(ref:str) -> str:
     """
-    Change a Bible reference like '1Co.1.14' to 'CO1_1:14'
+    Change an OSIS Bible reference like '2Chr.1.14' to 'CH2_1:14'
     """
-    assert len(ref) >= 7 # Uuu.c.v
+    assert len(ref) >= 6 # Uu.c.v
     assert ';' not in ref
     assert ':' not in ref
     assert ' ' not in ref
@@ -429,14 +496,18 @@ def adjust_Bible_reference(ref:str) -> str:
     adjRef = ref.replace('.','_',1).replace('.',':',1)
 
     pre = post = ''
-    if adjRef[0] in '([' and adjRef[-1] in '])':
-        pre = adjRef[0]
-        post = adjRef[-1]
-        adjRef = adjRef[1:-1]
+    # if adjRef[0] in '([' and adjRef[-1] in '])':
+    #     pre = adjRef[0]
+    #     post = adjRef[-1]
+    #     adjRef = adjRef[1:-1]
 
-    Uuu = adjRef[:3]
-    ix = list(Bbb_BOOK_ID_MAP.values()).index(Uuu) + 1
-    adjRef = f'{pre}{BOS_BOOK_ID_MAP[ix]}{adjRef[3:]}{post}'
+    osisBookCode, rest = adjRef.split('_')
+    c, v = rest.split( ':' )
+    assert c.isdigit()
+    assert v.isdigit()
+
+    ix = list(OSIS_BOOK_ID_MAP.values()).index(osisBookCode) + 1
+    adjRef = f'{pre}{BOS_BOOK_ID_MAP[ix]}_{rest}{post}'
     # print(f"Converted '{ref}' to '{adjRef}'")
     return adjRef
 # end of loadTheographicBibleData.adjust_Bible_reference
@@ -454,20 +525,25 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     Note: This only changes the internal records, not the actual dictionary keys.
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
-    for value in dataDict.values():
+    if dataName in ('books','chapters','verses'): # nothing to do here
+        return False
+
+    for key,value in dataDict.items():
+        if key == '__COLUMN_HEADERS__':
+            continue
+        dPrint('Verbose', debuggingThisModule, f"{key=} {value=}")
         old_id = value['FGid'] # Which may or may not match the original key by now
         if old_id.endswith('2') and not old_id[-2].isdigit():
-            # dPrint('Info', debuggingThisModule, f"      {entry}")
+            # dPrint('Info', debuggingThisModule, f"      {value}")
             base_id = old_id[:-1]
-            references_count = len( dataDict[base_id]['combinedIndividualVerseReferences']
-                                        if 'combinedIndividualVerseReferences' in dataDict[base_id]
-                                        else dataDict[base_id]['names'][0] )
+            # dPrint('Normal', debuggingThisModule, f"      {old_id=} {base_id=} {key}={value}")
+            references_count = dataDict[base_id]['verseCount']
             references_counts = { base_id: references_count }
             max_count, num_maxes, second_highest = references_count, 1, 0
             for suffix in range(2,30):
                 suffixed_entry = f'{base_id}{suffix}'
-                try: references_count = len( dataDict[suffixed_entry]['combinedIndividualVerseReferences']
-                                                if 'combinedIndividualVerseReferences' in dataDict[suffixed_entry]
+                try: references_count = len( dataDict[suffixed_entry]['verses']
+                                                if 'verses' in dataDict[suffixed_entry]
                                                 else dataDict[suffixed_entry]['names'][0] )
                 except KeyError: break # Gone too far
                 references_counts[suffixed_entry] = references_count
@@ -482,14 +558,14 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                 else:
                     dPrint('Verbose', debuggingThisModule, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     new_base_id = f'{base_id}1'
-                    dPrint('Normal', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[base_id]['FGid'] == base_id
                     dataDict[base_id]['FGid'] = new_base_id
                     # We only save the prefixed ID internally -- will fix the keys later
 
                     suffix = list(references_counts.values()).index(max_count) + 1
                     max_id = f'{base_id}{suffix}'
-                    dPrint('Normal', debuggingThisModule, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', debuggingThisModule, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[max_id]['FGid'] == max_id
                     dataDict[max_id]['FGid'] = base_id
                     # We only save the prefixed ID internally -- will fix the keys later
@@ -499,13 +575,14 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                 else:
                     dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 new_base_id = f'{base_id}1'
-                dPrint('Normal', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 assert dataDict[base_id]['FGid'] == base_id
                 dataDict[base_id]['FGid'] = new_base_id
                 # We only save the prefixed ID internally -- will fix the keys later
 
     return True
 # end of loadTheographicBibleData.ensure_best_known_name()
+
 
 def prefix_our_IDs(dataName:str, dataDict:dict) -> bool:
     """
@@ -514,22 +591,24 @@ def prefix_our_IDs(dataName:str, dataDict:dict) -> bool:
 
 Here is a list of the use of the semantic (and other) tagging characters:
 
-    A (angelic being) Indicates that the referrent is an angelic type of being. This must be followed by the name or unique description of the being if that's not already specified.
-    D (deity or god) Indicates that the referrent is a deity or god. However, since Yeshua/Jesus is both God and man, we made the decision to exempt references to the earthly Jesus from this. This must be followed by the name or unique description of the god or deity if that's not already specified. For example, we might have God=G or {the father}=GGodTheFather.
+    xxxA (angelic being) Indicates that the referrent is an angelic type of being. This must be followed by the name or unique description of the being if that's not already specified.
+    xxxD (deity or god) Indicates that the referrent is a deity or god. However, since Yeshua/Jesus is both God and man, we made the decision to exempt references to the earthly Jesus from this. This must be followed by the name or unique description of the god or deity if that's not already specified. For example, we might have God=G or {the father}=GGodTheFather.
     L (location) Indicates that the referrent is a place or location. This must be followed by the name or unique description of the location if that's not already specified. For example, we might have Nineveh=L or city=LNineveh or there=LNineveh.
-    O (object) Indicates that the referrent is a thing. This must be followed by the name or unique description of the thing if that's not already specified. For example, we might have staff=OAaronsStaff or ship=OJonahsShip. (Note that this doesn't imply that Jonah owned the ship -- it is simply a convenient unique name used as a reference.)
+    xxxO (object) Indicates that the referrent is a thing. This must be followed by the name or unique description of the thing if that's not already specified. For example, we might have staff=OAaronsStaff or ship=OJonahsShip. (Note that this doesn't imply that Jonah owned the ship -- it is simply a convenient unique name used as a reference.)
     P (person) Indicates that the referrent is a single human person. (We include references to the person Yeshua/Yesous/Jesus in this category.) This must be followed by the name or unique description of the person if that's not already specified. For example, we might have David=P or he=PDavid or him=PDavid.
-    Q (person group) Indicates that the referrent is a group of two or more human people (but not a tribe/nation see T below). This must be followed by the name or unique description of the person group. For example, we might have we=QPeterAndJohn or they=QJonah1Sailors. (Note that underline characters may not be used within tags.)
-    T (tribal/national group) Indicates that the referrent is a tribe or all citizens of a nation. This must be followed by the name of the people group. For example, we might have they=TMiddianites or them=TSamaritans.
-    
-    This then also makes it easier to recombine the three tables.
+    G (person group) Indicates that the referrent is a group of two or more human people (but not a tribe/nation see T below). This must be followed by the name or unique description of the person group. For example, we might have we=QPeterAndJohn or they=QJonah1Sailors. (Note that underline characters may not be used within tags.)
+    xxxT (tribal/national group) Indicates that the referrent is a tribe or all citizens of a nation. This must be followed by the name of the people group. For example, we might have they=TMiddianites or them=TSamaritans.
+
+    This then also makes it easier to recombine the tables.
 
     Note: This only changes the internal records, not the actual dictionary keys.
     """
     vPrint('Normal', debuggingThisModule, f"    Prefixing our ID fields for {dataName}…")
-    # The following line is just general -- we really need to individually handle the 'other' entries
-    default_prefix = 'P' if dataName=='people' else 'L' if dataName=='places' else 'D'
-    for value in dataDict.values():
+    try: default_prefix = PREFIX_MAP[dataName]
+    except KeyError: return False
+    for key,value in dataDict.items():
+        if key == '__COLUMN_HEADERS__':
+            continue
         old_id = value['FGid']
         new_id = f'{default_prefix}{old_id}'
         # dPrint('Info', debuggingThisModule, f"      {old_id=} {new_id=}")
@@ -540,42 +619,56 @@ Here is a list of the use of the semantic (and other) tagging characters:
     return True
 # end of loadTheographicBibleData.prefix_our_IDs()
 
-def adjust_from_Theographic_to_our_IDs(dataName:str, dataDict:dict) -> bool:
+
+def adjust_links_from_Theographic_to_our_IDs(dataName:str, dataDict:dict) -> bool:
     """
     Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
-    
+
     # Firstly create a cross-index
-    unique_name_index = { v['unifiedNameTheographicBibleData']:k for k,v in dataDict.items() }
+    dPrint('Verbose', debuggingThisModule, f"{dataName} {str(dataDict)[:1200]}")
+    # keyName = 'TBDPersonLookup' if dataName=='people' else 'groupName' if dataName=='peopleGroups' else 'TBDPlaceLookup' if dataName=='places' else None
+    # if keyName:
+    #     unique_name_index = { v[keyName]:k for k,v in dataDict.items() if k != '__COLUMN_HEADERS__' }
 
     # Now make any necessary adjustments
-    for data in dataDict.values():
+    for key,data in dataDict.items():
+        if key == '__COLUMN_HEADERS__':
+            continue
+        dPrint('Verbose', debuggingThisModule, f"{key}={str(data)[:100]}")
         for fieldName in ('father','mother'): # single entries
             if fieldName in data:
+                dPrint('Verbose', debuggingThisModule, f"{fieldName}={data[fieldName]}")
                 field_string = data[fieldName]
                 assert isinstance(field_string, str)
-                assert len(field_string) >= 10 # ww.GEN.1.1
-                assert field_string.count('@') == 1
-                pre = post = ''
-                if field_string.endswith('(?)') or field_string.endswith('(d)'):
-                    field_string, post = field_string[:-3], field_string[-3:]
-                elif field_string.endswith('(d?)'):
-                    field_string, post = field_string[:-4], field_string[-4:]
-                data[fieldName] = f'{pre}{unique_name_index[field_string]}{post}'
-        for fieldName in ('siblings','partners','offspring'): # list entries
+                # assert len(field_string) >= 10 # ww.GEN.1.1
+                # assert field_string.count('@') == 1
+                # pre = post = ''
+                # if field_string.endswith('(?)') or field_string.endswith('(d)'):
+                #     field_string, post = field_string[:-3], field_string[-3:]
+                # elif field_string.endswith('(d?)'):
+                #     field_string, post = field_string[:-4], field_string[-4:]
+                # data[fieldName] = f'{pre}{unique_name_index[field_string]}{post}'
+                if field_string:
+                    data[fieldName] = people_map[field_string]
+                # data[fieldName] = field_string.replace( '_', '', 1 )
+        for fieldName in ('siblings','halfSiblingsSameFather','halfSiblingsSameMother', 'partners', 'children', 'people', 'places', 'peopleGroups', 'peopleBorn', 'peopleDied'): # list entries
             if fieldName in data:
+                map = places_map if fieldName=='places' else peopleGroups_map if fieldName=='peopleGroups' else people_map
                 assert isinstance(data[fieldName], list)
                 for j,field_string in enumerate(data[fieldName]):
-                    assert len(field_string) >= 10 # ww.GEN.1.1
-                    assert field_string.count('@') == 1
-                    pre = post = ''
-                    if field_string.endswith('(?)'):
-                        field_string, post = field_string[:-3], field_string[-3:]
-                    data[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
-        
+                    # assert len(field_string) >= 10 # ww.GEN.1.1
+                    # assert field_string.count('@') == 1
+                    # pre = post = ''
+                    # if field_string.endswith('(?)'):
+                    #     field_string, post = field_string[:-3], field_string[-3:]
+                    # data[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
+                    data[fieldName] = map[field_string]
+                    # data[fieldName][j] = field_string.replace( '_', '', 1 )
+
     return True
-# end of loadTheographicBibleData.adjust_from_Theographic_to_our_IDs()
+# end of loadTheographicBibleData.adjust_links_from_Theographic_to_our_IDs()
 
 def rebuild_dictionaries(key_name:str) -> bool:
     """
@@ -589,29 +682,38 @@ def rebuild_dictionaries(key_name:str) -> bool:
         now-duplicated 'FGid' fields but we'll leave them in for
         maximum future flexibility (at the cost of a little extra hard disk).
     """
-    vPrint('Normal', debuggingThisModule, f"  Rebuilding dictionaries…")
+    vPrint('Normal', debuggingThisModule, f"  Rebuilding dictionaries with {key_name}…")
     assert key_name in ('FGid',)
 
     if prefixed_our_IDs: # We can safely combine all the dictionaries into one
         allEntries.clear()
 
     # These rebuilds retain the original entry orders
+    all_count = 0
     for dict_name,the_dict in DB_LIST:
         # dPrint('Normal', debuggingThisModule, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
-        assert '__HEADERS__' not in the_dict and '__HEADERS__' not in the_dict['dataDict']
+        assert '__HEADERS__' not in the_dict # and '__HEADERS__' not in the_dict['dataDict']
         column_headers_list = the_dict['__COLUMN_HEADERS__']
-        old_length = len(the_dict['dataDict']) if 'dataDict' in the_dict else len(the_dict)
-        new_dict = { v[key_name]:v for _k,v in the_dict['dataDict'].items() }
+        if 'dataDict' in the_dict:
+            old_length = len(the_dict['dataDict']) + 1
+            new_dict = { v[key_name]:v for _k,v in the_dict['dataDict'].items() }
+        else:
+            old_length = len(the_dict)
+            new_dict = { v[key_name]:v for k,v in the_dict.items() if k!='__COLUMN_HEADERS__'}
         the_dict.clear()            # We do it this way so that we update the existing (global) dict
-        column_headers_list = the_dict['__COLUMN_HEADERS__'] = column_headers_list
+        the_dict['__COLUMN_HEADERS__'] = column_headers_list
         the_dict.update(new_dict)   #  rather than creating an entirely new dict
-        if len(the_dict) != old_length+1:
-            logging.critical(f"rebuild_dictionaries({key_name}) for {dict_name} unexpectedly went from {old_length} entries to {len(the_dict)}")
+        if len(the_dict) != old_length:
+            logging.critical(f"rebuild_dictionaries({key_name}) for {dict_name} unexpectedly went from {old_length:,} entries to {len(the_dict):,}")
         if prefixed_our_IDs: # We can safely combine all the dictionaries into one
-            allEntries.update(the_dict)
+            if dict_name in ('people','peopleGroups','places','events'): # so not books,chapters,verses, Easton, periods
+                all_count += len(the_dict) - 1 # Don't count COLUMN_HEADERS entry
+                allEntries.update(the_dict)
 
     if prefixed_our_IDs: # We can safely combine all the dictionaries into one
+        del allEntries['__COLUMN_HEADERS__'] # it's irrelevant
         dPrint('Quiet', debuggingThisModule, f"    Got {len(allEntries):,} 'all' entries")
+        assert len(allEntries) == all_count
 
     return True
 # end of loadTheographicBibleData.rebuild_dictionaries()
@@ -642,8 +744,9 @@ def export_JSON(subType:str) -> bool:
         if the_dict:
             # dPrint('Normal', debuggingThisModule, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
             if len(the_dict) == 2:
-                assert '__COLUMN_HEADERS__' in the_dict and 'dataList' in the_dict 
+                assert '__COLUMN_HEADERS__' in the_dict and 'dataList' in the_dict
                 data_length = len(the_dict['dataList'])
+            elif dict_name == 'all': data_length = len(the_dict)
             else: data_length = len(the_dict) - 1
             filepath = TheographicBibleData_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}.json')
             vPrint( 'Quiet', debuggingThisModule, f"  Exporting {data_length:,} {dict_name} to {filepath}…")
@@ -661,7 +764,7 @@ def export_xml(subType:str) -> bool:
     assert subType
     vPrint('Quiet', debuggingThisModule, f"\nExporting {subType} XML TheographicBibleData file…")
 
-    vPrint( 'Quiet', debuggingThisModule, f"  NOT Wrote {len(xml_lines):,} XML lines.")
+    # vPrint( 'Quiet', debuggingThisModule, f"  NOT Wrote {len(xml_lines):,} XML lines.")
     return True
 # end of loadTheographicBibleData.export_xml()
 
@@ -674,26 +777,31 @@ def export_verse_index() -> bool:
     vPrint('Quiet', debuggingThisModule, f"\nCalculating and exporting index files…")
     subType = 'normalised'
     for dict_name,the_dict in ALL_DB_LIST:
+        keyName = 'TBDPersonLookup' if dict_name=='people' else 'groupName' if dict_name=='peopleGroups' else 'TBDPlaceLookup' if dict_name=='places' else None
+        if not keyName: continue
+        # if dict_name not in ('people','peopleGroups','places'):
+            # continue
+
         ref_index_dict = defaultdict(list)
         TheographicBibleData_index_dict = {}
-        for jj, value in enumerate(the_dict.values()):
+        for jj, (key,value) in enumerate(the_dict.items()):
+            if key == '__COLUMN_HEADERS__':
+                continue
             if jj == 0 and len(value)==len(HEADER_DICT) and 'conversion_software' in value: # it's our __HEADERS__ entry
                 continue
 
             FGid = value['FGid']
-            ref_list = value['combinedIndividualVerseReferences'] if 'combinedIndividualVerseReferences' in value \
-                        else value['names'][0]['individualVerseReferences']
-            for ref in ref_list:
+            for ref in value['verses']:
                 ref_index_dict[ref].append(FGid)
-            unifiedNameTheographicBibleData = value['unifiedNameTheographicBibleData']
+            unifiedNameTheographicBibleData = value[keyName]
             TheographicBibleData_index_dict[unifiedNameTheographicBibleData] = FGid
-            for name in value['names']:
-                uniqueNameTheographicBibleData = name['uniqueNameTheographicBibleData']
-                if uniqueNameTheographicBibleData != unifiedNameTheographicBibleData:
-                    if uniqueNameTheographicBibleData in TheographicBibleData_index_dict:
-                        if TheographicBibleData_index_dict[uniqueNameTheographicBibleData] != FGid:
-                            print(f"Why do we already have {TheographicBibleData_index_dict[uniqueNameTheographicBibleData]} for {uniqueNameTheographicBibleData} now wanting {FGid}")
-                    else: TheographicBibleData_index_dict[uniqueNameTheographicBibleData] = FGid
+            # for name in value['names']:
+            #     uniqueNameTheographicBibleData = name['uniqueNameTheographicBibleData']
+            #     if uniqueNameTheographicBibleData != unifiedNameTheographicBibleData:
+            #         if uniqueNameTheographicBibleData in TheographicBibleData_index_dict:
+            #             if TheographicBibleData_index_dict[uniqueNameTheographicBibleData] != FGid:
+            #                 print(f"Why do we already have {TheographicBibleData_index_dict[uniqueNameTheographicBibleData]} for {uniqueNameTheographicBibleData} now wanting {FGid}")
+            #         else: TheographicBibleData_index_dict[uniqueNameTheographicBibleData] = FGid
 
         # Save the dicts as JSON files
         if ref_index_dict:
@@ -720,7 +828,6 @@ if __name__ == '__main__':
     BibleOrgSysGlobals.addStandardOptionsAndProcess( parser )
 
     main()
-    print()
 
     BibleOrgSysGlobals.closedown( PROGRAM_NAME, PROGRAM_VERSION )
 # end of loadTheographicBibleData.py
