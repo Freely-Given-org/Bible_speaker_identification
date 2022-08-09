@@ -12,10 +12,15 @@ and loads, cross-checks, and transforms the data fields,
 and writes them into JSON (and some XML)
 data files for easier use in most programming environments.
 
+loadGlyssenData.py takes the various SIL Glyssen data files
+and loads, cross-checksm and transforms the data fields,
+and writes them into JSON (and some XML)
+data files for easier use in most programming environments.
+
 ## Lists
 
-As we normalise the loaded data, we convert
-things like strings of comma separated references
+As we normalise the loaded data for our needs,
+we convert things like strings of comma separated references
 to list objects.
 
 ## Table keys
@@ -37,11 +42,12 @@ keys to our new keys.
 
 ## Book and verse references
 
-The Tyndale data uses USFM bookcodes and
+The Tyndale data uses Title-case forms of USFM bookcodes and
 the Theographic data uses OSIS.
 We convert them all to our own BOS books
 codes (always three characters, always UPPERCASE,
-always start with a letter).
+always start with a letter -- see
+https://freely-given.org/Software/BibleOrganisationalSystem/BOSBooksCodes.html).
 We often use BBB to refer to these books codes.
 
 For verse references, we use BBB_C:V,

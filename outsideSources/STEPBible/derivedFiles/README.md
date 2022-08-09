@@ -12,6 +12,14 @@ feel free to contact us and we might be able to help.
 
 ## Notes
 
+The "raw" files should have the same content as the source file.
+The "mid" files are intermediate files (for debugging, etc.)
+and probably of no use to anyone else
+(and might eventually be removed from this repo).
+The "normalised" files should have all the content from the source
+but with our own keys (FGid) and with other fields also
+reformatted into more immediately useful data structures.
+
 When multiple people or places have the same name, e.g., _Joshua_,
 we label them _Joshua1_, _Joshua2_, etc.
 However, if one of the characters is mentioned more often than the others,
@@ -20,7 +28,7 @@ Although that has its own inconsistencies, in general
 we expect this to be shorter and more helpful to humans than the TIPNR
 format using "Name@firstReference".
 
-We also prefix names with 'P' for person, 'Q' for persons/group,
+We also prefix names with 'P' for person, 'G' for persons/group,
 'L' for locations, and 'D' for deities/gods. So the above examples
 would end up as _PJoshua1_, _PJoshua_, _PJoshua3_, etc.
 
@@ -31,7 +39,3 @@ Improving this is work for further investigation.
 Prefixing the IDs like that enables us to combine their three datasets
 (otherwise a person and a place with the same name would clash)
 into the various "...All..." derived files.
-
-There may also be the mid_People.json, mid_Places.json, and mid_Others.json
-files produced by the converter script but not checked into GitHub
-as they're not of particular use except for debugging.

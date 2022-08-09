@@ -44,7 +44,6 @@ Module to load and process Viz.Bible "Theographic Bible Data" CSV files
 from gettext import gettext as _
 from collections import defaultdict
 from csv import DictReader
-from re import S
 from typing import Dict, List, Tuple
 from pathlib import Path
 from datetime import date
@@ -56,10 +55,10 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-08-08' # by RJH
+LAST_MODIFIED_DATE = '2022-08-09' # by RJH
 SHORT_PROGRAM_NAME = "loadTheographicBibleData"
 PROGRAM_NAME = "Load Viz.Bible Theographic Bible Data exported CSV tables"
-PROGRAM_VERSION = '0.20'
+PROGRAM_VERSION = '0.21'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
@@ -85,17 +84,7 @@ TheographicBibleData_OUTPUT_FOLDERPATH = TheographicBibleData_INPUT_FOLDERPATH.j
 TheographicBibleData_XML_OUTPUT_FILENAME = 'TheographicBibleData.xml'
 TheographicBibleData_XML_OUTPUT_FILEPATH = TheographicBibleData_OUTPUT_FOLDERPATH.joinpath(TheographicBibleData_XML_OUTPUT_FILENAME)
 
-Uuu_BOOK_ID_MAP = {
-            1: 'Gen', 2: 'Exo', 3: 'Lev', 4: 'Num', 5: 'Deu',
-            6: 'Jos', 7: 'Jdg', 8: 'Rut', 9: '1Sa', 10: '2Sa',
-            11: '1Ki', 12: '2Ki', 13: '1Ch', 14: '2Ch', 15: 'Ezr', 16: 'Neh', 17: 'Est', 18: 'Job',
-            19: 'Psa', 20: 'Pro', 21: 'Ecc', 22: 'Sng', 23: 'Isa', 24: 'Jer', 25: 'Lam',
-            26: 'Ezk', 27: 'Dan', 28: 'Hos', 29: 'Jol', 30: 'Amo', 31: 'Oba',
-            32: 'Jon', 33: 'Mic', 34: 'Nam', 35: 'Hab', 36: 'Zep', 37: 'Hag', 38: 'Zec', 39: 'Mal',
-            40: 'Mat', 41: 'Mrk', 42: 'Luk', 43: 'Jhn', 44: 'Act',
-            45: 'Rom', 46: '1Co', 47: '2Co', 48: 'Gal', 49: 'Eph', 50: 'Php', 51: 'Col', 52: '1Th', 53: '2Th', 54: '1Ti', 55: '2Ti', 56: 'Tit', 57: 'Phm',
-            58: 'Heb', 59: 'Jas', 60: '1Pe', 61: '2Pe', 62: '1Jn', 63: '2Jn', 64: '3Jn', 65: 'Jud', 66: 'Rev'}
-assert len(Uuu_BOOK_ID_MAP) == 66
+
 OSIS_BOOK_ID_MAP = {
             1: 'Gen', 2: 'Exod', 3: 'Lev', 4: 'Num', 5: 'Deut',
             6: 'Josh', 7: 'Judg', 8: 'Ruth', 9: '1Sam', 10: '2Sam',
@@ -298,61 +287,61 @@ def add_FGids() -> bool:
 # end of loadTheographicBibleData.add_FGids()
 
 
-def clean_data() -> bool:
-    """
-    Many data entry errors and inconsistencies are already discovered/fixed in the parsing code.
+# def clean_data() -> bool:
+#     """
+#     Many data entry errors and inconsistencies are already discovered/fixed in the parsing code.
 
-    This function removes leading and trailing whitespace, and doubled spaces,
-        removes the final semicolon from verse Reference lists, etc.
+#     This function removes leading and trailing whitespace, and doubled spaces,
+#         removes the final semicolon from verse Reference lists, etc.
 
-    It also checks that we haven't accumulated empty strings and containers.
+#     It also checks that we haven't accumulated empty strings and containers.
 
-    Note: it's not written recursively as situational awareness of the various dicts and lists
-            is also helpful to know (and the structure isn't THAT deep).
-    """
-    vPrint('Quiet', debuggingThisModule, "\nCleaning TheographicBibleData datasets…")
+#     Note: it's not written recursively as situational awareness of the various dicts and lists
+#             is also helpful to know (and the structure isn't THAT deep).
+#     """
+#     vPrint('Quiet', debuggingThisModule, "\nCleaning TheographicBibleData datasets…")
 
-    for dict_name,the_dict in DB_LIST:
-        vPrint('Normal', debuggingThisModule, f"  Cleaning {dict_name}…")
-        for mainKey, mainData in the_dict.items():
-            # dPrint('Quiet', debuggingThisModule, f"    {mainKey} ({len(mainData)}) {mainData}")
-            assert mainKey and mainData and mainKey!='>'
-            assert isinstance(mainKey, str) # a person/place/other id/name
-            assert mainKey.strip() == mainKey and '  ' not in mainKey # Don't want leading or trailing whitespace
-            if isinstance(mainData, str):
-                assert mainData.strip() == mainData and '  ' not in mainData # Don't want leading or trailing whitespace
-            else: # dict
-                for subKey, subData in mainData.items():
-                    # dPrint('Quiet', debuggingThisModule, f"    {mainKey=} {subKey=} ({len(subData)}) {subData=}")
-                    assert subKey and subData and subKey!='>'
-                    assert isinstance(subKey, str)
-                    assert subKey.strip() == subKey and '  ' not in subKey # Don't want leading or trailing whitespace
-                    if isinstance(subData, str):
-                        assert subData and subData!='>'
-                        if '  ' in subData:
-                            dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} '{subData}'")
-                            mainData[subKey] = subData = subData.replace('  ',' ')
-                        assert subData.strip() == subData and '  ' not in subData # Don't want leading or trailing whitespace
-                    else: # dict
-                        for sub2Key, sub2Data in subData.items():
-                            # dPrint('Quiet', debuggingThisModule, f"    {sub2Key} ({len(sub2Data)}) {sub2Data}")
-                            assert sub2Key and sub2Data
-                            assert isinstance(sub2Key, str) and sub2Key!='>'
-                            assert sub2Key.strip() == sub2Key and '  ' not in sub2Key # Don't want leading or trailing whitespace
-                            assert isinstance(sub2Data, dict)
-                            for sub3Key, sub3Data in sub2Data.items():
-                                # dPrint('Quiet', debuggingThisModule, f"    {sub3Key} ({len(sub3Data)}) {sub3Data}")
-                                assert sub3Key and sub3Data
-                                assert isinstance(sub3Key, str) and sub3Key!='>'
-                                assert sub3Key.strip() == sub3Key and '  ' not in sub3Key # Don't want leading or trailing whitespace
-                                if isinstance(sub3Data, str):
-                                    assert sub3Data and sub3Data!='>'
-                                    assert sub3Data.strip() == sub3Data and '  ' not in sub3Data # Don't want leading or trailing whitespace
-                                else:
-                                    raise Exception("Not done yet")
+#     for dict_name,the_dict in DB_LIST:
+#         vPrint('Normal', debuggingThisModule, f"  Cleaning {dict_name}…")
+#         for mainKey, mainData in the_dict.items():
+#             # dPrint('Quiet', debuggingThisModule, f"    {mainKey} ({len(mainData)}) {mainData}")
+#             assert mainKey and mainData and mainKey!='>'
+#             assert isinstance(mainKey, str) # a person/place/other id/name
+#             assert mainKey.strip() == mainKey and '  ' not in mainKey # Don't want leading or trailing whitespace
+#             if isinstance(mainData, str):
+#                 assert mainData.strip() == mainData and '  ' not in mainData # Don't want leading or trailing whitespace
+#             else: # dict
+#                 for subKey, subData in mainData.items():
+#                     # dPrint('Quiet', debuggingThisModule, f"    {mainKey=} {subKey=} ({len(subData)}) {subData=}")
+#                     assert subKey and subData and subKey!='>'
+#                     assert isinstance(subKey, str)
+#                     assert subKey.strip() == subKey and '  ' not in subKey # Don't want leading or trailing whitespace
+#                     if isinstance(subData, str):
+#                         assert subData and subData!='>'
+#                         if '  ' in subData:
+#                             dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} '{subData}'")
+#                             mainData[subKey] = subData = subData.replace('  ',' ')
+#                         assert subData.strip() == subData and '  ' not in subData # Don't want leading or trailing whitespace
+#                     else: # dict
+#                         for sub2Key, sub2Data in subData.items():
+#                             # dPrint('Quiet', debuggingThisModule, f"    {sub2Key} ({len(sub2Data)}) {sub2Data}")
+#                             assert sub2Key and sub2Data
+#                             assert isinstance(sub2Key, str) and sub2Key!='>'
+#                             assert sub2Key.strip() == sub2Key and '  ' not in sub2Key # Don't want leading or trailing whitespace
+#                             assert isinstance(sub2Data, dict)
+#                             for sub3Key, sub3Data in sub2Data.items():
+#                                 # dPrint('Quiet', debuggingThisModule, f"    {sub3Key} ({len(sub3Data)}) {sub3Data}")
+#                                 assert sub3Key and sub3Data
+#                                 assert isinstance(sub3Key, str) and sub3Key!='>'
+#                                 assert sub3Key.strip() == sub3Key and '  ' not in sub3Key # Don't want leading or trailing whitespace
+#                                 if isinstance(sub3Data, str):
+#                                     assert sub3Data and sub3Data!='>'
+#                                     assert sub3Data.strip() == sub3Data and '  ' not in sub3Data # Don't want leading or trailing whitespace
+#                                 else:
+#                                     raise Exception("Not done yet")
 
-    return True
-# end of loadTheographicBibleData.clean_data()
+#     return True
+# # end of loadTheographicBibleData.clean_data()
 
 
 people_map, peopleGroups_map, places_map = {}, {}, {}
@@ -725,11 +714,12 @@ def check_data() -> bool:
 
     Create stats for numbered and non-numbered people, places, etc.
     """
-    vPrint('Quiet', debuggingThisModule, "\nCross-checking TheographicBibleData datasets…")
+    # vPrint('Quiet', debuggingThisModule, "\nCross-checking TheographicBibleData datasets…")
 
-    for name,the_dict in DB_LIST:
-        vPrint('Normal', debuggingThisModule, f"  Cross-checking {name}…")
-    return True
+    # for name,the_dict in DB_LIST:
+    #     vPrint('Normal', debuggingThisModule, f"  Cross-checking {name}…")
+    # return True
+    return False
 # end of loadTheographicBibleData.check_data()
 
 

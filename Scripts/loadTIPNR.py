@@ -53,10 +53,10 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-08-07' # by RJH
+LAST_MODIFIED_DATE = '2022-08-09' # by RJH
 SHORT_PROGRAM_NAME = "loadTIPNR"
 PROGRAM_NAME = "Load Translators Individualised Proper Names file"
-PROGRAM_VERSION = '0.54'
+PROGRAM_VERSION = '0.55'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
@@ -85,6 +85,8 @@ TIPNR_OUTPUT_FOLDERPATH = TIPNR_INPUT_FOLDERPATH.joinpath( 'derivedFiles/' )
 TIPNR_XML_OUTPUT_FILENAME = 'TIPNR.xml'
 TIPNR_XML_OUTPUT_FILEPATH = TIPNR_OUTPUT_FOLDERPATH.joinpath(TIPNR_XML_OUTPUT_FILENAME)
 
+# NOTE: USFM books codes at https://ubsicap.github.io/usfm/master/identification/books.html
+#           are all UPPERCASE but TIPNR uses a Title-case form
 Uuu_BOOK_ID_MAP = {
             1: 'Gen', 2: 'Exo', 3: 'Lev', 4: 'Num', 5: 'Deu',
             6: 'Jos', 7: 'Jdg', 8: 'Rut', 9: '1Sa', 10: '2Sa',
