@@ -15,7 +15,10 @@ to be used in this way:
 
 - TIPNR spreadsheet from Tyndale House, Cambrdige
 - exported tables from Theographic Bible Data from Viz.Bible
-- various TSV and XML data files from SIL Glyssen
+(and also being worked on by DigitalManna
+although their work is not (yet) publicly available --
+but effectively makes this dataset obsolete :-( )
+- various TSV, XML and MS-Excel (XLSX) data files from SIL Glyssen
 
 See the subfolders for more details of each.
 

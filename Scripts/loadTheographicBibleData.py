@@ -55,10 +55,10 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-08-09' # by RJH
+LAST_MODIFIED_DATE = '2022-08-10' # by RJH
 SHORT_PROGRAM_NAME = "loadTheographicBibleData"
 PROGRAM_NAME = "Load Viz.Bible Theographic Bible Data exported CSV tables"
-PROGRAM_VERSION = '0.21'
+PROGRAM_VERSION = '0.22'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
@@ -159,6 +159,7 @@ ALL_DB_LIST = ( ('books',books), ('chapters',chapters), ('verses',verses),
             ('periods',periods), ('events',events), ('Easton',easton),
             ('all',allEntries) )
 
+
 def load_all_TheographicBibleData_data() -> bool:
     """
     This is quite quick.
@@ -215,12 +216,18 @@ def load_individual_TheographicBibleData_CSV_file(which:str) -> Tuple[List[str],
     # Read, check the number of columns, and summarise row contents all in one go
     dict_reader = DictReader(csv_lines)
     csv_rows = []
+    genders = defaultdict(int)
+    occupations = defaultdict(int)
     # csv_column_counts = defaultdict(lambda: defaultdict(int))
     for n, row in enumerate(dict_reader):
         if len(row) != len(original_column_headers):
             logging.critical(f"Line {n} has {len(row)} column(s) instead of {len(original_column_headers)}")
+        if 'gender' in row: genders[row['gender']] += 1
+        if 'occupations' in row: occupations[row['occupations']] += 1
         csv_rows.append(row)
     vPrint('Quiet', debuggingThisModule, f"  Loaded {len(csv_rows):,} '{which}' data rows.")
+    if genders: vPrint('Normal', debuggingThisModule, f"    Genders: {str(genders).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if occupations: vPrint('Normal', debuggingThisModule, f"    Occupations: {str(occupations).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
 
     return original_column_headers, csv_rows
 # end of loadTheographicBibleData.load_individual_TheographicBibleData_CSV_file()
@@ -512,6 +519,7 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     This is done by comparing the number of verse references.
 
     Note: This only changes the internal records, not the actual dictionary keys.
+            That gets handled later.
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
     if dataName in ('books','chapters','verses'): # nothing to do here
@@ -591,6 +599,7 @@ Here is a list of the use of the semantic (and other) tagging characters:
     This then also makes it easier to recombine the tables.
 
     Note: This only changes the internal records, not the actual dictionary keys.
+            That gets handled later.
     """
     vPrint('Normal', debuggingThisModule, f"    Prefixing our ID fields for {dataName}…")
     try: default_prefix = PREFIX_MAP[dataName]

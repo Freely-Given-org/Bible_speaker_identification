@@ -26,31 +26,52 @@ We have three open-licensed data sets from other sources:
 
 1. The TIPNR (Translators Individualised Proper Names with all References) STEPBible
 data from Tyndale House, Cambridge. (Single spreadsheet.)
-This more academic dataset is based on names in the original languages,
+This more academic dataset is based on **names** in the original languages,
 so an OT character mentioned in the NT
 will likely have two (Hebrew and Greek) names as sub-entries.
 2. The Theographic Bible Data from Viz.Bible. (Nine CSV tables exported from AirTables.)
 This dataset has no references to original languages.
 It seems to be designed for creating popular-level graphics.
+We found this to be the cleanest, most structured dataset
+and the most interesting in terms of links between
+people, places, events, and time periods, etc. and,
+of course like all of the datasets, Bible references.
+Unfortunately, because this dataset is currently being improved privately
+by DigitalManna, it is effectively already obsoleted!
 3. The data sets extracted from the SIL Glyssen app --
-a mixture of XML, TSV, and XLSX (MS-Excel) files.
-This is designed for assigning parts to voice actors
+a mixture of TSV, XML, and XLSX (MS-Excel) files.
+These are designed for assigning parts to voice actors
 for the creation of audio Bibles,
 so this dataset also includes unnamed characters,
-e.g., "Absalom's secret messengers".
+e.g., "Absalom's secret messengers" as well as narrators.
+Every word in an audio Bible has to have a speaker assigned to it.
 Some characters also need to distinguish multiple voices
 of differing ages, e.g., young shepherd boy David vs.
 elderly King David near death.
 There's no interest in computer-readable relationships between characters,
 nor in places, events, etc. even though it's sometimes listed in their
-Character IDs for human consumption.
+Character IDs for human consumption for background understanding.
+Multiple files have to be combined to determine complete Bible references
+for any particular character who speaks in more than two verses.
+(It should be noted that what is translated as direct speech in one translation
+maybe indirect speech in another,
+so the audio Bible dataset will always be translation dependent.)
 
 ## Our experiment
 
 Partly just to gain familiarity with the datasets
 and to get a feel for the pros and cons of each different way of doing things,
 we have written scripts to load these datasets,
-add our own little modifications, and output them as JSON.
+added our own little modifications, and output them as JSON.
 
 Once that's completed, the next step would be to try to combine them
 into a master set, and see how much we gain and how much we lose.
+
+However, because of the ongoing (private) work of DigitalManna updating
+the Theographic Bible Data, it seems to be not worthwhile to continue
+working on the datasets at this time.
+(Apparently they do plan to open-source at least some of their work in the future,
+but that leaves us in the mire for now.)
+So we will limit our current work to speculating on what fields a "universal"
+(or at least "wider") dataset might contain --
+this is in the *DB_ideas* folder.

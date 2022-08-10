@@ -53,7 +53,7 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-08-09' # by RJH
+LAST_MODIFIED_DATE = '2022-08-10' # by RJH
 SHORT_PROGRAM_NAME = "loadTIPNR"
 PROGRAM_NAME = "Load Translators Individualised Proper Names file"
 PROGRAM_VERSION = '0.55'
@@ -1247,6 +1247,7 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     This is done by comparing the number of verse references.
 
     Note: This only changes the internal records, not the actual dictionary keys.
+            That gets handled later.
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
     for dict_entry in dataDict.values():
@@ -1321,6 +1322,7 @@ Here is a list of the use of the semantic (and other) tagging characters:
     This then also makes it easier to recombine the three tables.
 
     Note: This only changes the internal records, not the actual dictionary keys.
+            That gets handled later.
     """
     vPrint('Normal', debuggingThisModule, f"    Prefixing our ID fields for {dataName}…")
     # The following line is just general -- we really need to individually handle the 'other' entries

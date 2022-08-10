@@ -55,10 +55,10 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-08-09' # by RJH
+LAST_MODIFIED_DATE = '2022-08-10' # by RJH
 SHORT_PROGRAM_NAME = "loadGlyssenData"
 PROGRAM_NAME = "Load SIL Glyssen data files"
-PROGRAM_VERSION = '0.01'
+PROGRAM_VERSION = '0.03'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
@@ -84,19 +84,18 @@ GlyssenData_OUTPUT_FOLDERPATH = GlyssenData_INPUT_FOLDERPATH.joinpath( 'derivedF
 GlyssenData_XML_OUTPUT_FILENAME = 'GlyssenData.xml'
 GlyssenData_XML_OUTPUT_FILEPATH = GlyssenData_OUTPUT_FOLDERPATH.joinpath(GlyssenData_XML_OUTPUT_FILENAME)
 
-# NOTE: USFM books codes at https://ubsicap.github.io/usfm/master/identification/books.html
-#           are all UPPERCASE but this table uses a Title-case form
-Uuu_BOOK_ID_MAP = {
-            1: 'Gen', 2: 'Exo', 3: 'Lev', 4: 'Num', 5: 'Deu',
-            6: 'Jos', 7: 'Jdg', 8: 'Rut', 9: '1Sa', 10: '2Sa',
-            11: '1Ki', 12: '2Ki', 13: '1Ch', 14: '2Ch', 15: 'Ezr', 16: 'Neh', 17: 'Est', 18: 'Job',
-            19: 'Psa', 20: 'Pro', 21: 'Ecc', 22: 'Sng', 23: 'Isa', 24: 'Jer', 25: 'Lam',
-            26: 'Ezk', 27: 'Dan', 28: 'Hos', 29: 'Jol', 30: 'Amo', 31: 'Oba',
-            32: 'Jon', 33: 'Mic', 34: 'Nam', 35: 'Hab', 36: 'Zep', 37: 'Hag', 38: 'Zec', 39: 'Mal',
-            40: 'Mat', 41: 'Mrk', 42: 'Luk', 43: 'Jhn', 44: 'Act',
-            45: 'Rom', 46: '1Co', 47: '2Co', 48: 'Gal', 49: 'Eph', 50: 'Php', 51: 'Col', 52: '1Th', 53: '2Th', 54: '1Ti', 55: '2Ti', 56: 'Tit', 57: 'Phm',
-            58: 'Heb', 59: 'Jas', 60: '1Pe', 61: '2Pe', 62: '1Jn', 63: '2Jn', 64: '3Jn', 65: 'Jud', 66: 'Rev'}
-assert len(Uuu_BOOK_ID_MAP) == 66
+UUU_BOOK_ID_MAP = {
+             1: 'GEN',  2: 'EXO',  3: 'LEV',  4: 'NUM',  5: 'DEU',
+             6: 'JOS',  7: 'JDG',  8: 'RUT',  9: '1SA', 10: '2SA',
+            11: '1KI', 12: '2KI', 13: '1CH', 14: '2CH', 15: 'EZR', 16: 'NEH', 17: 'EST', 18: 'JOB',
+            19: 'PSA', 20: 'PRO', 21: 'ECC', 22: 'SNG', 23: 'ISA', 24: 'JER', 25: 'LAM',
+            26: 'EZK', 27: 'DAN', 28: 'HOS', 29: 'JOL', 30: 'AMO', 31: 'OBA',
+            32: 'JON', 33: 'MIC', 34: 'NAM', 35: 'HAB', 36: 'ZEP', 37: 'HAG', 38: 'ZEC', 39: 'MAL',
+            40: 'MAT', 41: 'MRK', 42: 'LUK', 43: 'JHN', 44: 'ACT',
+            45: 'ROM', 46: '1CO', 47: '2CO', 48: 'GAL', 49: 'EPH', 50: 'PHP', 51: 'COL',
+            52: '1TH', 53: '2TH', 54: '1TI', 55: '2TI', 56: 'TIT', 57: 'PHM',
+            58: 'HEB', 59: 'JAS', 60: '1PE', 61: '2PE', 62: '1JN', 63: '2JN', 64: '3JN', 65: 'JUD', 66: 'REV'}
+assert len(UUU_BOOK_ID_MAP) == 66
 OSIS_BOOK_ID_MAP = {
             1: 'Gen', 2: 'Exod', 3: 'Lev', 4: 'Num', 5: 'Deut',
             6: 'Josh', 7: 'Judg', 8: 'Ruth', 9: '1Sam', 10: '2Sam',
@@ -117,13 +116,12 @@ BOS_BOOK_ID_MAP = {
             26: 'EZK', 27: 'DAN', 28: 'HOS', 29: 'JOL', 30: 'AMO', 31: 'OBA',
             32: 'JNA', 33: 'MIC', 34: 'NAH', 35: 'HAB', 36: 'ZEP', 37: 'HAG', 38: 'ZEC', 39: 'MAL',
             40: 'MAT', 41: 'MRK', 42: 'LUK', 43: 'JHN', 44: 'ACT',
-            45: 'ROM', 46: 'CO1', 47: 'CO2', 48: 'GAL', 49: 'EPH', 50: 'PHP', 51: 'COL', 52: 'TH1', 53: 'TH2', 54: '1TI', 55: '2TI', 56: 'TIT', 57: 'PHM',
+            45: 'ROM', 46: 'CO1', 47: 'CO2', 48: 'GAL', 49: 'EPH', 50: 'PHP', 51: 'COL',
+            52: 'TH1', 53: 'TH2', 54: '1TI', 55: '2TI', 56: 'TIT', 57: 'PHM',
             58: 'HEB', 59: 'JAS', 60: 'PE1', 61: 'PE2', 62: 'JN1', 63: 'JN2', 64: 'JN3', 65: 'JDE', 66: 'REV'}
 assert len(BOS_BOOK_ID_MAP) == 66
 
-COLUMN_NAME_REPLACEMENT_MAP = {'personLookup':'TBDPersonLookup', 'personID':'TBDPersonNumber',
-                               'placeLookup':'TBDPlaceLookup', 'placeID':'TBDPlaceNumber',
-                               'ID':'TBDEventNumber'}
+COLUMN_NAME_REPLACEMENT_MAP = {}
 
 
 
@@ -149,11 +147,11 @@ def main() -> None:
 
 
 prefixed_our_IDs = False
-characters = {}
+characters, verses = {}, {}
 allEntries = {}
 # NOTE: The following lists will be wrong if any of the above dict names are rebound to new/different objects
-DB_LIST = ( ('characters',characters), )
-ALL_DB_LIST = ( ('characters',characters),
+DB_LIST = ( ('characters',characters), ('verses',verses), )
+ALL_DB_LIST = ( ('characters',characters), ('verses',verses),
             ('all',allEntries) )
 
 def load_all_Glyssen_data() -> bool:
@@ -184,7 +182,7 @@ def load_individual_GlyssenData_TSV_file(which:str) -> Tuple[List[str],List[Dict
     """
     fnPrint(debuggingThisModule, "load_individual_GlyssenData_TSV_file()")
 
-    tsv_filename = 'CharacterDetail.tsv' if which=='characters' else None
+    tsv_filename = 'CharacterDetail.tsv' if which=='characters' else 'CharacterVerse.tsv' if which=='verses' else None
     try_filepath = GlyssenData_INPUT_FOLDERPATH.joinpath(tsv_filename)
     tries = 1
     while not os.access(try_filepath, os.R_OK):
@@ -204,8 +202,13 @@ def load_individual_GlyssenData_TSV_file(which:str) -> Tuple[List[str],List[Dict
     if tsv_lines[0].startswith("\ufeff"):
         vPrint('Quiet', debuggingThisModule, f"  Removing Byte Order Marker (BOM) from start of {which} TSV file…")
         tsv_lines[0] = tsv_lines[0][1:]
-    # Remove # from start of first line
-    if tsv_lines[0].startswith("#"):
+    # Remove first (version number) line from CharacterVerse.tsv
+    if tsv_filename == 'CharacterVerse.tsv':
+        tsv_lines = tsv_lines[1:]
+    # Remove # from start of first line with column headers
+    if tsv_lines[0].startswith("#\t"):
+        tsv_lines[0] = tsv_lines[0].replace('#', 'B', 1)
+    elif tsv_lines[0].startswith("#"):
         tsv_lines[0] = tsv_lines[0][1:]
 
     # Get the headers before we start
@@ -251,12 +254,13 @@ def add_FGids() -> bool:
         for j1,entry_dict in enumerate(data_row_list):
             # dPrint('Info', debuggingThisModule, f"{dict_name} {j1} {len(entry_dict)}")
             new_entry_dict = {}
+            FGid = None
             for j2, (entry_key,entry_value) in enumerate(entry_dict.items()):
-                # dPrint('Info', debuggingThisModule, f"{dict_name} {j1} {len(entry_dict)} {j2} {entry_key} {entry_value}")
+                # dPrint('Normal', debuggingThisModule, f"{dict_name} {j1} ({len(entry_dict)}) {j2} {entry_key}={entry_value}")
                 if entry_key in COLUMN_NAME_REPLACEMENT_MAP: # Rename the original keys as we go
                     entry_key = COLUMN_NAME_REPLACEMENT_MAP[entry_key]
                 if j2 == 0: # Create an initial FGid
-                    FGid = entry_value # Default to the first field/column in the original table
+                    # FGid = entry_value # Default to the first field/column in the original table
                     if dict_name == 'characters':
                         assert entry_key == 'Character ID'
                         # Find the first word
@@ -273,14 +277,24 @@ def add_FGids() -> bool:
                             FGid = entry_value.replace(' ','_')
                         else:
                             FGid = firstWord
-                        assert FGid
-                        name_list.append(FGid)
-                        if name_list.count(FGid) > 1:
-                            thisCount = name_list.count(FGid)
-                            if thisCount > max_suffix:
-                                max_suffix = thisCount
-                                max_name = FGid
-                            FGid = f'{FGid}{thisCount}'
+                    elif dict_name == 'verses':
+                        assert entry_key == 'B'
+                        if entry_value.startswith('#'):
+                            # print(f"{entry_dict['B']} {entry_dict['C']=}:{entry_dict['V']=}")
+                            if entry_value!='# PRO' and entry_value!='#NAM':
+                                assert not entry_dict['C'] and not entry_dict['V']
+                            FGid = 'Comment'
+                        else:
+                            ix = list(UUU_BOOK_ID_MAP.values()).index(entry_dict['B']) + 1
+                            FGid = f"{BOS_BOOK_ID_MAP[ix]}_{entry_dict['C']}:{entry_dict['V']}~" # Final character to separate suffixes
+                    assert FGid
+                    name_list.append(FGid)
+                    if name_list.count(FGid) > 1:
+                        thisCount = name_list.count(FGid)
+                        if thisCount > max_suffix:
+                            max_suffix = thisCount
+                            max_name = FGid
+                        FGid = f'{FGid}{thisCount}'
                     assert ' ' not in FGid # We want single tokens
                     assert FGid not in new_entry_dict # Don't want to be losing data
                     new_entry_dict['FGid'] = FGid
@@ -321,7 +335,7 @@ def clean_data() -> bool:
                 if mainKey == '__COLUMN_HEADERS__': assert isinstance(entry, str)
                 else:
                     assert isinstance(entry, dict)
-                    assert len(entry) == 8
+                    assert len(entry) == (8 if dict_name=='characters' else 9)
                     for subKey, subData in entry.items():
                         # dPrint('Quiet', debuggingThisModule, f"    {mainKey=} {subKey=} ({len(subData) if subData is not None else 'None'}) {subData=}")
                         assert subKey and isinstance(subKey, str)
@@ -356,13 +370,11 @@ def normalise_data() -> bool:
     vPrint('Quiet', debuggingThisModule, "\nNormalising Glyssen datasets…")
 
     for name,the_dict in DB_LIST:
-        # if name not in ('books', 'chapters', 'verses', 'periods', 'Easton', ):
         vPrint('Normal', debuggingThisModule, f"  Normalising {name}…")
         # create_combined_name_verse_references(name, the_dict) # Not needed for this dataset
         convert_field_types(name, the_dict)
         adjust_Bible_references(name, the_dict)
-        if name != 'Easton': # I think
-            ensure_best_known_name(name, the_dict)
+        ensure_best_known_name(name, the_dict)
         if PREFIX_OUR_IDS_FLAG: prefix_our_IDs(name, the_dict)
 
         # people_map = { v['TBDPersonLookup']:k for k,v in people.items() if k != '__COLUMN_HEADERS__' }
@@ -502,10 +514,14 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     This is done by comparing the number of verse references.
 
     Note: This only changes the internal records, not the actual dictionary keys.
+            That gets handled later.
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
 
-    def get_reference_count(referenceEntry):
+    def get_reference_count(referenceEntry:str) -> int:
+        """
+        Returns the number of Bible references for a given character entry
+        """
         if '&' in referenceEntry: return referenceEntry.count('&') + 1
         elif 'more)' in referenceEntry: # e.g., "EST 2:2 <-(3 more)-> EST 6:5"
             match = re.search("\((\d{1,4}) more\)", referenceEntry)
@@ -523,12 +539,16 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
             base_id = old_id[:-1]
             # dPrint('Normal', debuggingThisModule, f"      {old_id=} {base_id=} {key}={value}")
 
-            references_count = get_reference_count( dataDict[base_id]['Reference'] )
+            references_count = get_reference_count(dataDict[base_id]['Reference']) if dataName=='characters' else 0
             references_counts = { base_id: references_count }
             max_count, num_maxes, second_highest = references_count, 1, 0
             for suffix in range(2,30):
                 suffixed_entry = f'{base_id}{suffix}'
-                try: references_count = get_reference_count( dataDict[suffixed_entry]['Reference'] )
+                try:
+                    if dataName=='characters': references_count = get_reference_count( dataDict[suffixed_entry]['Reference'] )
+                    else:
+                        _just_test_for_an_entry = dataDict[suffixed_entry]['B']
+                        references_count = 0
                 except KeyError: break # Gone too far
                 references_counts[suffixed_entry] = references_count
                 if references_count == max_count:
@@ -564,6 +584,12 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                 dataDict[base_id]['FGid'] = new_base_id
                 # We only save the prefixed ID internally -- will fix the keys later
 
+    if dataName == 'verses': # do a final pass to remove trailing ~ off single verse references
+        for key,value in dataDict.items():
+            if key == '__COLUMN_HEADERS__':
+                continue
+            if value['FGid'][-1] == '~': value['FGid'] = value['FGid'][:-1] # Delete trailing ~
+
     return True
 # end of loadGlyssenData.ensure_best_known_name()
 
@@ -586,18 +612,20 @@ Here is a list of the use of the semantic (and other) tagging characters:
     This then also makes it easier to recombine the tables.
 
     Note: This only changes the internal records, not the actual dictionary keys.
+            That gets handled later.
     """
     vPrint('Normal', debuggingThisModule, f"    Prefixing our ID fields for {dataName}…")
     for key,value in dataDict.items():
         if key == '__COLUMN_HEADERS__':
             continue
-        old_id = value['FGid']
-        count = value['Max Speakers']
-        # NOTE: The following is really only a guess because this dataset
-        #           uses -1 for "unknown" which could be 6 or 600,000!
-        new_id = f"{'P' if count==1 else 'T' if count==-1 else 'G'}{old_id}" # P=person, G=group, T=tribe/kingdom/nation
-        # dPrint('Info', debuggingThisModule, f"      {old_id=} {new_id=}")
-        value['FGid'] = new_id
+        if dataName == 'characters':
+            old_id = value['FGid']
+            count = value['Max Speakers']
+            # NOTE: The following is really only a guess because this dataset
+            #           uses -1 for "unknown" which could be 6 or 600,000!
+            new_id = f"{'P' if count==1 else 'T' if count==-1 else 'G'}{old_id}" # P=person, G=group, T=tribe/kingdom/nation
+            # dPrint('Info', debuggingThisModule, f"      {old_id=} {new_id=}")
+            value['FGid'] = new_id
         # assert dataDict[key]['FGid'] == new_id
         # We only save the prefixed ID internally -- will fix the keys later
 
@@ -621,36 +649,36 @@ def adjust_links_from_Glyssen_to_our_IDs(dataName:str, dataDict:dict) -> bool:
     for key,data in dataDict.items():
         if key == '__COLUMN_HEADERS__':
             continue
-        dPrint('Verbose', debuggingThisModule, f"{key}={str(data)[:100]}")
-        for fieldName in ('father','mother'): # single entries
-            if fieldName in data:
-                dPrint('Verbose', debuggingThisModule, f"{fieldName}={data[fieldName]}")
-                field_string = data[fieldName]
-                assert isinstance(field_string, str)
-                # assert len(field_string) >= 10 # ww.GEN.1.1
-                # assert field_string.count('@') == 1
-                # pre = post = ''
-                # if field_string.endswith('(?)') or field_string.endswith('(d)'):
-                #     field_string, post = field_string[:-3], field_string[-3:]
-                # elif field_string.endswith('(d?)'):
-                #     field_string, post = field_string[:-4], field_string[-4:]
-                # data[fieldName] = f'{pre}{unique_name_index[field_string]}{post}'
-                if field_string:
-                    data[fieldName] = people_map[field_string]
-                # data[fieldName] = field_string.replace( '_', '', 1 )
-        for fieldName in ('siblings','halfSiblingsSameFather','halfSiblingsSameMother', 'partners', 'children', 'people', 'places', 'peopleGroups', 'peopleBorn', 'peopleDied'): # list entries
-            if fieldName in data:
-                map = places_map if fieldName=='places' else peopleGroups_map if fieldName=='peopleGroups' else people_map
-                assert isinstance(data[fieldName], list)
-                for j,field_string in enumerate(data[fieldName]):
-                    # assert len(field_string) >= 10 # ww.GEN.1.1
-                    # assert field_string.count('@') == 1
-                    # pre = post = ''
-                    # if field_string.endswith('(?)'):
-                    #     field_string, post = field_string[:-3], field_string[-3:]
-                    # data[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
-                    data[fieldName] = map[field_string]
-                    # data[fieldName][j] = field_string.replace( '_', '', 1 )
+        # dPrint('Verbose', debuggingThisModule, f"{key}={str(data)[:100]}")
+        # for fieldName in ('father','mother'): # single entries
+        #     if fieldName in data:
+        #         dPrint('Verbose', debuggingThisModule, f"{fieldName}={data[fieldName]}")
+        #         field_string = data[fieldName]
+        #         assert isinstance(field_string, str)
+        #         # assert len(field_string) >= 10 # ww.GEN.1.1
+        #         # assert field_string.count('@') == 1
+        #         # pre = post = ''
+        #         # if field_string.endswith('(?)') or field_string.endswith('(d)'):
+        #         #     field_string, post = field_string[:-3], field_string[-3:]
+        #         # elif field_string.endswith('(d?)'):
+        #         #     field_string, post = field_string[:-4], field_string[-4:]
+        #         # data[fieldName] = f'{pre}{unique_name_index[field_string]}{post}'
+        #         if field_string:
+        #             data[fieldName] = people_map[field_string]
+        #         # data[fieldName] = field_string.replace( '_', '', 1 )
+        # for fieldName in ('siblings','halfSiblingsSameFather','halfSiblingsSameMother', 'partners', 'children', 'people', 'places', 'peopleGroups', 'peopleBorn', 'peopleDied'): # list entries
+        #     if fieldName in data:
+        #         map = places_map if fieldName=='places' else peopleGroups_map if fieldName=='peopleGroups' else people_map
+        #         assert isinstance(data[fieldName], list)
+        #         for j,field_string in enumerate(data[fieldName]):
+        #             # assert len(field_string) >= 10 # ww.GEN.1.1
+        #             # assert field_string.count('@') == 1
+        #             # pre = post = ''
+        #             # if field_string.endswith('(?)'):
+        #             #     field_string, post = field_string[:-3], field_string[-3:]
+        #             # data[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
+        #             data[fieldName] = map[field_string]
+        #             # data[fieldName][j] = field_string.replace( '_', '', 1 )
 
     return True
 # end of loadGlyssenData.adjust_links_from_Glyssen_to_our_IDs()
@@ -715,8 +743,7 @@ def check_data() -> bool:
 
     # for name,the_dict in DB_LIST:
     #     vPrint('Normal', debuggingThisModule, f"  Cross-checking {name}…")
-    # return True
-    return False
+    return True
 # end of loadGlyssenData.check_data()
 
 
