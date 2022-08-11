@@ -55,10 +55,10 @@ import BibleOrgSysGlobals
 from BibleOrgSysGlobals import fnPrint, vPrint, dPrint
 
 
-LAST_MODIFIED_DATE = '2022-08-10' # by RJH
+LAST_MODIFIED_DATE = '2022-08-11' # by RJH
 SHORT_PROGRAM_NAME = "loadTheographicBibleData"
 PROGRAM_NAME = "Load Viz.Bible Theographic Bible Data exported CSV tables"
-PROGRAM_VERSION = '0.22'
+PROGRAM_VERSION = '0.23'
 programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
 debuggingThisModule = False
@@ -218,16 +218,39 @@ def load_individual_TheographicBibleData_CSV_file(which:str) -> Tuple[List[str],
     csv_rows = []
     genders = defaultdict(int)
     occupations = defaultdict(int)
+    featureTypes, featureSubtypes = defaultdict(int), defaultdict(int)
+    precisions = defaultdict(int)
+    comments = defaultdict(int)
+    rangeFlags = defaultdict(int)
+    lagTypes = defaultdict(int)
+    eras = defaultdict(int)
+    bc_ad = defaultdict(int)
     # csv_column_counts = defaultdict(lambda: defaultdict(int))
     for n, row in enumerate(dict_reader):
         if len(row) != len(original_column_headers):
             logging.critical(f"Line {n} has {len(row)} column(s) instead of {len(original_column_headers)}")
         if 'gender' in row: genders[row['gender']] += 1
         if 'occupations' in row: occupations[row['occupations']] += 1
+        if 'featureType' in row: featureTypes[row['featureType']] += 1
+        if 'featureSubType' in row: featureSubtypes[row['featureSubType']] += 1
+        if 'precision' in row: precisions[row['precision']] += 1
+        if 'comment' in row: comments[row['comment']] += 1
+        if 'rangeFlag' in row: rangeFlags[row['rangeFlag']] += 1
+        if 'Lag Type' in row: lagTypes[row['Lag Type']] += 1
+        if 'era' in row: eras[row['era']] += 1
+        if 'BC-AD' in row: bc_ad[row['BC-AD']] += 1
         csv_rows.append(row)
     vPrint('Quiet', debuggingThisModule, f"  Loaded {len(csv_rows):,} '{which}' data rows.")
     if genders: vPrint('Normal', debuggingThisModule, f"    Genders: {str(genders).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
     if occupations: vPrint('Normal', debuggingThisModule, f"    Occupations: {str(occupations).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if featureTypes: vPrint('Normal', debuggingThisModule, f"    FeatureTypes: {str(featureTypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if featureSubtypes: vPrint('Normal', debuggingThisModule, f"    FeatureSubtypes: {str(featureSubtypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if precisions: vPrint('Normal', debuggingThisModule, f"    Precisions: {str(precisions).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if comments: vPrint('Normal', debuggingThisModule, f"    Comments: {str(comments).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if rangeFlags: vPrint('Normal', debuggingThisModule, f"    RangeFlags: {str(rangeFlags).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if lagTypes: vPrint('Normal', debuggingThisModule, f"    LagTypes: {str(lagTypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if eras: vPrint('Normal', debuggingThisModule, f"    Eras: {str(eras).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if bc_ad: vPrint('Normal', debuggingThisModule, f"    BC/AD: {str(bc_ad).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
 
     return original_column_headers, csv_rows
 # end of loadTheographicBibleData.load_individual_TheographicBibleData_CSV_file()
@@ -351,7 +374,7 @@ def add_FGids() -> bool:
 # # end of loadTheographicBibleData.clean_data()
 
 
-people_map, peopleGroups_map, places_map = {}, {}, {}
+people_map, peopleGroups_map, places_map, events_map = {}, {}, {}, {}
 def normalise_data() -> bool:
     """
     If a name only occurs once, we use the name as the key, e.g., persons 'Abdiel' or 'David'.
@@ -369,7 +392,7 @@ def normalise_data() -> bool:
 
     Optionally: Change references (like parents, siblings, partners, etc. to our ID fields
     """
-    global prefixed_our_IDs, people_map, peopleGroups_map, places_map
+    global prefixed_our_IDs, people_map, peopleGroups_map, places_map, events_map
     vPrint('Quiet', debuggingThisModule, "\nNormalising TheographicBibleData datasets…")
 
     for name,the_dict in DB_LIST:
@@ -385,6 +408,7 @@ def normalise_data() -> bool:
         people_map = { v['TBDPersonLookup']:k for k,v in people.items() if k != '__COLUMN_HEADERS__' }
         peopleGroups_map = { v['groupName']:k for k,v in peopleGroups.items() if k != '__COLUMN_HEADERS__' }
         places_map = { v['TBDPlaceLookup']:k for k,v in places.items() if k != '__COLUMN_HEADERS__' }
+        events_map = { v['title']:k for k,v in events.items() if k != '__COLUMN_HEADERS__' }
         adjust_links_from_Theographic_to_our_IDs(name, the_dict)
 
     if PREFIX_OUR_IDS_FLAG:
@@ -428,10 +452,44 @@ def convert_field_types(dataName:str, dataDict:dict) -> bool:
         # dPrint( 'Normal', debuggingThisModule, f"  {dataName} {key}={value}")
         if key == '__COLUMN_HEADERS__':
             continue
-        for comma_split_name in ('partners','children','siblings','halfSiblingsSameMother','halfSiblingsSameFather','people','places','peopleGroups', 'peopleBorn','peopleDied'):
+        for comma_split_name in ('partners','children','siblings','halfSiblingsSameMother','halfSiblingsSameFather','people','places','peopleGroups', 'peopleBorn','peopleDied',
+                                    'events', 'eventsDescribed', 'booksWritten',
+                                    'people (from verses)', 'participants', 'places (from verses)', 'locations', 'groups', 'chaptersWritten', 'chapters', 'writer','writers'):
             if comma_split_name in value:
-                value[comma_split_name] = value[comma_split_name].split(',') if value[comma_split_name] else []
-        for str_to_int_name in ('TBDPersonNumber', 'TBDPlaceNumber', 'index', 'verseCount' , 'peopleCount', 'placesCount'):
+                if not value[comma_split_name]: value[comma_split_name] = []
+                elif '"' not in value[comma_split_name]: # it's easy
+                    value[comma_split_name] = value[comma_split_name].split(',')
+                else: # we likely have an escaped comma, so have to go through char by char
+                    field = value[comma_split_name]
+                    results = []
+                    inQuote = False
+                    nextIx = 0
+                    for _ in range(999):
+                        if inQuote: ixComma = 99999
+                        else:
+                            ixComma = value[comma_split_name].find(',', nextIx)
+                            if ixComma == -1: ixComma = 99999
+                        ixQuote = value[comma_split_name].find('"', nextIx)
+                        if ixQuote == -1: ixQuote = 99999
+                        ixMin = min( ixComma, ixQuote )
+                        if ixMin == 99999:
+                            results.append( field[nextIx:] )
+                            break
+                        elif ixMin == ixComma:
+                            results.append( field[nextIx:ixComma] )
+                            nextIx = ixComma + 1
+                        else:
+                            assert ixMin == ixQuote
+                            if inQuote:
+                                results.append( field[nextIx:ixQuote] )
+                                nextIx = ixQuote + 2
+                                inQuote = False
+                            else:
+                                inQuote = True
+                                nextIx += 1
+                        if nextIx >= len(field)-1: break
+                    value[comma_split_name] = results
+        for str_to_int_name in ('TBDPersonNumber','TBDPlaceNumber','TBDEventNumber', 'index', 'verseCount' , 'peopleCount', 'placesCount', 'writer count'):
             if str_to_int_name in value:
                 value[str_to_int_name] = int(value[str_to_int_name])
         if 'peopleCount' in value and 'people' in value:
@@ -443,6 +501,11 @@ def convert_field_types(dataName:str, dataDict:dict) -> bool:
             assert len(value['places']) == value['placesCount']
             del value['placesCount']
             try: dataDict['__COLUMN_HEADERS__'].remove('placesCount')
+            except ValueError: pass #already been done
+        if 'writer count' in value and 'writer' in value:
+            assert len(value['writer']) == value['writer count']
+            del value['writer count']
+            try: dataDict['__COLUMN_HEADERS__'].remove('writer count')
             except ValueError: pass #already been done
         if 'verses' in value:
             value['verses'] = split_refs(value['verses']) if value['verses'] else []
@@ -623,12 +686,7 @@ def adjust_links_from_Theographic_to_our_IDs(dataName:str, dataDict:dict) -> boo
     Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
     """
     vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
-
-    # Firstly create a cross-index
-    dPrint('Verbose', debuggingThisModule, f"{dataName} {str(dataDict)[:1200]}")
-    # keyName = 'TBDPersonLookup' if dataName=='people' else 'groupName' if dataName=='peopleGroups' else 'TBDPlaceLookup' if dataName=='places' else None
-    # if keyName:
-    #     unique_name_index = { v[keyName]:k for k,v in dataDict.items() if k != '__COLUMN_HEADERS__' }
+    # dPrint('Verbose', debuggingThisModule, f"{dataName} {str(dataDict)[:1200]}")
 
     # Now make any necessary adjustments
     for key,data in dataDict.items():
@@ -637,43 +695,36 @@ def adjust_links_from_Theographic_to_our_IDs(dataName:str, dataDict:dict) -> boo
         dPrint('Verbose', debuggingThisModule, f"{key}={str(data)[:100]}")
         for fieldName in ('father','mother'): # single entries
             if fieldName in data:
-                dPrint('Verbose', debuggingThisModule, f"{fieldName}={data[fieldName]}")
+                # dPrint('Verbose', debuggingThisModule, f"{fieldName}={data[fieldName]}")
                 field_string = data[fieldName]
                 assert isinstance(field_string, str)
-                # assert len(field_string) >= 10 # ww.GEN.1.1
-                # assert field_string.count('@') == 1
-                # pre = post = ''
-                # if field_string.endswith('(?)') or field_string.endswith('(d)'):
-                #     field_string, post = field_string[:-3], field_string[-3:]
-                # elif field_string.endswith('(d?)'):
-                #     field_string, post = field_string[:-4], field_string[-4:]
-                # data[fieldName] = f'{pre}{unique_name_index[field_string]}{post}'
                 if field_string:
                     data[fieldName] = people_map[field_string]
-                # data[fieldName] = field_string.replace( '_', '', 1 )
-        for fieldName in ('siblings','halfSiblingsSameFather','halfSiblingsSameMother', 'partners', 'children', 'people', 'places', 'peopleGroups', 'peopleBorn', 'peopleDied'): # list entries
+        for fieldName in ('siblings','halfSiblingsSameFather','halfSiblingsSameMother', 'partners', 'children', 'people', 'places', 'peopleGroups', 'peopleBorn','peopleDied', 'events',
+                                'people (from verses)', 'participants', 'places (from verses)', 'locations', 'groups', 'writer','writers' ): # list entries
             if fieldName in data:
-                map = places_map if fieldName=='places' else peopleGroups_map if fieldName=='peopleGroups' else people_map
+                map = places_map if fieldName in ('places', 'places (from verses)', 'locations') \
+                        else peopleGroups_map if fieldName in ('peopleGroups', 'groups') \
+                        else events_map if fieldName in ('events','eventsDescribed') \
+                        else people_map
                 assert isinstance(data[fieldName], list)
                 for j,field_string in enumerate(data[fieldName]):
-                    # assert len(field_string) >= 10 # ww.GEN.1.1
-                    # assert field_string.count('@') == 1
-                    # pre = post = ''
-                    # if field_string.endswith('(?)'):
-                    #     field_string, post = field_string[:-3], field_string[-3:]
-                    # data[fieldName][j] = f'{pre}{unique_name_index[field_string]}{post}'
-                    data[fieldName] = map[field_string]
-                    # data[fieldName][j] = field_string.replace( '_', '', 1 )
+                    # if fieldName=='events': print(j, field_string, map)
+                    try: data[fieldName][j] = map[field_string]
+                    except KeyError:
+                        logging.critical( f"Unable to map {dataName} {key} {fieldName} '{field_string}' to appropriate entry")
+                        data[fieldName][j] = f'<<<ERROR_{field_string}_>>>'
 
     return True
 # end of loadTheographicBibleData.adjust_links_from_Theographic_to_our_IDs()
+
 
 def rebuild_dictionaries(key_name:str) -> bool:
     """
     The dictionaries likely have some internal IDs changed.
 
     Change the actual keys to match those internal IDs.
-
+F
     Also, add in our headers with conversion info.
 
     Note that after this, we would could theoretically delete the
@@ -697,7 +748,7 @@ def rebuild_dictionaries(key_name:str) -> bool:
             new_dict = { v[key_name]:v for _k,v in the_dict['dataDict'].items() }
         else:
             old_length = len(the_dict)
-            new_dict = { v[key_name]:v for k,v in the_dict.items() if k!='__COLUMN_HEADERS__'}
+            new_dict = { v[key_name]:v for k,v in the_dict.items() if k!='__COLUMN_HEADERS__' }
         the_dict.clear()            # We do it this way so that we update the existing (global) dict
         the_dict['__COLUMN_HEADERS__'] = column_headers_list
         the_dict.update(new_dict)   #  rather than creating an entirely new dict
@@ -719,7 +770,7 @@ def rebuild_dictionaries(key_name:str) -> bool:
 
 def check_data() -> bool:
     """
-    Check closed sets like signficance, translation keys, etc.
+    Check closed sets
 
     Create stats for numbered and non-numbered people, places, etc.
     """
@@ -727,8 +778,7 @@ def check_data() -> bool:
 
     # for name,the_dict in DB_LIST:
     #     vPrint('Normal', debuggingThisModule, f"  Cross-checking {name}…")
-    # return True
-    return False
+    return True
 # end of loadTheographicBibleData.check_data()
 
 

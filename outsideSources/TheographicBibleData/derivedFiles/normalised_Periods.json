@@ -1,9 +1,9 @@
 {
   "__HEADERS__": {
-    "conversion_software": "loadTheographicBibleData v0.20",
-    "conversion_software_last_modified_date": "2022-08-08",
+    "conversion_software": "loadTheographicBibleData v0.23",
+    "conversion_software_last_modified_date": "2022-08-11",
     "source_data_last_downloaded_date": "2022-07-24",
-    "conversion_date": "2022-08-08",
+    "conversion_date": "2022-08-11",
     "conversion_format_version": "0.1"
   },
   "__COLUMN_HEADERS__": [
@@ -26,10 +26,17 @@
     "era": "",
     "isoYear": "-4003",
     "BC-AD": "BC",
-    "peopleBorn": "Eve",
+    "peopleBorn": [
+      "Adam",
+      "Eve"
+    ],
     "peopleDied": [],
-    "events": "God creates all things,God creates man and woman,Man falls into sin",
-    "booksWritten": "",
+    "events": [
+      "<<<ERROR_God creates all things_>>>",
+      "<<<ERROR_God creates man and woman_>>>",
+      "<<<ERROR_Man falls into sin_>>>"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-15 01:02"
   },
   "-3941": {
@@ -41,8 +48,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3939": {
@@ -54,8 +61,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 01:08"
   },
   "-3938": {
@@ -65,10 +72,12 @@
     "era": "",
     "isoYear": "-3937",
     "BC-AD": "BC",
-    "peopleBorn": "Abel",
+    "peopleBorn": [
+      "Abel"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3880": {
@@ -79,9 +88,11 @@
     "isoYear": "-3879",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Abel",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Abel"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3811": {
@@ -93,8 +104,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3769": {
@@ -104,10 +115,12 @@
     "era": "",
     "isoYear": "-3768",
     "BC-AD": "BC",
-    "peopleBorn": "Enos",
+    "peopleBorn": [
+      "Enos"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3706": {
@@ -119,8 +132,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3679": {
@@ -130,10 +143,12 @@
     "era": "",
     "isoYear": "-3678",
     "BC-AD": "BC",
-    "peopleBorn": "Cainan",
+    "peopleBorn": [
+      "Cainan"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3616": {
@@ -145,8 +160,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3609": {
@@ -156,10 +171,12 @@
     "era": "",
     "isoYear": "-3608",
     "BC-AD": "BC",
-    "peopleBorn": "Mahalaleel",
+    "peopleBorn": [
+      "Mahalaleel"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3546": {
@@ -171,8 +188,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3544": {
@@ -182,10 +199,12 @@
     "era": "",
     "isoYear": "-3543",
     "BC-AD": "BC",
-    "peopleBorn": "Jared",
+    "peopleBorn": [
+      "Jared"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3481": {
@@ -197,8 +216,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3382": {
@@ -208,10 +227,12 @@
     "era": "",
     "isoYear": "-3381",
     "BC-AD": "BC",
-    "peopleBorn": "Enoch2",
+    "peopleBorn": [
+      "Enoch2"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3319": {
@@ -223,8 +244,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3317": {
@@ -234,10 +255,12 @@
     "era": "",
     "isoYear": "-3316",
     "BC-AD": "BC",
-    "peopleBorn": "Methuselah",
+    "peopleBorn": [
+      "Methuselah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3254": {
@@ -249,8 +272,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3130": {
@@ -260,10 +283,12 @@
     "era": "",
     "isoYear": "-3129",
     "BC-AD": "BC",
-    "peopleBorn": "Lamech2",
+    "peopleBorn": [
+      "Lamech2"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3074": {
@@ -274,9 +299,11 @@
     "isoYear": "-3073",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Adam",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Adam"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 01:43"
   },
   "-3067": {
@@ -288,8 +315,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-3017": {
@@ -300,9 +327,11 @@
     "isoYear": "-3016",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Enoch2",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Enoch2"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2954": {
@@ -314,8 +343,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2948": {
@@ -325,10 +354,12 @@
     "era": "",
     "isoYear": "-2947",
     "BC-AD": "BC",
-    "peopleBorn": "Noah",
+    "peopleBorn": [
+      "Noah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2899": {
@@ -340,8 +371,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2885": {
@@ -353,8 +384,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2864": {
@@ -365,9 +396,11 @@
     "isoYear": "-2863",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Enos",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Enos"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2801": {
@@ -379,8 +412,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2769": {
@@ -391,9 +424,11 @@
     "isoYear": "-2768",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Cainan",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Cainan"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2714": {
@@ -404,9 +439,11 @@
     "isoYear": "-2713",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Mahalaleel",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Mahalaleel"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2706": {
@@ -418,8 +455,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2692": {
@@ -430,9 +467,11 @@
     "isoYear": "-2691",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Seth",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Seth"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2651": {
@@ -444,8 +483,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2629": {
@@ -457,8 +496,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2582": {
@@ -469,9 +508,11 @@
     "isoYear": "-2581",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Jared",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Jared"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2448": {
@@ -483,8 +524,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 02:00"
   },
   "-2385": {
@@ -496,8 +537,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 02:06"
   },
   "-2353": {
@@ -508,9 +549,11 @@
     "isoYear": "-2352",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Lamech2",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Lamech2"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2348": {
@@ -521,9 +564,14 @@
     "isoYear": "-2347",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Methuselah",
-    "events": "The Great Flood begins,Water covers the earth",
-    "booksWritten": "",
+    "peopleDied": [
+      "Methuselah"
+    ],
+    "events": [
+      "The_Great_Flood_begins",
+      "Water_covers_the_earth"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-17 01:14"
   },
   "-2313": {
@@ -535,8 +583,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:15"
   },
   "-2290": {
@@ -548,8 +596,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2285": {
@@ -561,8 +609,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2283": {
@@ -574,8 +622,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:14"
   },
   "-2250": {
@@ -587,8 +635,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2249": {
@@ -600,8 +648,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:15"
   },
   "-2220": {
@@ -613,8 +661,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2219": {
@@ -626,8 +674,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:00"
   },
   "-2187": {
@@ -639,8 +687,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:01"
   },
   "-2185": {
@@ -650,10 +698,12 @@
     "era": "",
     "isoYear": "-2184",
     "BC-AD": "BC",
-    "peopleBorn": "Serug",
+    "peopleBorn": [
+      "Serug"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:01"
   },
   "-2157": {
@@ -665,8 +715,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:57"
   },
   "-2156": {
@@ -678,8 +728,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2128": {
@@ -691,8 +741,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:01"
   },
   "-2124": {
@@ -704,8 +754,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2094": {
@@ -717,8 +767,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2065": {
@@ -730,8 +780,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-2010": {
@@ -743,8 +793,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:15"
   },
   "-2009": {
@@ -756,8 +806,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:58"
   },
   "-1998": {
@@ -768,9 +818,11 @@
     "isoYear": "-1997",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Noah",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Noah"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1997": {
@@ -780,10 +832,12 @@
     "era": "",
     "isoYear": "-1996",
     "BC-AD": "BC",
-    "peopleBorn": "Abraham",
+    "peopleBorn": [
+      "Abraham"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1995": {
@@ -795,8 +849,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1985": {
@@ -808,8 +862,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:09"
   },
   "-1980": {
@@ -821,8 +875,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:00"
   },
   "-1957": {
@@ -834,8 +888,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:01"
   },
   "-1946": {
@@ -847,8 +901,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1940": {
@@ -860,8 +914,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1935": {
@@ -873,8 +927,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1930": {
@@ -886,8 +940,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:09"
   },
   "-1923": {
@@ -899,8 +953,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:01"
   },
   "-1917": {
@@ -912,8 +966,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1910": {
@@ -923,10 +977,12 @@
     "era": "",
     "isoYear": "-1909",
     "BC-AD": "BC",
-    "peopleBorn": "Hagar",
+    "peopleBorn": [
+      "Hagar"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 16:45"
   },
   "-1909": {
@@ -936,10 +992,12 @@
     "era": "",
     "isoYear": "-1908",
     "BC-AD": "BC",
-    "peopleBorn": "Ishmael",
+    "peopleBorn": [
+      "Ishmael"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1896": {
@@ -949,10 +1007,12 @@
     "era": "",
     "isoYear": "-1895",
     "BC-AD": "BC",
-    "peopleBorn": "Isaac",
+    "peopleBorn": [
+      "Isaac"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1895": {
@@ -964,8 +1024,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1880": {
@@ -977,8 +1037,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:15"
   },
   "-1875": {
@@ -988,10 +1048,12 @@
     "era": "",
     "isoYear": "-1874",
     "BC-AD": "BC",
-    "peopleBorn": "Rebekah",
+    "peopleBorn": [
+      "Rebekah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1860": {
@@ -1003,8 +1065,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1858": {
@@ -1016,8 +1078,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:09"
   },
   "-1848": {
@@ -1029,8 +1091,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 02:01"
   },
   "-1847": {
@@ -1042,8 +1104,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1836": {
@@ -1053,10 +1115,12 @@
     "era": "",
     "isoYear": "-1835",
     "BC-AD": "BC",
-    "peopleBorn": "Israel",
+    "peopleBorn": [
+      "Israel"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1835": {
@@ -1066,10 +1130,12 @@
     "era": "",
     "isoYear": "-1834",
     "BC-AD": "BC",
-    "peopleBorn": "Esau",
+    "peopleBorn": [
+      "Esau"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1823": {
@@ -1081,8 +1147,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1821": {
@@ -1093,9 +1159,11 @@
     "isoYear": "-1820",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Abraham",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Abraham"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1820": {
@@ -1107,8 +1175,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1819": {
@@ -1120,8 +1188,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:14"
   },
   "-1817": {
@@ -1132,9 +1200,11 @@
     "isoYear": "-1816",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Eber",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Eber"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:14"
   },
   "-1785": {
@@ -1146,8 +1216,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1777": {
@@ -1159,8 +1229,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:56"
   },
   "-1776": {
@@ -1172,8 +1242,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:56"
   },
   "-1775": {
@@ -1185,8 +1255,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:56"
   },
   "-1774": {
@@ -1198,8 +1268,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:55"
   },
   "-1773": {
@@ -1210,9 +1280,11 @@
     "isoYear": "-1772",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Ishmael",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Ishmael"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 16:46"
   },
   "-1772": {
@@ -1224,8 +1296,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:58"
   },
   "-1771": {
@@ -1237,8 +1309,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:58"
   },
   "-1767": {
@@ -1250,8 +1322,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:57"
   },
   "-1765": {
@@ -1263,8 +1335,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:58"
   },
   "-1756": {
@@ -1274,10 +1346,13 @@
     "era": "",
     "isoYear": "-1755",
     "BC-AD": "BC",
-    "peopleBorn": "Levi",
+    "peopleBorn": [
+      "Reuben",
+      "Levi"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:57"
   },
   "-1745": {
@@ -1287,10 +1362,12 @@
     "era": "",
     "isoYear": "-1744",
     "BC-AD": "BC",
-    "peopleBorn": "Joseph",
+    "peopleBorn": [
+      "Joseph"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1744": {
@@ -1302,8 +1379,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1739": {
@@ -1313,10 +1390,14 @@
     "era": "",
     "isoYear": "-1738",
     "BC-AD": "BC",
-    "peopleBorn": "Benjamin5",
-    "peopleDied": "Rachel",
-    "events": "",
-    "booksWritten": "",
+    "peopleBorn": [
+      "Benjamin5"
+    ],
+    "peopleDied": [
+      "Rachel"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-07 01:34"
   },
   "-1734": {
@@ -1328,8 +1409,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1716": {
@@ -1340,9 +1421,11 @@
     "isoYear": "-1715",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Isaac",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Isaac"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1715": {
@@ -1354,8 +1437,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1709": {
@@ -1365,10 +1448,12 @@
     "era": "",
     "isoYear": "-1708",
     "BC-AD": "BC",
-    "peopleBorn": "Manasseh",
+    "peopleBorn": [
+      "Manasseh"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1708": {
@@ -1378,10 +1463,12 @@
     "era": "",
     "isoYear": "-1707",
     "BC-AD": "BC",
-    "peopleBorn": "Ephraim",
+    "peopleBorn": [
+      "Ephraim"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1689": {
@@ -1392,9 +1479,11 @@
     "isoYear": "-1688",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Israel",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Israel"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1688": {
@@ -1406,8 +1495,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1635": {
@@ -1418,9 +1507,11 @@
     "isoYear": "-1634",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Joseph",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Joseph"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1634": {
@@ -1432,8 +1523,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1591": {
@@ -1445,8 +1536,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1574": {
@@ -1456,10 +1547,12 @@
     "era": "",
     "isoYear": "-1573",
     "BC-AD": "BC",
-    "peopleBorn": "Aaron",
+    "peopleBorn": [
+      "Aaron"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1571": {
@@ -1469,10 +1562,13 @@
     "era": "",
     "isoYear": "-1570",
     "BC-AD": "BC",
-    "peopleBorn": "Amram",
+    "peopleBorn": [
+      "Moses",
+      "Amram"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 16:45"
   },
   "-1521": {
@@ -1482,10 +1578,12 @@
     "era": "",
     "isoYear": "-1520",
     "BC-AD": "BC",
-    "peopleBorn": "Joshua2",
+    "peopleBorn": [
+      "Joshua2"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1451": {
@@ -1496,9 +1594,11 @@
     "isoYear": "-1450",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Aaron",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Aaron"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 02:03"
   },
   "-1424": {
@@ -1509,9 +1609,11 @@
     "isoYear": "-1423",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Joshua2",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Joshua2"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1368": {
@@ -1521,10 +1623,12 @@
     "era": "",
     "isoYear": "-1367",
     "BC-AD": "BC",
-    "peopleBorn": "Miriam",
+    "peopleBorn": [
+      "Miriam"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1358": {
@@ -1536,8 +1640,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1355": {
@@ -1549,8 +1653,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1321": {
@@ -1562,8 +1666,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1302": {
@@ -1573,10 +1677,12 @@
     "era": "",
     "isoYear": "-1301",
     "BC-AD": "BC",
-    "peopleBorn": "Gershom",
+    "peopleBorn": [
+      "Gershom"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1240": {
@@ -1587,9 +1693,11 @@
     "isoYear": "-1239",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Miriam",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Miriam"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1235": {
@@ -1601,8 +1709,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1211": {
@@ -1614,8 +1722,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1152": {
@@ -1625,10 +1733,12 @@
     "era": "",
     "isoYear": "-1151",
     "BC-AD": "BC",
-    "peopleBorn": "Samuel",
+    "peopleBorn": [
+      "Samuel"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1115": {
@@ -1638,10 +1748,12 @@
     "era": "",
     "isoYear": "-1114",
     "BC-AD": "BC",
-    "peopleBorn": "Ruth",
+    "peopleBorn": [
+      "Ruth"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1090": {
@@ -1651,10 +1763,12 @@
     "era": "",
     "isoYear": "-1089",
     "BC-AD": "BC",
-    "peopleBorn": "Samson",
+    "peopleBorn": [
+      "Samson"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1086": {
@@ -1666,8 +1780,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1085": {
@@ -1677,10 +1791,12 @@
     "era": "",
     "isoYear": "-1084",
     "BC-AD": "BC",
-    "peopleBorn": "David",
+    "peopleBorn": [
+      "David"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1060": {
@@ -1691,9 +1807,11 @@
     "isoYear": "-1059",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Samuel",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Samuel"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1054": {
@@ -1703,10 +1821,12 @@
     "era": "",
     "isoYear": "-1053",
     "BC-AD": "BC",
-    "peopleBorn": "Saul",
+    "peopleBorn": [
+      "Saul"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1035": {
@@ -1716,10 +1836,12 @@
     "era": "",
     "isoYear": "-1034",
     "BC-AD": "BC",
-    "peopleBorn": "Solomon",
+    "peopleBorn": [
+      "Solomon"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1034": {
@@ -1731,8 +1853,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1015": {
@@ -1743,9 +1865,11 @@
     "isoYear": "-1014",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "David",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "David"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1006": {
@@ -1757,8 +1881,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1004": {
@@ -1769,9 +1893,11 @@
     "isoYear": "-1003",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Saul",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Saul"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-1001": {
@@ -1782,9 +1908,11 @@
     "isoYear": "-1000",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Ish-bosheth",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Ish-bosheth"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-989": {
@@ -1796,8 +1924,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-976": {
@@ -1808,9 +1936,11 @@
     "isoYear": "-975",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Absalom",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Absalom"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-975": {
@@ -1821,9 +1951,11 @@
     "isoYear": "-974",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Solomon",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Solomon"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-966": {
@@ -1833,10 +1965,12 @@
     "era": "",
     "isoYear": "-965",
     "BC-AD": "BC",
-    "peopleBorn": "Rehoboam",
+    "peopleBorn": [
+      "Rehoboam"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-965": {
@@ -1848,8 +1982,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-926": {
@@ -1861,8 +1995,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-910": {
@@ -1873,9 +2007,11 @@
     "isoYear": "-909",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Rehoboam",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Rehoboam"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-907": {
@@ -1886,9 +2022,11 @@
     "isoYear": "-906",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Abijah5",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Abijah5"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-868": {
@@ -1899,9 +2037,11 @@
     "isoYear": "-867",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Asa",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Asa"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-847": {
@@ -1912,9 +2052,11 @@
     "isoYear": "-846",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Jehoshaphat3",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Jehoshaphat3"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-846": {
@@ -1925,9 +2067,15 @@
     "isoYear": "-845",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Zechariah9",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Azariah8",
+      "Jehiel5",
+      "Michael9",
+      "Shephatiah4",
+      "Zechariah9"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-844": {
@@ -1937,10 +2085,15 @@
     "era": "",
     "isoYear": "-843",
     "BC-AD": "BC",
-    "peopleBorn": "Joash3",
-    "peopleDied": "Jehoram",
-    "events": "",
-    "booksWritten": "",
+    "peopleBorn": [
+      "Joash3"
+    ],
+    "peopleDied": [
+      "Ahaziah2",
+      "Jehoram"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-837": {
@@ -1951,9 +2104,11 @@
     "isoYear": "-836",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Athaliah",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Athaliah"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-825": {
@@ -1963,10 +2118,12 @@
     "era": "",
     "isoYear": "-824",
     "BC-AD": "BC",
-    "peopleBorn": "Amaziah",
+    "peopleBorn": [
+      "Amaziah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-822": {
@@ -1976,10 +2133,12 @@
     "era": "",
     "isoYear": "-821",
     "BC-AD": "BC",
-    "peopleBorn": "Ahaziah2",
+    "peopleBorn": [
+      "Ahaziah2"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-808": {
@@ -1989,10 +2148,12 @@
     "era": "",
     "isoYear": "-807",
     "BC-AD": "BC",
-    "peopleBorn": "Uzziah",
+    "peopleBorn": [
+      "Uzziah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-802": {
@@ -2002,10 +2163,12 @@
     "era": "",
     "isoYear": "-801",
     "BC-AD": "BC",
-    "peopleBorn": "Jehoram",
+    "peopleBorn": [
+      "Jehoram"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-800": {
@@ -2016,9 +2179,11 @@
     "isoYear": "-799",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Joash3",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Joash3"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-770": {
@@ -2029,9 +2194,11 @@
     "isoYear": "-769",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Amaziah",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Amaziah"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-763": {
@@ -2041,10 +2208,12 @@
     "era": "",
     "isoYear": "-762",
     "BC-AD": "BC",
-    "peopleBorn": "Ahaz",
+    "peopleBorn": [
+      "Ahaz"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-742": {
@@ -2055,9 +2224,11 @@
     "isoYear": "-741",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Uzziah",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Uzziah"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-741": {
@@ -2067,10 +2238,12 @@
     "era": "",
     "isoYear": "-740",
     "BC-AD": "BC",
-    "peopleBorn": "Hezekiah",
+    "peopleBorn": [
+      "Hezekiah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-734": {
@@ -2081,9 +2254,11 @@
     "isoYear": "-733",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Jotham2",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Jotham2"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-716": {
@@ -2094,9 +2269,11 @@
     "isoYear": "-715",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Ahaz",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Ahaz"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-689": {
@@ -2107,9 +2284,11 @@
     "isoYear": "-688",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Hezekiah",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Hezekiah"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-677": {
@@ -2119,10 +2298,12 @@
     "era": "",
     "isoYear": "-676",
     "BC-AD": "BC",
-    "peopleBorn": "Manasseh3",
+    "peopleBorn": [
+      "Manasseh3"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-662": {
@@ -2132,10 +2313,12 @@
     "era": "",
     "isoYear": "-661",
     "BC-AD": "BC",
-    "peopleBorn": "Amon3",
+    "peopleBorn": [
+      "Amon3"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-648": {
@@ -2145,10 +2328,12 @@
     "era": "",
     "isoYear": "-647",
     "BC-AD": "BC",
-    "peopleBorn": "Josiah",
+    "peopleBorn": [
+      "Josiah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-642": {
@@ -2159,9 +2344,11 @@
     "isoYear": "-641",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Manasseh3",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Manasseh3"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-640": {
@@ -2172,9 +2359,11 @@
     "isoYear": "-639",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Amon3",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Amon3"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-634": {
@@ -2184,10 +2373,12 @@
     "era": "",
     "isoYear": "-633",
     "BC-AD": "BC",
-    "peopleBorn": "Jehoiakim",
+    "peopleBorn": [
+      "Jehoiakim"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-628": {
@@ -2197,10 +2388,12 @@
     "era": "",
     "isoYear": "-627",
     "BC-AD": "BC",
-    "peopleBorn": "Zedekiah",
+    "peopleBorn": [
+      "Zedekiah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-616": {
@@ -2210,10 +2403,12 @@
     "era": "",
     "isoYear": "-615",
     "BC-AD": "BC",
-    "peopleBorn": "Jehoiachin",
+    "peopleBorn": [
+      "Jehoiachin"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-609": {
@@ -2224,9 +2419,11 @@
     "isoYear": "-608",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Josiah",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Josiah"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-598": {
@@ -2237,9 +2434,11 @@
     "isoYear": "-597",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Jehoiakim",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Jehoiakim"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-6": {
@@ -2251,8 +2450,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-4": {
@@ -2262,10 +2461,12 @@
     "era": "",
     "isoYear": "-3",
     "BC-AD": "BC",
-    "peopleBorn": "Jesus2",
+    "peopleBorn": [
+      "Jesus2"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "30": {
@@ -2276,9 +2477,11 @@
     "isoYear": "30",
     "BC-AD": "AD",
     "peopleBorn": [],
-    "peopleDied": "Jesus2",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Jesus2"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "33": {
@@ -2290,8 +2493,28 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "The Holy Spirit is promised,Jesus ascends to Heaven,Matthias replaces Judas,The Holy Spirit comes,Peter preaches at Pentecost,The church grows,Lame man healed,Peter preaches in Solomon's Portico,Peter and John's Trial,Believers pray for boldness,Believers share all things,Ananias and Sapphira lie to God,Apostles work signs and wonders in Solomon's Portico,\"Apostles arrested, put on trial\",Gamaliel advises the counsel and Apostles freed,Seven chosen to serve,Stephen is seized,Stephen addresses the council,Stephen is stoned",
-    "booksWritten": "",
+    "events": [
+      "The_Holy_Spirit_is_promised",
+      "Jesus_ascends_to_Heaven",
+      "Matthias_replaces_Judas",
+      "The_Holy_Spirit_comes",
+      "Peter_preaches_at_Pentecost",
+      "The_church_grows",
+      "Lame_man_healed",
+      "Peter_preaches_in_Solomon's_Portico",
+      "Peter_and_John's_Trial",
+      "Believers_pray_for_boldness",
+      "Believers_share_all_things",
+      "Ananias_and_Sapphira_lie_to_God",
+      "Apostles_work_signs_and_wonders_in_Solomon's_Portico",
+      "Apostles_arrested,_put_on_trial",
+      "Gamaliel_advises_the_counsel_and_Apostles_freed",
+      "Seven_chosen_to_serve",
+      "Stephen_is_seized",
+      "Stephen_addresses_the_council",
+      "Stephen_is_stoned"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "34": {
@@ -2303,8 +2526,12 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Saul persecutes the church,Philip preaches in Samaria,Conversion of Ethiopian Eunuch",
-    "booksWritten": "",
+    "events": [
+      "Saul_persecutes_the_church",
+      "Philip_preaches_in_Samaria",
+      "Conversion_of_Ethiopian_Eunuch"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "35": {
@@ -2316,8 +2543,11 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Saul is converted,Saul proclaims Jesus",
-    "booksWritten": "",
+    "events": [
+      "Saul_is_converted",
+      "Saul_proclaims_Jesus"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "41": {
@@ -2329,8 +2559,14 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Peter meets Cornelius,Peter preaches to gentiles in Caesarea,Peter defends Gentile salvation,Peter heals Aeneas and Dorcas,Disciples first called Christians",
-    "booksWritten": "",
+    "events": [
+      "Peter_meets_Cornelius",
+      "Peter_preaches_to_gentiles_in_Caesarea",
+      "Peter_defends_Gentile_salvation",
+      "Peter_heals_Aeneas_and_Dorcas",
+      "Disciples_first_called_Christians"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "43": {
@@ -2342,8 +2578,13 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Herod kills James,Herod imprisons Peter,An angel rescues Peter from prison,Herod dies",
-    "booksWritten": "",
+    "events": [
+      "Herod_kills_James",
+      "Herod_imprisons_Peter",
+      "An_angel_rescues_Peter_from_prison",
+      "Herod_dies"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "44": {
@@ -2355,8 +2596,8 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "45": {
@@ -2368,8 +2609,10 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "Jas",
+    "events": [],
+    "booksWritten": [
+      "Jas"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "46": {
@@ -2381,8 +2624,8 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "48": {
@@ -2394,8 +2637,12 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "First missionary journey begins,Barnabas and Saul go to Cyprus,Mission to Antioch in Pisidia",
-    "booksWritten": "",
+    "events": [
+      "First_missionary_journey_begins",
+      "Barnabas_and_Saul_go_to_Cyprus",
+      "Mission_to_Antioch_in_Pisidia"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "49": {
@@ -2407,8 +2654,17 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Mission to Iconium,Mission to Lystra and Derbe,Return to Antioch in Syria,Paul Writes Galations,Jerusalem Council,Paul and Barnabas part ways",
-    "booksWritten": "Gal",
+    "events": [
+      "Mission_to_Iconium",
+      "Mission_to_Lystra_and_Derbe",
+      "Return_to_Antioch_in_Syria",
+      "<<<ERROR_Paul Writes Galations_>>>",
+      "Jerusalem_Council",
+      "Paul_and_Barnabas_part_ways"
+    ],
+    "booksWritten": [
+      "Gal"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "50": {
@@ -2420,8 +2676,21 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Second Missionary Journey begins,Timothy Joins Paul and Silas,\"Mission to Phrygia, Galatia and Asia\",Call to Macedonia,Lydia's Conversion,Paul casts demon out of soothsayer,Paul and Silas imprisoned,Philippian jailer converted,Paul and Silas released,Uproar in Thessalonica",
-    "booksWritten": "Matt",
+    "events": [
+      "Second_Missionary_Journey_begins",
+      "Timothy_Joins_Paul_and_Silas",
+      "Mission_to_Phrygia,_Galatia_and_Asia",
+      "Call_to_Macedonia",
+      "Lydia's_Conversion",
+      "Paul_casts_demon_out_of_soothsayer",
+      "Paul_and_Silas_imprisoned",
+      "Philippian_jailer_converted",
+      "Paul_and_Silas_released",
+      "Uproar_in_Thessalonica"
+    ],
+    "booksWritten": [
+      "Matt"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "51": {
@@ -2433,8 +2702,15 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Mission to Berea,Paul preaches in Athens,\"Mission to Corinth, 1&2 Thess Written\"",
-    "booksWritten": "1Thess,2Thess",
+    "events": [
+      "Mission_to_Berea",
+      "Paul_preaches_in_Athens",
+      "Mission_to_Corinth,_1&2_Thess_Written"
+    ],
+    "booksWritten": [
+      "1Thess",
+      "2Thess"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "52": {
@@ -2446,8 +2722,10 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Return from Second Missionary Journey",
-    "booksWritten": "",
+    "events": [
+      "Return_from_Second_Missionary_Journey"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "53": {
@@ -2459,8 +2737,11 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Third Missionary Journey Begins,Mission to Ephesus/1 Cor Written",
-    "booksWritten": "",
+    "events": [
+      "Third_Missionary_Journey_Begins",
+      "Mission_to_Ephesus/1_Cor_Written"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "54": {
@@ -2472,8 +2753,8 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "56": {
@@ -2485,8 +2766,14 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Riot in Ephesus,Mission to Macedonia and Greece",
-    "booksWritten": "1Cor,2Cor",
+    "events": [
+      "Riot_in_Ephesus",
+      "Mission_to_Macedonia_and_Greece"
+    ],
+    "booksWritten": [
+      "1Cor",
+      "2Cor"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "57": {
@@ -2498,8 +2785,23 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Eutychus revived,Voyage to Miletus,Paul speaks to Ephesian Elders,Voyage from Miletus to Jerusalem,Paul visits elders in Jerusalem,Paul sent to Felix,Mission to Macedonia and Greece,Paul arrested in the Temple,Paul gives his testimony,Paul goes before the Council,The conspiracy to kill Paul",
-    "booksWritten": "Rom,Luke",
+    "events": [
+      "Eutychus_revived",
+      "Voyage_to_Miletus",
+      "Paul_speaks_to_Ephesian_Elders",
+      "Voyage_from_Miletus_to_Jerusalem",
+      "Paul_visits_elders_in_Jerusalem",
+      "Paul_sent_to_Felix",
+      "Mission_to_Macedonia_and_Greece",
+      "Paul_arrested_in_the_Temple",
+      "Paul_gives_his_testimony",
+      "Paul_goes_before_the_Council",
+      "The_conspiracy_to_kill_Paul"
+    ],
+    "booksWritten": [
+      "Rom",
+      "Luke"
+    ],
     "modified": "2020-05-24 00:51"
   },
   "58": {
@@ -2511,8 +2813,10 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Paul sent to Felix",
-    "booksWritten": "",
+    "events": [
+      "Paul_sent_to_Felix"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-24 00:51"
   },
   "59": {
@@ -2524,8 +2828,14 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Paul appeals to Caesar,Journey to Rome begins,Paul is shipwrecked by a storm,Agrippa and Bernice meet Festus,Paul goes before Agrippa",
-    "booksWritten": "",
+    "events": [
+      "Paul_appeals_to_Caesar",
+      "Journey_to_Rome_begins",
+      "Paul_is_shipwrecked_by_a_storm",
+      "Agrippa_and_Bernice_meet_Festus",
+      "Paul_goes_before_Agrippa"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-24 00:51"
   },
   "60": {
@@ -2537,8 +2847,12 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Paul arrives at Rome,Paul's First Roman imprisonment,Paul stays at Malta",
-    "booksWritten": "",
+    "events": [
+      "Paul_arrives_at_Rome",
+      "Paul's_First_Roman_imprisonment",
+      "Paul_stays_at_Malta"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "61": {
@@ -2550,8 +2864,16 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Paul's First Roman imprisonment",
-    "booksWritten": "Acts,Eph,Phil,Col,Phlm",
+    "events": [
+      "Paul's_First_Roman_imprisonment"
+    ],
+    "booksWritten": [
+      "Acts",
+      "Eph",
+      "Phil",
+      "Col",
+      "Phlm"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "62": {
@@ -2563,8 +2885,10 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Paul's First Roman imprisonment",
-    "booksWritten": "",
+    "events": [
+      "Paul's_First_Roman_imprisonment"
+    ],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "63": {
@@ -2576,8 +2900,11 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "1Tim,Titus",
+    "events": [],
+    "booksWritten": [
+      "1Tim",
+      "Titus"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "64": {
@@ -2589,8 +2916,10 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "1Pet",
+    "events": [],
+    "booksWritten": [
+      "1Pet"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "66": {
@@ -2602,8 +2931,10 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "2Tim",
+    "events": [],
+    "booksWritten": [
+      "2Tim"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "67": {
@@ -2615,8 +2946,12 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "Heb,2Pet,Mark",
+    "events": [],
+    "booksWritten": [
+      "Heb",
+      "2Pet",
+      "Mark"
+    ],
     "modified": "2019-07-22 00:52"
   },
   "1821": {
@@ -2628,8 +2963,8 @@
     "BC-AD": "AD",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2019-07-22 00:52"
   },
   "-4003": {
@@ -2639,10 +2974,12 @@
     "era": "",
     "isoYear": "-4002",
     "BC-AD": "BC",
-    "peopleBorn": "Cain",
+    "peopleBorn": [
+      "Cain"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 01:08"
   },
   "-3875": {
@@ -2654,8 +2991,11 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Cain kills Abel,God curses Cain",
-    "booksWritten": "",
+    "events": [
+      "Cain_kills_Abel",
+      "God_curses_Cain"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-15 01:18"
   },
   "-3874": {
@@ -2665,10 +3005,12 @@
     "era": "",
     "isoYear": "-3873",
     "BC-AD": "BC",
-    "peopleBorn": "Seth",
+    "peopleBorn": [
+      "Seth"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 01:43"
   },
   "-2446": {
@@ -2678,10 +3020,12 @@
     "era": "",
     "isoYear": "-2445",
     "BC-AD": "BC",
-    "peopleBorn": "Shem",
+    "peopleBorn": [
+      "Shem"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 02:00"
   },
   "-1846": {
@@ -2692,9 +3036,11 @@
     "isoYear": "-1845",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Shem",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Shem"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-15 02:01"
   },
   "-2468": {
@@ -2706,8 +3052,10 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "God decides to destroy every living thing",
-    "booksWritten": "",
+    "events": [
+      "God_decides_to_destroy_every_living_thing"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-15 02:39"
   },
   "-2400": {
@@ -2719,8 +3067,10 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "God instructs Noah to build the ark",
-    "booksWritten": "",
+    "events": [
+      "God_instructs_Noah_to_build_the_ark"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-15 02:39"
   },
   "-2347": {
@@ -2732,8 +3082,12 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "The flood subsides,Leaving the Ark,Noahic Covenant",
-    "booksWritten": "",
+    "events": [
+      "The_flood_subsides",
+      "Leaving_the_Ark",
+      "<<<ERROR_Noahic Covenant_>>>"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-15 13:10"
   },
   "-2346": {
@@ -2743,10 +3097,14 @@
     "era": "",
     "isoYear": "-2345",
     "BC-AD": "BC",
-    "peopleBorn": "Arphaxad",
+    "peopleBorn": [
+      "Arphaxad"
+    ],
     "peopleDied": [],
-    "events": "Noah gets drunk and Canaan is cursed",
-    "booksWritten": "",
+    "events": [
+      "Noah_gets_drunk_and_Canaan_is_cursed"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-17 01:14"
   },
   "-1908": {
@@ -2757,9 +3115,11 @@
     "isoYear": "-1907",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Arphaxad",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Arphaxad"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:14"
   },
   "-2281": {
@@ -2769,10 +3129,12 @@
     "era": "",
     "isoYear": "-2280",
     "BC-AD": "BC",
-    "peopleBorn": "Eber",
+    "peopleBorn": [
+      "Eber"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:14"
   },
   "-2247": {
@@ -2782,10 +3144,12 @@
     "era": "",
     "isoYear": "-2246",
     "BC-AD": "BC",
-    "peopleBorn": "Peleg",
+    "peopleBorn": [
+      "Peleg"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:15"
   },
   "-2008": {
@@ -2796,9 +3160,11 @@
     "isoYear": "-2007",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Peleg",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Peleg"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:15"
   },
   "-2311": {
@@ -2808,10 +3174,12 @@
     "era": "",
     "isoYear": "-2310",
     "BC-AD": "BC",
-    "peopleBorn": "Salah",
+    "peopleBorn": [
+      "Salah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:15"
   },
   "-1878": {
@@ -2822,9 +3190,11 @@
     "isoYear": "-1877",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Salah",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Salah"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:16"
   },
   "-2155": {
@@ -2834,10 +3204,12 @@
     "era": "",
     "isoYear": "-2154",
     "BC-AD": "BC",
-    "peopleBorn": "Nahor",
+    "peopleBorn": [
+      "Nahor"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:58"
   },
   "-2007": {
@@ -2848,9 +3220,11 @@
     "isoYear": "-2006",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Nahor",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Nahor"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 01:58"
   },
   "-2217": {
@@ -2860,10 +3234,12 @@
     "era": "",
     "isoYear": "-2216",
     "BC-AD": "BC",
-    "peopleBorn": "Reu",
+    "peopleBorn": [
+      "Reu"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:00"
   },
   "-1978": {
@@ -2874,9 +3250,11 @@
     "isoYear": "-1977",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Reu",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Reu"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:00"
   },
   "-1955": {
@@ -2887,9 +3265,11 @@
     "isoYear": "-1954",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Serug",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Serug"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:01"
   },
   "-2126": {
@@ -2899,10 +3279,12 @@
     "era": "",
     "isoYear": "-2125",
     "BC-AD": "BC",
-    "peopleBorn": "Terah",
+    "peopleBorn": [
+      "Terah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-05-17 02:01"
   },
   "-1921": {
@@ -2913,9 +3295,14 @@
     "isoYear": "-1920",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Terah",
-    "events": "Abraham is called to Canaan,Abraham goes to Egypt",
-    "booksWritten": "",
+    "peopleDied": [
+      "Terah"
+    ],
+    "events": [
+      "<<<ERROR_Abraham is called to Canaan_>>>",
+      "Abraham_goes_to_Egypt"
+    ],
+    "booksWritten": [],
     "modified": "2020-07-09 12:36"
   },
   "-2246": {
@@ -2927,8 +3314,10 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Languages are confused at Babel",
-    "booksWritten": "",
+    "events": [
+      "<<<ERROR_Languages are confused at Babel_>>>"
+    ],
+    "booksWritten": [],
     "modified": "2020-05-17 20:17"
   },
   "-1920": {
@@ -2940,8 +3329,10 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "Abraham and Lot Separate",
-    "booksWritten": "",
+    "events": [
+      "Abraham_and_Lot_Separate"
+    ],
+    "booksWritten": [],
     "modified": "2020-07-09 12:37"
   },
   "-1918": {
@@ -2953,8 +3344,8 @@
     "BC-AD": "BC",
     "peopleBorn": [],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-07-09 12:37"
   },
   "-1755": {
@@ -2964,10 +3355,14 @@
     "era": "",
     "isoYear": "-1754",
     "BC-AD": "BC",
-    "peopleBorn": "Rachel",
+    "peopleBorn": [
+      "Judah",
+      "Dan",
+      "Rachel"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 16:45"
   },
   "-1721": {
@@ -2977,10 +3372,12 @@
     "era": "",
     "isoYear": "-1720",
     "BC-AD": "BC",
-    "peopleBorn": "Pharez",
+    "peopleBorn": [
+      "Pharez"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:55"
   },
   "-1757": {
@@ -2990,10 +3387,12 @@
     "era": "",
     "isoYear": "-1756",
     "BC-AD": "BC",
-    "peopleBorn": "Simeon",
+    "peopleBorn": [
+      "Simeon"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:56"
   },
   "-1754": {
@@ -3003,10 +3402,12 @@
     "era": "",
     "isoYear": "-1753",
     "BC-AD": "BC",
-    "peopleBorn": "Naphtali",
+    "peopleBorn": [
+      "Naphtali"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:57"
   },
   "-1753": {
@@ -3016,10 +3417,12 @@
     "era": "",
     "isoYear": "-1752",
     "BC-AD": "BC",
-    "peopleBorn": "Gad",
+    "peopleBorn": [
+      "Gad"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:57"
   },
   "-1752": {
@@ -3029,10 +3432,13 @@
     "era": "",
     "isoYear": "-1751",
     "BC-AD": "BC",
-    "peopleBorn": "Issachar",
+    "peopleBorn": [
+      "Asher",
+      "Issachar"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:58"
   },
   "-1751": {
@@ -3042,10 +3448,12 @@
     "era": "",
     "isoYear": "-1750",
     "BC-AD": "BC",
-    "peopleBorn": "Zebulun",
+    "peopleBorn": [
+      "Zebulun"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:58"
   },
   "-1750": {
@@ -3055,10 +3463,12 @@
     "era": "",
     "isoYear": "-1749",
     "BC-AD": "BC",
-    "peopleBorn": "Dinah",
+    "peopleBorn": [
+      "Dinah"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 01:58"
   },
   "-1720": {
@@ -3068,10 +3478,12 @@
     "era": "",
     "isoYear": "-1719",
     "BC-AD": "BC",
-    "peopleBorn": "Job",
+    "peopleBorn": [
+      "Job"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 02:02"
   },
   "-1580": {
@@ -3082,9 +3494,11 @@
     "isoYear": "-1579",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Job",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Job"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 02:02"
   },
   "-1452": {
@@ -3095,9 +3509,11 @@
     "isoYear": "-1451",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Moses",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Moses"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 02:03"
   },
   "-1529": {
@@ -3107,10 +3523,12 @@
     "era": "",
     "isoYear": "-1528",
     "BC-AD": "BC",
-    "peopleBorn": "Caleb",
+    "peopleBorn": [
+      "Caleb"
+    ],
     "peopleDied": [],
-    "events": "",
-    "booksWritten": "",
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-02 02:03"
   },
   "-1122": {
@@ -3121,9 +3539,11 @@
     "isoYear": "-1121",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Eli",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Eli"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-13 19:43"
   },
   "-1101": {
@@ -3134,9 +3554,11 @@
     "isoYear": "-1100",
     "BC-AD": "BC",
     "peopleBorn": [],
-    "peopleDied": "Samson",
-    "events": "",
-    "booksWritten": "",
+    "peopleDied": [
+      "Samson"
+    ],
+    "events": [],
+    "booksWritten": [],
     "modified": "2020-09-13 20:20"
   }
 }

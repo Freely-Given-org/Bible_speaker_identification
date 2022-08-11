@@ -12,7 +12,7 @@ with lists of their known members.
 This includes the tribes of Israel, but not other tribes/clans.
 The *people* DB (almost 3,800 entries) has the following headings:
 
-- personLookup -- rename to key?
+- personLookup: rename to key?
 - status: (for development)
 - personID: number -- remove???
 - displayTitle: too English-translation-centric -- remove from here
@@ -135,6 +135,7 @@ or prefixed with P if tables are combined, so PAdam, PJoshua2
 - siblings: list
 - halfSiblingsSameMother: list
 - halfSiblingsSameFather: list
+- comment
 
 ### Groups table
 
@@ -155,6 +156,7 @@ or prefixed with P if tables are combined, so PAdam, PJoshua2
 - verseReferences: list (of verse ranges)
   - type: spoke/named/implied/narrated
   - verse range
+- comment
 
 ### Tribes/Kingdoms/Nations table
 
@@ -173,6 +175,7 @@ or prefixed with T if tables are combined, so TMoabites, TGentiles
 - verseReferences: list (of verse ranges)
   - type: spoke/named/implied/narrated
   - verse range
+- comment
 
 ### Language sets
 
@@ -189,4 +192,6 @@ e.g., en_WEB or en_NASB95 or hi_NHV.
 - key: refers to a person, group, or tribe key above
 - names: list
   - type: OT, NT
-  - name:
+  - name: do we also need displayName?
+- dictText: could maybe be "briefDescription" ???
+If missing or empty, the main text is used.

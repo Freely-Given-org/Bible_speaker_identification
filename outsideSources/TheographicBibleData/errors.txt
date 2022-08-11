@@ -1,0 +1,40 @@
+CRITICAL: Unable to map books 1Sam writers ' samuel_2469' to appropriate entry
+CRITICAL: Unable to map books 1Sam writers ' gad_1263' to appropriate entry
+CRITICAL: Unable to map books 1Sam writers ' nathan_2153' to appropriate entry
+CRITICAL: Unable to map books 2Sam writers ' gad_1263' to appropriate entry
+CRITICAL: Unable to map books 2Sam writers ' nathan_2153' to appropriate entry
+CRITICAL: Unable to map books Ps writers '' to appropriate entry
+CRITICAL: Unable to map books Ps writers ' david_994' to appropriate entry
+CRITICAL: Unable to map books Ps writers ' asaph_330' to appropriate entry
+CRITICAL: Unable to map books Ps writers ' solomon_2762' to appropriate entry
+CRITICAL: Unable to map books Ps writers ' heman_1488' to appropriate entry
+CRITICAL: Unable to map books Ps writers ' ethan_1222' to appropriate entry
+CRITICAL: Unable to map books Ps writers ' moses_2108' to appropriate entry
+CRITICAL: Unable to map books Prov writers ' agur_112' to appropriate entry
+CRITICAL: Unable to map books Prov writers ' lemuel_1817' to appropriate entry
+
+CRITICAL: Unable to map people Abraham events 'Abraham is called to Canaan' to appropriate entry
+CRITICAL: Unable to map people Adam events 'God creates man and woman' to appropriate entry
+CRITICAL: Unable to map people Adam events 'Man falls into sin' to appropriate entry
+CRITICAL: Unable to map people Eve events 'God creates man and woman' to appropriate entry
+CRITICAL: Unable to map people Eve events 'Man falls into sin' to appropriate entry
+CRITICAL: Unable to map people God events 'God creates all things' to appropriate entry
+CRITICAL: Unable to map people God events 'God creates man and woman' to appropriate entry
+CRITICAL: Unable to map people God events 'Man falls into sin' to appropriate entry
+CRITICAL: Unable to map people God events 'Noahic Covenant' to appropriate entry
+CRITICAL: Unable to map people Holy_Spirit events 'God creates all things' to appropriate entry
+CRITICAL: Unable to map people Jesus2 events 'God creates all things' to appropriate entry
+CRITICAL: Unable to map people Lot events 'Abraham is called to Canaan' to appropriate entry
+CRITICAL: Unable to map people Noah events 'Noahic Covenant' to appropriate entry
+CRITICAL: Unable to map people Paul events 'Paul Writes Galations' to appropriate entry
+CRITICAL: Unable to map people Sarah events 'Abraham is called to Canaan' to appropriate entry
+CRITICAL: Unable to map people Satan events 'Man falls into sin' to appropriate entry
+
+CRITICAL: Unable to map periods -4004 events 'God creates all things' to appropriate entry
+CRITICAL: Unable to map periods -4004 events 'God creates man and woman' to appropriate entry
+CRITICAL: Unable to map periods -4004 events 'Man falls into sin' to appropriate entry
+CRITICAL: Unable to map periods 49 events 'Paul Writes Galations' to appropriate entry
+CRITICAL: Unable to map periods -2347 events 'Noahic Covenant' to appropriate entry
+CRITICAL: Unable to map periods -1921 events 'Abraham is called to Canaan' to appropriate entry
+CRITICAL: Unable to map periods -2246 events 'Languages are confused at Babel' to appropriate entry
+

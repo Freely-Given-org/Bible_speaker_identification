@@ -30,6 +30,10 @@ Perhaps it's not unreasonable to use the corrected 1769
 King James Bible (KJB) as the meta-Bible
 in the dataset???
 
+Versification differences don't seem to be addressed in
+these datasets (need to double-check what Glyssen does),
+but does need to be addressed in the longer term.
+
 We have not yet attempted to actually combine the data because
 the available dataset that we find the most interesting and useful is
 known to be obsolete, and there's a possibility that at least parts of the improved
