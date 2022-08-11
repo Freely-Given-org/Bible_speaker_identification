@@ -79,7 +79,7 @@ that the universe created itself and then eventually
 an ancient ape evolved into a human,
 or that we were reincarnated from some previous life form.
 
-However, we are also aware that many also claim
+However, we are also aware that many Christians also claim
 major gaps in the Biblical record, or even claim
 that Darwinian-type evolution fits within the Biblical time-scale.
 These people are, of course, free to ignore any of the
