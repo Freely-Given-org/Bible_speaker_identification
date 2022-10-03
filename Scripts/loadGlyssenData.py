@@ -59,9 +59,9 @@ LAST_MODIFIED_DATE = '2022-08-10' # by RJH
 SHORT_PROGRAM_NAME = "loadGlyssenData"
 PROGRAM_NAME = "Load SIL Glyssen data files"
 PROGRAM_VERSION = '0.03'
-programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
+PROGRAM_NAME_VERSION = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
-debuggingThisModule = False
+DEBUGGING_THIS_MODULE = False
 
 
 SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING = '2022-07-25'
@@ -71,7 +71,7 @@ PREFIX_OUR_IDS_FLAG = True
 # Create a header to go in the data files
 HEADER_DICT = { '__HEADERS__':
     {
-    'conversion_software': programNameVersion,
+    'conversion_software': PROGRAM_NAME_VERSION,
     'conversion_software_last_modified_date': LAST_MODIFIED_DATE,
     'source_data_last_downloaded_date': SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING,
     'conversion_date': str(date.today()),
@@ -128,7 +128,7 @@ COLUMN_NAME_REPLACEMENT_MAP = {}
 def main() -> None:
     """
     """
-    BibleOrgSysGlobals.introduceProgram( __name__, programNameVersion, LAST_MODIFIED_DATE )
+    BibleOrgSysGlobals.introduceProgram( __name__, PROGRAM_NAME_VERSION, LAST_MODIFIED_DATE )
 
     if load_all_Glyssen_data():
         if clean_data():
@@ -136,7 +136,7 @@ def main() -> None:
             # export_xml('raw')
             if add_FGids():
                 rebuild_dictionaries('FGid')
-                # if debuggingThisModule:
+                # if DEBUGGING_THIS_MODULE:
                 export_JSON('mid')
                 if normalise_data() and check_data():
                     rebuild_dictionaries('FGid')
@@ -158,8 +158,8 @@ def load_all_Glyssen_data() -> bool:
     """
     This is quite quick.
     """
-    fnPrint(debuggingThisModule, "load_all_Glyssen_data()")
-    vPrint('Quiet', debuggingThisModule, f"\nFinding GlyssenData files from {GlyssenData_INPUT_FOLDERPATH}…")
+    fnPrint(DEBUGGING_THIS_MODULE, "load_all_Glyssen_data()")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nFinding GlyssenData files from {GlyssenData_INPUT_FOLDERPATH}…")
 
     db_count = 0
     for name, db in DB_LIST:
@@ -168,7 +168,7 @@ def load_all_Glyssen_data() -> bool:
             db['__COLUMN_HEADERS__'], db['dataList'] = result
             db_count += 1
 
-    vPrint('Quiet', debuggingThisModule, f"{db_count:,} tables loaded from GlyssenData files.")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"{db_count:,} tables loaded from GlyssenData files.")
     return True
 # end of loadGlyssenData.load_all_Glyssen_data()
 
@@ -180,7 +180,7 @@ def load_individual_GlyssenData_TSV_file(which:str) -> Tuple[List[str],List[Dict
     We return a list of column headers (strings)
     as well as the list of entries (dicts).
     """
-    fnPrint(debuggingThisModule, "load_individual_GlyssenData_TSV_file()")
+    fnPrint(DEBUGGING_THIS_MODULE, "load_individual_GlyssenData_TSV_file()")
 
     tsv_filename = 'CharacterDetail.tsv' if which=='characters' else 'CharacterVerse.tsv' if which=='verses' else None
     try_filepath = GlyssenData_INPUT_FOLDERPATH.joinpath(tsv_filename)
@@ -191,16 +191,16 @@ def load_individual_GlyssenData_TSV_file(which:str) -> Tuple[List[str],List[Dict
             logging.error(f"Unable to load {which} tsv from {GlyssenData_INPUT_FOLDERPATH} {tsv_filename}")
             return
         try_filepath = Path('../'*(tries-1)).joinpath(GlyssenData_INPUT_FOLDERPATH).joinpath(tsv_filename)
-        vPrint('Quiet', debuggingThisModule, f"  Trying to find GlyssenData {which} TSV file at {try_filepath}…")
+        vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Trying to find GlyssenData {which} TSV file at {try_filepath}…")
 
-    vPrint('Quiet', debuggingThisModule,
+    vPrint('Quiet', DEBUGGING_THIS_MODULE,
         f"  Loading GlyssenData {which} table from {try_filepath if BibleOrgSysGlobals.verbosityLevel > 2 else tsv_filename}…")
     with open(try_filepath, 'rt', encoding='utf-8') as tsv_file:
         tsv_lines = tsv_file.readlines()
 
     # Remove BOM
     if tsv_lines[0].startswith("\ufeff"):
-        vPrint('Quiet', debuggingThisModule, f"  Removing Byte Order Marker (BOM) from start of {which} TSV file…")
+        vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Removing Byte Order Marker (BOM) from start of {which} TSV file…")
         tsv_lines[0] = tsv_lines[0][1:]
     # Remove first (version number) line from CharacterVerse.tsv
     if tsv_filename == 'CharacterVerse.tsv':
@@ -213,7 +213,7 @@ def load_individual_GlyssenData_TSV_file(which:str) -> Tuple[List[str],List[Dict
 
     # Get the headers before we start
     original_column_headers = [ header for header in tsv_lines[0].strip().split('\t') ]
-    dPrint('Info', debuggingThisModule, f"  Original column headers: ({len(original_column_headers)}): {original_column_headers}")
+    dPrint('Info', DEBUGGING_THIS_MODULE, f"  Original column headers: ({len(original_column_headers)}): {original_column_headers}")
 
     # Read, check the number of columns, and summarise row contents all in one go
     dict_reader = DictReader(tsv_lines, delimiter='\t')
@@ -223,7 +223,7 @@ def load_individual_GlyssenData_TSV_file(which:str) -> Tuple[List[str],List[Dict
         if len(row) != len(original_column_headers):
             logging.critical(f"Line {n} has {len(row)} column(s) instead of {len(original_column_headers)}: {row} from '{tsv_lines[n+1]}'")
         tsv_rows.append(row)
-    vPrint('Quiet', debuggingThisModule, f"  Loaded {len(tsv_rows):,} '{which}' data rows.")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Loaded {len(tsv_rows):,} '{which}' data rows.")
 
     return original_column_headers, tsv_rows
 # end of loadGlyssenData.load_individual_GlyssenData_TSV_file()
@@ -235,8 +235,8 @@ def add_FGids() -> bool:
         and add our Freely-Given ids,
         while at the same time converting the data from a list into a dict.
     """
-    fnPrint(debuggingThisModule, "add_FGids()")
-    vPrint('Quiet', debuggingThisModule, "\nAdding Freely-Given IDs to raw data…")
+    fnPrint(DEBUGGING_THIS_MODULE, "add_FGids()")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nAdding Freely-Given IDs to raw data…")
 
     for dict_name,the_dict in DB_LIST:
         assert len(the_dict) == 2 # '__COLUMN_HEADERS__' and 'dataList'
@@ -252,11 +252,11 @@ def add_FGids() -> bool:
         name_list = []
         max_suffix, max_name = 0, ''
         for j1,entry_dict in enumerate(data_row_list):
-            # dPrint('Info', debuggingThisModule, f"{dict_name} {j1} {len(entry_dict)}")
+            # dPrint('Info', DEBUGGING_THIS_MODULE, f"{dict_name} {j1} {len(entry_dict)}")
             new_entry_dict = {}
             FGid = None
             for j2, (entry_key,entry_value) in enumerate(entry_dict.items()):
-                # dPrint('Normal', debuggingThisModule, f"{dict_name} {j1} ({len(entry_dict)}) {j2} {entry_key}={entry_value}")
+                # dPrint('Normal', DEBUGGING_THIS_MODULE, f"{dict_name} {j1} ({len(entry_dict)}) {j2} {entry_key}={entry_value}")
                 if entry_key in COLUMN_NAME_REPLACEMENT_MAP: # Rename the original keys as we go
                     entry_key = COLUMN_NAME_REPLACEMENT_MAP[entry_key]
                 if j2 == 0: # Create an initial FGid
@@ -303,7 +303,7 @@ def add_FGids() -> bool:
         del the_dict['dataList']
         the_dict['__COLUMN_HEADERS__'] = column_header_list # which has been updated
         the_dict['dataDict'] = new_data_dict
-        vPrint('Quiet', debuggingThisModule, f"  Max suffix for {dict_name} was {max_suffix} on {max_name}.")
+        vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Max suffix for {dict_name} was {max_suffix} on {max_name}.")
     return True
 # end of loadGlyssenData.add_FGids()
 
@@ -320,12 +320,12 @@ def clean_data() -> bool:
     Note: it's not written recursively as situational awareness of the various dicts and lists
             is also helpful to know (and the structure isn't THAT deep).
     """
-    vPrint('Quiet', debuggingThisModule, "\nCleaning Glyssen datasets…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nCleaning Glyssen datasets…")
 
     for dict_name,the_dict in DB_LIST:
-        vPrint('Normal', debuggingThisModule, f"  Cleaning {dict_name}…")
+        vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Cleaning {dict_name}…")
         for mainKey, mainData in the_dict.items():
-            # dPrint('Quiet', debuggingThisModule, f"\n    {mainKey} ({len(mainData)}) {mainData}")
+            # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"\n    {mainKey} ({len(mainData)}) {mainData}")
             assert mainKey and mainData and mainKey!='>'
             assert isinstance(mainKey, str) # a person/place/other id/name
             assert mainKey.strip() == mainKey and '  ' not in mainKey # Don't want leading or trailing whitespace
@@ -337,7 +337,7 @@ def clean_data() -> bool:
                     assert isinstance(entry, dict)
                     assert len(entry) == (8 if dict_name=='characters' else 9)
                     for subKey, subData in entry.items():
-                        # dPrint('Quiet', debuggingThisModule, f"    {mainKey=} {subKey=} ({len(subData) if subData is not None else 'None'}) {subData=}")
+                        # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {mainKey=} {subKey=} ({len(subData) if subData is not None else 'None'}) {subData=}")
                         assert subKey and isinstance(subKey, str)
                         assert subKey.strip() == subKey and '  ' not in subKey # Don't want leading or trailing whitespace
                         assert isinstance(subData, str | None)
@@ -367,10 +367,10 @@ def normalise_data() -> bool:
     Optionally: Change references (like parents, siblings, partners, etc. to our ID fields
     """
     global prefixed_our_IDs, people_map, peopleGroups_map, places_map
-    vPrint('Quiet', debuggingThisModule, "\nNormalising Glyssen datasets…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nNormalising Glyssen datasets…")
 
     for name,the_dict in DB_LIST:
-        vPrint('Normal', debuggingThisModule, f"  Normalising {name}…")
+        vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Normalising {name}…")
         # create_combined_name_verse_references(name, the_dict) # Not needed for this dataset
         convert_field_types(name, the_dict)
         adjust_Bible_references(name, the_dict)
@@ -392,19 +392,19 @@ def normalise_data() -> bool:
 #     """
 #     Create combined verse references where one person or place has multiple name fields, esp. OT and NT
 #     """
-#     vPrint('Normal', debuggingThisModule, f"    Creating {dataName} combined individual verse references for all names…")
+#     vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Creating {dataName} combined individual verse references for all names…")
 #     for key,data in dataDict.items():
 #         if key == '__COLUMN_HEADERS__':
 #             continue
-#         dPrint('Info', debuggingThisModule, f"      {key} ({len(data)}) {data}")
+#         dPrint('Info', DEBUGGING_THIS_MODULE, f"      {key} ({len(data)}) {data}")
 #         if len(data['names']) > 1:
 #             combined_individual_verse_references = []
 #             counts_list = []
 #             for name_dict in data['names']:
-#                 # dPrint('Info', debuggingThisModule, f"      {entry} ({len(name_dict)}) {name_dict['individualVerseReferences']=}")
+#                 # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {entry} ({len(name_dict)}) {name_dict['individualVerseReferences']=}")
 #                 counts_list.append(len(name_dict['individualVerseReferences']))
 #                 combined_individual_verse_references += name_dict['individualVerseReferences']
-#             dPrint('Info', debuggingThisModule, f"      {key} ({len(counts_list)}) {counts_list=} sum={sum(counts_list):,}") # {len(combined_individual_verse_references)=}")
+#             dPrint('Info', DEBUGGING_THIS_MODULE, f"      {key} ({len(counts_list)}) {counts_list=} sum={sum(counts_list):,}") # {len(combined_individual_verse_references)=}")
 #             assert len(combined_individual_verse_references) == sum(counts_list)
 #             data['verses'] = combined_individual_verse_references
 
@@ -416,11 +416,11 @@ def convert_field_types(dataName:str, dataDict:dict) -> bool:
     Convert any lists inside strings to real lists
         and convert number strings to integers.
     """
-    fnPrint(debuggingThisModule, "convert_field_types()")
-    vPrint('Normal', debuggingThisModule, f"    Adjusting all verse references for {dataName}…")
+    fnPrint(DEBUGGING_THIS_MODULE, "convert_field_types()")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Adjusting all verse references for {dataName}…")
 
     for key,value in dataDict.items():
-        # dPrint( 'Normal', debuggingThisModule, f"  {dataName} {key}={value}")
+        # dPrint( 'Normal', DEBUGGING_THIS_MODULE, f"  {dataName} {key}={value}")
         if key == '__COLUMN_HEADERS__':
             continue
         # for comma_split_name in ('partners','children','siblings','halfSiblingsSameMother','halfSiblingsSameFather','people','places','peopleGroups', 'peopleBorn','peopleDied'):
@@ -459,9 +459,9 @@ def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
     """
     Change OSIS Bible references like '2Chr.1.14' to 'CH2_1:14'
     """
-    vPrint('Normal', debuggingThisModule, f"    Adjusting all verse references for {dataName}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Adjusting all verse references for {dataName}…")
     for key,value in dataDict.items():
-        # dPrint( 'Normal', debuggingThisModule, f"{value}")
+        # dPrint( 'Normal', DEBUGGING_THIS_MODULE, f"{value}")
         if key == '__COLUMN_HEADERS__':
             continue
         # for name_data in value['names']:
@@ -469,7 +469,7 @@ def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
         #         name_data['individualVerseReferences'][j] = adjust_Bible_reference(ref_string)
         if 'verses' in value:
             for j,ref_string in enumerate(value['verses']):
-                # dPrint( 'Quiet', debuggingThisModule, f"{j} {ref_string=}")
+                # dPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"{j} {ref_string=}")
                 value['verses'][j] = adjust_Bible_reference(ref_string)
 
     return True
@@ -516,7 +516,7 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     Note: This only changes the internal records, not the actual dictionary keys.
             That gets handled later.
     """
-    vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Normalising {dataName} to ensure best known name…")
 
     def get_reference_count(referenceEntry:str) -> int:
         """
@@ -532,12 +532,12 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     for key,value in dataDict.items():
         if key == '__COLUMN_HEADERS__':
             continue
-        # dPrint('Quiet', debuggingThisModule, f"{key=} {value=}")
+        # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"{key=} {value=}")
         old_id = value['FGid'] # Which may or may not match the original key by now
         if old_id.endswith('2') and not old_id[-2].isdigit():
-            # dPrint('Info', debuggingThisModule, f"      {value}")
+            # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {value}")
             base_id = old_id[:-1]
-            # dPrint('Normal', debuggingThisModule, f"      {old_id=} {base_id=} {key}={value}")
+            # dPrint('Normal', DEBUGGING_THIS_MODULE, f"      {old_id=} {base_id=} {key}={value}")
 
             references_count = get_reference_count(dataDict[base_id]['Reference']) if dataName=='characters' else 0
             references_counts = { base_id: references_count }
@@ -558,28 +558,28 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                     max_count, num_maxes = references_count, 1
             if num_maxes == 1:
                 if references_counts[base_id] == max_count:
-                    dPrint('Verbose', debuggingThisModule, f"      Already have best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Verbose', DEBUGGING_THIS_MODULE, f"      Already have best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 else:
-                    dPrint('Verbose', debuggingThisModule, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Verbose', DEBUGGING_THIS_MODULE, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     new_base_id = f'{base_id}1'
-                    dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[base_id]['FGid'] == base_id
                     dataDict[base_id]['FGid'] = new_base_id
                     # We only save the prefixed ID internally -- will fix the keys later
 
                     suffix = list(references_counts.values()).index(max_count) + 1
                     max_id = f'{base_id}{suffix}'
-                    dPrint('Info', debuggingThisModule, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[max_id]['FGid'] == max_id
                     dataDict[max_id]['FGid'] = base_id
                     # We only save the prefixed ID internally -- will fix the keys later
             else: # multiple entries had the same maximum number
                 if references_counts[base_id] == max_count:
-                    dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts} but current one is a candidate")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts} but current one is a candidate")
                 else:
-                    dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 new_base_id = f'{base_id}1'
-                dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 assert dataDict[base_id]['FGid'] == base_id
                 dataDict[base_id]['FGid'] = new_base_id
                 # We only save the prefixed ID internally -- will fix the keys later
@@ -614,7 +614,7 @@ Here is a list of the use of the semantic (and other) tagging characters:
     Note: This only changes the internal records, not the actual dictionary keys.
             That gets handled later.
     """
-    vPrint('Normal', debuggingThisModule, f"    Prefixing our ID fields for {dataName}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Prefixing our ID fields for {dataName}…")
     for key,value in dataDict.items():
         if key == '__COLUMN_HEADERS__':
             continue
@@ -624,7 +624,7 @@ Here is a list of the use of the semantic (and other) tagging characters:
             # NOTE: The following is really only a guess because this dataset
             #           uses -1 for "unknown" which could be 6 or 600,000!
             new_id = f"{'P' if count==1 else 'T' if count==-1 else 'G'}{old_id}" # P=person, G=group, T=tribe/kingdom/nation
-            # dPrint('Info', debuggingThisModule, f"      {old_id=} {new_id=}")
+            # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {old_id=} {new_id=}")
             value['FGid'] = new_id
         # assert dataDict[key]['FGid'] == new_id
         # We only save the prefixed ID internally -- will fix the keys later
@@ -637,10 +637,10 @@ def adjust_links_from_Glyssen_to_our_IDs(dataName:str, dataDict:dict) -> bool:
     """
     Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
     """
-    vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Normalising all internal ID links for {dataName}…")
 
     # Firstly create a cross-index
-    dPrint('Verbose', debuggingThisModule, f"{dataName} {str(dataDict)[:1200]}")
+    dPrint('Verbose', DEBUGGING_THIS_MODULE, f"{dataName} {str(dataDict)[:1200]}")
     # keyName = 'TBDPersonLookup' if dataName=='people' else 'groupName' if dataName=='peopleGroups' else 'TBDPlaceLookup' if dataName=='places' else None
     # if keyName:
     #     unique_name_index = { v[keyName]:k for k,v in dataDict.items() if k != '__COLUMN_HEADERS__' }
@@ -649,10 +649,10 @@ def adjust_links_from_Glyssen_to_our_IDs(dataName:str, dataDict:dict) -> bool:
     for key,data in dataDict.items():
         if key == '__COLUMN_HEADERS__':
             continue
-        # dPrint('Verbose', debuggingThisModule, f"{key}={str(data)[:100]}")
+        # dPrint('Verbose', DEBUGGING_THIS_MODULE, f"{key}={str(data)[:100]}")
         # for fieldName in ('father','mother'): # single entries
         #     if fieldName in data:
-        #         dPrint('Verbose', debuggingThisModule, f"{fieldName}={data[fieldName]}")
+        #         dPrint('Verbose', DEBUGGING_THIS_MODULE, f"{fieldName}={data[fieldName]}")
         #         field_string = data[fieldName]
         #         assert isinstance(field_string, str)
         #         # assert len(field_string) >= 10 # ww.GEN.1.1
@@ -695,7 +695,7 @@ def rebuild_dictionaries(key_name:str) -> bool:
         now-duplicated 'FGid' fields but we'll leave them in for
         maximum future flexibility (at the cost of a little extra hard disk).
     """
-    vPrint('Normal', debuggingThisModule, f"  Rebuilding dictionaries with {key_name}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Rebuilding dictionaries with {key_name}…")
     assert key_name in ('FGid',)
 
     if prefixed_our_IDs: # We can safely combine all the dictionaries into one
@@ -704,7 +704,7 @@ def rebuild_dictionaries(key_name:str) -> bool:
     # These rebuilds retain the original entry orders
     all_count = 0
     for dict_name,the_dict in DB_LIST:
-        # dPrint('Normal', debuggingThisModule, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
+        # dPrint('Normal', DEBUGGING_THIS_MODULE, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
         assert '__HEADERS__' not in the_dict # and '__HEADERS__' not in the_dict['dataDict']
         column_headers_list = the_dict['__COLUMN_HEADERS__']
         if 'dataDict' in the_dict:
@@ -726,7 +726,7 @@ def rebuild_dictionaries(key_name:str) -> bool:
     if prefixed_our_IDs: # We can safely combine all the dictionaries into one
         try: del allEntries['__COLUMN_HEADERS__'] # it's irrelevant
         except KeyError: pass
-        dPrint('Quiet', debuggingThisModule, f"    Got {len(allEntries):,} 'all' entries")
+        dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    Got {len(allEntries):,} 'all' entries")
         assert len(allEntries) == all_count
 
     return True
@@ -739,10 +739,10 @@ def check_data() -> bool:
 
     Create stats for numbered and non-numbered people, places, etc.
     """
-    # vPrint('Quiet', debuggingThisModule, "\nCross-checking Glyssen datasets…")
+    # vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nCross-checking Glyssen datasets…")
 
     # for name,the_dict in DB_LIST:
-    #     vPrint('Normal', debuggingThisModule, f"  Cross-checking {name}…")
+    #     vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Cross-checking {name}…")
     return True
 # end of loadGlyssenData.check_data()
 
@@ -752,18 +752,18 @@ def export_JSON(subType:str) -> bool:
     Export the dictionaries as JSON.
     """
     assert subType
-    vPrint('Quiet', debuggingThisModule, f"\nExporting {subType} JSON GlyssenData files…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nExporting {subType} JSON GlyssenData files…")
 
     for dict_name,the_dict in ALL_DB_LIST:
         if the_dict:
-            # dPrint('Normal', debuggingThisModule, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
+            # dPrint('Normal', DEBUGGING_THIS_MODULE, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
             if len(the_dict) == 2:
                 assert '__COLUMN_HEADERS__' in the_dict and 'dataList' in the_dict
                 data_length = len(the_dict['dataList'])
             elif dict_name == 'all': data_length = len(the_dict)
             else: data_length = len(the_dict) - 1
             filepath = GlyssenData_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {data_length:,} {dict_name} to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {data_length:,} {dict_name} to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 # WARNING: The following code would convert any int keys to str !!!
                 json.dump( HEADER_DICT | the_dict, outputFile, ensure_ascii=False, indent=2 )
@@ -776,9 +776,9 @@ def export_xml(subType:str) -> bool:
     """
     """
     assert subType
-    vPrint('Quiet', debuggingThisModule, f"\nExporting {subType} XML GlyssenData file…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nExporting {subType} XML GlyssenData file…")
 
-    # vPrint( 'Quiet', debuggingThisModule, f"  NOT Wrote {len(xml_lines):,} XML lines.")
+    # vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  NOT Wrote {len(xml_lines):,} XML lines.")
     return True
 # end of loadGlyssenData.export_xml()
 
@@ -788,7 +788,7 @@ def export_verse_index() -> bool:
     Pivot the data to determine which names exist in each verse,
         and save this in JSON.
     """
-    vPrint('Quiet', debuggingThisModule, f"\nCalculating and exporting index files…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nCalculating and exporting index files…")
     subType = 'normalised'
     for dict_name,the_dict in ALL_DB_LIST:
         keyName = 'Character ID'
@@ -820,12 +820,12 @@ def export_verse_index() -> bool:
         # Save the dicts as JSON files
         if ref_index_dict:
             filepath = GlyssenData_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_verseRef_index.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(ref_index_dict):,} verse ref index entries to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {len(ref_index_dict):,} verse ref index entries to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 json.dump( HEADER_DICT | ref_index_dict, outputFile, ensure_ascii=False, indent=2 )
         if GlyssenData_index_dict:
             filepath = GlyssenData_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_GlyssenData_index.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(GlyssenData_index_dict):,} GlyssenData index entries to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {len(GlyssenData_index_dict):,} GlyssenData index entries to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 json.dump( HEADER_DICT | GlyssenData_index_dict, outputFile, ensure_ascii=False, indent=2 )
 

@@ -59,9 +59,9 @@ LAST_MODIFIED_DATE = '2022-08-11' # by RJH
 SHORT_PROGRAM_NAME = "loadTheographicBibleData"
 PROGRAM_NAME = "Load Viz.Bible Theographic Bible Data exported CSV tables"
 PROGRAM_VERSION = '0.23'
-programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
+PROGRAM_NAME_VERSION = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
-debuggingThisModule = False
+DEBUGGING_THIS_MODULE = False
 
 
 SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING = '2022-07-24'
@@ -71,7 +71,7 @@ PREFIX_OUR_IDS_FLAG = True
 # Create a header to go in the data files
 HEADER_DICT = { '__HEADERS__':
     {
-    'conversion_software': programNameVersion,
+    'conversion_software': PROGRAM_NAME_VERSION,
     'conversion_software_last_modified_date': LAST_MODIFIED_DATE,
     'source_data_last_downloaded_date': SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING,
     'conversion_date': str(date.today()),
@@ -127,7 +127,7 @@ COLUMN_NAME_REPLACEMENT_MAP = {'personLookup':'TBDPersonLookup', 'personID':'TBD
 def main() -> None:
     """
     """
-    BibleOrgSysGlobals.introduceProgram( __name__, programNameVersion, LAST_MODIFIED_DATE )
+    BibleOrgSysGlobals.introduceProgram( __name__, PROGRAM_NAME_VERSION, LAST_MODIFIED_DATE )
 
     if load_all_TheographicBibleData_data():
         # if clean_data():
@@ -135,7 +135,7 @@ def main() -> None:
             # export_xml('raw')
             if add_FGids():
                 rebuild_dictionaries('FGid')
-                # if debuggingThisModule:
+                # if DEBUGGING_THIS_MODULE:
                 export_JSON('mid')
                 if normalise_data() and check_data():
                     rebuild_dictionaries('FGid')
@@ -164,8 +164,8 @@ def load_all_TheographicBibleData_data() -> bool:
     """
     This is quite quick.
     """
-    fnPrint(debuggingThisModule, "load_all_TheographicBibleData_data()")
-    vPrint('Quiet', debuggingThisModule, f"\nFinding TheographicBibleData CSV files from {TheographicBibleData_INPUT_FOLDERPATH}…")
+    fnPrint(DEBUGGING_THIS_MODULE, "load_all_TheographicBibleData_data()")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nFinding TheographicBibleData CSV files from {TheographicBibleData_INPUT_FOLDERPATH}…")
 
     db_count = 0
     for name, db in DB_LIST:
@@ -174,7 +174,7 @@ def load_all_TheographicBibleData_data() -> bool:
             db['__COLUMN_HEADERS__'], db['dataList'] = result
             db_count += 1
 
-    vPrint('Quiet', debuggingThisModule, f"{db_count:,} tables loaded from TheographicBibleData CSV files.")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"{db_count:,} tables loaded from TheographicBibleData CSV files.")
     return True
 # end of loadTheographicBibleData.load_all_TheographicBibleData_data()
 
@@ -186,7 +186,7 @@ def load_individual_TheographicBibleData_CSV_file(which:str) -> Tuple[List[str],
     We return a list of column headers (strings)
     as well as the list of entries (dicts).
     """
-    fnPrint(debuggingThisModule, "load_individual_TheographicBibleData_CSV_file()")
+    fnPrint(DEBUGGING_THIS_MODULE, "load_individual_TheographicBibleData_CSV_file()")
 
     csv_filename = f'{which.lower() if which=="Easton" else which}-Grid view.csv'
     try_filepath = TheographicBibleData_INPUT_FOLDERPATH.joinpath(csv_filename)
@@ -197,21 +197,21 @@ def load_individual_TheographicBibleData_CSV_file(which:str) -> Tuple[List[str],
             logging.error(f"Unable to load {which} csv from {TheographicBibleData_INPUT_FOLDERPATH} {csv_filename}")
             return
         try_filepath = Path('../'*(tries-1)).joinpath(TheographicBibleData_INPUT_FOLDERPATH).joinpath(csv_filename)
-        vPrint('Quiet', debuggingThisModule, f"  Trying to find TheographicBibleData {which} CSV file at {try_filepath}…")
+        vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Trying to find TheographicBibleData {which} CSV file at {try_filepath}…")
 
-    vPrint('Quiet', debuggingThisModule,
+    vPrint('Quiet', DEBUGGING_THIS_MODULE,
         f"  Loading TheographicBibleData {which} table from {try_filepath if BibleOrgSysGlobals.verbosityLevel > 2 else csv_filename}…")
     with open(try_filepath, 'rt', encoding='utf-8') as csv_file:
         csv_lines = csv_file.readlines()
 
     # Remove BOM
     if csv_lines[0].startswith("\ufeff"):
-        vPrint('Quiet', debuggingThisModule, f"  Removing Byte Order Marker (BOM) from start of {which} CSV file…")
+        vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Removing Byte Order Marker (BOM) from start of {which} CSV file…")
         csv_lines[0] = csv_lines[0][1:]
 
     # Get the headers before we start
     original_column_headers = [ header for header in csv_lines[0].strip().split(',') ]  # assumes no commas in headings
-    dPrint('Info', debuggingThisModule, f"  Original column headers: ({len(original_column_headers)}): {original_column_headers}")
+    dPrint('Info', DEBUGGING_THIS_MODULE, f"  Original column headers: ({len(original_column_headers)}): {original_column_headers}")
 
     # Read, check the number of columns, and summarise row contents all in one go
     dict_reader = DictReader(csv_lines)
@@ -240,17 +240,17 @@ def load_individual_TheographicBibleData_CSV_file(which:str) -> Tuple[List[str],
         if 'era' in row: eras[row['era']] += 1
         if 'BC-AD' in row: bc_ad[row['BC-AD']] += 1
         csv_rows.append(row)
-    vPrint('Quiet', debuggingThisModule, f"  Loaded {len(csv_rows):,} '{which}' data rows.")
-    if genders: vPrint('Normal', debuggingThisModule, f"    Genders: {str(genders).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if occupations: vPrint('Normal', debuggingThisModule, f"    Occupations: {str(occupations).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if featureTypes: vPrint('Normal', debuggingThisModule, f"    FeatureTypes: {str(featureTypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if featureSubtypes: vPrint('Normal', debuggingThisModule, f"    FeatureSubtypes: {str(featureSubtypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if precisions: vPrint('Normal', debuggingThisModule, f"    Precisions: {str(precisions).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if comments: vPrint('Normal', debuggingThisModule, f"    Comments: {str(comments).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if rangeFlags: vPrint('Normal', debuggingThisModule, f"    RangeFlags: {str(rangeFlags).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if lagTypes: vPrint('Normal', debuggingThisModule, f"    LagTypes: {str(lagTypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if eras: vPrint('Normal', debuggingThisModule, f"    Eras: {str(eras).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
-    if bc_ad: vPrint('Normal', debuggingThisModule, f"    BC/AD: {str(bc_ad).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Loaded {len(csv_rows):,} '{which}' data rows.")
+    if genders: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Genders: {str(genders).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if occupations: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Occupations: {str(occupations).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if featureTypes: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    FeatureTypes: {str(featureTypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if featureSubtypes: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    FeatureSubtypes: {str(featureSubtypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if precisions: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Precisions: {str(precisions).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if comments: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Comments: {str(comments).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if rangeFlags: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    RangeFlags: {str(rangeFlags).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if lagTypes: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    LagTypes: {str(lagTypes).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if eras: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Eras: {str(eras).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
+    if bc_ad: vPrint('Normal', DEBUGGING_THIS_MODULE, f"    BC/AD: {str(bc_ad).replace('''defaultdict(<class 'int'>, {''','').replace('})','')}")
 
     return original_column_headers, csv_rows
 # end of loadTheographicBibleData.load_individual_TheographicBibleData_CSV_file()
@@ -262,8 +262,8 @@ def add_FGids() -> bool:
         and add our Freely-Given ids,
         while at the same time converting the data from a list into a dict.
     """
-    fnPrint(debuggingThisModule, "add_FGids()")
-    vPrint('Quiet', debuggingThisModule, "\nAdding Freely-Given IDs to raw data…")
+    fnPrint(DEBUGGING_THIS_MODULE, "add_FGids()")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nAdding Freely-Given IDs to raw data…")
 
     for dict_name,the_dict in DB_LIST:
         assert len(the_dict) == 2 # '__COLUMN_HEADERS__' and 'dataList'
@@ -278,10 +278,10 @@ def add_FGids() -> bool:
         new_data_dict = {}
         name_list = []
         for j1,entry_dict in enumerate(data_row_list):
-            # dPrint('Info', debuggingThisModule, f"{dict_name} {j1} {len(entry_dict)}")
+            # dPrint('Info', DEBUGGING_THIS_MODULE, f"{dict_name} {j1} {len(entry_dict)}")
             new_entry_dict = {}
             for j2, (entry_key,entry_value) in enumerate(entry_dict.items()):
-                # dPrint('Info', debuggingThisModule, f"{dict_name} {j1} {len(entry_dict)} {j2} {entry_key} {entry_value}")
+                # dPrint('Info', DEBUGGING_THIS_MODULE, f"{dict_name} {j1} {len(entry_dict)} {j2} {entry_key} {entry_value}")
                 if entry_key in COLUMN_NAME_REPLACEMENT_MAP: # Rename the original keys as we go
                     entry_key = COLUMN_NAME_REPLACEMENT_MAP[entry_key]
                 if j2 == 0: # Create an initial FGid
@@ -312,7 +312,7 @@ def add_FGids() -> bool:
         del the_dict['dataList']
         the_dict['__COLUMN_HEADERS__'] = column_header_list # which has been updated
         the_dict['dataDict'] = new_data_dict
-    # vPrint('Quiet', debuggingThisModule, f"{db_count:,} tables loaded from TheographicBibleData CSV files.")
+    # vPrint('Quiet', DEBUGGING_THIS_MODULE, f"{db_count:,} tables loaded from TheographicBibleData CSV files.")
     return True
 # end of loadTheographicBibleData.add_FGids()
 
@@ -329,12 +329,12 @@ def add_FGids() -> bool:
 #     Note: it's not written recursively as situational awareness of the various dicts and lists
 #             is also helpful to know (and the structure isn't THAT deep).
 #     """
-#     vPrint('Quiet', debuggingThisModule, "\nCleaning TheographicBibleData datasets…")
+#     vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nCleaning TheographicBibleData datasets…")
 
 #     for dict_name,the_dict in DB_LIST:
-#         vPrint('Normal', debuggingThisModule, f"  Cleaning {dict_name}…")
+#         vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Cleaning {dict_name}…")
 #         for mainKey, mainData in the_dict.items():
-#             # dPrint('Quiet', debuggingThisModule, f"    {mainKey} ({len(mainData)}) {mainData}")
+#             # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {mainKey} ({len(mainData)}) {mainData}")
 #             assert mainKey and mainData and mainKey!='>'
 #             assert isinstance(mainKey, str) # a person/place/other id/name
 #             assert mainKey.strip() == mainKey and '  ' not in mainKey # Don't want leading or trailing whitespace
@@ -342,25 +342,25 @@ def add_FGids() -> bool:
 #                 assert mainData.strip() == mainData and '  ' not in mainData # Don't want leading or trailing whitespace
 #             else: # dict
 #                 for subKey, subData in mainData.items():
-#                     # dPrint('Quiet', debuggingThisModule, f"    {mainKey=} {subKey=} ({len(subData)}) {subData=}")
+#                     # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {mainKey=} {subKey=} ({len(subData)}) {subData=}")
 #                     assert subKey and subData and subKey!='>'
 #                     assert isinstance(subKey, str)
 #                     assert subKey.strip() == subKey and '  ' not in subKey # Don't want leading or trailing whitespace
 #                     if isinstance(subData, str):
 #                         assert subData and subData!='>'
 #                         if '  ' in subData:
-#                             dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} '{subData}'")
+#                             dPrint('Info', DEBUGGING_THIS_MODULE, f"  Cleaning {mainKey=} {subKey=} '{subData}'")
 #                             mainData[subKey] = subData = subData.replace('  ',' ')
 #                         assert subData.strip() == subData and '  ' not in subData # Don't want leading or trailing whitespace
 #                     else: # dict
 #                         for sub2Key, sub2Data in subData.items():
-#                             # dPrint('Quiet', debuggingThisModule, f"    {sub2Key} ({len(sub2Data)}) {sub2Data}")
+#                             # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {sub2Key} ({len(sub2Data)}) {sub2Data}")
 #                             assert sub2Key and sub2Data
 #                             assert isinstance(sub2Key, str) and sub2Key!='>'
 #                             assert sub2Key.strip() == sub2Key and '  ' not in sub2Key # Don't want leading or trailing whitespace
 #                             assert isinstance(sub2Data, dict)
 #                             for sub3Key, sub3Data in sub2Data.items():
-#                                 # dPrint('Quiet', debuggingThisModule, f"    {sub3Key} ({len(sub3Data)}) {sub3Data}")
+#                                 # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {sub3Key} ({len(sub3Data)}) {sub3Data}")
 #                                 assert sub3Key and sub3Data
 #                                 assert isinstance(sub3Key, str) and sub3Key!='>'
 #                                 assert sub3Key.strip() == sub3Key and '  ' not in sub3Key # Don't want leading or trailing whitespace
@@ -393,11 +393,11 @@ def normalise_data() -> bool:
     Optionally: Change references (like parents, siblings, partners, etc. to our ID fields
     """
     global prefixed_our_IDs, people_map, peopleGroups_map, places_map, events_map
-    vPrint('Quiet', debuggingThisModule, "\nNormalising TheographicBibleData datasets…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nNormalising TheographicBibleData datasets…")
 
     for name,the_dict in DB_LIST:
         # if name not in ('books', 'chapters', 'verses', 'periods', 'Easton', ):
-        vPrint('Normal', debuggingThisModule, f"  Normalising {name}…")
+        vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Normalising {name}…")
         # create_combined_name_verse_references(name, the_dict) # Not needed for this dataset
         convert_field_types(name, the_dict)
         adjust_Bible_references(name, the_dict)
@@ -421,19 +421,19 @@ def normalise_data() -> bool:
 #     """
 #     Create combined verse references where one person or place has multiple name fields, esp. OT and NT
 #     """
-#     vPrint('Normal', debuggingThisModule, f"    Creating {dataName} combined individual verse references for all names…")
+#     vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Creating {dataName} combined individual verse references for all names…")
 #     for key,data in dataDict.items():
 #         if key == '__COLUMN_HEADERS__':
 #             continue
-#         dPrint('Info', debuggingThisModule, f"      {key} ({len(data)}) {data}")
+#         dPrint('Info', DEBUGGING_THIS_MODULE, f"      {key} ({len(data)}) {data}")
 #         if len(data['names']) > 1:
 #             combined_individual_verse_references = []
 #             counts_list = []
 #             for name_dict in data['names']:
-#                 # dPrint('Info', debuggingThisModule, f"      {entry} ({len(name_dict)}) {name_dict['individualVerseReferences']=}")
+#                 # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {entry} ({len(name_dict)}) {name_dict['individualVerseReferences']=}")
 #                 counts_list.append(len(name_dict['individualVerseReferences']))
 #                 combined_individual_verse_references += name_dict['individualVerseReferences']
-#             dPrint('Info', debuggingThisModule, f"      {key} ({len(counts_list)}) {counts_list=} sum={sum(counts_list):,}") # {len(combined_individual_verse_references)=}")
+#             dPrint('Info', DEBUGGING_THIS_MODULE, f"      {key} ({len(counts_list)}) {counts_list=} sum={sum(counts_list):,}") # {len(combined_individual_verse_references)=}")
 #             assert len(combined_individual_verse_references) == sum(counts_list)
 #             data['verses'] = combined_individual_verse_references
 
@@ -445,11 +445,11 @@ def convert_field_types(dataName:str, dataDict:dict) -> bool:
     Convert any lists inside strings to real lists
         and convert number strings to integers.
     """
-    fnPrint(debuggingThisModule, "convert_field_types()")
-    vPrint('Normal', debuggingThisModule, f"    Adjusting all verse references for {dataName}…")
+    fnPrint(DEBUGGING_THIS_MODULE, "convert_field_types()")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Adjusting all verse references for {dataName}…")
 
     for key,value in dataDict.items():
-        # dPrint( 'Normal', debuggingThisModule, f"  {dataName} {key}={value}")
+        # dPrint( 'Normal', DEBUGGING_THIS_MODULE, f"  {dataName} {key}={value}")
         if key == '__COLUMN_HEADERS__':
             continue
         for comma_split_name in ('partners','children','siblings','halfSiblingsSameMother','halfSiblingsSameFather','people','places','peopleGroups', 'peopleBorn','peopleDied',
@@ -527,9 +527,9 @@ def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
     """
     Change OSIS Bible references like '2Chr.1.14' to 'CH2_1:14'
     """
-    vPrint('Normal', debuggingThisModule, f"    Adjusting all verse references for {dataName}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Adjusting all verse references for {dataName}…")
     for key,value in dataDict.items():
-        # dPrint( 'Normal', debuggingThisModule, f"{value}")
+        # dPrint( 'Normal', DEBUGGING_THIS_MODULE, f"{value}")
         if key == '__COLUMN_HEADERS__':
             continue
         # for name_data in value['names']:
@@ -537,7 +537,7 @@ def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
         #         name_data['individualVerseReferences'][j] = adjust_Bible_reference(ref_string)
         if 'verses' in value:
             for j,ref_string in enumerate(value['verses']):
-                # dPrint( 'Quiet', debuggingThisModule, f"{j} {ref_string=}")
+                # dPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"{j} {ref_string=}")
                 value['verses'][j] = adjust_Bible_reference(ref_string)
 
     return True
@@ -584,19 +584,19 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     Note: This only changes the internal records, not the actual dictionary keys.
             That gets handled later.
     """
-    vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Normalising {dataName} to ensure best known name…")
     if dataName in ('books','chapters','verses'): # nothing to do here
         return False
 
     for key,value in dataDict.items():
         if key == '__COLUMN_HEADERS__':
             continue
-        dPrint('Verbose', debuggingThisModule, f"{key=} {value=}")
+        dPrint('Verbose', DEBUGGING_THIS_MODULE, f"{key=} {value=}")
         old_id = value['FGid'] # Which may or may not match the original key by now
         if old_id.endswith('2') and not old_id[-2].isdigit():
-            # dPrint('Info', debuggingThisModule, f"      {value}")
+            # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {value}")
             base_id = old_id[:-1]
-            # dPrint('Normal', debuggingThisModule, f"      {old_id=} {base_id=} {key}={value}")
+            # dPrint('Normal', DEBUGGING_THIS_MODULE, f"      {old_id=} {base_id=} {key}={value}")
             references_count = dataDict[base_id]['verseCount']
             references_counts = { base_id: references_count }
             max_count, num_maxes, second_highest = references_count, 1, 0
@@ -614,28 +614,28 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                     max_count, num_maxes = references_count, 1
             if num_maxes == 1:
                 if references_counts[base_id] == max_count:
-                    dPrint('Verbose', debuggingThisModule, f"      Already have best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Verbose', DEBUGGING_THIS_MODULE, f"      Already have best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 else:
-                    dPrint('Verbose', debuggingThisModule, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Verbose', DEBUGGING_THIS_MODULE, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     new_base_id = f'{base_id}1'
-                    dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[base_id]['FGid'] == base_id
                     dataDict[base_id]['FGid'] = new_base_id
                     # We only save the prefixed ID internally -- will fix the keys later
 
                     suffix = list(references_counts.values()).index(max_count) + 1
                     max_id = f'{base_id}{suffix}'
-                    dPrint('Info', debuggingThisModule, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[max_id]['FGid'] == max_id
                     dataDict[max_id]['FGid'] = base_id
                     # We only save the prefixed ID internally -- will fix the keys later
             else: # multiple entries had the same maximum number
                 if references_counts[base_id] == max_count:
-                    dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts} but current one is a candidate")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts} but current one is a candidate")
                 else:
-                    dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 new_base_id = f'{base_id}1'
-                dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 assert dataDict[base_id]['FGid'] == base_id
                 dataDict[base_id]['FGid'] = new_base_id
                 # We only save the prefixed ID internally -- will fix the keys later
@@ -664,7 +664,7 @@ Here is a list of the use of the semantic (and other) tagging characters:
     Note: This only changes the internal records, not the actual dictionary keys.
             That gets handled later.
     """
-    vPrint('Normal', debuggingThisModule, f"    Prefixing our ID fields for {dataName}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Prefixing our ID fields for {dataName}…")
     try: default_prefix = PREFIX_MAP[dataName]
     except KeyError: return False
     for key,value in dataDict.items():
@@ -672,7 +672,7 @@ Here is a list of the use of the semantic (and other) tagging characters:
             continue
         old_id = value['FGid']
         new_id = f'{default_prefix}{old_id}'
-        # dPrint('Info', debuggingThisModule, f"      {old_id=} {new_id=}")
+        # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {old_id=} {new_id=}")
         value['FGid'] = new_id
         # assert dataDict[key]['FGid'] == new_id
         # We only save the prefixed ID internally -- will fix the keys later
@@ -685,17 +685,17 @@ def adjust_links_from_Theographic_to_our_IDs(dataName:str, dataDict:dict) -> boo
     """
     Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
     """
-    vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
-    # dPrint('Verbose', debuggingThisModule, f"{dataName} {str(dataDict)[:1200]}")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Normalising all internal ID links for {dataName}…")
+    # dPrint('Verbose', DEBUGGING_THIS_MODULE, f"{dataName} {str(dataDict)[:1200]}")
 
     # Now make any necessary adjustments
     for key,data in dataDict.items():
         if key == '__COLUMN_HEADERS__':
             continue
-        dPrint('Verbose', debuggingThisModule, f"{key}={str(data)[:100]}")
+        dPrint('Verbose', DEBUGGING_THIS_MODULE, f"{key}={str(data)[:100]}")
         for fieldName in ('father','mother'): # single entries
             if fieldName in data:
-                # dPrint('Verbose', debuggingThisModule, f"{fieldName}={data[fieldName]}")
+                # dPrint('Verbose', DEBUGGING_THIS_MODULE, f"{fieldName}={data[fieldName]}")
                 field_string = data[fieldName]
                 assert isinstance(field_string, str)
                 if field_string:
@@ -731,7 +731,7 @@ F
         now-duplicated 'FGid' fields but we'll leave them in for
         maximum future flexibility (at the cost of a little extra hard disk).
     """
-    vPrint('Normal', debuggingThisModule, f"  Rebuilding dictionaries with {key_name}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Rebuilding dictionaries with {key_name}…")
     assert key_name in ('FGid',)
 
     if prefixed_our_IDs: # We can safely combine all the dictionaries into one
@@ -740,7 +740,7 @@ F
     # These rebuilds retain the original entry orders
     all_count = 0
     for dict_name,the_dict in DB_LIST:
-        # dPrint('Normal', debuggingThisModule, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
+        # dPrint('Normal', DEBUGGING_THIS_MODULE, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
         assert '__HEADERS__' not in the_dict # and '__HEADERS__' not in the_dict['dataDict']
         column_headers_list = the_dict['__COLUMN_HEADERS__']
         if 'dataDict' in the_dict:
@@ -761,7 +761,7 @@ F
 
     if prefixed_our_IDs: # We can safely combine all the dictionaries into one
         del allEntries['__COLUMN_HEADERS__'] # it's irrelevant
-        dPrint('Quiet', debuggingThisModule, f"    Got {len(allEntries):,} 'all' entries")
+        dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    Got {len(allEntries):,} 'all' entries")
         assert len(allEntries) == all_count
 
     return True
@@ -774,10 +774,10 @@ def check_data() -> bool:
 
     Create stats for numbered and non-numbered people, places, etc.
     """
-    # vPrint('Quiet', debuggingThisModule, "\nCross-checking TheographicBibleData datasets…")
+    # vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nCross-checking TheographicBibleData datasets…")
 
     # for name,the_dict in DB_LIST:
-    #     vPrint('Normal', debuggingThisModule, f"  Cross-checking {name}…")
+    #     vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Cross-checking {name}…")
     return True
 # end of loadTheographicBibleData.check_data()
 
@@ -787,18 +787,18 @@ def export_JSON(subType:str) -> bool:
     Export the dictionaries as JSON.
     """
     assert subType
-    vPrint('Quiet', debuggingThisModule, f"\nExporting {subType} JSON TheographicBibleData files…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nExporting {subType} JSON TheographicBibleData files…")
 
     for dict_name,the_dict in ALL_DB_LIST:
         if the_dict:
-            # dPrint('Normal', debuggingThisModule, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
+            # dPrint('Normal', DEBUGGING_THIS_MODULE, f"  {dict_name=} ({len(the_dict)}) {the_dict.keys()}")
             if len(the_dict) == 2:
                 assert '__COLUMN_HEADERS__' in the_dict and 'dataList' in the_dict
                 data_length = len(the_dict['dataList'])
             elif dict_name == 'all': data_length = len(the_dict)
             else: data_length = len(the_dict) - 1
             filepath = TheographicBibleData_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {data_length:,} {dict_name} to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {data_length:,} {dict_name} to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 # WARNING: The following code would convert any int keys to str !!!
                 json.dump( HEADER_DICT | the_dict, outputFile, ensure_ascii=False, indent=2 )
@@ -811,9 +811,9 @@ def export_xml(subType:str) -> bool:
     """
     """
     assert subType
-    vPrint('Quiet', debuggingThisModule, f"\nExporting {subType} XML TheographicBibleData file…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nExporting {subType} XML TheographicBibleData file…")
 
-    # vPrint( 'Quiet', debuggingThisModule, f"  NOT Wrote {len(xml_lines):,} XML lines.")
+    # vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  NOT Wrote {len(xml_lines):,} XML lines.")
     return True
 # end of loadTheographicBibleData.export_xml()
 
@@ -823,7 +823,7 @@ def export_verse_index() -> bool:
     Pivot the data to determine which names exist in each verse,
         and save this in JSON.
     """
-    vPrint('Quiet', debuggingThisModule, f"\nCalculating and exporting index files…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nCalculating and exporting index files…")
     subType = 'normalised'
     for dict_name,the_dict in ALL_DB_LIST:
         keyName = 'TBDPersonLookup' if dict_name=='people' else 'groupName' if dict_name=='peopleGroups' else 'TBDPlaceLookup' if dict_name=='places' else None
@@ -855,12 +855,12 @@ def export_verse_index() -> bool:
         # Save the dicts as JSON files
         if ref_index_dict:
             filepath = TheographicBibleData_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_verseRef_index.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(ref_index_dict):,} verse ref index entries to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {len(ref_index_dict):,} verse ref index entries to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 json.dump( HEADER_DICT | ref_index_dict, outputFile, ensure_ascii=False, indent=2 )
         if TheographicBibleData_index_dict:
             filepath = TheographicBibleData_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_TheographicBibleData_index.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(TheographicBibleData_index_dict):,} TheographicBibleData index entries to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {len(TheographicBibleData_index_dict):,} TheographicBibleData index entries to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 json.dump( HEADER_DICT | TheographicBibleData_index_dict, outputFile, ensure_ascii=False, indent=2 )
 

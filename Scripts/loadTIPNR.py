@@ -57,9 +57,9 @@ LAST_MODIFIED_DATE = '2022-08-10' # by RJH
 SHORT_PROGRAM_NAME = "loadTIPNR"
 PROGRAM_NAME = "Load Translators Individualised Proper Names file"
 PROGRAM_VERSION = '0.55'
-programNameVersion = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
+PROGRAM_NAME_VERSION = f'{SHORT_PROGRAM_NAME} v{PROGRAM_VERSION}'
 
-debuggingThisModule = False
+DEBUGGING_THIS_MODULE = False
 
 SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING = '2022-07-20'
 
@@ -70,7 +70,7 @@ PREFIX_OUR_IDS_FLAG = True
 # Create a header to go in the data files
 HEADER_DICT = { '__HEADERS__':
     {
-    'conversion_software': programNameVersion,
+    'conversion_software': PROGRAM_NAME_VERSION,
     'conversion_software_last_modified_date': LAST_MODIFIED_DATE,
     'source_data_last_downloaded_date': SOURCE_DATA_LAST_DOWNLOADED_DATE_STRING,
     'conversion_date': str(date.today()),
@@ -115,7 +115,7 @@ assert len(BOS_BOOK_ID_MAP) == 66
 def main() -> None:
     """
     """
-    BibleOrgSysGlobals.introduceProgram( __name__, programNameVersion, LAST_MODIFIED_DATE )
+    BibleOrgSysGlobals.introduceProgram( __name__, PROGRAM_NAME_VERSION, LAST_MODIFIED_DATE )
 
     if load_TIPNR_data():
         if clean_data():
@@ -123,7 +123,7 @@ def main() -> None:
             export_JSON('raw')
             export_xml('raw')
             rebuild_dictionaries('FGid')
-            # if debuggingThisModule:
+            # if DEBUGGING_THIS_MODULE:
             export_JSON('mid')
             if normalise_data() and check_data():
                 rebuild_dictionaries('FGid')
@@ -142,23 +142,23 @@ def load_TIPNR_data() -> bool:
     """
     This is quite quick.
     """
-    fnPrint(debuggingThisModule, "load_TIPNR_data()")
-    vPrint('Quiet', debuggingThisModule, f"\nFinding TIPNR TSV file starting at {TIPNR_INPUT_FILEPATH}…")
+    fnPrint(DEBUGGING_THIS_MODULE, "load_TIPNR_data()")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nFinding TIPNR TSV file starting at {TIPNR_INPUT_FILEPATH}…")
 
     try_filepath = TIPNR_INPUT_FILEPATH
     while not os.access(try_filepath, os.R_OK):
         if try_filepath == TIPNR_INPUT_FILEPATH: try_filepath = TIPNR_INPUT_FILENAME
         else: try_filepath = f'../{try_filepath}'
         if try_filepath.startswith('../'*4): break
-        vPrint('Quiet', debuggingThisModule, f"  Trying to find TIPNR TSV file at {try_filepath}…")
+        vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Trying to find TIPNR TSV file at {try_filepath}…")
 
-    vPrint('Quiet', debuggingThisModule, f"  Loading TIPNR TSV file from {try_filepath}…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"  Loading TIPNR TSV file from {try_filepath}…")
     in_data = in_annotatedExamples = False
     with open(try_filepath, 'rt', encoding='utf-8') as text_file:
         for j, line in enumerate(text_file):
             line = line.rstrip('\n')
             # if in_annotatedExamples:
-            #     dPrint('Normal', debuggingThisModule, f"{j:5} {in_data=} {line=}")
+            #     dPrint('Normal', DEBUGGING_THIS_MODULE, f"{j:5} {in_data=} {line=}")
             if line.startswith('ANNOTATED EXAMPLES'):
                 break # At the end of valid data
             #     assert not in_data
@@ -299,7 +299,7 @@ def load_TIPNR_data() -> bool:
             else:
                 xml_lines.append(f"<-- {line} -->")
 
-    vPrint('Quiet', debuggingThisModule, f"    {j:,} lines loaded from TIPNR TSV.")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {j:,} lines loaded from TIPNR TSV.")
     return True
 # end of loadTIPNR.load_TIPNR_data()
 
@@ -312,7 +312,7 @@ def process_and_add_person( raw_data: dict) -> bool:
     (Later we will convert that to "Fred1, Fred2, Fred3"
         and if Fred3 is the most well-known one, to "Fred1, Fred2, Fred".)
     """
-    # fnPrint(debuggingThisModule, f"\nprocess_and_add_person( {raw_data} )")
+    # fnPrint(DEBUGGING_THIS_MODULE, f"\nprocess_and_add_person( {raw_data} )")
     new_person = {}
 
     # UnifiedName is something like 'Aaron@Exo.4.14=H0175'
@@ -332,7 +332,7 @@ def process_and_add_person( raw_data: dict) -> bool:
     new_person['name'] = name
     new_person['unifiedNameTIPNR'] = unifiedName
     # if unifiedName != uniqueName:
-    #     dPrint('Normal', debuggingThisModule, f"  Person '{FGid}' {unifiedName=} vs {uniqueName=}")
+    #     dPrint('Normal', DEBUGGING_THIS_MODULE, f"  Person '{FGid}' {unifiedName=} vs {uniqueName=}")
     #     new_person['uniqueNameTIPNR'] = uniqueName
     new_person['uStrongs'] = uStrongs
 
@@ -372,7 +372,7 @@ def process_and_add_person( raw_data: dict) -> bool:
         del raw_data['Tribe/Nation']
 
     for raw_name_data in raw_data['Names']:
-        # dPrint('Normal', debuggingThisModule, f"  Person {raw_name_data=}")
+        # dPrint('Normal', DEBUGGING_THIS_MODULE, f"  Person {raw_name_data=}")
         if 'names' not in new_person:
             new_person['names'] = []
         new_person_name = {}
@@ -518,13 +518,13 @@ def process_and_add_person( raw_data: dict) -> bool:
         logging.critical("Have duplicate person 'Ben-Geber@1Ki.4.13' (Ben-Geber2)")
     else:
         people[FGid] = new_person # We use FGid as the key to create the original dicts
-    # dPrint('Quiet', debuggingThisModule, f"\n{len(people)} {new_person=}")
+    # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"\n{len(people)} {new_person=}")
     return True
 
 def process_and_add_place( raw_data: dict) -> bool:
     """
     """
-    # fnPrint(debuggingThisModule, f"\nprocess_and_add_place( {raw_data} )")
+    # fnPrint(DEBUGGING_THIS_MODULE, f"\nprocess_and_add_place( {raw_data} )")
     new_place = {}
 
     # UnifiedName is something like 'Aaron@Exo.4.14=H0175'
@@ -544,7 +544,7 @@ def process_and_add_place( raw_data: dict) -> bool:
     new_place['name'] = name
     new_place['unifiedNameTIPNR'] = unifiedName
     # if unifiedName != uniqueName:
-    #     dPrint('Normal', debuggingThisModule, f"  Place '{FGid}' {unifiedName=} vs {uniqueName=}")
+    #     dPrint('Normal', DEBUGGING_THIS_MODULE, f"  Place '{FGid}' {unifiedName=} vs {uniqueName=}")
     #     new_place['uniqueNameTIPNR'] = uniqueName
     new_place['uStrongs'] = uStrongs
 
@@ -574,7 +574,7 @@ def process_and_add_place( raw_data: dict) -> bool:
         del raw_data['GeographicalArea']
 
     for raw_name_data in raw_data['Names']:
-        # dPrint('Normal', debuggingThisModule, f"  Place {raw_name_data=}")
+        # dPrint('Normal', DEBUGGING_THIS_MODULE, f"  Place {raw_name_data=}")
         if 'names' not in new_place:
             new_place['names'] = []
         new_place_name = {}
@@ -764,13 +764,13 @@ def process_and_add_place( raw_data: dict) -> bool:
 
     assert FGid not in places
     places[FGid] = new_place # We use FGid as the key to create the original dicts
-    # dPrint('Quiet', debuggingThisModule, f"\n{len(places)} {new_place=}")
+    # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"\n{len(places)} {new_place=}")
     return True
 
 def process_and_add_other( raw_data: dict) -> bool:
     """
     """
-    # fnPrint(debuggingThisModule, f"\nprocess_and_add_other( {raw_data} )")
+    # fnPrint(DEBUGGING_THIS_MODULE, f"\nprocess_and_add_other( {raw_data} )")
     new_other = {}
 
     # UnifiedName is something like 'Aaron@Exo.4.14=H0175'
@@ -792,7 +792,7 @@ def process_and_add_other( raw_data: dict) -> bool:
     new_other['name'] = name
     new_other['unifiedNameTIPNR'] = unifiedName
     # if unifiedName != uniqueName:
-    #     dPrint('Normal', debuggingThisModule, f"  Other '{FGid}' {unifiedName=} vs {uniqueName=}")
+    #     dPrint('Normal', DEBUGGING_THIS_MODULE, f"  Other '{FGid}' {unifiedName=} vs {uniqueName=}")
     #     new_other['uniqueNameTIPNR'] = uniqueName
     try:
         new_other['uStrongs'] = uStrongs
@@ -803,7 +803,7 @@ def process_and_add_other( raw_data: dict) -> bool:
     del raw_data['Description']
 
     for raw_name_data in raw_data['Names']:
-        # dPrint('Normal', debuggingThisModule, f"  Person {raw_name_data=}")
+        # dPrint('Normal', DEBUGGING_THIS_MODULE, f"  Person {raw_name_data=}")
         if 'names' not in new_other:
             new_other['names'] = []
         new_other_name = {}
@@ -929,7 +929,7 @@ def process_and_add_other( raw_data: dict) -> bool:
 
     assert FGid not in others
     others[FGid] = new_other # We use FGid as the key to create the original dicts
-    # dPrint('Quiet', debuggingThisModule, f"\n{len(others)} {new_other=}")
+    # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"\n{len(others)} {new_other=}")
     return True
 
 
@@ -959,12 +959,12 @@ def clean_data() -> bool:
     Note: it's not written recursively as situational awareness of the various dicts and lists
             is also helpful to know (and the structure isn't THAT deep).
     """
-    vPrint('Quiet', debuggingThisModule, "\nCleaning TIPNR datasets…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nCleaning TIPNR datasets…")
 
     for dict_name,the_dict in (('people',people), ('places',places), ('others',others)):
-        vPrint('Normal', debuggingThisModule, f"  Cleaning {dict_name}…")
+        vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Cleaning {dict_name}…")
         for mainKey, mainData in the_dict.items():
-            # dPrint('Quiet', debuggingThisModule, f"    {mainKey} ({len(mainData)}) {mainData}")
+            # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {mainKey} ({len(mainData)}) {mainData}")
             assert mainKey and mainData and mainKey!='>'
             assert isinstance(mainKey, str) # a person/place/other id/name
             assert mainKey.strip() == mainKey and '  ' not in mainKey # Don't want leading or trailing whitespace
@@ -972,34 +972,34 @@ def clean_data() -> bool:
                 assert mainData.strip() == mainData and '  ' not in mainData # Don't want leading or trailing whitespace
             else: # dict
                 for subKey, subData in mainData.items():
-                    # dPrint('Quiet', debuggingThisModule, f"    {mainKey=} {subKey=} ({len(subData)}) {subData=}")
+                    # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {mainKey=} {subKey=} ({len(subData)}) {subData=}")
                     assert subKey and subData and subKey!='>'
                     assert isinstance(subKey, str)
                     assert subKey.strip() == subKey and '  ' not in subKey # Don't want leading or trailing whitespace
                     if isinstance(subData, str):
                         assert subData and subData!='>'
                         if '  ' in subData:
-                            dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} '{subData}'")
+                            dPrint('Info', DEBUGGING_THIS_MODULE, f"  Cleaning {mainKey=} {subKey=} '{subData}'")
                             mainData[subKey] = subData = subData.replace('  ',' ')
                         assert subData.strip() == subData and '  ' not in subData # Don't want leading or trailing whitespace
                     elif isinstance(subData, list): # e.g., siblings, partners, offspring, names
                         for sub2Data in subData:
                             assert sub2Data
                             # if subKey == 'names':
-                            #     dPrint('Quiet', debuggingThisModule, f"    ({len(sub2Data)}) {sub2Data}")
+                            #     dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    ({len(sub2Data)}) {sub2Data}")
                             if isinstance(sub2Data, str):
                                 assert sub2Data and sub2Data!='>'
                                 assert sub2Data.strip() == sub2Data and '  ' not in sub2Data # Don't want leading or trailing whitespace
                             else: # dict
                                 for sub3Key, sub3Data in sub2Data.items():
-                                    # dPrint('Quiet', debuggingThisModule, f"    {mainKey=} {subKey=} {sub3Key=} ({len(sub3Data)}) {sub3Data=}")
+                                    # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {mainKey=} {subKey=} {sub3Key=} ({len(sub3Data)}) {sub3Data=}")
                                     assert sub3Key and sub3Data and sub3Key!='>'
                                     assert isinstance(sub3Key, str)
                                     assert sub3Key.strip() == sub3Key and '  ' not in sub3Key # Don't want leading or trailing whitespace
                                     if isinstance(sub3Data, str):
                                         assert sub3Data and sub3Data!='>'
                                         if '  ' in sub3Data:
-                                            dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub3Data}'")
+                                            dPrint('Info', DEBUGGING_THIS_MODULE, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub3Data}'")
                                             sub2Data[sub3Key] = sub3Data = sub3Data.replace('  ',' ')
                                         assert sub3Data.strip() == sub3Data and '  ' not in sub3Data # Don't want leading or trailing whitespace
                                     elif isinstance(sub3Data, list):
@@ -1014,24 +1014,24 @@ def clean_data() -> bool:
                                             else:
                                                 # print(f"{mainKey=} {subKey=} {sub3Key=} {sub4Data=}")
                                                 if sub4Data.startswith(' '):
-                                                    dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub4Data}'")
+                                                    dPrint('Info', DEBUGGING_THIS_MODULE, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub4Data}'")
                                                     sub4Data = sub4Data[1:]
                                                 assert sub4Data.strip() == sub4Data and '  ' not in sub4Data # Don't want leading or trailing whitespace
                                             if sub3Key == 'individualVerseReferences':
                                                 if sub4Data.endswith(' ;'):
-                                                    dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub4Data}'")
+                                                    dPrint('Info', DEBUGGING_THIS_MODULE, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub4Data}'")
                                                     sub3Data[j3] = sub4Data = sub4Data[:-2]
                                                 elif sub4Data.endswith(';'):
-                                                    dPrint('Verbose', debuggingThisModule, f"    Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub4Data}'")
+                                                    dPrint('Verbose', DEBUGGING_THIS_MODULE, f"    Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub4Data}'")
                                                     sub3Data[j3] = sub4Data = sub4Data[:-1]
                                                 if sub4Data.endswith(' '):
-                                                    dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub4Data}'")
+                                                    dPrint('Info', DEBUGGING_THIS_MODULE, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} '{sub4Data}'")
                                                     sub3Data[j3] = sub4Data = sub4Data[:-1]
                                                 # print(f"{mainKey=} {subKey=} {sub3Key=} {sub4Data=}")
                                                 assert sub4Data.strip() == sub4Data and '  ' not in sub4Data # Don't want leading or trailing whitespace
                                     else:
                                         for sub4Key, sub4Data in sub3Data.items():
-                                            # dPrint('Quiet', debuggingThisModule, f"    {mainKey=} {subKey=} {sub3Key=} {sub4Key=} ({len(sub4Data)}) {sub4Data=}")
+                                            # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {mainKey=} {subKey=} {sub3Key=} {sub4Key=} ({len(sub4Data)}) {sub4Data=}")
                                             assert sub4Key and sub4Key!='>'
                                             if sub3Key != 'translations': # Translations can have empty strings to indicate where
                                                 assert sub4Data           #     some words are not actually in the translation.
@@ -1039,22 +1039,22 @@ def clean_data() -> bool:
                                             assert sub4Key.strip() == sub4Key and '  ' not in sub4Key # Don't want leading or trailing whitespace
                                             assert isinstance(sub4Data, str) and sub4Data!='>'
                                             if sub4Data.startswith(' '):
-                                                dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} {sub4Key=} '{sub4Data}'")
+                                                dPrint('Info', DEBUGGING_THIS_MODULE, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} {sub4Key=} '{sub4Data}'")
                                                 sub3Data[sub4Key] = sub4Data = sub4Data[1:]
                                             if sub4Data.endswith(' '):
-                                                dPrint('Info', debuggingThisModule, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} {sub4Key=} '{sub4Data}'")
+                                                dPrint('Info', DEBUGGING_THIS_MODULE, f"  Cleaning {mainKey=} {subKey=} {sub3Key=} {sub4Key=} '{sub4Data}'")
                                                 sub3Data[sub4Key] = sub4Data = sub4Data[:-1]
                                             # print(f"{mainKey=} {subKey=} {sub3Key=} {sub4Key=} {sub4Data=}")
                                             assert sub4Data.strip() == sub4Data and '  ' not in sub4Data # Don't want leading or trailing whitespace
                     else: # dict
                         for sub2Key, sub2Data in subData.items():
-                            # dPrint('Quiet', debuggingThisModule, f"    {sub2Key} ({len(sub2Data)}) {sub2Data}")
+                            # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {sub2Key} ({len(sub2Data)}) {sub2Data}")
                             assert sub2Key and sub2Data
                             assert isinstance(sub2Key, str) and sub2Key!='>'
                             assert sub2Key.strip() == sub2Key and '  ' not in sub2Key # Don't want leading or trailing whitespace
                             assert isinstance(sub2Data, dict)
                             for sub3Key, sub3Data in sub2Data.items():
-                                # dPrint('Quiet', debuggingThisModule, f"    {sub3Key} ({len(sub3Data)}) {sub3Data}")
+                                # dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    {sub3Key} ({len(sub3Data)}) {sub3Data}")
                                 assert sub3Key and sub3Data
                                 assert isinstance(sub3Key, str) and sub3Key!='>'
                                 assert sub3Key.strip() == sub3Key and '  ' not in sub3Key # Don't want leading or trailing whitespace
@@ -1094,10 +1094,10 @@ def normalise_data() -> bool:
     Optionally: Change references (like parents, siblings, partners, etc. to our ID fields (remove @bibleRef parts)
     """
     global prefixed_our_IDs
-    vPrint('Quiet', debuggingThisModule, "\nNormalising TIPNR datasets…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nNormalising TIPNR datasets…")
 
     for dict_name,the_dict in (('people',people), ('places',places), ('others',others)):
-        vPrint('Normal', debuggingThisModule, f"  Normalising {dict_name}…")
+        vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Normalising {dict_name}…")
         normalise_significance(dict_name, the_dict)
         create_combined_name_verse_references(dict_name, the_dict)
         adjust_Bible_references(dict_name, the_dict)
@@ -1136,23 +1136,23 @@ def normalise_significance(dataName:str, dataDict:dict) -> bool:
         Now 'named': 142, '(same as previous)': 48, 'Aramaic': 4, 'Greek': 12,
                     'form': 2, 'name combined': 3, 'group': 2, 'spelled': 6
     """
-    vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} significance…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Normalising {dataName} significance…")
     original_counts = defaultdict(int)
     new_counts = defaultdict(int)
     for entry,data in dataDict.items():
         for name_dict in data['names']:
-            # dPrint('Info', debuggingThisModule, f"      {entry} ({len(name_dict)}) {name_dict['significance']=}")
+            # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {entry} ({len(name_dict)}) {name_dict['significance']=}")
             original_counts[name_dict['significance']] += 1
             if name_dict['significance'] == '- Named': name_dict['significance'] = 'named'
             elif name_dict['significance'] == '- Name': # is this an error?
-                dPrint('Quiet', debuggingThisModule, f"      Fixed {dataName} {entry} {name_dict['significance']=} to 'named'")
+                dPrint('Quiet', DEBUGGING_THIS_MODULE, f"      Fixed {dataName} {entry} {name_dict['significance']=} to 'named'")
                 name_dict['significance'] = 'named'
             elif name_dict['significance'] == '- Name Combined': name_dict['significance'] = 'name combined'
             elif name_dict['significance'] == '- Mentioned': name_dict['significance'] = 'mentioned'
             elif name_dict['significance'] == '- Spelled': name_dict['significance'] = 'spelled'
             elif name_dict['significance'] == '- Spelled Combined': name_dict['significance'] = 'spelled combined'
             elif name_dict['significance'] == '- Spelling': # is this an error?
-                dPrint('Quiet', debuggingThisModule, f"      Fixed {dataName} {entry} {name_dict['significance']=} to 'spelled'")
+                dPrint('Quiet', DEBUGGING_THIS_MODULE, f"      Fixed {dataName} {entry} {name_dict['significance']=} to 'spelled'")
                 name_dict['significance'] = 'spelled'
             elif name_dict['significance'] == '- Form': name_dict['significance'] = 'form'
             elif name_dict['significance'] == '- Group': name_dict['significance'] = 'group'
@@ -1160,13 +1160,13 @@ def normalise_significance(dataName:str, dataDict:dict) -> bool:
             elif name_dict['significance'] == '- Aramaic': name_dict['significance'] = 'Aramaic'
             elif name_dict['significance'] == '- Aramaic+Combined': name_dict['significance'] = 'Aramaic combined'
             elif name_dict['significance'] == '- Greek': # is this an error?
-                dPrint('Quiet', debuggingThisModule, f"      Fixed {dataName} {entry} {name_dict['significance']=} to 'Greek'")
+                dPrint('Quiet', DEBUGGING_THIS_MODULE, f"      Fixed {dataName} {entry} {name_dict['significance']=} to 'Greek'")
                 name_dict['significance'] = 'Greek'
             elif name_dict['significance'] != 'Greek': unexpected_significance
             new_counts[name_dict['significance']] += 1
 
-    vPrint('Normal', debuggingThisModule, f"""      Had {str(original_counts).replace("defaultdict(<class 'int'>, {",'').replace('})','')}""")
-    vPrint('Normal', debuggingThisModule, f"""      Now {str(new_counts).replace("defaultdict(<class 'int'>, {",'').replace('})','')}""")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"""      Had {str(original_counts).replace("defaultdict(<class 'int'>, {",'').replace('})','')}""")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"""      Now {str(new_counts).replace("defaultdict(<class 'int'>, {",'').replace('})','')}""")
     return True
 # end of loadTIPNR.normalise_significance()
 
@@ -1175,17 +1175,17 @@ def create_combined_name_verse_references(dataName:str, dataDict:dict) -> bool:
     """
     Create combined verse references where one person or place has multiple name fields, esp. OT and NT
     """
-    vPrint('Normal', debuggingThisModule, f"    Creating {dataName} combined individual verse references for all names…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Creating {dataName} combined individual verse references for all names…")
     for entry,data in dataDict.items():
-        # dPrint('Info', debuggingThisModule, f"      {entry} ({len(data)}) {data}")
+        # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {entry} ({len(data)}) {data}")
         if len(data['names']) > 1:
             combined_individual_verse_references = []
             counts_list = []
             for name_dict in data['names']:
-                # dPrint('Info', debuggingThisModule, f"      {entry} ({len(name_dict)}) {name_dict['individualVerseReferences']=}")
+                # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {entry} ({len(name_dict)}) {name_dict['individualVerseReferences']=}")
                 counts_list.append(len(name_dict['individualVerseReferences']))
                 combined_individual_verse_references += name_dict['individualVerseReferences']
-            dPrint('Info', debuggingThisModule, f"      {entry} ({len(counts_list)}) {counts_list=} sum={sum(counts_list):,}") # {len(combined_individual_verse_references)=}")
+            dPrint('Info', DEBUGGING_THIS_MODULE, f"      {entry} ({len(counts_list)}) {counts_list=} sum={sum(counts_list):,}") # {len(combined_individual_verse_references)=}")
             assert len(combined_individual_verse_references) == sum(counts_list)
             data['combinedIndividualVerseReferences'] = combined_individual_verse_references
 
@@ -1199,7 +1199,7 @@ def adjust_Bible_references(dataName:str, dataDict:dict) -> bool:
 
     There might be a's or b's at the end of the verse number.
     """
-    vPrint('Normal', debuggingThisModule, f"    Adjusting all verse references for {dataName}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Adjusting all verse references for {dataName}…")
     for dict_entry in dataDict.values():
         for name_data in dict_entry['names']:
             for j,ref_string in enumerate(name_data['individualVerseReferences']):
@@ -1249,11 +1249,11 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
     Note: This only changes the internal records, not the actual dictionary keys.
             That gets handled later.
     """
-    vPrint('Normal', debuggingThisModule, f"    Normalising {dataName} to ensure best known name…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Normalising {dataName} to ensure best known name…")
     for dict_entry in dataDict.values():
         old_id = dict_entry['FGid'] # Which may or may not match the original key by now
         if old_id.endswith('2') and not old_id[-2].isdigit():
-            # dPrint('Info', debuggingThisModule, f"      {entry}")
+            # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {entry}")
             base_id = old_id[:-1]
             references_count = len( dataDict[base_id]['combinedIndividualVerseReferences']
                                         if 'combinedIndividualVerseReferences' in dataDict[base_id]
@@ -1274,28 +1274,28 @@ def ensure_best_known_name(dataName:str, dataDict:dict) -> bool:
                     max_count, num_maxes = references_count, 1
             if num_maxes == 1:
                 if references_counts[base_id] == max_count:
-                    dPrint('Verbose', debuggingThisModule, f"      Already have best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Verbose', DEBUGGING_THIS_MODULE, f"      Already have best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 else:
-                    dPrint('Verbose', debuggingThisModule, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Verbose', DEBUGGING_THIS_MODULE, f"      Selecting best name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     new_base_id = f'{base_id}1'
-                    dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[base_id]['FGid'] == base_id
                     dataDict[base_id]['FGid'] = new_base_id
                     # We only save the prefixed ID internally -- will fix the keys later
 
                     suffix = list(references_counts.values()).index(max_count) + 1
                     max_id = f'{base_id}{suffix}'
-                    dPrint('Info', debuggingThisModule, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{max_id}' to '{base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                     assert dataDict[max_id]['FGid'] == max_id
                     dataDict[max_id]['FGid'] = base_id
                     # We only save the prefixed ID internally -- will fix the keys later
             else: # multiple entries had the same maximum number
                 if references_counts[base_id] == max_count:
-                    dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts} but current one is a candidate")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts} but current one is a candidate")
                 else:
-                    dPrint('Info', debuggingThisModule, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                    dPrint('Info', DEBUGGING_THIS_MODULE, f"      Unable to select best known name for {base_id} {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 new_base_id = f'{base_id}1'
-                dPrint('Info', debuggingThisModule, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
+                dPrint('Info', DEBUGGING_THIS_MODULE, f"      Renaming '{base_id}' to '{new_base_id}' for {max_count=} {num_maxes=} {second_highest=} {references_counts}")
                 assert dataDict[base_id]['FGid'] == base_id
                 dataDict[base_id]['FGid'] = new_base_id
                 # We only save the prefixed ID internally -- will fix the keys later
@@ -1324,13 +1324,13 @@ Here is a list of the use of the semantic (and other) tagging characters:
     Note: This only changes the internal records, not the actual dictionary keys.
             That gets handled later.
     """
-    vPrint('Normal', debuggingThisModule, f"    Prefixing our ID fields for {dataName}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Prefixing our ID fields for {dataName}…")
     # The following line is just general -- we really need to individually handle the 'other' entries
     default_prefix = 'P' if dataName=='people' else 'L' if dataName=='places' else 'D'
     for dict_entry in dataDict.values():
         old_id = dict_entry['FGid']
         new_id = f'{default_prefix}{old_id}'
-        # dPrint('Info', debuggingThisModule, f"      {old_id=} {new_id=}")
+        # dPrint('Info', DEBUGGING_THIS_MODULE, f"      {old_id=} {new_id=}")
         dict_entry['FGid'] = new_id
         # assert dataDict[key]['FGid'] == new_id
         # We only save the prefixed ID internally -- will fix the keys later
@@ -1345,7 +1345,7 @@ def adjust_links_from_TIPNR_to_our_IDs(dataName:str, dataDict:dict) -> bool:
         and list of people references (like parents, siblings, partners, etc.)
         to our FGid fields (without @bibleRef parts).
     """
-    vPrint('Normal', debuggingThisModule, f"    Normalising all internal ID links for {dataName}…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"    Normalising all internal ID links for {dataName}…")
 
     # Firstly create a cross-index to FGid's
     unique_name_index = { v['unifiedNameTIPNR']:v['FGid'] for k,v in dataDict.items() }
@@ -1391,7 +1391,7 @@ def rebuild_dictionaries(key_name:str) -> bool:
         now-duplicated 'FGid' fields but we'll leave them in for
         maximum future flexibility (at the cost of a little extra hard disk).
     """
-    vPrint('Normal', debuggingThisModule, f"  Rebuilding dictionaries…")
+    vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Rebuilding dictionaries…")
     assert key_name in ('unifiedNameTIPNR', 'FGid')
 
     # These rebuilds retain the original entry orders
@@ -1406,7 +1406,7 @@ def rebuild_dictionaries(key_name:str) -> bool:
     if prefixed_our_IDs: # We can safely combine the three dictionaries into one
         global allEntries
         allEntries = people | places | others
-        dPrint('Quiet', debuggingThisModule, f"    Got {len(allEntries):,} entries from {len(people):,} + {len(places):,} + {len(others):,} = {len(people)+len(places)+len(others):,}")
+        dPrint('Quiet', DEBUGGING_THIS_MODULE, f"    Got {len(allEntries):,} entries from {len(people):,} + {len(places):,} + {len(others):,} = {len(people)+len(places)+len(others):,}")
 
     return True
 # end of loadTIPNR.rebuild_dictionaries
@@ -1418,10 +1418,10 @@ def check_data() -> bool:
 
     Create stats for numbered and non-numbered people, places, etc.
     """
-    vPrint('Quiet', debuggingThisModule, "\nCross-checking TIPNR datasets…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, "\nCross-checking TIPNR datasets…")
 
     for dict_name,the_dict in (('people',people), ('places',places), ('others',others)):
-        vPrint('Normal', debuggingThisModule, f"  Cross-checking {dict_name}…")
+        vPrint('Normal', DEBUGGING_THIS_MODULE, f"  Cross-checking {dict_name}…")
     return True
 # end of loadTIPNR.check_data()
 
@@ -1431,12 +1431,12 @@ def export_JSON(subType:str) -> bool:
     Export the dictionaries as JSON.
     """
     assert subType
-    vPrint('Quiet', debuggingThisModule, f"\nExporting {subType} JSON TIPNR files…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nExporting {subType} JSON TIPNR files…")
 
     for dict_name,the_dict in (('people',people), ('places',places), ('others',others), ('all',allEntries)):
         if the_dict:
             filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(the_dict):,} {dict_name} to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {len(the_dict):,} {dict_name} to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 # WARNING: The following code would convert any int keys to str !!!
                 json.dump( HEADER_DICT | the_dict, outputFile, ensure_ascii=False, indent=2 )
@@ -1449,9 +1449,9 @@ def export_xml(subType:str) -> bool:
     """
     """
     assert subType
-    vPrint('Quiet', debuggingThisModule, f"\nExporting {subType} XML TIPNR file…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nExporting {subType} XML TIPNR file…")
 
-    vPrint( 'Quiet', debuggingThisModule, f"  NOT Wrote {len(xml_lines):,} XML lines.")
+    vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  NOT Wrote {len(xml_lines):,} XML lines.")
     return True
 # end of loadTIPNR.export_xml()
 
@@ -1461,7 +1461,7 @@ def export_verse_index() -> bool:
     Pivot the data to determine which names exist in each verse,
         and save this in JSON.
     """
-    vPrint('Quiet', debuggingThisModule, f"\nCalculating and exporting index files…")
+    vPrint('Quiet', DEBUGGING_THIS_MODULE, f"\nCalculating and exporting index files…")
     subType = 'normalised'
     for dict_name,the_dict in (('people',people), ('places',places), ('others',others), ('all',allEntries)):
         ref_index_dict = defaultdict(list)
@@ -1488,12 +1488,12 @@ def export_verse_index() -> bool:
         # Save the dicts as JSON files
         if ref_index_dict:
             filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_verseRef_index.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(ref_index_dict):,} verse ref index entries to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {len(ref_index_dict):,} verse ref index entries to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 json.dump( HEADER_DICT | ref_index_dict, outputFile, ensure_ascii=False, indent=2 )
         if TIPNR_index_dict:
             filepath = TIPNR_OUTPUT_FOLDERPATH.joinpath(f'{subType}_{dict_name.title()}_TIPNR_index.json')
-            vPrint( 'Quiet', debuggingThisModule, f"  Exporting {len(TIPNR_index_dict):,} TIPNR index entries to {filepath}…")
+            vPrint( 'Quiet', DEBUGGING_THIS_MODULE, f"  Exporting {len(TIPNR_index_dict):,} TIPNR index entries to {filepath}…")
             with open( filepath, 'wt', encoding='utf-8' ) as outputFile:
                 json.dump( HEADER_DICT | TIPNR_index_dict, outputFile, ensure_ascii=False, indent=2 )
 
