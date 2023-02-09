@@ -20,9 +20,9 @@ We plan to use this repository firstly as a home for discussion, and then hopefu
 4. Algorithms and or code for automatically parsing and tagging of Bible files.
 5. Possibly some marked-up sample Bibles (open-licensed of course).
 
-## Three data sets
+## Four data sets
 
-We have three open-licensed data sets from other sources:
+We have four open-licensed data sets from other sources:
 
 1. The TIPNR (Translators Individualised Proper Names with all References) STEPBible
 data from Tyndale House, Cambridge. (Single spreadsheet.)
@@ -56,6 +56,10 @@ for any particular character who speaks in more than two verses.
 (It should be noted that what is translated as direct speech in one translation
 maybe indirect speech in another,
 so the audio Bible dataset will always be translation dependent.)
+4. Clear Bible has derived several enhanced data sets (starting with the 
+Glyssen data) and produced some potentially very useful
+(Speaker Quotations)[https://github.com/Clear-Bible/speaker-quotations]
+resources.
 
 ## Our experiment
 
